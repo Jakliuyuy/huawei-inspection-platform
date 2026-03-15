@@ -7,8 +7,8 @@ services:
       - .env
     environment:
       DATA_ROOT: /app/data
-      TEMPLATE_DIR: /app/Word_模板库
-      REPORT_CONFIG_PATH: /app/config.json
+      TEMPLATE_DIR: /app/assets/templates
+      REPORT_CONFIG_PATH: /app/config/report.json
     volumes:
       - ./data:/app/data
     expose:

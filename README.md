@@ -29,6 +29,8 @@
 .
 ├── server.py              # FastAPI API 服务
 ├── core/                  # 报告生成核心逻辑
+├── assets/templates/      # Word 模板库
+├── config/report.json     # 报告生成配置
 ├── web/                   # 独立 React 前端项目
 │   └── src/
 │       ├── pages/         # 页面级组件
@@ -36,8 +38,9 @@
 │       ├── hooks/         # 业务 hooks
 │       └── lib/           # API、类型、格式化工具
 ├── nginx/                 # Nginx 配置
-├── Word_模板库/           # Word 模板库
 ├── data/                  # 运行数据、上传文件、生成报告
+├── samples/               # 示例日志目录
+├── storage/backups/       # 手工备份文件
 ├── docker-compose.yml     # Docker 编排
 ├── Dockerfile             # 应用镜像
 └── DEPLOY.md              # 简要部署说明
@@ -77,6 +80,10 @@ https://<你的域名或IP>/app/login
 - `data/runtime/app.db`：SQLite 数据库
 - `data/uploads/`：上传的原始日志及处理中间文件
 - `data/reports/`：生成的 Word 报告和打包结果
+- `assets/templates/`：Word 模板文件
+- `config/report.json`：报告系统映射配置
+- `samples/`：示例日志，非运行必需
+- `storage/backups/`：备份产物，非运行必需
 
 ## 当前部署结构
 

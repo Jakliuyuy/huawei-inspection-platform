@@ -61,8 +61,8 @@ def build_config() -> AppConfig:
     runtime_dir = data_root / "runtime"
     upload_dir = data_root / "uploads"
     report_dir = data_root / "reports"
-    template_dir = Path(os.getenv("TEMPLATE_DIR", app_root / "Word_模板库")).resolve()
-    config_path = Path(os.getenv("REPORT_CONFIG_PATH", app_root / "config.json")).resolve()
+    template_dir = Path(os.getenv("TEMPLATE_DIR", app_root / "assets" / "templates")).resolve()
+    config_path = Path(os.getenv("REPORT_CONFIG_PATH", app_root / "config" / "report.json")).resolve()
     database_path = runtime_dir / "app.db"
     return AppConfig(
         app_root=app_root,

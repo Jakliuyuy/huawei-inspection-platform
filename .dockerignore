@@ -2,8 +2,8 @@ __pycache__
 *.pyc
 .git
 .venv
-backups
-2026-3-13
+storage/backups
+samples
 data
 certs/*.pem
 .env

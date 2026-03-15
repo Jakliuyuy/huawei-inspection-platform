@@ -24,6 +24,8 @@ docker compose up -d --build
 - `data/runtime/app.db`：SQLite 数据库
 - `data/uploads/`：用户上传的原始日志
 - `data/reports/`：生成的报告和打包结果
+- `assets/templates/`：Word 模板
+- `config/report.json`：报告配置
 
 ## 4. 反向代理
 

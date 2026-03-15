@@ -73,9 +73,9 @@ def default_paths(root: Path | None = None) -> ReportPaths:
         root = Path(__file__).resolve().parents[1]
     return ReportPaths(
         root=root,
-        config_path=root / "config.json",
+        config_path=root / "config" / "report.json",
         logs_base=root / "Logs_待处理",
-        templates_dir=root / "Word_模板库",
+        templates_dir=root / "assets" / "templates",
         output_base=root / "巡检报告",
     )
 

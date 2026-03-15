@@ -1,0 +1,361 @@
+﻿<LSSW03BHW>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<LSSW03BHW>display device
+S9306's Device status:
+Slot  Sub Type         Online    Power      Register       Status     Role  
+-------------------------------------------------------------------------------
+1     -   LE0MG24SD    Present   PowerOn    Registered     Normal     NA    
+7     -   LE1D2SRUH000 Present   PowerOn    Registered     Normal     Master
+8     -   LE1D2SRUH000 Present   PowerOn    Registered     Normal     Slave 
+PWR1  -   -            Present   PowerOn    Registered     Normal     NA    
+PWR3  -   -            Present   PowerOn    Registered     Normal     NA    
+CMU1  -   LE02CMUA     Present   PowerOn    Registered     Normal     Master
+FAN1  -   -            Present   PowerOn    Registered     Normal     NA    
+FAN2  -   -            Present   PowerOn    Registered     Normal     NA    
+<LSSW03BHW>display cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 7% Max: 95%
+CPU Usage Stat. Time : 2026-03-13  12:10:28 
+CPU utilization for five seconds: 7%: one minute: 7%: five minutes: 7%
+Max CPU Usage Stat. Time : 2019-08-13 19:53:46.
+
+TaskName        CPU  Runtime(CPU Tick High/Tick Low)  Task Explanation
+VIDL                 93%        13/7ce8a4ff       DOPRA IDLE                    
+OS                    6%         1/41dd75ff       Operation System              
+TICK                  1%         0/3a1d51c0                                     
+1AGA                  0%         0/       0       1AGAGT                        
+AAA                   0%         0/  e4e1c0       AAA  Authen Account Authorize 
+ADPT                  0%         0/       0       ADPT                          
+AGNT                  0%         0/       0       AGNTSNMP agent task           
+AGT6                  0%         0/       0       AGT6SNMP AGT6 task            
+ALM                   0%         0/       0       ALM  Alarm Management         
+AM                    0%         0/       0       AM   Address Management       
+APP                   0%         0/       0       APP                           
+APS                   0%         0/ 1c9c380       APS Automatic Protection
+                                                  Switch                       
+ARP                   0%         0/  e4e1c0       ARP                           
+ARPA                  0%         0/       0       ARPA ARP Adapter              
+ASFM                  0%         0/       0       ASFM                          
+BEAT                  0%         0/  e4e1c0       BEAT Beat Management          
+BFD                   0%         0/ 2aea540       BFD Bidirection Forwarding
+                                                  Detect                       
+BFDA                  0%         0/       0       BFDA BFD Adapter              
+BFDS                  0%         0/       0       BFDS                          
+BOX_Out               0%         0/ 3938700                                     
+BTRC                  0%         0/       0       BTRC                          
+CAPM                  0%         0/       0       CAPM Capture Packet           
+CCTL                  0%         0/       0       CCTLBulk stat connect control 
+CFM                   0%         0/       0       CFM Configuration file
+                                                  management                   
+CHAL                  0%         0/       0       CHAL Core Hardware Layer      
+CKDV                  0%         0/       0       CKDV                          
+CLKI                  0%         0/       0       CLKI                          
+CMDA                  0%         0/       0       CMDA                          
+CSBR                  0%         0/       0       CSBRCompare slave
+                                                  buildrun-info                
+CSPF                  0%         0/       0       CSPF task                     
+CSS                   0%         0/       0       CSS Cluster Switch System     
+CSSP                  0%         0/       0       CSSP CSS Protocol Process     
+DEFD                  0%         0/  e4e1c0       DEFD CPU Defend               
+DEV                   0%         0/ 1c9c380       DEV  Device Management        
+DEVA                  0%         0/       0       DEVA Device Assistant         
+DFSU                  0%         0/       0       DFSU Device Flexible Service
+                                                  Unit                         
+DHCP                  0%         0/       0       DHCP Dynamic Host Config
+                                                  Protocol                     
+DIAG                  0%         0/       0       DIAG                          
+DLDP                  0%         0/       0       DLDP Protocol                 
+DRVD                  0%         0/       0       DRVD                          
+DSMS                  0%         0/       0       DSMS Device adapt to SMS      
+EAP                   0%         0/       0       EAP  Extensible Authen
+                                                  Protocol                     
+ECM                   0%         0/  e4e1c0       ECM Ethernet Communicate
+                                                  Manage                       
+ECMS                  0%         0/       0       ECMSharedQueue                
+EFMT                  0%         0/  e4e1c0       EFMTEST 802.3AH Test          
+ELAB                  0%         0/       0       ELAB e-label Management       
+EOAM                  0%         0/  e4e1c0       EOAM1AG                       
+ESAP                  0%         0/       0       ESAP eSap Adapter             
+EZDT                  0%         0/       0       EZDT                          
+EZOP                  0%         0/       0       EZOP EasyOperation
+                                                  application                  
+EZPP                  0%         0/       0       EZPP EasyOperation packet     
+Eout                  0%         0/       0       Eout ECM Out                  
+FCAT                  0%         0/       0       FCAT Catch Packets for
+                                                  debugging                    
+FECD                  0%         0/       0       FECD Mod Manage Task          
+FIB                   0%         0/       0       FIB Forward Information Base  
+FIB6                  0%         0/       0       FIB6IPv6 FIB                  
+FINT                  0%         0/       0       FINT                          
+FLOW                  0%         0/       0       FLOW SFLOW                    
+FMAT                  0%         0/       0       FMATFault Manage task         
+FMCK                  0%         0/ b9f76c0       FMCK Detect device faults     
+FMES                  0%         0/       0       FMES Output fault information 
+FNTL                  0%         0/ 1c9c380       FNTL                          
+FTS                   0%         0/       0       FTS                           
+GEM                   0%         0/       0       GEM task                      
+GEMR                  0%         0/       0       GEMRun task                   
+GLRM                  0%         0/       0       GLRM License Resource Manage  
+GREM                  0%         0/       0       GREM MPU Process GRE packets  
+GRES                  0%         0/       0       GRESM task                    
+GRSA                  0%         0/202fbf00       GRSA                          
+GTL                   0%         0/       0       GTL                           
+GVRP                  0%         0/       0       GVRP Protocol                 
+HACK                  0%         0/       0       HACKtask for HA ACK           
+HGMP                  0%         0/       0       HGMPADP HGMP Adapter          
+HOTT                  0%         0/       0       HOTT                          
+HS2M                  0%         0/  e4e1c0       HS2MHigh available task       
+HTPSRD                0%         0/ 55d4a80                                     
+HTTP                  0%         0/ 1c9c380       HTTP                          
+HVRP                  0%         0/       0       HVRP Protocol                 
+IFAD                  0%         0/       0       IFAD Ifnet Adpter             
+IFLP                  0%         0/       0       IFLP                          
+IFNT                  0%         0/       0       IFNTIfnet task                
+IFPD                  0%         0/       0       IFPD Ifnet Product Adapter    
+INFO                  0%         0/ 2aea540       INFOInformation center        
+INPT                  0%         0/       0       INPT                          
+IP                    0%         0/  e4e1c0       IP                            
+IPCK                  0%         0/ 1c9c380       IPCKIPC task for ack message  
+IPCQ                  0%         0/ 8f0d180       IPCQIPC task for single queue 
+IPCR                  0%         0/ 2aea540       IPCR IPC Receive              
+IPCS                  0%         0/       0       IPCSharedQueue                
+IPFP                  0%         0/11e1a300       IPFPM                         
+IS2U                  0%         0/       0       IS2U ISSU function Adapter    
+ISC6                  0%         0/       0       ISC6                          
+ISSU                  0%         0/       0       ISSU                          
+ITSK                  0%         0/  e4e1c0       ITSKIPOS common task          
+JOB                   0%         0/       0       JOB Schedule                  
+L2                    0%         0/  e4e1c0       L2                            
+L2IF                  0%         0/  e4e1c0       L2IF                          
+L2PQ                  0%         0/       0       L2PQ                          
+L2V                   0%         0/       0       L2V                           
+L2_E                  0%         0/       0       L2_EOAM_Y1731                 
+L2_P                  0%         0/ 2aea540       L2_PR                         
+L2_R                  0%         0/ 3938700       L2_RING                       
+L2_T                  0%         0/  e4e1c0       L2_TRUNK                      
+L3M4                  0%         0/       0       L3M4 MPU Manage IPv4 unicast
+                                                  FDB                          
+L3MB                  0%         0/       0       L3MB MPU Process urpf, vrrp
+                                                  etc.                         
+LBDT                  0%         0/  e4e1c0       LBDT Loopback Detect Mpu      
+LCSP                  0%         0/       0       LCSP License Adapter          
+LDCM                  0%         0/       0       LDCM                          
+LDP                   0%         0/ 3938700       LDP task                      
+LDT                   0%         0/       0       LDT Loop Detection            
+LDTP                  0%         0/       0       LDTP LDT-Packet Process       
+LINK                  0%         0/       0       LINK                          
+LLDP                  0%         0/ 1c9c380       LLDP Protocol                 
+LNP                   0%         0/       0       LNP task                      
+LOAD                  0%         0/  e4e1c0       LOAD Load Server              
+LRCV                  0%         0/       0       LRCV                          
+LSPA                  0%         0/       0       LSPA                          
+LSPM                  0%         0/ 47868c0       LSPMLsp management            
+LWVP                  0%         0/       0       LWVPSharedQueue               
+MACL                  0%         0/       0       MACL Access Control List      
+MAD                   0%         0/       0       MAD Task                      
+MADP                  0%         0/       0       MADP MAD proxy Task           
+MCSW                  0%         0/       0       MCSW Mulitcast Switch Adapter 
+MDGW                  0%         0/       0       MDGW                          
+MDRY                  0%         0/       0       MDRY                          
+MERX                  0%         0/       0       MERX Meth Receive             
+METH                  0%         0/  e4e1c0       METH Metropolitan Ethernet    
+MFF                   0%         0/       0       MFF MAC Forced Forwarding     
+MFIB                  0%         0/       0       MFIBMulticast forward info    
+MOD                   0%         0/       0       MOD  Module Management        
+MPAT                  0%         0/       0       MPAT                          
+MPSF                  0%         0/       0       MPSF Mpls SFU Adapter         
+MPSM                  0%         0/  e4e1c0       MPSM Mpls Main Adapter        
+MTP                   0%         0/       0       MTP                           
+MTR                   0%         0/ 1c9c380       MTR Scheduled Memory Usage    
+Mirr                  0%         0/       0       Mirror                        
+NDMB                  0%         0/       0       NDMB MPU Manage IPv6 unicast
+                                                  FDB                          
+NFPT                  0%         0/ 55d4a80       NFPTNFP timer task            
+NQAF                  0%         0/       0       NQAFTPR                       
+NSA                   0%         0/  e4e1c0       NSA Netstream Adapter         
+NTLK                  0%         0/ 6422c40       NTLK                          
+NTPT                  0%         0/  e4e1c0       NTPT task                     
+OAM                   0%         0/ 47868c0       OAM OAM                       
+OAM1                  0%         0/       0       OAM1 EOAM Adapter             
+OAMT                  0%         0/       0       OAMT Mpls Oam Adapter         
+OMMS                  0%         0/       0       OMMS                          
+PARITY_CHECK          0%         0/       0                                     
+PAT                   0%         0/       0       PAT                           
+PATC                  0%         0/       0       PATCH Maintenance             
+PCAM                  0%         0/       0       PCAM MPU Manage iPCA          
+PM                    0%         0/       0       PM  Performance Management    
+PMS                   0%         0/ 1c9c380       PMS PM Server                 
+PNGM                  0%         0/ 1c9c380       PNGM MPU Process icmp reply
+                                                  fast                         
+POE+                  0%         0/       0       POE+ PPP Over Ethernet Plus   
+PPI                   0%         0/  e4e1c0       PPI Product Process Interface 
+PPP                   0%         0/  e4e1c0       PPP                           
+PRDG                  0%         0/       0       PRDG                          
+PROC                  0%         0/       0       PROC                          
+PTAL                  0%         0/       0       PTAL Portal                   
+QDIA                  0%         0/       0       QDIA AUTODIAG Application     
+QOSA                  0%         0/       0       QOSA Quality of Service       
+RACL                  0%         0/       0       RACL Reversed Access Control
+                                                  List                         
+RDS                   0%         0/       0       RDS  Radius                   
+RMON                  0%         0/       0       RMONRemote monitoring         
+ROUT                  0%         0/2114a0c0       ROUTRoute task                
+RPCQ                  0%         0/  e4e1c0       RPCQRemote procedure call     
+RSVP                  0%         0/       0       RSVP task                     
+RTMR                  0%         0/ 2aea540       RTMR                          
+SAPP                  0%         0/       0       SAPP                          
+SDKD                  0%         0/ 47868c0       SDKD                          
+SDKE                  0%         0/       0       SDKE                          
+SECE                  0%         0/       0       SECE Security                 
+SFPM                  0%         0/       0       SFPM                          
+SIMC                  0%         0/       0       SIMC Simulate CPU Usage       
+SIMU                  0%         0/       0       SIMU Simulate Function Task   
+SLAG                  0%         0/       0       SLAG                          
+SMLK                  0%         0/       0       SMLK Smart Link Protocol      
+SNPG                  0%         0/ 1c9c380       SNPG Multicast Snooping       
+SOCK                  0%         0/ 1c9c380       SOCKPacket schedule and
+                                                  process                      
+SPM                   0%         0/       0       SPM  Smart Power Management   
+SRVC                  0%         0/       0       SRVC                          
+STFW                  0%         0/       0       STFW Super task forward       
+STND                  0%         0/       0       STNDStandby task              
+STP                   0%         0/1bb75640       STP                           
+STRA                  0%         0/  e4e1c0       STRA Source Trail             
+SUPP                  0%         0/ 2aea540       SUPP Support the device
+                                                  management                   
+TACH                  0%         0/ 1c9c380       TACHWTACACS                   
+TARP                  0%         0/       0       TARPING                       
+TCBM                  0%         0/       0       TCBM Task callback block
+                                                  monitor                      
+TCTL                  0%         0/       0       TCTLBulk stat transmit
+                                                  control                      
+TM                    0%         0/       0       TM   Transmission Management  
+TNLM                  0%         0/       0       TNLMTunnel management task    
+TNQA                  0%         0/ 1c9c380       TNQAC                         
+TRAF                  0%         0/       0       TRAFTraffic Statistics        
+TRAP                  0%         0/       0       TRAPSNMP trap task            
+TRUN                  0%         0/  e4e1c0       TRUNK Product Adapter         
+TTNQ                  0%         0/       0       TTNQAS                        
+TTVP                  0%         0/       0       TTVPLS                        
+TUNL                  0%         0/       0       TUNL                          
+UCM                   0%         0/  e4e1c0       UCM  User Control Management  
+UDPM                  0%         0/       0       UDPM MPU Convert UDP packets  
+USA                   0%         0/       0       USA User Service Agent        
+USBL                  0%         0/  e4e1c0       USBLOAD application           
+UTSK                  0%         0/       0       UTSK                          
+VCLK                  0%         0/10fcc140                                     
+VCMP                  0%         0/       0       VCMP task                     
+VCON                  0%         0/       0       VCON Virtual Console to LPU   
+VFS                   0%         0/       0       VFS Virtual file system       
+VFSD                  0%         0/       0       VFSDVFS flash task for delete
+                                                  file block                   
+VMON                  0%         0/  e4e1c0       VMONSystem monitor            
+VMSH                  0%         0/       0       VMSH                          
+VOAM                  0%         0/       0       VOAM                          
+VP                    0%         0/       0       VP  Virtual path task         
+VPR                   0%         0/ 55d4a80       VPR VP Receive                
+VPS                   0%         0/       0       VPS VP Send                   
+VPSh                  0%         0/       0       VPSharedQueue                 
+VRPT                  0%         0/       0       VRPT                          
+VRRP                  0%         0/ 9d5b340       VRRP                          
+VT                    0%         0/       0       VT                            
+VT0                   0%         0/       0       VT0 Line user's task          
+VTYD                  0%         0/ 3938700       VTYDVirtual terminal          
+WEB                   0%         0/       0       WEB  Web                      
+WEB_                  0%         0/       0       WEB_WRITE_FILE                
+XSTP                  0%         0/       0       XSTP AGENT                    
+bcmCNTR.0             0%         0/12c684c0                                     
+bcmCNTR.1             0%         0/11e1a300                                     
+bcmD                  0%         0/       0       bcmD                          
+bcmDPC                0%         0/       0                                     
+bcmI                  0%         0/  e4e1c0       bcmINTR                       
+bcmMEM_SCAN.0         0%         0/ aba9500                                     
+bcmMEM_SCAN.1         0%         0/ 9d5b340                                     
+bcmPortMon.0          0%         0/       0                                     
+bcmPortMon.1          0%         0/       0                                     
+bcmR                  0%         0/ 3938700       bcmRX                         
+bcmTX                 0%         0/       0                                     
+bcmXGS3AsyncTX        0%         0/       0                                     
+bmLINK.0              0%         0/1017df80                                     
+bmLINK.1              0%         0/1908b100                                     
+lshelp                0%         0/       0                                     
+smsCbDeal             0%         0/       0       smsCbDeal                     
+smsLoad               0%         0/       0       smsLoad                       
+smsRqDeal             0%         0/  e4e1c0       smsRqDeal                     
+smsRsDeal             0%         0/ 1c9c380       smsRsDeal                     
+smsRx                 0%         0/  e4e1c0       smsRx                         
+smsTimer              0%         0/ 80befc0       smsTimer                      
+smsTx                 0%         0/  e4e1c0       smsTx                         
+
+<LSSW03BHW>display memory
+ Memory utilization statistics at 2026-03-13 12:10:28+08:00
+ System Total Memory Is: 2134900736 bytes
+ Total Memory Used Is: 211452476 bytes
+ Memory Using Percentage Is: 9%
+<LSSW03BHW>dis alarm active
+A/B/C/D/E/F/G/H/I/J
+A=Sequence, B=RootKindFlag(Independent|RootCause|nonRootCause)
+C=Generating time, D=Clearing time
+E=ID, F=Name, G=Level, H=State
+I=Description information for locating(Para info, Reason info)
+J=RootCause alarm sequence(Only for nonRootCause alarm)
+
+  167/Independent/2026-01-20 10:21:07+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 14 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/7)
+  168/Independent/2026-01-20 10:21:08+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 15 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/8)
+  169/Independent/2026-01-20 10:21:08+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 7 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/0)
+  170/Independent/2026-01-20 10:59:47+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 12 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/5)
+  171/Independent/2026-01-20 10:59:48+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 25 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/18)
+  172/Independent/2026-01-20 11:08:50+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 24 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/17)
+  173/Independent/2026-01-20 11:08:51+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 11 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/4)
+  174/Independent/2026-01-20 11:08:51+08:00/-/0x502001/linkDown/Critical/Start/OID 1.3.6.1.6.3.1.1.5.3 Interface 13 turned into DOWN state.(AdminStatus=1,OperStatus=2,InterfaceName=GigabitEthernet1/0/6)
+<LSSW03BHW>dis interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+~down: LDT down
+#down: LBDT down
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+(ld): LDT block
+(lb): LBDT block
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               down  down      0.01%  0.01%          0          0
+GigabitEthernet1/0/0        down  down         0%     0%          0          0
+GigabitEthernet1/0/1        up    up           0%     0%          0          0
+GigabitEthernet1/0/2        up    up           0%     0%          0          0
+GigabitEthernet1/0/3        up    up           0%     0%          0          0
+GigabitEthernet1/0/4        down  down         0%     0%          0          0
+GigabitEthernet1/0/5        down  down         0%     0%          0          0
+GigabitEthernet1/0/6        down  down         0%     0%          0          0
+GigabitEthernet1/0/7        down  down         0%     0%          0          0
+GigabitEthernet1/0/8        down  down         0%     0%          0          0
+GigabitEthernet1/0/9        up    up           0%     0%          0          0
+GigabitEthernet1/0/10       up    up           0%     0%          0          0
+GigabitEthernet1/0/11       up    up           0%     0%          0          0
+GigabitEthernet1/0/12       up    up           0%     0%          0          0
+GigabitEthernet1/0/13       up    up           0%     0%          0          0
+GigabitEthernet1/0/14       up    up           0%     0%          0          0
+GigabitEthernet1/0/15       up    up           0%     0%          0          0
+GigabitEthernet1/0/16       up    up           0%     0%          0          0
+GigabitEthernet1/0/17       down  down         0%     0%          0          0
+GigabitEthernet1/0/18       down  down         0%     0%          0          0
+GigabitEthernet1/0/19       up    up           0%     0%          0          0
+GigabitEthernet1/0/20       up    up           0%  0.01%          0          0
+GigabitEthernet1/0/21       down  down         0%     0%          0          0
+GigabitEthernet1/0/22       down  down         0%     0%          0          0
+GigabitEthernet1/0/23       up    up           0%  0.01%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Vlanif1                     down  down         --     --          0          0
+Vlanif100                   down  down         --     --          0          0
+Vlanif500                   up    up           --     --          0          0
+Vlanif501                   up    up           --     --          0          0
+Vlanif502                   up    up           --     --          0          0
+Vlanif503                   up    up           --     --          0          0
+Vlanif504                   up    up           --     --          0          0
+Vlanif505                   up    up           --     --          0          0

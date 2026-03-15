@@ -1,0 +1,1781 @@
+﻿<Qu-20-DPi sw01>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<Qu-20-DPi sw01>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S9300 V200R019C10SPC500)
+Copyright (C) 2000-2020 HUAWEI TECH Co., Ltd.
+Quidway S9303 Terabit Routing Switch uptime is 252 weeks, 5 days, 14 hours, 55 minutes
+BKP 0 version information:
+1. PCB      Version  : LE02BAKN VER.D
+2. Support  PoE      : Yes
+3. Board    Type     : LE0KS9303
+4. MPU Slot Quantity : 2
+5. LPU Slot Quantity : 3
+
+MPU 4(Master)  : uptime is 252 weeks, 5 days, 14 hours, 55 minutes
+SDRAM Memory Size      : 2048    M bytes
+Flash Memory Size      : 64      M bytes
+MPU version information : 
+1. PCB      Version  : SWC02MCUBC01 VER.B
+2. MAB      Version  : 0
+3. Board    Type     : LE1D2MCUD000
+4. CPLD     Version  : 1812.2014
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0003
+
+MPU 5(Slave)  : uptime is 252 weeks, 5 days, 14 hours, 54 minutes
+SDRAM Memory Size      : 2048    M bytes
+Flash Memory Size      : 64      M bytes
+MPU version information : 
+1. PCB      Version  : SWC02MCUBC01 VER.B
+2. MAB      Version  : 0
+3. Board    Type     : LE1D2MCUD000
+4. CPLD     Version  : 1812.2014
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0003
+
+LPU 1  : uptime is 252 weeks, 5 days, 14 hours, 53 minutes
+SDRAM Memory Size      : 1024    M bytes
+Flash Memory Size      : 128     M bytes
+LPU version information : 
+1. PCB      Version  : SWC02G48TX2E VER.A
+2. MAB      Version  : 4
+3. Board    Type     : LE1M2G48TX5E
+4. CPLD     Version  : 1811.0819
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0102
+
+LPU 2  : uptime is 252 weeks, 5 days, 14 hours, 53 minutes
+SDRAM Memory Size      : 1024    M bytes
+Flash Memory Size      : 128     M bytes
+LPU version information : 
+1. PCB      Version  : SWC02X36SX3E VER.D
+2. MAB      Version  : 4
+3. Board    Type     : LST3X36SX6E0
+4. CPLD     Version  : 1908.1411
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0123
+<Qu-20-DPi sw01>display device
+S9303's Device status:
+Slot  Sub Type          Online    Power      Register       Status     Role  
+--------------------------------------------------------------------------------------
+1     -   LE1M2G48TX5E  Present   PowerOn    Registered     Normal     NA    
+2     -   LST3X36SX6E0  Present   PowerOn    Registered     Normal     NA    
+4     -   LE1D2MCUD000  Present   PowerOn    Registered     Normal     Master
+5     -   LE1D2MCUD000  Present   PowerOn    Registered     Normal     Slave 
+PWR1  -   -             Present   PowerOn    Registered     Normal     NA    
+PWR2  -   -             Present   PowerOn    Registered     Normal     NA    
+FAN1  -   -             Present   PowerOn    Registered     Normal     NA    
+<Qu-20-DPi sw01>display startup
+MainBoard: 
+  Configured startup system software:        flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup system software:                   flash:/s9300-v200r019c10spc500-mcud.cc
+  Next startup system software:              flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup license file:                      default
+  Next startup license file:                 default
+  Startup patch package:                     NULL
+  Next startup patch package:                NULL
+SlaveBoard:
+  Configured startup system software:        flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup system software:                   flash:/s9300-v200r019c10spc500-mcud.cc
+  Next startup system software:              flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup license file:                      default
+  Next startup license file:                 default
+  Startup patch package:                     NULL
+  Next startup patch package:                NULL
+<Qu-20-DPi sw01>display cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 16% Max: 95%
+CPU Usage Stat. Time : 2026-03-13  11:37:00 
+CPU utilization for five seconds: 16%: one minute: 16%: five minutes: 16%
+Max CPU Usage Stat. Time : 2021-05-08 20:31:55.
+
+TaskName             CPU  Runtime(CPU Tick High/Tick Low)  Task Explanation
+VIDL                 84%         0/96342600       DOPRA IDLE                    
+OS                   13%         0/173eed80       Operation System              
+IPCQ                  1%         0/ 297c1e0       IPCQIPC task for single queue 
+TICK                  1%         0/ 1e84800                                     
+smsvcmu               1%         0/ 2625a00       smsvcmu                       
+1AGA                  0%         0/       0       1AGAGT                        
+AAA                   0%         0/  2625a0       AAA  Authen Account Authorize 
+ADPT                  0%         0/       0       ADPT                          
+AGNT                  0%         0/       0       AGNT SNMP agent task          
+AGT6                  0%         0/       0       AGT6 SNMP AGT6 task           
+ALM                   0%         0/       0       ALM  Alarm Management         
+AM                    0%         0/   f4240       AM   Address Management       
+APP                   0%         0/       0       APP                           
+APS                   0%         0/   f4240       APS Automatic Protection
+                                                  Switch                       
+ARP                   0%         0/   7a120       ARP                           
+ARPA                  0%         0/  16e360       ARPA ARP Adapter              
+ASFM                  0%         0/       0       ASFM                          
+ASMN                  0%         0/       0       ASMNG Access Switch
+                                                  Management                   
+BEAT                  0%         0/   f4240       BEAT Beat Management          
+BES                   0%         0/       0       BES                           
+BFD                   0%         0/  1e8480       BFD Bidirection Forwarding
+                                                  Detect                       
+BFDA                  0%         0/       0       BFDA BFD Adapter              
+BFDS                  0%         0/       0       BFDS                          
+BOX_Out               0%         0/  2dc6c0                                     
+BPDU                  0%         0/       0       BPDU Adapter                  
+BTRC                  0%         0/       0       BTRC                          
+Boot                  0%         0/  2dc6c0       Bootload Log                  
+CAPM                  0%         0/       0       CAPM Capture Packet           
+CCTL                  0%         0/       0       CCTLBulk stat connect control 
+CFGM                  0%         0/       0       CFGMGR  Configuration
+                                                  Management                   
+CFM                   0%         0/   7a120       CFM  Configuration file
+                                                  management                   
+CHAL                  0%         0/       0       CHAL Core Hardware Layer      
+CHAR                  0%         0/       0       CHAR                          
+CKDV                  0%         0/       0       CKDV                          
+CLKI                  0%         0/       0       CLKI                          
+CMAI                  0%         0/   7a120       CMAINT                        
+CMDA                  0%         0/       0       CMDA                          
+CMNG                  0%         0/       0       CMNG ha process               
+CMP                   0%         0/       0       CMP                           
+CMPM                  0%         0/       0       CMPM Collect Performance Data 
+CMRE                  0%         0/       0       CMREG Cloud Management
+                                                  Register                     
+CPMN                  0%         0/       0       CPMN                          
+CSBR                  0%         0/       0       CSBR Compare slave
+                                                  buildrun-info                
+CSPF                  0%         0/       0       CSPF task                     
+CSTP                  0%         0/       0       CSTP                          
+CWPA                  0%         0/       0       CWPADP                        
+DCPA                  0%         0/       0       DCPA                          
+DEFD                  0%         0/   f4240       DEFD CPU Defend               
+DEV                   0%         0/  44aa20       DEV  Device Management        
+DEVA                  0%         0/       0       DEVA Device Assistant         
+DHCP                  0%         0/   7a120       DHCP Dynamic Host Config
+                                                  Protocol                     
+DIAG                  0%         0/       0       DIAG                          
+DLDP                  0%         0/       0       DLDP Protocol                 
+DNSS                  0%         0/       0       DNSSNP                        
+DRIV                  0%         0/       0       DRIVERCMD                     
+DRVD                  0%         0/       0       DRVD                          
+DSMR                  0%         0/       0       DSMR                          
+DSMS                  0%         0/  2625a0       DSMS Device adapt to SMS      
+EAGE                  0%         0/       0       EAGENT                        
+EAP                   0%         0/       0       EAP  Extensible Authen
+                                                  Protocol                     
+ECM                   0%         0/  d59f80       ECM Ethernet Communicate
+                                                  Manage                       
+EFMT                  0%         0/       0       EFMTEST 802.3AH Test          
+ELAB                  0%         0/       0       ELAB e-label Management       
+EMDM                  0%         0/       0       EMDM EMDI Main Task           
+EOAM                  0%         0/       0       EOAM1AG                       
+ESAP                  0%         0/  16e360       ESAP eSap Adapter             
+EVC                   0%         0/       0       EVC                           
+EVPN                  0%         0/       0       EVPN Ethernet VPN             
+EZDT                  0%         0/       0       EZDT                          
+EZOP                  0%         0/       0       EZOP EasyOperation
+                                                  application                  
+EZPP                  0%         0/       0       EZPP EasyOperation packet     
+Eout                  0%         0/       0       Eout ECM Out                  
+Even                  0%         0/       0       Event of OIDS                 
+FCAT                  0%         0/       0       FCAT Catch Packets for
+                                                  debugging                    
+FECD                  0%         0/   7a120       FECD Mod Manage Task          
+FIB                   0%         0/       0       FIB Forward Information Base  
+FIB6                  0%         0/       0       FIB6IPv6 FIB                  
+FLOW                  0%         0/       0       FLOW SFLOW                    
+FMAT                  0%         0/   f4240       FMAT Fault Manage task        
+FMCK                  0%         0/  44aa20       FMCK Detect device faults     
+FMEB                  0%         0/   7a120       FMEB                          
+FMES                  0%         0/       0       FMES Output fault information 
+FNTL                  0%         0/  3d0900       FNTL                          
+FTS                   0%         0/   7a120       FTS                           
+FWRT                  0%         0/       0       FWRT                          
+GLRM                  0%         0/       0       GLRM License Resource Manage  
+GREM                  0%         0/       0       GREM MPU Process GRE packets  
+GRES                  0%         0/       0       GRESM task                    
+GRSA                  0%         0/  7a1200       GRSA                          
+GTL                   0%         0/       0       GTL                           
+GVRP                  0%         0/       0       GVRP Protocol                 
+H2CM                  0%         0/   7a120       H2CM                          
+H2CT                  0%         0/       0       H2CT                          
+HAAG                  0%         0/       0       HAAGT                         
+HACA                  0%         0/       0       HACA                          
+HACK                  0%         0/       0       HACKtask for HA ACK           
+HGMP                  0%         0/       0       HGMPADP HGMP Adapter          
+HOTT                  0%         0/       0       HOTT                          
+HP2C                  0%         0/       0       HP2C                          
+HS2M                  0%         0/   f4240       HS2M High available task      
+HSB                   0%         0/       0       HSB                           
+HTPC                  0%         0/       0       HTPC                          
+HTPS                  0%         0/       0       HTPS                          
+HTPSRD                0%         0/       0                                     
+HTTP                  0%         0/  16e360       HTTP                          
+HVRP                  0%         0/       0       HVRP Protocol                 
+ICAG                  0%         0/       0       ICAGT                         
+IFAD                  0%         0/       0       IFAD Ifnet Adpter             
+IFLP                  0%         0/       0       IFLP                          
+IFNT                  0%         0/       0       IFNTIfnet task                
+IFOA                  0%         0/       0       IFOA Interface OAM            
+IFPD                  0%         0/       0       IFPD Ifnet Product Adapter    
+IKPI                  0%         0/   7a120       IKPI task                     
+INFO                  0%         0/   7a120       INFOInformation center        
+INPT                  0%         0/       0       INPT                          
+IP                    0%         0/   7a120       IP                            
+IPCC                  0%         0/       0       IPCC IPC based domain socket  
+IPCK                  0%         0/  1e8480       IPCKIPC task for ack message  
+IPCR                  0%         0/  3d0900       IPCR IPC Receive              
+IPFP                  0%         0/  989680       IPFPM                         
+IS2U                  0%         0/       0       IS2U ISSU function Adapter    
+ISC6                  0%         0/       0       ISC6                          
+ISSU                  0%         0/       0       ISSU                          
+ITSK                  0%         0/       0       ITSKIPOS common task          
+JOB                   0%         0/       0       JOB Schedule                  
+KRB                   0%         0/       0       KRB  Kerberos Task Proc       
+L2                    0%         0/  16e360       L2                            
+L2IF                  0%         0/   f4240       L2IF                          
+L2LA                  0%         0/   7a120       L2LACP                        
+L2PQ                  0%         0/       0       L2PQ                          
+L2V                   0%         0/       0       L2V                           
+L2_E                  0%         0/  16e360       L2_EOAM_Y1731                 
+L2_P                  0%         0/   7a120       L2_PR                         
+L2_R                  0%         0/  1e8480       L2_RING                       
+L2_T                  0%         0/       0       L2_TRUNK                      
+L3M4                  0%         0/       0       L3M4 MPU Manage IPv4 unicast
+                                                  FDB                          
+L3MB                  0%         0/       0       L3MB MPU Process urpf, vrrp
+                                                  etc.                         
+LBDT                  0%         0/  16e360       LBDT Loopback Detect Mpu      
+LCSP                  0%         0/       0       LCSP License Adapter          
+LDCM                  0%         0/       0       LDCM                          
+LDP                   0%         0/       0       LDP task                      
+LDT                   0%         0/   7a120       LDT Loop Detection            
+LDTP                  0%         0/       0       LDTP LDT-Packet Process       
+LINK                  0%         0/       0       LINK                          
+LLDP                  0%         0/   f4240       LLDP Protocol                 
+LLVL                  0%         0/       0       LLVL ApAddVlan                
+LNP                   0%         0/       0       LNP task                      
+LOAD                  0%         0/       0       LOAD Load Server              
+LRCV                  0%         0/       0       LRCV                          
+LSPA                  0%         0/       0       LSPA                          
+LSPM                  0%         0/  1e8480       LSPMLsp management            
+MAC                   0%         0/       0       MAC Media Access Control      
+MACL                  0%         0/       0       MACL Access Control List      
+MADP                  0%         0/       0       MADP MAD proxy Task           
+MBDS                  0%         0/  2dc6c0       MBDS                          
+MCM                   0%         0/   7a120       MCM Diag task.                
+MCME                  0%         0/       0       MCME                          
+MCSW                  0%         0/       0       MCSW Mulitcast Switch Adapter 
+MDGW                  0%         0/   f4240       MDGW                          
+MDRY                  0%         0/       0       MDRY                          
+MDSP                  0%         0/   f4240       MDSP                          
+MERX                  0%         0/       0       MERX Meth Receive             
+METH                  0%         0/   f4240       METH Metropolitan Ethernet    
+MFF                   0%         0/       0       MFF MAC Forced Forwarding     
+MFIB                  0%         0/       0       MFIBMulticast forward info    
+MIBP                  0%         0/  2625a0       MIBP MIB performance task     
+MOD                   0%         0/       0       MOD  Module Management        
+MPAT                  0%         0/       0       MPAT                          
+MPSF                  0%         0/       0       MPSF Mpls SFU Adapter         
+MPSM                  0%         0/       0       MPSM Mpls Main Adapter        
+MTP                   0%         0/       0       MTP                           
+MTR                   0%         0/  3567e0       MTR Scheduled Memory Usage    
+Mirr                  0%         0/       0       Mirror                        
+NDMB                  0%         0/       0       NDMB MPU Manage IPv6 unicast
+                                                  FDB                          
+NFPT                  0%         0/  2dc6c0       NFPT NFP timer task           
+NQAF                  0%         0/       0       NQAFTPR                       
+NSA                   0%         0/   7a120       NSA Netstream Adapter         
+NTLK                  0%         0/   7a120       NTLK                          
+NTPT                  0%         0/   7a120       NTPT task                     
+NVO3                  0%         0/  2625a0       NVO3                          
+OAM                   0%         0/  2dc6c0       OAM OAM                       
+OAM1                  0%         0/       0       OAM1 EOAM Adapter             
+OAMT                  0%         0/       0       OAMT Mpls Oam Adapter         
+OCSP                  0%         0/       0       OCSP                          
+OIDS                  0%         0/       0       OIDS Object Management        
+OMIN                  0%         0/       0       OMIN                          
+OMLG                  0%         0/       0       OMLG                          
+OMNG                  0%         0/       0       OMNG                          
+OMSB                  0%         0/       0       OMSB                          
+OOM1                  0%         0/       0       OOM1                          
+OPS                   0%         0/   f4240       OPS                           
+OPSA                  0%         0/   f4240       OPSA OPS externd agent        
+OPSC                  0%         0/       0       OPSC OPS execute command      
+OPSE                  0%         0/       0       OPSE action execute module    
+PAT                   0%         0/       0       PAT                           
+PATB                  0%         0/       0       PATB                          
+PATC                  0%         0/       0       PATCH Maintenance             
+PCAM                  0%         0/       0       PCAM MPU Manage iPCA          
+PGMC                  0%         0/       0       PGMC                          
+PGMP                  0%         0/       0       PGMP                          
+PGMX                  0%         0/       0       PGMX                          
+PKIM                  0%         0/       0       PKIM                          
+PM                    0%         0/       0       PM  Performance Management    
+PMC                   0%         0/       0       PMC Configuration Management  
+PMS                   0%         0/   7a120       PMS PM Server                 
+PNGM                  0%         0/   7a120       PNGM MPU Process icmp reply
+                                                  fast                         
+PNP                   0%         0/   7a120       PNP Plug And Play             
+POE                   0%         0/       0       POE Power Over Ethernet       
+POE+                  0%         0/       0       POE+ PPP Over Ethernet Plus   
+PPI                   0%         0/   7a120       PPI Product Process Interface 
+PPP                   0%         0/   7a120       PPP                           
+PTAL                  0%         0/       0       PTAL Portal                   
+Pers                  0%         0/       0       Persist of OIDS               
+QDIA                  0%         0/       0       QDIA AUTODIAG Application     
+QOSA                  0%         0/   7a120       QOSA Quality of Service       
+RACL                  0%         0/   7a120       RACL Reversed Access Control
+                                                  List                         
+RDS                   0%         0/       0       RDS  Radius                   
+RMON                  0%         0/       0       RMONRemote monitoring         
+ROUT                  0%         0/  a7d8c0       ROUTRoute task                
+RPCQ                  0%         0/   7a120       RPCQRemote procedure call     
+RSVP                  0%         0/       0       RSVP task                     
+RTMR                  0%         0/  2625a0       RTMR                          
+SAID                  0%         0/       0       SAID task                     
+SAPP                  0%         0/       0       SAPP                          
+SCEP                  0%         0/       0       SCEP                          
+SCKA                  0%         0/       0       SCKA                          
+SDKE                  0%         0/       0       SDKE                          
+SEA                   0%         0/       0       SEA                           
+SECE                  0%         0/   f4240       SECE Security                 
+SFPM                  0%         0/       0       SFPM                          
+SIMC                  0%         0/       0       SIMC Simulate CPU Usage       
+SIMU                  0%         0/       0       SIMU Simulate Function Task   
+SLAG                  0%         0/       0       SLAG                          
+SMDG                  0%         0/       0       SMDG                          
+SMLK                  0%         0/   7a120       SMLK Smart Link Protocol      
+SNPG                  0%         0/   f4240       SNPG Multicast Snooping       
+SOCK                  0%         0/       0       SOCKPacket schedule and
+                                                  process                      
+SOTM                  0%         0/   7a120       SOTM                          
+SPM                   0%         0/   7a120       SPM  Smart Power Management   
+SPTM                  0%         0/  3d0900       SPTM                          
+SRVC                  0%         0/   7a120       SRVC                          
+STFW                  0%         0/       0       STFW Super task forward       
+STND                  0%         0/       0       STND Standby task             
+STP                   0%         0/  a037a0       STP                           
+STRA                  0%         0/   7a120       STRA Source Trail             
+SUPP                  0%         0/   7a120       SUPP Support the device
+                                                  management                   
+SVXL                  0%         0/       0       SVXLAN                        
+TAC                   0%         0/  1e8480       TAC  HWTACACS                 
+TARP                  0%         0/       0       TARPING                       
+TCBM                  0%         0/       0       TCBM Task callback block
+                                                  monitor                      
+TCTL                  0%         0/       0       TCTLBulk stat transmit
+                                                  control                      
+TM                    0%         0/       0       TM   Transmission Management  
+TNLM                  0%         0/   7a120       TNLMTunnel management task    
+TNQA                  0%         0/  16e360       TNQAC                         
+TOPO                  0%         0/       0       TOPOMNG Task                  
+TPLC                  0%         0/   7a120       TPLC Template for controller  
+TPLS                  0%         0/       0       TPLS                          
+TRAF                  0%         0/       0       TRAFTraffic Statistics        
+TRAP                  0%         0/       0       TRAP SNMP trap task           
+TRUN                  0%         0/       0       TRUNK Product Adapter         
+TTNQ                  0%         0/       0       TTNQAS                        
+TTVP                  0%         0/       0       TTVPLS                        
+TUNL                  0%         0/   7a120       TUNL                          
+UCM                   0%         0/  16e360       UCM  User Control Management  
+UDPM                  0%         0/       0       UDPM MPU Convert UDP packets  
+UDST                  0%         0/       0       UDST                          
+UMBR                  0%         0/       0       UMBR Member Discover Manage   
+USA                   0%         0/   7a120       USA User Service Agent        
+USBL                  0%         0/  7270e0       USBLOAD application           
+UTSK                  0%         0/       0       UTSK                          
+UVMC                  0%         0/       0       UVMC Unified version
+                                                  management                   
+VCLK                  0%         0/  af79e0                                     
+VCMP                  0%         0/       0       VCMP task                     
+VCON                  0%         0/       0       VCON Virtual Console to LPU   
+VFS                   0%         0/       0       VFS Virtual file system       
+VFSD                  0%         0/       0       VFSDVFS flash task for delete
+                                                  file block                   
+VMON                  0%         0/       0       VMONSystem monitor            
+VMSH                  0%         0/       0       VMSH                          
+VOAM                  0%         0/       0       VOAM                          
+VP                    0%         0/       0       VP  Virtual path task         
+VPR                   0%         0/   7a120       VPR VP Receive                
+VPS                   0%         0/   7a120       VPS VP Send                   
+VRPT                  0%         0/       0       VRPT                          
+VRRP                  0%         0/  2625a0       VRRP                          
+VT0                   0%         0/       0       VT0 Line user's task          
+VTYD                  0%         0/  2625a0       VTYD Virtual terminal         
+VXLM                  0%         0/       0       VXLM VXLAN Main Adapter       
+VXLS                  0%         0/       0       VXLS Vxlan SFU Adapter        
+VXMM                  0%         0/       0       VXMM VXLAN MAC Main Adapter   
+WCWP_ADAPT            0%         0/       0       WCWP_ADAPT                    
+WCWP_TASK_MAP         0%         0/       0       WCWP_TASK_MAP                 
+WEB                   0%         0/       0       WEB  Web                      
+WEB_                  0%         0/       0       WEB_WRITE_FILE                
+WMP_HA                0%         0/   f4240       WMP_HA                        
+WMP_SYS               0%         0/       0       WMP_SYS                       
+WMP_WCOM              0%         0/   7a120       WMP_WCOM                      
+WSLF                  0%         0/       0       WSLF                          
+WT0                   0%         0/  81b320       WT0                           
+WT1                   0%         0/  81b320       WT1                           
+WT2                   0%         0/  81b320       WT2                           
+WTDG                  0%         0/   7a120       WTDG                          
+XSTP                  0%         0/       0       XSTP AGENT                    
+_IPC                  0%         0/       0       _IPC                          
+_VP                   0%         0/       0       _VP                           
+smsCbDeal             0%         0/       0       smsCbDeal                     
+smsLoad               0%         0/       0       smsLoad                       
+smsRqDeal             0%         0/   7a120       smsRqDeal                     
+smsRsDeal             0%         0/  1e8480       smsRsDeal                     
+smsRx                 0%         0/   7a120       smsRx                         
+smsTimer              0%         0/ 121eac0       smsTimer                      
+smsTx                 0%         0/   7a120       smsTx                         
+smspicmg              0%         0/ 17d7840       smspicmg                      
+smsvLd                0%         0/       0       smsvLd                        
+smsvRq                0%         0/  16e360       smsvRq                        
+smsvRs                0%         0/       0       smsvRs                        
+smsvcmumsg            0%         0/   7a120       smsvcmumsg                    
+smsvtimer             0%         0/ 11a49a0       smsvtimer                     
+
+<Qu-20-DPi sw01>display memory-usage
+ Memory utilization statistics at 2026-03-13 11:37:00+00:00
+ System Total Memory Is: 1061158912 bytes
+ Total Memory Used Is: 235394460 bytes
+ Memory Using Percentage Is: 22%
+<Qu-20-DPi sw01>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+~down: LDT down
+#down: LBDT down
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+(ld): LDT block
+(lb): LBDT block
+(lp): Loop-detect block
+(o): Observe-port forwarding down
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               *down down         0%     0%          0          0
+GigabitEthernet1/0/0        *down down         0%     0%          0          0
+GigabitEthernet1/0/1        *down down         0%     0%          0          0
+GigabitEthernet1/0/2        *down down         0%     0%          0          0
+GigabitEthernet1/0/3        *down down         0%     0%          0          0
+GigabitEthernet1/0/4        *down down         0%     0%          0          0
+GigabitEthernet1/0/5        *down down         0%     0%          0          0
+GigabitEthernet1/0/6        *down down         0%     0%          0          0
+GigabitEthernet1/0/7        *down down         0%     0%          0          0
+GigabitEthernet1/0/8        *down down         0%     0%          0          0
+GigabitEthernet1/0/9        *down down         0%     0%          0          0
+GigabitEthernet1/0/10       *down down         0%     0%          0          0
+GigabitEthernet1/0/11       *down down         0%     0%          0          0
+GigabitEthernet1/0/12       *down down         0%     0%          0          0
+GigabitEthernet1/0/13       *down down         0%     0%          0          0
+GigabitEthernet1/0/14       *down down         0%     0%          0          0
+GigabitEthernet1/0/15       *down down         0%     0%          0          0
+GigabitEthernet1/0/16       *down down         0%     0%          0          0
+GigabitEthernet1/0/17       *down down         0%     0%          0          0
+GigabitEthernet1/0/18       *down down         0%     0%          0          0
+GigabitEthernet1/0/19       *down down         0%     0%          0          0
+GigabitEthernet1/0/20       *down down         0%     0%          0          0
+GigabitEthernet1/0/21       *down down         0%     0%          0          0
+GigabitEthernet1/0/22       *down down         0%     0%          0          0
+GigabitEthernet1/0/23       *down down         0%     0%          0          0
+GigabitEthernet1/0/24       *down down         0%     0%          0          0
+GigabitEthernet1/0/25       *down down         0%     0%          0          0
+GigabitEthernet1/0/26       *down down         0%     0%          0          0
+GigabitEthernet1/0/27       *down down         0%     0%          0          0
+GigabitEthernet1/0/28       *down down         0%     0%          0          0
+GigabitEthernet1/0/29       *down down         0%     0%          0          0
+GigabitEthernet1/0/30       *down down         0%     0%          0          0
+GigabitEthernet1/0/31       *down down         0%     0%          0          0
+GigabitEthernet1/0/32       *down down         0%     0%          0          0
+GigabitEthernet1/0/33       *down down         0%     0%          0          0
+GigabitEthernet1/0/34       *down down         0%     0%          0          0
+GigabitEthernet1/0/35       *down down         0%     0%          0          0
+GigabitEthernet1/0/36       *down down         0%     0%          0          0
+GigabitEthernet1/0/37       *down down         0%     0%          0          0
+GigabitEthernet1/0/38       *down down         0%     0%          0          0
+GigabitEthernet1/0/39       *down down         0%     0%          0          0
+GigabitEthernet1/0/40       *down down         0%     0%          0          0
+GigabitEthernet1/0/41       *down down         0%     0%          0          0
+GigabitEthernet1/0/42       *down down         0%     0%          0          0
+GigabitEthernet1/0/43       *down down         0%     0%          0          0
+GigabitEthernet1/0/44       *down down         0%     0%          0          0
+GigabitEthernet1/0/45       *down down         0%     0%          0          0
+GigabitEthernet1/0/46       *down down         0%     0%          0          0
+GigabitEthernet1/0/47       *down down         0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Vlanif20                    down  down         --     --          0          0
+Vlanif1023                  down  down         --     --          0          0
+Vlanif2000                  up    up           --     --          0          0
+XGigabitEthernet2/0/0       up    up           0%     0%          0          0
+XGigabitEthernet2/0/1       up    up           0%     0%          0          0
+XGigabitEthernet2/0/2       up    up           0%     0%          0          0
+XGigabitEthernet2/0/3       up    up           0%     0%          0          0
+XGigabitEthernet2/0/4       up    up           0%     0%          0          0
+XGigabitEthernet2/0/5       up    up           0%     0%          0          0
+XGigabitEthernet2/0/6       up    up           0%     0%          0          0
+XGigabitEthernet2/0/7       *down down         0%     0%          0          0
+XGigabitEthernet2/0/8       *down down         0%     0%          0          0
+XGigabitEthernet2/0/9       up    up           0%     0%          0          0
+XGigabitEthernet2/0/10      *down down         0%     0%          0          0
+XGigabitEthernet2/0/11      *down down         0%     0%          0          0
+XGigabitEthernet2/0/12      *down down         0%     0%          0          0
+XGigabitEthernet2/0/13      up    up        0.01%  2.09%          0          0
+XGigabitEthernet2/0/14      up    up           0%     0%          0          0
+XGigabitEthernet2/0/15      up    up           0%     0%          0          0
+XGigabitEthernet2/0/16      *down down         0%     0%          0          0
+XGigabitEthernet2/0/17      *down down         0%     0%          0          0
+XGigabitEthernet2/0/18      *down down         0%     0%          0          0
+XGigabitEthernet2/0/19      *down down         0%     0%          0          0
+XGigabitEthernet2/0/20      *down down         0%     0%          0          0
+XGigabitEthernet2/0/21      *down down         0%     0%          0          0
+XGigabitEthernet2/0/22      *down down         0%     0%          0          0
+XGigabitEthernet2/0/23      *down down         0%     0%          0          0
+XGigabitEthernet2/0/24      *down down         0%     0%          0          0
+XGigabitEthernet2/0/25      *down down         0%     0%          0          0
+XGigabitEthernet2/0/26      *down down         0%     0%          0          0
+XGigabitEthernet2/0/27      *down down         0%     0%          0          0
+XGigabitEthernet2/0/28      *down down         0%     0%          0          0
+XGigabitEthernet2/0/29      *down down         0%     0%          0          0
+XGigabitEthernet2/0/30      *down down         0%     0%          0          0
+XGigabitEthernet2/0/31      *down down         0%     0%          0          0
+XGigabitEthernet2/0/32      *down down         0%     0%          0          0
+XGigabitEthernet2/0/33      *down down         0%     0%          0          0
+XGigabitEthernet2/0/34      up    up           0%     0%          0          0
+XGigabitEthernet2/0/35      up    up        2.09%  0.01%          0          0
+<Qu-20-DPi sw01>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+(E): E-Trunk down
+The number of interface that is UP in Physical is 2
+The number of interface that is DOWN in Physical is 3
+The number of interface that is UP in Protocol is 2
+The number of interface that is DOWN in Protocol is 3
+
+Interface                         IP Address/Mask      Physical   Protocol  
+Ethernet0/0/0                     unassigned           *down      down      
+NULL0                             unassigned           up         up(s)     
+Vlanif20                          unassigned           down       down      
+Vlanif1023                        172.18.0.1/30        down       down      
+Vlanif2000                        10.233.188.252/24    up         up        
+
+<Qu-20-DPi sw01>display current-configuration
+!Software Version V200R019C10SPC500
+#
+sysname Qu-20-DPi sw01
+#
+info-center loghost 10.237.35.254 facility local4
+#
+vlan batch 1023 2000
+#
+authentication-profile name default_authen_profile
+authentication-profile name dot1x_authen_profile
+authentication-profile name dot1xmac_authen_profile
+authentication-profile name mac_authen_profile
+authentication-profile name multi_authen_profile
+authentication-profile name portal_authen_profile
+#
+telnet server enable
+#
+dns snooping ttl delay-time 5760
+#
+diffserv domain default
+#
+radius-server template default
+#
+pki realm default
+#
+acl number 2000
+ rule 20 permit source 10.233.138.0 0.0.0.255 logging
+ rule 21 permit source 10.237.35.0 0.0.0.255 logging
+ rule 25 permit source 10.237.100.0 0.0.0.255 logging
+acl number 2001
+ rule 5 permit source 10.237.99.123 0
+ rule 10 permit source 10.237.99.233 0
+ rule 15 permit source 10.233.205.244 0
+#
+free-rule-template name default_free_rule
+#
+portal-access-profile name portal_access_profile
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+  authentication-mode local
+ authentication-scheme radius
+  authentication-mode radius
+ authorization-scheme default
+  authorization-mode local
+ accounting-scheme default
+  accounting-mode none
+ domain default
+  authentication-scheme radius
+  accounting-scheme default
+  radius-server default
+ domain default_admin
+  authentication-scheme default
+  accounting-scheme default
+ local-user admin password irreversible-cipher $1c$NU01IXbS"O$mYwr/Ju[MR^B~.(Wi{~/ZxveT|DurN_X1uNUVC.N$
+ local-user admin privilege level 1
+ local-user admin service-type terminal http
+ local-user jtcjxz password irreversible-cipher $1c$1krd&ng{&)$&/-WVh[L49J~q0Hdv/*VPW.3En8rx0/z6#ZsA[O($
+ local-user jtcjxz privilege level 3
+ local-user jtcjxz service-type ssh
+ local-user aaa@huawei password irreversible-cipher $1c$q)D<"^3N=7$"0e.B%:6>Gh/!6+*bq==@D]MDNr0\!+Wyn.#Gj53$
+ local-user aaa@huawei privilege level 3
+ local-user aaa@huawei service-type telnet
+ local-user xz4a_admin password irreversible-cipher $1c$fp0D:W.FQ/$WpSEBkjI.2P|+EAOOm)%X]^V:GP@X5,pxWE)A#G9$
+ local-user xz4a_admin privilege level 15
+ local-user xz4a_admin service-type ssh
+ local-user langjiewangdui password irreversible-cipher $1c$i79m7gu%H&$U4OD:=BM3*eKxKNkW{QV1CvR6zrY&-_7`+#I,puP$
+ local-user langjiewangdui privilege level 3
+ local-user langjiewangdui service-type ssh
+#
+ntp-service server disable
+ntp-service ipv6 server disable
+ntp-service authentication enable
+ntp-service authentication-keyid 10 authentication-mode md5 cipher %^%#JFCx#di|<I`Y</'"~j<6M~c`WzEXt+v)[T.NCHMO%^%#
+ntp-service reliable authentication-keyid 10
+ntp-service unicast-server 10.233.188.1 authentication-keyid 10
+#
+interface Vlanif20
+#
+interface Vlanif1023
+ ip address 172.18.0.1 255.255.255.252
+#
+interface Vlanif2000
+ ip address 10.233.188.252 255.255.255.0
+#
+interface Ethernet0/0/0
+ shutdown
+#
+interface GigabitEthernet1/0/0
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/1
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/2
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/3
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/4
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/5
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/6
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/7
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/8
+ shutdown
+#
+interface GigabitEthernet1/0/9
+ shutdown
+#
+interface GigabitEthernet1/0/10
+ shutdown
+#
+interface GigabitEthernet1/0/11
+ shutdown
+#
+interface GigabitEthernet1/0/12
+ shutdown
+#
+interface GigabitEthernet1/0/13
+ shutdown
+#
+interface GigabitEthernet1/0/14
+ shutdown
+#
+interface GigabitEthernet1/0/15
+ shutdown
+#
+interface GigabitEthernet1/0/16
+ shutdown
+#
+interface GigabitEthernet1/0/17
+ shutdown
+#
+interface GigabitEthernet1/0/18
+ shutdown
+#
+interface GigabitEthernet1/0/19
+ shutdown
+#
+interface GigabitEthernet1/0/20
+ shutdown
+#
+interface GigabitEthernet1/0/21
+ shutdown
+#
+interface GigabitEthernet1/0/22
+ shutdown
+#
+interface GigabitEthernet1/0/23
+ shutdown
+#
+interface GigabitEthernet1/0/24
+ shutdown
+#
+interface GigabitEthernet1/0/25
+ shutdown
+#
+interface GigabitEthernet1/0/26
+ shutdown
+#
+interface GigabitEthernet1/0/27
+ shutdown
+#
+interface GigabitEthernet1/0/28
+ shutdown
+#
+interface GigabitEthernet1/0/29
+ shutdown
+#
+interface GigabitEthernet1/0/30
+ shutdown
+#
+interface GigabitEthernet1/0/31
+ shutdown
+#
+interface GigabitEthernet1/0/32
+ shutdown
+#
+interface GigabitEthernet1/0/33
+ shutdown
+#
+interface GigabitEthernet1/0/34
+ shutdown
+#
+interface GigabitEthernet1/0/35
+ shutdown
+#
+interface GigabitEthernet1/0/36
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/37
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/38
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/39
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/40
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/41
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/42
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/43
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/44
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/45
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/46
+ shutdown
+ port link-type access
+#
+interface GigabitEthernet1/0/47
+ shutdown
+ port link-type access
+#
+interface XGigabitEthernet2/0/0
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/1
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/2
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/3
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/4
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/5
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/6
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/7
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet2/0/8
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet2/0/9
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/10
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet2/0/11
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet2/0/12
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet2/0/13
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/14
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/15
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/16
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/17
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet2/0/18
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/19
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/20
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/21
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/22
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/23
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/24
+ shutdown
+#
+interface XGigabitEthernet2/0/25
+ shutdown
+#
+interface XGigabitEthernet2/0/26
+ shutdown
+#
+interface XGigabitEthernet2/0/27
+ shutdown
+#
+interface XGigabitEthernet2/0/28
+ shutdown
+#
+interface XGigabitEthernet2/0/29
+ shutdown
+#
+interface XGigabitEthernet2/0/30
+ shutdown
+#
+interface XGigabitEthernet2/0/31
+ shutdown
+#
+interface XGigabitEthernet2/0/32
+ shutdown
+#
+interface XGigabitEthernet2/0/33
+ shutdown
+#
+interface XGigabitEthernet2/0/34
+ description To:B13 H3C-1_3/0/11
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 20
+#
+interface XGigabitEthernet2/0/35
+ description To:J08-S9312-7/0/26
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 2000
+#
+interface NULL0
+#
+undo icmp name timestamp-request receive
+#
+ip route-static 10.233.205.244 255.255.255.255 10.233.188.1
+ip route-static 10.237.35.0 255.255.255.0 10.233.188.1
+ip route-static 10.237.35.0 255.255.255.0 10.233.188.254
+ip route-static 10.237.99.0 255.255.255.0 10.233.188.1
+ip route-static 10.237.100.0 255.255.255.0 10.233.188.1
+#
+snmp-agent
+snmp-agent local-engineid 800007DB03DC21E2342CE0
+snmp-agent community read cipher %^%#Gi>qQuDddPMcOJ'i3[A-)gXE:"xg~*\ScXV@~r1~Dt~e~+IJwM>R=#(%))#1{d't"^$R[P{'iIX2o9"A%^%# acl 2001
+snmp-agent sys-info version v2c v3
+#
+stelnet server enable
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh server cipher aes256_ctr aes128_ctr
+ssh server hmac sha2_256
+ssh client cipher aes256_ctr aes128_ctr
+ssh client hmac sha2_256
+ssh server dh-exchange min-len 2048
+#
+user-interface maximum-vty 15
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$fhZGP=)UO2$_`eo6TWrh."6n3F"%zZ#Szr:PnM|u6KEvE9wAiA:$
+ idle-timeout 2 15
+ screen-length 35
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 2 15
+ screen-length 0
+user-interface vty 5 14
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 2 15
+ screen-length 0
+ protocol inbound all
+user-interface vty 16 20
+#
+port-group doukou
+#
+port-group duankou
+ group-member GigabitEthernet1/0/0
+ group-member GigabitEthernet1/0/1
+ group-member GigabitEthernet1/0/2
+ group-member GigabitEthernet1/0/3
+ group-member GigabitEthernet1/0/4
+ group-member GigabitEthernet1/0/5
+ group-member GigabitEthernet1/0/6
+ group-member GigabitEthernet1/0/7
+ group-member GigabitEthernet1/0/8
+ group-member GigabitEthernet1/0/9
+ group-member GigabitEthernet1/0/10
+ group-member GigabitEthernet1/0/11
+ group-member GigabitEthernet1/0/12
+ group-member GigabitEthernet1/0/13
+ group-member GigabitEthernet1/0/14
+ group-member GigabitEthernet1/0/15
+ group-member GigabitEthernet1/0/16
+ group-member GigabitEthernet1/0/17
+ group-member GigabitEthernet1/0/18
+ group-member GigabitEthernet1/0/19
+ group-member GigabitEthernet1/0/20
+ group-member GigabitEthernet1/0/21
+ group-member GigabitEthernet1/0/22
+ group-member GigabitEthernet1/0/23
+ group-member GigabitEthernet1/0/24
+ group-member GigabitEthernet1/0/25
+ group-member GigabitEthernet1/0/26
+ group-member GigabitEthernet1/0/27
+ group-member GigabitEthernet1/0/28
+ group-member GigabitEthernet1/0/29
+ group-member GigabitEthernet1/0/30
+ group-member GigabitEthernet1/0/31
+ group-member GigabitEthernet1/0/32
+ group-member GigabitEthernet1/0/33
+ group-member GigabitEthernet1/0/34
+ group-member GigabitEthernet1/0/35
+ group-member GigabitEthernet1/0/36
+ group-member GigabitEthernet1/0/37
+ group-member GigabitEthernet1/0/38
+ group-member GigabitEthernet1/0/39
+ group-member GigabitEthernet1/0/40
+ group-member GigabitEthernet1/0/41
+ group-member GigabitEthernet1/0/42
+ group-member GigabitEthernet1/0/43
+ group-member GigabitEthernet1/0/44
+ group-member GigabitEthernet1/0/45
+ group-member GigabitEthernet1/0/46
+ group-member GigabitEthernet1/0/47
+#
+port-group duankou1
+ group-member Ethernet0/0/0
+ group-member XGigabitEthernet2/0/7
+ group-member XGigabitEthernet2/0/8
+ group-member XGigabitEthernet2/0/10
+ group-member XGigabitEthernet2/0/11
+ group-member XGigabitEthernet2/0/12
+ group-member XGigabitEthernet2/0/16
+ group-member XGigabitEthernet2/0/17
+ group-member XGigabitEthernet2/0/18
+ group-member XGigabitEthernet2/0/19
+ group-member XGigabitEthernet2/0/20
+ group-member XGigabitEthernet2/0/21
+ group-member XGigabitEthernet2/0/22
+ group-member XGigabitEthernet2/0/23
+ group-member XGigabitEthernet2/0/24
+ group-member XGigabitEthernet2/0/25
+ group-member XGigabitEthernet2/0/26
+ group-member XGigabitEthernet2/0/27
+ group-member XGigabitEthernet2/0/28
+ group-member XGigabitEthernet2/0/29
+ group-member XGigabitEthernet2/0/30
+ group-member XGigabitEthernet2/0/31
+ group-member XGigabitEthernet2/0/32
+ group-member XGigabitEthernet2/0/33
+#
+dot1x-access-profile name dot1x_access_profile
+#
+mac-access-profile name mac_access_profile
+#
+ops
+#
+return
+<Qu-20-DPi sw01>display ip routing-table
+Route Flags: R - relay, D - download to fib, T - to vpn-instance
+------------------------------------------------------------------------------
+Routing Tables: Public
+         Destinations : 8        Routes : 9        
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+   10.233.188.0/24  Direct  0    0           D   10.233.188.252  Vlanif2000
+ 10.233.188.252/32  Direct  0    0           D   127.0.0.1       Vlanif2000
+ 10.233.205.244/32  Static  60   0          RD   10.233.188.1    Vlanif2000
+    10.237.35.0/24  Static  60   0          RD   10.233.188.1    Vlanif2000
+                    Static  60   0          RD   10.233.188.254  Vlanif2000
+    10.237.99.0/24  Static  60   0          RD   10.233.188.1    Vlanif2000
+   10.237.100.0/24  Static  60   0          RD   10.233.188.1    Vlanif2000
+      127.0.0.0/8   Direct  0    0           D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+
+<Qu-20-DPi sw01>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 152337
+Current messages : 512
+
+Mar 13 2026 04:05:15 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[0]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 13 2026 04:05:15 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[1]:System leap changes from 3 to 0 after clock update.
+Mar 13 2026 04:04:09 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[2]:The peer selected by the system is 10.233.188.1.
+Mar 13 2026 04:03:04 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[3]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar 12 2026 15:39:06 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[4]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 12 2026 15:39:06 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[5]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 15:38:00 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[6]:The peer selected by the system is 10.233.188.1.
+Mar 12 2026 15:36:54 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[7]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar 11 2026 21:42:59 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[8]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 11 2026 21:42:59 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[9]:System leap changes from 3 to 0 after clock update.
+Mar 11 2026 21:41:55 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[10]:The peer selected by the system is 10.233.188.1.
+Mar 11 2026 21:40:52 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[11]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar 10 2026 22:59:50 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[12]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 10 2026 22:59:50 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[13]:System leap changes from 3 to 0 after clock update.
+Mar 10 2026 22:58:47 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[14]:The peer selected by the system is 10.233.188.1.
+Mar 10 2026 22:57:43 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[15]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  9 2026 20:15:36 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[16]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  9 2026 20:15:36 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[17]:System leap changes from 3 to 0 after clock update.
+Mar  9 2026 20:14:32 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[18]:The peer selected by the system is 10.233.188.1.
+Mar  9 2026 20:13:29 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[19]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  9 2026 13:46:55 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[20]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  9 2026 13:46:55 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[21]:System leap changes from 3 to 0 after clock update.
+Mar  9 2026 13:45:51 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[22]:The peer selected by the system is 10.233.188.1.
+Mar  9 2026 13:44:46 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[23]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  8 2026 22:05:28 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[24]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 22:05:28 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[25]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 22:04:22 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[26]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 22:03:16 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[27]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  8 2026 04:58:20 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[28]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 04:58:20 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[29]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 04:57:14 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[30]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 04:56:10 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[31]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  8 2026 04:55:06 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[32]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 04:55:06 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[33]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 04:54:02 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[34]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 04:52:56 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[35]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  8 2026 01:04:04 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[36]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 01:04:04 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[37]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 01:02:58 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[38]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 01:01:52 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[39]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  7 2026 21:07:12 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[40]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 21:07:12 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[41]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 21:06:07 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[42]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 21:05:01 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[43]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  7 2026 12:47:02 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[44]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 12:47:02 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[45]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 12:45:59 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[46]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 12:44:53 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[47]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  6 2026 01:40:09 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[48]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  6 2026 01:40:09 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[49]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 01:39:02 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[50]:The peer selected by the system is 10.233.188.1.
+Mar  6 2026 01:37:56 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[51]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  4 2026 08:52:15 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[52]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  4 2026 08:52:15 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[53]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 08:51:08 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[54]:The peer selected by the system is 10.233.188.1.
+Mar  4 2026 08:50:05 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[55]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  4 2026 06:33:25 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[56]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  4 2026 06:33:25 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[57]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 06:32:18 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[58]:The peer selected by the system is 10.233.188.1.
+Mar  4 2026 06:31:12 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[59]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  3 2026 00:18:22 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[60]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  3 2026 00:18:22 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[61]:System leap changes from 3 to 0 after clock update.
+Mar  3 2026 00:17:18 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[62]:The peer selected by the system is 10.233.188.1.
+Mar  3 2026 00:16:15 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[63]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  3 2026 00:11:56 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[64]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  3 2026 00:11:56 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[65]:System leap changes from 3 to 0 after clock update.
+Mar  3 2026 00:10:51 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[66]:The peer selected by the system is 10.233.188.1.
+Mar  3 2026 00:09:45 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[67]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  2 2026 17:12:53 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[68]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 17:12:53 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[69]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 17:11:49 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[70]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 17:10:44 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[71]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  2 2026 09:14:27 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[72]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 09:14:27 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[73]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 09:13:21 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[74]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 09:11:10 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[75]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  2 2026 08:34:35 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[76]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 08:34:35 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[77]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 08:33:32 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[78]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 08:32:28 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[79]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  2 2026 07:41:56 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[80]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 07:41:56 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[81]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 07:40:53 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[82]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 07:39:50 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[83]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  2 2026 04:33:48 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[84]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 04:33:48 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[85]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 04:32:42 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[86]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 04:31:39 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[87]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  2 2026 03:19:32 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[88]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 03:19:32 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[89]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 03:18:27 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[90]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 03:17:23 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[91]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  1 2026 13:20:29 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[92]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 13:20:29 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[93]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 13:19:26 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[94]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 13:18:22 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[95]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  1 2026 03:23:19 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[96]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 03:23:19 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[97]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 03:22:13 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[98]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 03:21:07 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[99]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  1 2026 03:01:49 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[100]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 03:01:49 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[101]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 03:00:45 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[102]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 02:59:39 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[103]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  1 2026 02:54:13 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[104]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 02:54:13 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[105]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 02:53:10 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[106]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 02:52:05 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[107]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 28 2026 20:13:16 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[108]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 28 2026 20:13:16 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[109]:System leap changes from 3 to 0 after clock update.
+Feb 28 2026 20:12:09 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[110]:The peer selected by the system is 10.233.188.1.
+Feb 28 2026 20:11:05 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[111]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 28 2026 13:12:41 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[112]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 28 2026 13:12:41 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[113]:System leap changes from 3 to 0 after clock update.
+Feb 28 2026 13:11:35 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[114]:The peer selected by the system is 10.233.188.1.
+Feb 28 2026 13:10:31 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[115]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 28 2026 12:38:17 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[116]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 28 2026 12:38:17 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[117]:System leap changes from 3 to 0 after clock update.
+Feb 28 2026 12:37:13 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[118]:The peer selected by the system is 10.233.188.1.
+Feb 28 2026 12:36:09 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[119]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 28 2026 04:36:26 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[120]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 28 2026 04:36:26 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[121]:System leap changes from 3 to 0 after clock update.
+Feb 28 2026 04:35:22 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[122]:The peer selected by the system is 10.233.188.1.
+Feb 28 2026 04:34:17 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[123]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 27 2026 21:54:03 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[124]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 27 2026 21:54:03 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[125]:System leap changes from 3 to 0 after clock update.
+Feb 27 2026 21:52:58 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[126]:The peer selected by the system is 10.233.188.1.
+Feb 27 2026 21:51:52 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[127]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 27 2026 19:06:21 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[128]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 27 2026 19:06:21 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[129]:System leap changes from 3 to 0 after clock update.
+Feb 27 2026 19:05:14 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[130]:The peer selected by the system is 10.233.188.1.
+Feb 27 2026 19:04:09 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[131]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 27 2026 13:41:34 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[132]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 27 2026 13:41:34 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[133]:System leap changes from 3 to 0 after clock update.
+Feb 27 2026 13:40:32 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[134]:The peer selected by the system is 10.233.188.1.
+Feb 27 2026 13:39:26 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[135]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 26 2026 21:14:00 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[136]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 26 2026 21:14:00 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[137]:System leap changes from 3 to 0 after clock update.
+Feb 26 2026 21:12:56 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[138]:The peer selected by the system is 10.233.188.1.
+Feb 26 2026 21:11:50 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[139]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 26 2026 20:39:32 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[140]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 26 2026 20:39:32 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[141]:System leap changes from 3 to 0 after clock update.
+Feb 26 2026 20:38:28 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[142]:The peer selected by the system is 10.233.188.1.
+Feb 26 2026 20:37:24 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[143]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 26 2026 09:33:31 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[144]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 26 2026 09:33:31 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[145]:System leap changes from 3 to 0 after clock update.
+Feb 26 2026 09:32:27 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[146]:The peer selected by the system is 10.233.188.1.
+Feb 26 2026 09:31:24 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[147]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 26 2026 03:07:03 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[148]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 26 2026 03:07:03 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[149]:System leap changes from 3 to 0 after clock update.
+Feb 26 2026 03:05:56 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[150]:The peer selected by the system is 10.233.188.1.
+Feb 26 2026 03:04:51 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[151]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 25 2026 23:09:24 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[152]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 25 2026 23:09:24 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[153]:System leap changes from 3 to 0 after clock update.
+Feb 25 2026 23:08:20 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[154]:The peer selected by the system is 10.233.188.1.
+Feb 25 2026 23:07:16 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[155]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 25 2026 08:41:47 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[156]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 25 2026 08:41:47 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[157]:System leap changes from 3 to 0 after clock update.
+Feb 25 2026 08:40:43 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[158]:The peer selected by the system is 10.233.188.1.
+Feb 25 2026 08:39:39 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[159]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 25 2026 03:22:36 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[160]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 25 2026 03:22:36 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[161]:System leap changes from 3 to 0 after clock update.
+Feb 25 2026 03:21:29 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[162]:The peer selected by the system is 10.233.188.1.
+Feb 25 2026 03:20:26 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[163]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 24 2026 08:54:25 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[164]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 24 2026 08:54:25 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[165]:System leap changes from 3 to 0 after clock update.
+Feb 24 2026 08:53:21 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[166]:The peer selected by the system is 10.233.188.1.
+Feb 24 2026 08:52:16 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[167]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 24 2026 03:33:51 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[168]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 24 2026 03:33:51 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[169]:System leap changes from 3 to 0 after clock update.
+Feb 24 2026 03:32:44 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[170]:The peer selected by the system is 10.233.188.1.
+Feb 24 2026 03:31:41 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[171]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 23 2026 18:20:59 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[172]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 18:20:59 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[173]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 18:19:53 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[174]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 18:18:48 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[175]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 23 2026 12:01:50 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[176]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 12:01:50 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[177]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 12:00:46 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[178]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 11:59:42 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[179]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 23 2026 10:45:30 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[180]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 10:45:30 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[181]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 10:44:27 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[182]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 10:43:22 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[183]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 23 2026 10:16:34 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[184]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 10:16:34 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[185]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 10:15:29 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[186]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 10:14:24 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[187]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 23 2026 10:06:51 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[188]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 10:06:51 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[189]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 10:05:48 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[190]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 10:04:43 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[191]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 22 2026 18:31:03 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[192]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 22 2026 18:31:03 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[193]:System leap changes from 3 to 0 after clock update.
+Feb 22 2026 18:29:57 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[194]:The peer selected by the system is 10.233.188.1.
+Feb 22 2026 18:28:54 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[195]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 22 2026 18:23:29 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[196]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 22 2026 18:23:29 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[197]:System leap changes from 3 to 0 after clock update.
+Feb 22 2026 18:22:26 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[198]:The peer selected by the system is 10.233.188.1.
+Feb 22 2026 18:21:21 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[199]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 22 2026 18:08:31 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[200]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 22 2026 18:08:31 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[201]:System leap changes from 3 to 0 after clock update.
+Feb 22 2026 18:07:26 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[202]:The peer selected by the system is 10.233.188.1.
+Feb 22 2026 18:06:23 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[203]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 22 2026 12:12:58 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[204]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 22 2026 12:12:58 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[205]:System leap changes from 3 to 0 after clock update.
+Feb 22 2026 12:11:55 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[206]:The peer selected by the system is 10.233.188.1.
+Feb 22 2026 12:10:51 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[207]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 21 2026 12:34:29 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[208]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 12:34:29 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[209]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 12:33:24 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[210]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 12:32:19 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[211]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 21 2026 10:42:19 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[212]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 10:42:19 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[213]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 10:41:12 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[214]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 10:40:06 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[215]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 21 2026 08:36:15 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[216]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 08:36:15 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[217]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 08:35:11 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[218]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 08:34:07 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[219]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 21 2026 08:12:31 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[220]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 08:12:31 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[221]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 08:11:27 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[222]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 08:10:24 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[223]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 21 2026 07:27:32 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[224]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 07:27:32 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[225]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 07:26:26 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[226]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 07:25:20 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[227]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 21 2026 06:39:01 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[228]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 06:39:01 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[229]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 06:37:59 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[230]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 06:36:54 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[231]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 20 2026 22:14:42 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[232]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 20 2026 22:14:42 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[233]:System leap changes from 3 to 0 after clock update.
+Feb 20 2026 22:13:37 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[234]:The peer selected by the system is 10.233.188.1.
+Feb 20 2026 22:12:34 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[235]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 20 2026 10:35:13 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[236]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 20 2026 10:35:13 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[237]:System leap changes from 3 to 0 after clock update.
+Feb 20 2026 10:34:07 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[238]:The peer selected by the system is 10.233.188.1.
+Feb 20 2026 10:33:02 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[239]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 20 2026 08:44:32 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[240]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 20 2026 08:44:32 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[241]:System leap changes from 3 to 0 after clock update.
+Feb 20 2026 08:43:25 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[242]:The peer selected by the system is 10.233.188.1.
+Feb 20 2026 08:42:20 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[243]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 19 2026 20:01:05 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[244]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 20:01:05 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[245]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 20:00:01 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[246]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 19:58:55 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[247]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 19 2026 16:02:02 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[248]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 16:02:02 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[249]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 16:00:56 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[250]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 15:59:53 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[251]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 19 2026 15:58:51 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[252]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 15:57:45 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[253]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 19 2026 12:45:04 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[254]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 12:45:04 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[255]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 12:44:00 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[256]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 12:42:55 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[257]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 19 2026 00:06:00 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[258]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 00:06:00 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[259]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 00:04:56 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[260]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 00:03:52 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[261]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 18 2026 16:31:03 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[262]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 18 2026 16:31:03 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[263]:System leap changes from 3 to 0 after clock update.
+Feb 18 2026 16:29:57 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[264]:The peer selected by the system is 10.233.188.1.
+Feb 18 2026 16:28:51 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[265]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 18 2026 09:41:39 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[266]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 18 2026 09:41:39 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[267]:System leap changes from 3 to 0 after clock update.
+Feb 18 2026 09:40:34 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[268]:The peer selected by the system is 10.233.188.1.
+Feb 18 2026 09:39:28 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[269]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 18 2026 05:15:56 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[270]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 18 2026 05:15:56 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[271]:System leap changes from 3 to 0 after clock update.
+Feb 18 2026 05:14:49 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[272]:The peer selected by the system is 10.233.188.1.
+Feb 18 2026 05:13:46 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[273]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 18 2026 04:51:20 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[274]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 18 2026 04:51:20 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[275]:System leap changes from 3 to 0 after clock update.
+Feb 18 2026 04:50:15 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[276]:The peer selected by the system is 10.233.188.1.
+Feb 18 2026 04:49:10 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[277]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 17 2026 04:25:01 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[278]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 17 2026 04:25:01 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[279]:System leap changes from 3 to 0 after clock update.
+Feb 17 2026 04:23:55 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[280]:The peer selected by the system is 10.233.188.1.
+Feb 17 2026 04:22:49 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[281]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 17 2026 01:16:54 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[282]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 17 2026 01:16:54 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[283]:System leap changes from 3 to 0 after clock update.
+Feb 17 2026 01:15:49 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[284]:The peer selected by the system is 10.233.188.1.
+Feb 17 2026 01:14:46 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[285]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 17 2026 00:50:02 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[286]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 17 2026 00:50:02 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[287]:System leap changes from 3 to 0 after clock update.
+Feb 17 2026 00:48:58 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[288]:The peer selected by the system is 10.233.188.1.
+Feb 17 2026 00:47:52 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[289]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 16 2026 23:48:52 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[290]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 23:48:52 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[291]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 23:47:46 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[292]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 23:46:40 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[293]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 16 2026 12:01:40 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[294]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 12:01:40 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[295]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 12:00:35 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[296]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 11:59:32 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[297]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 16 2026 07:17:13 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[298]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 07:17:13 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[299]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 07:16:11 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[300]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 07:15:05 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[301]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 16 2026 01:11:29 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[302]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 01:11:29 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[303]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 01:10:22 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[304]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 01:09:19 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[305]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 15 2026 21:56:02 Qu-20-DPi sw01 %%01CMAINT/4/FILEOPERATION(l)[306]:File operation record. (operation="delete the file", filename="flash:/oids/2025-11-13.17-30-08_oids.db", result="success")
+Feb 15 2026 20:56:00 Qu-20-DPi sw01 %%01CMAINT/4/FILEOPERATION(l)[307]:File operation record. (operation="create the file", filename="flash:/oids/oids.db", result="success")
+Feb 15 2026 20:56:00 Qu-20-DPi sw01 %%01CMAINT/4/RENAMEFILE(l)[308]:File operation record. (Operation="rename the file", OldFileName="flash:/oids/oids.db", NewFileName="flash:/oids/2026-02-15.20-56-00_oids.db", Result="success")
+Feb 15 2026 07:09:50 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[309]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 15 2026 07:09:50 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[310]:System leap changes from 3 to 0 after clock update.
+Feb 15 2026 07:08:46 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[311]:The peer selected by the system is 10.233.188.1.
+Feb 15 2026 07:07:42 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[312]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 15 2026 01:18:49 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[313]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 15 2026 01:18:49 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[314]:System leap changes from 3 to 0 after clock update.
+Feb 15 2026 01:17:45 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[315]:The peer selected by the system is 10.233.188.1.
+Feb 15 2026 01:16:42 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[316]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 15 2026 00:43:17 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[317]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 15 2026 00:43:17 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[318]:System leap changes from 3 to 0 after clock update.
+Feb 15 2026 00:42:13 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[319]:The peer selected by the system is 10.233.188.1.
+Feb 15 2026 00:40:04 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[320]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 14 2026 16:22:17 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[321]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 16:22:17 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[322]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 16:21:11 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[323]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 16:20:08 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[324]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 14 2026 13:25:54 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[325]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 13:25:54 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[326]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 13:24:49 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[327]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 13:23:46 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[328]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 14 2026 01:54:56 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[329]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 01:54:56 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[330]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 01:53:52 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[331]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 01:52:47 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[332]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 14 2026 01:51:43 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[333]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 01:50:37 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[334]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 14 2026 01:46:18 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[335]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 01:46:18 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[336]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 01:45:14 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[337]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 01:44:10 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[338]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 13 2026 17:53:58 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[339]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 13 2026 17:53:58 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[340]:System leap changes from 3 to 0 after clock update.
+Feb 13 2026 17:52:52 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[341]:The peer selected by the system is 10.233.188.1.
+Feb 13 2026 17:51:49 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[342]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 12 2026 20:42:13 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[343]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 20:42:13 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[344]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 20:41:09 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[345]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 20:40:03 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[346]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 12 2026 17:38:45 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[347]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 17:38:45 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[348]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 17:37:43 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[349]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 17:36:40 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[350]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 12 2026 14:20:01 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[351]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 14:20:01 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[352]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 14:18:55 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[353]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 14:17:50 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[354]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 12 2026 05:23:23 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[355]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 05:23:23 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[356]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 05:22:16 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[357]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 05:21:12 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[358]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 11 2026 23:49:39 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[359]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 11 2026 23:49:39 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[360]:System leap changes from 3 to 0 after clock update.
+Feb 11 2026 23:48:36 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[361]:The peer selected by the system is 10.233.188.1.
+Feb 11 2026 23:47:33 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[362]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 11 2026 21:22:26 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[363]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 11 2026 21:22:26 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[364]:System leap changes from 3 to 0 after clock update.
+Feb 11 2026 21:21:24 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[365]:The peer selected by the system is 10.233.188.1.
+Feb 11 2026 21:20:18 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[366]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 11 2026 15:19:50 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[367]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 11 2026 15:19:50 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[368]:System leap changes from 3 to 0 after clock update.
+Feb 11 2026 15:18:45 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[369]:The peer selected by the system is 10.233.188.1.
+Feb 11 2026 15:17:40 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[370]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 11 2026 13:42:02 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[371]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 11 2026 13:42:02 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[372]:System leap changes from 3 to 0 after clock update.
+Feb 11 2026 13:40:58 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[373]:The peer selected by the system is 10.233.188.1.
+Feb 11 2026 13:39:52 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[374]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 10 2026 21:13:33 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[375]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 10 2026 21:13:33 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[376]:System leap changes from 3 to 0 after clock update.
+Feb 10 2026 21:12:28 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[377]:The peer selected by the system is 10.233.188.1.
+Feb 10 2026 21:11:23 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[378]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 10 2026 21:02:50 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[379]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 10 2026 21:02:50 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[380]:System leap changes from 3 to 0 after clock update.
+Feb 10 2026 21:01:46 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[381]:The peer selected by the system is 10.233.188.1.
+Feb 10 2026 21:00:40 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[382]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 10 2026 11:55:00 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[383]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 10 2026 11:55:00 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[384]:System leap changes from 3 to 0 after clock update.
+Feb 10 2026 11:53:58 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[385]:The peer selected by the system is 10.233.188.1.
+Feb 10 2026 11:52:55 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[386]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 10 2026 03:04:16 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[387]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 10 2026 03:04:16 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[388]:System leap changes from 3 to 0 after clock update.
+Feb 10 2026 03:03:14 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[389]:The peer selected by the system is 10.233.188.1.
+Feb 10 2026 03:02:09 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[390]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  9 2026 15:18:49 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[391]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 15:18:49 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[392]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 15:17:44 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[393]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 15:16:40 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[394]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  9 2026 12:14:04 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[395]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 12:14:04 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[396]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 12:12:57 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[397]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 12:11:51 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[398]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  9 2026 08:59:24 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[399]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 08:59:24 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[400]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 08:58:20 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[401]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 08:57:17 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[402]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  8 2026 22:00:41 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[403]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 22:00:41 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[404]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 21:59:34 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[405]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 21:58:29 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[406]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  8 2026 21:25:11 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[407]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 21:25:11 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[408]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 21:24:09 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[409]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 21:23:05 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[410]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  8 2026 14:19:43 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[411]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 14:19:43 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[412]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 14:18:38 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[413]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 14:17:32 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[414]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  8 2026 12:31:48 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[415]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 12:31:48 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[416]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 12:30:44 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[417]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 12:29:39 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[418]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  8 2026 12:21:03 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[419]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 12:21:03 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[420]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 12:20:00 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[421]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 12:18:56 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[422]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  8 2026 11:11:16 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[423]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 11:11:16 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[424]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 11:10:10 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[425]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 11:09:06 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[426]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  8 2026 09:54:53 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[427]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 09:54:53 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[428]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 09:53:48 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[429]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 09:52:43 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[430]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  8 2026 05:08:57 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[431]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 05:08:57 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[432]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 05:07:50 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[433]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 05:06:45 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[434]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  8 2026 01:02:38 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[435]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 01:02:38 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[436]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 01:01:32 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[437]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 01:00:27 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[438]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  7 2026 20:17:44 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[439]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 20:17:44 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[440]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 20:16:40 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[441]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 20:15:35 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[442]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  7 2026 12:28:19 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[443]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 12:28:19 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[444]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 12:27:14 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[445]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 12:26:08 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[446]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  7 2026 08:14:27 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[447]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 08:14:27 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[448]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 08:13:22 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[449]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 08:12:18 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[450]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  7 2026 05:14:02 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[451]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 05:14:02 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[452]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 05:12:58 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[453]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 05:11:52 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[454]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  7 2026 05:03:21 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[455]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 05:03:21 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[456]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 05:02:18 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[457]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 05:01:12 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[458]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  7 2026 02:28:31 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[459]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 02:28:31 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[460]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 02:27:26 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[461]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 02:26:22 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[462]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  6 2026 06:43:10 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[463]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 06:43:10 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[464]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 06:42:03 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[465]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 06:41:00 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[466]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  6 2026 03:50:28 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[467]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 03:50:28 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[468]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 03:49:26 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[469]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 03:48:23 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[470]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  6 2026 00:47:08 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[471]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 00:47:08 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[472]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 00:46:04 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[473]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 00:45:00 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[474]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  5 2026 00:07:50 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[475]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  5 2026 00:07:50 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[476]:System leap changes from 3 to 0 after clock update.
+Feb  5 2026 00:06:44 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[477]:The peer selected by the system is 10.233.188.1.
+Feb  5 2026 00:05:41 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[478]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  4 2026 14:45:17 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[479]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  4 2026 14:45:17 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[480]:System leap changes from 3 to 0 after clock update.
+Feb  4 2026 14:44:12 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[481]:The peer selected by the system is 10.233.188.1.
+Feb  4 2026 14:43:07 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[482]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  3 2026 04:20:46 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[483]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  3 2026 04:20:46 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[484]:System leap changes from 3 to 0 after clock update.
+Feb  3 2026 04:19:44 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[485]:The peer selected by the system is 10.233.188.1.
+Feb  3 2026 04:18:38 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[486]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  3 2026 01:48:05 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[487]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  3 2026 01:48:05 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[488]:System leap changes from 3 to 0 after clock update.
+Feb  3 2026 01:47:03 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[489]:The peer selected by the system is 10.233.188.1.
+Feb  3 2026 01:45:57 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[490]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  2 2026 22:50:29 Qu-20-DPi sw01 %%01NTP/4/STRATUM_CHANGE(l)[491]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  2 2026 22:50:29 Qu-20-DPi sw01 %%01NTP/4/LEAP_CHANGE(l)[492]:System leap changes from 3 to 0 after clock update.
+Feb  2 2026 22:49:25 Qu-20-DPi sw01 %%01NTP/4/PEER_SELE(l)[493]:The peer selected by the system is 10.233.188.1.
+Feb  2 2026 22:48:22 Qu-20-DPi sw01 %%01NTP/4/SOURCE_LOST(l)[494]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  2 2026 21:01:12 Qu-20-DPi sw01 %%01INFO/4/SUPPRESS_LOG(l)[495]:Last message repeated 1 times.(InfoID=1077493787, ModuleName=SHELL, InfoAlias=LOGINFAILED)
+Feb  2 2026 20:54:02 Qu-20-DPi sw01 %%01SHELL/4/LOGINFAILED(s)[496]:Failed to login. (Ip=10.237.100.196, UserName=**, Times=1, AccessType=TELNET, VpnName=)
+Feb  2 2026 20:53:44 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[497]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:53:38 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[498]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:53:30 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[499]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:53:25 Qu-20-DPi sw01 %%01SNMP/4/SNMP_IPUNLOCK(s)[500]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Feb  2 2026 20:53:22 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[501]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:53:15 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[502]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:53:08 Qu-20-DPi sw01 %%01SNMP/4/SNMP_IPLOCK(s)[503]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Feb  2 2026 20:53:07 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[504]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:53:00 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[505]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:52:53 Qu-20-DPi sw01 %%01SSH/4/SSH_FAIL(s)[506]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 20:52:15 Qu-20-DPi sw01 %%01SHELL/4/LOGINFAILED(s)[507]:Failed to login. (Ip=10.237.100.196, UserName=**, Times=1, AccessType=TELNET, VpnName=)
+Feb  2 2026 20:52:02 Qu-20-DPi sw01 %%01SHELL/4/LOGINFAILED(s)[508]:Failed to login. (Ip=10.237.100.196, UserName=**, Times=1, AccessType=TELNET, VpnName=)
+Feb  2 2026 20:50:25 Qu-20-DPi sw01 %%01HTTP/3/LOGINFAIL(s)[509]:User login failed. (UserName=, IPAddress=10.237.100.196, VpnName=, Info=Failed to authenticate the user)
+Feb  2 2026 20:49:31 Qu-20-DPi sw01 %%01SHELL/4/LOGINFAILED(s)[510]:Failed to login. (Ip=10.237.100.196, UserName=**, Times=1, AccessType=TELNET, VpnName=)
+Feb  2 2026 20:49:17 Qu-20-DPi sw01 %%01SNMP/4/SNMP_IPUNLOCK(s)[511]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )

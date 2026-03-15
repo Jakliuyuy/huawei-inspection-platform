@@ -1,0 +1,518 @@
+﻿<XZ_NQ_NMS_5530_2>screen-length 0 temporary
+                                ^
+ % Unrecognized command found at '^' position.
+<XZ_NQ_NMS_5530_2>display version
+H3C Comware Software, Version 7.1.045, Release 1122
+Copyright (c) 2004-2017 New H3C Technologies Co., Ltd. All rights reserved.
+H3C S5530C-EI-D uptime is 0 weeks, 2 days, 0 hours, 5 minutes
+Last reboot reason : Cold reboot
+
+Boot image: flash:/s5560ei_d-cmw710-boot-r1122.bin
+Boot image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+System image: flash:/s5560ei_d-cmw710-system-r1122.bin
+System image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+
+
+Slot 1:
+Uptime is 0 weeks,2 days,0 hours,5 minutes
+H3C S5530C-EI-D with 2 Processors
+BOARD TYPE:         S5530C-EI-D
+DRAM:               1984M bytes
+FLASH:              512M bytes
+PCB 1 Version:      VER.A
+Bootrom Version:    126
+CPLD 1 Version:     003
+Release Version:    H3C S5530C-EI-D-1122
+Patch Version  :    None
+Reboot Cause  :     ColdReboot
+[SubSlot 0] 24GE+4SFP Plus
+<XZ_NQ_NMS_5530_2>display device
+Slot Type             State    Subslot  Soft Ver             Patch Ver
+1    S5530C-EI-D      Master   0        S5560EI_D-1122       None      
+<XZ_NQ_NMS_5530_2>display startup
+MainBoard:
+ Current startup saved-configuration file: flash:/startup.cfg
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<XZ_NQ_NMS_5530_2>display cpu-usage
+Slot 1 CPU 0 CPU usage:
+       4% in last 5 seconds
+       5% in last 1 minute
+       5% in last 5 minutes
+
+<XZ_NQ_NMS_5530_2>display memory-usage
+                          ^
+ % Unrecognized command found at '^' position.
+<XZ_NQ_NMS_5530_2>display interface brief
+Brief information on interfaces in route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Primary IP      Description                
+GE1/0/24             DOWN DOWN     --              to:2f_b07_mdcn_ne80_1
+InLoop0              UP   UP(s)    --              
+M-GE0/0/0            DOWN DOWN     --              
+M-GE0/0/1            DOWN DOWN     --              
+NULL0                UP   UP(s)    --              
+REG0                 UP   --       --              
+Vlan8                UP   UP       10.235.10.62    toZ_NQ_NMS_5530_1
+
+Brief information on interfaces in bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed: (a) - auto
+Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed   Duplex Type PVID Description                
+GE1/0/1              DOWN auto    A      A    12   
+GE1/0/2              DOWN auto    A      A    8    
+GE1/0/3              DOWN auto    A      A    8    
+GE1/0/4              DOWN auto    A      A    8    
+GE1/0/5              DOWN auto    A      A    8    
+GE1/0/6              DOWN auto    A      A    8    
+GE1/0/7              DOWN auto    A      A    1    
+GE1/0/8              DOWN auto    A      A    1    
+GE1/0/9              DOWN auto    A      A    1    
+GE1/0/10             DOWN auto    A      A    1    
+GE1/0/11             DOWN auto    A      A    1    
+GE1/0/12             DOWN auto    A      A    1    
+GE1/0/13             DOWN auto    A      A    1    
+GE1/0/14             DOWN auto    A      A    1    
+GE1/0/15             DOWN auto    A      A    1    
+GE1/0/16             DOWN auto    A      A    1    
+GE1/0/17             DOWN auto    A      A    1    
+GE1/0/18             DOWN auto    A      A    1    
+GE1/0/19             DOWN auto    A      A    1    
+GE1/0/20             DOWN auto    A      A    1    
+GE1/0/21             DOWN auto    A      A    1    
+GE1/0/22             DOWN auto    A      A    110  
+GE1/0/23             UP   1G(a)   F(a)   T    1    
+XGE1/0/25            DOWN auto    A      T    1    
+XGE1/0/26            DOWN auto    A      A    1    
+XGE1/0/27            DOWN auto    A      A    1    
+XGE1/0/28            DOWN auto    A      A    1    
+
+<XZ_NQ_NMS_5530_2>display ip interface brief
+*down: administratively down
+(s): spoofing
+Interface                     Physical Protocol IP Address      Description 
+GE1/0/24                      down     down     unassigned      to:2f_b07...
+M-GE0/0/0                     down     down     unassigned      M-Gigabit...
+M-GE0/0/1                     down     down     unassigned      M-Gigabit...
+Vlan8                         up       up       10.235.10.62    toZ_N...
+<XZ_NQ_NMS_5530_2>display current-configuration
+#
+ version 7.1.045, Release 1122
+#
+ sysname XZ_NQ_NMS_5530_2
+#
+ telnet server enable
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 1
+#
+ospf 1 router-id 10.235.10.62
+ import-route direct
+ import-route static
+ area 0.0.0.0
+  network 10.235.10.48 0.0.0.15
+  network 10.237.34.40 0.0.0.3
+#
+ lldp global enable
+#
+ fan prefer-direction slot 1 port-to-power 
+ password-recovery enable
+ pex working-mode switch slot 1
+#
+vlan 1
+#
+vlan 8
+#
+vlan 12
+#
+vlan 110
+#
+ stp global enable
+#
+interface NULL0
+#
+interface Vlan-interface8
+ description toZ_NQ_NMS_5530_1
+ ip address 10.235.10.62 255.255.255.240
+ vrrp vrid 8 virtual-ip 10.235.10.49
+#
+interface GigabitEthernet1/0/24
+ port link-mode route
+ description to:2f_b07_mdcn_ne80_1
+#
+interface GigabitEthernet1/0/1
+ port link-mode bridge
+ port access vlan 12
+#
+interface GigabitEthernet1/0/2
+ port link-mode bridge
+ port access vlan 8
+#
+interface GigabitEthernet1/0/3
+ port link-mode bridge
+ port access vlan 8
+#              
+interface GigabitEthernet1/0/4
+ port link-mode bridge
+ port access vlan 8
+#
+interface GigabitEthernet1/0/5
+ port link-mode bridge
+ port access vlan 8
+#
+interface GigabitEthernet1/0/6
+ port link-mode bridge
+ port access vlan 8
+#
+interface GigabitEthernet1/0/7
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/8
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/9
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/10
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/11
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/12
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/13
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/14
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/15
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/16
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/17
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/18
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/19
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/20
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/21
+ port link-mode bridge
+#              
+interface GigabitEthernet1/0/22
+ port link-mode bridge
+ port access vlan 110
+#
+interface GigabitEthernet1/0/23
+ port link-mode bridge
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 2 to 12
+#
+interface M-GigabitEthernet0/0/0
+#
+interface M-GigabitEthernet0/0/1
+#
+interface Ten-GigabitEthernet1/0/25
+ port link-mode bridge
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 8
+#
+interface Ten-GigabitEthernet1/0/26
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/28
+ port link-mode bridge
+#
+ scheduler logfile size 16
+#
+line class aux
+ user-role network-admin
+#
+line class vty
+ user-role network-operator
+#
+line aux 0     
+ user-role network-admin
+#
+line vty 0 4
+ authentication-mode scheme
+ user-role network-admin
+ user-role network-operator
+ idle-timeout 5 0
+ screen-length 20
+#
+line vty 5 63
+ authentication-mode scheme
+ user-role network-admin
+ user-role network-operator
+ idle-timeout 5 0
+#
+ ip route-static 0.0.0.0 0 10.235.10.61
+#
+ info-center loghost 10.237.35.55
+ info-center loghost 10.237.35.249
+#
+ snmp-agent
+ snmp-agent local-engineid 800007DB034CB16C91ABE4
+ snmp-agent community read 1 acl 2001
+ snmp-agent community read XZYD_smjk-2018
+ snmp-agent community read Xz-itwg-ro
+ snmp-agent community read xzyd@wg12((
+ snmp-agent sys-info version v2c v3 
+ snmp-agent target-host trap address udp-domain 10.233.9.55 params securityname Xz-itwg-ro
+ snmp-agent target-host trap address udp-domain 10.233.83.69 params securityname xzyd@wg12((
+#
+ ssh server enable
+ undo ssh server compatible-ssh1x enable
+ ssh user jtcjxz service-type all authentication-type password
+ ssh user xz4a_admin service-type stelnet authentication-type password
+#
+acl number 2001
+ rule 5 permit source 10.237.35.0 0.0.0.255
+ rule 6 permit source 10.233.11.0 0.0.0.255
+ rule 7 permit source 10.233.88.0 0.0.0.255
+ rule 8 permit source 10.237.34.12 0.0.0.3
+ rule 9 permit source 10.233.9.55 0
+ rule 10 permit source 10.233.9.56 0
+ rule 11 permit source 10.233.9.57 0
+ rule 12 permit source 10.235.10.0 0.0.0.255
+#
+acl number 3001
+ rule 5 deny tcp destination-port eq 445 logging
+ rule 10 deny tcp destination-port eq 5800 logging
+ rule 15 deny tcp destination-port eq 5900 logging
+ rule 20 deny udp destination-port eq 1434 logging
+ rule 25 deny udp destination-port eq tftp logging
+ rule 30 deny tcp destination-port eq 135 logging
+ rule 35 deny udp destination-port eq netbios-ns logging
+ rule 40 deny udp destination-port eq netbios-dgm logging
+ rule 45 deny tcp destination-port eq 139 logging
+ rule 50 deny udp destination-port eq netbios-ssn logging
+ rule 55 deny tcp destination-port eq 539 logging
+ rule 60 deny udp destination-port eq 539 logging
+ rule 65 deny tcp destination-port eq 593 logging
+ rule 70 deny tcp destination-port eq 4786 logging
+ rule 75 permit ip
+#
+radius scheme system
+ user-name-format without-domain
+#
+domain system
+#
+ domain default enable system
+#
+role name level-0
+ description Predefined level-0 role
+#
+role name level-1
+ description Predefined level-1 role
+#
+role name level-2
+ description Predefined level-2 role
+#
+role name level-3
+ description Predefined level-3 role
+#
+role name level-4
+ description Predefined level-4 role
+#
+role name level-5
+ description Predefined level-5 role
+#
+role name level-6
+ description Predefined level-6 role
+#
+role name level-7
+ description Predefined level-7 role
+#
+role name level-8
+ description Predefined level-8 role
+#
+role name level-9
+ description Predefined level-9 role
+#
+role name level-10
+ description Predefined level-10 role
+#
+role name level-11
+ description Predefined level-11 role
+#
+role name level-12
+ description Predefined level-12 role
+#
+role name level-13
+ description Predefined level-13 role
+#
+role name level-14
+ description Predefined level-14 role
+#              
+user-group system
+#
+local-user xz4a_admin class manage
+ password hash $h$6$Oa3gYtfIyCIq/Qlb$4nIejkX2jdDHKBb/p1kE74GfeH0U47FfnoL1xkOQpnmwFdnSbBgmJiBzSm4Ieqs/7HHhjdhJn1kfd9/cDZgo3w==
+ service-type ssh telnet terminal
+ authorization-attribute user-role network-admin
+ authorization-attribute user-role network-operator
+#
+return
+<XZ_NQ_NMS_5530_2>display ip routing-table
+
+Destinations : 16       Routes : 16
+
+Destination/Mask    Proto  Pre  Cost         NextHop         Interface
+0.0.0.0/0           Static 60   0            10.235.10.61    Vlan8
+0.0.0.0/32          Direct 0    0            127.0.0.1       InLoop0
+10.235.10.0/28      O_INTRA10   2            10.235.10.61    Vlan8
+10.235.10.16/28     O_INTRA10   2            10.235.10.61    Vlan8
+10.235.10.32/28     O_INTRA10   2            10.235.10.61    Vlan8
+10.235.10.48/28     Direct 0    0            10.235.10.62    Vlan8
+10.235.10.48/32     Direct 0    0            10.235.10.62    Vlan8
+10.235.10.62/32     Direct 0    0            127.0.0.1       InLoop0
+10.235.10.63/32     Direct 0    0            10.235.10.62    Vlan8
+127.0.0.0/8         Direct 0    0            127.0.0.1       InLoop0
+127.0.0.0/32        Direct 0    0            127.0.0.1       InLoop0
+127.0.0.1/32        Direct 0    0            127.0.0.1       InLoop0
+127.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+224.0.0.0/4         Direct 0    0            0.0.0.0         NULL0
+224.0.0.0/24        Direct 0    0            0.0.0.0         NULL0
+255.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+<XZ_NQ_NMS_5530_2>display logbuffer
+Log buffer: Enabled
+Max buffer size: 1024
+Actual buffer size: 512
+Dropped messages: 0
+Overwritten messages: 0
+Current messages: 104
+%Dec 31 23:59:53:921 2012 XZ_NQ_NMS_5530_2 SYSLOG/6/SYSLOG_RESTART: System restarted --
+H3C Comware Software.
+%Jan  1 00:00:13:163 2013 XZ_NQ_NMS_5530_2 OPTMOD/4/MODULE_IN: Ten-GigabitEthernet1/0/25: The transceiver is 1000_BASE_BX_U_SFP.
+%Jan  1 00:00:13:643 2013 XZ_NQ_NMS_5530_2 OPTMOD/4/MODULE_IN: Ten-GigabitEthernet1/0/26: The transceiver is 1000_BASE_LX_SFP.
+%Jan  1 00:00:14:302 2013 XZ_NQ_NMS_5530_2 OPTMOD/4/MODULE_IN: Ten-GigabitEthernet1/0/27: The transceiver is 1000_BASE_LX_SFP.
+%Jan  1 00:00:14:686 2013 XZ_NQ_NMS_5530_2 OPTMOD/4/MODULE_IN: Ten-GigabitEthernet1/0/28: The transceiver is 1000_BASE_LX_SFP.
+%Jan  1 00:00:37:189 2013 XZ_NQ_NMS_5530_2 OPTMOD/4/PHONY_MODULE: Ten-GigabitEthernet1/0/25: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+%Jan  1 00:00:40:097 2013 XZ_NQ_NMS_5530_2 IFNET/3/PHY_UPDOWN: GigabitEthernet1/0/23 link status is up.
+%Jan  1 00:00:40:098 2013 XZ_NQ_NMS_5530_2 IFNET/5/LINK_UPDOWN: Line protocol on the interface GigabitEthernet1/0/23 is up.
+%Jan  1 00:00:40:099 2013 XZ_NQ_NMS_5530_2 IFNET/3/PHY_UPDOWN: Vlan-interface8 link status is up.
+%Jan  1 00:00:40:099 2013 XZ_NQ_NMS_5530_2 IFNET/5/LINK_UPDOWN: Line protocol on the interface Vlan-interface8 is up.
+%Jan  1 00:00:41:109 2013 XZ_NQ_NMS_5530_2 LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent new neighbor created on Port GigabitEthernet1/0/23 (IfIndex 23), Chassis ID is 7485-c4eb-da98, Port ID is GigabitEthernet1/0/23.
+
+%Jan  1 00:00:42:252 2013 XZ_NQ_NMS_5530_2 STP/6/STP_DETECTED_TC: Instance 0's port GigabitEthernet1/0/23 detected a topology change.
+%Jan  1 00:00:42:257 2013 XZ_NQ_NMS_5530_2 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/23 was notified a topology change.
+%Jan  1 00:00:45:244 2013 XZ_NQ_NMS_5530_2 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/23 was notified a topology change.
+%Jan  1 00:01:24:089 2013 XZ_NQ_NMS_5530_2 OSPF/5/OSPF_NBR_CHG: OSPF 1 Neighbor 10.235.10.61(Vlan-interface8) from LOADING to FULL.
+%Jan  1 00:06:37:232 2013 XZ_NQ_NMS_5530_2 IFNET/3/PHY_UPDOWN: GigabitEthernet1/0/6 link status is up.
+%Jan  1 00:06:37:234 2013 XZ_NQ_NMS_5530_2 IFNET/5/LINK_UPDOWN: Line protocol on the interface GigabitEthernet1/0/6 is up.
+%Jan  1 00:07:07:712 2013 XZ_NQ_NMS_5530_2 STP/6/STP_DETECTED_TC: Instance 0's port GigabitEthernet1/0/6 detected a topology change.
+%Jan  1 00:10:36:271 2013 XZ_NQ_NMS_5530_2 CFGMAN/5/CFGMAN_CFGCHANGED: -EventIndex=1-CommandSource=snmp-ConfigSource=startup-ConfigDestination=running; Configuration is changed.
+%Jan  1 00:29:20:864 2013 XZ_NQ_NMS_5530_2 IFNET/3/PHY_UPDOWN: GigabitEthernet1/0/6 link status is down.
+%Jan  1 00:29:20:865 2013 XZ_NQ_NMS_5530_2 IFNET/5/LINK_UPDOWN: Line protocol on the interface GigabitEthernet1/0/6 is down.
+%Jan  1 04:22:43:280 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 58233 ssh2.
+
+%Jan  1 04:22:43:330 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan  1 04:22:44:652 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan  1 04:22:48:422 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan  1 04:23:03:050 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan  1 04:23:17:788 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan  1 04:23:50:574 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Jan  1 04:24:25:975 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Jan  1 04:24:37:659 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan  1 04:24:59:370 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan  1 04:25:15:158 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jan  1 04:25:34:658 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan  1 04:25:49:881 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jan  1 04:30:20:088 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jan  1 04:30:20:109 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58233.
+%Jan  1 04:30:20:111 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jan  1 06:35:11:130 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 62691 ssh2.
+
+%Jan  1 06:35:11:180 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan  1 06:35:12:556 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan  1 06:35:37:113 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jan  1 06:35:37:131 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan  1 06:35:37:197 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan  1 06:35:37:240 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan  1 06:35:37:279 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jan  1 06:35:37:422 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jan  1 06:35:37:437 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan  1 06:35:37:534 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan  1 06:35:37:578 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jan  1 06:35:37:916 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan  1 06:35:37:983 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jan  1 06:40:38:789 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jan  1 06:40:38:811 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 62691.
+%Jan  1 06:40:38:812 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jan  2 00:02:10:905 2013 XZ_NQ_NMS_5530_2 OPTMOD/4/PHONY_MODULE: Ten-GigabitEthernet1/0/25: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+%Jan  2 00:56:36:101 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 56793 ssh2.
+
+%Jan  2 00:56:36:217 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan  2 00:56:37:534 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan  2 00:56:51:770 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jan  2 00:56:51:789 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan  2 00:56:51:857 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan  2 00:56:51:902 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan  2 00:56:51:954 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jan  2 00:56:52:004 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jan  2 00:56:52:020 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan  2 00:56:52:120 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan  2 00:56:52:176 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jan  2 00:56:52:579 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan  2 00:56:52:645 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jan  2 01:01:53:777 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jan  2 01:01:53:800 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56793.
+%Jan  2 01:01:53:800 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jan  2 02:43:16:873 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 57676 ssh2.
+
+%Jan  2 02:43:16:924 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan  2 02:43:18:305 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan  2 02:43:30:236 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jan  2 02:43:30:253 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan  2 02:43:30:320 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan  2 02:43:30:357 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan  2 02:43:30:413 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jan  2 02:43:30:456 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jan  2 02:43:30:474 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan  2 02:43:30:592 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan  2 02:43:30:637 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jan  2 02:43:31:001 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan  2 02:43:31:075 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jan  2 02:48:31:580 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jan  2 02:48:31:603 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 57676.
+%Jan  2 02:48:31:604 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jan  3 00:04:02:343 2013 XZ_NQ_NMS_5530_2 OPTMOD/4/PHONY_MODULE: Ten-GigabitEthernet1/0/25: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+%Jan  3 00:05:21:614 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 50271 ssh2.
+
+%Jan  3 00:05:21:663 2013 XZ_NQ_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan  3 00:05:23:046 2013 XZ_NQ_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan  3 00:05:33:556 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jan  3 00:05:33:573 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan  3 00:05:33:636 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan  3 00:05:33:699 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan  3 00:05:33:777 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jan  3 00:05:33:834 2013 XZ_NQ_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jan  3 00:05:33:849 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan  3 00:05:33:951 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan  3 00:05:34:067 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jan  3 00:05:34:392 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan  3 00:05:34:461 2013 XZ_NQ_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer

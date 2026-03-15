@@ -1,0 +1,1690 @@
+﻿HRP_S<CDFW102BHW>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+HRP_S<CDFW102BHW>display version
+2026-03-13 14:22:42.356 
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.21.0.0 (Eudemon9000E-X V600R021C00SPC100)
+Copyright (C) 2012-2022 Huawei Technologies Co., Ltd.
+HUAWEI Eudemon9000E-X8 uptime is 1177 days, 14 hours, 26 minutes
+Patch Version: V600R021SPH020
+
+BKP  version information:
+1.PCB      Version  : FW01BAK08GA VER A
+2.Board    Type     : FW-BAK08GA
+3.MPU Slot Quantity : 2
+4.LPU Slot Quantity : 8
+5.SFU Slot Quantity : 9
+
+MPU(Master) 9 : uptime is  1177 days, 14 hours, 26 minutes
+        StartupTime 2022/12/21   23:59:08
+Memory      Size    : 16384 M bytes
+Flash       Size    : 4096 M bytes
+MPU version information:
+1.PCB       Version : FWMPUA VER B
+2.MAB       Version : 1
+3.Board     Type    : MPUA-E9KE-X4X8
+4.BIOS      Version : 1306
+5.CPLD      Version : 258
+6.FPGA1     Version : 20
+  FPGA2     Version : 257
+  FPGA3     Version : 17
+
+MPU(Slave) 10 : uptime is  1177 days, 14 hours, 24 minutes
+        StartupTime 2022/12/22   00:01:03
+Memory      Size    : 16384 M bytes
+Flash       Size    : 4096 M bytes
+MPU version information:
+1.PCB       Version : FWMPUA VER B
+2.MAB       Version : 1
+3.Board     Type    : MPUA-E9KE-X4X8
+4.BIOS      Version : 1306
+5.CPLD      Version : 258
+6.FPGA1     Version : 20
+  FPGA2     Version : 257
+  FPGA3     Version : 17
+
+SPU 1 : uptime is 1177 days, 14 hours, 21 minutes
+        StartupTime 2022/12/22   00:03:18
+Memory      Size    : 4096 M bytes
+Flash       Size    : 128  M bytes
+SPU version information:
+1.PCB       Version : FWVD1UPUC VER B
+2.MAB       Version : 0
+3.Board     Type    : SPUA-E9KE-02
+4.BIOS      Version : 1306
+5.CPLD      Version : 259
+6.FPGA      Version : 259
+
+CPU1 version information: 
+StartupTime : 2022/12/22   00:05:05
+1. Memory    Size    : 32768 M bytes
+2. Flash     Size    : 128 M bytes
+3. BIOS      Version : 1907
+4. CPLD      Version : 259
+
+CPU2 version information: 
+StartupTime : 2022/12/22   00:04:54
+1. Memory    Size    : 32768 M bytes
+2. Flash     Size    : 128 M bytes
+3. BIOS      Version : 1907
+4. CPLD      Version : 259
+
+SPU 1 card0: 
+1. PCB       Version : FWVD1SPCA VER B
+2. MAB       Version : 0
+3. Board     Type    : SPCA-E9KE-02
+
+CPU3 version information: 
+StartupTime : 2022/12/22   00:08:22
+1. Memory    Size    : 32768 M bytes
+2. Flash     Size    : 128 M bytes
+3. BIOS      Version : 1907
+4. CPLD      Version : 263
+
+CPU4 version information: 
+StartupTime : 2022/12/22   00:08:38
+1. Memory    Size    : 32768 M bytes
+2. Flash     Size    : 128 M bytes
+3. BIOS      Version : 1907
+4. CPLD      Version : 263
+
+LPU 2 : uptime is 1177 days, 14 hours, 22 minutes
+        StartupTime 2022/12/22   00:03:02
+Memory      Size    : 4096 M bytes
+Flash       Size    : 128  M bytes
+LPU version information:
+1.PCB       Version : FWL48XSFD VER C
+2.MAB       Version : 0
+3.Board     Type    : E9KE-LPUA-48XS
+4.BIOS      Version : 1306
+5.CPLD1     Version : 263
+  CPLD2     Version : 263
+  CPLD3     Version : 263
+6.FPGA      Version : 258
+
+SFU3 : uptime is 1177 days, 14 hours, 23 minutes
+        StartupTime 2022/12/22   00:02:12
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB       Version : FWSFU08FA VER B
+2.MAB       Version : 0
+3.Board     Type    : SFUA-E9KE-X8
+4.BIOS      Version : 1306
+5.CPLD      Version : 289
+
+SFU5 : uptime is 1177 days, 14 hours, 23 minutes
+        StartupTime 2022/12/22   00:02:09
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB       Version : FWSFU08FA VER B
+2.MAB       Version : 0
+3.Board     Type    : SFUA-E9KE-X8
+4.BIOS      Version : 1306
+5.CPLD      Version : 289
+
+SFU6 : uptime is 1177 days, 14 hours, 23 minutes
+        StartupTime 2022/12/22   00:02:14
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB       Version : FWSFU08FA VER B
+2.MAB       Version : 0
+3.Board     Type    : SFUA-E9KE-X8
+4.BIOS      Version : 1306
+5.CPLD      Version : 289
+
+SFU8 : uptime is 1177 days, 14 hours, 22 minutes
+        StartupTime 2022/12/22   00:02:16
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB       Version : FWSFU08FA VER B
+2.MAB       Version : 0
+3.Board     Type    : SFUA-E9KE-X8
+4.BIOS      Version : 1306
+5.CPLD      Version : 289
+HRP_S<CDFW102BHW>display device
+2026-03-13 14:22:42.724 
+Eudemon9000E-X8's Device status:
+-------------------------------------------------------------------------------------------
+Slot  Card   Type                     Online   Power Register     Alarm     Primary        
+-------------------------------------------------------------------------------------------
+1     -      SPUA-E9KE-02             Present  On    Registered   Normal    NA             
+2     -      E9KE-LPUA-48XS           Present  On    Registered   Normal    NA             
+9     -      MPUA-E9KE-X4X8           Present  On    Registered   Normal    Master         
+10    -      MPUA-E9KE-X4X8           Present  On    Registered   Normal    Slave          
+SFU3  -      SFUA-E9KE-X8             Present  On    Registered   Normal    NA             
+SFU5  -      SFUA-E9KE-X8             Present  On    Registered   Normal    NA             
+SFU6  -      SFUA-E9KE-X8             Present  On    Registered   Normal    NA             
+SFU8  -      SFUA-E9KE-X8             Present  On    Registered   Normal    NA             
+PWR1  -      PDC-2200WC               Present  On    Registered   Abnormal  NA             
+PWR2  -      PDC-2200WC               Present  On    Registered   Abnormal  NA             
+PWR3  -      PDC-2200WC               Present  On    Registered   Abnormal  NA             
+PWR4  -      PDC-2200WC               Present  On    Registered   Abnormal  NA             
+PWR5  -      PDC-2200WC               Present  On    Registered   Abnormal  NA             
+FAN1  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+FAN2  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+FAN3  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+-------------------------------------------------------------------------------------------
+HRP_S<CDFW102BHW>display cpu-usage
+2026-03-13 14:22:42.872 
+Slot: 9    CPU:0
+CPU utilization statistics at 2026-03-13 14:22:42 894 ms
+System CPU Using Percentage :   5%
+Dataplane CPU Using Percentage :   0%
+CPU utilization for five seconds: 5%, one minute: 4%, five minutes: 4%.
+Max CPU Usage :                33%
+Max CPU Usage Stat. Time : 2022-12-22 00:01:20 773 ms
+State: Unoverload
+Overload threshold:  90%, Overload clear threshold:  75%, Duration:   60s
+----------------------------------------------------
+ServiceName                               UseRate
+----------------------------------------------------
+pssp_rotate.service                               0%
+vrpv8_startup.service                             0%
+secmng.service                                    0%
+smplite.service                                   0%
+dhcp_gc.service                                   0%
+dophi-daemon.service                              0%
+ha_daemon_master.service                          0%
+fwm_frm.service                                   0%
+mount_phrase2.service                             0%
+systemd-update-done.service                       0%
+systemd-remount-fs.service                        0%
+rsyslog.service                                   0%
+pnf_pre_v8.service                                0%
+time_monitor.service                              0%
+vcmu_agent.service                                0%
+kmod-static-nodes.service                         0%
+nlogmng.service                                   0%
+pssp_crond.service                                0%
+swm_daemon_master.service                         0%
+ftp_server.service                                0%
+pnflogd.service                                   0%
+hdmng.service                                     0%
+uni-cmd-agent.service                             0%
+ldconfig.service                                  0%
+hostsec.service                                   0%
+systemd-random-seed.service                       0%
+systemd-hwdb-update.service                       0%
+systemd-journal-flush.service                     0%
+systemd-tmpfiles-setup-dev.service                0%
+sys_verify_cc.service                             0%
+stlm.service                                      0%
+hpp.service                                       0%
+fsinit_socketserver.service                       0%
+said_main.service                                 0%
+pssp_kms_daemon.service                           0%
+systemd-sysctl.service                            0%
+sys_boot.service                                  0%
+systemd-tmpfiles-setup.service                    0%
+systemd-journald.service                          0%
+systemd-user-sessions.service                     0%
+mount_ramlog.service                              0%
+gmserver.service                                  0%
+pssp_agent.service                                0%
+clock.service                                     0%
+systemd-sysusers.service                          0%
+vcmu.service                                      0%
+restorecond.service                               0%
+hpp_hsd.service                                   0%
+gmdb_daemon.service                               0%
+mount_homeboot.service                            0%
+vrpv8_pre.service                                 0%
+drv_init_phrase1.service                          0%
+capacityset.service                               0%
+zombie_detect.service                             0%
+docue_nsc.service                                 0%
+pcm.service                                       0%
+rc-local.service                                  0%
+systemd-journal-catalog-update.service            0%
+pssp_kms_master.service                           0%
+stlm-das.service                                  0%
+dbus.service                                      0%
+socketserver.service                              0%
+mts.service                                       0%
+nac-main.service                                  0%
+dns.service                                       0%
+pkimng.service                                    0%
+webm.service                                      0%
+hipsmng.service                                   0%
+hips.service                                      0%
+eca.service                                       0%
+nac-admin.service                                 0%
+dhcp.service                                      0%
+nc_server.service                                 0%
+esapd.service                                     0%
+iae_mng.service                                   0%
+secbase.service                                   0%
+schema_loader_pre_proc.service                    0%
+llb_mng.service                                   0%
+schema_loader.service                             0%
+yang_gmrule.service                               0%
+nac-preproc.service                               0%
+gmrule.service                                    0%
+----------------------------------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0         9%       9%       8%       8%  51% 2022-12-22 00:01:40
+cpu1         0%       0%       0%       0%   2% 2022-12-22 00:02:30
+cpu2         0%       0%       0%       0%   0% 2022-12-21 23:58:37
+cpu3         6%       6%       5%       4%  38% 2022-12-22 00:01:20
+cpu4         4%       4%       4%       4%  41% 2022-12-22 00:01:20
+cpu5         6%       5%       5%       5%  35% 2022-12-22 00:01:20
+cpu6         5%       4%       4%       4%  41% 2022-12-22 00:01:10
+cpu7         6%       5%       4%       4%  42% 2022-12-22 00:01:10
+cpu8         4%       4%       4%       5%  38% 2022-12-22 00:01:10
+cpu9         5%       5%       4%       4%  36% 2022-12-22 00:01:20
+cpu10        5%       5%       4%       4%  37% 2022-12-22 00:01:20
+cpu11        5%       5%       4%       4%  34% 2022-12-22 00:01:20
+cpu12       11%      10%       9%       9%  29% 2022-12-22 00:01:40
+cpu13        7%       6%       5%       5%  36% 2022-12-22 00:01:20
+cpu14        6%       5%       4%       4%  37% 2022-12-22 00:01:20
+cpu15        8%       8%       6%       5%  40% 2022-12-22 00:01:20
+----------------------------------------------------------------
+HRP_S<CDFW102BHW>display memory-usage
+                         ^
+Error: Unrecognized command found at '^' position.
+HRP_S<CDFW102BHW>display memory all
+2026-03-13 14:22:43.36 
+Slot: 1   CPU: 0
+Total Physical Memory: 3363680 Kbytes    
+Total Physical Memory Used: 1755100 Kbytes    
+Physical Memory Using Percentage: 52%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: 1   CPU: 1
+Total Physical Memory: 31881492 Kbytes   
+Total Physical Memory Used: 10267088 Kbytes   
+Physical Memory Using Percentage: 32%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: 1   CPU: 2
+Total Physical Memory: 31881492 Kbytes   
+Total Physical Memory Used: 10268724 Kbytes   
+Physical Memory Using Percentage: 32%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: 1   CPU: 3
+Total Physical Memory: 31881488 Kbytes   
+Total Physical Memory Used: 10264904 Kbytes   
+Physical Memory Using Percentage: 32%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: 1   CPU: 4
+Total Physical Memory: 31881492 Kbytes   
+Total Physical Memory Used: 10264052 Kbytes   
+Physical Memory Using Percentage: 32%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: 2   CPU: 0
+Total Physical Memory: 3327868 Kbytes    
+Total Physical Memory Used: 1693284 Kbytes    
+Physical Memory Using Percentage: 50%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: 9   CPU: 0
+Total Physical Memory: 16125060 Kbytes   
+Total Physical Memory Used: 4797248 Kbytes    
+Physical Memory Using Percentage: 29%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: 10   CPU: 0
+Total Physical Memory: 16125060 Kbytes   
+Total Physical Memory Used: 4176616 Kbytes    
+Physical Memory Using Percentage: 25%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: SFU3   CPU: 0
+Total Physical Memory: 1539836 Kbytes    
+Total Physical Memory Used: 995900 Kbytes     
+Physical Memory Using Percentage: 64%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: SFU5   CPU: 0
+Total Physical Memory: 1539836 Kbytes    
+Total Physical Memory Used: 996680 Kbytes     
+Physical Memory Using Percentage: 64%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: SFU6   CPU: 0
+Total Physical Memory: 1539836 Kbytes    
+Total Physical Memory Used: 996856 Kbytes     
+Physical Memory Using Percentage: 64%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+Slot: SFU8   CPU: 0
+Total Physical Memory: 1539836 Kbytes    
+Total Physical Memory Used: 996036 Kbytes     
+Physical Memory Using Percentage: 64%               
+State: Unoverload        
+Overload threshold:  95%, Overload clear threshold:  75%, Duration:   60s
+-----------------------------------------------------------------------------------------
+HRP_S<CDFW102BHW>display interface brief
+2026-03-13 14:22:43.776 
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(dl): DLDP down
+(c): CFM down
+(ed): error down
+InUti/OutUti: input utility rate/output utility rate
+Interface                  PHY      Protocol  InUti OutUti   inErrors  outErrors
+10GE2/0/0                  *down    down         0%     0%          0          0
+10GE2/0/1                  *down    down         0%     0%          0          0
+10GE2/0/6                  up       down      0.01%  0.01%          0          0
+10GE2/0/7                  up       down      0.01%  0.01%          0          0
+10GE2/0/8                  up       up        0.01%  0.01%          0          0
+10GE2/0/9                  *down    down         0%     0%          0          0
+10GE2/0/10                 up       down      0.01%  0.01%   27146440          0
+10GE2/0/10.54              up       down         0%     0%          0          0
+10GE2/0/10.55              up       up           0%     0%          0          0
+10GE2/0/11                 *down    down         0%     0%          0          0
+10GE2/0/12                 *down    down         0%     0%          0          0
+10GE2/0/13                 *down    down         0%     0%          0          0
+10GE2/0/14                 *down    down         0%     0%          0          0
+10GE2/0/15                 *down    down         0%     0%          0          0
+10GE2/0/16                 *down    down         0%     0%          0          0
+10GE2/0/17                 *down    down         0%     0%          0          0
+10GE2/0/18                 *down    down         0%     0%          0          0
+10GE2/0/19                 *down    down         0%     0%          0          0
+10GE2/0/20                 *down    down         0%     0%          0          0
+10GE2/0/21                 *down    down         0%     0%          0          0
+10GE2/0/22                 *down    down         0%     0%          0          0
+10GE2/0/23                 *down    down         0%     0%          0          0
+10GE2/0/24                 *down    down         0%     0%          0          0
+10GE2/0/25                 *down    down         0%     0%          0          0
+10GE2/0/26                 *down    down         0%     0%          0          0
+10GE2/0/27                 *down    down         0%     0%          0          0
+10GE2/0/28                 *down    down         0%     0%          0          0
+10GE2/0/29                 *down    down         0%     0%          0          0
+10GE2/0/30                 *down    down         0%     0%          0          0
+10GE2/0/31                 *down    down         0%     0%          0          0
+10GE2/0/32                 *down    down         0%     0%          0          0
+10GE2/0/33                 *down    down         0%     0%          0          0
+10GE2/0/34                 *down    down         0%     0%          0          0
+10GE2/0/35                 *down    down         0%     0%          0          0
+10GE2/0/36                 *down    down         0%     0%          0          0
+10GE2/0/37                 *down    down         0%     0%          0          0
+10GE2/0/38                 *down    down         0%     0%          0          0
+10GE2/0/39                 *down    down         0%     0%          0          0
+10GE2/0/40                 *down    down         0%     0%          0          0
+10GE2/0/41                 *down    down         0%     0%          0          0
+10GE2/0/42                 *down    down         0%     0%          0          0
+10GE2/0/43                 *down    down         0%     0%          0          0
+10GE2/0/44                 *down    down         0%     0%          0          0
+10GE2/0/45                 *down    down         0%     0%          0          0
+10GE2/0/46                 *down    down         0%     0%          0          0
+10GE2/0/47                 *down    down         0%     0%          0          0
+Eth-Trunk0                 up       up        0.01%  0.01%          0          0
+  10GE2/0/2                up       up        0.01%  0.01%          0          0
+  10GE2/0/3                up       up        0.01%  0.01%          0          0
+Eth-Trunk2                 up       down      0.01%  0.01%          0          0
+  10GE2/0/4                up       up        0.01%  0.01%          0          0
+  10GE2/0/5                up       up        0.01%  0.01%          0          0
+Eth-Trunk2.20              up       up           0%     0%          0          0
+LoopBack3                  up       up(s)        --     --          0          0
+MEth0/0/0                  down     down         0%     0%          0          0
+NULL0                      up       up(s)        0%     0%          0          0
+Virtual-if0                up       up(s)        0%     0%          0          0
+HRP_S<CDFW102BHW>display logbuffer
+2026-03-13 14:22:44.227 
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 2567849
+Current messages : 512
+
+Mar 13 2026 11:34:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219121336.log.zip)
+Mar 13 2026 11:34:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219121336.log.zip)
+Mar 13 2026 11:09:20 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260208145801.pads.zip)
+Mar 13 2026 11:09:20 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260208145801.pads.zip)
+Mar 12 2026 15:26:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260207190911.pads.zip)
+Mar 12 2026 15:26:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260207190911.pads.zip)
+Mar 12 2026 10:13:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218111112.log.zip)
+Mar 12 2026 10:13:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218111112.log.zip)
+Mar 11 2026 19:28:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20240119180007.log.zip)
+Mar 11 2026 19:28:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20240119180007.log.zip)
+Mar 11 2026 19:28:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260206232609.pads.zip)
+Mar 11 2026 19:28:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260206232609.pads.zip)
+Mar 11 2026 14:31:19 CDFW102BHW %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c87541-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Mar 11 2026 14:25:19 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Mar 11 2026 14:24:11 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Mar 11 2026 14:23:37 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Mar 11 2026 14:23:31 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Mar 11 2026 14:21:02 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=3, totalVTYs=5)
+Mar 11 2026 14:20:44 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Mar 11 2026 14:19:29 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=3, totalVTYs=5)
+Mar 11 2026 14:18:25 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Mar 11 2026 09:13:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260217101336.log.zip)
+Mar 11 2026 09:13:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260217101336.log.zip)
+Mar 10 2026 23:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260206033931.pads.zip)
+Mar 10 2026 23:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260206033931.pads.zip)
+Mar 10 2026 15:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Mar 10 2026 08:04:17 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216091050.log.zip)
+Mar 10 2026 08:04:17 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216091050.log.zip)
+Mar 10 2026 03:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260205075738.pads.zip)
+Mar 10 2026 03:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260205075738.pads.zip)
+Mar  9 2026 16:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Mar  9 2026 16:53:31 CDFW102BHW %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c87541-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Mar  9 2026 16:47:17 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Mar  9 2026 16:43:31 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Mar  9 2026 08:23:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260204120914.pads.zip)
+Mar  9 2026 08:23:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260204120914.pads.zip)
+Mar  9 2026 07:13:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215080112.log.zip)
+Mar  9 2026 07:13:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215080112.log.zip)
+Mar  8 2026 12:25:59 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260203162537.pads.zip)
+Mar  8 2026 12:25:59 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260203162537.pads.zip)
+Mar  8 2026 05:59:15 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260214064255.log.zip)
+Mar  8 2026 05:59:15 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260214064255.log.zip)
+Mar  7 2026 18:28:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250401105629.log.zip)
+Mar  7 2026 18:28:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250401105629.log.zip)
+Mar  7 2026 16:28:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260202204006.pads.zip)
+Mar  7 2026 16:28:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260202204006.pads.zip)
+Mar  7 2026 04:41:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213053333.log.zip)
+Mar  7 2026 04:41:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213053333.log.zip)
+Mar  7 2026 02:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240922202937.log.zip)
+Mar  7 2026 02:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240922202937.log.zip)
+Mar  6 2026 20:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260202005838.pads.zip)
+Mar  6 2026 20:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260202005838.pads.zip)
+Mar  6 2026 03:13:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212042207.log.zip)
+Mar  6 2026 03:13:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212042207.log.zip)
+Mar  6 2026 00:52:15 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260201052304.pads.zip)
+Mar  6 2026 00:52:15 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260201052304.pads.zip)
+Mar  5 2026 04:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260131092838.pads.zip)
+Mar  5 2026 04:58:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260131092838.pads.zip)
+Mar  5 2026 02:13:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211033134.log.zip)
+Mar  5 2026 02:13:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211033134.log.zip)
+Mar  4 2026 09:27:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260130135355.pads.zip)
+Mar  4 2026 09:27:33 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260130135355.pads.zip)
+Mar  4 2026 01:09:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260210021122.log.zip)
+Mar  4 2026 01:09:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260210021122.log.zip)
+Mar  3 2026 13:28:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260129175838.pads.zip)
+Mar  3 2026 13:28:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260129175838.pads.zip)
+Mar  3 2026 08:28:34 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Mar  3 2026 00:13:08 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209005847.log.zip)
+Mar  3 2026 00:13:08 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209005847.log.zip)
+Mar  2 2026 17:53:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260128222525.pads.zip)
+Mar  2 2026 17:53:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260128222525.pads.zip)
+Mar  1 2026 23:13:19 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207235843.log.zip)
+Mar  1 2026 23:13:19 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207235843.log.zip)
+Mar  1 2026 21:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260128023918.pads.zip)
+Mar  1 2026 21:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260128023918.pads.zip)
+Mar  1 2026 02:22:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260127065315.pads.zip)
+Mar  1 2026 02:22:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260127065315.pads.zip)
+Feb 28 2026 21:43:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260206223310.log.zip)
+Feb 28 2026 21:43:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260206223310.log.zip)
+Feb 28 2026 11:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250326155915.log.zip)
+Feb 28 2026 11:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250326155915.log.zip)
+Feb 28 2026 06:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260126111203.pads.zip)
+Feb 28 2026 06:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260126111203.pads.zip)
+Feb 28 2026 05:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20240108060008.log.zip)
+Feb 28 2026 05:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20240108060008.log.zip)
+Feb 27 2026 20:23:24 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205211131.log.zip)
+Feb 27 2026 20:23:24 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205211131.log.zip)
+Feb 27 2026 10:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260125152839.pads.zip)
+Feb 27 2026 10:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260125152839.pads.zip)
+Feb 26 2026 19:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Feb 26 2026 19:00:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204195950.log.zip)
+Feb 26 2026 19:00:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204195950.log.zip)
+Feb 26 2026 15:10:09 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124195205.pads.zip)
+Feb 26 2026 15:10:09 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124195205.pads.zip)
+Feb 25 2026 19:22:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124000919.pads.zip)
+Feb 25 2026 19:22:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124000919.pads.zip)
+Feb 25 2026 17:43:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203185320.log.zip)
+Feb 25 2026 17:43:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203185320.log.zip)
+Feb 24 2026 23:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260123042558.pads.zip)
+Feb 24 2026 23:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260123042558.pads.zip)
+Feb 24 2026 16:30:57 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260202175424.log.zip)
+Feb 24 2026 16:30:57 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260202175424.log.zip)
+Feb 24 2026 05:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240911225939.log.zip)
+Feb 24 2026 05:28:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240911225939.log.zip)
+Feb 24 2026 03:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260122084131.pads.zip)
+Feb 24 2026 03:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260122084131.pads.zip)
+Feb 24 2026 00:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Feb 23 2026 15:13:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201163157.log.zip)
+Feb 23 2026 15:13:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201163157.log.zip)
+Feb 23 2026 07:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260121125839.pads.zip)
+Feb 23 2026 07:58:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260121125839.pads.zip)
+Feb 22 2026 14:01:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131145916.log.zip)
+Feb 22 2026 14:01:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131145916.log.zip)
+Feb 22 2026 12:28:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260120172204.pads.zip)
+Feb 22 2026 12:28:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260120172204.pads.zip)
+Feb 21 2026 16:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260119214007.pads.zip)
+Feb 21 2026 16:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260119214007.pads.zip)
+Feb 21 2026 12:42:13 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260130133229.log.zip)
+Feb 21 2026 12:42:13 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260130133229.log.zip)
+Feb 21 2026 04:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250319222916.log.zip)
+Feb 21 2026 04:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250319222916.log.zip)
+Feb 20 2026 20:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260119015840.pads.zip)
+Feb 20 2026 20:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260119015840.pads.zip)
+Feb 20 2026 11:31:10 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260129122455.log.zip)
+Feb 20 2026 11:31:10 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260129122455.log.zip)
+Feb 20 2026 01:24:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260118062204.pads.zip)
+Feb 20 2026 01:24:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260118062204.pads.zip)
+Feb 19 2026 10:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260128111339.log.zip)
+Feb 19 2026 10:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260128111339.log.zip)
+Feb 19 2026 05:41:55 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260117103922.pads.zip)
+Feb 19 2026 05:41:55 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260117103922.pads.zip)
+Feb 18 2026 09:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260116145541.pads.zip)
+Feb 18 2026 09:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260116145541.pads.zip)
+Feb 18 2026 09:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260127095603.log.zip)
+Feb 18 2026 09:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260127095603.log.zip)
+Feb 17 2026 14:21:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260115191053.pads.zip)
+Feb 17 2026 14:21:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260115191053.pads.zip)
+Feb 17 2026 08:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260126085124.log.zip)
+Feb 17 2026 08:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260126085124.log.zip)
+Feb 16 2026 19:28:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Feb 16 2026 18:28:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260114232840.pads.zip)
+Feb 16 2026 18:28:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260114232840.pads.zip)
+Feb 16 2026 16:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231227173009.log.zip)
+Feb 16 2026 16:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231227173009.log.zip)
+Feb 16 2026 07:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260125072428.log.zip)
+Feb 16 2026 07:13:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260125072428.log.zip)
+Feb 15 2026 23:28:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Feb 15 2026 22:55:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260114035204.pads.zip)
+Feb 15 2026 22:55:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260114035204.pads.zip)
+Feb 15 2026 06:01:27 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260124054255.log.zip)
+Feb 15 2026 06:01:27 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260124054255.log.zip)
+Feb 15 2026 02:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260113081159.pads.zip)
+Feb 15 2026 02:58:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260113081159.pads.zip)
+Feb 14 2026 07:28:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260112122802.pads.zip)
+Feb 14 2026 07:28:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260112122802.pads.zip)
+Feb 14 2026 04:32:28 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260123042244.log.zip)
+Feb 14 2026 04:32:28 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260123042244.log.zip)
+Feb 13 2026 22:58:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250312172917.log.zip)
+Feb 13 2026 22:58:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250312172917.log.zip)
+Feb 13 2026 11:53:00 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260111164140.pads.zip)
+Feb 13 2026 11:53:00 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260111164140.pads.zip)
+Feb 13 2026 09:28:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240901022940.log.zip)
+Feb 13 2026 09:28:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240901022940.log.zip)
+Feb 13 2026 03:32:31 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260122030055.log.zip)
+Feb 13 2026 03:32:31 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260122030055.log.zip)
+Feb 12 2026 16:10:52 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260110205631.pads.zip)
+Feb 12 2026 16:10:52 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260110205631.pads.zip)
+Feb 12 2026 02:30:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260121014340.log.zip)
+Feb 12 2026 02:30:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260121014340.log.zip)
+Feb 11 2026 20:28:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260110011122.pads.zip)
+Feb 11 2026 20:28:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260110011122.pads.zip)
+Feb 11 2026 17:05:31 CDFW102BHW %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c87541-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Feb 11 2026 17:03:33 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Feb 11 2026 16:56:16 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Feb 11 2026 01:41:12 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260120003911.log.zip)
+Feb 11 2026 01:41:12 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260120003911.log.zip)
+Feb 11 2026 00:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260109052726.pads.zip)
+Feb 11 2026 00:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260109052726.pads.zip)
+Feb 10 2026 05:09:09 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260108095603.pads.zip)
+Feb 10 2026 05:09:09 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260108095603.pads.zip)
+Feb 10 2026 00:21:26 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260118235129.log.zip)
+Feb 10 2026 00:21:25 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260118235129.log.zip)
+Feb  9 2026 13:58:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Feb  9 2026 09:24:26 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260107135841.pads.zip)
+Feb  9 2026 09:24:26 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260107135841.pads.zip)
+Feb  8 2026 23:40:24 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260117221245.log.zip)
+Feb  8 2026 23:40:24 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260117221245.log.zip)
+Feb  8 2026 13:28:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260106182544.pads.zip)
+Feb  8 2026 13:28:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260106182544.pads.zip)
+Feb  7 2026 22:12:52 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260116204318.log.zip)
+Feb  7 2026 22:12:52 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260116204318.log.zip)
+Feb  7 2026 17:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260105224203.pads.zip)
+Feb  7 2026 17:52:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260105224203.pads.zip)
+Feb  6 2026 22:26:29 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260105031025.pads.zip)
+Feb  6 2026 22:26:29 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260105031025.pads.zip)
+Feb  6 2026 20:43:07 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260115192210.log.zip)
+Feb  6 2026 20:43:07 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260115192210.log.zip)
+Feb  6 2026 17:58:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250305125918.log.zip)
+Feb  6 2026 17:58:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250305125918.log.zip)
+Feb  6 2026 02:24:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260104072516.pads.zip)
+Feb  6 2026 02:24:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260104072516.pads.zip)
+Feb  5 2026 19:13:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260114180236.log.zip)
+Feb  5 2026 19:13:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260114180236.log.zip)
+Feb  5 2026 06:28:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260103114122.pads.zip)
+Feb  5 2026 06:28:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260103114122.pads.zip)
+Feb  5 2026 04:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231216043011.log.zip)
+Feb  5 2026 04:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231216043011.log.zip)
+Feb  5 2026 03:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Feb  4 2026 18:03:20 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260113164340.log.zip)
+Feb  4 2026 18:03:20 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260113164340.log.zip)
+Feb  4 2026 10:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260102155613.pads.zip)
+Feb  4 2026 10:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260102155613.pads.zip)
+Feb  3 2026 17:01:44 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260112152322.log.zip)
+Feb  3 2026 17:01:44 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260112152322.log.zip)
+Feb  3 2026 15:25:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260101201203.pads.zip)
+Feb  3 2026 15:25:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260101201203.pads.zip)
+Feb  3 2026 15:03:13 CDFW102BHW %%01TELNETS/4/TELNETS_IP_BLOCK_CLIENT(s):CID=0x80c87541;Telnet client ip blocked due to password authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=2)
+Feb  3 2026 14:13:27 CDFW102BHW %%01TELNETS/4/TELS_IP_UNLOCKED(s):CID=0xc82721;IP was unlocked. (IpAddress=10.237.100.196, VpnName=_public_)
+Feb  3 2026 14:12:50 CDFW102BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d5040e;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Feb  3 2026 14:12:20 CDFW102BHW %%01INFO/3/SUPPRESS_LOGINFO(s):CID=0x8060040c;Log SNMP/SNMP_AUTHEN_FAILED is suppressed 2 in last 60 seconds.
+Feb  3 2026 14:12:20 CDFW102BHW %%01INFO/4/SUPPRESS_LOGINFO(s):CID=0x8060040c;Log SNMP/AUTHENTICATIONFAILURE is suppressed 2 in last 60 seconds.
+Feb  3 2026 14:12:18 CDFW102BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d5040e;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Feb  3 2026 14:12:10 CDFW102BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d5040e;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Feb  3 2026 14:11:53 CDFW102BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d5040e;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Feb  3 2026 14:11:37 CDFW102BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d5040e;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Feb  3 2026 14:11:29 CDFW102BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d5040e;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Feb  3 2026 14:11:29 CDFW102BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d5040e;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=2211769, PduType=Get, Reason=Community is incorrect)
+Feb  3 2026 14:08:28 CDFW102BHW %%01TELNETS/4/TELS_IP_LOCKED(s):CID=0xc82721;IP was locked. (IpAddress=10.237.100.196, VpnName=_public_, Period=5 minutes)
+Feb  3 2026 14:08:21 CDFW102BHW %%01TELNETS/4/TELS_IP_UNLOCKED(s):CID=0xc82721;IP was unlocked. (IpAddress=10.237.100.196, VpnName=_public_)
+Feb  3 2026 14:03:21 CDFW102BHW %%01TELNETS/4/TELS_IP_LOCKED(s):CID=0xc82721;IP was locked. (IpAddress=10.237.100.196, VpnName=_public_, Period=5 minutes)
+Feb  2 2026 19:55:21 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260101002842.pads.zip)
+Feb  2 2026 19:55:21 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260101002842.pads.zip)
+Feb  2 2026 16:01:25 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260111140050.log.zip)
+Feb  2 2026 16:01:25 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260111140050.log.zip)
+Feb  2 2026 13:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240821042941.log.zip)
+Feb  2 2026 13:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240821042941.log.zip)
+Feb  2 2026 09:28:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Feb  1 2026 23:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251231045430.pads.zip)
+Feb  1 2026 23:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251231045430.pads.zip)
+Feb  1 2026 14:43:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260110122331.log.zip)
+Feb  1 2026 14:43:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260110122331.log.zip)
+Feb  1 2026 04:28:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251230085842.pads.zip)
+Feb  1 2026 04:28:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251230085842.pads.zip)
+Jan 31 2026 13:13:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260109105411.log.zip)
+Jan 31 2026 13:13:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260109105411.log.zip)
+Jan 31 2026 08:57:23 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251229132811.pads.zip)
+Jan 31 2026 08:57:23 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251229132811.pads.zip)
+Jan 30 2026 12:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251228173937.pads.zip)
+Jan 30 2026 12:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251228173937.pads.zip)
+Jan 30 2026 12:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250226045919.log.zip)
+Jan 30 2026 12:58:38 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250226045919.log.zip)
+Jan 30 2026 11:52:28 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260108094341.log.zip)
+Jan 30 2026 11:52:28 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260108094341.log.zip)
+Jan 29 2026 17:12:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251227215352.pads.zip)
+Jan 29 2026 17:12:06 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251227215352.pads.zip)
+Jan 29 2026 10:42:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260107083244.log.zip)
+Jan 29 2026 10:42:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260107083244.log.zip)
+Jan 29 2026 06:14:55 CDFW102BHW %%01VCMU/3/hwBrdTempAlarm_clear(l):CID=0x0-alarmID=0x0813000d-clearType=service_resume;The alarm indicating that the board temperature exceeded the upper alarm threshold was cleared. (EntPhysicalIndex=17432577, EntPhysicalName=MPU slot 10, EntityThresholdType=1, EntityThresholdWarning=47, EntityThresholdCurrent=46, EntityTrapFaultID=143617, Reason=The board temperature was too high.)
+Jan 29 2026 06:14:54 CDFW102BHW %%01VCMU/3/hwBrdTempAlarm_active(l):CID=0x0-alarmID=0x0813000d;The board temperature exceeded the upper alarm threshold. (EntPhysicalIndex=17432577, EntPhysicalName=MPU slot 10, EntityThresholdType=1, EntityThresholdWarning=47, EntityThresholdCurrent=47, EntityTrapFaultID=143617, Reason=The board temperature was too high.)
+Jan 29 2026 06:14:40 CDFW102BHW %%01VCMU/3/hwBrdTempAlarm_clear(l):CID=0x0-alarmID=0x0813000d-clearType=service_resume;The alarm indicating that the board temperature exceeded the upper alarm threshold was cleared. (EntPhysicalIndex=17367041, EntPhysicalName=MPU slot 9, EntityThresholdType=1, EntityThresholdWarning=47, EntityThresholdCurrent=46, EntityTrapFaultID=143617, Reason=The board temperature was too high.)
+Jan 29 2026 06:14:39 CDFW102BHW %%01VCMU/3/hwBrdTempAlarm_active(l):CID=0x0-alarmID=0x0813000d;The board temperature exceeded the upper alarm threshold. (EntPhysicalIndex=17367041, EntPhysicalName=MPU slot 9, EntityThresholdType=1, EntityThresholdWarning=47, EntityThresholdCurrent=47, EntityTrapFaultID=143617, Reason=The board temperature was too high.)
+Jan 28 2026 21:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251227021201.pads.zip)
+Jan 28 2026 21:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251227021201.pads.zip)
+Jan 28 2026 09:40:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260106072242.log.zip)
+Jan 28 2026 09:40:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260106072242.log.zip)
+Jan 28 2026 01:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251226062715.pads.zip)
+Jan 28 2026 01:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251226062715.pads.zip)
+Jan 27 2026 08:23:31 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260105061208.log.zip)
+Jan 27 2026 08:23:31 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260105061208.log.zip)
+Jan 27 2026 05:53:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251225103937.pads.zip)
+Jan 27 2026 05:53:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251225103937.pads.zip)
+Jan 26 2026 10:27:08 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251224145338.pads.zip)
+Jan 26 2026 10:27:08 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251224145338.pads.zip)
+Jan 26 2026 07:12:49 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260104043128.log.zip)
+Jan 26 2026 07:12:49 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260104043128.log.zip)
+Jan 26 2026 03:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Jan 25 2026 14:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251223185843.pads.zip)
+Jan 25 2026 14:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251223185843.pads.zip)
+Jan 25 2026 07:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Jan 25 2026 05:43:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260103030047.log.zip)
+Jan 25 2026 05:43:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260103030047.log.zip)
+Jan 24 2026 18:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251222232431.pads.zip)
+Jan 24 2026 18:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251222232431.pads.zip)
+Jan 24 2026 16:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231204163012.log.zip)
+Jan 24 2026 16:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231204163012.log.zip)
+Jan 24 2026 03:53:50 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260102014309.log.zip)
+Jan 24 2026 03:53:50 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260102014309.log.zip)
+Jan 23 2026 23:22:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251222033940.pads.zip)
+Jan 23 2026 23:22:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251222033940.pads.zip)
+Jan 23 2026 06:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250218212920.log.zip)
+Jan 23 2026 06:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250218212920.log.zip)
+Jan 23 2026 03:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251221075355.pads.zip)
+Jan 23 2026 03:28:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251221075355.pads.zip)
+Jan 23 2026 02:40:13 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260101002143.log.zip)
+Jan 23 2026 02:40:13 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260101002143.log.zip)
+Jan 22 2026 17:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240810062943.log.zip)
+Jan 22 2026 17:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240810062943.log.zip)
+Jan 22 2026 07:56:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251220115843.pads.zip)
+Jan 22 2026 07:56:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251220115843.pads.zip)
+Jan 22 2026 01:30:54 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251230231311.log.zip)
+Jan 22 2026 01:30:54 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251230231311.log.zip)
+Jan 21 2026 11:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251219162337.pads.zip)
+Jan 21 2026 11:58:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251219162337.pads.zip)
+Jan 21 2026 00:13:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251229220224.log.zip)
+Jan 21 2026 00:13:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251229220224.log.zip)
+Jan 20 2026 16:22:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251218203942.pads.zip)
+Jan 20 2026 16:22:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251218203942.pads.zip)
+Jan 19 2026 23:13:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251228205449.log.zip)
+Jan 19 2026 23:13:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251228205449.log.zip)
+Jan 19 2026 20:54:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251218005844.pads.zip)
+Jan 19 2026 20:54:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251218005844.pads.zip)
+Jan 19 2026 00:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251217052348.pads.zip)
+Jan 19 2026 00:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251217052348.pads.zip)
+Jan 18 2026 22:08:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251227190232.log.zip)
+Jan 18 2026 22:08:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251227190232.log.zip)
+Jan 18 2026 20:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Jan 18 2026 05:28:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251216092844.pads.zip)
+Jan 18 2026 05:28:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251216092844.pads.zip)
+Jan 17 2026 20:32:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251226172310.log.zip)
+Jan 17 2026 20:32:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251226172310.log.zip)
+Jan 17 2026 09:52:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251215135250.pads.zip)
+Jan 17 2026 09:52:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251215135250.pads.zip)
+Jan 16 2026 18:59:15 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251225155449.log.zip)
+Jan 16 2026 18:59:15 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251225155449.log.zip)
+Jan 16 2026 13:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251214180945.pads.zip)
+Jan 16 2026 13:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251214180945.pads.zip)
+Jan 16 2026 00:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250211132921.log.zip)
+Jan 16 2026 00:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250211132921.log.zip)
+Jan 15 2026 18:25:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251213222348.pads.zip)
+Jan 15 2026 18:25:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251213222348.pads.zip)
+Jan 15 2026 17:53:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251224144343.log.zip)
+Jan 15 2026 17:53:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251224144343.log.zip)
+Jan 14 2026 22:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251213023951.pads.zip)
+Jan 14 2026 22:52:05 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251213023951.pads.zip)
+Jan 14 2026 16:13:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251223140447.log.zip)
+Jan 14 2026 16:13:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251223140447.log.zip)
+Jan 14 2026 11:28:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Jan 14 2026 02:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251212065610.pads.zip)
+Jan 14 2026 02:58:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251212065610.pads.zip)
+Jan 13 2026 14:54:12 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251222102126.log.zip)
+Jan 13 2026 14:54:12 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251222102126.log.zip)
+Jan 13 2026 07:26:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251211110947.pads.zip)
+Jan 13 2026 07:26:58 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251211110947.pads.zip)
+Jan 13 2026 05:28:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231123043014.log.zip)
+Jan 13 2026 05:28:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231123043014.log.zip)
+Jan 12 2026 18:46:41 CDFW102BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80937540;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.254, VpnName=_public_, BlockCount=1)
+Jan 12 2026 17:51:50 CDFW102BHW %%01SSH/4/IP_UNLOCKED(s):CID=0x80937540;IP was unlocked. (IpAddress=10.237.35.254, VpnName=_public_)
+Jan 12 2026 17:46:50 CDFW102BHW %%01SSH/4/IP_LOCKED(s):CID=0x80937540;IP was locked. (IpAddress=10.237.35.254, VpnName=_public_, Period=5 minutes)
+Jan 12 2026 13:43:13 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251221085259.log.zip)
+Jan 12 2026 13:43:13 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251221085259.log.zip)
+Jan 12 2026 11:28:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251210152159.pads.zip)
+Jan 12 2026 11:28:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251210152159.pads.zip)
+Jan 11 2026 21:58:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240730085944.log.zip)
+Jan 11 2026 21:58:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240730085944.log.zip)
+Jan 11 2026 15:58:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Jan 11 2026 15:56:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251209192845.pads.zip)
+Jan 11 2026 15:56:40 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251209192845.pads.zip)
+Jan 11 2026 12:13:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251220071254.log.zip)
+Jan 11 2026 12:13:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251220071254.log.zip)
+Jan 10 2026 20:11:31 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251208235403.pads.zip)
+Jan 10 2026 20:11:31 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251208235403.pads.zip)
+Jan 10 2026 10:31:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251219054343.log.zip)
+Jan 10 2026 10:31:47 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251219054343.log.zip)
+Jan 10 2026 00:26:22 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251208035845.pads.zip)
+Jan 10 2026 00:26:22 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251208035845.pads.zip)
+Jan  9 2026 09:11:00 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251218050049.log.zip)
+Jan  9 2026 09:11:00 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251218050049.log.zip)
+Jan  9 2026 04:56:57 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251207082158.pads.zip)
+Jan  9 2026 04:56:57 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251207082158.pads.zip)
+Jan  8 2026 19:58:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250204065921.log.zip)
+Jan  8 2026 19:58:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250204065921.log.zip)
+Jan  8 2026 09:11:03 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251206123951.pads.zip)
+Jan  8 2026 09:11:03 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251206123951.pads.zip)
+Jan  8 2026 08:04:18 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251217041228.log.zip)
+Jan  8 2026 08:04:18 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251217041228.log.zip)
+Jan  7 2026 13:25:53 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251205165236.pads.zip)
+Jan  7 2026 13:25:53 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251205165236.pads.zip)
+Jan  7 2026 06:43:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251216032233.log.zip)
+Jan  7 2026 06:43:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251216032233.log.zip)
+Jan  6 2026 17:28:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251204211121.pads.zip)
+Jan  6 2026 17:28:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251204211121.pads.zip)
+Jan  6 2026 12:32:07 CDFW102BHW %%01TELNETS/4/TELNETS_IP_BLOCK_CLIENT(s):CID=0x80c87541;Telnet client ip blocked due to password authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1)
+Jan  6 2026 11:37:15 CDFW102BHW %%01TELNETS/4/TELS_IP_UNLOCKED(s):CID=0xc82721;IP was unlocked. (IpAddress=10.237.100.196, VpnName=_public_)
+Jan  6 2026 11:33:33 CDFW102BHW %%01INFO/3/SUPPRESS_LOGINFO(s):CID=0x8060040c;Log SNMP/SNMP_AUTHEN_FAILED is suppressed 1 in last 60 seconds.
+Jan  6 2026 11:33:33 CDFW102BHW %%01INFO/4/SUPPRESS_LOGINFO(s):CID=0x8060040c;Log SNMP/AUTHENTICATIONFAILURE is suppressed 1 in last 60 seconds.
+Jan  6 2026 11:33:17 CDFW102BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d5040e;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Jan  6 2026 11:33:00 CDFW102BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d5040e;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Jan  6 2026 11:32:43 CDFW102BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d5040e;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Jan  6 2026 11:32:35 CDFW102BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d5040e;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Jan  6 2026 11:32:35 CDFW102BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d5040e;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=9161430, PduType=Get, Reason=Community is incorrect)
+Jan  6 2026 11:32:15 CDFW102BHW %%01TELNETS/4/TELS_IP_LOCKED(s):CID=0xc82721;IP was locked. (IpAddress=10.237.100.196, VpnName=_public_, Period=5 minutes)
+Jan  6 2026 09:56:21 CDFW102BHW %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c87541-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Jan  6 2026 09:51:48 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Jan  6 2026 09:41:50 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Jan  6 2026 05:43:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251215024106.log.zip)
+Jan  6 2026 05:43:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251215024106.log.zip)
+Jan  5 2026 21:58:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251204012845.pads.zip)
+Jan  5 2026 21:58:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251204012845.pads.zip)
+Jan  5 2026 04:13:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251214014218.log.zip)
+Jan  5 2026 04:13:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251214014218.log.zip)
+Jan  5 2026 02:22:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251203055159.pads.zip)
+Jan  5 2026 02:22:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251203055159.pads.zip)
+Jan  4 2026 11:28:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Jan  4 2026 06:28:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251202100955.pads.zip)
+Jan  4 2026 06:28:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251202100955.pads.zip)
+Jan  4 2026 02:43:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251213004344.log.zip)
+Jan  4 2026 02:43:41 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251213004344.log.zip)
+Jan  3 2026 16:58:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Jan  3 2026 10:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251201142524.pads.zip)
+Jan  3 2026 10:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251201142524.pads.zip)
+Jan  3 2026 01:13:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251212000820.log.zip)
+Jan  3 2026 01:13:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251212000820.log.zip)
+Jan  2 2026 14:56:12 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251130182846.pads.zip)
+Jan  2 2026 14:56:12 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251130182846.pads.zip)
+Jan  2 2026 00:07:07 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251210233359.log.zip)
+Jan  2 2026 00:07:07 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251210233359.log.zip)
+Jan  1 2026 19:28:17 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251129225159.pads.zip)
+Jan  1 2026 19:28:17 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251129225159.pads.zip)
+Jan  1 2026 17:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231111170015.log.zip)
+Jan  1 2026 17:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231111170015.log.zip)
+Jan  1 2026 15:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250127222922.log.zip)
+Jan  1 2026 15:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250127222922.log.zip)
+Jan  1 2026 01:58:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240719092945.log.zip)
+Jan  1 2026 01:58:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240719092945.log.zip)
+Dec 31 2025 23:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251129030957.pads.zip)
+Dec 31 2025 23:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251129030957.pads.zip)
+Dec 31 2025 22:43:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251209224345.log.zip)
+Dec 31 2025 22:43:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251209224345.log.zip)
+Dec 31 2025 03:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251128072319.pads.zip)
+Dec 31 2025 03:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251128072319.pads.zip)
+Dec 30 2025 21:13:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251208220106.log.zip)
+Dec 30 2025 21:13:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251208220106.log.zip)
+Dec 30 2025 07:56:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251127112846.pads.zip)
+Dec 30 2025 07:56:04 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251127112846.pads.zip)
+Dec 29 2025 20:13:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251207212408.log.zip)
+Dec 29 2025 20:13:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251207212408.log.zip)
+Dec 29 2025 11:58:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251126155159.pads.zip)
+Dec 29 2025 11:58:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251126155159.pads.zip)
+Dec 28 2025 19:00:30 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251206202309.log.zip)
+Dec 28 2025 19:00:30 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251206202309.log.zip)
+Dec 28 2025 16:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251125200957.pads.zip)
+Dec 28 2025 16:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251125200957.pads.zip)
+Dec 28 2025 05:28:42 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Dec 27 2025 20:39:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251125002846.pads.zip)
+Dec 27 2025 20:39:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251125002846.pads.zip)
+Dec 27 2025 17:12:29 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251205193055.log.zip)
+Dec 27 2025 17:12:29 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251205193055.log.zip)
+Dec 27 2025 00:57:07 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251124045335.pads.zip)
+Dec 27 2025 00:57:07 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251124045335.pads.zip)
+Dec 26 2025 15:32:49 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251204184326.log.zip)
+Dec 26 2025 15:32:49 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251204184326.log.zip)
+Dec 26 2025 05:27:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251123085846.pads.zip)
+Dec 26 2025 05:27:35 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251123085846.pads.zip)
+Dec 25 2025 14:01:08 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251203175959.log.zip)
+Dec 25 2025 14:01:08 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251203175959.log.zip)
+Dec 25 2025 09:39:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251122132159.pads.zip)
+Dec 25 2025 09:39:37 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251122132159.pads.zip)
+Dec 25 2025 08:58:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250120185923.log.zip)
+Dec 25 2025 08:58:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/security/security_9_20250120185923.log.zip)
+Dec 24 2025 13:39:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251121173958.pads.zip)
+Dec 24 2025 13:39:39 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251121173958.pads.zip)
+Dec 24 2025 12:43:32 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251202172234.log.zip)
+Dec 24 2025 12:43:32 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251202172234.log.zip)
+Dec 23 2025 19:58:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=log)
+Dec 23 2025 17:54:22 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251120215222.pads.zip)
+Dec 23 2025 17:54:22 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251120215222.pads.zip)
+Dec 23 2025 12:30:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251201164317.log.zip)
+Dec 23 2025 12:30:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251201164317.log.zip)
+Dec 22 2025 22:26:53 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251120015847.pads.zip)
+Dec 22 2025 22:26:53 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251120015847.pads.zip)
+Dec 22 2025 08:31:54 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251130155615.log.zip)
+Dec 22 2025 08:31:54 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251130155615.log.zip)
+Dec 22 2025 02:28:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251119062200.pads.zip)
+Dec 22 2025 02:28:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251119062200.pads.zip)
+Dec 21 2025 06:53:54 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251118104000.pads.zip)
+Dec 21 2025 06:53:54 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251118104000.pads.zip)
+Dec 21 2025 06:43:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251129145700.log.zip)
+Dec 21 2025 06:43:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251129145700.log.zip)
+Dec 21 2025 06:28:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231031060016.log.zip)
+Dec 21 2025 06:28:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/service/service_9_20231031060016.log.zip)
+Dec 21 2025 05:58:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240708115946.log.zip)
+Dec 21 2025 05:58:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/log_9_20240708115946.log.zip)
+Dec 20 2025 23:28:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_STORAGETHRD(l):CID=0x8060040c;The logfile surplus storage spaces is less than 20 percent.(LogFileType=security)
+Dec 20 2025 10:53:45 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251117145200.pads.zip)
+Dec 20 2025 10:53:45 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251117145200.pads.zip)
+Dec 20 2025 05:13:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251128140200.log.zip)
+Dec 20 2025 05:13:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251128140200.log.zip)
+Dec 19 2025 15:23:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251116191001.pads.zip)
+Dec 19 2025 15:23:36 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251116191001.pads.zip)
+Dec 19 2025 03:43:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251127131346.log.zip)
+Dec 19 2025 03:43:43 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20251127131346.log.zip)
+Dec 18 2025 19:53:44 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251115232753.pads.zip)
+Dec 18 2025 19:53:44 CDFW102BHW %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x8060040c;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20251115232753.pads.zip)
+Dec 18 2025 06:38:35 CDFW102BHW %%01TELNETS/4/TELNETS_IP_BLOCK_CLIENT(s):CID=0x80c87541;Telnet client ip blocked due to password authentication failure in last 1 hour. (IpAddress=10.237.100.192, VpnName=_public_, BlockCount=3)
+Dec 18 2025 05:54:20 CDFW102BHW %%01TELNETS/4/TELS_IP_UNLOCKED(s):CID=0xc82721;IP was unlocked. (IpAddress=10.237.100.192, VpnName=_public_)
+Dec 18 2025 05:49:20 CDFW102BHW %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c87541-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Dec 18 2025 05:49:20 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Dec 18 2025 05:49:20 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Dec 18 2025 05:49:20 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=3, totalVTYs=5)
+Dec 18 2025 05:49:20 CDFW102BHW %%01TELNETS/4/TELS_IP_LOCKED(s):CID=0xc82721;IP was locked. (IpAddress=10.237.100.192, VpnName=_public_, Period=5 minutes)
+Dec 18 2025 05:49:20 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=4, totalVTYs=5)
+Dec 18 2025 05:49:18 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=3, totalVTYs=5)
+Dec 18 2025 05:49:17 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=4, totalVTYs=5)
+Dec 18 2025 05:49:15 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=3, totalVTYs=5)
+Dec 18 2025 05:49:14 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=4, totalVTYs=5)
+Dec 18 2025 05:49:08 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=3, totalVTYs=5)
+Dec 18 2025 05:49:02 CDFW102BHW %%01TELNETS/4/TELS_IP_UNLOCKED(s):CID=0xc82721;IP was unlocked. (IpAddress=10.237.100.192, VpnName=_public_)
+Dec 18 2025 05:44:02 CDFW102BHW %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c87541-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Dec 18 2025 05:44:02 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Dec 18 2025 05:44:02 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Dec 18 2025 05:44:02 CDFW102BHW %%01VTY/3/hwVtyExceed_active(l):CID=0x80c87541-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=3, totalVTYs=5)
+Dec 18 2025 05:44:02 CDFW102BHW %%01TELNETS/4/TELS_IP_LOCKED(s):CID=0xc82721;IP was locked. (IpAddress=10.237.100.192, VpnName=_public_, Period=5 minutes)
+HRP_S<CDFW102BHW>display current-configuration
+2026-03-13 14:22:44.773 
+!Software Version V600R021C00SPC100
+!Last configuration was updated at 2025-12-18 17:15:03+00:00 by xz4a_admin
+!Last configuration was saved at 2026-03-12 04:00:02+00:00
+!kms_feature --
+#
+vsys enable
+resource-class r0
+#
+pki realm default
+#
+sysname CDFW102BHW
+#
+undo ftp server source all-interface
+undo ftp ipv6 server source all-interface
+#
+info-center loghost source 10GE2/0/10.54
+info-center loghost 10.16.0.19
+info-center loghost 10.237.99.80
+info-center loghost 202.38.1.10 facility local4
+#
+device board 2 board-type E9KE-LPUA-48XS
+device board 1 board-type SPUA-E9KE-02
+#
+device energy mode basic
+#
+firewall defend port-scan enable
+firewall defend ip-sweep enable
+firewall defend time-stamp enable
+firewall defend route-record enable
+firewall defend source-route enable
+firewall defend ip-fragment enable
+firewall defend tcp-flag enable
+firewall defend winnuke enable
+firewall defend fraggle enable
+firewall defend tracert enable
+firewall defend icmp-unreachable enable
+firewall defend icmp-redirect enable
+firewall defend large-icmp enable
+firewall defend ping-of-death enable
+firewall defend smurf enable
+firewall defend land enable
+firewall defend ip-sweep max-rate 1000
+firewall defend ip-sweep blacklist-timeout 5
+firewall defend action discard
+#
+session sudden-change alarm-threshold 20 baseline 5
+#
+firewall tcp-mss 1436
+#
+anti-ddos auto-defend traffic-policy enable
+anti-ddos auto-defend car 50000
+anti-ddos auto-defend base-session enable
+anti-ddos auto-defend none-session enable
+#
+firewall log encrypt-algorithm aes256-cbc
+#
+hrp enable
+hrp timer hello 500
+hrp standby config enable
+hrp mirror session enable
+hrp interface Eth-Trunk0 remote 192.168.2.117
+undo hrp track trunk-member enable
+hrp track interface Eth-Trunk2
+hrp track interface 10GE2/0/8
+#
+undo firewall packet-filter basic-protocol enable
+#
+firewall blacklist enable
+#
+firewall feature-bypass bandwidth-policy enable level 2 priority 1
+firewall feature-bypass ddos enable level 2 priority 2
+#
+update schedule ips-sdb daily 00:00
+update schedule av-sdb daily 00:00
+update schedule sa-sdb daily 00:00
+#
+drop-profile default
+#
+ntp server source-interface all disable
+ntp ipv6 server source-interface all disable
+#
+vlan batch 20
+#
+rsa peer-public-key 127.0.0.1
+ public-key-code begin
+ 3082018A
+  02820181
+    00BE5016 F07CDD9F 51439657 AC5C4008 FB8B3C80 2DDD968F AE7D60D6 54B57A1D
+    C7BDC30A EB0679C3 9FCF0E23 5AC2DA13 CC3FBEB3 364C0AFB 3C610AD6 2F2E3C53
+    A352953A 35509DBE FD093664 82D2C977 30A64756 74799E1A 7FF65839 F28EE6D8
+    6C9068A5 BB58D1F2 EDBBFDDC 3DBF03C9 C235A9A0 F0A13A6E 7C0F922D 205DBA09
+    68DBD8CD F2DA76F7 FFDC2B14 7A2EC1AE 6959352A D92C5D5E 3BE9F561 EA320183
+    3E052C9F 60DEC72A 8200C8CC 4CA888D7 FE95A45B DB47B9DE 8D6BA243 0957CDE7
+    48F6C4C7 F05D6017 DF4A0CAD 55C14346 75E24CAC 58E888D3 C85B1CAF 33EC6470
+    AA9AB63F 6B6AD9DB C72B2BB4 3DF21427 ACBFC7AC 6D4704AC E4C1BF9C 45C60F2D
+    1BA451B6 A2D25F1F 27218781 5F4BB7C0 018645B4 CDD06A74 1A23B43A 6D3DE43E
+    FE5FAC18 063F27EC B862C92F 54F8179F 37278B62 AF9F2008 6A6442DE 544234BB
+    ED92116A C86389BA 465B3E00 6B3590D0 004DE831 7E9620C6 A86BF622 462825EA
+    3D5DB57F A4BF3E2E 2E54380E B9B68038 AB78C7E6 CE872173 BC496BDA B7F8389F
+    17
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+rsa peer-public-key 192.168.2.117
+ public-key-code begin
+ 3082018A
+  02820181
+    00A6804E 6BBFFCC1 D2505CC7 63B5286B 14FB5871 A5587B4E E49EF174 119AA8BA
+    BD0D80C2 B6FD2658 B66564B5 F35C2436 B3C988EB CF278A12 956A5209 599F33F0
+    3B52A23F 4FC8DD78 14A44EFE CE6AA5FC 97B266F0 35090590 0E3B420E AE100A93
+    5FE59CAE CD37DD45 02C50450 19C3DFCC 7337851C 6B8EEBF8 39489AEF C245D450
+    0DA5BE91 A1032CC3 1030BDD0 9814B265 C10D2310 5419CE7E 5849265C 9F115309
+    F0A8E7F3 0F300C41 FA612639 74DE3A49 C1A97C8A 3ADD0C08 3A2B20FC 3C252E4C
+    AC6BE759 F58D8A1E 19E72169 2315DC3E 5D794145 0993DFBE 54CBDFD8 B6A5776C
+    8DD2766D 8CDE117A 056489DB 6A919094 C152627D 2ECF3A7A 7FD49599 9559AD58
+    F9EC101A BEF8D466 628B25BC AF5B1F0F 09A706C4 E5617895 12B76B0A 42EAA6C4
+    AA9C0450 AEA74365 D064B6D8 C8EB4685 308BB030 54A131DF 6BF5D6DC 6842D1EB
+    8CB4A526 21E5A0CC 76A4CA3A E83AB4D1 C2E27BF3 E8230949 BE400AFF BD8ACD64
+    D00ABCFA CB7B2CED 598CC2CB 82F9F9CB 92FD15D7 E3ACEF8B 944E20F9 27C4A804
+    CB
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+rsa peer-public-key 192.168.2.118
+ public-key-code begin
+ 3082018A
+  02820181
+    00BE5016 F07CDD9F 51439657 AC5C4008 FB8B3C80 2DDD968F AE7D60D6 54B57A1D
+    C7BDC30A EB0679C3 9FCF0E23 5AC2DA13 CC3FBEB3 364C0AFB 3C610AD6 2F2E3C53
+    A352953A 35509DBE FD093664 82D2C977 30A64756 74799E1A 7FF65839 F28EE6D8
+    6C9068A5 BB58D1F2 EDBBFDDC 3DBF03C9 C235A9A0 F0A13A6E 7C0F922D 205DBA09
+    68DBD8CD F2DA76F7 FFDC2B14 7A2EC1AE 6959352A D92C5D5E 3BE9F561 EA320183
+    3E052C9F 60DEC72A 8200C8CC 4CA888D7 FE95A45B DB47B9DE 8D6BA243 0957CDE7
+    48F6C4C7 F05D6017 DF4A0CAD 55C14346 75E24CAC 58E888D3 C85B1CAF 33EC6470
+    AA9AB63F 6B6AD9DB C72B2BB4 3DF21427 ACBFC7AC 6D4704AC E4C1BF9C 45C60F2D
+    1BA451B6 A2D25F1F 27218781 5F4BB7C0 018645B4 CDD06A74 1A23B43A 6D3DE43E
+    FE5FAC18 063F27EC B862C92F 54F8179F 37278B62 AF9F2008 6A6442DE 544234BB
+    ED92116A C86389BA 465B3E00 6B3590D0 004DE831 7E9620C6 A86BF622 462825EA
+    3D5DB57F A4BF3E2E 2E54380E B9B68038 AB78C7E6 CE872173 BC496BDA B7F8389F
+    17
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+icmp name net-redirect receive disable
+icmp name host-redirect receive disable
+icmp name net-tos-redirect receive disable
+icmp name host-tos-redirect receive disable
+icmp name timestamp-request receive disable
+icmp name timestamp-reply receive disable
+icmp name information-request receive disable
+icmp name information-reply receive disable
+#
+arp learning on-different-segment disable
+#
+telnet ipv6 server disable
+telnet server-source all-interface
+undo telnet ipv6 server-source all-interface
+#
+diffserv domain default
+#
+ip vpn-instance _management_vpn_
+ ipv4-family
+#
+vlan 20
+#
+time-range worktime 08:00 to 18:00 working-day
+#
+acl number 2000
+ rule 1 permit source 10.237.100.47 0
+ rule 2 permit source 10.237.99.75 0
+ rule 3 permit source 10.237.0.0 0.0.255.255
+ rule 4 permit source 10.241.119.0 0.0.0.255
+ rule 5 permit source 10.241.121.0 0.0.0.255
+ rule 6 permit source 192.168.2.120 0.0.0.3
+ rule 7 permit source 192.168.2.116 0.0.0.3
+ rule 8 permit source 10.237.114.208 0.0.0.3
+ rule 9 permit source 10.233.81.128 0.0.0.127
+ rule 10 permit source 127.0.0.1 0
+#
+acl number 2025
+ description CMDB
+ rule 5 permit source 10.237.99.123 0
+ rule 10 permit source 10.237.99.233 0
+ rule 15 permit source 10.233.205.244 0
+ rule 1000 deny
+#
+acl number 3005
+ step 1
+ rule 1 deny tcp destination-port eq 4444
+ rule 2 deny udp destination-port eq tftp
+ rule 3 deny tcp destination-port eq 135
+ rule 4 deny udp destination-port eq 135
+ rule 5 deny tcp destination-port eq 139
+ rule 6 deny udp destination-port eq netbios-ssn
+ rule 7 deny tcp destination-port eq 445
+ rule 8 deny udp destination-port eq 445
+ rule 9 deny tcp destination-port eq 593
+ rule 10 deny udp destination-port eq 593
+ rule 11 deny udp destination-port eq 1434
+ rule 12 deny tcp destination-port eq 5554
+ rule 13 deny tcp destination-port eq 9995
+ rule 14 deny tcp destination-port eq 9996
+ rule 15 deny udp destination-port eq netbios-ns
+ rule 16 deny udp destination-port eq netbios-dgm
+ rule 17 permit tcp source 1.1.1.1 0 source-port eq ftp-data destination 2.2.2.2 0 destination-port eq 30
+#
+aaa
+ authentication-scheme default
+  authentication-mode local
+ authorization-scheme default
+  authorization-mode local
+ accounting-scheme default
+  accounting-mode none
+ local-user policy security-enhance
+ local-aaa-user password policy administrator
+  undo password alert original
+ domain default
+  authentication-scheme default
+  accounting-scheme default
+ undo administrator remote authen-fail
+ undo local-aaa-user wrong-password
+ local-user cszdxj password irreversible-cipher $1d$-&<8T`&C[Q@WaaL($*Vy5!K:-vT/GmE5E3[DZVVWEG#Btn%t]Z{N3Q^DS$
+ local-user cszdxj privilege level 3
+ local-user cszdxj service-type telnet ssh
+ local-user jiangzao password irreversible-cipher $1d$o~RE8g`{o/>IS|M9$uCTh:5c9Y,9-LdVzgBQ:U+*C$PCYi>*Azg(TM~zK$
+ local-user jiangzao privilege level 3
+ local-user jiangzao service-type telnet ssh
+ local-user jtcjxz password irreversible-cipher $1d$a%RP%OYl#9a:t04I$4(]gD('Mu,VY72Jl}yC9j\B(Hd*O*([eB89O<l}~$
+ local-user jtcjxz password-force-change disable
+ local-user jtcjxz privilege level 3
+ local-user jtcjxz service-type ssh
+ local-user licheng password irreversible-cipher $1d$c|'\@]~kb!ErA}.*$J*h^X8OX<SnY^}Ak@>x3l&VA,)(C^N626#T-ENj&$
+ local-user licheng privilege level 3
+ local-user licheng service-type ssh
+ local-user tangjin password irreversible-cipher $1d$.;7uY>XdGMJ3zHG^$yszt~>Og79$ufq~`_auSps{FTT$7H"Yn|t'W0Hu)$
+ local-user tangjin password-force-change disable
+ local-user tangjin privilege level 3
+ local-user tangjin service-type ssh
+ local-user xazccj password irreversible-cipher $1d$tp^1(^w%A*gTaX%X$;"_Q38tw24yx.<SAiCMS8$+t3:$HUHL_f)P6,GhV$
+ local-user xazccj password-force-change disable
+ local-user xazccj privilege level 2
+ local-user xazccj service-type terminal ssh
+ local-user xiangkun password irreversible-cipher $1d$wyhu-6`lr-fzcLN[$l5[2R*%-F7`Y8[Oy3";<~Sx>>_-TiAe=NUX&l'{I$
+ local-user xiangkun privilege level 3
+ local-user xiangkun service-type ssh
+ local-user xz4a_admin password irreversible-cipher $1d$@4S_PgA7Z9FUm}Ax$DGO/,zH/KSL]&'BvF&;0y/NM'Dp[B&Bb3WYc*-W#$
+ local-user xz4a_admin password-force-change disable
+ local-user xz4a_admin privilege level 3
+ local-user xz4a_admin service-type ssh
+ local-user xzzdxj password irreversible-cipher $1d$MALlTS8kSB4."EI/$YW"`%Ub%ELFn7B5OW%o2|!(7U"dcrHc,$h+~H+YG$
+ local-user xzzdxj privilege level 1
+ local-user xzzdxj service-type ssh
+ local-user zcaqgl password irreversible-cipher $1d$ZR/jKz%.+Tt'_sHs$g6LA$uH_2ASV=g#(CS1LCei+8#V{C"v2I1Nn\:s~$
+ local-user zcaqgl privilege level 1
+ local-user zcaqgl service-type ssh
+#
+interface MEth0/0/0
+ ip address 192.165.18.8 255.255.255.0
+#
+interface Eth-Trunk0
+ description To:CDFW101BHW-Eth-Trunk0-2/0/2-2/0/3
+ ip address 192.168.2.118 255.255.255.252
+ mode lacp-static
+ lacp timeout fast
+ service-manage ping permit
+ service-manage ssh permit
+ service-manage telnet permit
+#
+interface Eth-Trunk2
+ description uT:CDSWCE101BHW::Eth-Trunk1
+ mode lacp-static
+ lacp timeout fast
+ link-group 1
+#
+interface Eth-Trunk2.20
+ mtu 4470
+ description uT:CDSWCE102BHW::Eth-Trunk1.20 | Gi
+ ip address 10.237.114.201 255.255.255.252
+ dot1q termination vid 20
+ ospf cost 10
+ ospf network-type p2p
+ ospf timer hello 1
+ ospf bfd enable
+ ospf bfd min-tx-interval 100 min-rx-interval 100 detect-multiplier 4
+ service-manage ping permit
+ service-manage ssh permit
+ service-manage telnet permit
+#
+interface 10GE2/0/0
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/1
+ shutdown
+#
+interface 10GE2/0/2
+ description To:CDFW101BHW-Eth-Trunk0-10GE2/0/2
+ eth-trunk 0
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/3
+ description To:CDFW101BHW-Eth-Trunk0-10GE2/0/3
+ eth-trunk 0
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/4
+ description uT:CDSWCE102BHW::GE0/1/2
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/5
+ description uT:CDSWCE102BHW::GE0/1/3
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/6
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/7
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/8
+ ip address 10.10.17.19 255.255.255.248
+ vrrp vrid 1 virtual-ip 10.10.17.17 standby
+ service-manage ping permit
+ link-group 1
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/9
+ shutdown
+#
+interface 10GE2/0/10
+ description uT:WGCE02 XGigabitEthernet0/0/2
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/10.54
+ dot1q termination vid 54
+ service-manage ping permit
+ service-manage snmp permit
+ service-manage ssh permit
+ service-manage telnet permit
+#
+interface 10GE2/0/10.55
+ description uT:WGCE02 XGigabitEthernet0/0/2
+ ip address 192.168.2.125 255.255.255.252
+ dot1q termination vid 55
+ service-manage ping permit
+ service-manage snmp permit
+ service-manage ssh permit
+ service-manage telnet permit
+#
+interface 10GE2/0/11
+ shutdown
+#
+interface 10GE2/0/12
+ shutdown
+#
+interface 10GE2/0/13
+ shutdown
+#
+interface 10GE2/0/14
+ shutdown
+#
+interface 10GE2/0/15
+ shutdown
+#
+interface 10GE2/0/16
+ shutdown
+#
+interface 10GE2/0/17
+ shutdown
+#
+interface 10GE2/0/18
+ shutdown
+#
+interface 10GE2/0/19
+ shutdown
+#
+interface 10GE2/0/20
+ shutdown
+#
+interface 10GE2/0/21
+ shutdown
+#
+interface 10GE2/0/22
+ shutdown
+#
+interface 10GE2/0/23
+ shutdown
+#
+interface 10GE2/0/24
+ shutdown
+#
+interface 10GE2/0/25
+ shutdown
+#
+interface 10GE2/0/26
+ shutdown
+#
+interface 10GE2/0/27
+ shutdown
+#
+interface 10GE2/0/28
+ shutdown
+#
+interface 10GE2/0/29
+ shutdown
+#
+interface 10GE2/0/30
+ shutdown
+#
+interface 10GE2/0/31
+ shutdown
+#
+interface 10GE2/0/32
+ shutdown
+#
+interface 10GE2/0/33
+ shutdown
+#
+interface 10GE2/0/34
+ shutdown
+#
+interface 10GE2/0/35
+ shutdown
+#
+interface 10GE2/0/36
+ shutdown
+#
+interface 10GE2/0/37
+ shutdown
+#
+interface 10GE2/0/38
+ shutdown
+#
+interface 10GE2/0/39
+ shutdown
+#
+interface 10GE2/0/40
+ shutdown
+#
+interface 10GE2/0/41
+ shutdown
+#
+interface 10GE2/0/42
+ shutdown
+#
+interface 10GE2/0/43
+ shutdown
+#
+interface 10GE2/0/44
+ shutdown
+#
+interface 10GE2/0/45
+ shutdown
+#
+interface 10GE2/0/46
+ shutdown
+#
+interface 10GE2/0/47
+ shutdown
+#
+interface Virtual-if0
+#
+interface LoopBack3
+ ip address 10.241.119.111 255.255.255.255
+#
+interface NULL0
+#
+ip route-static 0.0.0.0 0.0.0.0 10GE2/0/10.55 192.168.2.126 description guanli
+ip route-static 10.10.0.0 255.255.0.0 10GE2/0/8 10.10.17.22 description insec_ins-T3  KeHuZiPingTai
+ip route-static 10.192.0.0 255.255.248.0 Eth-Trunk2.20 10.237.114.202 description CDSWCE102BHW  VRF_N6_Local_2B_YLTK
+#
+snmp-agent
+snmp-agent local-engineid 800007DB03708CB6CD6801
+snmp-agent community read cipher %@%##!!!!!!!!!"!!!!,!!!!*!!!!6gKQOlPcj9-gzsOjtp-V(0kD<q5ge<8%VIX!!!!!2jp5!!!!!!U!!!!r'DJ0!UTG&\+]b"UJ~"I]x<'25;Kt"Qwgt-<d;N0QTtTM|16XVo@\6Bx'wC1T)&HL!!!!!!!!!!!!!!!%@%# acl 2000 alias __CommunityAliasName_01_13839
+snmp-agent community read cipher %@%##!!!!!!!!!"!!!!,!!!!*!!!!6gKQOlPcj9oqWO+y!}[Gya3QM|ivJTQlzh1!!!!!2jp5!!!!!!U!!!!"NR<3qeW@+T3#|~k/{l$;Yn@K8%jk(%0GyW00o3$Rbx1STjtPQ-X#~$yCJaT}}npA!!!!!!!!!!!!!!!%@%# acl 2025 alias __CommunityAliasName_02_40507
+#
+snmp-agent sys-info version v2c v3
+snmp-agent group v3 HXWSnmpUser privacy
+snmp-agent target-host host-name _targetHost_langchao trap address udp-domain 10.237.95.23 params securityname cipher %+%##!!!!!!!!!"!!!!,!!!!*!!!!6gKQOlPcj9YuKRAR*rU+SIMQ'yEpmB1$-9W!!!!!2jp5!!!!!!;!!!!jC<bN&Z1+KUvC;X:%NI#Ee5O;k9UuAQ58$/!!!!!%+%# v2c
+#
+snmp-agent mib-view included myview mib-2
+snmp-agent usm-user v3 HXWSnmpUser
+snmp-agent usm-user v3 HXWSnmpUser group HXWSnmpUser
+snmp-agent usm-user v3 HXWSnmpUser authentication-mode sha2-512 cipher %+%##!!!!!!!!!"!!!!,!!!!*!!!!6gKQOlPcj9=Qo+8S@m#-|85.Xp+vCKP%-{7!!!!!2jp5!!!!!!:!!!!1H8u8xLz4;1J*#Rl\M{MDcd*>EJ)fPM[)a;!!!!!%+%#
+snmp-agent usm-user v3 HXWSnmpUser privacy-mode aes128 cipher %+%##!!!!!!!!!"!!!!,!!!!*!!!!6gKQOlPcj9l+!.USkP,ZO~nv1_j*6%=K"+0!!!!!2jp5!!!!!!:!!!!(b3W+P"KxO2T:59!bBnXs$cDX_qbIJ'Z(T8!!!!!%+%#
+snmp-agent usm-user v3 HXWSnmpUser acl 2025
+#
+snmp-agent trap source LoopBack3
+#
+snmp-agent protocol source-interface LoopBack3
+undo snmp-agent protocol source-status all-interface
+undo snmp-agent protocol source-status ipv6 all-interface
+#
+undo snmp-agent proxy protocol source-status all-interface
+undo snmp-agent proxy protocol source-status ipv6 all-interface
+#
+lldp enable
+#
+stelnet server enable
+undo ssh server authentication-type keyboard-interactive enable
+ssh user cszdxj
+ssh user cszdxj authentication-type password
+ssh user cszdxj service-type stelnet
+ssh user guodingyong
+ssh user guodingyong authentication-type password
+ssh user guodingyong service-type stelnet
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user licheng
+ssh user licheng authentication-type password
+ssh user licheng service-type stelnet
+ssh user tangjing
+ssh user tangjing authentication-type password
+ssh user tangjing service-type stelnet
+ssh user xazccj
+ssh user xazccj authentication-type password
+ssh user xazccj service-type stelnet
+ssh user xiangkun
+ssh user xiangkun authentication-type password
+ssh user xiangkun service-type stelnet
+ssh user xz4a_admin
+ssh user xz4a_admin authentication-type password
+ssh user xz4a_admin service-type stelnet
+ssh user xzzdxj
+ssh user xzzdxj authentication-type password
+ssh user xzzdxj service-type stelnet
+ssh server-source all-interface
+undo ssh ipv6 server-source all-interface
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr
+ssh server hmac sha2_512 sha2_256
+ssh server key-exchange dh_group_exchange_sha256
+#
+ssh server publickey ecc x509v3-ssh-rsa rsa_sha2_256 rsa_sha2_512
+#
+ssh server dh-exchange min-len 2048
+#
+ssh client first-time enable
+ssh client peer 127.0.0.1 assign rsa-key 127.0.0.1
+ssh client peer 192.168.2.117 assign rsa-key 192.168.2.117
+ssh client peer 192.168.2.118 assign rsa-key 192.168.2.118
+#
+ssh client publickey rsa_sha2_256 rsa_sha2_512
+#
+ssh client cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr
+ssh client hmac sha2_512 sha2_256
+ssh client key-exchange dh_group_exchange_sha256
+#
+header shell information "
+****************************************************************
+*                     Copyright (C) 2020-2020                  *
+*                 Huawei Technologies Co., Ltd.                *
+*                       All rights reserved.                   *
+*           Without the owner's prior written consent,         *
+*    no decompiling or reverse-engineering shall be allowed.   *
+****************************************************************
+"
+#
+timestamp enable
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1d$I]RhR;a3.3vpISUn$c$\GT2r/tU!&]%3<HKEY+22V$oB^XW@)9;>j)t=A$
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+#
+warranty
+#
+ike proposal default
+ encryption-algorithm aes-gcm-256 aes-gcm-192 aes-gcm-128 
+ dh group14 
+ authentication-algorithm sha2-512 sha2-384 sha2-256 
+ authentication-method pre-share
+ integrity-algorithm hmac-sha2-256 
+ prf hmac-sha2-256 
+#
+firewall zone local
+ set priority 100
+#
+firewall zone trust
+ set priority 85
+ add interface Eth-Trunk2.20
+#
+firewall zone untrust
+ set priority 5
+ add interface 10GE2/0/10.54
+ add interface 10GE2/0/10.55
+ add interface 10GE2/0/8
+#
+firewall zone dmz
+ set priority 50
+ add interface Eth-Trunk0
+#
+firewall zone name xinjian id 4
+#
+sa
+#
+nat static-mapping
+#
+security-policy
+ rule name 20250609_CMDB_to_HXW
+  description CMDB_to_HXW_snmp
+  source-zone untrust
+  destination-zone local
+  source-address 10.233.205.244 mask 255.255.255.255
+  source-address 10.237.99.123 mask 255.255.255.255
+  source-address 10.237.99.233 mask 255.255.255.255
+  destination-address 10.241.119.110 mask 255.255.255.255
+  destination-address 10.241.119.111 mask 255.255.255.255
+  service protocol udp destination-port 161
+  service snmp
+  action permit
+ rule name trustTOlocal
+  source-zone trust
+  destination-zone local
+  source-address 10.237.114.200 mask 255.255.255.252
+  source-address 10.237.114.208 mask 255.255.255.252
+  destination-address 10.237.114.200 mask 255.255.255.252
+  destination-address 10.237.114.208 mask 255.255.255.252
+  action permit
+ rule name localTOdmz
+  source-zone dmz
+  source-zone local
+  destination-zone dmz
+  destination-zone local
+  source-address 192.168.2.116 mask 255.255.255.252
+  destination-address 192.168.2.116 mask 255.255.255.252
+  action permit
+ rule name local_to_untrust
+  source-zone local
+  destination-zone untrust
+  source-address 10.10.17.16 mask 255.255.255.248
+  source-address 10.10.17.8 mask 255.255.255.248
+  source-address 10.192.0.0 mask 255.255.248.0
+  source-address 10.241.119.110 mask 255.255.255.255
+  source-address 10.241.119.111 mask 255.255.255.255
+  source-address 192.168.2.120 mask 255.255.255.252
+  source-address 192.168.2.124 mask 255.255.255.252
+  destination-address 10.0.0.0 mask 255.0.0.0
+  destination-address 202.38.0.0 mask 255.255.0.0
+  destination-address-exclude 1.1.1.1 mask 255.255.255.255
+  action permit
+ rule name untrust_to_local
+  source-zone untrust
+  destination-zone local
+  source-address 0.0.0.0 wildcard 255.255.0.0
+  source-address 10.10.0.0 mask 255.255.0.0
+  source-address 10.10.17.16 mask 255.255.255.248
+  source-address 10.10.17.8 mask 255.255.255.248
+  source-address 192.168.2.120 mask 255.255.255.252
+  source-address 192.168.2.124 mask 255.255.255.252
+  destination-address 10.10.17.16 mask 255.255.255.248
+  destination-address 10.10.17.8 mask 255.255.255.248
+  destination-address 192.168.2.120 mask 255.255.255.252
+  destination-address 192.168.2.124 mask 255.255.255.252
+  action permit
+ rule name trust_to_untrust
+  source-zone trust
+  destination-zone untrust
+  source-address 10.192.0.0 mask 255.255.248.0
+  destination-address 10.10.0.0 mask 255.255.0.0
+  action permit
+ rule name untrust_to_trust
+  source-zone untrust
+  destination-zone trust
+  source-address 10.10.0.0 mask 255.255.0.0
+  destination-address 10.192.0.0 mask 255.255.248.0
+  action permit
+ rule name trust-to-untrust
+  source-zone trust
+  destination-zone untrust
+  destination-address 10.237.35.199 mask 255.255.255.255
+  action deny
+ rule name untrust-to-trust
+  source-zone untrust
+  destination-zone trust
+  source-address 10.237.100.190 mask 255.255.255.255
+  source-address 10.237.100.193 mask 255.255.255.255
+  source-address 10.237.35.199 mask 255.255.255.255
+  destination-address 10.237.100.190 mask 255.255.255.255
+  destination-address 10.237.100.193 mask 255.255.255.255
+  action deny
+ rule name trust--to--untrust
+  source-zone trust
+  source-zone untrust
+  destination-zone trust
+  destination-zone untrust
+  source-address 10.237.100.188 mask 255.255.255.255
+  source-address 10.237.100.203 mask 255.255.255.255
+  source-address 10.237.100.207 mask 255.255.255.255
+  destination-address 10.237.100.188 mask 255.255.255.255
+  destination-address 10.237.100.203 mask 255.255.255.255
+  destination-address 10.237.100.207 mask 255.255.255.255
+  action permit
+#
+bandwidth-policy
+#
+policy-based-route
+#
+nat-policy
+#
+multi-interface
+#
+return

@@ -1,0 +1,949 @@
+﻿<XZ_CD_NMS_5530_2>screen-length 0 temporary
+                                ^
+ % Unrecognized command found at '^' position.
+<XZ_CD_NMS_5530_2>display version
+H3C Comware Software, Version 7.1.045, Release 1122
+Copyright (c) 2004-2017 New H3C Technologies Co., Ltd. All rights reserved.
+H3C S5530C-EI-D uptime is 74 weeks, 4 days, 14 hours, 37 minutes
+Last reboot reason : Cold reboot
+
+Boot image: flash:/s5560ei_d-cmw710-boot-r1122.bin
+Boot image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+System image: flash:/s5560ei_d-cmw710-system-r1122.bin
+System image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+
+
+Slot 1:
+Uptime is 74 weeks,4 days,14 hours,37 minutes
+H3C S5530C-EI-D with 2 Processors
+BOARD TYPE:         S5530C-EI-D
+DRAM:               1984M bytes
+FLASH:              512M bytes
+PCB 1 Version:      VER.A
+Bootrom Version:    126
+CPLD 1 Version:     003
+Release Version:    H3C S5530C-EI-D-1122
+Patch Version  :    None
+Reboot Cause  :     ColdReboot
+[SubSlot 0] 24GE+4SFP Plus
+<XZ_CD_NMS_5530_2>display device
+Slot Type             State    Subslot  Soft Ver             Patch Ver
+1    S5530C-EI-D      Master   0        S5560EI_D-1122       None      
+<XZ_CD_NMS_5530_2>display startup
+MainBoard:
+ Current startup saved-configuration file: flash:/startup.cfg
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<XZ_CD_NMS_5530_2>display cpu-usage
+Slot 1 CPU 0 CPU usage:
+       4% in last 5 seconds
+       5% in last 1 minute
+       5% in last 5 minutes
+
+<XZ_CD_NMS_5530_2>display memory-usage
+                          ^
+ % Unrecognized command found at '^' position.
+<XZ_CD_NMS_5530_2>display interface brief
+Brief information on interfaces in route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Primary IP      Description                
+GE1/0/24             UP   UP       10.237.34.50    4F_NE40_G2/0/3
+InLoop0              UP   UP(s)    --              
+M-GE0/0/0            DOWN DOWN     --              
+M-GE0/0/1            DOWN DOWN     --              
+NULL0                UP   UP(s)    --              
+REG0                 UP   --       --              
+Vlan2                UP   UP       10.234.196.2    to:XZ.CD.LAN
+Vlan6                UP   UP       10.234.196.18   to:XZ.CD.Alcatel
+Vlan8                UP   UP       10.234.196.60   to:boce-nanfangjidi
+Vlan9                UP   UP       10.234.196.45   
+
+Brief information on interfaces in bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed: (a) - auto
+Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed   Duplex Type PVID Description                
+GE1/0/1              UP   100M(a) F(a)   A    8    
+GE1/0/2              DOWN auto    A      A    1    
+GE1/0/3              DOWN auto    A      A    1    
+GE1/0/4              DOWN auto    A      A    1    
+GE1/0/5              DOWN auto    A      A    1    
+GE1/0/6              DOWN auto    A      A    1    
+GE1/0/7              DOWN auto    A      A    1    
+GE1/0/8              UP   100M(a) F(a)   A    1    
+GE1/0/9              DOWN auto    A      A    1    
+GE1/0/10             DOWN auto    A      A    1    
+GE1/0/11             DOWN auto    A      A    1    
+GE1/0/12             DOWN auto    A      A    1    
+GE1/0/13             UP   100M(a) F(a)   A    9    
+GE1/0/14             DOWN auto    A      A    1    
+GE1/0/15             DOWN auto    A      A    1    
+GE1/0/16             DOWN auto    A      A    1    
+GE1/0/17             DOWN auto    A      A    1    
+GE1/0/18             UP   100M(a) F(a)   A    2    
+GE1/0/19             DOWN auto    A      A    1    
+GE1/0/20             DOWN auto    A      A    1    
+GE1/0/21             DOWN auto    A      A    1    
+GE1/0/22             DOWN auto    A      A    1    
+GE1/0/23             UP   1G(a)   F(a)   T    1    
+XGE1/0/25            DOWN auto    A      A    1    
+XGE1/0/26            DOWN auto    A      A    1    
+XGE1/0/27            DOWN auto    A      A    1    
+XGE1/0/28            DOWN auto    A      A    1    
+
+<XZ_CD_NMS_5530_2>display ip interface brief
+*down: administratively down
+(s): spoofing
+Interface                     Physical Protocol IP Address      Description 
+GE1/0/24                      up       up       10.237.34.50    4F_NE40_G...
+M-GE0/0/0                     down     down     unassigned      M-Gigabit...
+M-GE0/0/1                     down     down     unassigned      M-Gigabit...
+Vlan2                         up       up       10.234.196.2    to:XZ.CD....
+Vlan6                         up       up       10.234.196.18   to:XZ.CD....
+Vlan8                         up       up       10.234.196.60   to:boce-n...
+Vlan9                         up       up       10.234.196.45   Vlan-inte...
+<XZ_CD_NMS_5530_2>display current-configuration
+#
+ version 7.1.045, Release 1122
+#
+ sysname XZ_CD_NMS_5530_2
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 1
+#
+ospf 1
+ import-route direct
+ import-route static
+ area 0.0.0.0
+  network 10.234.196.0 0.0.0.15
+  network 10.234.196.16 0.0.0.15
+  network 10.234.196.32 0.0.0.15
+  network 10.234.196.48 0.0.0.15
+#
+ lldp global enable
+#
+ fan prefer-direction slot 1 port-to-power 
+ password-recovery enable
+ pex working-mode switch slot 1
+#
+vlan 1
+#
+vlan 2
+#
+vlan 6
+#
+vlan 8 to 9
+#
+ stp global enable
+#
+interface NULL0
+#
+interface Vlan-interface2
+ description to:XZ.CD.LAN
+ ip address 10.234.196.2 255.255.255.240
+ vrrp vrid 2 virtual-ip 10.234.196.14
+#
+interface Vlan-interface6
+ description to:XZ.CD.Alcatel
+ ip address 10.234.196.18 255.255.255.240
+ vrrp vrid 6 virtual-ip 10.234.196.30
+#              
+interface Vlan-interface8
+ description to:boce-nanfangjidi
+ ip address 10.234.196.60 255.255.255.240
+ vrrp vrid 8 virtual-ip 10.234.196.61
+#
+interface Vlan-interface9
+ ip address 10.234.196.45 255.255.255.240
+ vrrp vrid 9 virtual-ip 10.234.196.46
+#
+interface GigabitEthernet1/0/24
+ port link-mode route
+ description 4F_NE40_G2/0/3
+ ip address 10.237.34.50 255.255.255.252
+#
+interface GigabitEthernet1/0/1
+ port link-mode bridge
+ port access vlan 8
+#
+interface GigabitEthernet1/0/2
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/3
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/4
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/5
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/6
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/7
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/8
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/9
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/10
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/11
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/12
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/13
+ port link-mode bridge
+ port access vlan 9
+#
+interface GigabitEthernet1/0/14
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/15
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/16
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/17
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/18
+ port link-mode bridge
+ port access vlan 2
+#
+interface GigabitEthernet1/0/19
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/20
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/21
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/22
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/23
+ port link-mode bridge
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 2 to 9
+#
+interface M-GigabitEthernet0/0/0
+#
+interface M-GigabitEthernet0/0/1
+#
+interface Ten-GigabitEthernet1/0/25
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/26
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/28
+ port link-mode bridge
+#
+ scheduler logfile size 16
+#
+line class aux
+ user-role network-admin
+#
+line class vty
+ user-role network-operator
+#
+line aux 0
+ user-role network-admin
+#
+line vty 0 63
+ authentication-mode scheme
+ user-role network-admin
+ user-role network-operator
+ protocol inbound ssh
+ idle-timeout 5 0
+#
+ ip route-static 0.0.0.0 0 10.237.34.49 description 4F_NE40_G2/0/3
+#
+ info-center loghost 10.237.35.249
+#
+ snmp-agent
+ snmp-agent local-engineid 800063A2807485C4EBD86C00000001
+ snmp-agent community read XZYD_smjk-2018
+ snmp-agent sys-info version v2c v3 
+#
+ ssh server enable
+ undo ssh server compatible-ssh1x enable
+ ssh user xz4a_admin service-type stelnet authentication-type password
+#
+radius scheme system
+ user-name-format without-domain
+#
+domain system
+#
+ domain default enable system
+#
+role name level-0
+ description Predefined level-0 role
+#
+role name level-1
+ description Predefined level-1 role
+#
+role name level-2
+ description Predefined level-2 role
+#
+role name level-3
+ description Predefined level-3 role
+#
+role name level-4
+ description Predefined level-4 role
+#
+role name level-5
+ description Predefined level-5 role
+#              
+role name level-6
+ description Predefined level-6 role
+#
+role name level-7
+ description Predefined level-7 role
+#
+role name level-8
+ description Predefined level-8 role
+#
+role name level-9
+ description Predefined level-9 role
+#
+role name level-10
+ description Predefined level-10 role
+#
+role name level-11
+ description Predefined level-11 role
+#
+role name level-12
+ description Predefined level-12 role
+#
+role name level-13
+ description Predefined level-13 role
+#
+role name level-14
+ description Predefined level-14 role
+#
+user-group system
+#
+local-user xz4a_admin class manage
+ password hash $h$6$fGVYbuUlft7IaSiI$DvSqQ+Go0EVoy/p7aySX072qjTZ6xS5pTPxZ4Js195WRMID3v9FpHb5r2Aj7E/XPf0uR8RmiG99PWBcarwU1WQ==
+ service-type ssh terminal
+ authorization-attribute user-role network-admin
+ authorization-attribute user-role network-operator
+#
+public-key peer 10.237.34.50
+ public-key-code begin
+   30819F300D06092A864886F70D010101050003818D0030818902818100B20482F26F719813
+   F26DF8111BB36B09D3B304BC43EF9691386A6E994FC5DDA7DC2D30B708D117EEDE13481A02
+   0A640649C4C3C61DACC9E01F8D6A985E2FA30B9E94858441CC5F1671DC36B2653A035814B2
+   B6117141F8A7912EC4721E2EDA2955575E32AE7501790F448DDF5EDCDD0EA9C101FC9E97DC
+   EA39969180D3312D690203010001
+ public-key-code end
+ peer-public-key end
+#
+return         
+<XZ_CD_NMS_5530_2>display ip routing-table
+
+Destinations : 30       Routes : 33
+
+Destination/Mask    Proto  Pre  Cost         NextHop         Interface
+0.0.0.0/0           Static 60   0            10.237.34.49    GE1/0/24
+0.0.0.0/32          Direct 0    0            127.0.0.1       InLoop0
+10.233.87.9/32      O_INTRA10   1            10.234.196.1    Vlan2
+                                             10.234.196.17   Vlan6
+                                             10.234.196.44   Vlan9
+                                             10.234.196.59   Vlan8
+10.234.196.0/28     Direct 0    0            10.234.196.2    Vlan2
+10.234.196.0/32     Direct 0    0            10.234.196.2    Vlan2
+10.234.196.2/32     Direct 0    0            127.0.0.1       InLoop0
+10.234.196.15/32    Direct 0    0            10.234.196.2    Vlan2
+10.234.196.16/28    Direct 0    0            10.234.196.18   Vlan6
+10.234.196.16/32    Direct 0    0            10.234.196.18   Vlan6
+10.234.196.18/32    Direct 0    0            127.0.0.1       InLoop0
+10.234.196.31/32    Direct 0    0            10.234.196.18   Vlan6
+10.234.196.32/28    Direct 0    0            10.234.196.45   Vlan9
+10.234.196.32/32    Direct 0    0            10.234.196.45   Vlan9
+10.234.196.45/32    Direct 0    0            127.0.0.1       InLoop0
+10.234.196.47/32    Direct 0    0            10.234.196.45   Vlan9
+10.234.196.48/28    Direct 0    0            10.234.196.60   Vlan8
+10.234.196.48/32    Direct 0    0            10.234.196.60   Vlan8
+10.234.196.60/32    Direct 0    0            127.0.0.1       InLoop0
+10.234.196.63/32    Direct 0    0            10.234.196.60   Vlan8
+10.237.34.48/30     Direct 0    0            10.237.34.50    GE1/0/24
+10.237.34.48/32     Direct 0    0            10.237.34.50    GE1/0/24
+10.237.34.50/32     Direct 0    0            127.0.0.1       InLoop0
+10.237.34.51/32     Direct 0    0            10.237.34.50    GE1/0/24
+127.0.0.0/8         Direct 0    0            127.0.0.1       InLoop0
+127.0.0.0/32        Direct 0    0            127.0.0.1       InLoop0
+127.0.0.1/32        Direct 0    0            127.0.0.1       InLoop0
+127.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+224.0.0.0/4         Direct 0    0            0.0.0.0         NULL0
+224.0.0.0/24        Direct 0    0            0.0.0.0         NULL0
+255.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+<XZ_CD_NMS_5530_2>display logbuffer
+Log buffer: Enabled
+Max buffer size: 1024
+Actual buffer size: 512
+Dropped messages: 0
+Overwritten messages: 1103
+Current messages: 512
+%May 10 18:26:49:336 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 10 18:26:49:367 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49678.
+%May 10 18:26:49:368 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 10 18:44:45:851 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 53101 ssh2.
+
+%May 10 18:44:45:921 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 10 18:44:47:292 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 10 18:44:54:432 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 10 18:49:57:534 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 10 18:49:57:564 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 53101.
+%May 10 18:49:57:564 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 11 18:32:00:623 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 63378 ssh2.
+
+%May 11 18:32:00:693 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 11 18:32:02:074 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 11 18:32:02:089 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 11 18:32:02:133 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%May 11 18:32:02:165 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 11 18:32:02:195 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 11 18:32:02:203 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 11 18:32:02:211 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 11 18:32:02:245 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 11 18:32:02:306 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 11 18:32:02:316 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 11 18:32:02:359 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 11 18:32:02:488 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 11 18:32:02:581 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 11 18:32:02:639 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 11 18:32:02:685 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 11 18:33:03:830 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 11 18:33:03:861 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 63378.
+%May 11 18:33:03:862 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 11 18:46:39:196 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49532 ssh2.
+
+%May 11 18:46:39:266 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 11 18:46:40:645 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 11 18:46:42:746 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 11 18:51:45:931 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 11 18:51:45:973 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 12 16:14:47:143 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 53992 ssh2.
+               
+%May 12 16:14:47:212 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 12 16:14:48:584 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 12 16:14:48:598 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 12 16:14:48:645 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%May 12 16:14:48:685 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 12 16:14:48:774 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 12 16:14:48:781 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 12 16:14:48:789 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 12 16:14:48:818 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 12 16:14:48:848 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 12 16:14:48:854 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 12 16:14:48:906 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 12 16:14:48:965 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 12 16:14:49:019 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 12 16:14:49:080 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 12 16:14:49:129 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 12 16:15:49:324 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 12 16:15:49:355 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 53992.
+%May 12 16:15:49:355 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 13 20:41:29:711 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 59505 ssh2.
+
+%May 13 20:41:29:782 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 13 20:41:31:185 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 13 20:41:31:200 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 13 20:41:31:244 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%May 13 20:41:31:279 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 13 20:41:31:315 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 13 20:41:31:322 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 13 20:41:31:329 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 13 20:41:31:376 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 13 20:41:31:404 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 13 20:41:31:412 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 13 20:41:31:444 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 13 20:41:31:577 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 13 20:41:31:613 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 13 20:41:31:677 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 13 20:41:31:727 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 13 20:42:28:873 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 13 20:42:28:903 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 59505.
+%May 13 20:42:28:903 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 14 16:31:31:934 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49326 ssh2.
+
+%May 14 16:31:32:004 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 14 16:31:33:381 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 14 16:31:34:584 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 14 16:31:34:642 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 14 16:31:34:680 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 14 16:31:34:704 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 14 16:31:34:742 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 14 16:31:34:795 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 14 16:31:34:834 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 14 16:31:34:844 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 14 16:31:34:883 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 14 16:31:34:965 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 14 16:33:31:218 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 14 16:33:31:246 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49326.
+%May 14 16:33:31:246 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 15 17:03:45:890 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 50934 ssh2.
+
+%May 15 17:03:45:965 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 15 17:03:47:282 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 15 17:03:47:316 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 15 17:03:47:374 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%May 15 17:03:47:415 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 15 17:03:47:443 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 15 17:03:47:459 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 15 17:03:47:468 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 15 17:03:47:509 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 15 17:03:47:541 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 15 17:03:47:547 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 15 17:03:47:590 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 15 17:03:47:646 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 15 17:03:47:693 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 15 17:03:47:748 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 15 17:03:47:859 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 15 17:05:25:643 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 15 17:05:25:674 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 50934.
+%May 15 17:05:25:674 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 16 20:42:29:391 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 64674 ssh2.
+
+%May 16 20:42:29:466 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 16 20:42:30:791 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 16 20:42:32:004 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 16 20:42:32:061 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 16 20:42:32:089 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 16 20:42:32:121 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 16 20:42:32:166 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 16 20:42:32:199 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 16 20:42:32:229 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 16 20:42:32:242 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 16 20:42:32:287 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 16 20:42:32:382 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 16 20:47:33:086 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 16 20:47:33:116 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 64674.
+%May 16 20:47:33:116 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 17 19:15:00:284 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 61258 ssh2.
+
+%May 17 19:15:00:354 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 17 19:15:01:733 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 17 19:15:02:318 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 17 19:15:02:389 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 17 19:15:02:427 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 17 19:15:02:454 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 17 19:15:02:518 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 17 19:15:02:565 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 17 19:15:02:574 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 17 19:15:02:607 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 17 19:15:02:672 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 17 19:15:02:716 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 17 19:15:02:772 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 17 19:15:02:816 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 17 19:20:08:330 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 17 19:20:08:360 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61258.
+%May 17 19:20:08:360 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 18 20:49:34:765 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 53539 ssh2.
+
+%May 18 20:49:34:836 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 18 20:49:36:200 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 18 20:49:36:832 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 18 20:49:36:876 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 18 20:49:36:912 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 18 20:49:36:945 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 18 20:49:36:974 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 18 20:49:37:003 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 18 20:49:37:041 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 18 20:49:37:096 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 18 20:49:37:166 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 18 20:49:37:562 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 18 20:54:43:023 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 18 20:54:43:053 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 53539.
+%May 18 20:54:43:053 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 19 21:01:41:273 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49839 ssh2.
+
+%May 19 21:01:41:344 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 19 21:01:42:723 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 19 21:01:43:443 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 19 21:01:43:485 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%May 19 21:01:43:516 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 19 21:01:43:554 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 19 21:01:43:564 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 19 21:01:43:571 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 19 21:01:43:601 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 19 21:01:43:639 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 19 21:01:43:650 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 19 21:01:43:701 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 19 21:01:43:790 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 19 21:01:43:824 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 19 21:01:44:484 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 19 21:03:16:184 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 19 21:03:16:218 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49839.
+%May 19 21:03:16:218 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 20 20:30:53:079 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 55952 ssh2.
+
+%May 20 20:30:53:151 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 20 20:30:54:479 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 20 20:30:54:498 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 20 20:30:54:543 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%May 20 20:30:54:572 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 20 20:30:54:615 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 20 20:30:54:620 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 20 20:30:54:632 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 20 20:30:54:732 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 20 20:30:54:767 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 20 20:30:54:775 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 20 20:30:54:812 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 20 20:30:54:862 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 20 20:30:54:898 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 20 20:30:54:957 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%May 20 20:30:55:014 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 20 20:30:55:631 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 20 20:30:55:698 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 20 20:30:55:743 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 20 20:30:55:762 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 20 20:30:55:791 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 20 20:30:55:819 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 20 20:30:55:851 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 20 20:30:55:881 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 20 20:30:55:916 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 20 20:30:55:981 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 20 20:30:56:049 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 20 20:32:16:520 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 20 20:32:16:550 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 55952.
+%May 20 20:32:16:550 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 23 17:30:41:663 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 59051 ssh2.
+
+%May 23 17:30:41:738 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 23 17:30:43:058 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 23 17:30:45:659 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 23 17:30:45:710 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 23 17:30:45:750 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 23 17:30:45:780 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 23 17:30:45:826 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 23 17:30:45:858 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 23 17:30:45:887 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 23 17:30:45:904 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 23 17:30:45:939 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 23 17:30:46:014 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 23 17:30:46:119 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 23 17:30:46:181 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 23 17:30:49:053 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 23 17:35:53:263 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 23 17:35:53:294 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 59051.
+%May 23 17:35:53:294 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 24 19:47:50:746 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 63621 ssh2.
+
+%May 24 19:47:50:825 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 24 19:47:52:132 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 24 19:47:59:277 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 24 19:47:59:334 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 24 19:47:59:363 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 24 19:47:59:400 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 24 19:47:59:428 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 24 19:47:59:475 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 24 19:47:59:512 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 24 19:47:59:524 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 24 19:47:59:557 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 24 19:47:59:621 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 24 19:47:59:685 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 24 19:48:04:783 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 24 19:48:24:814 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 24 19:48:24:842 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 63621.
+%May 24 19:48:24:843 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 25 15:01:06:304 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 63979 ssh2.
+
+%May 25 15:01:06:377 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 25 15:01:07:691 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 25 15:01:12:005 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 25 15:01:25:146 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 25 15:01:36:406 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%May 25 15:01:46:982 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 25 15:01:58:289 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%May 25 15:02:10:423 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 25 15:02:23:193 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%May 25 15:02:35:773 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 25 15:02:50:213 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%May 25 15:03:07:546 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 25 15:03:22:485 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 25 15:03:22:515 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 63979.
+%May 25 15:03:22:515 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%May 28 20:30:54:022 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 54485 ssh2.
+
+%May 28 20:30:54:094 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%May 28 20:30:55:480 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%May 28 20:30:56:145 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%May 28 20:30:56:192 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%May 28 20:30:56:238 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%May 28 20:30:56:259 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%May 28 20:30:56:288 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%May 28 20:30:56:359 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%May 28 20:30:56:390 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%May 28 20:30:56:414 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%May 28 20:30:56:447 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%May 28 20:30:56:511 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%May 28 20:30:56:576 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 28 20:30:56:766 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%May 28 20:32:14:865 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%May 28 20:32:14:897 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54485.
+%May 28 20:32:14:897 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  3 20:29:08:774 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 62807 ssh2.
+
+%Jun  3 20:29:08:843 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  3 20:29:10:219 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  3 20:29:28:947 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  3 20:29:46:686 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  3 20:30:30:332 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  3 20:30:48:693 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Jun  3 20:31:05:075 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Jun  3 20:31:22:147 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  3 20:31:42:215 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  3 20:31:55:073 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  3 20:32:10:284 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  3 20:32:23:860 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  3 20:35:57:891 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  3 20:35:57:919 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 62807.
+%Jun  3 20:35:57:919 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  4 14:24:36:313 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 51150 ssh2.
+
+%Jun  4 14:24:36:384 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  4 14:24:37:693 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  4 14:24:39:734 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  4 14:24:39:783 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Last reboot reason : Cold reboot in view shell failed to be matched.
+%Jun  4 14:24:39:812 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Boot image: flash:/s5560ei_d-cmw710-boot-r1122.bin in view shell failed to be matched.
+%Jun  4 14:24:39:900 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Boot image version: 7.1.045, Release 1122 in view shell failed to be matched.
+%Jun  4 14:24:39:902 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command   Compiled Mar 15 2017 16:00:00 in view shell failed to be matched.
+%Jun  4 14:24:39:903 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command System image: flash:/s5560ei_d-cmw710-system-r1122.bin in view shell failed to be matched.
+%Jun  4 14:24:39:904 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command System image version: 7.1.045, Release 1122 in view shell failed to be matched.
+%Jun  4 14:24:39:906 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command   Compiled Mar 15 2017 16:00:00 in view shell failed to be matched.
+%Jun  4 14:24:39:943 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Slot 1: in view shell failed to be matched.
+%Jun  4 14:24:39:953 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Uptime is 132 weeks,6 days,20 hours,37 minutes in view shell failed to be matched.
+%Jun  4 14:24:39:973 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command H3C S5530C-EI-D with 2 Processors in view shell failed to be matched.
+%Jun  4 14:24:39:982 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command BOARD TYPE:         S5530C-EI-D in view shell failed to be matched.
+%Jun  4 14:24:40:004 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command DRAM:               1984M bytes in view shell failed to be matched.
+%Jun  4 14:24:40:013 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command FLASH:              512M bytes in view shell failed to be matched.
+%Jun  4 14:24:40:032 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command PCB 1 Version:      VER.A in view shell failed to be matched.
+%Jun  4 14:24:40:056 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Bootrom Version:    126 in view shell failed to be matched.
+%Jun  4 14:24:40:062 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command CPLD 1 Version:     003 in view shell failed to be matched.
+%Jun  4 14:24:40:085 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Release Version:    H3C S5530C-EI-D-1122 in view shell failed to be matched.
+%Jun  4 14:24:40:094 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Patch Version  :    None in view shell failed to be matched.
+%Jun  4 14:24:40:116 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Reboot Cause  :     ColdReboot in view shell failed to be matched.
+%Jun  4 14:24:40:123 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command [SubSlot 0] 24GE+4SFP Plus in view shell failed to be matched.
+%Jun  4 14:24:49:172 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command <XZ.SN.MN.H3C_5530_2>   display version in view shell failed to be matched.
+%Jun  4 14:24:56:366 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  4 14:25:10:907 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  4 14:25:31:358 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  4 14:25:44:479 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Jun  4 14:25:55:031 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Jun  4 14:26:07:995 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  4 14:26:21:343 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brie
+%Jun  4 14:26:37:507 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  4 14:26:53:540 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  4 14:27:22:532 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  4 14:32:25:935 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  4 14:32:25:966 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 51150.
+%Jun  4 14:32:25:966 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  4 19:21:16:132 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 64889 ssh2.
+
+%Jun  4 19:21:16:250 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  4 19:21:17:634 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  4 19:22:15:772 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  4 19:22:15:870 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 64889.
+%Jun  4 19:22:15:870 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  5 18:30:29:942 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 54030 ssh2.
+
+%Jun  5 18:30:30:011 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  5 18:30:31:334 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  5 18:37:14:156 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  5 18:38:46:116 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  5 18:39:07:787 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  5 18:39:22:089 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Jun  5 18:39:36:379 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Jun  5 18:39:54:319 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  5 18:40:12:906 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  5 18:40:30:034 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  5 18:40:52:391 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  5 18:41:07:271 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  5 18:41:31:598 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  5 18:42:04:102 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  5 18:42:24:482 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  5 18:42:48:390 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Jun  5 18:47:49:562 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  5 18:47:49:591 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54030.
+%Jun  5 18:47:49:591 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  5 20:59:14:789 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 60946 ssh2.
+
+%Jun  5 20:59:14:865 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  5 20:59:16:172 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  5 21:04:17:448 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  5 21:04:17:478 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 60946.
+%Jun  5 21:04:17:478 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  5 21:04:43:343 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 61756 ssh2.
+
+%Jun  5 21:04:43:415 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  5 21:04:44:737 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  5 21:05:47:120 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  5 21:05:47:143 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  5 21:05:47:222 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  5 21:05:47:271 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  5 21:05:47:339 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  5 21:05:47:385 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  5 21:05:47:478 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  5 21:05:47:622 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  5 21:05:47:679 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  5 21:05:48:035 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  5 21:05:48:125 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  5 21:09:54:595 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  5 21:09:54:623 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61756.
+%Jun  5 21:09:54:624 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  6 14:02:27:655 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 58622 ssh2.
+
+%Jun  6 14:02:27:727 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  6 14:02:29:051 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  6 14:03:58:373 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  6 14:03:58:398 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  6 14:03:58:481 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  6 14:03:58:530 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  6 14:03:58:575 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  6 14:03:58:704 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  6 14:03:58:725 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  6 14:03:58:894 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  6 14:03:58:962 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  6 14:03:59:305 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  6 14:03:59:394 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  6 14:06:40:441 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  6 14:06:40:470 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58622.
+%Jun  6 14:06:40:470 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  6 14:08:14:192 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 59547 ssh2.
+
+%Jun  6 14:08:14:264 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  6 14:08:15:582 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  6 14:09:15:724 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  6 14:09:15:750 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  6 14:09:15:832 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  6 14:09:15:880 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  6 14:09:15:998 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  6 14:09:16:045 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  6 14:09:16:070 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  6 14:09:16:217 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  6 14:09:16:294 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  6 14:09:16:669 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  6 14:09:16:813 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  6 14:10:37:545 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  6 14:10:37:575 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 59547.
+%Jun  6 14:10:37:575 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  6 15:26:23:674 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 55899 ssh2.
+
+%Jun  6 15:26:23:749 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  6 15:26:25:107 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  6 15:27:54:553 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  6 15:27:54:578 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  6 15:27:54:666 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  6 15:27:54:708 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  6 15:27:54:756 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  6 15:27:54:801 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  6 15:27:54:824 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  6 15:27:54:962 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  6 15:27:55:020 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  6 15:27:55:442 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  6 15:27:55:537 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  6 15:28:27:953 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  6 15:28:27:981 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 55899.
+%Jun  6 15:28:27:981 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  6 15:58:34:539 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 61190 ssh2.
+
+%Jun  6 15:58:34:612 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  6 15:58:35:990 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  6 16:00:40:494 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  6 16:00:40:518 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  6 16:00:40:607 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  6 16:00:40:665 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  6 16:00:40:717 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  6 16:00:40:760 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  6 16:00:40:786 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  6 16:00:41:002 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  6 16:00:41:061 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  6 16:00:41:429 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  6 16:00:41:524 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  6 16:05:43:239 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  6 16:05:43:268 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61190.
+%Jun  6 16:05:43:268 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  6 16:28:30:185 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49677 ssh2.
+
+%Jun  6 16:28:30:256 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  6 16:28:31:583 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  6 16:30:05:563 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  6 16:30:05:586 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  6 16:30:05:665 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  6 16:30:05:712 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  6 16:30:05:766 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  6 16:30:05:810 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  6 16:30:05:841 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  6 16:30:06:001 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  6 16:30:06:123 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  6 16:30:06:477 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  6 16:30:06:564 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  6 16:35:07:801 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  6 16:35:07:831 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49677.
+%Jun  6 16:35:07:831 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  6 17:11:45:975 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 56728 ssh2.
+
+%Jun  6 17:11:46:048 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  6 17:11:47:394 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  6 17:13:43:910 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  6 17:13:43:952 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  6 17:13:44:038 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  6 17:13:44:082 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  6 17:13:44:132 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  6 17:13:44:179 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  6 17:13:44:203 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  6 17:13:44:350 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  6 17:13:44:409 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  6 17:13:44:833 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  6 17:13:44:931 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  6 17:16:00:963 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  6 17:16:00:990 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  6 17:16:01:078 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  6 17:16:01:127 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  6 17:16:01:195 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  6 17:16:01:242 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  6 17:16:01:272 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  6 17:16:01:447 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  6 17:16:01:503 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  6 17:16:01:874 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jun  6 17:16:01:969 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jun  6 17:16:28:751 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jun  6 17:16:28:779 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56728.
+%Jun  6 17:16:28:779 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jun  7 14:36:00:458 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49494 ssh2.
+
+%Jun  7 14:36:00:531 2014 XZ_CD_NMS_5530_2 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jun  7 14:36:01:850 2014 XZ_CD_NMS_5530_2 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jun  7 14:37:43:725 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jun  7 14:37:43:753 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jun  7 14:37:43:841 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jun  7 14:37:43:890 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jun  7 14:37:43:939 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jun  7 14:37:44:009 2014 XZ_CD_NMS_5530_2 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jun  7 14:37:44:035 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jun  7 14:37:44:227 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jun  7 14:37:44:294 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jun  7 14:37:44:804 2014 XZ_CD_NMS_5530_2 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table

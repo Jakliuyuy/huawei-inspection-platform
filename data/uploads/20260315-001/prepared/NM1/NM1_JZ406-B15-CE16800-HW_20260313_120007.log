@@ -1,0 +1,2184 @@
+﻿<JZ406-B15-CE16800>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<JZ406-B15-CE16800>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE16800 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE16808 uptime is 1394 days, 17 hours, 35 minutes 
+Patch Version: V200R019SPH003
+
+BKP  version information:
+1.PCB      Version  : CE01BAK08GX VER A
+2.Board    Type     : CE-BAK08GX  
+3.MPU Slot Quantity : 2
+4.LPU Slot Quantity : 8
+5.SFU Slot Quantity : 9
+
+MPU(Master) 9 : uptime is  1394 days, 17 hours, 34 minutes
+        StartupTime 2022/05/18   18:10:03 
+Memory     Size     : 16384 M bytes
+Flash      Size     : 4096 M bytes
+MPU version information:                              
+1.PCB      Version  : GPMPUA VER B
+2.MAB      Version  : 1 
+3.Board    Type     : CE-MPUD-HALF
+4.CPLD1    Version  : 258
+5.BIOS     Version  : 1102
+  
+MPU(Slave) 10 : uptime is  1394 days, 17 hours, 32 minutes
+        StartupTime 2022/05/18   18:12:26 
+Memory     Size     : 16384 M bytes
+Flash      Size     : 4096 M bytes
+MPU version information:                              
+1.PCB      Version  : GPMPUA VER B
+2.MAB      Version  : 1 
+3.Board    Type     : CE-MPUD-HALF
+4.CPLD1    Version  : 258
+5.BIOS     Version  : 1102
+  
+LPU 1 : uptime is 1394 days, 17 hours, 31 minutes
+        StartupTime 2022/05/18   18:12:48 
+Memory     Size     : 4096 M bytes
+Flash      Size     : 128  M bytes
+LPU version information:
+1.PCB      Version  : GPL48XSFD VER C
+2.MAB      Version  : 0
+3.Board    Type     : CEL48XSFD-G
+4.CPLD1    Version  : 260
+5.CPLD2    Version  : 260
+6.CPLD3    Version  : 260
+7.BIOS     Version  : 1262
+
+LPU 2 : uptime is 1394 days, 17 hours, 31 minutes
+        StartupTime 2022/05/18   18:12:48 
+Memory     Size     : 4096 M bytes
+Flash      Size     : 128  M bytes
+LPU version information:
+1.PCB      Version  : GPL48XSFD VER C
+2.MAB      Version  : 0
+3.Board    Type     : CEL48XSFD-G
+4.CPLD1    Version  : 260
+5.CPLD2    Version  : 260
+6.CPLD3    Version  : 260
+7.BIOS     Version  : 1262
+
+SFU SFU1 : uptime is 1394 days, 17 hours, 31 minutes
+        StartupTime 2022/05/18   18:12:41 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU2 : uptime is 1394 days, 17 hours, 31 minutes
+        StartupTime 2022/05/18   18:12:41 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU3 : uptime is 1394 days, 17 hours, 31 minutes
+        StartupTime 2022/05/18   18:12:41 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU4 : uptime is 1394 days, 17 hours, 31 minutes
+        StartupTime 2022/05/18   18:12:41 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU5 : uptime is 1394 days, 17 hours, 31 minutes
+        StartupTime 2022/05/18   18:12:41 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+<JZ406-B15-CE16800>display device
+CE16808's Device status:
+-------------------------------------------------------------------------------------------
+Slot  Card   Type                     Online   Power Register     Alarm     Primary        
+-------------------------------------------------------------------------------------------
+1     -      CEL48XSFD-G              Present  On    Registered   Normal    NA             
+2     -      CEL48XSFD-G              Present  On    Registered   Normal    NA             
+9     -      CE-MPUD-HALF             Present  On    Registered   Normal    Master         
+10    -      CE-MPUD-HALF             Present  On    Registered   Normal    Slave          
+SFU1  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU2  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU3  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU4  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU5  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+PWR1  -      PAH-3000WA               Present  On    Registered   Normal    NA             
+PWR2  -      PAH-3000WA               Present  On    Registered   Normal    NA             
+FAN1  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+FAN2  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+FAN3  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+-------------------------------------------------------------------------------------------
+<JZ406-B15-CE16800>display startup
+MainBoard:
+  Configured startup system software:        flash:/CE16800-V200R019C10SPC800.cc
+  Startup system software:                   flash:/CE16800-V200R019C10SPC800.cc
+  Next startup system software:              flash:/CE16800-V200R019C10SPC800.cc
+  Startup saved-configuration file:          NULL
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup patch package:                     flash:/CE16800-V200R019SPH003.PAT
+  Next startup patch package:                flash:/CE16800-V200R019SPH003.PAT
+SlaveBoard:
+  Configured startup system software:        flash:/CE16800-V200R019C10SPC800.cc
+  Startup system software:                   flash:/CE16800-V200R019C10SPC800.cc
+  Next startup system software:              flash:/CE16800-V200R019C10SPC800.cc
+  Startup saved-configuration file:          NULL
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup patch package:                     flash:/CE16800-V200R019SPH003.PAT
+  Next startup patch package:                flash:/CE16800-V200R019SPH003.PAT
+<JZ406-B15-CE16800>display cpu-usage
+                           ^
+Error: Unrecognized command found at '^' position.
+<JZ406-B15-CE16800>display memory-usage
+                           ^
+Error: Unrecognized command found at '^' position.
+<JZ406-B15-CE16800>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(dl): DLDP down
+(c): CFM down
+(sd): STP instance discarding
+InUti/OutUti: input utility rate/output utility rate
+Interface                  PHY      Protocol  InUti OutUti   inErrors  outErrors
+10GE1/0/2                  *down    down         0%     0%          0          0
+10GE1/0/3                  *down    down         0%     0%          0          0
+10GE1/0/4                  *down    down         0%     0%          0          0
+10GE1/0/5                  up       up        6.22% 42.23%          0          0
+10GE1/0/6                  *down    down         0%     0%          0          0
+10GE1/0/7                  *down    down         0%     0%          0          0
+10GE1/0/8                  up       up           0%  0.01%          0          0
+10GE1/0/9                  *down    down         0%     0%          0          0
+10GE1/0/10                 *down    down         0%     0%          0          0
+10GE1/0/11                 *down    down         0%     0%          0          0
+10GE1/0/12                 *down    down         0%     0%          0          0
+10GE1/0/13                 *down    down         0%     0%          0          0
+10GE1/0/14                 *down    down         0%     0%          0          0
+10GE1/0/15                 *down    down         0%     0%          0          0
+10GE1/0/16                 *down    down         0%     0%          0          0
+10GE1/0/17                 *down    down         0%     0%          0          0
+10GE1/0/18                 *down    down         0%     0%          0          0
+10GE1/0/19                 *down    down         0%     0%          0          0
+10GE1/0/20                 *down    down         0%     0%          0          0
+10GE1/0/21                 *down    down         0%     0%          0          0
+10GE1/0/22                 *down    down         0%     0%          0          0
+10GE1/0/23                 *down    down         0%     0%          0          0
+10GE1/0/24                 up       up        0.01%  0.01%          0          0
+10GE1/0/25                 up       up        0.01%  0.01%          0          0
+10GE1/0/26                 up       up        0.01%  0.01%          0          0
+10GE1/0/27                 up       up        0.01%  0.01%          0          0
+10GE1/0/28                 up       up        0.01%  0.01%          0          0
+10GE1/0/29                 up       up        0.01%  0.01%          0          0
+10GE1/0/30                 up       up        0.01%  0.01%          0          0
+10GE1/0/31                 up       up        0.01%  0.01%          0          0
+10GE1/0/32                 *down    down         0%     0%          0          0
+10GE1/0/33                 *down    down         0%     0%          0          0
+10GE1/0/34                 *down    down         0%     0%          0          0
+10GE1/0/35                 *down    down         0%     0%          0          0
+10GE1/0/36                 *down    down         0%     0%          0          0
+10GE1/0/37                 *down    down         0%     0%          0          0
+10GE1/0/38                 *down    down         0%     0%          0          0
+10GE1/0/39                 *down    down         0%     0%          0          0
+10GE2/0/0                  *down    down         0%     0%          0          0
+10GE2/0/1                  up       up        0.08% 14.55%          0          0
+10GE2/0/2                  *down    down         0%     0%          0          0
+10GE2/0/3                  *down    down         0%     0%          0          0
+10GE2/0/4                  *down    down         0%     0%          0          0
+10GE2/0/5                  *down    down         0%     0%          0          0
+10GE2/0/6                  *down    down         0%     0%          0          0
+10GE2/0/7                  *down    down         0%     0%          0          0
+10GE2/0/8                  *down    down         0%     0%          0          0
+10GE2/0/9                  *down    down         0%     0%          0          0
+10GE2/0/10                 *down    down         0%     0%          0          0
+10GE2/0/11                 *down    down         0%     0%          0          0
+10GE2/0/16                 *down    down         0%     0%          0          0
+10GE2/0/17                 *down    down         0%     0%          0          0
+10GE2/0/18                 *down    down         0%     0%          0          0
+10GE2/0/19                 *down    down         0%     0%          0          0
+10GE2/0/20                 *down    down         0%     0%          0          0
+10GE2/0/21                 *down    down         0%     0%          0          0
+10GE2/0/22                 *down    down         0%     0%          0          0
+10GE2/0/23                 *down    down         0%     0%          0          0
+10GE2/0/24                 *down    down         0%     0%          0          0
+10GE2/0/25                 *down    down         0%     0%          0          0
+10GE2/0/26                 *down    down         0%     0%          0          0
+10GE2/0/27                 *down    down         0%     0%          0          0
+10GE2/0/28                 *down    down         0%     0%          0          0
+10GE2/0/29                 *down    down         0%     0%          0          0
+10GE2/0/30                 *down    down         0%     0%          0          0
+10GE2/0/31                 *down    down         0%     0%          0          0
+10GE2/0/32                 *down    down         0%     0%          0          0
+10GE2/0/33                 *down    down         0%     0%          0          0
+10GE2/0/34                 *down    down         0%     0%          0          0
+10GE2/0/35                 *down    down         0%     0%          0          0
+10GE2/0/36                 *down    down         0%     0%          0          0
+10GE2/0/37                 *down    down         0%     0%          0          0
+10GE2/0/38                 *down    down         0%     0%          0          0
+10GE2/0/39                 *down    down         0%     0%          0          0
+10GE2/0/40                 *down    down         0%     0%          0          0
+10GE2/0/41                 *down    down         0%     0%          0          0
+10GE2/0/42                 *down    down         0%     0%          0          0
+10GE2/0/43                 *down    down         0%     0%          0          0
+Eth-Trunk1                 up       up        0.01%  0.01%          0          0
+  10GE1/0/0                up       up        0.01%  0.01%          0          0
+  10GE1/0/1                up       up        0.01%  0.01%          0          0
+  10GE2/0/44               down     down         0%     0%          0          0
+  10GE2/0/45               down     down         0%     0%          0          0
+  10GE2/0/46               down     down         0%     0%          0          0
+  10GE2/0/47               down     down         0%     0%          0          0
+Eth-Trunk2                 up       up       14.22%  1.72%          0          0
+  10GE2/0/12               up       up       13.09%  2.28%          0          0
+  10GE2/0/13               up       up       14.74%  0.15%          0          0
+  10GE2/0/14               up       up       12.35%  4.31%          0          0
+  10GE2/0/15               up       up       16.70%  0.15%          0          0
+Eth-Trunk3                 up       up        0.12%  0.01%          0          0
+  10GE1/0/40               up       up        0.18%  0.01%          0          0
+  10GE1/0/41               up       up        0.07%  0.01%          0          0
+  10GE1/0/42               up       up        0.18%  0.01%          0          0
+  10GE1/0/43               up       up        0.07%  0.01%          0          0
+Eth-Trunk4                 up       up        0.01%  0.01%          0          0
+  10GE1/0/44               down     down         0%     0%          0          0
+  10GE1/0/45               up       up        0.01%  0.01%          0          0
+  10GE1/0/46               up       up        0.01%  0.01%          0          0
+  10GE1/0/47               up       up        0.01%  0.01%          0          0
+MEth0/0/0                  down     down         0%     0%          0          0
+NULL0                      up       up(s)        0%     0%          0          0
+Sip9/0/0                   down     down         0%     0%          0          0
+Sip9/0/1                   down     down         0%     0%          0          0
+Sip10/0/0                  down     down         0%     0%          0          0
+Sip10/0/1                  down     down         0%     0%          0          0
+Vlanif100                  up       up           --     --          0          0
+<JZ406-B15-CE16800>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+The number of interface that is UP in Physical is 2
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 2
+The number of interface that is DOWN in Protocol is 1
+Interface                   IP Address/Mask    Physical Protocol VPN           
+MEth0/0/0                   unassigned         down     down     --            
+NULL0                       unassigned         up       up(s)    --            
+Vlanif100                   10.241.93.23/24    up       up       --            
+<JZ406-B15-CE16800>display current-configuration
+!Software Version V200R019C10SPC800
+!Last configuration was updated at 2025-06-23 17:01:27+00:00 by xz4a_admin
+!Last configuration was saved at 2025-06-23 16:36:59+00:00 by xz4a_admin
+#
+sysname JZ406-B15-CE16800
+#
+undo ftp server source all-interface
+undo ftp ipv6 server source all-interface
+#
+info-center loghost 10.237.35.254 local-time
+#
+device board 9 board-type CE-MPUD-HALF
+device board 10 board-type CE-MPUD-HALF
+device board 1 board-type CEL48XSFD-G
+device board 2 board-type CEL48XSFD-G
+#
+drop-profile default
+#
+dcb pfc
+#
+ntp server disable
+ntp ipv6 server disable
+ntp server source-interface all disable
+ntp ipv6 server source-interface all disable
+ntp authentication-keyid 10 authentication-mode md5 cipher %^%#&DOV%T8Mk~fjw_5pp;I5t\m`R"GPh=BaCw3L0WO=%^%#
+ntp unicast-server 10.241.93.1 authentication-keyid 10
+ntp authentication enable
+#
+vlan batch 100
+#
+telnet server disable
+telnet ipv6 server disable
+undo telnet server-source all-interface
+undo telnet ipv6 server-source all-interface
+#
+diffserv domain default
+#
+acl number 2000
+ rule 5 permit source 10.233.138.0 0.0.0.255 logging
+ rule 10 permit source 10.241.93.0 0.0.0.255 logging
+ rule 15 permit source 10.237.35.0 0.0.0.255 logging
+ rule 20 permit source 10.237.100.0 0.0.0.255 logging
+#
+acl number 2001
+ rule 5 permit source 10.237.99.123 0
+ rule 10 permit source 10.237.99.233 0
+ rule 15 permit source 10.233.205.244 0
+#
+acl number 3000
+ rule 5 deny tcp destination-port eq 445
+ rule 10 deny tcp destination-port eq 5800
+ rule 15 deny tcp destination-port eq 5900
+ rule 20 deny udp destination-port eq 1434
+ rule 25 deny udp destination-port eq tftp
+ rule 30 deny tcp destination-port eq 135
+ rule 35 deny udp destination-port eq netbios-ns
+ rule 40 deny udp destination-port eq netbios-dgm
+ rule 45 deny tcp destination-port eq 139
+ rule 50 deny udp destination-port eq netbios-ssn
+ rule 55 deny tcp destination-port eq 539
+ rule 60 deny udp destination-port eq 539
+ rule 65 deny tcp destination-port eq 593
+ rule 70 deny tcp destination-port eq 4786
+ rule 75 permit ip
+#
+aaa
+ undo local-user policy security-enhance
+ local-user langjiewangdui password irreversible-cipher $1c$.%I)La`P\G$xU%=5:W:JJT;Pl;M{$0NJ#3RRj{%dPVhLn40l_Z5$
+ local-user langjiewangdui service-type ssh
+ local-user langjiewangdui level 1
+ local-user xz4a_admin password irreversible-cipher $1c$-hrIU[ZCpF$V7@W+WQv2&HLO<MK&+|5rd)@1smqz'&5B7$-{9^0$
+ local-user xz4a_admin service-type ssh
+ local-user xz4a_admin level 3
+ local-user jtcjxz password irreversible-cipher $1c$0/=,'Maip:$$C`6#6/CT&0utiSn>Vy+k"H"8@)E2'|Lq[68;YF)$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 2
+ #
+ authentication-scheme default
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default
+ #
+ domain default
+ #
+ domain default_admin
+#
+stack
+#
+interface Vlanif100
+ ip address 10.241.93.23 255.255.255.0
+#
+interface MEth0/0/0
+#
+interface Eth-Trunk1
+ description to:C21 FW-E800E
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+#
+interface Eth-Trunk2
+ description to:B14 jiaohuanjihulian
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk3
+ description to:JZ-305-A10-HW6881
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk4
+ description to:JZ-305-B13-HW6881
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface 10GE1/0/0
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/1
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/2
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/3
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/4
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/5
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/6
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/7
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/8
+ traffic-filter acl 3000 inbound 
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/9
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/10
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/11
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/12
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/13
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/14
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/15
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/16
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/17
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/18
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/19
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/20
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/21
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/22
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/23
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/24
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/25
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/26
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/27
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/28
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/29
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/30
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/31
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/32
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/33
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/34
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/35
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/36
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/37
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/38
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/39
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/40
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/41
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/42
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/43
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/44
+ eth-trunk 4
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/45
+ eth-trunk 4
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/46
+ eth-trunk 4
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/47
+ eth-trunk 4
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/0
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/1
+ description to:shoujishangwangfenxi
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/2
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/3
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/4
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/5
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/6
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/7
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/8
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/9
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/10
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/11
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/12
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/13
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/14
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/15
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/16
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/17
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/18
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/19
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/20
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/21
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/22
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/23
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/24
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/25
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/26
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/27
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/28
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/29
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/30
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/31
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/32
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/33
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/34
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/35
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/36
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/37
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/38
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/39
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/40
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/41
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/42
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/43
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/44
+ eth-trunk 1
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/45
+ eth-trunk 1
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/46
+ eth-trunk 1
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/47
+ eth-trunk 1
+ device transceiver 1000BASE-T
+#
+interface Sip9/0/0
+#
+interface Sip9/0/1
+#
+interface Sip10/0/0
+#
+interface Sip10/0/1
+#
+interface NULL0
+#
+ip route-static 10.233.205.244 255.255.255.255 10.241.93.1
+ip route-static 10.237.35.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.99.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.100.0 255.255.255.0 10.241.93.1
+#
+snmp-agent
+snmp-agent local-engineid 800007DB0310C3AB04E301
+snmp-agent community read cipher %^%#g4Qm6y`**~Fc'ARz}.(K3xK4Q2+O}C^%*K8j[)%4QMM=I^d'l6l/\4)|uSfEt,,BADONj</3WARCMNvV%^%# acl 2001
+#
+snmp-agent sys-info version v2c v3
+#
+snmp-agent protocol source-status all-interface
+snmp-agent protocol source-status ipv6 all-interface
+#
+snmp-agent proxy protocol source-status all-interface
+snmp-agent proxy protocol source-status ipv6 all-interface
+#
+lldp enable
+#
+stelnet server enable
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user langjiewangdui
+ssh user langjiewangdui authentication-type password
+ssh user langjiewangdui service-type stelnet
+ssh server-source all-interface
+undo ssh ipv6 server-source all-interface
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr
+ssh server hmac sha2_512 sha2_256
+ssh server key-exchange dh_group_exchange_sha256
+#
+ssh server publickey rsa
+#
+ssh server dh-exchange min-len 2048
+#
+ssh client publickey rsa
+#
+ssh client cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr
+ssh client hmac sha2_512 sha2_256
+ssh client key-exchange dh_group_exchange_sha256
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$Zk6fTZFuq*$H)P^+!"YN%oWsnB@BYX7JC;N=&crs=Gl6yTG[yN8$
+ idle-timeout 2 15
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+ idle-timeout 2 15
+#
+port-group duabkou
+ group-member 10GE1/0/2
+ group-member 10GE1/0/3
+ group-member 10GE1/0/4
+ group-member 10GE1/0/5
+ group-member 10GE1/0/6
+ group-member 10GE1/0/7
+ group-member 10GE1/0/9
+ group-member 10GE1/0/10
+ group-member 10GE1/0/11
+ group-member 10GE1/0/12
+ group-member 10GE1/0/13
+ group-member 10GE1/0/14
+ group-member 10GE1/0/15
+ group-member 10GE1/0/16
+ group-member 10GE1/0/17
+ group-member 10GE1/0/18
+ group-member 10GE1/0/19
+ group-member 10GE1/0/20
+ group-member 10GE1/0/21
+ group-member 10GE1/0/22
+ group-member 10GE1/0/23
+ group-member 10GE1/0/32
+ group-member 10GE1/0/33
+ group-member 10GE1/0/34
+ group-member 10GE1/0/35
+ group-member 10GE1/0/36
+ group-member 10GE1/0/37
+ group-member 10GE1/0/38
+ group-member 10GE1/0/39
+#
+port-group duankou1
+ group-member 10GE2/0/0
+ group-member 10GE2/0/1
+ group-member 10GE2/0/2
+ group-member 10GE2/0/3
+ group-member 10GE2/0/4
+ group-member 10GE2/0/5
+ group-member 10GE2/0/6
+ group-member 10GE2/0/7
+ group-member 10GE2/0/8
+ group-member 10GE2/0/9
+ group-member 10GE2/0/10
+ group-member 10GE2/0/11
+ group-member 10GE2/0/16
+ group-member 10GE2/0/17
+ group-member 10GE2/0/18
+ group-member 10GE2/0/19
+ group-member 10GE2/0/20
+ group-member 10GE2/0/21
+ group-member 10GE2/0/22
+ group-member 10GE2/0/23
+ group-member 10GE2/0/24
+ group-member 10GE2/0/25
+ group-member 10GE2/0/26
+ group-member 10GE2/0/27
+ group-member 10GE2/0/28
+ group-member 10GE2/0/29
+ group-member 10GE2/0/30
+ group-member 10GE2/0/31
+ group-member 10GE2/0/32
+ group-member 10GE2/0/33
+ group-member 10GE2/0/34
+ group-member 10GE2/0/35
+ group-member 10GE2/0/36
+ group-member 10GE2/0/37
+ group-member 10GE2/0/38
+ group-member 10GE2/0/39
+ group-member 10GE2/0/40
+ group-member 10GE2/0/41
+ group-member 10GE2/0/42
+ group-member 10GE2/0/43
+#
+return
+<JZ406-B15-CE16800>display ip routing-table
+Proto: Protocol        Pre: Preference
+Route Flags: R - relay, D - download to fib, T - to vpn-instance, B - black hole route
+------------------------------------------------------------------------------
+Routing Table : _public_
+         Destinations : 11       Routes : 11        
+
+Destination/Mask    Proto   Pre  Cost        Flags NextHop         Interface
+
+ 10.233.205.244/32  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.35.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.99.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+   10.237.100.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.241.93.0/24  Direct  0    0             D   10.241.93.23    Vlanif100
+   10.241.93.23/32  Direct  0    0             D   127.0.0.1       Vlanif100
+  10.241.93.255/32  Direct  0    0             D   127.0.0.1       Vlanif100
+      127.0.0.0/8   Direct  0    0             D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+127.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+255.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+<JZ406-B15-CE16800>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 20240
+Current messages : 512
+
+Mar 13 2026 07:56:42 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260302183856.log.zip)
+Mar 13 2026 07:56:42 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260302183856.log.zip)
+Mar 13 2026 07:48:33 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 07:32:33 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 07:20:33 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 04:00:31 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 03:54:31 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 02:06:28 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 01:56:28 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 01:16:28 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 13 2026 01:11:00 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-13 01:11:00-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar 12 2026 23:12:47 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260302095301.log.zip)
+Mar 12 2026 23:12:47 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260302095301.log.zip)
+Mar 12 2026 22:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220222326.pads.zip)
+Mar 12 2026 22:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220222326.pads.zip)
+Mar 12 2026 14:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260302010711.log.zip)
+Mar 12 2026 14:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260302010711.log.zip)
+Mar 12 2026 07:28:13 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 12 2026 05:44:00 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260301162700.log.zip)
+Mar 12 2026 05:44:00 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260301162700.log.zip)
+Mar 12 2026 05:32:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220051231.pads.zip)
+Mar 12 2026 05:32:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220051231.pads.zip)
+Mar 12 2026 04:16:09 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 12 2026 03:44:09 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 12 2026 01:16:07 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 12 2026 01:10:47 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-12 01:10:47-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar 11 2026 20:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260301073727.log.zip)
+Mar 11 2026 20:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260301073727.log.zip)
+Mar 11 2026 12:16:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228225314.log.zip)
+Mar 11 2026 12:16:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228225314.log.zip)
+Mar 11 2026 12:04:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260219120254.pads.zip)
+Mar 11 2026 12:04:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260219120254.pads.zip)
+Mar 11 2026 07:45:56 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 11 2026 03:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228140730.log.zip)
+Mar 11 2026 03:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228140730.log.zip)
+Mar 11 2026 01:19:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 11 2026 01:11:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 11 2026 01:10:28 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-11 01:10:28-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar 11 2026 00:57:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 10 2026 18:52:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260218185254.pads.zip)
+Mar 10 2026 18:52:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260218185254.pads.zip)
+Mar 10 2026 18:45:07 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228052018.log.zip)
+Mar 10 2026 18:45:07 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228052018.log.zip)
+Mar 10 2026 10:04:18 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227204011.log.zip)
+Mar 10 2026 10:04:18 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227204011.log.zip)
+Mar 10 2026 07:53:45 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 10 2026 03:57:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 10 2026 03:51:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 10 2026 01:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260218014231.pads.zip)
+Mar 10 2026 01:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260218014231.pads.zip)
+Mar 10 2026 01:23:40 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar 10 2026 01:16:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227115616.log.zip)
+Mar 10 2026 01:16:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227115616.log.zip)
+Mar 10 2026 01:10:10 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-10 01:10:10-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  9 2026 16:37:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227030731.log.zip)
+Mar  9 2026 16:37:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227030731.log.zip)
+Mar  9 2026 08:32:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260217083527.pads.zip)
+Mar  9 2026 08:32:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260217083527.pads.zip)
+Mar  9 2026 07:49:24 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  9 2026 07:46:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226182731.log.zip)
+Mar  9 2026 07:46:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226182731.log.zip)
+Mar  9 2026 07:43:24 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  9 2026 07:23:24 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  9 2026 02:17:20 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  9 2026 02:01:20 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  9 2026 01:33:20 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  9 2026 01:09:59 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-09 01:09:59-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  8 2026 23:03:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226093938.log.zip)
+Mar  8 2026 23:03:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226093938.log.zip)
+Mar  8 2026 15:22:56 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260216152502.pads.zip)
+Mar  8 2026 15:22:56 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260216152502.pads.zip)
+Mar  8 2026 14:19:56 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226005309.log.zip)
+Mar  8 2026 14:19:56 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226005309.log.zip)
+Mar  8 2026 07:59:12 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 05:33:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225161334.log.zip)
+Mar  8 2026 05:33:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225161334.log.zip)
+Mar  8 2026 03:11:09 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 03:01:09 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 02:21:09 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 02:13:08 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 02:03:09 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 01:57:08 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 01:51:08 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 01:45:08 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 01:37:08 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  8 2026 01:09:46 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-08 01:09:46-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  7 2026 22:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215221231.pads.zip)
+Mar  7 2026 22:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215221231.pads.zip)
+Mar  7 2026 20:52:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225072326.log.zip)
+Mar  7 2026 20:52:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225072326.log.zip)
+Mar  7 2026 12:10:03 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224223956.log.zip)
+Mar  7 2026 12:10:03 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224223956.log.zip)
+Mar  7 2026 07:46:53 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  7 2026 05:05:04 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215050518.pads.zip)
+Mar  7 2026 05:05:04 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215050518.pads.zip)
+Mar  7 2026 03:19:07 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224135337.log.zip)
+Mar  7 2026 03:19:07 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224135337.log.zip)
+Mar  7 2026 02:16:50 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  7 2026 01:50:50 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  7 2026 01:36:50 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  7 2026 01:09:23 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-07 01:09:23-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  6 2026 18:36:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224050355.log.zip)
+Mar  6 2026 18:36:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224050355.log.zip)
+Mar  6 2026 11:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260214115341.pads.zip)
+Mar  6 2026 11:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260214115341.pads.zip)
+Mar  6 2026 09:50:18 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223202156.log.zip)
+Mar  6 2026 09:50:18 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223202156.log.zip)
+Mar  6 2026 08:02:41 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  6 2026 04:52:38 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  6 2026 04:34:38 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  6 2026 02:04:35 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  6 2026 01:44:35 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  6 2026 01:18:35 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  6 2026 01:09:14 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-06 01:09:14-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  6 2026 01:04:46 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223113725.log.zip)
+Mar  6 2026 01:04:46 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223113725.log.zip)
+Mar  5 2026 18:34:11 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213184231.pads.zip)
+Mar  5 2026 18:34:11 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213184231.pads.zip)
+Mar  5 2026 16:20:14 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223024628.log.zip)
+Mar  5 2026 16:20:14 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223024628.log.zip)
+Mar  5 2026 07:44:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 07:34:39 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222180720.log.zip)
+Mar  5 2026 07:34:39 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222180720.log.zip)
+Mar  5 2026 04:40:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 04:08:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 02:10:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 01:52:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 01:30:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 01:22:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213013528.pads.zip)
+Mar  5 2026 01:22:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213013528.pads.zip)
+Mar  5 2026 01:18:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 01:12:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  5 2026 01:08:45 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-05 01:08:45-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  4 2026 22:49:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222091945.log.zip)
+Mar  4 2026 22:49:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222091945.log.zip)
+Mar  4 2026 14:04:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222003411.log.zip)
+Mar  4 2026 14:04:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222003411.log.zip)
+Mar  4 2026 08:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260212082254.pads.zip)
+Mar  4 2026 08:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260212082254.pads.zip)
+Mar  4 2026 07:52:08 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 05:16:56 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221155405.log.zip)
+Mar  4 2026 05:16:56 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221155405.log.zip)
+Mar  4 2026 04:56:06 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 04:38:06 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 03:58:06 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 03:40:06 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 03:30:06 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 03:20:04 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 02:24:03 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 01:54:03 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 01:20:03 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  4 2026 01:08:25 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-04 01:08:25-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  3 2026 20:34:52 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221070417.log.zip)
+Mar  3 2026 20:34:52 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221070417.log.zip)
+Mar  3 2026 15:04:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260211151231.pads.zip)
+Mar  3 2026 15:04:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260211151231.pads.zip)
+Mar  3 2026 11:50:49 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220222024.log.zip)
+Mar  3 2026 11:50:49 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220222024.log.zip)
+Mar  3 2026 07:53:49 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  3 2026 02:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220133725.log.zip)
+Mar  3 2026 02:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220133725.log.zip)
+Mar  3 2026 02:01:48 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  3 2026 01:53:48 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  3 2026 01:41:48 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  3 2026 01:08:04 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-03 01:08:04-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  2 2026 21:53:13 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260210220527.pads.zip)
+Mar  2 2026 21:53:13 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260210220527.pads.zip)
+Mar  2 2026 18:19:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220044626.log.zip)
+Mar  2 2026 18:19:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220044626.log.zip)
+Mar  2 2026 09:34:19 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219200651.log.zip)
+Mar  2 2026 09:34:19 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219200651.log.zip)
+Mar  2 2026 07:53:32 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  2 2026 04:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260210050527.pads.zip)
+Mar  2 2026 04:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260210050527.pads.zip)
+Mar  2 2026 04:25:29 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  2 2026 04:13:29 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  2 2026 01:57:29 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  2 2026 01:51:29 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  2 2026 01:33:27 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  2 2026 01:07:43 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-02 01:07:43-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  2 2026 00:46:44 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219112040.log.zip)
+Mar  2 2026 00:46:44 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219112040.log.zip)
+Mar  1 2026 16:04:25 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219023348.log.zip)
+Mar  1 2026 16:04:25 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219023348.log.zip)
+Mar  1 2026 11:34:11 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260209120527.pads.zip)
+Mar  1 2026 11:34:11 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260209120527.pads.zip)
+Mar  1 2026 08:03:14 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 07:16:33 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218175336.log.zip)
+Mar  1 2026 07:16:33 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218175336.log.zip)
+Mar  1 2026 04:31:13 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 04:05:13 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 03:25:13 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 03:13:13 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 03:01:13 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 02:41:11 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 02:11:11 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Mar  1 2026 01:07:27 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-01 01:07:27-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 28 2026 22:30:44 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218090429.log.zip)
+Feb 28 2026 22:30:44 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218090429.log.zip)
+Feb 28 2026 18:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260208190302.pads.zip)
+Feb 28 2026 18:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260208190302.pads.zip)
+Feb 28 2026 13:46:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218001958.log.zip)
+Feb 28 2026 13:46:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260218001958.log.zip)
+Feb 28 2026 08:15:00 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 08:05:00 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 07:59:00 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 05:00:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260217153754.log.zip)
+Feb 28 2026 05:00:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260217153754.log.zip)
+Feb 28 2026 04:52:57 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 04:42:57 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 04:36:57 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 03:58:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 02:14:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 01:46:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 01:36:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 28 2026 01:07:17 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-28 01:07:17-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 28 2026 01:04:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260208015255.pads.zip)
+Feb 28 2026 01:04:50 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260208015255.pads.zip)
+Feb 27 2026 20:18:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260217064619.log.zip)
+Feb 27 2026 20:18:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260217064619.log.zip)
+Feb 27 2026 11:33:59 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216220049.log.zip)
+Feb 27 2026 11:33:59 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216220049.log.zip)
+Feb 27 2026 08:16:44 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 27 2026 08:10:44 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 27 2026 08:02:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 27 2026 07:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260207084231.pads.zip)
+Feb 27 2026 07:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260207084231.pads.zip)
+Feb 27 2026 02:54:40 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 27 2026 02:49:39 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216131649.log.zip)
+Feb 27 2026 02:49:39 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216131649.log.zip)
+Feb 27 2026 02:46:40 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 27 2026 02:20:40 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 27 2026 01:06:51 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-27 01:06:51-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 26 2026 18:07:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216042636.log.zip)
+Feb 26 2026 18:07:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260216042636.log.zip)
+Feb 26 2026 14:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260206153527.pads.zip)
+Feb 26 2026 14:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260206153527.pads.zip)
+Feb 26 2026 09:19:58 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215194310.log.zip)
+Feb 26 2026 09:19:58 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215194310.log.zip)
+Feb 26 2026 08:14:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 26 2026 08:02:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 26 2026 07:54:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 26 2026 02:54:19 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 26 2026 02:48:19 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 26 2026 02:28:18 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 26 2026 01:06:39 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-26 01:06:39-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 26 2026 00:34:04 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215105635.log.zip)
+Feb 26 2026 00:34:04 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215105635.log.zip)
+Feb 25 2026 21:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260205222527.pads.zip)
+Feb 25 2026 21:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260205222527.pads.zip)
+Feb 25 2026 15:50:00 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215020653.log.zip)
+Feb 25 2026 15:50:00 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260215020653.log.zip)
+Feb 25 2026 08:12:05 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 08:04:05 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 07:54:05 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 07:03:52 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260214172645.log.zip)
+Feb 25 2026 07:03:52 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260214172645.log.zip)
+Feb 25 2026 04:42:02 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 04:26:02 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 04:04:59 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260205051231.pads.zip)
+Feb 25 2026 04:04:59 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260205051231.pads.zip)
+Feb 25 2026 02:34:00 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 02:24:00 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 02:18:00 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 02:12:00 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 01:41:59 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 25 2026 01:06:08 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-25 01:06:08-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 24 2026 22:20:08 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260214083952.log.zip)
+Feb 24 2026 22:20:08 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260214083952.log.zip)
+Feb 24 2026 13:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213235256.log.zip)
+Feb 24 2026 13:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213235256.log.zip)
+Feb 24 2026 10:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260204120302.pads.zip)
+Feb 24 2026 10:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260204120302.pads.zip)
+Feb 24 2026 07:55:45 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 04:43:19 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213151315.log.zip)
+Feb 24 2026 04:43:19 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213151315.log.zip)
+Feb 24 2026 04:37:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 03:55:39 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 03:11:39 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 03:05:39 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 02:17:39 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 01:47:38 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 01:19:38 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 24 2026 01:05:54 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-24 01:05:54-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 23 2026 20:01:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213062331.log.zip)
+Feb 23 2026 20:01:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260213062331.log.zip)
+Feb 23 2026 17:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260203190445.pads.zip)
+Feb 23 2026 17:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260203190445.pads.zip)
+Feb 23 2026 11:13:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212214005.log.zip)
+Feb 23 2026 11:13:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212214005.log.zip)
+Feb 23 2026 08:15:27 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 08:05:27 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 07:59:27 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 04:41:24 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 03:59:24 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 03:53:24 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 03:33:21 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 03:23:21 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 03:11:21 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 02:26:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212125639.log.zip)
+Feb 23 2026 02:26:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212125639.log.zip)
+Feb 23 2026 02:25:21 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 23 2026 01:05:31 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-23 01:05:31-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 23 2026 00:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260203015255.pads.zip)
+Feb 23 2026 00:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260203015255.pads.zip)
+Feb 22 2026 17:46:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212040722.log.zip)
+Feb 22 2026 17:46:40 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260212040722.log.zip)
+Feb 22 2026 08:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211192638.log.zip)
+Feb 22 2026 08:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211192638.log.zip)
+Feb 22 2026 08:07:06 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 22 2026 07:05:04 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260202084231.pads.zip)
+Feb 22 2026 07:05:04 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260202084231.pads.zip)
+Feb 22 2026 04:31:03 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 22 2026 03:49:03 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 22 2026 03:09:01 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 22 2026 01:05:15 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-22 01:05:15-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 22 2026 00:16:42 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211104030.log.zip)
+Feb 22 2026 00:16:42 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211104030.log.zip)
+Feb 21 2026 15:34:49 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211015330.log.zip)
+Feb 21 2026 15:34:49 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260211015330.log.zip)
+Feb 21 2026 13:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260201153505.pads.zip)
+Feb 21 2026 13:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260201153505.pads.zip)
+Feb 21 2026 08:14:45 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 06:43:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260210171316.log.zip)
+Feb 21 2026 06:43:29 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260210171316.log.zip)
+Feb 21 2026 04:36:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 04:26:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 04:00:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 03:50:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 03:18:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 03:06:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 02:32:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 02:04:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 01:30:42 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 21 2026 01:05:02 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-21 01:05:02-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 20 2026 21:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260210082320.log.zip)
+Feb 20 2026 21:57:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260210082320.log.zip)
+Feb 20 2026 20:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260131222255.pads.zip)
+Feb 20 2026 20:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260131222255.pads.zip)
+Feb 20 2026 13:17:07 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209233742.log.zip)
+Feb 20 2026 13:17:07 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209233742.log.zip)
+Feb 20 2026 08:10:28 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 04:54:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 04:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209145649.log.zip)
+Feb 20 2026 04:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209145649.log.zip)
+Feb 20 2026 04:20:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 03:30:23 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 03:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260131051231.pads.zip)
+Feb 20 2026 03:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260131051231.pads.zip)
+Feb 20 2026 03:04:23 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 02:40:23 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 02:20:23 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 02:10:22 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 20 2026 01:04:51 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-20 01:04:51-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 19 2026 19:45:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209060729.log.zip)
+Feb 19 2026 19:45:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260209060729.log.zip)
+Feb 19 2026 11:00:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260208212309.log.zip)
+Feb 19 2026 11:00:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260208212309.log.zip)
+Feb 19 2026 10:04:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260130120409.pads.zip)
+Feb 19 2026 10:04:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260130120409.pads.zip)
+Feb 19 2026 08:16:07 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 19 2026 04:38:04 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 19 2026 03:48:04 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 19 2026 02:22:04 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 19 2026 02:16:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260208124001.log.zip)
+Feb 19 2026 02:16:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260208124001.log.zip)
+Feb 19 2026 01:54:04 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 19 2026 01:36:04 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 19 2026 01:04:29 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-19 01:04:29-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 18 2026 17:34:32 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260208034919.log.zip)
+Feb 18 2026 17:34:32 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260208034919.log.zip)
+Feb 18 2026 16:52:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260129185255.pads.zip)
+Feb 18 2026 16:52:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260129185255.pads.zip)
+Feb 18 2026 08:46:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207191029.log.zip)
+Feb 18 2026 08:46:55 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207191029.log.zip)
+Feb 18 2026 07:15:46 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 04:57:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 04:25:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 03:57:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 03:41:43 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 02:21:41 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 01:51:41 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 01:37:41 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 18 2026 01:04:15 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-18 01:04:15-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 18 2026 00:04:26 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207102351.log.zip)
+Feb 18 2026 00:04:26 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207102351.log.zip)
+Feb 17 2026 23:35:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260129014231.pads.zip)
+Feb 17 2026 23:35:48 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260129014231.pads.zip)
+Feb 17 2026 15:16:20 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207013728.log.zip)
+Feb 17 2026 15:16:20 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260207013728.log.zip)
+Feb 17 2026 08:23:29 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 17 2026 06:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260206165731.log.zip)
+Feb 17 2026 06:27:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260206165731.log.zip)
+Feb 17 2026 06:24:14 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260128083451.pads.zip)
+Feb 17 2026 06:24:14 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260128083451.pads.zip)
+Feb 17 2026 04:31:26 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 17 2026 04:03:26 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 17 2026 02:53:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 17 2026 01:04:10 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-17 01:04:10-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 16 2026 21:43:10 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260206081011.log.zip)
+Feb 16 2026 21:43:10 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260206081011.log.zip)
+Feb 16 2026 13:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260127151231.pads.zip)
+Feb 16 2026 13:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260127151231.pads.zip)
+Feb 16 2026 12:56:11 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205232603.log.zip)
+Feb 16 2026 12:56:11 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205232603.log.zip)
+Feb 16 2026 08:25:16 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 16 2026 04:07:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205144323.log.zip)
+Feb 16 2026 04:07:30 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205144323.log.zip)
+Feb 16 2026 02:03:12 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 16 2026 01:53:12 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 16 2026 01:33:12 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 16 2026 01:03:48 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-16 01:03:48-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 15 2026 20:04:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260126220408.pads.zip)
+Feb 15 2026 20:04:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260126220408.pads.zip)
+Feb 15 2026 19:23:15 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205055327.log.zip)
+Feb 15 2026 19:23:15 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260205055327.log.zip)
+Feb 15 2026 10:37:46 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204211010.log.zip)
+Feb 15 2026 10:37:46 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204211010.log.zip)
+Feb 15 2026 08:21:03 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 15 2026 02:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260126045255.pads.zip)
+Feb 15 2026 02:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260126045255.pads.zip)
+Feb 15 2026 02:28:58 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 15 2026 01:49:38 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204122550.log.zip)
+Feb 15 2026 01:49:38 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204122550.log.zip)
+Feb 15 2026 01:42:58 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 15 2026 01:36:58 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 15 2026 01:03:28 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-15 01:03:28-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 14 2026 17:09:57 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204033706.log.zip)
+Feb 14 2026 17:09:57 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260204033706.log.zip)
+Feb 14 2026 09:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260125113411.pads.zip)
+Feb 14 2026 09:42:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260125113411.pads.zip)
+Feb 14 2026 08:19:39 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203185731.log.zip)
+Feb 14 2026 08:19:39 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203185731.log.zip)
+Feb 14 2026 08:16:46 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 04:50:46 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 04:28:46 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 04:16:45 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 04:08:45 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 02:16:44 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 01:50:44 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 01:26:44 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 14 2026 01:03:15 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-14 01:03:15-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 13 2026 23:36:53 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203101034.log.zip)
+Feb 13 2026 23:36:53 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203101034.log.zip)
+Feb 13 2026 16:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124181231.pads.zip)
+Feb 13 2026 16:35:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124181231.pads.zip)
+Feb 13 2026 14:53:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203012329.log.zip)
+Feb 13 2026 14:53:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260203012329.log.zip)
+Feb 13 2026 08:18:30 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 06:07:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260202164024.log.zip)
+Feb 13 2026 06:07:37 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260202164024.log.zip)
+Feb 13 2026 04:06:28 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 03:46:27 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 02:18:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 02:10:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 01:44:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 01:36:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 01:22:25 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 13 2026 01:02:58 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-13 01:02:58-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 12 2026 23:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124010527.pads.zip)
+Feb 12 2026 23:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260124010527.pads.zip)
+Feb 12 2026 21:19:43 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260202075313.log.zip)
+Feb 12 2026 21:19:43 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260202075313.log.zip)
+Feb 12 2026 12:37:21 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201230714.log.zip)
+Feb 12 2026 12:37:21 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201230714.log.zip)
+Feb 12 2026 08:24:17 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 12 2026 08:12:17 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 12 2026 08:04:17 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 12 2026 06:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260123075255.pads.zip)
+Feb 12 2026 06:12:31 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260123075255.pads.zip)
+Feb 12 2026 03:49:20 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201142309.log.zip)
+Feb 12 2026 03:49:20 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201142309.log.zip)
+Feb 12 2026 02:26:10 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 12 2026 01:50:10 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 12 2026 01:38:10 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 12 2026 01:02:44 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-12 01:02:44-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 11 2026 19:07:34 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201053419.log.zip)
+Feb 11 2026 19:07:34 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260201053419.log.zip)
+Feb 11 2026 13:04:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260122143255.pads.zip)
+Feb 11 2026 13:04:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260122143255.pads.zip)
+Feb 11 2026 10:20:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131205008.log.zip)
+Feb 11 2026 10:20:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131205008.log.zip)
+Feb 11 2026 08:13:57 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 04:47:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 04:37:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 04:31:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 04:25:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 04:09:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 03:55:54 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 02:17:50 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 01:53:50 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 01:34:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131120448.log.zip)
+Feb 11 2026 01:34:36 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131120448.log.zip)
+Feb 11 2026 01:27:50 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 11 2026 01:02:34 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-11 01:02:34-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb 10 2026 19:54:01 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260121212255.pads.zip)
+Feb 10 2026 19:54:01 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260121212255.pads.zip)
+Feb 10 2026 16:53:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131031545.log.zip)
+Feb 10 2026 16:53:05 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260131031545.log.zip)
+Feb 10 2026 08:19:39 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 10 2026 08:04:44 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260130183652.log.zip)
+Feb 10 2026 08:04:44 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260130183652.log.zip)
+Feb 10 2026 04:35:37 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 10 2026 04:19:37 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 10 2026 02:53:18 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260121040527.pads.zip)
+Feb 10 2026 02:53:18 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260121040527.pads.zip)
+Feb 10 2026 02:19:37 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 10 2026 01:49:37 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0467-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 10 2026 01:39:37 JZ406-B15-CE16800 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0467-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/5, QueueId=0, SlotId=1)
+Feb 10 2026 01:02:18 JZ406-B15-CE16800 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-02-10 01:02:18-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Feb  9 2026 23:19:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260130095032.log.zip)
+Feb  9 2026 23:19:27 JZ406-B15-CE16800 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260130095032.log.zip)

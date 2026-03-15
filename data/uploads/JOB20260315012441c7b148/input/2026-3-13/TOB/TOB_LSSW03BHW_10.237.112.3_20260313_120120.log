@@ -1,0 +1,1347 @@
+﻿<LSSW03BHW>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<LSSW03BHW>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S9300 V200R010C00SPC600)
+Copyright (C) 2000-2016 HUAWEI TECH CO., LTD
+Quidway S9306 Terabit Routing Switch uptime is 343 weeks, 3 days, 0 hour, 12 minutes
+BKP 0 version information:
+1. PCB      Version  : LE02BAKI VER.E
+2. Support  PoE      : No
+3. Board    Type     : LE0KS9306
+4. MPU Slot Quantity : 2
+5. LPU Slot Quantity : 6
+
+MPU 7(Master)  : uptime is 343 weeks, 3 days, 0 hour, 11 minutes
+SDRAM Memory Size    : 4096    M bytes
+Flash Memory Size    : 64      M bytes
+NVRAM Memory Size    : 512     K bytes
+EUSB Memory Size     : 1905    M bytes
+MPU version information : 
+1. PCB      Version  : SWC02SRUH000 VER.C
+2. MAB      Version  : 1
+3. Board    Type     : LE1D2SRUH000
+4. CPLD0    Version  : 1504.2300
+5. BootROM  Version  : 020a.0065
+6. BootLoad Version  : 020a.008c
+
+MPU 8(Slave)  : uptime is 343 weeks, 3 days, 0 hour, 11 minutes
+SDRAM Memory Size    : 4096    M bytes
+Flash Memory Size    : 64      M bytes
+NVRAM Memory Size    : 512     K bytes
+EUSB Memory Size     : 1905    M bytes
+MPU version information : 
+1. PCB      Version  : SWC02SRUH000 VER.C
+2. MAB      Version  : 1
+3. Board    Type     : LE1D2SRUH000
+4. CPLD0    Version  : 1504.2300
+5. BootROM  Version  : 020a.0065
+6. BootLoad Version  : 020a.008c
+
+LPU 1  : uptime is 343 weeks, 3 days, 0 hour, 8 minutes
+SDRAM Memory Size    : 256     M bytes
+Flash Memory Size    : 16      M bytes
+LPU version information : 
+1. PCB      Version  : LE02G48S VER.B
+2. MAB      Version  : 9
+3. Board    Type     : LE0MG24SD
+4. CPLD0    Version  : 1102.1516
+5. BootROM  Version  : 020a.010f
+6. BootLoad Version  : 020a.0155
+TCAM version information : 
+1. TCAM size         : 36      M bits
+
+CMU 9(Master)  : uptime is 343 weeks, 3 days, 0 hour, 11 minutes
+CMU version information : 
+1. PCB      Version  : LE02CMUA VER.B
+2. MAB      Version  : 8
+3. Board    Type     : LE02CMUA
+<LSSW03BHW>display device
+S9306's Device status:
+Slot  Sub Type         Online    Power      Register       Status     Role  
+-------------------------------------------------------------------------------
+1     -   LE0MG24SD    Present   PowerOn    Registered     Normal     NA    
+7     -   LE1D2SRUH000 Present   PowerOn    Registered     Normal     Master
+8     -   LE1D2SRUH000 Present   PowerOn    Registered     Normal     Slave 
+PWR1  -   -            Present   PowerOn    Registered     Normal     NA    
+PWR3  -   -            Present   PowerOn    Registered     Normal     NA    
+CMU1  -   LE02CMUA     Present   PowerOn    Registered     Normal     Master
+FAN1  -   -            Present   PowerOn    Registered     Normal     NA    
+FAN2  -   -            Present   PowerOn    Registered     Normal     NA    
+<LSSW03BHW>display cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 7% Max: 95%
+CPU Usage Stat. Time : 2026-03-13  12:01:19 
+CPU utilization for five seconds: 7%: one minute: 7%: five minutes: 6%
+Max CPU Usage Stat. Time : 2019-08-13 19:53:46.
+
+TaskName        CPU  Runtime(CPU Tick High/Tick Low)  Task Explanation
+VIDL                 93%        13/7ce8a4ff       DOPRA IDLE                    
+OS                    6%         1/41dd75ff       Operation System              
+TICK                  1%         0/3a1d51c0                                     
+1AGA                  0%         0/       0       1AGAGT                        
+AAA                   0%         0/       0       AAA  Authen Account Authorize 
+ADPT                  0%         0/       0       ADPT                          
+AGNT                  0%         0/283baec0       AGNTSNMP agent task           
+AGT6                  0%         0/       0       AGT6SNMP AGT6 task            
+ALM                   0%         0/       0       ALM  Alarm Management         
+AM                    0%         0/       0       AM   Address Management       
+APP                   0%         0/       0       APP                           
+APS                   0%         0/  e4e1c0       APS Automatic Protection
+                                                  Switch                       
+ARP                   0%         0/  e4e1c0       ARP                           
+ARPA                  0%         0/       0       ARPA ARP Adapter              
+ASFM                  0%         0/       0       ASFM                          
+BEAT                  0%         0/  e4e1c0       BEAT Beat Management          
+BFD                   0%         0/ 2aea540       BFD Bidirection Forwarding
+                                                  Detect                       
+BFDA                  0%         0/       0       BFDA BFD Adapter              
+BFDS                  0%         0/       0       BFDS                          
+BOX_Out               0%         0/ 3938700                                     
+BTRC                  0%         0/       0       BTRC                          
+CAPM                  0%         0/       0       CAPM Capture Packet           
+CCTL                  0%         0/       0       CCTLBulk stat connect control 
+CFM                   0%         0/       0       CFM Configuration file
+                                                  management                   
+CHAL                  0%         0/       0       CHAL Core Hardware Layer      
+CKDV                  0%         0/       0       CKDV                          
+CLKI                  0%         0/       0       CLKI                          
+CMDA                  0%         0/       0       CMDA                          
+CSBR                  0%         0/       0       CSBRCompare slave
+                                                  buildrun-info                
+CSPF                  0%         0/       0       CSPF task                     
+CSS                   0%         0/       0       CSS Cluster Switch System     
+CSSP                  0%         0/       0       CSSP CSS Protocol Process     
+DEFD                  0%         0/ 3938700       DEFD CPU Defend               
+DEV                   0%         0/  e4e1c0       DEV  Device Management        
+DEVA                  0%         0/       0       DEVA Device Assistant         
+DFSU                  0%         0/       0       DFSU Device Flexible Service
+                                                  Unit                         
+DHCP                  0%         0/       0       DHCP Dynamic Host Config
+                                                  Protocol                     
+DIAG                  0%         0/       0       DIAG                          
+DLDP                  0%         0/       0       DLDP Protocol                 
+DRVD                  0%         0/       0       DRVD                          
+DSMS                  0%         0/       0       DSMS Device adapt to SMS      
+EAP                   0%         0/       0       EAP  Extensible Authen
+                                                  Protocol                     
+ECM                   0%         0/ 1c9c380       ECM Ethernet Communicate
+                                                  Manage                       
+ECMS                  0%         0/       0       ECMSharedQueue                
+EFMT                  0%         0/  e4e1c0       EFMTEST 802.3AH Test          
+ELAB                  0%         0/  e4e1c0       ELAB e-label Management       
+EOAM                  0%         0/  e4e1c0       EOAM1AG                       
+ESAP                  0%         0/       0       ESAP eSap Adapter             
+EZDT                  0%         0/       0       EZDT                          
+EZOP                  0%         0/       0       EZOP EasyOperation
+                                                  application                  
+EZPP                  0%         0/       0       EZPP EasyOperation packet     
+Eout                  0%         0/       0       Eout ECM Out                  
+FCAT                  0%         0/       0       FCAT Catch Packets for
+                                                  debugging                    
+FECD                  0%         0/  e4e1c0       FECD Mod Manage Task          
+FIB                   0%         0/       0       FIB Forward Information Base  
+FIB6                  0%         0/       0       FIB6IPv6 FIB                  
+FINT                  0%         0/       0       FINT                          
+FLOW                  0%         0/  e4e1c0       FLOW SFLOW                    
+FMAT                  0%         0/       0       FMATFault Manage task         
+FMCK                  0%         0/ b9f76c0       FMCK Detect device faults     
+FMES                  0%         0/       0       FMES Output fault information 
+FNTL                  0%         0/ 2aea540       FNTL                          
+FTS                   0%         0/ 1c9c380       FTS                           
+GEM                   0%         0/       0       GEM task                      
+GEMR                  0%         0/       0       GEMRun task                   
+GLRM                  0%         0/       0       GLRM License Resource Manage  
+GREM                  0%         0/       0       GREM MPU Process GRE packets  
+GRES                  0%         0/       0       GRESM task                    
+GRSA                  0%         0/       0       GRSA                          
+GTL                   0%         0/       0       GTL                           
+GVRP                  0%         0/       0       GVRP Protocol                 
+HACK                  0%         0/       0       HACKtask for HA ACK           
+HGMP                  0%         0/       0       HGMPADP HGMP Adapter          
+HOTT                  0%         0/       0       HOTT                          
+HS2M                  0%         0/       0       HS2MHigh available task       
+HTPSRD                0%         0/ 47868c0                                     
+HTTP                  0%         0/ 1c9c380       HTTP                          
+HVRP                  0%         0/       0       HVRP Protocol                 
+IFAD                  0%         0/       0       IFAD Ifnet Adpter             
+IFLP                  0%         0/       0       IFLP                          
+IFNT                  0%         0/       0       IFNTIfnet task                
+IFPD                  0%         0/       0       IFPD Ifnet Product Adapter    
+INFO                  0%         0/  e4e1c0       INFOInformation center        
+INPT                  0%         0/       0       INPT                          
+IP                    0%         0/       0       IP                            
+IPCK                  0%         0/ 3938700       IPCKIPC task for ack message  
+IPCQ                  0%         0/ 8f0d180       IPCQIPC task for single queue 
+IPCR                  0%         0/ 6422c40       IPCR IPC Receive              
+IPCS                  0%         0/       0       IPCSharedQueue                
+IPFP                  0%         0/1017df80       IPFPM                         
+IS2U                  0%         0/       0       IS2U ISSU function Adapter    
+ISC6                  0%         0/       0       ISC6                          
+ISSU                  0%         0/       0       ISSU                          
+ITSK                  0%         0/ 1c9c380       ITSKIPOS common task          
+JOB                   0%         0/       0       JOB Schedule                  
+L2                    0%         0/  e4e1c0       L2                            
+L2IF                  0%         0/ 1c9c380       L2IF                          
+L2PQ                  0%         0/       0       L2PQ                          
+L2V                   0%         0/       0       L2V                           
+L2_E                  0%         0/  e4e1c0       L2_EOAM_Y1731                 
+L2_P                  0%         0/ 1c9c380       L2_PR                         
+L2_R                  0%         0/ 3938700       L2_RING                       
+L2_T                  0%         0/       0       L2_TRUNK                      
+L3M4                  0%         0/       0       L3M4 MPU Manage IPv4 unicast
+                                                  FDB                          
+L3MB                  0%         0/       0       L3MB MPU Process urpf, vrrp
+                                                  etc.                         
+LBDT                  0%         0/       0       LBDT Loopback Detect Mpu      
+LCSP                  0%         0/       0       LCSP License Adapter          
+LDCM                  0%         0/       0       LDCM                          
+LDP                   0%         0/ 3938700       LDP task                      
+LDT                   0%         0/       0       LDT Loop Detection            
+LDTP                  0%         0/       0       LDTP LDT-Packet Process       
+LINK                  0%         0/       0       LINK                          
+LLDP                  0%         0/ 1c9c380       LLDP Protocol                 
+LNP                   0%         0/       0       LNP task                      
+LOAD                  0%         0/       0       LOAD Load Server              
+LRCV                  0%         0/       0       LRCV                          
+LSPA                  0%         0/       0       LSPA                          
+LSPM                  0%         0/ 47868c0       LSPMLsp management            
+LWVP                  0%         0/       0       LWVPSharedQueue               
+MACL                  0%         0/       0       MACL Access Control List      
+MAD                   0%         0/       0       MAD Task                      
+MADP                  0%         0/       0       MADP MAD proxy Task           
+MCSW                  0%         0/       0       MCSW Mulitcast Switch Adapter 
+MDGW                  0%         0/       0       MDGW                          
+MDRY                  0%         0/       0       MDRY                          
+MERX                  0%         0/       0       MERX Meth Receive             
+METH                  0%         0/       0       METH Metropolitan Ethernet    
+MFF                   0%         0/       0       MFF MAC Forced Forwarding     
+MFIB                  0%         0/       0       MFIBMulticast forward info    
+MOD                   0%         0/       0       MOD  Module Management        
+MPAT                  0%         0/       0       MPAT                          
+MPSF                  0%         0/       0       MPSF Mpls SFU Adapter         
+MPSM                  0%         0/  e4e1c0       MPSM Mpls Main Adapter        
+MTP                   0%         0/       0       MTP                           
+MTR                   0%         0/ 2aea540       MTR Scheduled Memory Usage    
+Mirr                  0%         0/       0       Mirror                        
+NDMB                  0%         0/       0       NDMB MPU Manage IPv6 unicast
+                                                  FDB                          
+NFPT                  0%         0/ 47868c0       NFPTNFP timer task            
+NQAF                  0%         0/       0       NQAFTPR                       
+NSA                   0%         0/  e4e1c0       NSA Netstream Adapter         
+NTLK                  0%         0/ 9d5b340       NTLK                          
+NTPT                  0%         0/  e4e1c0       NTPT task                     
+OAM                   0%         0/ 3938700       OAM OAM                       
+OAM1                  0%         0/       0       OAM1 EOAM Adapter             
+OAMT                  0%         0/       0       OAMT Mpls Oam Adapter         
+OMMS                  0%         0/       0       OMMS                          
+PARITY_CHECK          0%         0/       0                                     
+PAT                   0%         0/       0       PAT                           
+PATC                  0%         0/       0       PATCH Maintenance             
+PCAM                  0%         0/       0       PCAM MPU Manage iPCA          
+PM                    0%         0/       0       PM  Performance Management    
+PMS                   0%         0/  e4e1c0       PMS PM Server                 
+PNGM                  0%         0/  e4e1c0       PNGM MPU Process icmp reply
+                                                  fast                         
+POE+                  0%         0/       0       POE+ PPP Over Ethernet Plus   
+PPI                   0%         0/  e4e1c0       PPI Product Process Interface 
+PPP                   0%         0/  e4e1c0       PPP                           
+PRDG                  0%         0/       0       PRDG                          
+PROC                  0%         0/       0       PROC                          
+PTAL                  0%         0/       0       PTAL Portal                   
+QDIA                  0%         0/       0       QDIA AUTODIAG Application     
+QOSA                  0%         0/       0       QOSA Quality of Service       
+RACL                  0%         0/       0       RACL Reversed Access Control
+                                                  List                         
+RDS                   0%         0/       0       RDS  Radius                   
+RMON                  0%         0/  e4e1c0       RMONRemote monitoring         
+ROUT                  0%         0/21f98280       ROUTRoute task                
+RPCQ                  0%         0/  e4e1c0       RPCQRemote procedure call     
+RSVP                  0%         0/       0       RSVP task                     
+RTMR                  0%         0/ 3938700       RTMR                          
+SAPP                  0%         0/       0       SAPP                          
+SDKD                  0%         0/ 3938700       SDKD                          
+SDKE                  0%         0/       0       SDKE                          
+SECE                  0%         0/       0       SECE Security                 
+SFPM                  0%         0/       0       SFPM                          
+SIMC                  0%         0/       0       SIMC Simulate CPU Usage       
+SIMU                  0%         0/       0       SIMU Simulate Function Task   
+SLAG                  0%         0/       0       SLAG                          
+SMLK                  0%         0/  e4e1c0       SMLK Smart Link Protocol      
+SNPG                  0%         0/ 1c9c380       SNPG Multicast Snooping       
+SOCK                  0%         0/ 1c9c380       SOCKPacket schedule and
+                                                  process                      
+SPM                   0%         0/       0       SPM  Smart Power Management   
+SRVC                  0%         0/  e4e1c0       SRVC                          
+STFW                  0%         0/       0       STFW Super task forward       
+STND                  0%         0/       0       STNDStandby task              
+STP                   0%         0/1ad27480       STP                           
+STRA                  0%         0/ 1c9c380       STRA Source Trail             
+SUPP                  0%         0/ 3938700       SUPP Support the device
+                                                  management                   
+TACH                  0%         0/ 1c9c380       TACHWTACACS                   
+TARP                  0%         0/       0       TARPING                       
+TCBM                  0%         0/       0       TCBM Task callback block
+                                                  monitor                      
+TCTL                  0%         0/       0       TCTLBulk stat transmit
+                                                  control                      
+TM                    0%         0/       0       TM   Transmission Management  
+TNLM                  0%         0/       0       TNLMTunnel management task    
+TNQA                  0%         0/  e4e1c0       TNQAC                         
+TRAF                  0%         0/       0       TRAFTraffic Statistics        
+TRAP                  0%         0/       0       TRAPSNMP trap task            
+TRUN                  0%         0/       0       TRUNK Product Adapter         
+TTNQ                  0%         0/       0       TTNQAS                        
+TTVP                  0%         0/       0       TTVPLS                        
+TUNL                  0%         0/       0       TUNL                          
+UCM                   0%         0/  e4e1c0       UCM  User Control Management  
+UDPM                  0%         0/       0       UDPM MPU Convert UDP packets  
+USA                   0%         0/       0       USA User Service Agent        
+USBL                  0%         0/  e4e1c0       USBLOAD application           
+UTSK                  0%         0/       0       UTSK                          
+VCLK                  0%         0/10fcc140                                     
+VCMP                  0%         0/       0       VCMP task                     
+VCON                  0%         0/       0       VCON Virtual Console to LPU   
+VFS                   0%         0/       0       VFS Virtual file system       
+VFSD                  0%         0/       0       VFSDVFS flash task for delete
+                                                  file block                   
+VMON                  0%         0/ 1c9c380       VMONSystem monitor            
+VMSH                  0%         0/       0       VMSH                          
+VOAM                  0%         0/       0       VOAM                          
+VP                    0%         0/       0       VP  Virtual path task         
+VPR                   0%         0/ 55d4a80       VPR VP Receive                
+VPS                   0%         0/       0       VPS VP Send                   
+VPSh                  0%         0/       0       VPSharedQueue                 
+VRPT                  0%         0/       0       VRPT                          
+VRRP                  0%         0/ 8f0d180       VRRP                          
+VT                    0%         0/       0       VT                            
+VT0                   0%         0/       0       VT0 Line user's task          
+VTYD                  0%         0/ 47868c0       VTYDVirtual terminal          
+WEB                   0%         0/       0       WEB  Web                      
+WEB_                  0%         0/       0       WEB_WRITE_FILE                
+XSTP                  0%         0/       0       XSTP AGENT                    
+bcmCNTR.0             0%         0/12c684c0                                     
+bcmCNTR.1             0%         0/11e1a300                                     
+bcmD                  0%         0/       0       bcmD                          
+bcmDPC                0%         0/       0                                     
+bcmI                  0%         0/  e4e1c0       bcmINTR                       
+bcmMEM_SCAN.0         0%         0/ aba9500                                     
+bcmMEM_SCAN.1         0%         0/ aba9500                                     
+bcmPortMon.0          0%         0/       0                                     
+bcmPortMon.1          0%         0/       0                                     
+bcmR                  0%         0/ 3938700       bcmRX                         
+bcmTX                 0%         0/       0                                     
+bcmXGS3AsyncTX        0%         0/       0                                     
+bmLINK.0              0%         0/ 7270e00                                     
+bmLINK.1              0%         0/14904840                                     
+lshelp                0%         0/       0                                     
+smsCbDeal             0%         0/       0       smsCbDeal                     
+smsLoad               0%         0/       0       smsLoad                       
+smsRqDeal             0%         0/  e4e1c0       smsRqDeal                     
+smsRsDeal             0%         0/  e4e1c0       smsRsDeal                     
+smsRx                 0%         0/  e4e1c0       smsRx                         
+smsTimer              0%         0/ 80befc0       smsTimer                      
+smsTx                 0%         0/  e4e1c0       smsTx                         
+
+<LSSW03BHW>display memory-usage
+ Memory utilization statistics at 2026-03-13 12:01:19+08:00
+ System Total Memory Is: 2134900736 bytes
+ Total Memory Used Is: 211392252 bytes
+ Memory Using Percentage Is: 9%
+<LSSW03BHW>display memory all
+                          ^
+Error:Too many parameters found at '^' position.
+<LSSW03BHW>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+~down: LDT down
+#down: LBDT down
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+(ld): LDT block
+(lb): LBDT block
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               down  down      0.01%  0.01%          0          0
+GigabitEthernet1/0/0        down  down         0%     0%          0          0
+GigabitEthernet1/0/1        up    up           0%     0%          0          0
+GigabitEthernet1/0/2        up    up           0%     0%          0          0
+GigabitEthernet1/0/3        up    up           0%     0%          0          0
+GigabitEthernet1/0/4        down  down         0%     0%          0          0
+GigabitEthernet1/0/5        down  down         0%     0%          0          0
+GigabitEthernet1/0/6        down  down         0%     0%          0          0
+GigabitEthernet1/0/7        down  down         0%     0%          0          0
+GigabitEthernet1/0/8        down  down         0%     0%          0          0
+GigabitEthernet1/0/9        up    up           0%     0%          0          0
+GigabitEthernet1/0/10       up    up           0%     0%          0          0
+GigabitEthernet1/0/11       up    up           0%     0%          0          0
+GigabitEthernet1/0/12       up    up           0%     0%          0          0
+GigabitEthernet1/0/13       up    up           0%     0%          0          0
+GigabitEthernet1/0/14       up    up           0%     0%          0          0
+GigabitEthernet1/0/15       up    up           0%     0%          0          0
+GigabitEthernet1/0/16       up    up           0%     0%          0          0
+GigabitEthernet1/0/17       down  down         0%     0%          0          0
+GigabitEthernet1/0/18       down  down         0%     0%          0          0
+GigabitEthernet1/0/19       up    up           0%     0%          0          0
+GigabitEthernet1/0/20       up    up           0%  0.01%          0          0
+GigabitEthernet1/0/21       down  down         0%     0%          0          0
+GigabitEthernet1/0/22       down  down         0%     0%          0          0
+GigabitEthernet1/0/23       up    up           0%  0.01%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Vlanif1                     down  down         --     --          0          0
+Vlanif100                   down  down         --     --          0          0
+Vlanif500                   up    up           --     --          0          0
+Vlanif501                   up    up           --     --          0          0
+Vlanif502                   up    up           --     --          0          0
+Vlanif503                   up    up           --     --          0          0
+Vlanif504                   up    up           --     --          0          0
+Vlanif505                   up    up           --     --          0          0
+<LSSW03BHW>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 421778
+Current messages : 512
+
+Feb 13 2026 17:42:22+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[0]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The terminal was closed.)
+Feb 11 2026 16:09:08+08:00 LSSW03BHW %%01CFM/4/SAVE(s)[1]:The user chose Y when deciding whether to save the configuration to the device.
+Feb  2 2026 23:51:44+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[2]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:43+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[3]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:41+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[4]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:41+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[5]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Feb  2 2026 23:51:39+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[6]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:38+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[7]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:36+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[8]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:34+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[9]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:33+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[10]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Feb  2 2026 23:51:23+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[11]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Feb  2 2026 23:51:23+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[12]:Last message repeated 5 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Feb  2 2026 23:51:20+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[13]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the version was incorrect, VPN= )
+Feb  2 2026 23:51:16+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[14]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Feb  2 2026 23:51:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[15]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Feb  2 2026 23:51:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[16]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the community was incorrect, VPN= )
+Feb  2 2026 23:50:04+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[17]:Failed to login through SNMP. (Ip=10.237.100.196, Times=6, Reason=the version was incorrect, VPN= )
+Feb  2 2026 23:48:31+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[18]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=155 packets per second)
+Feb  2 2026 23:48:31+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[19]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Feb  2 2026 23:48:28+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[20]:Failed to login through SNMP. (Ip=10.237.100.196, Times=4, Reason=the version was incorrect, VPN= )
+Jan 20 2026 11:08:51+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[21]:Slot=1;Interface GigabitEthernet1/0/6 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 11:08:51+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[22]:Slot=1;Interface GigabitEthernet1/0/4 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 11:08:51+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[23]:Interface GigabitEthernet1/0/6 has turned into DOWN state.
+Jan 20 2026 11:08:51+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[24]:Interface GigabitEthernet1/0/4 has turned into DOWN state.
+Jan 20 2026 11:08:50+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[25]:Slot=1;Interface GigabitEthernet1/0/17 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 11:08:50+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[26]:Interface GigabitEthernet1/0/17 has turned into DOWN state.
+Jan 20 2026 10:59:48+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[27]:Slot=1;Interface GigabitEthernet1/0/18 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 10:59:48+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[28]:Interface GigabitEthernet1/0/18 has turned into DOWN state.
+Jan 20 2026 10:59:47+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[29]:Slot=1;Interface GigabitEthernet1/0/5 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 10:59:47+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[30]:Interface GigabitEthernet1/0/5 has turned into DOWN state.
+Jan 20 2026 10:21:08+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[31]:Slot=1;Interface GigabitEthernet1/0/0 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 10:21:08+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[32]:Interface GigabitEthernet1/0/0 has turned into DOWN state.
+Jan 20 2026 10:21:08+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[33]:Slot=1;Interface GigabitEthernet1/0/8 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 10:21:08+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[34]:Interface GigabitEthernet1/0/8 has turned into DOWN state.
+Jan 20 2026 10:21:07+08:00 LSSW03BHW %%01IFADP/4/PORTDOWNINFO(l)[35]:Slot=1;Interface GigabitEthernet1/0/7 has turned into DOWN state. (Information=Physical state: DOWN, Negotiation: ENABLE, Negotiation complete: No, Local full-duplex(10M: Yes, 100M: Yes, 1000M: Yes, 2.5G: No, 10G: No), Local half-duplex(10M: Yes, 100M: Yes, 1000M: No, 2.5G: No, 10G: No), Remote full-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No), Remote half-duplex(10M: No, 100M: No, 1000M: No, 2.5G: No, 10G: No))
+Jan 20 2026 10:21:07+08:00 LSSW03BHW %%01IFPDT/4/IF_STATE(l)[36]:Interface GigabitEthernet1/0/7 has turned into DOWN state.
+Jan  6 2026 03:31:54+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[37]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Jan  6 2026 03:31:21+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[38]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Jan  6 2026 03:31:14+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[39]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Jan  6 2026 03:30:57+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[40]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Jan  6 2026 03:30:57+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[41]:Last message repeated 5 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jan  6 2026 03:30:41+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[42]:Failed to login through SNMP. (Ip=10.237.100.196, Times=3, Reason=the version was incorrect, VPN= )
+Jan  6 2026 03:30:36+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[43]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Jan  6 2026 03:30:27+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[44]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Jan  6 2026 03:30:27+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[45]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the community was incorrect, VPN= )
+Jan  6 2026 03:29:10+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[46]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the version was incorrect, VPN= )
+Jan  6 2026 03:27:38+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[47]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=170 packets per second)
+Jan  6 2026 03:27:38+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[48]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jan  6 2026 03:27:34+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[49]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Dec 18 2025 05:35:01+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[50]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:35:00+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[51]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:58+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[52]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[53]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:55+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[54]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:54+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[55]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:52+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[56]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:51+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[57]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:49+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[58]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:48+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[59]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:46+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[60]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:45+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[61]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:43+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[62]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:42+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[63]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:40+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[64]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:39+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[65]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:37+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[66]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:35+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[67]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:34+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[68]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:32+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[69]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:31+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[70]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:29+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[71]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:28+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[72]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:26+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[73]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:25+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[74]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:23+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[75]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:22+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[76]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:20+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[77]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[78]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:17+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[79]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:16+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[80]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:14+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[81]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:13+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[82]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:11+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[83]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:10+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[84]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:08+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[85]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:07+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[86]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:05+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[87]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:04+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[88]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:02+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[89]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:34:00+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[90]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:59+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[91]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[92]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:56+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[93]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:54+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[94]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:53+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[95]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:51+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[96]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:50+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[97]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:48+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[98]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:47+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[99]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:45+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[100]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:44+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[101]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:42+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[102]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:41+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[103]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:39+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[104]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:38+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[105]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:36+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[106]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:35+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[107]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:33+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[108]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:32+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[109]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:30+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[110]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:29+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[111]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:27+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[112]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:25+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[113]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:24+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[114]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:22+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[115]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:21+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[116]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[117]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:18+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[118]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:16+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[119]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:15+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[120]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:13+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[121]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:12+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[122]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:10+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[123]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:09+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[124]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:07+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[125]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:06+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[126]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:04+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[127]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:03+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[128]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:01+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[129]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:33:00+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[130]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:58+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[131]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:56+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[132]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:55+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[133]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:53+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[134]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:52+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[135]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:50+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[136]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:49+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[137]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 18 2025 05:32:47+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[138]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User password authentication failed)
+Dec 17 2025 18:29:48+08:00 LSSW03BHW %%01CFM/4/BACKUPCONFIG_SUC(s)[139]:Succeeded in backing up file flash:/$_backup/running_config/20251217182948.LSSW03BHW.zip.
+Dec 17 2025 16:28:00+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[140]:Failed to login through SSH. (IP=10.233.81.141, VpnInstanceName= , UserName=cmxz_feizeqing, Times=2, FailedReason=User password authentication failed)
+Dec 17 2025 16:27:50+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[141]:Failed to login through SSH. (IP=10.233.81.141, VpnInstanceName= , UserName=cmxz_feizeqing, Times=1, FailedReason=User password authentication failed)
+Dec  5 2025 15:54:52+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[142]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Dec  5 2025 15:54:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[143]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Dec  5 2025 15:54:12+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[144]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Dec  5 2025 15:53:55+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[145]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Dec  5 2025 15:53:30+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[146]:Last message repeated 6 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Dec  5 2025 15:53:05+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[147]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the version was incorrect, VPN= )
+Dec  5 2025 15:52:54+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[148]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Dec  5 2025 15:52:44+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[149]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Dec  5 2025 15:52:44+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[150]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the community was incorrect, VPN= )
+Dec  5 2025 15:44:43+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[151]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=160 packets per second)
+Dec  5 2025 15:44:37+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[152]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Dec  5 2025 15:44:36+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[153]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Nov 29 2025 14:18:40+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[154]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=User password authentication failed)
+Nov 24 2025 21:17:42+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[155]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:15:46+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[156]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:38+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[157]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:33+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[158]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:25+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[159]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[160]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:14+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[161]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:12+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[162]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:07+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[163]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:15:03+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[164]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:14:59+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[165]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:14:56+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[166]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:14:53+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[167]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:14:46+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[168]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:14:38+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[169]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:14:32+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[170]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:14:25+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[171]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Nov 24 2025 21:12:41+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[172]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:12:38+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[173]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:12:06+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[174]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:11:58+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[175]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:11:41+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[176]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:11:41+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[177]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 24 2025 21:11:28+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[178]:Failed to login through SNMP. (Ip=10.237.100.196, Times=6, Reason=the version was incorrect, VPN= )
+Nov 24 2025 21:11:20+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[179]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:11:12+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[180]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Nov 24 2025 21:11:12+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[181]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the community was incorrect, VPN= )
+Nov 24 2025 21:08:29+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[182]:Failed to login through SNMP. (Ip=10.237.100.196, Times=4, Reason=the version was incorrect, VPN= )
+Nov 24 2025 21:08:11+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[183]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 24 2025 21:08:11+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[184]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the version was incorrect, VPN= )
+Nov 24 2025 21:08:10+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[185]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the version was incorrect, VPN= )
+Nov 24 2025 21:07:53+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[186]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=170 packets per second)
+Nov 24 2025 21:07:48+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[187]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 24 2025 21:07:48+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[188]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Nov 23 2025 09:33:11+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[189]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:33:06+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[190]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:32:59+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[191]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:32:54+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[192]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:32:51+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[193]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:32:45+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[194]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:32:40+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[195]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:32:37+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[196]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 23 2025 09:32:35+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[197]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Nov 23 2025 09:32:33+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[198]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Nov 23 2025 09:32:33+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[199]:Last message repeated 3 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 23 2025 09:32:19+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[200]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the version was incorrect, VPN= )
+Nov 23 2025 09:32:18+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[201]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 23 2025 09:32:16+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[202]:Failed to login through SNMP. (Ip=10.237.100.196, Times=4, Reason=the version was incorrect, VPN= )
+Nov 23 2025 09:32:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[203]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Nov 23 2025 09:31:34+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[204]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Nov 23 2025 09:31:34+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[205]:Failed to login through SNMP. (Ip=10.237.100.196, Times=3, Reason=the community was incorrect, VPN= )
+Nov 23 2025 09:31:13+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[206]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Nov 23 2025 09:30:55+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[207]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Nov 23 2025 09:30:29+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[208]:Last message repeated 5 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 23 2025 09:30:22+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[209]:Failed to login through SNMP. (Ip=10.237.100.196, Times=3, Reason=the version was incorrect, VPN= )
+Nov 23 2025 09:30:13+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[210]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Nov 23 2025 09:30:05+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[211]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Nov 23 2025 09:30:05+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[212]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the community was incorrect, VPN= )
+Nov 23 2025 09:26:44+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[213]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the version was incorrect, VPN= )
+Nov 23 2025 09:21:36+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[214]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=170 packets per second)
+Nov 23 2025 09:21:33+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[215]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Nov 23 2025 09:21:32+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[216]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Oct 29 2025 14:57:56+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[217]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Oct 29 2025 14:57:39+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[218]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=2, FailedReason=User password authentication failed)
+Oct 29 2025 14:57:39+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[219]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=1, FailedReason=User password authentication failed)
+Oct 29 2025 14:57:39+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[220]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Oct 29 2025 14:57:39+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[221]:Failed to login through SNMP. (Ip=10.237.100.191, Times=4, Reason=the community was incorrect, VPN= )
+Oct 29 2025 14:57:37+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[222]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=2, FailedReason=User password authentication failed)
+Oct 29 2025 14:57:37+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[223]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=1, FailedReason=User password authentication failed)
+Oct 29 2025 14:57:36+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[224]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=2, FailedReason=User password authentication failed)
+Oct 29 2025 14:57:36+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[225]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=1, FailedReason=User password authentication failed)
+Oct 29 2025 14:57:34+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[226]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Oct 29 2025 14:57:27+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[227]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=2, FailedReason=User password authentication failed)
+Oct 29 2025 14:57:27+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[228]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=1, FailedReason=User password authentication failed)
+Oct 29 2025 14:56:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[229]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Oct 29 2025 14:56:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[230]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Oct 29 2025 14:56:45+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[231]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Oct 29 2025 14:56:45+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[232]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Oct 29 2025 14:56:14+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[233]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=, Times=1, FailedReason=Failed to negotiate the key exchange algorithm)
+Oct 29 2025 14:56:02+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[234]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Oct 29 2025 14:55:53+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[235]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Oct 29 2025 14:55:53+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[236]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Oct 29 2025 14:55:52+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[237]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Oct 29 2025 14:55:52+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[238]:Failed to login through SNMP. (Ip=10.237.100.191, Times=3, Reason=the community was incorrect, VPN= )
+Oct 29 2025 14:55:52+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[239]:Last message repeated 4 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Oct 29 2025 14:55:52+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[240]:Failed to login through SNMP. (Ip=10.237.100.191, Times=4, Reason=the version was incorrect, VPN= )
+Oct 29 2025 14:55:52+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[241]:Failed to login through SNMP. (Ip=10.237.100.191, Times=3, Reason=the version was incorrect, VPN= )
+Oct 29 2025 14:55:46+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[242]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.191, AttackProtocol=TCP, AttackPackets=140 packets per second)
+Oct 14 2025 17:48:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[243]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Oct 14 2025 17:47:44+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[244]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Oct 14 2025 17:47:31+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[245]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:47:27+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[246]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:47:23+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[247]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:47:18+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[248]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:47:12+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[249]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:47:08+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[250]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:47:02+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[251]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Oct 14 2025 17:47:02+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[252]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:46:56+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[253]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Oct 14 2025 17:46:46+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[254]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Oct 14 2025 17:46:46+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[255]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Oct 14 2025 17:46:30+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[256]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Oct 14 2025 17:46:29+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[257]:Last message repeated 4 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Oct 14 2025 17:46:25+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[258]:Failed to login through SNMP. (Ip=10.237.100.196, Times=6, Reason=the version was incorrect, VPN= )
+Oct 14 2025 17:46:16+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[259]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Oct 14 2025 17:46:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[260]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Oct 14 2025 17:46:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[261]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the community was incorrect, VPN= )
+Oct 14 2025 17:43:42+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[262]:Failed to login through SNMP. (Ip=10.237.100.196, Times=4, Reason=the version was incorrect, VPN= )
+Oct 14 2025 17:39:41+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[263]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=200 packets per second)
+Oct 14 2025 17:39:38+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[264]:Failed to login through SNMP. (Ip=10.237.100.196, Times=3, Reason=the version was incorrect, VPN= )
+Oct 10 2025 13:41:11+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[265]:Failed to login through SSH. (IP=10.237.100.188, VpnInstanceName= , UserName=jtcjxz, Times=2, FailedReason=User password authentication failed)
+Oct 10 2025 13:41:11+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[266]:Failed to login through SSH. (IP=10.237.100.188, VpnInstanceName= , UserName=jtcjxz, Times=1, FailedReason=User password authentication failed)
+Oct 10 2025 13:41:02+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[267]:Failed to login through SSH. (IP=10.237.100.188, VpnInstanceName= , UserName=jtcjxz, Times=2, FailedReason=User password authentication failed)
+Oct 10 2025 13:41:02+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[268]:Failed to login through SSH. (IP=10.237.100.188, VpnInstanceName= , UserName=jtcjxz, Times=1, FailedReason=User password authentication failed)
+Oct  8 2025 19:35:52+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[269]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The terminal was closed.)
+Sep 24 2025 11:20:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[270]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Sep 24 2025 11:19:51+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[271]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Sep 24 2025 11:19:43+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[272]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 24 2025 11:19:34+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[273]:Failed to login through SNMP. (Ip=10.237.100.191, Times=5, Reason=the version was incorrect, VPN= )
+Sep 24 2025 11:19:20+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[274]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=2, FailedReason=User password authentication failed)
+Sep 24 2025 11:19:20+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[275]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=1, FailedReason=User password authentication failed)
+Sep 24 2025 11:19:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[276]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Sep 24 2025 11:19:17+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[277]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=2, FailedReason=User password authentication failed)
+Sep 24 2025 11:19:17+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[278]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=1, FailedReason=User password authentication failed)
+Sep 24 2025 11:19:16+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[279]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=2, FailedReason=User password authentication failed)
+Sep 24 2025 11:19:16+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[280]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=1, FailedReason=User password authentication failed)
+Sep 24 2025 11:19:06+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[281]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=2, FailedReason=User password authentication failed)
+Sep 24 2025 11:19:06+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[282]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=1, FailedReason=User password authentication failed)
+Sep 24 2025 11:18:32+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[283]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 24 2025 11:18:32+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[284]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 24 2025 11:18:22+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[285]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 24 2025 11:18:22+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[286]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 24 2025 11:17:21+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[287]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=, Times=1, FailedReason=Failed to negotiate the key exchange algorithm)
+Sep 24 2025 11:17:05+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[288]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Sep 24 2025 11:16:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[289]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 24 2025 11:16:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[290]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 24 2025 11:16:56+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[291]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Sep 24 2025 11:16:56+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[292]:Failed to login through SNMP. (Ip=10.237.100.191, Times=4, Reason=the community was incorrect, VPN= )
+Sep 24 2025 11:16:56+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[293]:Last message repeated 4 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 24 2025 11:16:56+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[294]:Failed to login through SNMP. (Ip=10.237.100.191, Times=5, Reason=the version was incorrect, VPN= )
+Sep 24 2025 11:16:56+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[295]:Failed to login through SNMP. (Ip=10.237.100.191, Times=4, Reason=the version was incorrect, VPN= )
+Sep 24 2025 11:16:49+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[296]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.191, AttackProtocol=TCP, AttackPackets=160 packets per second)
+Sep 22 2025 17:20:53+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[297]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Sep 22 2025 17:20:36+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[298]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Sep 22 2025 17:20:35+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[299]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 22 2025 17:20:33+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[300]:Failed to login through SNMP. (Ip=10.237.100.191, Times=6, Reason=the version was incorrect, VPN= )
+Sep 22 2025 17:20:23+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[301]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=2, FailedReason=User password authentication failed)
+Sep 22 2025 17:20:23+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[302]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=1, FailedReason=User password authentication failed)
+Sep 22 2025 17:20:21+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[303]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=2, FailedReason=User password authentication failed)
+Sep 22 2025 17:20:21+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[304]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=1, FailedReason=User password authentication failed)
+Sep 22 2025 17:20:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[305]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Sep 22 2025 17:20:18+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[306]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=2, FailedReason=User password authentication failed)
+Sep 22 2025 17:20:18+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[307]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=1, FailedReason=User password authentication failed)
+Sep 22 2025 17:20:10+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[308]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=2, FailedReason=User password authentication failed)
+Sep 22 2025 17:20:10+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[309]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=1, FailedReason=User password authentication failed)
+Sep 22 2025 17:19:40+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[310]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 22 2025 17:19:40+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[311]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 22 2025 17:19:28+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[312]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 22 2025 17:19:28+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[313]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 22 2025 17:18:35+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[314]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=, Times=1, FailedReason=Failed to negotiate the key exchange algorithm)
+Sep 22 2025 17:18:26+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[315]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Sep 22 2025 17:18:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[316]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 22 2025 17:18:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[317]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 22 2025 17:18:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[318]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Sep 22 2025 17:18:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[319]:Failed to login through SNMP. (Ip=10.237.100.191, Times=5, Reason=the community was incorrect, VPN= )
+Sep 22 2025 17:18:18+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[320]:Last message repeated 4 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 22 2025 17:18:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[321]:Failed to login through SNMP. (Ip=10.237.100.191, Times=6, Reason=the version was incorrect, VPN= )
+Sep 22 2025 17:18:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[322]:Failed to login through SNMP. (Ip=10.237.100.191, Times=5, Reason=the version was incorrect, VPN= )
+Sep 22 2025 17:18:12+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[323]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.191, AttackProtocol=TCP, AttackPackets=155 packets per second)
+Sep 11 2025 21:06:49+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[324]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Sep 11 2025 21:06:32+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[325]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Sep 11 2025 21:06:32+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[326]:Failed to login through SNMP. (Ip=10.237.100.191, Times=4, Reason=the community was incorrect, VPN= )
+Sep 11 2025 21:05:59+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[327]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=2, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:59+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[328]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=1, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[329]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=2, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[330]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=1, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:56+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[331]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=2, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:56+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[332]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=1, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:54+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[333]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Sep 11 2025 21:05:41+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[334]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=2, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:41+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[335]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=1, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:08+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[336]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:08+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[337]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:03+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[338]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 11 2025 21:05:03+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[339]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 11 2025 21:03:23+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[340]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=, Times=1, FailedReason=Failed to negotiate the key exchange algorithm)
+Sep 11 2025 21:03:15+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[341]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Sep 11 2025 21:03:06+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[342]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Sep 11 2025 21:03:06+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[343]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Sep 11 2025 21:03:05+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[344]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Sep 11 2025 21:03:05+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[345]:Failed to login through SNMP. (Ip=10.237.100.191, Times=3, Reason=the community was incorrect, VPN= )
+Sep 11 2025 21:03:05+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[346]:Last message repeated 4 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 11 2025 21:03:04+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[347]:Failed to login through SNMP. (Ip=10.237.100.191, Times=4, Reason=the version was incorrect, VPN= )
+Sep 11 2025 21:03:04+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[348]:Failed to login through SNMP. (Ip=10.237.100.191, Times=3, Reason=the version was incorrect, VPN= )
+Sep 11 2025 21:02:56+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[349]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.191, AttackProtocol=TCP, AttackPackets=155 packets per second)
+Sep 10 2025 21:06:55+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[350]:The source IP was unlocked.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 21:06:23+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[351]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:06:21+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[352]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 21:06:20+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[353]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:06:15+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[354]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:06:12+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[355]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:06:08+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[356]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:06:04+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[357]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:06:03+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[358]:The source IP was unlocked.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 21:06:00+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[359]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:05:57+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[360]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 21:05:47+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[361]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 21:05:27+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[362]:Last message repeated 5 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 10 2025 21:05:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[363]:Failed to login through SNMP. (Ip=10.237.100.192, Times=3, Reason=the version was incorrect, VPN= )
+Sep 10 2025 21:05:15+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[364]:The source IP was unlocked.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 21:05:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[365]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 21:05:07+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[366]:Failed to login through SNMP. (Ip=10.237.100.192, Times=2, Reason=the community was incorrect, VPN= )
+Sep 10 2025 21:05:07+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[367]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 10 2025 21:03:52+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[368]:Failed to login through SNMP. (Ip=10.237.100.192, Times=5, Reason=the version was incorrect, VPN= )
+Sep 10 2025 20:51:55+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[369]:The source IP was unlocked.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 20:51:31+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[370]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:51:27+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[371]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:51:23+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[372]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:51:21+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[373]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 20:51:20+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[374]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:51:17+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[375]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:51:13+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[376]:The source IP was unlocked.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 20:51:13+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[377]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:51:10+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[378]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:51:06+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[379]:Failed to login through SSH. (IP=10.237.100.192, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Sep 10 2025 20:50:56+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[380]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 20:50:27+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[381]:Last message repeated 5 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 10 2025 20:50:21+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[382]:Failed to login through SNMP. (Ip=10.237.100.192, Times=3, Reason=the version was incorrect, VPN= )
+Sep 10 2025 20:50:17+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[383]:The source IP was unlocked.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 20:50:09+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[384]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 20:50:09+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[385]:Failed to login through SNMP. (Ip=10.237.100.192, Times=2, Reason=the community was incorrect, VPN= )
+Sep 10 2025 20:48:54+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[386]:Failed to login through SNMP. (Ip=10.237.100.192, Times=1, Reason=the version was incorrect, VPN= )
+Sep 10 2025 20:48:53+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[387]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.192, AttackProtocol=TCP, AttackPackets=160 packets per second)
+Sep 10 2025 20:48:50+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[388]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 10 2025 20:48:50+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[389]:Failed to login through SNMP. (Ip=10.237.100.192, Times=5, Reason=the version was incorrect, VPN= )
+Sep 10 2025 13:05:40+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[390]:The source IP was unlocked.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 13:05:31+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[391]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN= )
+Sep 10 2025 13:05:31+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[392]:Last message repeated 7 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 10 2025 13:05:26+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[393]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep 10 2025 13:04:20+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[394]:Failed to login through SNMP. (Ip=10.237.100.192, Times=6, Reason=the version was incorrect, VPN= )
+Sep 10 2025 13:02:49+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[395]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.192, AttackProtocol=TCP, AttackPackets=155 packets per second)
+Sep 10 2025 13:02:45+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[396]:Failed to login through SNMP. (Ip=10.237.100.192, Times=5, Reason=the version was incorrect, VPN= )
+Sep  9 2025 18:19:37+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[397]:Last message repeated 6 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep  9 2025 17:51:51+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[398]:Failed to login through SNMP. (Ip=10.237.100.196, Times=3, Reason=the version was incorrect, VPN= )
+Sep  9 2025 17:51:51+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[399]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Sep  9 2025 17:51:42+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[400]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Sep  9 2025 17:51:42+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[401]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the community was incorrect, VPN= )
+Sep  9 2025 17:47:57+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[402]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=150 packets per second)
+Sep  9 2025 17:47:57+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[403]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Sep  9 2025 17:47:50+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[404]:Failed to login through SNMP. (Ip=10.237.100.196, Times=6, Reason=the version was incorrect, VPN= )
+Aug 18 2025 10:05:15+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[405]:Failed to login through SSH. (IP=10.233.81.141, VpnInstanceName= , UserName=cmxz_feizeqing, Times=1, FailedReason=User password authentication failed)
+Aug 15 2025 20:47:15+08:00 LSSW03BHW %%01CFM/4/BACKUPCONFIG_SUC(s)[406]:Succeeded in backing up file flash:/$_backup/running_config/20250815204714.LSSW03BHW.zip.
+Aug 15 2025 18:47:24+08:00 LSSW03BHW %%01CFM/4/SAVE(s)[407]:The user chose Y when deciding whether to save the configuration to the device.
+Aug  5 2025 10:53:37+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[408]:Failed to login through SSH. (IP=10.233.81.141, VpnInstanceName= , UserName=feizeqing, Times=3, FailedReason=User password authentication failed)
+Aug  5 2025 10:53:24+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[409]:Failed to login through SSH. (IP=10.233.81.141, VpnInstanceName= , UserName=feizeqing, Times=2, FailedReason=User password authentication failed)
+Aug  5 2025 10:53:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[410]:Failed to login through SSH. (IP=10.233.81.141, VpnInstanceName= , UserName=feizeqing, Times=1, FailedReason=User password authentication failed)
+Aug  5 2025 03:31:10+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[411]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Aug  5 2025 03:30:58+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[412]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=mail, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:30:53+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[413]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=admin, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:30:47+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[414]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:30:41+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[415]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:30:36+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[416]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Aug  5 2025 03:30:36+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[417]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the community was incorrect, VPN= )
+Aug  5 2025 03:30:35+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[418]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:30:30+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[419]:Failed to login through SNMP. (Ip=10.237.100.196, Times=4, Reason=the version was incorrect, VPN= )
+Aug  5 2025 03:30:30+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[420]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:30:30+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[421]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Aug  5 2025 03:30:27+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[422]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the version was incorrect, VPN= )
+Aug  5 2025 03:30:26+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[423]:Failed to login through SNMP. (Ip=10.237.100.196, Times=6, Reason=the version was incorrect, VPN= )
+Aug  5 2025 03:30:25+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[424]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:30:25+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[425]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Aug  5 2025 03:30:18+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[426]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Aug  5 2025 03:29:40+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[427]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Aug  5 2025 03:29:22+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[428]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Aug  5 2025 03:28:45+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[429]:Last message repeated 5 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Aug  5 2025 03:28:39+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[430]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the version was incorrect, VPN= )
+Aug  5 2025 03:28:30+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[431]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Aug  5 2025 03:28:20+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[432]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Aug  5 2025 03:28:20+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[433]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the community was incorrect, VPN= )
+Aug  5 2025 03:25:18+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[434]:Failed to login through SNMP. (Ip=10.237.100.196, Times=6, Reason=the version was incorrect, VPN= )
+Aug  5 2025 03:20:15+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[435]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=160 packets per second)
+Aug  5 2025 03:20:15+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[436]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Aug  5 2025 03:20:11+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[437]:Failed to login through SNMP. (Ip=10.237.100.196, Times=4, Reason=the version was incorrect, VPN= )
+Jun 30 2025 11:50:56+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[438]:The source IP was unlocked.(SourceIP=10.241.106.34, VPN= )
+Jun 30 2025 11:50:47+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[439]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.241.106.34, VPN= )
+Jun 30 2025 11:50:47+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[440]:Failed to login through SNMP. (Ip=10.241.106.34, Times=3, Reason=the community was incorrect, VPN= )
+Jun 23 2025 16:51:44+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[441]:Last message repeated 1 times.(InfoID=1079721993, ModuleName=SSH, InfoAlias=SSH_FAIL)
+Jun 23 2025 16:51:44+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[442]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 23 2025 16:51:42+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[443]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 23 2025 16:51:39+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[444]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 23 2025 16:51:37+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[445]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 23 2025 16:51:35+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[446]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 23 2025 16:51:31+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[447]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 23 2025 16:10:42+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[448]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Jun 23 2025 16:10:25+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[449]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Jun 23 2025 16:10:25+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[450]:Failed to login through SNMP. (Ip=10.237.100.191, Times=2, Reason=the community was incorrect, VPN= )
+Jun 23 2025 16:10:22+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[451]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=2, FailedReason=User password authentication failed)
+Jun 23 2025 16:10:22+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[452]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=netscreen, Times=1, FailedReason=User password authentication failed)
+Jun 23 2025 16:10:21+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[453]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=2, FailedReason=User password authentication failed)
+Jun 23 2025 16:10:21+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[454]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=support, Times=1, FailedReason=User password authentication failed)
+Jun 23 2025 16:10:19+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[455]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Jun 23 2025 16:10:17+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[456]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=2, FailedReason=User password authentication failed)
+Jun 23 2025 16:10:17+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[457]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=oracle, Times=1, FailedReason=User password authentication failed)
+Jun 23 2025 16:10:10+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[458]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=2, FailedReason=User password authentication failed)
+Jun 23 2025 16:10:10+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[459]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=cisco, Times=1, FailedReason=User password authentication failed)
+Jun 23 2025 16:09:38+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[460]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Jun 23 2025 16:09:38+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[461]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Jun 23 2025 16:09:33+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[462]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Jun 23 2025 16:09:33+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[463]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Jun 23 2025 16:08:51+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[464]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=, Times=1, FailedReason=Failed to negotiate the key exchange algorithm)
+Jun 23 2025 16:08:38+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[465]:The source IP was unlocked.(SourceIP=10.237.100.191, VPN= )
+Jun 23 2025 16:08:31+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[466]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=2, FailedReason=User password authentication failed)
+Jun 23 2025 16:08:31+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[467]:Failed to login through SSH. (IP=10.237.100.191, VpnInstanceName= , UserName=Scanner, Times=1, FailedReason=User password authentication failed)
+Jun 23 2025 16:08:29+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[468]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN= )
+Jun 23 2025 16:08:29+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[469]:Failed to login through SNMP. (Ip=10.237.100.191, Times=1, Reason=the community was incorrect, VPN= )
+Jun 23 2025 16:08:29+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[470]:Last message repeated 3 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jun 23 2025 16:08:29+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[471]:Failed to login through SNMP. (Ip=10.237.100.191, Times=3, Reason=the version was incorrect, VPN= )
+Jun 23 2025 16:08:29+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[472]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jun 23 2025 16:08:29+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[473]:Failed to login through SNMP. (Ip=10.237.100.191, Times=1, Reason=the version was incorrect, VPN= )
+Jun 23 2025 16:08:13+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[474]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.191, AttackProtocol=TCP, AttackPackets=155 packets per second)
+Jun 23 2025 11:41:35+08:00 LSSW03BHW %%01SSH/4/CHANGEPWD_FAIL(s)[475]:Failed to change the password. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The entered new passwords are different)
+Jun 17 2025 10:36:48+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[476]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 17 2025 10:36:46+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[477]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 17 2025 10:36:42+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[478]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 10 2025 16:59:53+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[479]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 10 2025 16:59:51+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[480]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 10 2025 16:59:48+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[481]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 10 2025 16:59:45+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[482]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 10 2025 16:59:44+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[483]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 10 2025 16:59:39+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[484]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun 10 2025 16:59:37+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[485]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun  6 2025 10:10:12+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[486]:The specified source IP address attack occurred.(Slot=LPU1, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=280 packets per second)
+Jun  4 2025 19:32:58+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[487]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Jun  4 2025 19:32:26+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[488]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Jun  4 2025 19:31:48+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[489]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=sshd, Times=1, FailedReason=User public key authentication failed)
+Jun  4 2025 19:31:34+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[490]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=nobody, Times=1, FailedReason=User public key authentication failed)
+Jun  4 2025 19:31:25+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[491]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=daemon, Times=1, FailedReason=User public key authentication failed)
+Jun  4 2025 19:31:14+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[492]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=bin, Times=1, FailedReason=User public key authentication failed)
+Jun  4 2025 19:31:00+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[493]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=root, Times=1, FailedReason=User public key authentication failed)
+Jun  4 2025 19:30:48+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[494]:Failed to login through SSH. (IP=10.237.100.196, VpnInstanceName= , UserName=#_does_not_exists_#, Times=1, FailedReason=User public key authentication failed)
+Jun  4 2025 19:30:04+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[495]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Jun  4 2025 19:29:46+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[496]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Jun  4 2025 19:29:46+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[497]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jun  4 2025 19:29:40+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[498]:Last message repeated 2 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jun  4 2025 19:29:03+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[499]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the version was incorrect, VPN= )
+Jun  4 2025 19:29:02+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[500]:Last message repeated 3 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jun  4 2025 19:28:59+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[501]:Failed to login through SNMP. (Ip=10.237.100.196, Times=3, Reason=the version was incorrect, VPN= )
+Jun  4 2025 19:28:48+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPUNLOCK(s)[502]:The source IP was unlocked.(SourceIP=10.237.100.196, VPN= )
+Jun  4 2025 19:28:38+08:00 LSSW03BHW %%01SNMP/4/SNMP_IPLOCK(s)[503]:The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN= )
+Jun  4 2025 19:28:38+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[504]:Failed to login through SNMP. (Ip=10.237.100.196, Times=2, Reason=the community was incorrect, VPN= )
+Jun  4 2025 19:24:16+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[505]:Failed to login through SNMP. (Ip=10.237.100.196, Times=1, Reason=the version was incorrect, VPN= )
+Jun  4 2025 19:22:49+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[506]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=165 packets per second)
+Jun  4 2025 19:17:48+08:00 LSSW03BHW %%01SECE/4/SPECIFY_SIP_ATTACK(l)[507]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.100.196, AttackProtocol=TCP, AttackPackets=285 packets per second)
+Jun  4 2025 19:17:45+08:00 LSSW03BHW %%01INFO/4/SUPPRESS_LOG(l)[508]:Last message repeated 1 times.(InfoID=1082212355, ModuleName=SNMP, InfoAlias=SNMP_FAIL)
+Jun  4 2025 19:17:45+08:00 LSSW03BHW %%01SNMP/4/SNMP_FAIL(s)[509]:Failed to login through SNMP. (Ip=10.237.100.196, Times=5, Reason=the version was incorrect, VPN= )
+Jun  3 2025 10:57:36+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[510]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+Jun  3 2025 10:57:33+08:00 LSSW03BHW %%01SSH/4/SSH_FAIL(s)[511]:Failed to login through SSH. (IP=10.237.35.254, VpnInstanceName= , UserName=xz4a_admin, Times=1, FailedReason=The user login timed out)
+<LSSW03BHW>display current-configuration
+!Software Version V200R010C00SPC600
+#
+sysname LSSW03BHW
+#
+info-center loghost 10.237.35.55
+info-center loghost 10.237.99.80
+info-center loghost 10.237.100.71
+info-center loghost 10.237.35.249
+info-center loghost 10.237.100.228
+#
+vlan batch 100 500 to 505 555
+#
+stp enable
+#
+undo authentication unified-mode
+#
+access-user arp-detect default ip-address 0.0.0.0
+#
+lldp enable
+#
+undo http server enable
+undo http secure-server enable
+#
+undo management-port isolate enable
+undo management-plane isolate enable
+#
+clock timezone UTC add 08:00:00
+#
+observe-port 1 interface GigabitEthernet1/0/7
+observe-port 6 interface GigabitEthernet1/0/23
+#
+diffserv domain default
+#
+radius-server template default
+#
+acl number 2000  
+ rule 5 permit 
+ rule 10 permit source 10.237.35.254 0 
+ rule 15 permit source 10.237.100.0 0.0.0.255 
+acl number 2099  
+ rule 5 permit source 10.237.35.254 0 
+acl number 2222  
+ rule 5 permit 
+#
+acl number 3000  
+ rule 5 deny udp destination-port eq tftp 
+ rule 10 deny tcp destination-port eq 135 
+ rule 15 deny tcp destination-port eq 139 
+ rule 20 deny tcp destination-port eq 445 
+ rule 25 deny tcp destination-port eq 1434 
+ rule 30 deny tcp destination-port eq 4444 
+ rule 35 deny tcp destination-port eq 593 
+ rule 40 deny tcp destination-port eq 5554 
+ rule 45 deny tcp destination-port eq 9995 
+ rule 50 deny tcp destination-port eq 9996 
+ rule 55 deny tcp destination-port eq 69 
+ rule 60 deny tcp destination-port eq 137 
+ rule 65 deny udp destination-port eq 135 
+ rule 70 deny udp destination-port eq netbios-ns 
+ rule 75 deny udp destination-port eq netbios-ssn 
+ rule 1000 permit ip 
+acl number 3333  
+ rule 5 permit icmp source 10.237.112.2 0 destination 10.237.112.4 0 
+ rule 10 permit icmp source 10.237.112.4 0 destination 10.237.112.2 0 
+ rule 15 permit icmp source 10.237.112.3 0 destination 10.237.112.2 0 
+ rule 20 permit icmp source 10.237.112.2 0 destination 10.237.112.3 0 
+ rule 25 permit icmp source 10.237.113.86 0 destination 10.237.113.87 0 
+ rule 30 permit icmp source 10.237.113.87 0 destination 10.237.113.86 0 
+#
+traffic classifier VIRUS operator and precedence 5
+ if-match acl 3000
+traffic classifier liu operator and precedence 10
+ if-match acl 3333
+#
+traffic behavior VIRUS
+ permit
+traffic behavior liu
+ permit
+ statistic enable
+#
+traffic policy VIRUS match-order config
+ classifier VIRUS behavior VIRUS
+traffic policy liu match-order config
+ classifier liu behavior liu
+#
+drop-profile default
+#
+vlan 500
+ description to liuwu-OM
+vlan 501
+ description Ga
+vlan 502
+ description Gy
+vlan 503
+ description Bi
+#
+aaa
+ authentication-scheme default
+ authentication-scheme radius
+  authentication-mode radius
+ authorization-scheme default
+ accounting-scheme default
+ local-aaa-user password policy administrator 
+  password expire 0
+ domain default
+  authentication-scheme radius
+  radius-server default
+ domain default_admin
+  authentication-scheme default
+ undo local-user admin
+ local-user ftp password irreversible-cipher $1a$2cr\~d^ew%$*.3"T:`~rUltuoX=JOd3Fi;E<FWKAS"K{+83XC34$
+ local-user ftp privilege level 3
+ local-user ftp ftp-directory flash:/
+ local-user ftp service-type ssh ftp
+ local-user cszdxj password irreversible-cipher $1a$3[9kCNy:~Q$2}R70pfRV7m|+j<jH=q+G0p/)/Y:S6q"(t-uNTlH$
+ local-user cszdxj privilege level 3
+ local-user cszdxj service-type telnet ssh
+ local-user jtcjxz password irreversible-cipher $1a$~~Yc)VWx\($as9^O[c$u&qm(A36*P_9v58IN2$xG#vVq/P,xT+K$
+ local-user jtcjxz privilege level 2
+ local-user jtcjxz service-type ssh
+ local-user xazccj password irreversible-cipher $1a$Oq:.VIi`oM$4$4q%CZRAByn]{Q'a<!7*L[)G$>~#"mZgNQ=WMC.$
+ local-user xazccj privilege level 1
+ local-user xazccj service-type ssh
+ local-user licheng password irreversible-cipher $1a$uQ)7H%J=bL$G[W*YvwoFK9M,v+[dq:>"C).%[@3f7B/lRK/JHUN$
+ local-user licheng privilege level 3
+ local-user licheng service-type ssh
+ local-user feizeqing password irreversible-cipher $1a$<t}sJgHc7:$x6x=BSnuq<7~\8C|Pt%;^pE3A$;1QV5`#z6=T:}M$
+ local-user feizeqing privilege level 3
+ local-user feizeqing service-type ssh
+ local-user xz4a_admin password irreversible-cipher $1a$h88VDIhs56$Z{(p$WdJb'LN{"<ewrm+]p*4YpqA.--"`xF==$h0$
+ local-user xz4a_admin privilege level 3
+ local-user xz4a_admin service-type ssh
+ local-user cmxz_licheng password irreversible-cipher $1a$uc;SOria^U$IRK<=NA9pJtS[j04Q.h4pXMZ~ma;oDew*@W1[LWW$
+ local-user cmxz_licheng privilege level 2
+ local-user cmxz_licheng service-type ssh
+ local-user cmxz_feizeqing password irreversible-cipher $1a$64Zm9{~MC$$H=PB=~Mn\#A^sh<-<I-T*vay+0z$+=%&l9SA]Y25$
+ local-user cmxz_feizeqing privilege level 3
+ local-user cmxz_feizeqing service-type ssh
+#
+isis 1
+#
+ntp-service server disable
+ntp-service ipv6 server disable
+ntp-service authentication enable
+ntp-service authentication-keyid 1 authentication-mode md5 cipher %^%#aIS0X,n2c$C-jeTprWq0>8C\Kn/SyO.X<oM%J7-C%^%#
+ntp-service authentication-keyid 2 authentication-mode md5 cipher %^%#;I.OL3'Ga~W'd@6GSTiRcP(&'Mh>u/kfFVAsn`!U%^%#
+ntp-service reliable authentication-keyid 2
+ntp-service max-dynamic-sessions 2
+ntp-service unicast-server 2.2.2.2 authentication-keyid 1
+ntp-service unicast-server 10.233.81.142
+#
+interface Vlanif1
+#
+interface Vlanif100
+#
+interface Vlanif500
+ description TO-LSSW02BHW_A-OM&BI-vlanif500
+ ip address 10.237.112.3 255.255.255.192
+ vrrp vrid 20 virtual-ip 10.237.112.1
+ vrrp vrid 20 priority 110
+#
+interface Vlanif501
+ description TO-LSSAEGW02BHW_A-Ga-vlanif501
+ ip address 10.237.113.35 255.255.255.224
+ vrrp vrid 21 virtual-ip 10.237.113.33
+ vrrp vrid 21 priority 110
+#
+interface Vlanif502
+ description TO-LSSAEGW02BHW_A-Gy-vlanif502
+ ip address 10.237.113.67 255.255.255.240
+ vrrp vrid 22 virtual-ip 10.237.113.65
+ vrrp vrid 22 priority 110
+#
+interface Vlanif503
+ description TO-LSCG02BHW_A-BI-vlanif503
+ ip address 10.237.113.86 255.255.255.240
+ vrrp vrid 23 virtual-ip 10.237.113.84
+ vrrp vrid 23 priority 110
+#
+interface Vlanif504
+ description to:IBCF-02
+ ip address 10.237.112.241 255.255.255.248
+ vrrp vrid 24 virtual-ip 10.237.112.243
+ vrrp vrid 24 priority 120
+#
+interface Vlanif505
+ description To:CCF02
+ ip address 10.237.112.249 255.255.255.248
+ vrrp vrid 25 virtual-ip 10.237.112.251
+ vrrp vrid 25 priority 120
+#
+interface Ethernet0/0/0
+ ip address 1.1.1.1 255.255.255.0
+#
+interface GigabitEthernet1/0/0
+ description TO-SAGEW05
+ port link-type access
+ port default vlan 501
+#
+interface GigabitEthernet1/0/1
+ description TO-LSMME02BHW-OM-0/0/Card4/lan0-1000M
+ port link-type access
+ port default vlan 500
+ urpf loose 
+#
+interface GigabitEthernet1/0/2
+ description TO-LSSAEGW02BHW-OM-G1/0/13-1000M
+ port link-type access
+ port default vlan 500
+ urpf loose 
+#
+interface GigabitEthernet1/0/3
+ description TO-LSCG02BHW-OM-G0/0/Card4/lan0-100M
+ port link-type access
+ port default vlan 500
+ urpf loose 
+#
+interface GigabitEthernet1/0/4
+ description TO-LSPCRF02BHW-OM-G0/0/CARD2/LAN0-1000M
+ port link-type access
+ port default vlan 500
+#
+interface GigabitEthernet1/0/5
+ description TO-LSPCRF02BHW-WEB-G2/0/Card4/LAN0-1000M
+ port link-type access
+ port default vlan 500
+#
+interface GigabitEthernet1/0/6
+ description TO-LSPCRF02BHW-PGWWEB-G0/10/Card4/LAN0-1000M
+ port link-type access
+ port default vlan 500
+#
+interface GigabitEthernet1/0/7
+ description TO-SAGEW05
+ port link-type access
+ port default vlan 502
+ urpf strict 
+#
+interface GigabitEthernet1/0/8
+ description TO_LSSAEGW05BHW-OM-G2/1/1-1000M
+ port link-type access
+ port default vlan 500
+ urpf strict 
+#
+interface GigabitEthernet1/0/9
+ description TO-LSSAEGW02BHW-Ga-G1/0/15-1000M
+ port link-type access
+ port default vlan 501
+ traffic-policy VIRUS inbound
+#
+interface GigabitEthernet1/0/10
+ description TO-LSCG02BHW-Ga-G0/1/card3/lan0-1000M
+ port link-type access
+ port default vlan 501
+ urpf strict 
+#
+interface GigabitEthernet1/0/11
+ description TO-LSCG02BHW-Ga-G0/1/card3/lan1-1000M
+ port link-type access
+ port default vlan 501
+#
+interface GigabitEthernet1/0/12
+ description to NE40E-4 2/0/1 OM
+ port link-type access
+ port default vlan 500
+#
+interface GigabitEthernet1/0/13
+ description TO-LSSAEGW02BHW-Gy-G1/0/17-1000M
+ port link-type access
+ port default vlan 502
+ port-mirroring to observe-port 1 inbound
+ port-mirroring to observe-port 1 outbound
+#
+interface GigabitEthernet1/0/14
+ description to NE40E-3 2/0/1 OM
+ port link-type access
+ port default vlan 500
+#
+interface GigabitEthernet1/0/15
+ description TO-LSCG02BHW-BI-G0/1/card4/lan0-1000M
+ port link-type access
+ port default vlan 503
+#
+interface GigabitEthernet1/0/16
+ description TO-LSCG02BHW-BI-G0/1/card4/lan1-1000M
+ port link-type access
+ port default vlan 503
+#
+interface GigabitEthernet1/0/17
+ description TO-LSPCRF02BHW-BOSS-G0/10/card3/lan0-1000M
+ port link-type access
+ port default vlan 503
+#
+interface GigabitEthernet1/0/18
+ port link-type access
+ port default vlan 500
+ urpf loose 
+#
+interface GigabitEthernet1/0/19
+ description TO G05-MME02-1/10/Card1/spf2
+ port link-type access
+ port default vlan 501
+#
+interface GigabitEthernet1/0/20
+ description TO-LSSW01BHW-OM&BI-G1/1/4-1000M
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 500 to 505
+ traffic-policy liu inbound
+ traffic-policy liu outbound
+ port-mirroring to observe-port 6 inbound
+ port-mirroring to observe-port 6 outbound
+#
+interface GigabitEthernet1/0/21
+ description to:IBCF-02
+ port link-type access
+ port default vlan 504
+#
+interface GigabitEthernet1/0/22
+ description TO:CCF02
+ port link-type access
+ port default vlan 505
+#
+interface GigabitEthernet1/0/23
+ description to:LSFW07BHW
+ port link-type access
+ port default vlan 500
+#
+interface NULL0
+#
+ospf 33
+ area 0.0.0.0
+  authentication-mode md5 1 cipher %^%#HHz6!#2jN(xl6r.wO:"I#WH;&&_c3("w1F+IdvsS%^%#
+  filter route-policy dd import
+#
+route-policy dd permit node 0
+ if-match acl 2222
+#
+ip route-static 0.0.0.0 0.0.0.0 10.237.112.4
+ip route-static 10.233.30.0 255.255.255.0 10.233.81.142 description to BOSS
+ip route-static 10.233.81.145 255.255.255.255 10.237.113.36 description TO:jinzhu_jiankongdating
+ip route-static 10.233.81.176 255.255.255.240 10.237.113.36
+ip route-static 10.237.113.1 255.255.255.255 10.237.113.39 description MME_Ga
+ip route-static 10.237.113.2 255.255.255.255 10.237.113.40 description SAEGW_Ga
+ip route-static 10.237.113.3 255.255.255.255 10.237.113.44
+ip route-static 10.237.113.4 255.255.255.255 10.237.113.44
+ip route-static 10.237.113.16 255.255.255.240 10.237.113.71 description SAEGW_gy
+ip route-static 10.237.113.27 255.255.255.255 10.237.113.76
+ip route-static 10.237.113.28 255.255.255.255 10.237.113.76
+ip route-static 135.64.22.80 255.255.255.240 10.233.81.142 description to BOSS
+ip route-static 172.16.6.0 255.255.255.0 10.233.81.142 description to BOSS
+#
+snmp-agent
+snmp-agent local-engineid 800007DB03845B12789DA0
+snmp-agent community read cipher %^%#ydUaT6Yz26cdZc4lkT+9o]cXI%95cR<D<(IiV:%$J[*H5T:pNY{A~'L(ly7==*7`2U7>&2A#MK"`HS}:%^%#
+snmp-agent community read cipher %^%#uX2.*W>n1M1u6xX40Ms1184^;\l1q:s&%r-XVbsV=f3NY&}m{BYvO$,FEnFJ%_~q'}Hbi5c(e1Qn6#9U%^%#
+snmp-agent community read cipher %^%#8_vQ.>f$AER@bPC-NuL;W\o7X,1jsWya"]-}x;SSs9<q!x+Sd@K1boJ|><cIUtAi2#W7,(ir7;+/Y;t,%^%# acl 2000
+snmp-agent sys-info version v2c v3
+snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname cipher %^%#ThqNOa=p861{A)"oR+4E*i'6>eX=o%jm#r@cb]MA%^%# v2c
+snmp-agent trap enable
+#
+stelnet server enable
+ssh user client001
+ssh user client001 authentication-type password
+ssh user cmxz_feizeqing
+ssh user cmxz_feizeqing authentication-type all
+ssh user cmxz_feizeqing service-type stelnet
+ssh user cmxz_licheng
+ssh user cmxz_licheng authentication-type password
+ssh user cmxz_licheng service-type stelnet
+ssh user cmxz_tangjin
+ssh user cmxz_tangjin authentication-type password
+ssh user cmxz_tangjin service-type stelnet
+ssh user cszdxj
+ssh user cszdxj authentication-type password
+ssh user cszdxj service-type stelnet
+ssh user feizeqing
+ssh user feizeqing authentication-type password
+ssh user feizeqing service-type stelnet
+ssh user huawei
+ssh user huawei authentication-type password
+ssh user huawei service-type stelnet
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user licheng
+ssh user licheng authentication-type password
+ssh user licheng service-type stelnet
+ssh user xz4a_admin
+ssh user xz4a_admin authentication-type password
+ssh user xz4a_admin service-type stelnet
+ssh client first-time enable
+ssh server cipher aes256_ctr aes128_ctr
+#
+user-interface maximum-vty 15
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$~FsNVnQcV4$!'~h/aeU)/'"<)2lNGHHq[[5/hR)RXKCvbMV<+;I$
+ idle-timeout 20 0
+ screen-length 0
+user-interface vty 0 4
+ acl 2099 inbound
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 20 0
+ screen-length 0
+ protocol inbound all
+user-interface vty 5 14
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 20 0
+ screen-length 0
+ protocol inbound all
+user-interface vty 16 20
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 3
+ protocol inbound all
+#
+return

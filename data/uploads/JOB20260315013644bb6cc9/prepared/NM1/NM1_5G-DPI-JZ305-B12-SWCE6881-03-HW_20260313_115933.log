@@ -1,0 +1,1079 @@
+﻿<5G-DPI-JZ305-B12-SWCE6881-03>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<5G-DPI-JZ305-B12-SWCE6881-03>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ uptime is 1152 days, 1 hour, 16 minutes 
+Patch Version: V200R019SPH030
+
+CE6881-48S6CQ(Master) 1 : uptime is  1152 days, 1 hour, 15 minutes
+        StartupTime 2023/01/16   10:21:29
+Memory    Size    : 4096 M bytes
+Flash     Size    : 4096 M bytes
+CE6881-48S6CQ version information                               
+1. PCB    Version : CEM48S6CQP05    VER A
+2. MAB    Version : 15
+3. Board  Type    : CE6881-48S6CQ
+4. CPLD1  Version : 256
+5. CPLD2  Version : 256
+6. BIOS   Version : 1276
+<5G-DPI-JZ305-B12-SWCE6881-03>display device
+Device status:
+-------------------------------------------------------------------------------------------
+Slot  Card   Type                     Online   Power Register     Alarm     Primary        
+-------------------------------------------------------------------------------------------
+1     -      CE6881-48S6CQ            Present  On    Registered   Normal    Master         
+      FAN1   FAN-031A-B               Present  On    Registered   Normal    NA             
+      FAN2   FAN-031A-B               Present  On    Registered   Normal    NA             
+      FAN3   FAN-031A-B               Present  On    Registered   Normal    NA             
+      FAN4   FAN-031A-B               Present  On    Registered   Normal    NA             
+      PWR1   PAC600S12-DB             Present  On    Registered   Normal    NA             
+      PWR2   PAC600S12-DB             Present  On    Registered   Normal    NA             
+-------------------------------------------------------------------------------------------
+<5G-DPI-JZ305-B12-SWCE6881-03>display startup
+MainBoard:
+  Configured startup system software:        flash:/CE6881-V200R019C10SPC800.cc
+  Startup system software:                   flash:/CE6881-V200R019C10SPC800.cc
+  Next startup system software:              flash:/CE6881-V200R019C10SPC800.cc
+  Startup saved-configuration file:          NULL
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup patch package:                     flash:/CE6881-V200R019SPH030.PAT
+  Next startup patch package:                flash:/CE6881-V200R019SPH030.PAT
+<5G-DPI-JZ305-B12-SWCE6881-03>display cpu-usage
+                                      ^
+Error: Unrecognized command found at '^' position.
+<5G-DPI-JZ305-B12-SWCE6881-03>display memory-usage
+                                      ^
+Error: Unrecognized command found at '^' position.
+<5G-DPI-JZ305-B12-SWCE6881-03>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(dl): DLDP down
+(c): CFM down
+(sd): STP instance discarding
+InUti/OutUti: input utility rate/output utility rate
+Interface                  PHY      Protocol  InUti OutUti   inErrors  outErrors
+100GE1/0/1                 *down    down         0%     0%          0          0
+100GE1/0/2                 *down    down         0%     0%          0          0
+100GE1/0/3                 *down    down         0%     0%          0          0
+100GE1/0/4                 *down    down         0%     0%          0          0
+100GE1/0/5                 *down    down         0%     0%          0          0
+100GE1/0/6                 *down    down         0%     0%          0          0
+10GE1/0/1                  up       up        7.84%  9.03%          0          0
+10GE1/0/2                  up       up        7.83%  8.62%          0          0
+10GE1/0/3                  up       up        0.61%  1.04%          0          0
+10GE1/0/4                  up       up        0.01%  0.01%          0          0
+10GE1/0/5                  up       up        0.26%  2.10%          0          0
+10GE1/0/6                  up       up       47.36% 19.70%          0          0
+10GE1/0/7                  up       up       47.14% 19.60%          0          0
+10GE1/0/8                  up       up       57.65% 42.32%          0          0
+10GE1/0/9                  up       up       57.67% 42.21%          0          0
+10GE1/0/10                 up       up        7.35%  9.07%          0          0
+10GE1/0/11                 up       up        7.52%  8.86%          0          0
+10GE1/0/12                 up       up        1.47% 63.03%          0          0
+10GE1/0/13                 up       up       47.26% 19.63%          1          0
+10GE1/0/14                 up       up        1.46% 63.02%          0          0
+10GE1/0/15                 up       up        6.29% 23.53%          0          0
+10GE1/0/16                 up       up        6.49% 23.50%          0          0
+10GE1/0/17                 up       up        6.58% 23.50%          0          0
+10GE1/0/18                 down     down         0%     0%          0          0
+10GE1/0/19                 down     down         0%     0%          0          0
+10GE1/0/20                 up       up        0.35%  0.82%          0          0
+10GE1/0/21                 up       up        0.32%  0.71%          0          0
+10GE1/0/22                 up       up       17.27% 24.35%          0          0
+10GE1/0/23                 up       up        8.63%  3.92%          0          0
+10GE1/0/24                 up       up       57.67% 42.21%          0          0
+10GE1/0/25                 up       up       37.04% 17.55%          0          0
+10GE1/0/26                 up       up        6.56%  8.84%          0          0
+10GE1/0/27                 up       up        0.27%  0.59%          0          0
+10GE1/0/28                 up       up        0.27%  0.58%          0          0
+10GE1/0/29                 up       up        0.89%  0.91%          0          0
+10GE1/0/30                 down     down         0%     0%          0          0
+10GE1/0/31                 down     down         0%     0%          0          0
+10GE1/0/32                 up       up        0.09%  0.11%          0          0
+10GE1/0/33                 up       up        0.13%  0.04%          0          0
+10GE1/0/34                 up       up        0.01%  0.01%          0          0
+10GE1/0/35                 up       up        0.76%  1.16%          0          0
+10GE1/0/36                 up       up        0.66%  1.13%          0          0
+10GE1/0/37                 up       up        0.66%  1.12%          0          0
+10GE1/0/38                 up       up        0.10%  0.12%          0          0
+10GE1/0/39                 up       up        0.10%  0.11%          0          0
+10GE1/0/40                 up       up        4.04% 41.64%          0          0
+10GE1/0/41                 up       up        0.99%  7.28%          0          0
+10GE1/0/42                 *down    down         0%     0%          0          0
+10GE1/0/43                 up       up        0.04%  5.15%          0          0
+10GE1/0/44                 up       up        0.01%  0.01%          0          0
+Eth-Trunk0                 up       up       46.78% 16.64%  319981365          0
+  10GE1/0/45               *down    down         0%     0%  319980390          0
+  10GE1/0/46               up       up       52.13% 16.38%        975          0
+  10GE1/0/47               up       up       42.55% 18.09%          0          0
+  10GE1/0/48               up       up       45.65% 15.45%          0          0
+MEth0/0/0                  *down    down         0%     0%          0          0
+NULL0                      up       up(s)        0%     0%          0          0
+Vlanif100                  up       up           --     --          0          0
+Vlanif192                  up       up           --     --          0          0
+<5G-DPI-JZ305-B12-SWCE6881-03>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+The number of interface that is UP in Physical is 3
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 3
+The number of interface that is DOWN in Protocol is 1
+Interface                   IP Address/Mask    Physical Protocol VPN           
+MEth0/0/0                   unassigned         *down    down     --            
+NULL0                       unassigned         up       up(s)    --            
+Vlanif100                   10.241.93.248/24   up       up       --            
+Vlanif192                   192.168.1.2/30     up       up       --            
+<5G-DPI-JZ305-B12-SWCE6881-03>display current-configuration
+!Software Version V200R019C10SPC800
+!Last configuration was updated at 2025-06-23 16:53:48+00:00 by xz4a_admin
+!Last configuration was saved at 2025-06-19 15:40:58+00:00 by xz4a_admin
+#
+sysname 5G-DPI-JZ305-B12-SWCE6881-03
+#
+undo ftp server source all-interface
+undo ftp ipv6 server source all-interface
+#
+info-center loghost 10.237.35.254 local-time
+#
+device board 1 board-type CE6881-48S6CQ
+#
+drop-profile default
+#
+dcb pfc
+#
+ntp server source-interface all disable
+ntp ipv6 server source-interface all disable
+#
+vlan batch 100 192
+#
+telnet server disable
+telnet ipv6 server disable
+undo telnet server-source all-interface
+undo telnet ipv6 server-source all-interface
+#
+diffserv domain default
+#
+vlan 100
+#
+vlan 192
+#
+acl number 2000
+ rule 20 permit source 10.241.93.0 0.0.0.255 logging
+ rule 21 permit source 10.237.35.0 0.0.0.255 logging
+ rule 22 permit source 10.233.138.0 0.0.0.255 logging
+ rule 25 permit source 10.237.100.0 0.0.0.255 logging
+#
+acl number 2001
+ rule 5 permit source 10.237.99.123 0
+ rule 10 permit source 10.237.99.233 0
+ rule 15 permit source 10.233.205.244 0
+#
+acl number 3000
+ rule 5 deny tcp destination-port eq 445
+ rule 10 deny tcp destination-port eq 5800
+ rule 15 deny tcp destination-port eq 5900
+ rule 20 deny udp destination-port eq 1434
+ rule 25 deny udp destination-port eq tftp
+ rule 30 deny tcp destination-port eq 135
+ rule 35 deny udp destination-port eq netbios-ns
+ rule 40 deny udp destination-port eq netbios-dgm
+ rule 45 deny tcp destination-port eq 139
+ rule 50 deny udp destination-port eq netbios-ssn
+ rule 55 deny tcp destination-port eq 539
+ rule 60 deny udp destination-port eq 539
+ rule 65 deny tcp destination-port eq 593
+ rule 70 deny tcp destination-port eq 4786
+ rule 75 permit ip
+#
+aaa
+ undo local-user policy security-enhance
+ local-user langjiewangdui password irreversible-cipher $1c$[S8%YU64wJ$x.hL*m&`{!}ci/+TIOZKn<j;/";__6^rT$4+Hk+I$
+ local-user langjiewangdui service-type ssh
+ local-user langjiewangdui level 2
+ local-user huawei password irreversible-cipher $1c$o^Mp+er.h5$zSJc+EN{-QH0kw.22OkH\=\uQ|Z4X#V_#4EDnf5Z$
+ local-user huawei service-type ssh
+ local-user huawei level 3
+ local-user xz4a_admin password irreversible-cipher $1c$[|R[6.HlgR$+7Z,6kONGA(DQ71PI]ZJZ}SHH^!N~G75>2"7hWzB$
+ local-user xz4a_admin service-type ssh
+ local-user xz4a_admin level 3
+ local-user jtcjxz password irreversible-cipher $1c$Cz+0~7%BN-$}|~F9iiS#2(l^B0Z,{~OVn#5B~I,"!M0t|0qLNJ1$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 2
+ #
+ authentication-scheme default
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default
+ #
+ domain default
+ #
+ domain default_admin
+#
+stack
+#
+license
+#
+interface Vlanif100
+ ip address 10.241.93.248 255.255.255.0
+#
+interface Vlanif192
+ ip address 192.168.1.2 255.255.255.252
+#
+interface MEth0/0/0
+ shutdown
+#
+interface Eth-Trunk0
+ description TO-5G-DPI-CE16800-ETH-10
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+ lacp timeout fast
+#
+interface 10GE1/0/1
+ port default vlan 100
+ traffic-filter acl 3000 inbound 
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/2
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/3
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/4
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/5
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/6
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/7
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/8
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/9
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/10
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/11
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/12
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/13
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/14
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/15
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/16
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/17
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/18
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/19
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/20
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/21
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/22
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/23
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/24
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/25
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/26
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/27
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/28
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/29
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/30
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/31
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/32
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/33
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/34
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/35
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/36
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/37
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/38
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/39
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/40
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/41
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/42
+ shutdown
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/43
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/44
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/45
+ shutdown
+ eth-trunk 0
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/46
+ eth-trunk 0
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/47
+ eth-trunk 0
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/48
+ eth-trunk 0
+ device transceiver 10GBASE-FIBER
+#
+interface 100GE1/0/1
+ shutdown
+#
+interface 100GE1/0/2
+ shutdown
+#
+interface 100GE1/0/3
+ shutdown
+#
+interface 100GE1/0/4
+ shutdown
+#
+interface 100GE1/0/5
+ shutdown
+#
+interface 100GE1/0/6
+ shutdown
+#
+interface NULL0
+#
+ip route-static 10.233.205.244 255.255.255.255 10.241.93.1
+ip route-static 10.237.35.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.99.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.100.0 255.255.255.0 10.241.93.1
+ip route-static 10.241.215.0 255.255.255.0 192.168.1.1
+#
+snmp-agent
+snmp-agent local-engineid 800007DB0304F352C8AF51
+snmp-agent community read cipher %^%#xoDuK5ws[,1}g1&-Q"<Tm^BoMI|$EOSs|\*$gQC'n]/A0TNQV)BOd('VSH6<GG(qWF)!5KxO48-iy-:8%^%# acl 2001
+#
+snmp-agent sys-info version v2c v3
+#
+snmp-agent protocol source-status all-interface
+snmp-agent protocol source-status ipv6 all-interface
+#
+snmp-agent proxy protocol source-status all-interface
+snmp-agent proxy protocol source-status ipv6 all-interface
+#
+lldp enable
+#
+stelnet server enable
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user langjiewangdui
+ssh user langjiewangdui authentication-type password
+ssh user langjiewangdui service-type stelnet
+ssh server-source all-interface
+undo ssh ipv6 server-source all-interface
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr
+ssh server hmac sha2_512 sha2_256
+ssh server key-exchange dh_group_exchange_sha256
+#
+ssh server publickey rsa
+#
+ssh server dh-exchange min-len 2048
+#
+ssh client publickey rsa
+#
+ssh client cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr
+ssh client hmac sha2_512 sha2_256
+ssh client key-exchange dh_group_exchange_sha256
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$j}d<,q;Q;F$ed*.5G}1V<_ZqV9h!9(C3zsz'){d,P&3:t<%j|@0$
+ idle-timeout 2 15
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+ idle-timeout 2 15
+ protocol inbound ssh
+#
+port-group duankou
+ group-member 100GE1/0/1
+ group-member 100GE1/0/2
+ group-member 100GE1/0/3
+ group-member 100GE1/0/4
+ group-member 100GE1/0/5
+ group-member 100GE1/0/6
+ group-member 10GE1/0/42
+ group-member 10GE1/0/43
+ group-member 10GE1/0/44
+ group-member MEth0/0/0
+#
+return
+<5G-DPI-JZ305-B12-SWCE6881-03>display ip routing-table
+Proto: Protocol        Pre: Preference
+Route Flags: R - relay, D - download to fib, T - to vpn-instance, B - black hole route
+------------------------------------------------------------------------------
+Routing Table : _public_
+         Destinations : 15       Routes : 15        
+
+Destination/Mask    Proto   Pre  Cost        Flags NextHop         Interface
+
+ 10.233.205.244/32  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.35.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.99.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+   10.237.100.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.241.93.0/24  Direct  0    0             D   10.241.93.248   Vlanif100
+  10.241.93.248/32  Direct  0    0             D   127.0.0.1       Vlanif100
+  10.241.93.255/32  Direct  0    0             D   127.0.0.1       Vlanif100
+   10.241.215.0/24  Static  60   0             RD  192.168.1.1     Vlanif192
+      127.0.0.0/8   Direct  0    0             D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+127.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+    192.168.1.0/30  Direct  0    0             D   192.168.1.2     Vlanif192
+    192.168.1.2/32  Direct  0    0             D   127.0.0.1       Vlanif192
+    192.168.1.3/32  Direct  0    0             D   127.0.0.1       Vlanif192
+255.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+<5G-DPI-JZ305-B12-SWCE6881-03>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 183519
+Current messages : 512
+
+Mar 13 2026 11:32:53 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 11:14:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 13 2026 10:50:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 13 2026 10:48:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 10:42:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 13 2026 10:32:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 10:22:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 10:12:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 10:12:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 13 2026 10:08:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 13 2026 09:52:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 09:52:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 13 2026 09:44:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 13 2026 09:08:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 09:08:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 13 2026 09:04:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 13 2026 08:58:49 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 13 2026 08:52:49 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 08:52:49 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 13 2026 07:28:49 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 13 2026 07:26:49 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 13 2026 07:18:49 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 13 2026 07:14:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260303032044.pads.zip)
+Mar 13 2026 07:14:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260303032044.pads.zip)
+Mar 13 2026 01:14:44 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 13 2026 01:14:44 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 13 2026 01:04:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 13 2026 01:00:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 13 2026 00:54:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 13 2026 00:08:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 13 2026 00:06:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 13 2026 00:06:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 23:54:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 23:52:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 23:50:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 23:12:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 23:10:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 23:08:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 22:54:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 22:10:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 21:50:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 21:30:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 21:22:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 21:10:41 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 20:46:40 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 20:08:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 19:54:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 19:16:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 18:52:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 18:50:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 18:22:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 18:10:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 17:54:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 17:32:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 17:22:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 17:16:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 17:10:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 17:10:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 16:54:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 16:38:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 16:32:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 16:08:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 15:52:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 15:48:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 15:48:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 15:42:35 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 15:30:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 15:24:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 14:52:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 14:50:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 14:36:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 14:12:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 13:50:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 13:48:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 13:42:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 13:32:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 13:30:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 13:26:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 13:20:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 13:12:32 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 12:52:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 12:50:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 12:46:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 12:40:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 12:38:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 12:32:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 12:22:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 12:10:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 11:52:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 11:10:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 10:54:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 10:52:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 10:51:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260302065045.pads.zip)
+Mar 12 2026 10:51:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260302065045.pads.zip)
+Mar 12 2026 10:50:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 10:30:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 10:16:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 10:10:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 10:08:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 10:08:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 09:54:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 09:48:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 09:48:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 09:38:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 09:30:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 09:08:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 09:08:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 09:06:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 08:54:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 08:50:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 12 2026 08:46:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 08:08:26 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 08:02:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 07:36:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 12 2026 07:36:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 12 2026 07:28:23 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 12 2026 01:22:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 12 2026 01:22:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 12 2026 01:16:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 12 2026 01:16:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 12 2026 01:02:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 12 2026 00:50:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 12 2026 00:48:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 12 2026 00:10:21 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 12 2026 00:08:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 12 2026 00:08:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 23:56:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 23:52:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 23:48:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 23:16:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 23:10:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 23:10:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 22:50:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 22:50:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 22:14:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 22:14:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 21:56:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 21:54:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 21:16:19 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 21:04:19 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 20:52:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 20:52:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 20:12:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 20:10:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 19:54:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 19:52:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 19:24:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 19:14:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 18:54:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 18:48:16 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 18:28:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 18:24:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 18:16:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 18:10:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 17:48:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 17:44:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 17:26:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 17:20:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 16:52:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 16:50:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 16:24:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 16:10:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 15:52:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 15:52:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 15:32:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 15:20:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 15:12:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 15:06:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 14:52:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 14:52:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 14:38:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 14:38:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 14:28:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 14:21:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260301102035.pads.zip)
+Mar 11 2026 14:21:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260301102035.pads.zip)
+Mar 11 2026 14:16:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 13:54:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 13:50:10 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 13:10:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 13:10:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 12:54:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 12:50:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 12:10:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 12:10:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 11:54:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 11:50:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 11:42:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 11:32:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 11:18:07 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 11:16:07 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 11:06:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251007233657.log.zip)
+Mar 11 2026 11:06:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251007233657.log.zip)
+Mar 11 2026 10:52:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 10:50:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 10:46:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 10:10:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 10:10:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 10:08:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 09:50:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 09:50:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 09:50:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 09:08:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 09:08:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 09:08:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 08:56:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 11 2026 08:56:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 08:54:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 07:38:02 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 11 2026 07:34:02 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 11 2026 07:14:02 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 11 2026 01:19:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 11 2026 00:49:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 11 2026 00:49:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 11 2026 00:09:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 11 2026 00:07:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 11 2026 00:05:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 23:53:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 23:53:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 23:51:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 23:21:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 23:13:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 23:09:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 22:49:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 22:41:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 22:11:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 22:11:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 21:53:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 21:53:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 21:27:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 21:17:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 21:09:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 20:53:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 20:17:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 20:17:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 19:41:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 19:11:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 18:51:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 18:47:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 18:13:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 18:11:54 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 17:51:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260228135149.pads.zip)
+Mar 10 2026 17:51:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260228135149.pads.zip)
+Mar 10 2026 17:51:54 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 17:47:54 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 17:35:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 17:31:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 16:53:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 16:45:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 16:37:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 16:31:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 16:25:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c82724-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Mar 10 2026 16:25:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01VTY/3/hwVtyExceed_active(l):CID=0x80c82724-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Mar 10 2026 16:24:54 5G-DPI-JZ305-B12-SWCE6881-03 %%01VTY/3/hwVtyExceed_active(l):CID=0x80c82724-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Mar 10 2026 16:07:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 16:05:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 15:53:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 15:53:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 15:21:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 15:13:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 14:51:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 14:51:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 14:31:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 14:23:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 14:09:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 14:09:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 13:53:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 13:49:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 13:29:51 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 13:09:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 12:53:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 12:51:50 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 12:41:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 12:33:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 12:21:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 12:09:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 11:47:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 11:27:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 11:27:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 11:19:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 11:07:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 11:05:48 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 10:49:47 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 10:49:47 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 10:47:47 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 10:13:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 10:07:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 10:03:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 09:51:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 09:45:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 09:45:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 09:09:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 09:09:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 09:09:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 08:55:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 08:55:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar 10 2026 08:51:45 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 07:53:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 10 2026 07:41:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 10 2026 07:37:42 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 10 2026 01:21:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar 10 2026 01:19:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar 10 2026 01:15:38 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar 10 2026 00:09:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar 10 2026 00:05:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar 10 2026 00:05:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 23:55:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 23:55:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 23:49:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 23:21:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 23:07:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 23:07:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 22:57:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 22:55:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 22:49:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 22:35:37 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 22:09:36 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 22:03:36 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 21:53:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 21:51:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 21:21:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260227172111.pads.zip)
+Mar  9 2026 21:21:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260227172111.pads.zip)
+Mar  9 2026 21:15:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 21:01:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 20:51:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 20:51:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 20:13:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 20:05:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 19:51:33 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 19:43:33 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 19:37:33 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 19:29:33 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 19:13:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 19:11:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 18:51:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 18:45:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 18:45:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 18:39:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 18:15:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 18:13:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 17:51:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 17:51:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 17:47:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 17:35:31 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 17:15:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 17:09:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 16:53:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 16:29:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 16:25:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 16:19:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 16:09:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 16:07:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 15:53:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 15:51:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 15:39:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 15:23:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 15:13:30 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 15:11:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 14:55:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 14:47:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 14:41:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 14:29:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 14:23:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 14:09:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 13:55:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 13:51:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 13:37:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 13:09:29 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 12:55:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 12:51:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 12:43:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 12:19:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 12:11:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 12:09:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 11:53:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 11:47:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 11:45:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 11:37:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 11:27:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 11:25:58 5G-DPI-JZ305-B12-SWCE6881-03 %%01VTY/3/hwVtyExceed_clear(l):CID=0x80c82724-alarmID=0x00f102ee-clearType=service_resume;The number of available VTY channels is higher than or equal to the threshold value.
+Mar  9 2026 11:25:43 5G-DPI-JZ305-B12-SWCE6881-03 %%01VTY/3/hwVtyExceed_active(l):CID=0x80c82724-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=1, totalVTYs=5)
+Mar  9 2026 11:25:34 5G-DPI-JZ305-B12-SWCE6881-03 %%01VTY/3/hwVtyExceed_active(l):CID=0x80c82724-alarmID=0x00f102ee;The number of available VTY channels is lower than the threshold.(currentLoginVTYs=2, totalVTYs=5)
+Mar  9 2026 11:11:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 11:09:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 11:07:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 10:57:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 10:47:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 10:47:28 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 10:09:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 10:09:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 10:07:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 09:59:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 09:49:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 09:49:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 09:09:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 09:09:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 09:09:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 08:55:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 08:55:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 08:55:25 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  9 2026 08:15:24 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar  9 2026 08:13:24 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar  9 2026 08:03:24 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar  9 2026 07:57:24 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar  9 2026 07:33:22 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar  9 2026 01:09:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar  9 2026 01:07:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar  9 2026 01:04:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260226205111.pads.zip)
+Mar  9 2026 01:04:56 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260226205111.pads.zip)
+Mar  9 2026 01:03:20 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 00:59:19 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar  9 2026 00:51:19 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 00:09:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  9 2026 00:09:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  9 2026 00:07:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 23:53:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 23:53:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 23:53:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 23:15:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 23:15:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 23:09:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 22:55:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 22:47:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 22:47:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 22:41:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 22:39:17 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 22:13:16 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 21:55:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 21:41:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 21:13:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 21:05:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 20:51:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 20:11:14 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 19:55:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 19:09:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 18:49:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 18:47:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 18:37:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 18:31:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 18:23:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 18:07:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 17:53:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 17:49:13 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 17:21:12 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 17:11:12 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 16:57:12 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 16:09:12 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 15:57:12 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 15:35:12 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 15:21:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 15:13:11 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 14:51:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 14:49:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 14:41:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 14:35:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 14:09:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 14:05:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 13:47:09 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 13:09:08 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 12:59:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 12:43:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 12:25:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 12:17:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 12:11:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 12:09:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 11:53:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 11:33:06 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 11:11:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 11:09:05 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 10:47:03 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 09:53:03 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 09:49:03 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 09:09:03 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 09:09:03 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 09:09:03 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 08:55:02 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 08:55:02 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 08:51:02 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 08:03:00 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 07:57:00 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 07:53:00 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar  8 2026 07:51:00 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar  8 2026 07:49:00 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar  8 2026 04:21:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260226002047.pads.zip)
+Mar  8 2026 04:21:59 5G-DPI-JZ305-B12-SWCE6881-03 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600403;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260226002047.pads.zip)
+Mar  8 2026 01:38:58 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/14, QueueId=0, SlotId=1)
+Mar  8 2026 01:36:58 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar  8 2026 01:24:58 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar  8 2026 01:22:58 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/12, QueueId=0, SlotId=1)
+Mar  8 2026 01:14:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/40, QueueId=0, SlotId=1)
+Mar  8 2026 01:06:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 01:06:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 01:04:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 01:00:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  8 2026 00:58:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 00:58:57 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 00:08:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  8 2026 00:06:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  8 2026 00:02:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  7 2026 23:54:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 23:54:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  7 2026 23:54:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  7 2026 23:38:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 23:36:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/8, QueueId=0, SlotId=1)
+Mar  7 2026 23:28:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 23:16:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 23:08:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  7 2026 22:46:55 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/24, QueueId=0, SlotId=1)
+Mar  7 2026 21:54:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 21:40:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 21:34:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 21:06:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0434-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/9, QueueId=0, SlotId=1)
+Mar  7 2026 20:52:52 5G-DPI-JZ305-B12-SWCE6881-03 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0434-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/9, QueueId=0, SlotId=1)

@@ -1,0 +1,1801 @@
+﻿<Quidway>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<Quidway>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S9300 V200R019C10SPC500)
+Copyright (C) 2000-2020 HUAWEI TECH Co., Ltd.
+Quidway S9303 Terabit Routing Switch uptime is 252 weeks, 1 day, 0 hour, 8 minutes
+BKP 0 version information:
+1. PCB      Version  : LE02BAKN VER.D
+2. Support  PoE      : Yes
+3. Board    Type     : LE0KS9303
+4. MPU Slot Quantity : 2
+5. LPU Slot Quantity : 3
+
+MPU 4(Master)  : uptime is 252 weeks, 1 day, 0 hour, 7 minutes
+SDRAM Memory Size      : 2048    M bytes
+Flash Memory Size      : 64      M bytes
+MPU version information : 
+1. PCB      Version  : SWC02MCUBC01 VER.B
+2. MAB      Version  : 0
+3. Board    Type     : LE1D2MCUD000
+4. CPLD     Version  : 1812.2014
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0003
+
+MPU 5(Slave)  : uptime is 252 weeks, 1 day, 0 hour, 7 minutes
+SDRAM Memory Size      : 2048    M bytes
+Flash Memory Size      : 64      M bytes
+MPU version information : 
+1. PCB      Version  : SWC02MCUBC01 VER.B
+2. MAB      Version  : 0
+3. Board    Type     : LE1D2MCUD000
+4. CPLD     Version  : 1812.2014
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0003
+
+LPU 1  : uptime is 252 weeks, 1 day, 0 hour, 6 minutes
+SDRAM Memory Size      : 1024    M bytes
+Flash Memory Size      : 128     M bytes
+LPU version information : 
+1. PCB      Version  : SWC02G48TX2E VER.A
+2. MAB      Version  : 4
+3. Board    Type     : LE1M2G48TX5E
+4. CPLD     Version  : 1811.0819
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0102
+
+LPU 2  : uptime is 252 weeks, 1 day, 0 hour, 6 minutes
+SDRAM Memory Size      : 1024    M bytes
+Flash Memory Size      : 128     M bytes
+LPU version information : 
+1. PCB      Version  : SWC02X36SX3E VER.D
+2. MAB      Version  : 4
+3. Board    Type     : LST3X36SX6E0
+4. CPLD     Version  : 1908.1411
+5. BootROM  Version  : 0000.04f1
+6. BootLoad Version  : 0213.0123
+<Quidway>display device
+S9303's Device status:
+Slot  Sub Type          Online    Power      Register       Status     Role  
+--------------------------------------------------------------------------------------
+1     -   LE1M2G48TX5E  Present   PowerOn    Registered     Normal     NA    
+2     -   LST3X36SX6E0  Present   PowerOn    Registered     Normal     NA    
+4     -   LE1D2MCUD000  Present   PowerOn    Registered     Normal     Master
+5     -   LE1D2MCUD000  Present   PowerOn    Registered     Normal     Slave 
+PWR1  -   -             Present   PowerOn    Registered     Normal     NA    
+PWR2  -   -             Present   PowerOn    Registered     Normal     NA    
+FAN1  -   -             Present   PowerOn    Registered     Normal     NA    
+<Quidway>display startup
+MainBoard: 
+  Configured startup system software:        flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup system software:                   flash:/s9300-v200r019c10spc500-mcud.cc
+  Next startup system software:              flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup license file:                      default
+  Next startup license file:                 default
+  Startup patch package:                     NULL
+  Next startup patch package:                NULL
+SlaveBoard:
+  Configured startup system software:        flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup system software:                   flash:/s9300-v200r019c10spc500-mcud.cc
+  Next startup system software:              flash:/s9300-v200r019c10spc500-mcud.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup license file:                      default
+  Next startup license file:                 default
+  Startup patch package:                     NULL
+  Next startup patch package:                NULL
+<Quidway>display cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 16% Max: 96%
+CPU Usage Stat. Time : 2026-03-13  19:37:38 
+CPU utilization for five seconds: 16%: one minute: 16%: five minutes: 15%
+Max CPU Usage Stat. Time : 2021-05-13 11:05:30.
+
+TaskName             CPU  Runtime(CPU Tick High/Tick Low)  Task Explanation
+VIDL                 84%         0/96342600       DOPRA IDLE                    
+OS                   13%         0/173eed80       Operation System              
+IPCQ                  1%         0/ 297c1e0       IPCQIPC task for single queue 
+TICK                  1%         0/ 1e84800                                     
+smsvcmu               1%         0/ 2625a00       smsvcmu                       
+1AGA                  0%         0/       0       1AGAGT                        
+AAA                   0%         0/  2625a0       AAA  Authen Account Authorize 
+ADPT                  0%         0/       0       ADPT                          
+AGNT                  0%         0/       0       AGNT SNMP agent task          
+AGT6                  0%         0/       0       AGT6 SNMP AGT6 task           
+ALM                   0%         0/       0       ALM  Alarm Management         
+AM                    0%         0/   f4240       AM   Address Management       
+APP                   0%         0/       0       APP                           
+APS                   0%         0/   f4240       APS Automatic Protection
+                                                  Switch                       
+ARP                   0%         0/   7a120       ARP                           
+ARPA                  0%         0/  16e360       ARPA ARP Adapter              
+ASFM                  0%         0/       0       ASFM                          
+ASMN                  0%         0/   7a120       ASMNG Access Switch
+                                                  Management                   
+BEAT                  0%         0/   f4240       BEAT Beat Management          
+BES                   0%         0/       0       BES                           
+BFD                   0%         0/  1e8480       BFD Bidirection Forwarding
+                                                  Detect                       
+BFDA                  0%         0/       0       BFDA BFD Adapter              
+BFDS                  0%         0/       0       BFDS                          
+BOX_Out               0%         0/  3567e0                                     
+BPDU                  0%         0/       0       BPDU Adapter                  
+BTRC                  0%         0/       0       BTRC                          
+Boot                  0%         0/  2625a0       Bootload Log                  
+CAPM                  0%         0/       0       CAPM Capture Packet           
+CCTL                  0%         0/       0       CCTLBulk stat connect control 
+CFGM                  0%         0/       0       CFGMGR  Configuration
+                                                  Management                   
+CFM                   0%         0/       0       CFM  Configuration file
+                                                  management                   
+CHAL                  0%         0/       0       CHAL Core Hardware Layer      
+CHAR                  0%         0/       0       CHAR                          
+CKDV                  0%         0/       0       CKDV                          
+CLKI                  0%         0/       0       CLKI                          
+CMAI                  0%         0/       0       CMAINT                        
+CMDA                  0%         0/       0       CMDA                          
+CMNG                  0%         0/       0       CMNG ha process               
+CMP                   0%         0/       0       CMP                           
+CMPM                  0%         0/       0       CMPM Collect Performance Data 
+CMRE                  0%         0/       0       CMREG Cloud Management
+                                                  Register                     
+CPMN                  0%         0/       0       CPMN                          
+CSBR                  0%         0/       0       CSBR Compare slave
+                                                  buildrun-info                
+CSPF                  0%         0/       0       CSPF task                     
+CSTP                  0%         0/       0       CSTP                          
+CWPA                  0%         0/       0       CWPADP                        
+DCPA                  0%         0/       0       DCPA                          
+DEFD                  0%         0/   7a120       DEFD CPU Defend               
+DEV                   0%         0/  44aa20       DEV  Device Management        
+DEVA                  0%         0/       0       DEVA Device Assistant         
+DHCP                  0%         0/       0       DHCP Dynamic Host Config
+                                                  Protocol                     
+DIAG                  0%         0/       0       DIAG                          
+DLDP                  0%         0/       0       DLDP Protocol                 
+DNSS                  0%         0/       0       DNSSNP                        
+DRIV                  0%         0/       0       DRIVERCMD                     
+DRVD                  0%         0/       0       DRVD                          
+DSMR                  0%         0/       0       DSMR                          
+DSMS                  0%         0/  2625a0       DSMS Device adapt to SMS      
+EAGE                  0%         0/       0       EAGENT                        
+EAP                   0%         0/   7a120       EAP  Extensible Authen
+                                                  Protocol                     
+ECM                   0%         0/  cdfe60       ECM Ethernet Communicate
+                                                  Manage                       
+EFMT                  0%         0/   7a120       EFMTEST 802.3AH Test          
+ELAB                  0%         0/       0       ELAB e-label Management       
+EMDM                  0%         0/       0       EMDM EMDI Main Task           
+EOAM                  0%         0/       0       EOAM1AG                       
+ESAP                  0%         0/  16e360       ESAP eSap Adapter             
+EVC                   0%         0/   7a120       EVC                           
+EVPN                  0%         0/       0       EVPN Ethernet VPN             
+EZDT                  0%         0/       0       EZDT                          
+EZOP                  0%         0/       0       EZOP EasyOperation
+                                                  application                  
+EZPP                  0%         0/       0       EZPP EasyOperation packet     
+Eout                  0%         0/       0       Eout ECM Out                  
+Even                  0%         0/       0       Event of OIDS                 
+FCAT                  0%         0/   7a120       FCAT Catch Packets for
+                                                  debugging                    
+FECD                  0%         0/       0       FECD Mod Manage Task          
+FIB                   0%         0/       0       FIB Forward Information Base  
+FIB6                  0%         0/       0       FIB6IPv6 FIB                  
+FLOW                  0%         0/       0       FLOW SFLOW                    
+FMAT                  0%         0/   f4240       FMAT Fault Manage task        
+FMCK                  0%         0/  4c4b40       FMCK Detect device faults     
+FMEB                  0%         0/   f4240       FMEB                          
+FMES                  0%         0/       0       FMES Output fault information 
+FNTL                  0%         0/  44aa20       FNTL                          
+FTS                   0%         0/       0       FTS                           
+FWRT                  0%         0/       0       FWRT                          
+GLRM                  0%         0/       0       GLRM License Resource Manage  
+GREM                  0%         0/       0       GREM MPU Process GRE packets  
+GRES                  0%         0/       0       GRESM task                    
+GRSA                  0%         0/  7a1200       GRSA                          
+GTL                   0%         0/       0       GTL                           
+GVRP                  0%         0/       0       GVRP Protocol                 
+H2CM                  0%         0/   7a120       H2CM                          
+H2CT                  0%         0/       0       H2CT                          
+HAAG                  0%         0/       0       HAAGT                         
+HACA                  0%         0/       0       HACA                          
+HACK                  0%         0/       0       HACKtask for HA ACK           
+HGMP                  0%         0/       0       HGMPADP HGMP Adapter          
+HOTT                  0%         0/       0       HOTT                          
+HP2C                  0%         0/       0       HP2C                          
+HS2M                  0%         0/   f4240       HS2M High available task      
+HSB                   0%         0/       0       HSB                           
+HTPC                  0%         0/       0       HTPC                          
+HTPS                  0%         0/       0       HTPS                          
+HTPSRD                0%         0/       0                                     
+HTTP                  0%         0/  1e8480       HTTP                          
+HVRP                  0%         0/       0       HVRP Protocol                 
+ICAG                  0%         0/       0       ICAGT                         
+IFAD                  0%         0/       0       IFAD Ifnet Adpter             
+IFLP                  0%         0/       0       IFLP                          
+IFNT                  0%         0/       0       IFNTIfnet task                
+IFOA                  0%         0/       0       IFOA Interface OAM            
+IFPD                  0%         0/       0       IFPD Ifnet Product Adapter    
+IKPI                  0%         0/   7a120       IKPI task                     
+INFO                  0%         0/   7a120       INFOInformation center        
+INPT                  0%         0/       0       INPT                          
+IP                    0%         0/       0       IP                            
+IPCC                  0%         0/       0       IPCC IPC based domain socket  
+IPCK                  0%         0/  16e360       IPCKIPC task for ack message  
+IPCR                  0%         0/  2dc6c0       IPCR IPC Receive              
+IPFP                  0%         0/  989680       IPFPM                         
+IS2U                  0%         0/       0       IS2U ISSU function Adapter    
+ISC6                  0%         0/       0       ISC6                          
+ISSU                  0%         0/       0       ISSU                          
+ITSK                  0%         0/       0       ITSKIPOS common task          
+JOB                   0%         0/       0       JOB Schedule                  
+KRB                   0%         0/       0       KRB  Kerberos Task Proc       
+L2                    0%         0/  16e360       L2                            
+L2IF                  0%         0/  16e360       L2IF                          
+L2LA                  0%         0/   7a120       L2LACP                        
+L2PQ                  0%         0/       0       L2PQ                          
+L2V                   0%         0/       0       L2V                           
+L2_E                  0%         0/   7a120       L2_EOAM_Y1731                 
+L2_P                  0%         0/   7a120       L2_PR                         
+L2_R                  0%         0/  1e8480       L2_RING                       
+L2_T                  0%         0/       0       L2_TRUNK                      
+L3M4                  0%         0/       0       L3M4 MPU Manage IPv4 unicast
+                                                  FDB                          
+L3MB                  0%         0/       0       L3MB MPU Process urpf, vrrp
+                                                  etc.                         
+LBDT                  0%         0/  16e360       LBDT Loopback Detect Mpu      
+LCSP                  0%         0/       0       LCSP License Adapter          
+LDCM                  0%         0/       0       LDCM                          
+LDP                   0%         0/       0       LDP task                      
+LDT                   0%         0/       0       LDT Loop Detection            
+LDTP                  0%         0/       0       LDTP LDT-Packet Process       
+LINK                  0%         0/       0       LINK                          
+LLDP                  0%         0/   7a120       LLDP Protocol                 
+LLVL                  0%         0/       0       LLVL ApAddVlan                
+LNP                   0%         0/       0       LNP task                      
+LOAD                  0%         0/       0       LOAD Load Server              
+LRCV                  0%         0/       0       LRCV                          
+LSPA                  0%         0/       0       LSPA                          
+LSPM                  0%         0/  1e8480       LSPMLsp management            
+MAC                   0%         0/       0       MAC Media Access Control      
+MACL                  0%         0/       0       MACL Access Control List      
+MADP                  0%         0/       0       MADP MAD proxy Task           
+MBDS                  0%         0/  2dc6c0       MBDS                          
+MCM                   0%         0/   7a120       MCM Diag task.                
+MCME                  0%         0/       0       MCME                          
+MCSW                  0%         0/       0       MCSW Mulitcast Switch Adapter 
+MDGW                  0%         0/   f4240       MDGW                          
+MDRY                  0%         0/       0       MDRY                          
+MDSP                  0%         0/   f4240       MDSP                          
+MERX                  0%         0/       0       MERX Meth Receive             
+METH                  0%         0/   f4240       METH Metropolitan Ethernet    
+MFF                   0%         0/       0       MFF MAC Forced Forwarding     
+MFIB                  0%         0/       0       MFIBMulticast forward info    
+MIBP                  0%         0/  16e360       MIBP MIB performance task     
+MOD                   0%         0/       0       MOD  Module Management        
+MPAT                  0%         0/       0       MPAT                          
+MPSF                  0%         0/       0       MPSF Mpls SFU Adapter         
+MPSM                  0%         0/       0       MPSM Mpls Main Adapter        
+MTP                   0%         0/       0       MTP                           
+MTR                   0%         0/  3d0900       MTR Scheduled Memory Usage    
+Mirr                  0%         0/       0       Mirror                        
+NDMB                  0%         0/       0       NDMB MPU Manage IPv6 unicast
+                                                  FDB                          
+NFPT                  0%         0/  2dc6c0       NFPT NFP timer task           
+NQAF                  0%         0/       0       NQAFTPR                       
+NSA                   0%         0/   f4240       NSA Netstream Adapter         
+NTLK                  0%         0/   7a120       NTLK                          
+NTPT                  0%         0/       0       NTPT task                     
+NVO3                  0%         0/  2dc6c0       NVO3                          
+OAM                   0%         0/  2dc6c0       OAM OAM                       
+OAM1                  0%         0/       0       OAM1 EOAM Adapter             
+OAMT                  0%         0/       0       OAMT Mpls Oam Adapter         
+OCSP                  0%         0/       0       OCSP                          
+OIDS                  0%         0/       0       OIDS Object Management        
+OMIN                  0%         0/       0       OMIN                          
+OMLG                  0%         0/       0       OMLG                          
+OMNG                  0%         0/       0       OMNG                          
+OMSB                  0%         0/       0       OMSB                          
+OOM1                  0%         0/       0       OOM1                          
+OPS                   0%         0/   7a120       OPS                           
+OPSA                  0%         0/   f4240       OPSA OPS externd agent        
+OPSC                  0%         0/       0       OPSC OPS execute command      
+OPSE                  0%         0/       0       OPSE action execute module    
+PAT                   0%         0/       0       PAT                           
+PATB                  0%         0/       0       PATB                          
+PATC                  0%         0/       0       PATCH Maintenance             
+PCAM                  0%         0/       0       PCAM MPU Manage iPCA          
+PGMC                  0%         0/       0       PGMC                          
+PGMP                  0%         0/       0       PGMP                          
+PGMX                  0%         0/       0       PGMX                          
+PKIM                  0%         0/       0       PKIM                          
+PM                    0%         0/       0       PM  Performance Management    
+PMC                   0%         0/       0       PMC Configuration Management  
+PMS                   0%         0/   7a120       PMS PM Server                 
+PNGM                  0%         0/   7a120       PNGM MPU Process icmp reply
+                                                  fast                         
+PNP                   0%         0/   7a120       PNP Plug And Play             
+POE                   0%         0/       0       POE Power Over Ethernet       
+POE+                  0%         0/       0       POE+ PPP Over Ethernet Plus   
+PPI                   0%         0/       0       PPI Product Process Interface 
+PPP                   0%         0/       0       PPP                           
+PTAL                  0%         0/       0       PTAL Portal                   
+Pers                  0%         0/   7a120       Persist of OIDS               
+QDIA                  0%         0/       0       QDIA AUTODIAG Application     
+QOSA                  0%         0/       0       QOSA Quality of Service       
+RACL                  0%         0/       0       RACL Reversed Access Control
+                                                  List                         
+RDS                   0%         0/       0       RDS  Radius                   
+RMON                  0%         0/       0       RMONRemote monitoring         
+ROUT                  0%         0/  a7d8c0       ROUTRoute task                
+RPCQ                  0%         0/   7a120       RPCQRemote procedure call     
+RSVP                  0%         0/       0       RSVP task                     
+RTMR                  0%         0/  2625a0       RTMR                          
+SAID                  0%         0/   7a120       SAID task                     
+SAPP                  0%         0/       0       SAPP                          
+SCEP                  0%         0/       0       SCEP                          
+SCKA                  0%         0/       0       SCKA                          
+SDKE                  0%         0/       0       SDKE                          
+SEA                   0%         0/       0       SEA                           
+SECE                  0%         0/   7a120       SECE Security                 
+SFPM                  0%         0/       0       SFPM                          
+SIMC                  0%         0/       0       SIMC Simulate CPU Usage       
+SIMU                  0%         0/       0       SIMU Simulate Function Task   
+SLAG                  0%         0/       0       SLAG                          
+SMDG                  0%         0/       0       SMDG                          
+SMLK                  0%         0/       0       SMLK Smart Link Protocol      
+SNPG                  0%         0/   f4240       SNPG Multicast Snooping       
+SOCK                  0%         0/       0       SOCKPacket schedule and
+                                                  process                      
+SOTM                  0%         0/   7a120       SOTM                          
+SPM                   0%         0/       0       SPM  Smart Power Management   
+SPTM                  0%         0/  3d0900       SPTM                          
+SRVC                  0%         0/       0       SRVC                          
+STFW                  0%         0/       0       STFW Super task forward       
+STND                  0%         0/       0       STND Standby task             
+STP                   0%         0/  a037a0       STP                           
+STRA                  0%         0/   f4240       STRA Source Trail             
+SUPP                  0%         0/       0       SUPP Support the device
+                                                  management                   
+SVXL                  0%         0/       0       SVXLAN                        
+TAC                   0%         0/  16e360       TAC  HWTACACS                 
+TARP                  0%         0/       0       TARPING                       
+TCBM                  0%         0/       0       TCBM Task callback block
+                                                  monitor                      
+TCTL                  0%         0/       0       TCTLBulk stat transmit
+                                                  control                      
+TM                    0%         0/       0       TM   Transmission Management  
+TNLM                  0%         0/   f4240       TNLMTunnel management task    
+TNQA                  0%         0/   f4240       TNQAC                         
+TOPO                  0%         0/       0       TOPOMNG Task                  
+TPLC                  0%         0/   7a120       TPLC Template for controller  
+TPLS                  0%         0/       0       TPLS                          
+TRAF                  0%         0/   7a120       TRAFTraffic Statistics        
+TRAP                  0%         0/       0       TRAP SNMP trap task           
+TRUN                  0%         0/   7a120       TRUNK Product Adapter         
+TTNQ                  0%         0/       0       TTNQAS                        
+TTVP                  0%         0/       0       TTVPLS                        
+TUNL                  0%         0/       0       TUNL                          
+UCM                   0%         0/  16e360       UCM  User Control Management  
+UDPM                  0%         0/       0       UDPM MPU Convert UDP packets  
+UDST                  0%         0/       0       UDST                          
+UMBR                  0%         0/       0       UMBR Member Discover Manage   
+USA                   0%         0/   7a120       USA User Service Agent        
+USBL                  0%         0/  7a1200       USBLOAD application           
+UTSK                  0%         0/       0       UTSK                          
+UVMC                  0%         0/   7a120       UVMC Unified version
+                                                  management                   
+VCLK                  0%         0/  af79e0                                     
+VCMP                  0%         0/       0       VCMP task                     
+VCON                  0%         0/       0       VCON Virtual Console to LPU   
+VFS                   0%         0/       0       VFS Virtual file system       
+VFSD                  0%         0/       0       VFSDVFS flash task for delete
+                                                  file block                   
+VMON                  0%         0/   7a120       VMONSystem monitor            
+VMSH                  0%         0/       0       VMSH                          
+VOAM                  0%         0/       0       VOAM                          
+VP                    0%         0/       0       VP  Virtual path task         
+VPR                   0%         0/   7a120       VPR VP Receive                
+VPS                   0%         0/   7a120       VPS VP Send                   
+VRPT                  0%         0/       0       VRPT                          
+VRRP                  0%         0/  2625a0       VRRP                          
+VT0                   0%         0/   7a120       VT0 Line user's task          
+VTYD                  0%         0/  2625a0       VTYD Virtual terminal         
+VXLM                  0%         0/       0       VXLM VXLAN Main Adapter       
+VXLS                  0%         0/       0       VXLS Vxlan SFU Adapter        
+VXMM                  0%         0/       0       VXMM VXLAN MAC Main Adapter   
+WCWP_ADAPT            0%         0/       0       WCWP_ADAPT                    
+WCWP_TASK_MAP         0%         0/       0       WCWP_TASK_MAP                 
+WEB                   0%         0/       0       WEB  Web                      
+WEB_                  0%         0/       0       WEB_WRITE_FILE                
+WMP_HA                0%         0/  16e360       WMP_HA                        
+WMP_SYS               0%         0/       0       WMP_SYS                       
+WMP_WCOM              0%         0/       0       WMP_WCOM                      
+WSLF                  0%         0/       0       WSLF                          
+WT0                   0%         0/  895440       WT0                           
+WT1                   0%         0/  81b320       WT1                           
+WT2                   0%         0/  81b320       WT2                           
+WTDG                  0%         0/   7a120       WTDG                          
+XSTP                  0%         0/       0       XSTP AGENT                    
+_IPC                  0%         0/       0       _IPC                          
+_VP                   0%         0/       0       _VP                           
+smsCbDeal             0%         0/       0       smsCbDeal                     
+smsLoad               0%         0/       0       smsLoad                       
+smsRqDeal             0%         0/   f4240       smsRqDeal                     
+smsRsDeal             0%         0/  1e8480       smsRsDeal                     
+smsRx                 0%         0/       0       smsRx                         
+smsTimer              0%         0/ 11a49a0       smsTimer                      
+smsTx                 0%         0/   7a120       smsTx                         
+smspicmg              0%         0/ 17d7840       smspicmg                      
+smsvLd                0%         0/       0       smsvLd                        
+smsvRq                0%         0/  16e360       smsvRq                        
+smsvRs                0%         0/       0       smsvRs                        
+smsvcmumsg            0%         0/   7a120       smsvcmumsg                    
+smsvtimer             0%         0/ 11a49a0       smsvtimer                     
+
+<Quidway>display memory-usage
+ Memory utilization statistics at 2026-03-13 19:37:38+08:00
+ System Total Memory Is: 1061158912 bytes
+ Total Memory Used Is: 233242968 bytes
+ Memory Using Percentage Is: 21%
+<Quidway>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+~down: LDT down
+#down: LBDT down
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+(ld): LDT block
+(lb): LBDT block
+(lp): Loop-detect block
+(o): Observe-port forwarding down
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               down  down         0%     0%          0          0
+GigabitEthernet1/0/0        up    up           0%     0%          0          0
+GigabitEthernet1/0/1        up    up           0%     0%          0          0
+GigabitEthernet1/0/2        up    up           0%     0%          0          0
+GigabitEthernet1/0/3        up    up           0%     0%          0          0
+GigabitEthernet1/0/4        *down down         0%     0%          0          0
+GigabitEthernet1/0/5        *down down         0%     0%          0          0
+GigabitEthernet1/0/6        *down down         0%     0%          0          0
+GigabitEthernet1/0/7        *down down         0%     0%          0          0
+GigabitEthernet1/0/8        *down down         0%     0%          0          0
+GigabitEthernet1/0/9        *down down         0%     0%          0          0
+GigabitEthernet1/0/10       *down down         0%     0%          0          0
+GigabitEthernet1/0/11       *down down         0%     0%          0          0
+GigabitEthernet1/0/12       *down down         0%     0%          0          0
+GigabitEthernet1/0/13       *down down         0%     0%          0          0
+GigabitEthernet1/0/14       *down down         0%     0%          0          0
+GigabitEthernet1/0/15       *down down         0%     0%          0          0
+GigabitEthernet1/0/16       *down down         0%     0%          0          0
+GigabitEthernet1/0/17       *down down         0%     0%          0          0
+GigabitEthernet1/0/18       *down down         0%     0%          0          0
+GigabitEthernet1/0/19       *down down         0%     0%          0          0
+GigabitEthernet1/0/20       *down down         0%     0%          0          0
+GigabitEthernet1/0/21       *down down         0%     0%          0          0
+GigabitEthernet1/0/22       *down down         0%     0%          0          0
+GigabitEthernet1/0/23       *down down         0%     0%          0          0
+GigabitEthernet1/0/24       *down down         0%     0%          0          0
+GigabitEthernet1/0/25       *down down         0%     0%          0          0
+GigabitEthernet1/0/26       *down down         0%     0%          0          0
+GigabitEthernet1/0/27       *down down         0%     0%          0          0
+GigabitEthernet1/0/28       *down down         0%     0%          0          0
+GigabitEthernet1/0/29       *down down         0%     0%          0          0
+GigabitEthernet1/0/30       *down down         0%     0%          0          0
+GigabitEthernet1/0/31       *down down         0%     0%          0          0
+GigabitEthernet1/0/32       *down down         0%     0%          0          0
+GigabitEthernet1/0/33       *down down         0%     0%          0          0
+GigabitEthernet1/0/34       *down down         0%     0%          0          0
+GigabitEthernet1/0/35       *down down         0%     0%          0          0
+GigabitEthernet1/0/36       *down down         0%     0%          0          0
+GigabitEthernet1/0/37       *down down         0%     0%          0          0
+GigabitEthernet1/0/38       *down down         0%     0%          0          0
+GigabitEthernet1/0/39       *down down         0%     0%          0          0
+GigabitEthernet1/0/40       *down down         0%     0%          0          0
+GigabitEthernet1/0/41       *down down         0%     0%          0          0
+GigabitEthernet1/0/42       *down down         0%     0%          0          0
+GigabitEthernet1/0/43       *down down         0%     0%          0          0
+GigabitEthernet1/0/44       *down down         0%     0%          0          0
+GigabitEthernet1/0/45       *down down         0%     0%          0          0
+GigabitEthernet1/0/46       *down down         0%     0%          0          0
+GigabitEthernet1/0/47       *down down         0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Vlanif1023                  down  down         --     --          0          0
+Vlanif2000                  up    up           --     --          0          0
+XGigabitEthernet2/0/0       up    up           0%     0%          0          0
+XGigabitEthernet2/0/1       *down down         0%     0%          0          0
+XGigabitEthernet2/0/2       up    up        0.01%     0%          0          0
+XGigabitEthernet2/0/3       *down down         0%     0%          0          0
+XGigabitEthernet2/0/4       *down down         0%     0%          0          0
+XGigabitEthernet2/0/5       *down down         0%     0%          0          0
+XGigabitEthernet2/0/6       *down down         0%     0%          0          0
+XGigabitEthernet2/0/7       *down down         0%     0%          0          0
+XGigabitEthernet2/0/8       *down down         0%     0%          0          0
+XGigabitEthernet2/0/9       *down down         0%     0%          0          0
+XGigabitEthernet2/0/10      *down down         0%     0%          0          0
+XGigabitEthernet2/0/11      *down down         0%     0%          0          0
+XGigabitEthernet2/0/12      *down down         0%     0%          0          0
+XGigabitEthernet2/0/13      *down down         0%     0%          0          0
+XGigabitEthernet2/0/14      *down down         0%     0%          0          0
+XGigabitEthernet2/0/15      *down down         0%     0%          0          0
+XGigabitEthernet2/0/16      *down down         0%     0%          0          0
+XGigabitEthernet2/0/17      *down down         0%     0%          0          0
+XGigabitEthernet2/0/18      *down down         0%     0%          0          0
+XGigabitEthernet2/0/19      *down down         0%     0%          0          0
+XGigabitEthernet2/0/20      *down down         0%     0%          0          0
+XGigabitEthernet2/0/21      *down down         0%     0%          0          0
+XGigabitEthernet2/0/22      *down down         0%     0%          0          0
+XGigabitEthernet2/0/23      *down down         0%     0%          0          0
+XGigabitEthernet2/0/24      *down down         0%     0%          0          0
+XGigabitEthernet2/0/25      *down down         0%     0%          0          0
+XGigabitEthernet2/0/26      *down down         0%     0%          0          0
+XGigabitEthernet2/0/27      *down down         0%     0%          0          0
+XGigabitEthernet2/0/28      *down down         0%     0%          0          0
+XGigabitEthernet2/0/29      *down down         0%     0%          0          0
+XGigabitEthernet2/0/30      *down down         0%     0%          0          0
+XGigabitEthernet2/0/31      *down down         0%     0%          0          0
+XGigabitEthernet2/0/32      *down down         0%     0%          0          0
+XGigabitEthernet2/0/33      *down down         0%     0%          0          0
+XGigabitEthernet2/0/34      *down down         0%     0%          0          0
+XGigabitEthernet2/0/35      up    up           0%  0.01%          0          0
+<Quidway>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+(E): E-Trunk down
+The number of interface that is UP in Physical is 2
+The number of interface that is DOWN in Physical is 2
+The number of interface that is UP in Protocol is 2
+The number of interface that is DOWN in Protocol is 2
+
+Interface                         IP Address/Mask      Physical   Protocol  
+Ethernet0/0/0                     unassigned           down       down      
+NULL0                             unassigned           up         up(s)     
+Vlanif1023                        172.18.0.1/30        down       down      
+Vlanif2000                        10.233.188.193/24    up         up        
+
+<Quidway>display current-configuration
+!Software Version V200R019C10SPC500
+#
+sysname Quidway
+#
+info-center loghost 10.237.35.254 local-time
+#
+vlan batch 1023 2000
+#
+authentication-profile name default_authen_profile
+authentication-profile name dot1x_authen_profile
+authentication-profile name dot1xmac_authen_profile
+authentication-profile name mac_authen_profile
+authentication-profile name multi_authen_profile
+authentication-profile name portal_authen_profile
+#
+telnet server enable
+#
+clock timezone CST add 08:00:00
+#
+dns snooping ttl delay-time 5760
+#
+diffserv domain default
+#
+radius-server template default
+#
+pki realm default
+#
+acl number 2000
+ rule 20 permit source 10.241.93.0 0.0.0.255 logging
+ rule 21 permit source 10.237.35.0 0.0.0.255 logging
+ rule 22 permit source 10.233.138.0 0.0.0.255 logging
+ rule 23 permit source 10.233.188.0 0.0.0.255 logging
+ rule 25 permit source 10.237.100.0 0.0.0.255 logging
+#
+acl number 3000
+ rule 5 deny tcp destination-port eq 445
+ rule 10 deny tcp destination-port eq 5800
+ rule 15 deny tcp destination-port eq 5900
+ rule 20 deny udp destination-port eq 1434
+ rule 25 deny udp destination-port eq tftp
+ rule 30 deny tcp destination-port eq 135
+ rule 35 deny udp destination-port eq netbios-ns
+ rule 40 deny udp destination-port eq netbios-dgm
+ rule 45 deny tcp destination-port eq 139
+ rule 50 deny udp destination-port eq netbios-ssn
+ rule 55 deny tcp destination-port eq 539
+ rule 60 deny udp destination-port eq 539
+ rule 65 deny tcp destination-port eq 593
+ rule 70 deny tcp destination-port eq 4786
+ rule 75 permit ip
+#
+free-rule-template name default_free_rule
+#
+portal-access-profile name portal_access_profile
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+  authentication-mode local
+ authentication-scheme radius
+  authentication-mode radius
+ authorization-scheme default
+  authorization-mode local
+ accounting-scheme default
+  accounting-mode none
+ domain default
+  authentication-scheme radius
+  accounting-scheme default
+  radius-server default
+ domain default_admin
+  authentication-scheme default
+  accounting-scheme default
+ local-user admin password irreversible-cipher $1c$gB=fLV8#.+$O#8gY.gT#7~>I7357jB!,vvg@;TT&Z5\DPQEIa14$
+ local-user admin privilege level 0
+ local-user admin service-type terminal http
+ local-user jtcjxz password irreversible-cipher $1c$zC*,PBp.I$$1aOJJ@r`k)y<'o-/yrA(#SgL)=XLS9+jW7*]8+|M$
+ local-user jtcjxz privilege level 3
+ local-user jtcjxz service-type ssh
+ local-user xz4a_admin password irreversible-cipher $1c$q}Ca&|6Wk/$vTg)AQYI\JNQiqG8^@+RFbwBA-,DQIP{23QKxi"=$
+ local-user xz4a_admin privilege level 15
+ local-user xz4a_admin service-type telnet ssh
+ local-user langjiewangdui password irreversible-cipher $1c$ps5oF>%lIH$>_t=$AO,2Vsnp'N4S77SwY_]SZ#%VBEwAePMcl8)$
+ local-user langjiewangdui privilege level 3
+ local-user langjiewangdui service-type telnet ssh
+#
+ntp-service server disable
+ntp-service ipv6 server disable
+ntp-service authentication enable
+ntp-service authentication-keyid 10 authentication-mode md5 cipher %^%#W<Z`T/V2;2T&0C0Ls.l;<ZViW_67:$Bp1`.47V[5%^%#
+ntp-service reliable authentication-keyid 10
+ntp-service unicast-server 10.233.188.1 authentication-keyid 10
+#
+interface Vlanif1023
+ ip address 172.18.0.1 255.255.255.252
+#
+interface Vlanif2000
+ ip address 10.233.188.193 255.255.255.0
+#
+interface Ethernet0/0/0
+#
+interface GigabitEthernet1/0/0
+ port link-type access
+ port default vlan 2000
+ traffic-filter inbound acl 3000
+#
+interface GigabitEthernet1/0/1
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/2
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/3
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/4
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/5
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface GigabitEthernet1/0/6
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/7
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/8
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/9
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/10
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/11
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/12
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/13
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/14
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/15
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/16
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/17
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/18
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/19
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/20
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/21
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/22
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/23
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/24
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/25
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/26
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/27
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/28
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/29
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/30
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/31
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/32
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/33
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/34
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/35
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/36
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/37
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/38
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/39
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/40
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/41
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/42
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/43
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/44
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/45
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/46
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/47
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/0
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/1
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/2
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/3
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/4
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/5
+ shutdown
+ port link-type access
+ port default vlan 2000
+#
+interface XGigabitEthernet2/0/6
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/7
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/8
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/9
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/10
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/11
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/12
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/13
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/14
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/15
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/16
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/17
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/18
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/19
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/20
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/21
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/22
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/23
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/24
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/25
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/26
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/27
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/28
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/29
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/30
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/31
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/32
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/33
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/34
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet2/0/35
+ description To:jinzhu-406-J07-HWS9312-6/0/26
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 2000
+#
+interface NULL0
+#
+undo icmp name timestamp-request receive
+#
+ip route-static 0.0.0.0 0.0.0.0 10.233.188.1
+ip route-static 10.237.35.0 255.255.255.0 10.233.188.1
+#
+stelnet server enable
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh server cipher aes256_ctr aes128_ctr
+ssh server hmac sha2_256
+ssh client cipher aes256_ctr aes128_ctr
+ssh client hmac sha2_256
+ssh server dh-exchange min-len 2048
+#
+user-interface maximum-vty 15
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$z3v|ELk'BR$T>A|*2pOSXctXd7xx3z8&@UPQvtdaQ^Z@d*NFB*>$
+ idle-timeout 2 15
+ screen-length 0
+user-interface vty 0 14
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 2 15
+ screen-length 0
+user-interface vty 16 20
+ acl 2000 inbound
+ authentication-mode aaa
+ idle-timeout 2 15
+#
+port-group duankou
+ group-member GigabitEthernet1/0/4
+ group-member GigabitEthernet1/0/5
+ group-member GigabitEthernet1/0/6
+ group-member GigabitEthernet1/0/7
+ group-member GigabitEthernet1/0/8
+ group-member GigabitEthernet1/0/9
+ group-member GigabitEthernet1/0/10
+ group-member GigabitEthernet1/0/11
+ group-member GigabitEthernet1/0/12
+ group-member GigabitEthernet1/0/13
+ group-member GigabitEthernet1/0/14
+ group-member GigabitEthernet1/0/15
+ group-member GigabitEthernet1/0/16
+ group-member GigabitEthernet1/0/17
+ group-member GigabitEthernet1/0/18
+ group-member GigabitEthernet1/0/19
+ group-member GigabitEthernet1/0/20
+ group-member GigabitEthernet1/0/21
+ group-member GigabitEthernet1/0/22
+ group-member GigabitEthernet1/0/23
+ group-member GigabitEthernet1/0/24
+ group-member GigabitEthernet1/0/25
+ group-member GigabitEthernet1/0/26
+ group-member GigabitEthernet1/0/27
+ group-member GigabitEthernet1/0/28
+ group-member GigabitEthernet1/0/29
+ group-member GigabitEthernet1/0/30
+ group-member GigabitEthernet1/0/31
+ group-member GigabitEthernet1/0/32
+ group-member GigabitEthernet1/0/33
+ group-member GigabitEthernet1/0/34
+ group-member GigabitEthernet1/0/35
+ group-member GigabitEthernet1/0/36
+ group-member GigabitEthernet1/0/37
+ group-member GigabitEthernet1/0/38
+ group-member GigabitEthernet1/0/39
+ group-member GigabitEthernet1/0/40
+ group-member GigabitEthernet1/0/41
+ group-member GigabitEthernet1/0/42
+ group-member GigabitEthernet1/0/43
+ group-member GigabitEthernet1/0/44
+ group-member GigabitEthernet1/0/45
+ group-member GigabitEthernet1/0/46
+ group-member GigabitEthernet1/0/47
+#
+port-group duankou1
+ group-member XGigabitEthernet2/0/1
+ group-member XGigabitEthernet2/0/3
+ group-member XGigabitEthernet2/0/4
+ group-member XGigabitEthernet2/0/5
+ group-member XGigabitEthernet2/0/6
+ group-member XGigabitEthernet2/0/7
+ group-member XGigabitEthernet2/0/8
+ group-member XGigabitEthernet2/0/9
+ group-member XGigabitEthernet2/0/10
+ group-member XGigabitEthernet2/0/11
+ group-member XGigabitEthernet2/0/12
+ group-member XGigabitEthernet2/0/13
+ group-member XGigabitEthernet2/0/14
+ group-member XGigabitEthernet2/0/15
+ group-member XGigabitEthernet2/0/16
+ group-member XGigabitEthernet2/0/17
+ group-member XGigabitEthernet2/0/18
+ group-member XGigabitEthernet2/0/19
+ group-member XGigabitEthernet2/0/20
+ group-member XGigabitEthernet2/0/21
+ group-member XGigabitEthernet2/0/22
+ group-member XGigabitEthernet2/0/23
+ group-member XGigabitEthernet2/0/24
+ group-member XGigabitEthernet2/0/25
+ group-member XGigabitEthernet2/0/26
+ group-member XGigabitEthernet2/0/27
+ group-member XGigabitEthernet2/0/28
+ group-member XGigabitEthernet2/0/29
+ group-member XGigabitEthernet2/0/30
+ group-member XGigabitEthernet2/0/31
+ group-member XGigabitEthernet2/0/32
+ group-member XGigabitEthernet2/0/33
+ group-member XGigabitEthernet2/0/34
+#
+dot1x-access-profile name dot1x_access_profile
+#
+mac-access-profile name mac_access_profile
+#
+ops
+#
+return
+<Quidway>display ip routing-table
+Route Flags: R - relay, D - download to fib, T - to vpn-instance
+------------------------------------------------------------------------------
+Routing Tables: Public
+         Destinations : 6        Routes : 6        
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+        0.0.0.0/0   Static  60   0          RD   10.233.188.1    Vlanif2000
+   10.233.188.0/24  Direct  0    0           D   10.233.188.193  Vlanif2000
+ 10.233.188.193/32  Direct  0    0           D   127.0.0.1       Vlanif2000
+    10.237.35.0/24  Static  60   0          RD   10.233.188.1    Vlanif2000
+      127.0.0.0/8   Direct  0    0           D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+
+<Quidway>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 13259
+Current messages : 512
+
+Mar 13 2026 18:38:47+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[0]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 13 2026 18:38:47+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[1]:System leap changes from 3 to 0 after clock update.
+Mar 13 2026 18:37:43+08:00 Quidway %%01NTP/4/PEER_SELE(l)[2]:The peer selected by the system is 10.233.188.1.
+Mar 13 2026 18:36:37+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[3]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar 12 2026 14:53:09+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[4]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 12 2026 14:53:09+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[5]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 14:52:02+08:00 Quidway %%01NTP/4/PEER_SELE(l)[6]:The peer selected by the system is 10.233.188.1.
+Mar 12 2026 14:50:59+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[7]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar 12 2026 01:15:26+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[8]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 12 2026 01:15:26+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[9]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 01:14:24+08:00 Quidway %%01NTP/4/PEER_SELE(l)[10]:The peer selected by the system is 10.233.188.1.
+Mar 12 2026 01:13:18+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[11]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar 11 2026 13:16:23+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[12]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 11 2026 13:16:23+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[13]:System leap changes from 3 to 0 after clock update.
+Mar 11 2026 13:15:18+08:00 Quidway %%01NTP/4/PEER_SELE(l)[14]:The peer selected by the system is 10.233.188.1.
+Mar 11 2026 13:14:15+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[15]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar 11 2026 05:30:29+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[16]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 11 2026 05:30:29+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[17]:System leap changes from 3 to 0 after clock update.
+Mar 11 2026 05:29:27+08:00 Quidway %%01NTP/4/PEER_SELE(l)[18]:The peer selected by the system is 10.233.188.1.
+Mar 11 2026 05:28:23+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[19]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar 10 2026 12:48:25+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[20]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 10 2026 12:48:25+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[21]:System leap changes from 3 to 0 after clock update.
+Mar 10 2026 12:47:21+08:00 Quidway %%01NTP/4/PEER_SELE(l)[22]:The peer selected by the system is 10.233.188.1.
+Mar 10 2026 12:46:17+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[23]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar 10 2026 02:36:07+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[24]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 10 2026 02:36:07+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[25]:System leap changes from 3 to 0 after clock update.
+Mar 10 2026 02:35:03+08:00 Quidway %%01NTP/4/PEER_SELE(l)[26]:The peer selected by the system is 10.233.188.1.
+Mar 10 2026 02:33:59+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[27]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar 10 2026 01:21:06+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[28]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar 10 2026 01:21:06+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[29]:System leap changes from 3 to 0 after clock update.
+Mar 10 2026 01:20:00+08:00 Quidway %%01NTP/4/PEER_SELE(l)[30]:The peer selected by the system is 10.233.188.1.
+Mar 10 2026 01:18:56+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[31]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  9 2026 02:43:29+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[32]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  9 2026 02:43:29+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[33]:System leap changes from 3 to 0 after clock update.
+Mar  9 2026 02:42:25+08:00 Quidway %%01NTP/4/PEER_SELE(l)[34]:The peer selected by the system is 10.233.188.1.
+Mar  9 2026 02:41:19+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[35]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  8 2026 18:10:26+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[36]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 18:10:26+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[37]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 18:09:21+08:00 Quidway %%01NTP/4/PEER_SELE(l)[38]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 18:08:18+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[39]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  8 2026 18:00:51+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[40]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 18:00:51+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[41]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 17:59:45+08:00 Quidway %%01NTP/4/PEER_SELE(l)[42]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 17:58:42+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[43]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  8 2026 05:55:15+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[44]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 05:55:15+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[45]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 05:54:11+08:00 Quidway %%01NTP/4/PEER_SELE(l)[46]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 05:52:00+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[47]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  8 2026 02:05:15+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[48]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  8 2026 02:05:15+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[49]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 02:04:13+08:00 Quidway %%01NTP/4/PEER_SELE(l)[50]:The peer selected by the system is 10.233.188.1.
+Mar  8 2026 02:03:09+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[51]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  7 2026 21:15:02+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[52]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 21:15:02+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[53]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 21:13:57+08:00 Quidway %%01NTP/4/PEER_SELE(l)[54]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 21:12:52+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[55]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  7 2026 19:57:43+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[56]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 19:57:43+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[57]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 19:56:37+08:00 Quidway %%01NTP/4/PEER_SELE(l)[58]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 19:55:34+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[59]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  7 2026 19:43:40+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[60]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 19:43:40+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[61]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 19:42:34+08:00 Quidway %%01NTP/4/PEER_SELE(l)[62]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 19:41:31+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[63]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  7 2026 19:17:58+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[64]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 19:17:58+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[65]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 19:16:53+08:00 Quidway %%01NTP/4/PEER_SELE(l)[66]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 19:15:47+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[67]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  7 2026 12:40:01+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[68]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 12:40:01+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[69]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 12:38:57+08:00 Quidway %%01NTP/4/PEER_SELE(l)[70]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 12:37:52+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[71]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  7 2026 08:49:46+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[72]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  7 2026 08:49:46+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[73]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 08:48:40+08:00 Quidway %%01NTP/4/PEER_SELE(l)[74]:The peer selected by the system is 10.233.188.1.
+Mar  7 2026 08:47:34+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[75]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  6 2026 15:55:19+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[76]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  6 2026 15:55:19+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[77]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 15:54:14+08:00 Quidway %%01NTP/4/PEER_SELE(l)[78]:The peer selected by the system is 10.233.188.1.
+Mar  6 2026 15:53:08+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[79]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  6 2026 13:13:26+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[80]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  6 2026 13:13:26+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[81]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 13:12:20+08:00 Quidway %%01NTP/4/PEER_SELE(l)[82]:The peer selected by the system is 10.233.188.1.
+Mar  6 2026 13:11:14+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[83]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  6 2026 08:18:56+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[84]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  6 2026 08:18:56+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[85]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 08:17:50+08:00 Quidway %%01NTP/4/PEER_SELE(l)[86]:The peer selected by the system is 10.233.188.1.
+Mar  6 2026 08:16:46+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[87]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  6 2026 07:23:59+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[88]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  6 2026 07:23:59+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[89]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 07:22:56+08:00 Quidway %%01NTP/4/PEER_SELE(l)[90]:The peer selected by the system is 10.233.188.1.
+Mar  6 2026 07:21:52+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[91]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  4 2026 18:33:14+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[92]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  4 2026 18:33:14+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[93]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 18:32:07+08:00 Quidway %%01NTP/4/PEER_SELE(l)[94]:The peer selected by the system is 10.233.188.1.
+Mar  4 2026 18:31:03+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[95]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  4 2026 16:50:54+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[96]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  4 2026 16:50:54+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[97]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 16:49:49+08:00 Quidway %%01NTP/4/PEER_SELE(l)[98]:The peer selected by the system is 10.233.188.1.
+Mar  4 2026 16:48:45+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[99]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  4 2026 04:01:06+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[100]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  4 2026 04:01:06+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[101]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 04:00:01+08:00 Quidway %%01NTP/4/PEER_SELE(l)[102]:The peer selected by the system is 10.233.188.1.
+Mar  4 2026 03:58:56+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[103]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  4 2026 02:08:16+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[104]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  4 2026 02:08:16+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[105]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 02:07:12+08:00 Quidway %%01NTP/4/PEER_SELE(l)[106]:The peer selected by the system is 10.233.188.1.
+Mar  4 2026 02:06:06+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[107]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  3 2026 23:58:57+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[108]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  3 2026 23:58:57+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[109]:System leap changes from 3 to 0 after clock update.
+Mar  3 2026 23:57:55+08:00 Quidway %%01NTP/4/PEER_SELE(l)[110]:The peer selected by the system is 10.233.188.1.
+Mar  3 2026 23:56:52+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[111]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  3 2026 20:39:29+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[112]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  3 2026 20:39:29+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[113]:System leap changes from 3 to 0 after clock update.
+Mar  3 2026 20:38:25+08:00 Quidway %%01NTP/4/PEER_SELE(l)[114]:The peer selected by the system is 10.233.188.1.
+Mar  3 2026 20:37:21+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[115]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  3 2026 00:35:42+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[116]:The "48V_CHK_B" sensor25 of LPU board [1] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:35:42+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[117]:The "48V_CHK_B" sensor19 of MPU board [4] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:35:42+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[118]:The "48V_CHK_B" sensor24 of LPU board [2] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:35:42+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[119]:The "48V_CHK_B" sensor19 of MPU board [5] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:16:31+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[120]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  3 2026 00:16:31+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[121]:System leap changes from 3 to 0 after clock update.
+Mar  3 2026 00:15:38+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[122]:The "48V_CHK_B" sensor19 of MPU board [5] detects a 48V_CHECK signal warning.
+Mar  3 2026 00:15:38+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[123]:The "48V_CHK_B" sensor19 of MPU board [4] detects a 48V_CHECK signal warning.
+Mar  3 2026 00:15:38+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[124]:The "48V_CHK_B" sensor25 of LPU board [1] detects a 48V_CHECK signal warning.
+Mar  3 2026 00:15:38+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[125]:The "48V_CHK_B" sensor24 of LPU board [2] detects a 48V_CHECK signal warning.
+Mar  3 2026 00:15:34+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[126]:The "48V_CHK_B" sensor19 of MPU board [5] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:15:34+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[127]:The "48V_CHK_B" sensor19 of MPU board [4] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:15:34+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[128]:The "48V_CHK_B" sensor25 of LPU board [1] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:15:34+08:00 Quidway %%01ALML/4/48V_VOLTAGE_NORMAL(l)[129]:The "48V_CHK_B" sensor24 of LPU board [2] detects that the 48V_CHECK signal has recovered.
+Mar  3 2026 00:15:29+08:00 Quidway %%01NTP/4/PEER_SELE(l)[130]:The peer selected by the system is 10.233.188.1.
+Mar  3 2026 00:14:25+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[131]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  3 2026 00:14:16+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[132]:The "48V_CHK_B" sensor19 of MPU board [5] detects a 48V_CHECK signal warning.
+Mar  3 2026 00:14:16+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[133]:The "48V_CHK_B" sensor19 of MPU board [4] detects a 48V_CHECK signal warning.
+Mar  3 2026 00:14:16+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[134]:The "48V_CHK_B" sensor25 of LPU board [1] detects a 48V_CHECK signal warning.
+Mar  3 2026 00:14:16+08:00 Quidway %%01ALML/4/48V_CHECK_FAULT(l)[135]:The "48V_CHK_B" sensor24 of LPU board [2] detects a 48V_CHECK signal warning.
+Mar  2 2026 00:46:52+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[136]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 00:46:52+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[137]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 00:45:46+08:00 Quidway %%01NTP/4/PEER_SELE(l)[138]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 00:44:42+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[139]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  2 2026 00:38:15+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[140]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  2 2026 00:38:15+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[141]:System leap changes from 3 to 0 after clock update.
+Mar  2 2026 00:37:10+08:00 Quidway %%01NTP/4/PEER_SELE(l)[142]:The peer selected by the system is 10.233.188.1.
+Mar  2 2026 00:36:06+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[143]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  1 2026 20:21:18+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[144]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 20:21:18+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[145]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 20:20:12+08:00 Quidway %%01NTP/4/PEER_SELE(l)[146]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 20:19:06+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[147]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  1 2026 19:18:03+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[148]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 19:18:03+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[149]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 19:16:58+08:00 Quidway %%01NTP/4/PEER_SELE(l)[150]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 19:15:53+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[151]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  1 2026 11:30:56+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[152]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 11:30:56+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[153]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 11:29:50+08:00 Quidway %%01NTP/4/PEER_SELE(l)[154]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 11:28:45+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[155]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Mar  1 2026 04:42:08+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[156]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 04:42:08+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[157]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 04:41:01+08:00 Quidway %%01NTP/4/PEER_SELE(l)[158]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 04:39:55+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[159]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Mar  1 2026 04:04:15+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[160]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Mar  1 2026 04:04:15+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[161]:System leap changes from 3 to 0 after clock update.
+Mar  1 2026 04:03:11+08:00 Quidway %%01NTP/4/PEER_SELE(l)[162]:The peer selected by the system is 10.233.188.1.
+Mar  1 2026 04:02:08+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[163]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 28 2026 06:35:24+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[164]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 28 2026 06:35:24+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[165]:System leap changes from 3 to 0 after clock update.
+Feb 28 2026 06:34:19+08:00 Quidway %%01NTP/4/PEER_SELE(l)[166]:The peer selected by the system is 10.233.188.1.
+Feb 28 2026 06:33:16+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[167]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 28 2026 06:04:12+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[168]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 28 2026 06:04:12+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[169]:System leap changes from 3 to 0 after clock update.
+Feb 28 2026 06:03:07+08:00 Quidway %%01NTP/4/PEER_SELE(l)[170]:The peer selected by the system is 10.233.188.1.
+Feb 28 2026 06:02:01+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[171]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 27 2026 23:41:26+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[172]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 27 2026 23:41:26+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[173]:System leap changes from 3 to 0 after clock update.
+Feb 27 2026 23:40:20+08:00 Quidway %%01NTP/4/PEER_SELE(l)[174]:The peer selected by the system is 10.233.188.1.
+Feb 27 2026 23:39:17+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[175]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 27 2026 18:53:23+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[176]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 27 2026 18:53:23+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[177]:System leap changes from 3 to 0 after clock update.
+Feb 27 2026 18:52:20+08:00 Quidway %%01NTP/4/PEER_SELE(l)[178]:The peer selected by the system is 10.233.188.1.
+Feb 27 2026 18:51:14+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[179]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 27 2026 18:45:53+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[180]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 27 2026 18:45:53+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[181]:System leap changes from 3 to 0 after clock update.
+Feb 27 2026 18:44:49+08:00 Quidway %%01NTP/4/PEER_SELE(l)[182]:The peer selected by the system is 10.233.188.1.
+Feb 27 2026 18:43:44+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[183]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 27 2026 18:41:35+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[184]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 27 2026 18:41:35+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[185]:System leap changes from 3 to 0 after clock update.
+Feb 27 2026 18:40:31+08:00 Quidway %%01NTP/4/PEER_SELE(l)[186]:The peer selected by the system is 10.233.188.1.
+Feb 27 2026 18:39:28+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[187]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 26 2026 20:58:09+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[188]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 26 2026 20:58:09+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[189]:System leap changes from 3 to 0 after clock update.
+Feb 26 2026 20:57:07+08:00 Quidway %%01NTP/4/PEER_SELE(l)[190]:The peer selected by the system is 10.233.188.1.
+Feb 26 2026 20:56:04+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[191]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 25 2026 15:04:31+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[192]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 25 2026 15:04:31+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[193]:System leap changes from 3 to 0 after clock update.
+Feb 25 2026 15:03:26+08:00 Quidway %%01NTP/4/PEER_SELE(l)[194]:The peer selected by the system is 10.233.188.1.
+Feb 25 2026 15:02:21+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[195]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 25 2026 13:33:00+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[196]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 25 2026 13:33:00+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[197]:System leap changes from 3 to 0 after clock update.
+Feb 25 2026 13:31:56+08:00 Quidway %%01NTP/4/PEER_SELE(l)[198]:The peer selected by the system is 10.233.188.1.
+Feb 25 2026 13:30:53+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[199]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 25 2026 01:55:39+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[200]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 25 2026 01:55:39+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[201]:System leap changes from 3 to 0 after clock update.
+Feb 25 2026 01:54:34+08:00 Quidway %%01NTP/4/PEER_SELE(l)[202]:The peer selected by the system is 10.233.188.1.
+Feb 25 2026 01:53:29+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[203]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 25 2026 00:12:41+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[204]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 25 2026 00:12:41+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[205]:System leap changes from 3 to 0 after clock update.
+Feb 25 2026 00:11:37+08:00 Quidway %%01NTP/4/PEER_SELE(l)[206]:The peer selected by the system is 10.233.188.1.
+Feb 25 2026 00:10:31+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[207]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 24 2026 14:55:10+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[208]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 24 2026 14:55:10+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[209]:System leap changes from 3 to 0 after clock update.
+Feb 24 2026 14:54:04+08:00 Quidway %%01NTP/4/PEER_SELE(l)[210]:The peer selected by the system is 10.233.188.1.
+Feb 24 2026 14:52:58+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[211]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 24 2026 12:05:12+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[212]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 24 2026 12:05:12+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[213]:System leap changes from 3 to 0 after clock update.
+Feb 24 2026 12:04:05+08:00 Quidway %%01NTP/4/PEER_SELE(l)[214]:The peer selected by the system is 10.233.188.1.
+Feb 24 2026 12:02:59+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[215]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 24 2026 01:33:17+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[216]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 24 2026 01:33:17+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[217]:System leap changes from 3 to 0 after clock update.
+Feb 24 2026 01:32:12+08:00 Quidway %%01NTP/4/PEER_SELE(l)[218]:The peer selected by the system is 10.233.188.1.
+Feb 24 2026 01:31:09+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[219]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 24 2026 00:55:42+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[220]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 24 2026 00:55:42+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[221]:System leap changes from 3 to 0 after clock update.
+Feb 24 2026 00:54:35+08:00 Quidway %%01NTP/4/PEER_SELE(l)[222]:The peer selected by the system is 10.233.188.1.
+Feb 24 2026 00:53:30+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[223]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 23 2026 19:46:51+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[224]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 19:46:51+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[225]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 19:45:47+08:00 Quidway %%01NTP/4/PEER_SELE(l)[226]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 19:44:44+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[227]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 23 2026 19:28:35+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[228]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 19:28:35+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[229]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 19:27:32+08:00 Quidway %%01NTP/4/PEER_SELE(l)[230]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 19:26:28+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[231]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 23 2026 19:21:05+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[232]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 23 2026 19:21:05+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[233]:System leap changes from 3 to 0 after clock update.
+Feb 23 2026 19:20:01+08:00 Quidway %%01NTP/4/PEER_SELE(l)[234]:The peer selected by the system is 10.233.188.1.
+Feb 23 2026 19:18:58+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[235]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 22 2026 12:24:30+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[236]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 22 2026 12:24:30+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[237]:System leap changes from 3 to 0 after clock update.
+Feb 22 2026 12:23:24+08:00 Quidway %%01NTP/4/PEER_SELE(l)[238]:The peer selected by the system is 10.233.188.1.
+Feb 22 2026 12:22:19+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[239]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 22 2026 08:43:40+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[240]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 22 2026 08:43:40+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[241]:System leap changes from 3 to 0 after clock update.
+Feb 22 2026 08:42:36+08:00 Quidway %%01NTP/4/PEER_SELE(l)[242]:The peer selected by the system is 10.233.188.1.
+Feb 22 2026 08:41:30+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[243]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 21 2026 21:32:44+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[244]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 21:32:44+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[245]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 21:31:40+08:00 Quidway %%01NTP/4/PEER_SELE(l)[246]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 21:30:36+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[247]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 21 2026 12:02:24+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[248]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 12:02:24+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[249]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 12:01:19+08:00 Quidway %%01NTP/4/PEER_SELE(l)[250]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 12:00:16+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[251]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 21 2026 00:27:47+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[252]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 21 2026 00:27:47+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[253]:System leap changes from 3 to 0 after clock update.
+Feb 21 2026 00:26:43+08:00 Quidway %%01NTP/4/PEER_SELE(l)[254]:The peer selected by the system is 10.233.188.1.
+Feb 21 2026 00:25:37+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[255]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 20 2026 14:09:11+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[256]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 20 2026 14:09:11+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[257]:System leap changes from 3 to 0 after clock update.
+Feb 20 2026 14:08:06+08:00 Quidway %%01NTP/4/PEER_SELE(l)[258]:The peer selected by the system is 10.233.188.1.
+Feb 20 2026 14:07:00+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[259]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 20 2026 07:00:00+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[260]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 20 2026 07:00:00+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[261]:System leap changes from 3 to 0 after clock update.
+Feb 20 2026 06:58:53+08:00 Quidway %%01NTP/4/PEER_SELE(l)[262]:The peer selected by the system is 10.233.188.1.
+Feb 20 2026 06:57:47+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[263]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 20 2026 05:35:02+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[264]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 20 2026 05:35:02+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[265]:System leap changes from 3 to 0 after clock update.
+Feb 20 2026 05:33:59+08:00 Quidway %%01NTP/4/PEER_SELE(l)[266]:The peer selected by the system is 10.233.188.1.
+Feb 20 2026 05:32:56+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[267]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 20 2026 04:32:42+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[268]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 20 2026 04:32:42+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[269]:System leap changes from 3 to 0 after clock update.
+Feb 20 2026 04:31:37+08:00 Quidway %%01NTP/4/PEER_SELE(l)[270]:The peer selected by the system is 10.233.188.1.
+Feb 20 2026 04:30:34+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[271]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 19 2026 23:10:13+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[272]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 23:10:13+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[273]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 23:09:09+08:00 Quidway %%01NTP/4/PEER_SELE(l)[274]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 23:08:06+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[275]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 19 2026 19:10:15+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[276]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 19:10:15+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[277]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 19:09:10+08:00 Quidway %%01NTP/4/PEER_SELE(l)[278]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 19:08:04+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[279]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 19 2026 10:10:43+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[280]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 10:10:43+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[281]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 10:09:37+08:00 Quidway %%01NTP/4/PEER_SELE(l)[282]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 10:08:32+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[283]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 19 2026 04:57:53+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[284]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 04:57:53+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[285]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 04:56:47+08:00 Quidway %%01NTP/4/PEER_SELE(l)[286]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 04:55:42+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[287]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 19 2026 03:11:16+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[288]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 19 2026 03:11:16+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[289]:System leap changes from 3 to 0 after clock update.
+Feb 19 2026 03:10:14+08:00 Quidway %%01NTP/4/PEER_SELE(l)[290]:The peer selected by the system is 10.233.188.1.
+Feb 19 2026 03:09:09+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[291]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 18 2026 23:37:26+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[292]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 18 2026 23:37:26+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[293]:System leap changes from 3 to 0 after clock update.
+Feb 18 2026 23:36:22+08:00 Quidway %%01NTP/4/PEER_SELE(l)[294]:The peer selected by the system is 10.233.188.1.
+Feb 18 2026 23:35:17+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[295]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 18 2026 23:04:10+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[296]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 18 2026 23:04:10+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[297]:System leap changes from 3 to 0 after clock update.
+Feb 18 2026 23:03:04+08:00 Quidway %%01NTP/4/PEER_SELE(l)[298]:The peer selected by the system is 10.233.188.1.
+Feb 18 2026 22:59:55+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[299]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 18 2026 22:44:51+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[300]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 18 2026 22:44:51+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[301]:System leap changes from 3 to 0 after clock update.
+Feb 18 2026 22:43:46+08:00 Quidway %%01NTP/4/PEER_SELE(l)[302]:The peer selected by the system is 10.233.188.1.
+Feb 18 2026 22:42:43+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[303]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 17 2026 15:30:00+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[304]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 17 2026 15:30:00+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[305]:System leap changes from 3 to 0 after clock update.
+Feb 17 2026 15:28:56+08:00 Quidway %%01NTP/4/PEER_SELE(l)[306]:The peer selected by the system is 10.233.188.1.
+Feb 17 2026 15:27:53+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[307]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 17 2026 15:13:55+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[308]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 17 2026 15:13:55+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[309]:System leap changes from 3 to 0 after clock update.
+Feb 17 2026 15:12:49+08:00 Quidway %%01NTP/4/PEER_SELE(l)[310]:The peer selected by the system is 10.233.188.1.
+Feb 17 2026 15:11:43+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[311]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 17 2026 14:34:12+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[312]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 17 2026 14:34:12+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[313]:System leap changes from 3 to 0 after clock update.
+Feb 17 2026 14:33:09+08:00 Quidway %%01NTP/4/PEER_SELE(l)[314]:The peer selected by the system is 10.233.188.1.
+Feb 17 2026 14:32:04+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[315]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 16 2026 23:59:47+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[316]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 23:59:47+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[317]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 23:58:44+08:00 Quidway %%01NTP/4/PEER_SELE(l)[318]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 23:57:40+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[319]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 16 2026 08:49:58+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[320]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 08:49:58+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[321]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 08:48:52+08:00 Quidway %%01NTP/4/PEER_SELE(l)[322]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 08:47:49+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[323]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 16 2026 07:13:12+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[324]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 07:13:12+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[325]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 07:12:06+08:00 Quidway %%01NTP/4/PEER_SELE(l)[326]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 07:11:01+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[327]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 16 2026 06:24:52+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[328]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 16 2026 06:24:52+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[329]:System leap changes from 3 to 0 after clock update.
+Feb 16 2026 06:23:45+08:00 Quidway %%01NTP/4/PEER_SELE(l)[330]:The peer selected by the system is 10.233.188.1.
+Feb 16 2026 06:22:41+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[331]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 15 2026 14:05:30+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[332]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 15 2026 14:05:30+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[333]:System leap changes from 3 to 0 after clock update.
+Feb 15 2026 14:04:28+08:00 Quidway %%01NTP/4/PEER_SELE(l)[334]:The peer selected by the system is 10.233.188.1.
+Feb 15 2026 14:03:22+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[335]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 14 2026 23:46:33+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[336]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 23:46:33+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[337]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 23:45:29+08:00 Quidway %%01NTP/4/PEER_SELE(l)[338]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 23:44:25+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[339]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 14 2026 20:36:32+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[340]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 20:36:32+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[341]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 20:35:25+08:00 Quidway %%01NTP/4/PEER_SELE(l)[342]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 20:34:21+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[343]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 14 2026 12:57:44+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[344]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 12:57:44+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[345]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 12:56:41+08:00 Quidway %%01NTP/4/PEER_SELE(l)[346]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 12:55:35+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[347]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 14 2026 12:28:37+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[348]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 12:28:37+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[349]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 12:27:34+08:00 Quidway %%01NTP/4/PEER_SELE(l)[350]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 12:25:27+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[351]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 14 2026 08:51:24+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[352]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 14 2026 08:51:24+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[353]:System leap changes from 3 to 0 after clock update.
+Feb 14 2026 08:50:19+08:00 Quidway %%01NTP/4/PEER_SELE(l)[354]:The peer selected by the system is 10.233.188.1.
+Feb 14 2026 08:49:15+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[355]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 13 2026 21:03:18+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[356]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 13 2026 21:03:18+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[357]:System leap changes from 3 to 0 after clock update.
+Feb 13 2026 21:02:14+08:00 Quidway %%01NTP/4/PEER_SELE(l)[358]:The peer selected by the system is 10.233.188.1.
+Feb 13 2026 21:01:08+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[359]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 13 2026 08:49:57+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[360]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 13 2026 08:49:57+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[361]:System leap changes from 3 to 0 after clock update.
+Feb 13 2026 08:48:55+08:00 Quidway %%01NTP/4/PEER_SELE(l)[362]:The peer selected by the system is 10.233.188.1.
+Feb 13 2026 08:47:51+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[363]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 13 2026 02:44:25+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[364]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 13 2026 02:44:25+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[365]:System leap changes from 3 to 0 after clock update.
+Feb 13 2026 02:43:18+08:00 Quidway %%01NTP/4/PEER_SELE(l)[366]:The peer selected by the system is 10.233.188.1.
+Feb 13 2026 02:42:13+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[367]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 13 2026 02:19:45+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[368]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 13 2026 02:19:45+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[369]:System leap changes from 3 to 0 after clock update.
+Feb 13 2026 02:18:40+08:00 Quidway %%01NTP/4/PEER_SELE(l)[370]:The peer selected by the system is 10.233.188.1.
+Feb 13 2026 02:17:37+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[371]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 12 2026 21:21:24+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[372]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 21:21:24+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[373]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 21:20:20+08:00 Quidway %%01NTP/4/PEER_SELE(l)[374]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 21:19:16+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[375]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 12 2026 13:38:02+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[376]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 13:38:02+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[377]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 13:36:55+08:00 Quidway %%01NTP/4/PEER_SELE(l)[378]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 13:35:49+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[379]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 12 2026 03:30:50+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[380]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 03:30:50+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[381]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 03:29:46+08:00 Quidway %%01NTP/4/PEER_SELE(l)[382]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 03:28:43+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[383]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 12 2026 02:54:22+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[384]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 02:54:22+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[385]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 02:53:17+08:00 Quidway %%01NTP/4/PEER_SELE(l)[386]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 02:52:12+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[387]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 12 2026 00:59:18+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[388]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 12 2026 00:59:18+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[389]:System leap changes from 3 to 0 after clock update.
+Feb 12 2026 00:58:14+08:00 Quidway %%01NTP/4/PEER_SELE(l)[390]:The peer selected by the system is 10.233.188.1.
+Feb 12 2026 00:57:10+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[391]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb 11 2026 11:42:15+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[392]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 11 2026 11:42:15+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[393]:System leap changes from 3 to 0 after clock update.
+Feb 11 2026 11:41:12+08:00 Quidway %%01NTP/4/PEER_SELE(l)[394]:The peer selected by the system is 10.233.188.1.
+Feb 11 2026 11:40:06+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[395]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 11 2026 08:30:51+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[396]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 11 2026 08:30:51+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[397]:System leap changes from 3 to 0 after clock update.
+Feb 11 2026 08:29:47+08:00 Quidway %%01NTP/4/PEER_SELE(l)[398]:The peer selected by the system is 10.233.188.1.
+Feb 11 2026 08:28:41+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[399]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 11 2026 00:34:10+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[400]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 11 2026 00:34:10+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[401]:System leap changes from 3 to 0 after clock update.
+Feb 11 2026 00:33:05+08:00 Quidway %%01NTP/4/PEER_SELE(l)[402]:The peer selected by the system is 10.233.188.1.
+Feb 11 2026 00:32:00+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[403]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb 10 2026 06:43:43+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[404]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb 10 2026 06:43:43+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[405]:System leap changes from 3 to 0 after clock update.
+Feb 10 2026 06:42:38+08:00 Quidway %%01NTP/4/PEER_SELE(l)[406]:The peer selected by the system is 10.233.188.1.
+Feb 10 2026 06:41:33+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[407]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  9 2026 22:21:50+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[408]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 22:21:50+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[409]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 22:20:46+08:00 Quidway %%01NTP/4/PEER_SELE(l)[410]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 22:19:42+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[411]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  9 2026 08:56:24+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[412]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 08:56:24+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[413]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 08:55:17+08:00 Quidway %%01NTP/4/PEER_SELE(l)[414]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 08:54:14+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[415]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  9 2026 08:49:58+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[416]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 08:49:58+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[417]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 08:48:55+08:00 Quidway %%01NTP/4/PEER_SELE(l)[418]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 08:47:50+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[419]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  9 2026 08:29:31+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[420]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 08:29:31+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[421]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 08:28:27+08:00 Quidway %%01NTP/4/PEER_SELE(l)[422]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 08:27:22+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[423]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  9 2026 00:58:27+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[424]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  9 2026 00:58:27+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[425]:System leap changes from 3 to 0 after clock update.
+Feb  9 2026 00:57:21+08:00 Quidway %%01NTP/4/PEER_SELE(l)[426]:The peer selected by the system is 10.233.188.1.
+Feb  9 2026 00:56:16+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[427]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  8 2026 22:46:12+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[428]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 22:46:12+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[429]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 22:45:05+08:00 Quidway %%01NTP/4/PEER_SELE(l)[430]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 22:43:59+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[431]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  8 2026 22:19:18+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[432]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 22:19:18+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[433]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 22:18:14+08:00 Quidway %%01NTP/4/PEER_SELE(l)[434]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 22:17:09+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[435]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  8 2026 22:06:26+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[436]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  8 2026 22:06:26+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[437]:System leap changes from 3 to 0 after clock update.
+Feb  8 2026 22:05:21+08:00 Quidway %%01NTP/4/PEER_SELE(l)[438]:The peer selected by the system is 10.233.188.1.
+Feb  8 2026 22:04:16+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[439]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  7 2026 23:40:35+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[440]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 23:40:35+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[441]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 23:39:29+08:00 Quidway %%01NTP/4/PEER_SELE(l)[442]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 23:38:24+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[443]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  7 2026 20:58:18+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[444]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 20:58:18+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[445]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 20:57:14+08:00 Quidway %%01NTP/4/PEER_SELE(l)[446]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 20:56:09+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[447]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  7 2026 09:43:06+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[448]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 09:43:06+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[449]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 09:42:02+08:00 Quidway %%01NTP/4/PEER_SELE(l)[450]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 09:40:58+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[451]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  7 2026 08:56:50+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[452]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 08:56:50+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[453]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 08:55:45+08:00 Quidway %%01NTP/4/PEER_SELE(l)[454]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 08:54:40+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[455]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  7 2026 07:54:23+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[456]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 07:54:23+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[457]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 07:53:18+08:00 Quidway %%01NTP/4/PEER_SELE(l)[458]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 07:52:15+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[459]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  7 2026 02:51:33+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[460]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 02:51:33+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[461]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 02:50:28+08:00 Quidway %%01NTP/4/PEER_SELE(l)[462]:The peer selected by the system is 10.233.188.1.
+Feb  7 2026 02:49:25+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[463]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  7 2026 00:01:42+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[464]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  7 2026 00:01:42+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[465]:System leap changes from 3 to 0 after clock update.
+Feb  7 2026 00:00:37+08:00 Quidway %%01NTP/4/PEER_SELE(l)[466]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 23:59:32+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[467]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  6 2026 16:11:53+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[468]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 16:11:53+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[469]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 16:10:48+08:00 Quidway %%01NTP/4/PEER_SELE(l)[470]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 16:09:42+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[471]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  6 2026 14:51:11+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[472]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 14:51:11+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[473]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 14:50:07+08:00 Quidway %%01NTP/4/PEER_SELE(l)[474]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 14:49:01+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[475]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  6 2026 14:38:14+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[476]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 14:38:14+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[477]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 14:37:10+08:00 Quidway %%01NTP/4/PEER_SELE(l)[478]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 14:36:04+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[479]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  6 2026 14:32:51+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[480]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 14:32:51+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[481]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 14:31:46+08:00 Quidway %%01NTP/4/PEER_SELE(l)[482]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 14:30:42+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[483]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  6 2026 14:27:30+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[484]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  6 2026 14:27:30+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[485]:System leap changes from 3 to 0 after clock update.
+Feb  6 2026 14:26:26+08:00 Quidway %%01NTP/4/PEER_SELE(l)[486]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 14:25:23+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[487]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  6 2026 14:24:19+08:00 Quidway %%01NTP/4/PEER_SELE(l)[488]:The peer selected by the system is 10.233.188.1.
+Feb  6 2026 14:23:14+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[489]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Peer clock unsynchronized/unselectable)
+Feb  4 2026 17:02:30+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[490]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  4 2026 17:02:30+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[491]:System leap changes from 3 to 0 after clock update.
+Feb  4 2026 17:01:26+08:00 Quidway %%01NTP/4/PEER_SELE(l)[492]:The peer selected by the system is 10.233.188.1.
+Feb  4 2026 17:00:23+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[493]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  4 2026 14:23:36+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[494]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  4 2026 14:23:36+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[495]:System leap changes from 3 to 0 after clock update.
+Feb  4 2026 14:22:30+08:00 Quidway %%01NTP/4/PEER_SELE(l)[496]:The peer selected by the system is 10.233.188.1.
+Feb  4 2026 14:21:24+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[497]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  4 2026 09:52:52+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[498]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  4 2026 09:52:52+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[499]:System leap changes from 3 to 0 after clock update.
+Feb  4 2026 09:51:46+08:00 Quidway %%01NTP/4/PEER_SELE(l)[500]:The peer selected by the system is 10.233.188.1.
+Feb  4 2026 09:50:43+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[501]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  4 2026 01:54:23+08:00 Quidway %%01CMAINT/4/FILEOPERATION(l)[502]:File operation record. (operation="delete the file", filename="flash:/oids/2025-10-05.07-17-40_oids.db", result="success")
+Feb  4 2026 00:54:22+08:00 Quidway %%01CMAINT/4/FILEOPERATION(l)[503]:File operation record. (operation="create the file", filename="flash:/oids/oids.db", result="success")
+Feb  4 2026 00:54:22+08:00 Quidway %%01CMAINT/4/RENAMEFILE(l)[504]:File operation record. (Operation="rename the file", OldFileName="flash:/oids/oids.db", NewFileName="flash:/oids/2026-02-04.00-54-22_oids.db", Result="success")
+Feb  3 2026 22:56:11+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[505]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  3 2026 22:56:11+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[506]:System leap changes from 3 to 0 after clock update.
+Feb  3 2026 22:55:05+08:00 Quidway %%01NTP/4/PEER_SELE(l)[507]:The peer selected by the system is 10.233.188.1.
+Feb  3 2026 22:54:01+08:00 Quidway %%01NTP/4/SOURCE_LOST(l)[508]:System synchronization source lost. (SourceAddress=10.233.188.1, Reason=Synchronization distance greater than distance threshold)
+Feb  3 2026 05:28:53+08:00 Quidway %%01NTP/4/STRATUM_CHANGE(l)[509]:System stratum changes from 16 to 3. (SourceAddress=10.233.188.1)
+
+Feb  3 2026 05:28:53+08:00 Quidway %%01NTP/4/LEAP_CHANGE(l)[510]:System leap changes from 3 to 0 after clock update.
+Feb  3 2026 05:27:46+08:00 Quidway %%01NTP/4/PEER_SELE(l)[511]:The peer selected by the system is 10.233.188.1.

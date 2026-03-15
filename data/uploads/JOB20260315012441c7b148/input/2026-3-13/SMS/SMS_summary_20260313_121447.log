@@ -1,0 +1,117 @@
+SMS daily check started: 2026/3/13 12:14:47
+Log directory: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS
+========================================================================
+[2026/3/13 12:14:47] Start tab: LSJZ-YD-HTWG-NE8000-M8-1 detected prompt: <LSJZ-YD-HTWG-NE8000-M8-1>
+[2026/3/13 12:14:47] LSJZ-YD-HTWG-NE8000-M8-1 run command: display version
+[2026/3/13 12:14:47] LSJZ-YD-HTWG-NE8000-M8-1 run command: display device
+[2026/3/13 12:14:47] LSJZ-YD-HTWG-NE8000-M8-1 run command: display startup
+[2026/3/13 12:14:48] LSJZ-YD-HTWG-NE8000-M8-1 run command: display cpu-usage
+[2026/3/13 12:14:48] LSJZ-YD-HTWG-NE8000-M8-1 run command: display memory-usage
+[2026/3/13 12:14:48] LSJZ-YD-HTWG-NE8000-M8-1 run command: display ip interface brief
+[2026/3/13 12:14:49] LSJZ-YD-HTWG-NE8000-M8-1 run command: display interface brief
+[2026/3/13 12:14:49] LSJZ-YD-HTWG-NE8000-M8-1 run command: display ip routing-table
+[2026/3/13 12:14:49] LSJZ-YD-HTWG-NE8000-M8-1 run command: display alarm active
+[2026/3/13 12:14:50] LSJZ-YD-HTWG-NE8000-M8-1 run command: display logbuffer
+[2026/3/13 12:14:51] LSJZ-YD-HTWG-NE8000-M8-1 run command: display current-configuration
+[2026/3/13 12:14:51] Tab finished: LSJZ-YD-HTWG-NE8000-M8-1, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_LSJZ-YD-HTWG-NE8000-M8-1_20260313_121447.log
+------------------------------------------------------------------------
+[2026/3/13 12:14:51] Start tab: LSJZ-YD-HTWG-NE8000-M8-2 detected prompt: <LSJZ-YD-HTWG-NE8000-M8-2>
+[2026/3/13 12:14:51] LSJZ-YD-HTWG-NE8000-M8-2 run command: display version
+[2026/3/13 12:14:52] LSJZ-YD-HTWG-NE8000-M8-2 run command: display device
+[2026/3/13 12:14:52] LSJZ-YD-HTWG-NE8000-M8-2 run command: display startup
+[2026/3/13 12:14:52] LSJZ-YD-HTWG-NE8000-M8-2 run command: display cpu-usage
+[2026/3/13 12:14:52] LSJZ-YD-HTWG-NE8000-M8-2 run command: display memory-usage
+[2026/3/13 12:14:53] LSJZ-YD-HTWG-NE8000-M8-2 run command: display ip interface brief
+[2026/3/13 12:14:53] LSJZ-YD-HTWG-NE8000-M8-2 run command: display interface brief
+[2026/3/13 12:14:54] LSJZ-YD-HTWG-NE8000-M8-2 run command: display ip routing-table
+[2026/3/13 12:14:54] LSJZ-YD-HTWG-NE8000-M8-2 run command: display alarm active
+[2026/3/13 12:14:54] LSJZ-YD-HTWG-NE8000-M8-2 run command: display logbuffer
+[2026/3/13 12:14:55] LSJZ-YD-HTWG-NE8000-M8-2 run command: display current-configuration
+[2026/3/13 12:14:55] Tab finished: LSJZ-YD-HTWG-NE8000-M8-2, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_LSJZ-YD-HTWG-NE8000-M8-2_20260313_121451.log
+------------------------------------------------------------------------
+[2026/3/13 12:14:55] Start tab: XZLS-JZ-DXHYWG-SC-SW-01 detected prompt: <XZLS-JZ-DXHYWG-SC-SW-01>
+[2026/3/13 12:14:55] XZLS-JZ-DXHYWG-SC-SW-01 run command: display version
+[2026/3/13 12:14:56] XZLS-JZ-DXHYWG-SC-SW-01 run command: display device
+[2026/3/13 12:14:56] XZLS-JZ-DXHYWG-SC-SW-01 run command: display startup
+[2026/3/13 12:14:57] XZLS-JZ-DXHYWG-SC-SW-01 run command: display cpu-usage
+[2026/3/13 12:14:57] XZLS-JZ-DXHYWG-SC-SW-01 run command: display memory-usage
+[2026/3/13 12:14:57] XZLS-JZ-DXHYWG-SC-SW-01 run command: display ip interface brief
+[2026/3/13 12:14:57] XZLS-JZ-DXHYWG-SC-SW-01 run command: display interface brief
+[2026/3/13 12:14:59] XZLS-JZ-DXHYWG-SC-SW-01 run command: display ip routing-table
+[2026/3/13 12:14:59] XZLS-JZ-DXHYWG-SC-SW-01 run command: display alarm active
+[2026/3/13 12:14:59] XZLS-JZ-DXHYWG-SC-SW-01 run command: display logbuffer
+[2026/3/13 12:15:00] XZLS-JZ-DXHYWG-SC-SW-01 run command: display current-configuration
+[2026/3/13 12:15:01] Tab finished: XZLS-JZ-DXHYWG-SC-SW-01, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_XZLS-JZ-DXHYWG-SC-SW-01_20260313_121455.log
+------------------------------------------------------------------------
+[2026/3/13 12:15:01] Start tab: XZLS-JZ-DXHYWG-SC-SW-02 detected prompt: <XZLS-JZ-DXHYWG-SC-SW-02>
+[2026/3/13 12:15:01] XZLS-JZ-DXHYWG-SC-SW-02 run command: display version
+[2026/3/13 12:15:01] XZLS-JZ-DXHYWG-SC-SW-02 run command: display device
+[2026/3/13 12:15:02] XZLS-JZ-DXHYWG-SC-SW-02 run command: display startup
+[2026/3/13 12:15:03] XZLS-JZ-DXHYWG-SC-SW-02 run command: display cpu-usage
+[2026/3/13 12:15:03] XZLS-JZ-DXHYWG-SC-SW-02 run command: display memory-usage
+[2026/3/13 12:15:03] XZLS-JZ-DXHYWG-SC-SW-02 run command: display ip interface brief
+[2026/3/13 12:15:03] XZLS-JZ-DXHYWG-SC-SW-02 run command: display interface brief
+[2026/3/13 12:15:04] XZLS-JZ-DXHYWG-SC-SW-02 run command: display ip routing-table
+[2026/3/13 12:15:04] XZLS-JZ-DXHYWG-SC-SW-02 run command: display alarm active
+[2026/3/13 12:15:04] XZLS-JZ-DXHYWG-SC-SW-02 run command: display logbuffer
+[2026/3/13 12:15:06] XZLS-JZ-DXHYWG-SC-SW-02 run command: display current-configuration
+[2026/3/13 12:15:07] Tab finished: XZLS-JZ-DXHYWG-SC-SW-02, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_XZLS-JZ-DXHYWG-SC-SW-02_20260313_121501.log
+------------------------------------------------------------------------
+[2026/3/13 12:15:08] Start tab: XZYD_ISMG_OUTSIDETOFW_SW_1 detected prompt: XZYD_ISMG_OUTSIDETOFW_SW_1#
+[2026/3/13 12:15:08] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show version
+[2026/3/13 12:15:08] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show startup-config
+[2026/3/13 12:15:10] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show alarm
+[2026/3/13 12:15:10] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show cpu
+[2026/3/13 12:15:12] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show cpu core
+[2026/3/13 12:15:12] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show memory
+[2026/3/13 12:15:14] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show memory slot
+[2026/3/13 12:15:14] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show interfaces status
+[2026/3/13 12:15:14] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show ip interface brief
+[2026/3/13 12:15:14] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show ip route
+[2026/3/13 12:15:14] XZYD_ISMG_OUTSIDETOFW_SW_1 run command: show logging
+[2026/3/13 12:15:38] Tab finished: XZYD_ISMG_OUTSIDETOFW_SW_1, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_XZYD_ISMG_OUTSIDETOFW_SW_1_20260313_121508.log
+------------------------------------------------------------------------
+[2026/3/13 12:15:38] Start tab: XZYD_ISMG_OUTSIDETOFW_SW_2 detected prompt: XZYD_ISMG_OUTSIDETOFW_SW_2#
+[2026/3/13 12:15:38] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show version
+[2026/3/13 12:15:38] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show startup-config
+[2026/3/13 12:15:40] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show alarm
+[2026/3/13 12:15:40] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show cpu
+[2026/3/13 12:15:43] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show cpu core
+[2026/3/13 12:15:43] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show memory
+[2026/3/13 12:15:44] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show memory slot
+[2026/3/13 12:15:44] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show interfaces status
+[2026/3/13 12:15:45] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show ip interface brief
+[2026/3/13 12:15:45] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show ip route
+[2026/3/13 12:15:45] XZYD_ISMG_OUTSIDETOFW_SW_2 run command: show logging
+[2026/3/13 12:16:08] Tab finished: XZYD_ISMG_OUTSIDETOFW_SW_2, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_XZYD_ISMG_OUTSIDETOFW_SW_2_20260313_121538.log
+------------------------------------------------------------------------
+[2026/3/13 12:16:08] Start tab: XZYD_JINZHU_ISMG_SW-1_E03 detected prompt: XZYD_JINZHU_ISMG_SW-1_E03#
+[2026/3/13 12:16:08] XZYD_JINZHU_ISMG_SW-1_E03 run command: show version
+[2026/3/13 12:16:09] XZYD_JINZHU_ISMG_SW-1_E03 run command: show startup-config
+[2026/3/13 12:16:10] XZYD_JINZHU_ISMG_SW-1_E03 run command: show alarm
+[2026/3/13 12:16:10] XZYD_JINZHU_ISMG_SW-1_E03 run command: show cpu
+[2026/3/13 12:16:11] XZYD_JINZHU_ISMG_SW-1_E03 run command: show cpu core
+[2026/3/13 12:16:11] XZYD_JINZHU_ISMG_SW-1_E03 run command: show memory
+[2026/3/13 12:16:12] XZYD_JINZHU_ISMG_SW-1_E03 run command: show memory slot
+[2026/3/13 12:16:12] XZYD_JINZHU_ISMG_SW-1_E03 run command: show interfaces status
+[2026/3/13 12:16:12] XZYD_JINZHU_ISMG_SW-1_E03 run command: show ip interface brief
+[2026/3/13 12:16:12] XZYD_JINZHU_ISMG_SW-1_E03 run command: show ip route
+[2026/3/13 12:16:12] XZYD_JINZHU_ISMG_SW-1_E03 run command: show logging
+[2026/3/13 12:16:27] Tab finished: XZYD_JINZHU_ISMG_SW-1_E03, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_XZYD_JINZHU_ISMG_SW-1_E03_20260313_121608.log
+------------------------------------------------------------------------
+[2026/3/13 12:16:28] Start tab: XZYD_JINZHU_ISMG_SW-2_E04 detected prompt: XZYD_JINZHU_ISMG_SW-2_E04#
+[2026/3/13 12:16:28] XZYD_JINZHU_ISMG_SW-2_E04 run command: show version
+[2026/3/13 12:16:28] XZYD_JINZHU_ISMG_SW-2_E04 run command: show startup-config
+[2026/3/13 12:16:29] XZYD_JINZHU_ISMG_SW-2_E04 run command: show alarm
+[2026/3/13 12:16:29] XZYD_JINZHU_ISMG_SW-2_E04 run command: show cpu
+[2026/3/13 12:16:30] XZYD_JINZHU_ISMG_SW-2_E04 run command: show cpu core
+[2026/3/13 12:16:30] XZYD_JINZHU_ISMG_SW-2_E04 run command: show memory
+[2026/3/13 12:16:31] XZYD_JINZHU_ISMG_SW-2_E04 run command: show memory slot
+[2026/3/13 12:16:31] XZYD_JINZHU_ISMG_SW-2_E04 run command: show interfaces status
+[2026/3/13 12:16:31] XZYD_JINZHU_ISMG_SW-2_E04 run command: show ip interface brief
+[2026/3/13 12:16:31] XZYD_JINZHU_ISMG_SW-2_E04 run command: show ip route
+[2026/3/13 12:16:32] XZYD_JINZHU_ISMG_SW-2_E04 run command: show logging
+[2026/3/13 12:16:47] Tab finished: XZYD_JINZHU_ISMG_SW-2_E04, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\SMS\SMS_XZYD_JINZHU_ISMG_SW-2_E04_20260313_121628.log
+------------------------------------------------------------------------
+========================================================================
+SMS daily check finished: 2026/3/13 12:16:47

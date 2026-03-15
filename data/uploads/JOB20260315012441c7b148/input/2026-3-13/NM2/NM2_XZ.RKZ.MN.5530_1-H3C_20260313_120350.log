@@ -1,0 +1,1026 @@
+﻿<XZ.RKZ.MN.5530_1>screen-length 0 temporary
+                                ^
+ % Unrecognized command found at '^' position.
+<XZ.RKZ.MN.5530_1>display version
+H3C Comware Software, Version 7.1.045, Release 1122
+Copyright (c) 2004-2017 New H3C Technologies Co., Ltd. All rights reserved.
+H3C S5530C-EI-D uptime is 12 weeks, 6 days, 2 hours, 51 minutes
+Last reboot reason : Cold reboot
+
+Boot image: flash:/s5560ei_d-cmw710-boot-r1122.bin
+Boot image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+System image: flash:/s5560ei_d-cmw710-system-r1122.bin
+System image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+
+
+Slot 1:
+Uptime is 12 weeks,6 days,2 hours,51 minutes
+H3C S5530C-EI-D with 2 Processors
+BOARD TYPE:         S5530C-EI-D
+DRAM:               1984M bytes
+FLASH:              512M bytes
+PCB 1 Version:      VER.A
+Bootrom Version:    126
+CPLD 1 Version:     003
+Release Version:    H3C S5530C-EI-D-1122
+Patch Version  :    None
+Reboot Cause  :     ColdReboot
+[SubSlot 0] 24GE+4SFP Plus
+<XZ.RKZ.MN.5530_1>display device
+Slot Type             State    Subslot  Soft Ver             Patch Ver
+1    S5530C-EI-D      Master   0        S5560EI_D-1122       None      
+<XZ.RKZ.MN.5530_1>display startup
+MainBoard:
+ Current startup saved-configuration file: flash:/startup.cfg
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<XZ.RKZ.MN.5530_1>display cpu-usage
+Slot 1 CPU 0 CPU usage:
+       4% in last 5 seconds
+       5% in last 1 minute
+       4% in last 5 minutes
+
+<XZ.RKZ.MN.5530_1>display memory-usage
+                          ^
+ % Unrecognized command found at '^' position.
+<XZ.RKZ.MN.5530_1>display interface brief
+Brief information on interfaces in route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Primary IP      Description                
+GE1/0/24             UP   UP       10.237.34.174   to NE40_2/0/3_MDCN         
+InLoop0              UP   UP(s)    --              
+Loop0                UP   UP(s)    10.233.87.6     
+M-GE0/0/0            ADM  DOWN     --              
+M-GE0/0/1            DOWN DOWN     --              
+NULL0                UP   UP(s)    --              
+REG0                 UP   --       --              
+Vlan2                UP   UP       10.234.4.14     
+Vlan6                UP   UP       10.234.4.30     
+Vlan8                UP   UP       10.234.4.49     
+Vlan9                UP   UP       10.234.4.46     
+Vlan15               UP   UP       10.237.227.97   to TD-time_sychronization
+
+Brief information on interfaces in bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed: (a) - auto
+Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed   Duplex Type PVID Description                
+GE1/0/1              DOWN auto    A      A    2    
+GE1/0/2              UP   100M(a) F(a)   A    2    
+GE1/0/3              DOWN auto    A      A    9    
+GE1/0/4              DOWN auto    A      A    1    
+GE1/0/5              DOWN auto    A      A    1    
+GE1/0/6              UP   100M(a) F(a)   A    15   
+GE1/0/7              DOWN auto    A      A    1    
+GE1/0/8              DOWN auto    A      A    1    
+GE1/0/9              DOWN auto    A      A    1    
+GE1/0/10             DOWN auto    A      A    1    
+GE1/0/11             DOWN auto    A      A    1    
+GE1/0/12             DOWN auto    A      A    1    
+GE1/0/13             DOWN auto    A      A    1    
+GE1/0/14             DOWN auto    A      A    1    
+GE1/0/15             DOWN auto    A      A    1    
+GE1/0/16             DOWN auto    A      A    1    
+GE1/0/17             DOWN auto    A      A    1    
+GE1/0/18             DOWN auto    A      A    1    
+GE1/0/19             DOWN auto    A      A    1    
+GE1/0/20             DOWN auto    A      A    1    
+GE1/0/21             DOWN auto    A      A    1    
+GE1/0/22             DOWN auto    A      A    1    
+GE1/0/23             UP   1G(a)   F(a)   T    1    
+XGE1/0/25            DOWN auto    A      A    1    
+XGE1/0/26            DOWN auto    A      A    1    
+XGE1/0/27            DOWN auto    A      A    1    
+XGE1/0/28            DOWN auto    A      A    1    
+
+<XZ.RKZ.MN.5530_1>display ip interface brief
+*down: administratively down
+(s): spoofing
+Interface                     Physical Protocol IP Address      Description 
+GE1/0/24                      up       up       10.237.34.174   to NE40_2...
+Loop0                         up       up(s)    10.233.87.6     LoopBack0...
+M-GE0/0/0                     *down    down     unassigned      M-Gigabit...
+M-GE0/0/1                     down     down     unassigned      M-Gigabit...
+Vlan2                         up       up       10.234.4.14     Vlan-inte...
+Vlan6                         up       up       10.234.4.30     Vlan-inte...
+Vlan8                         up       up       10.234.4.49     Vlan-inte...
+Vlan9                         up       up       10.234.4.46     Vlan-inte...
+Vlan15                        up       up       10.237.227.97   to TD-tim...
+<XZ.RKZ.MN.5530_1>display current-configuration
+#
+ version 7.1.045, Release 1122
+#
+ sysname XZ.RKZ.MN.5530_1
+#
+ clock timezone UTC add 08:00:00
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 1
+#
+ospf 1
+ import-route direct
+ import-route static
+ area 0.0.0.0
+  network 10.233.11.4 0.0.0.3
+  network 10.234.4.0 0.0.0.15
+  network 10.234.4.16 0.0.0.15
+  network 10.234.4.32 0.0.0.15
+  network 10.234.4.48 0.0.0.15
+#
+ospf 301
+ area 0.0.0.0
+  authentication-mode md5 1 cipher $c$3$S8QeFgqrR+Gz8OilFaRgCDXzpY/D0kq3HHgH
+  filter route-policy dd import
+#
+ lldp global enable
+#
+ fan prefer-direction slot 1 port-to-power 
+ password-recovery enable
+ pex working-mode switch slot 1
+#
+vlan 1
+#
+vlan 2
+#
+vlan 6
+#              
+vlan 8 to 9
+#
+vlan 15
+#
+ stp global enable
+#
+interface NULL0
+#
+interface LoopBack0
+ ip address 10.233.87.6 255.255.255.255
+#
+interface Vlan-interface2
+ ip address 10.234.4.14 255.255.255.240
+#
+interface Vlan-interface6
+ ip address 10.234.4.30 255.255.255.240
+#
+interface Vlan-interface8
+ ip address 10.234.4.49 255.255.255.240
+#
+interface Vlan-interface9
+ ip address 10.234.4.46 255.255.255.240
+#
+interface Vlan-interface15
+ description to TD-time_sychronization
+ ip address 10.237.227.97 255.255.255.248
+#
+interface GigabitEthernet1/0/24
+ port link-mode route
+ description to NE40_2/0/3_MDCN           
+ ip address 10.237.34.174 255.255.255.252
+#
+interface GigabitEthernet1/0/1
+ port link-mode bridge
+ port access vlan 2
+#
+interface GigabitEthernet1/0/2
+ port link-mode bridge
+ port access vlan 2
+#
+interface GigabitEthernet1/0/3
+ port link-mode bridge
+ port access vlan 9
+#
+interface GigabitEthernet1/0/4
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/5
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/6
+ port link-mode bridge
+ port access vlan 15
+#
+interface GigabitEthernet1/0/7
+ port link-mode bridge
+#              
+interface GigabitEthernet1/0/8
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/9
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/10
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/11
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/12
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/13
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/14
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/15
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/16
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/17
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/18
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/19
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/20
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/21
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/22
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/23
+ port link-mode bridge
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 2 to 15
+#
+interface M-GigabitEthernet0/0/0
+ shutdown
+#
+interface M-GigabitEthernet0/0/1
+#
+interface Ten-GigabitEthernet1/0/25
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/26
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/28
+ port link-mode bridge
+#
+route-policy dd permit node 0
+ if-match ip address acl 3011
+#
+ scheduler logfile size 16
+#
+line class aux
+ user-role network-admin
+#              
+line class vty
+ user-role network-operator
+#
+line aux 0
+ authentication-mode password
+ user-role network-admin
+ set authentication password hash $h$6$Qbb6uszcb4VBLKhW$OMx8WVL3QUOqpqi/I1M7RPw2lgWZAXYFppFdtVQtXbO4PB1Kj75dTx6M4LTGikCUjURpqb8t8J+jv8hvlkJNlA==
+ idle-timeout 5 0
+#
+line vty 0 4
+ authentication-mode scheme
+ user-role network-admin
+ user-role network-operator
+ protocol inbound ssh
+ idle-timeout 5 0
+ screen-length 20
+#
+line vty 5 63
+ authentication-mode scheme
+ user-role network-admin
+ user-role network-operator
+ protocol inbound ssh
+ idle-timeout 5 0
+#
+ ip route-static 0.0.0.0 0 10.237.34.173
+#
+ info-center loghost 10.237.35.55
+ info-center loghost 10.237.35.249
+ info-center loghost 10.237.99.80
+ info-center loghost 10.237.100.228
+#
+ snmp-agent
+ snmp-agent local-engineid 800007DB034CB16C91AC17
+ snmp-agent community read 1 acl 2001
+ snmp-agent community read XZYD_smjk-2018 acl 2000
+ snmp-agent community read Xz-itwg-ro
+ snmp-agent community read xzyd@wg12((
+ snmp-agent sys-info version v2c v3 
+ snmp-agent target-host trap address udp-domain 10.233.9.55 params securityname Xz-itwg-ro
+ snmp-agent target-host trap address udp-domain 10.233.83.69 params securityname xzyd@wg12((
+ snmp-agent trap enable radius 
+#
+ ssh server enable
+ ssh user jtcjxz service-type all authentication-type password
+ ssh user xazccj service-type stelnet authentication-type password
+ ssh user xz4a_admin service-type stelnet authentication-type any
+ ssh server acl 3000
+#
+ ssh2 algorithm cipher aes128-ctr
+#
+acl number 2001
+ rule 5 permit source 10.237.35.0 0.0.0.255
+ rule 6 permit source 10.233.11.0 0.0.0.255
+ rule 7 permit source 10.233.88.0 0.0.0.255
+ rule 8 permit source 10.237.34.12 0.0.0.3
+ rule 9 permit source 10.233.9.55 0
+ rule 10 permit source 10.233.9.56 0
+ rule 11 permit source 10.233.9.57 0
+ rule 12 permit source 10.237.34.36 0.0.0.3
+#
+acl number 3000
+ rule 0 deny tcp destination-port eq 4444
+ rule 5 deny tcp destination-port eq 69
+ rule 10 permit ip
+#
+acl number 3013
+ rule 5 deny tcp destination-port eq 445 logging
+ rule 10 deny tcp destination-port eq 5800 logging
+ rule 15 deny tcp destination-port eq 5900 logging
+ rule 20 deny udp destination-port eq 1434 logging
+ rule 25 deny udp destination-port eq tftp logging
+ rule 30 deny tcp destination-port eq 135 logging
+ rule 35 deny udp destination-port eq netbios-ns logging
+ rule 40 deny udp destination-port eq netbios-dgm logging
+ rule 45 deny tcp destination-port eq 139 logging
+ rule 50 deny udp destination-port eq netbios-ssn logging
+ rule 55 deny tcp destination-port eq 539 logging
+ rule 60 deny udp destination-port eq 539 logging
+ rule 65 deny tcp destination-port eq 593 logging
+ rule 70 deny tcp destination-port eq 4786 logging
+ rule 75 permit ip
+#
+domain system
+#
+ domain default enable system
+#
+role name level-0
+ description Predefined level-0 role
+#
+role name level-1
+ description Predefined level-1 role
+#
+role name level-2
+ description Predefined level-2 role
+#              
+role name level-3
+ description Predefined level-3 role
+#
+role name level-4
+ description Predefined level-4 role
+#
+role name level-5
+ description Predefined level-5 role
+#
+role name level-6
+ description Predefined level-6 role
+#
+role name level-7
+ description Predefined level-7 role
+#
+role name level-8
+ description Predefined level-8 role
+#
+role name level-9
+ description Predefined level-9 role
+#
+role name level-10
+ description Predefined level-10 role
+#
+role name level-11
+ description Predefined level-11 role
+#
+role name level-12
+ description Predefined level-12 role
+#
+role name level-13
+ description Predefined level-13 role
+#
+role name level-14
+ description Predefined level-14 role
+#
+user-group system
+#              
+local-user 0001 class manage
+ password hash $h$6$wsvshFhNzTiSnqn1$VaVptZbMA6YgfaVP/dTjWb2oxz/J76Z/hzIvgf+iecVWzxrmX/EbtvVGB7MpcCkKaKrhce0ncgWN4UtKrDFBLw==
+ service-type ssh
+ authorization-attribute user-role level-0
+ authorization-attribute user-role network-operator
+#
+local-user jtcjxz class manage
+ password hash $h$6$buREcId1FbVzkJig$0w6ghDRNYu82B2Z/U8PmvCuyfIcvl4mx91mX8W4wCn1CYqC5vn4iF7hgApEkElnyaC03kGehHas3Yffuf9ZoKQ==
+ service-type ssh terminal
+ authorization-attribute user-role level-3
+ authorization-attribute user-role network-operator
+#
+local-user shenma class manage
+ authorization-attribute user-role network-operator
+#
+local-user xazccj class manage
+ password hash $h$6$ygB8NOa5Dkko/CeU$CgcDsqnZ54LCiksW2GynFmprkszjy+nZvC3mGX4Yq6pym2qhJm4+03JZuCVVdp+TWJJPPEG8Z+EhSnw9zcEwTw==
+ service-type ssh
+ authorization-attribute user-role level-0
+#
+local-user xz4a_admin class manage
+ password hash $h$6$kVbUNjbU8W4ySNRu$lv9uJtxVGwPvy2XQ3p7uVH1onJH0GzZSxc/6CKOUjXbCYtAe2eAnEDHZ375Ges6ycP/xSIow5EfwakWzyQOVTg==
+ service-type ssh terminal
+ authorization-attribute user-role network-admin
+ authorization-attribute user-role network-operator
+#
+return
+<XZ.RKZ.MN.5530_1>display ip routing-table
+
+Destinations : 35       Routes : 35
+
+Destination/Mask    Proto  Pre  Cost         NextHop         Interface
+0.0.0.0/0           Static 60   0            10.237.34.173   GE1/0/24
+0.0.0.0/32          Direct 0    0            127.0.0.1       InLoop0
+10.233.87.6/32      Direct 0    0            127.0.0.1       InLoop0
+10.234.4.0/28       Direct 0    0            10.234.4.14     Vlan2
+10.234.4.0/32       Direct 0    0            10.234.4.14     Vlan2
+10.234.4.14/32      Direct 0    0            127.0.0.1       InLoop0
+10.234.4.15/32      Direct 0    0            10.234.4.14     Vlan2
+10.234.4.16/28      Direct 0    0            10.234.4.30     Vlan6
+10.234.4.16/32      Direct 0    0            10.234.4.30     Vlan6
+10.234.4.30/32      Direct 0    0            127.0.0.1       InLoop0
+10.234.4.31/32      Direct 0    0            10.234.4.30     Vlan6
+10.234.4.32/28      Direct 0    0            10.234.4.46     Vlan9
+10.234.4.32/32      Direct 0    0            10.234.4.46     Vlan9
+10.234.4.46/32      Direct 0    0            127.0.0.1       InLoop0
+10.234.4.47/32      Direct 0    0            10.234.4.46     Vlan9
+10.234.4.48/28      Direct 0    0            10.234.4.49     Vlan8
+10.234.4.48/32      Direct 0    0            10.234.4.49     Vlan8
+10.234.4.49/32      Direct 0    0            127.0.0.1       InLoop0
+10.234.4.63/32      Direct 0    0            10.234.4.49     Vlan8
+10.237.34.36/30     O_ASE2 150  1            10.234.4.62     Vlan8
+10.237.34.172/30    Direct 0    0            10.237.34.174   GE1/0/24
+10.237.34.172/32    Direct 0    0            10.237.34.174   GE1/0/24
+10.237.34.174/32    Direct 0    0            127.0.0.1       InLoop0
+10.237.34.175/32    Direct 0    0            10.237.34.174   GE1/0/24
+10.237.227.96/29    Direct 0    0            10.237.227.97   Vlan15
+10.237.227.96/32    Direct 0    0            10.237.227.97   Vlan15
+10.237.227.97/32    Direct 0    0            127.0.0.1       InLoop0
+10.237.227.103/32   Direct 0    0            10.237.227.97   Vlan15
+127.0.0.0/8         Direct 0    0            127.0.0.1       InLoop0
+127.0.0.0/32        Direct 0    0            127.0.0.1       InLoop0
+127.0.0.1/32        Direct 0    0            127.0.0.1       InLoop0
+127.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+224.0.0.0/4         Direct 0    0            0.0.0.0         NULL0
+224.0.0.0/24        Direct 0    0            0.0.0.0         NULL0
+255.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+<XZ.RKZ.MN.5530_1>display logbuffer
+Log buffer: Enabled
+Max buffer size: 1024
+Actual buffer size: 512
+Dropped messages: 0
+Overwritten messages: 1237
+Current messages: 512
+%Mar 13 17:15:21:809 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 13 17:17:10:446 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 13 17:17:10:470 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49781.
+%Mar 13 17:17:10:470 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 14 16:42:04:041 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 55511 ssh2.
+
+%Mar 14 16:42:04:088 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 14 16:42:05:400 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 14 16:42:06:023 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 14 16:42:06:082 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 14 16:42:06:113 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 14 16:42:06:156 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Mar 14 16:42:06:173 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 14 16:42:06:209 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 14 16:42:06:238 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 14 16:42:06:275 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 14 16:42:06:307 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 14 16:42:06:394 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Mar 14 16:42:06:424 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 14 16:46:10:354 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 14 16:46:10:377 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 55511.
+%Mar 14 16:46:10:377 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 17 13:43:07:793 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 58811 ssh2.
+
+%Mar 17 13:43:07:840 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 17 13:43:09:178 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 17 13:43:09:197 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 17 13:43:09:241 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 17 13:43:09:270 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 17 13:43:09:303 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 17 13:43:09:310 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Mar 17 13:43:09:319 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 17 13:43:09:432 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 17 13:43:09:462 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 17 13:43:09:468 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 17 13:43:09:501 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 17 13:43:09:566 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 17 13:43:09:610 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 17 13:43:09:678 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Mar 17 13:43:09:729 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 17 13:43:09:782 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 17 13:43:09:820 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 17 13:43:09:849 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 17 13:43:09:881 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 17 13:43:09:887 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Mar 17 13:43:09:893 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 17 13:43:09:927 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 17 13:43:09:963 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 17 13:43:09:974 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 17 13:43:10:028 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 17 13:43:10:102 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 17 13:43:10:141 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 17 13:43:10:262 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Mar 17 13:43:10:308 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 17 13:43:13:238 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 17 13:48:17:508 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 17 13:48:17:530 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58811.
+%Mar 17 13:48:17:530 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 18 15:59:49:854 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 63352 ssh2.
+
+%Mar 18 15:59:49:901 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 18 15:59:51:211 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 18 15:59:53:441 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 18 15:59:53:500 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 18 15:59:53:529 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 18 15:59:53:566 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Mar 18 15:59:53:594 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 18 15:59:53:630 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 18 15:59:53:660 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 18 15:59:53:693 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 18 15:59:53:725 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 18 15:59:53:792 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 18 15:59:53:849 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 18 15:59:58:449 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 18 16:00:21:997 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 18 16:00:22:018 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 63352.
+%Mar 18 16:00:22:018 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 19 11:07:19:689 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 62852 ssh2.
+
+%Mar 19 11:07:19:741 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 19 11:07:21:059 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 19 11:07:27:164 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 19 11:07:40:499 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 19 11:07:50:045 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 19 11:08:05:947 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 19 11:08:20:203 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar 19 11:08:34:117 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 19 11:08:46:305 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 19 11:08:56:766 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 19 11:09:08:784 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 19 11:09:21:208 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 19 11:09:32:728 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 19 11:09:32:749 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 62852.
+%Mar 19 11:09:32:749 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 21 11:17:25:060 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for jtcjxz from 10.237.100.188 port 55328 ssh2.
+
+%Mar 21 11:17:25:089 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar 21 11:17:26:418 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar 21 11:17:28:045 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 55328.
+%Mar 21 11:17:28:046 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar 21 11:17:28:325 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar 22 16:44:32:416 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 54448 ssh2.
+
+%Mar 22 16:44:32:463 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 22 16:44:33:774 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 22 16:44:34:566 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 22 16:44:34:623 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 22 16:44:34:651 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 22 16:44:34:714 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Mar 22 16:44:34:732 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 22 16:44:34:837 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 22 16:44:34:866 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 22 16:44:34:874 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 22 16:44:34:907 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 22 16:44:34:968 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 22 16:44:35:004 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 22 16:44:35:062 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Mar 22 16:44:35:116 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 22 16:44:35:163 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 22 16:46:06:381 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 22 16:46:06:404 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54448.
+%Mar 22 16:46:06:404 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 23 17:40:22:477 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for jtcjxz from 10.237.100.188 port 33108 ssh2.
+
+%Mar 23 17:40:22:505 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar 23 17:40:23:891 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar 23 17:40:38:057 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 23 17:40:48:052 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar 23 17:41:08:572 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar 23 17:41:28:591 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system product model in view shell failed to be matched.
+%Mar 23 17:41:38:104 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system version in view shell failed to be matched.
+%Mar 23 17:41:48:118 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 23 17:41:58:127 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is quit
+%Mar 23 17:41:58:128 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar 23 17:41:59:131 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 33108.
+%Mar 23 17:41:59:131 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar 28 16:32:43:023 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 61181 ssh2.
+
+%Mar 28 16:32:43:070 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 28 16:32:44:390 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 28 16:32:52:997 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 28 16:33:11:232 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 28 16:33:26:737 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 28 16:33:43:656 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 28 16:34:06:902 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar 28 16:34:38:057 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 28 16:34:58:422 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 28 16:35:19:491 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 28 16:35:40:866 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 28 16:35:59:862 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 28 16:36:35:120 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 28 16:36:35:144 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61181.
+%Mar 28 16:36:35:144 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 28 18:23:54:899 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for jtcjxz from 10.237.100.188 port 44294 ssh2.
+
+%Mar 28 18:23:54:927 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar 28 18:23:56:262 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar 28 18:24:10:461 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 28 18:24:20:471 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar 28 18:24:40:994 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display current-configuration
+%Mar 28 18:27:42:304 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display interface
+%Mar 28 18:40:00:368 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display device manuinfo
+%Mar 28 18:40:09:982 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display device
+%Mar 28 18:40:19:995 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 28 18:40:30:003 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is quit
+%Mar 28 18:40:30:005 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar 28 18:40:31:009 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 44294.
+%Mar 28 18:40:31:009 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar 29 10:25:58:753 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49316 ssh2.
+
+%Mar 29 10:25:58:799 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 29 10:26:00:130 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 29 10:26:13:575 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command 22823026, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2492579660770, PortQueueDropped=22823026, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=73471257, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed= in view shell failed to be matched.
+%Mar 29 10:26:13:605 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:52:02 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[353]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/29, Statistics=11990123, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2311002041074, PortQueueDropped=11990123, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:13:640 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:51:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[354]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60192402, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635993166107, PortQueueDropped=60192402, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:13:674 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:51:03 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[355]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/29, Statistics=11989649, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2310997549183, PortQueueDropped=11989649, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Por in view shell failed to be matched.
+%Mar 29 10:26:13:708 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:46:03 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[356]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/29, Statistics=11989649, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2310989462714, PortQueueDropped=11989649, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:13:805 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:45:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[357]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21389657, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2493399292608, PortQueueDropped=21389657, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:13:831 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:43:43 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[358]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22963954, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2499655362893, PortQueueDropped=22963954, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:13:862 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:43:42 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[359]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27715001, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2304107921256, PortQueueDropped=27715001, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:13:900 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[360]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60191931, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635947317405, PortQueueDropped=60191931, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:13:927 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[361]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59727491, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5414654069719, PortQueueDropped=59727491, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:13:961 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:40:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[362]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21389657, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2493385693405, PortQueueDropped=21389657, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:006 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:38:42 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[363]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22963711, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2499637229177, PortQueueDropped=22963711, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:031 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:38:41 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[364]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27715001, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2304089424593, PortQueueDropped=27715001, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:066 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[365]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60191931, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635924223205, PortQueueDropped=60191931, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:101 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[366]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59727491, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5414630898138, PortQueueDropped=59727491, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:108 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:36:07 XZ-YD-4F-XinLing-s9312-2 %%01QOS/4/CONGESTIONRISK(l)[367]:Slot=7;There is a congestion risk on port XGigabitEthernet7/0/1. in view shell failed to be matched.
+%Mar 29 10:26:14:138 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:31:31 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[368]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/4, Statistics=22822542, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2492516975256, PortQueueDropped=22822542, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:167 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:29:57 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[369]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22963372, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2499606816832, PortQueueDropped=22963372, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:197 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:29:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[370]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/27, Statistics=19132472, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2508396391217, PortQueueDropped=19132472, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Por in view shell failed to be matched.
+%Mar 29 10:26:14:233 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:29:39 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[371]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21389078, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2493347182942, PortQueueDropped=21389078, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:273 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:26:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[372]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61593698, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3622460006126, PortQueueDropped=61593698, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:300 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:26:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[373]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59727031, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5414585040224, PortQueueDropped=59727031, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:336 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:26:31 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[374]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/4, Statistics=22822542, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2492498878613, PortQueueDropped=22822542, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:366 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:24:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[375]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/27, Statistics=19132440, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2508377871596, PortQueueDropped=19132440, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:394 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:24:39 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[376]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22963016, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2499587052070, PortQueueDropped=22963016, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:430 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:24:39 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[377]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21389078, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2493329489192, PortQueueDropped=21389078, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:458 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:21:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[378]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61593698, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3622437158077, PortQueueDropped=61593698, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:486 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:21:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[379]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59727031, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5414561993055, PortQueueDropped=59727031, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:591 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:21:04 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[380]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/30, Statistics=15426231, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2346937363314, PortQueueDropped=15426231, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Por in view shell failed to be matched.
+%Mar 29 10:26:14:621 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:16:24 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[381]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/29, Statistics=11989007, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2310908418028, PortQueueDropped=11989007, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Por in view shell failed to be matched.
+%Mar 29 10:26:14:650 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:16:22 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[382]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22962716, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2499567984514, PortQueueDropped=22962716, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:678 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:11:24 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[383]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/29, Statistics=11988940, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2310899891596, PortQueueDropped=11988940, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:715 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:11:21 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[384]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/30, Statistics=15425549, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2346923337150, PortQueueDropped=15425549, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:741 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:11:08 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[385]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27713821, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2304009115751, PortQueueDropped=27713821, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:767 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:11:06 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[386]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/14, Statistics=2568851, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=1312593983182, PortQueueDropped=2568851, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:795 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:06:09 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[387]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22961494, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2499548200746, PortQueueDropped=22961494, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:843 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:06:07 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[388]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27713821, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2304000119579, PortQueueDropped=27713821, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:871 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:06:05 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[389]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/14, Statistics=2568851, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=1312586608640, PortQueueDropped=2568851, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQu in view shell failed to be matched.
+%Mar 29 10:26:14:899 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 10:01:22 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[390]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/14, Statistics=2568544, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=1312579378671, PortQueueDropped=2568544, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:14:934 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:57:23 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[391]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21388417, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2493282130091, PortQueueDropped=21388417, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:962 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:56:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[392]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60191295, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635744662169, PortQueueDropped=60191295, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:14:990 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:56:26 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[393]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27713360, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2303983268125, PortQueueDropped=27713360, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:15:024 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:56:22 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[394]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/14, Statistics=2568544, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=1312573992664, PortQueueDropped=2568544, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQu in view shell failed to be matched.
+%Mar 29 10:26:15:031 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:32 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[395]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:039 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:29 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[396]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:044 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:27 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[397]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:049 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:24 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[398]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:055 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:23 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[399]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:062 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:20 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[400]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:072 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:18 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[401]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:078 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:15 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[402]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:084 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:14 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[403]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:092 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:11 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[404]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:104 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:09 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[405]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:110 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:06 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[406]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:117 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:05 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[407]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:139 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:02 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[408]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:145 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:55:00 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[409]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:151 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:54:58 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[410]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:163 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:54:53 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[411]:Interface GigabitEthernet3/0/32 has turned into UP state. in view shell failed to be matched.
+%Mar 29 10:26:15:176 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:54:50 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/IF_STATE(l)[412]:Interface GigabitEthernet3/0/32 has turned into DOWN state. in view shell failed to be matched.
+%Mar 29 10:26:15:222 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:52:23 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[413]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21388417, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2493275380291, PortQueueDropped=21388417, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:255 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:51:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[414]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60191295, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635722464497, PortQueueDropped=60191295, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:284 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:51:26 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[415]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27713206, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2303976124022, PortQueueDropped=27713206, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:296 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:48:56 XZ-YD-4F-XinLing-s9312-2 %%01QOS/4/CONGESTIONRISK(l)[416]:Slot=7;There is a congestion risk on port XGigabitEthernet7/0/31. in view shell failed to be matched.
+%Mar 29 10:26:15:335 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:40:42 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[417]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27712470, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2303954409842, PortQueueDropped=27712470, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:15:434 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:35:42 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[418]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27712470, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2303945863651, PortQueueDropped=27712470, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:463 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:11:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[419]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60190589, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635551858360, PortQueueDropped=60190589, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:15:494 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:11:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[420]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61592792, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3622132949316, PortQueueDropped=61592792, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:15:520 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:06:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[421]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60190589, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635532024961, PortQueueDropped=60190589, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:558 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 09:06:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[422]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61592792, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3622113123070, PortQueueDropped=61592792, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:565 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 08:43:29 XZ-YD-4F-XinLing-s9312-2 %%01QOS/4/CONGESTIONRISK(l)[423]:Slot=7;There is a congestion risk on port XGigabitEthernet7/0/31. in view shell failed to be matched.
+%Mar 29 10:26:15:596 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 08:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[424]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60190090, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635437965496, PortQueueDropped=60190090, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:15:623 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 08:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[425]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60190090, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635420409684, PortQueueDropped=60190090, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:671 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 07:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[426]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60189589, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635259600787, PortQueueDropped=60189589, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:15:694 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 07:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[427]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60189589, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3635247428583, PortQueueDropped=60189589, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:15:720 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 07:18:08 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[428]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532361304, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40774323565267, PortQueueDropped=7532361304, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:15:746 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 07:14:55 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[429]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532360899, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40774287132621, PortQueueDropped=7532360899, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:15:783 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 07:05:05 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[430]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532360204, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40774176753181, PortQueueDropped=7532360204, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:15:811 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 07:02:50 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[431]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532359828, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40774152167803, PortQueueDropped=7532359828, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:15:840 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 06:57:50 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[432]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532359633, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40774098245193, PortQueueDropped=7532359633, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:15:873 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 06:48:08 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[433]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532359127, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40773992845114, PortQueueDropped=7532359127, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:15:903 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 06:43:08 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[434]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532359127, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40773940557838, PortQueueDropped=7532359127, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:15:943 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 06:38:46 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[435]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532358681, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40773895156024, PortQueueDropped=7532358681, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:15:981 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 06:33:45 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[436]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532358545, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40773843545628, PortQueueDropped=7532358545, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:016 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 06:26:35 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[437]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532358067, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40773770941916, PortQueueDropped=7532358067, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:043 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 06:21:35 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[438]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532357821, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40773717425568, PortQueueDropped=7532357821, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:086 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 03:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[439]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59724129, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5413578133754, PortQueueDropped=59724129, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:16:118 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 03:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[440]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59724129, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5413572187297, PortQueueDropped=59724129, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:16:126 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 03:15:53 XZ-YD-4F-XinLing-s9312-2 %%01SECE/4/UCSUPPRESSRESUME(l)[441]:MAC address flapping finished on port. Unknown unicast packets were normally forwarded.(Interface=XGigabitEthernet6/0/11) in view shell failed to be matched.
+%Mar 29 10:26:16:140 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 03:05:20 XZ-YD-4F-XinLing-s9312-2 %%01SECE/4/UCSUPPRESS(l)[442]:MAC address flapping started on port. The rate of unknown unicast packets was limited to 50% of the port bandwidth.(Interface=XGigabitEthernet6/0/11) in view shell failed to be matched.
+%Mar 29 10:26:16:246 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 01:26:26 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[443]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532355735, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40771361825178, PortQueueDropped=7532355735, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:274 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 01:21:26 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[444]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532355654, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40771314544259, PortQueueDropped=7532355654, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:301 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 01:21:07 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[445]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532355332, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40771310507219, PortQueueDropped=7532355332, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:339 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 01:16:07 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[446]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532355332, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40771254643389, PortQueueDropped=7532355332, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:369 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 01:11:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[447]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59723748, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5413371219914, PortQueueDropped=59723748, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:16:401 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 01:06:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[448]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59723748, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5413363262238, PortQueueDropped=59723748, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:16:428 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:58:08 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[449]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532354981, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40771075041294, PortQueueDropped=7532354981, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:461 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:53:08 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[450]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532354714, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40771016944662, PortQueueDropped=7532354714, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:495 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:42:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[451]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532354249, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770905292411, PortQueueDropped=7532354249, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:527 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:26:52 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[452]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532351401, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770723764910, PortQueueDropped=7532351401, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:559 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:26:09 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[453]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532350663, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770716358386, PortQueueDropped=7532350663, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:587 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:21:09 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[454]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532350422, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770664487700, PortQueueDropped=7532350422, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:616 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:19:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[455]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532349988, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770649300222, PortQueueDropped=7532349988, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:655 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  9 2026 00:14:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[456]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532349988, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770599561732, PortQueueDropped=7532349988, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:681 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:54:30 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[457]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532348940, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770392974663, PortQueueDropped=7532348940, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:711 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:49:30 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[458]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532348642, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770340850769, PortQueueDropped=7532348642, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:747 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:42:13 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[459]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532348164, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770264783672, PortQueueDropped=7532348164, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:781 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[460]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60188214, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3634525870433, PortQueueDropped=60188214, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:16:811 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[461]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60188214, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3634515958599, PortQueueDropped=60188214, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:16:839 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:32:24 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[462]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532347644, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770157152440, PortQueueDropped=7532347644, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:876 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:24:46 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[463]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532347173, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40770072016826, PortQueueDropped=7532347173, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:904 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:12:32 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[464]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532346345, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40769929287072, PortQueueDropped=7532346345, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, in view shell failed to be matched.
+%Mar 29 10:26:16:929 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 23:10:14 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[465]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/31, Statistics=7532345999, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=40769902352263, PortQueueDropped=7532345999, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4 in view shell failed to be matched.
+%Mar 29 10:26:16:937 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 21:51:46 XZ-YD-4F-XinLing-s9312-2 %%01QOS/4/CONGESTIONRISK(l)[466]:Slot=6;There is a congestion risk on port XGigabitEthernet6/0/8. in view shell failed to be matched.
+%Mar 29 10:26:16:944 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 21:51:46 XZ-YD-4F-XinLing-s9312-2 %%01QOS/4/CONGESTIONRISK(l)[467]:Slot=6;There is a congestion risk on port XGigabitEthernet6/0/7. in view shell failed to be matched.
+%Mar 29 10:26:17:065 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 21:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[468]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61590450, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620817521025, PortQueueDropped=61590450, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:091 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 21:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[469]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61590450, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620803006106, PortQueueDropped=61590450, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:116 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 21:11:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[470]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60186840, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3634151146141, PortQueueDropped=60186840, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:146 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 21:06:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[471]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60186840, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3634135089318, PortQueueDropped=60186840, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:186 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:51:41 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[472]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27712039, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2302993042931, PortQueueDropped=27712039, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:212 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:46:41 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[473]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27712039, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2302982055835, PortQueueDropped=27712039, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:243 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[474]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60186178, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3634053045601, PortQueueDropped=60186178, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:278 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[475]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60186178, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3634035672043, PortQueueDropped=60186178, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:345 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:36:23 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[476]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/27, Statistics=19132111, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2507284856469, PortQueueDropped=19132111, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Por in view shell failed to be matched.
+%Mar 29 10:26:17:380 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:31:22 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[477]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/27, Statistics=19132111, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2507268440653, PortQueueDropped=19132111, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:410 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:26:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[478]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61589648, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620576731199, PortQueueDropped=61589648, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:438 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:21:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[479]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61589623, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620559032615, PortQueueDropped=61589623, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:464 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:14:46 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[480]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22960672, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2498449556202, PortQueueDropped=22960672, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:497 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:11:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[481]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59721762, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412631086976, PortQueueDropped=59721762, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:525 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:06:46 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[482]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59721762, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412612862817, PortQueueDropped=59721762, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:562 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 20:06:45 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[483]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22959405, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2498436773324, PortQueueDropped=22959405, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:594 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:56:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[484]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59721419, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412576196816, PortQueueDropped=59721419, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:620 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:51:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[485]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59721419, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412557438386, PortQueueDropped=59721419, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:650 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:41:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[486]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59720955, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412519569058, PortQueueDropped=59720955, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:679 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:41:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[487]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60185084, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3633836696667, PortQueueDropped=60185084, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:712 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:36:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[488]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22958989, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2498389194048, PortQueueDropped=22958989, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:741 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:36:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[489]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59720955, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412499781678, PortQueueDropped=59720955, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:769 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:36:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[490]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60184794, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3633816876554, PortQueueDropped=60184794, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:870 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:31:40 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[491]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22957962, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2498379167538, PortQueueDropped=22957962, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:17:897 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:31:34 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[492]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22957641, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2498378821992, PortQueueDropped=22957641, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:921 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:26:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[493]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60184476, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3633778832592, PortQueueDropped=60184476, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:946 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:26:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[494]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61588509, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620354196549, PortQueueDropped=61588509, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:17:981 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:22:42 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[495]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/3, Statistics=22956966, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2498362763048, PortQueueDropped=22956966, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:18:008 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:21:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[496]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60184476, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3633759346230, PortQueueDropped=60184476, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:18:034 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:21:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[497]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61588509, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620334651417, PortQueueDropped=61588509, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:18:068 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:15:10 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[498]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/30, Statistics=15424553, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2345885921890, PortQueueDropped=15424553, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Por in view shell failed to be matched.
+%Mar 29 10:26:18:104 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:11:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[499]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60183734, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3633720605688, PortQueueDropped=60183734, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:135 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:11:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[500]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59720212, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412402615548, PortQueueDropped=59720212, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:163 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:11:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[501]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61587940, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620295824911, PortQueueDropped=61587940, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:199 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:10:10 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[502]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/30, Statistics=15424278, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2345877950675, PortQueueDropped=15424278, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:227 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:06:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[503]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60183734, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3633701191027, PortQueueDropped=60183734, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:18:258 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:06:48 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[504]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/6, Statistics=59720212, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=5412382973747, PortQueueDropped=59720212, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:18:292 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:06:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[505]:Slot=6;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61587837, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620275778792, PortQueueDropped=61587837, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:18:318 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:01:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[506]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21387413, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2492111672782, PortQueueDropped=21387413, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:345 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 19:01:40 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[507]:Slot=7;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27711187, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2302791865256, PortQueueDropped=27711187, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:378 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 18:56:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[508]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/8, Statistics=60183414, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3633661836541, PortQueueDropped=60183414, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:414 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 18:56:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[509]:Slot=6;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet6/0/7, Statistics=61587422, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=3620236955870, PortQueueDropped=61587422, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, Port in view shell failed to be matched.
+%Mar 29 10:26:18:441 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 18:56:47 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[510]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/1, Statistics=21387413, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2492104581716, PortQueueDropped=21387413, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:18:465 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command Mar  8 2026 18:56:40 XZ-YD-4F-XinLing-s9312-2 %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[511]:Slot=7;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet7/0/2, Statistics=27710957, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=2302784857172, PortQueueDropped=27710957, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQ in view shell failed to be matched.
+%Mar 29 10:26:22:946 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 29 10:26:22:967 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49316.
+%Mar 29 10:26:22:967 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 29 10:26:24:978 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49379 ssh2.
+               
+%Mar 29 10:26:25:026 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 29 10:26:26:416 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 29 10:26:32:574 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 29 10:26:45:676 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 29 10:26:59:072 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 29 10:27:12:559 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 29 10:27:24:992 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar 29 10:28:32:979 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 29 10:28:46:775 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 29 10:29:02:713 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 29 10:29:19:354 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 29 10:29:36:903 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 29 10:34:41:656 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 29 10:34:41:679 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49379.
+%Mar 29 10:34:41:680 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 29 15:35:05:932 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 64884 ssh2.
+
+%Mar 29 15:35:05:984 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 29 15:35:07:379 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 29 15:36:05:664 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 29 15:36:05:684 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 64884.
+%Mar 29 15:36:05:684 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 30 14:13:28:424 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 65438 ssh2.
+
+%Mar 30 14:13:28:471 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 30 14:13:29:796 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 30 14:14:22:821 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 30 14:15:02:015 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 30 14:15:34:808 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 30 14:15:49:623 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 30 14:16:02:637 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar 30 14:16:15:113 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 30 14:16:29:509 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 30 14:17:31:349 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 30 14:17:52:841 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 30 14:18:09:904 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 30 14:19:18:472 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 30 14:19:18:496 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 65438.
+%Mar 30 14:19:18:496 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 30 17:13:03:959 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 60940 ssh2.
+
+%Mar 30 17:13:04:010 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 30 17:13:05:334 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 30 17:18:06:624 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 30 17:18:06:646 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 60940.
+%Mar 30 17:18:06:646 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 30 17:18:32:549 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 61751 ssh2.
+
+%Mar 30 17:18:32:602 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 30 17:18:33:913 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 30 17:19:31:145 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 30 17:19:31:160 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 30 17:19:31:238 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 30 17:19:31:277 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 30 17:19:31:319 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 30 17:19:31:368 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 30 17:19:31:382 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 30 17:19:31:478 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 30 17:19:31:528 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 30 17:19:31:940 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 30 17:19:32:023 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 30 17:23:44:213 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 30 17:23:44:234 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61751.
+%Mar 30 17:23:44:234 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 10:16:16:600 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 58616 ssh2.
+
+%Mar 31 10:16:16:649 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 10:16:17:966 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 10:17:41:803 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 10:17:41:819 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 10:17:41:882 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 10:17:41:921 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 10:17:41:966 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 31 10:17:42:029 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 31 10:17:42:062 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 10:17:42:192 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 10:17:42:324 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 10:17:42:689 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 10:17:42:778 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 10:20:29:971 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 10:20:29:991 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58616.
+%Mar 31 10:20:29:992 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 10:22:03:148 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 59543 ssh2.
+
+%Mar 31 10:22:03:196 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 10:22:04:578 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 10:23:00:094 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 10:23:00:109 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 10:23:00:168 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 10:23:00:227 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 10:23:00:336 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 31 10:23:00:373 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 31 10:23:00:395 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 10:23:00:534 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 10:23:00:595 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 10:23:00:984 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 10:23:01:135 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 10:24:27:006 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 10:24:27:028 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 59543.
+%Mar 31 10:24:27:029 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 11:40:12:664 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 55896 ssh2.
+
+%Mar 31 11:40:12:713 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 11:40:14:041 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 11:41:38:014 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 11:41:38:034 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 11:41:38:100 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 11:41:38:153 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 11:41:38:206 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 31 11:41:38:246 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 31 11:41:38:262 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 11:41:38:403 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 11:41:38:472 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 11:41:38:996 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 11:41:39:102 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 11:42:17:386 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 11:42:17:411 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 55896.
+%Mar 31 11:42:17:411 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 12:12:23:552 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 61186 ssh2.
+
+%Mar 31 12:12:23:600 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 12:12:24:910 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 12:14:23:216 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 12:14:23:231 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 12:14:23:288 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 12:14:23:325 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 12:14:23:382 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 31 12:14:23:424 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 31 12:14:23:440 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 12:14:23:567 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 12:14:23:620 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 12:14:24:087 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 12:14:24:178 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 12:19:27:170 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 12:19:27:192 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61186.
+%Mar 31 12:19:27:193 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 12:42:19:118 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49673 ssh2.
+
+%Mar 31 12:42:19:165 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 12:42:20:484 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 12:43:49:070 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 12:43:49:086 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 12:43:49:150 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 12:43:49:265 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 12:43:49:314 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 31 12:43:49:352 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 31 12:43:49:369 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 12:43:49:500 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 12:43:49:563 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 12:43:49:922 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 12:43:50:075 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 12:48:52:814 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 12:48:52:836 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49673.
+%Mar 31 12:48:52:837 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 13:25:34:923 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 56725 ssh2.
+
+%Mar 31 13:25:34:973 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 13:25:36:291 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 13:27:27:090 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 13:27:27:105 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 13:27:27:176 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 13:27:27:215 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 13:27:27:254 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 31 13:27:27:404 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 31 13:27:27:418 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 13:27:27:540 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 13:27:27:614 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 13:27:28:031 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 13:27:28:177 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 13:29:44:051 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 13:29:44:069 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 13:29:44:148 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 13:29:44:195 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 13:29:44:251 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 31 13:29:44:302 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 31 13:29:44:321 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 13:29:44:486 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 13:29:44:545 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 13:29:44:977 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 13:29:45:066 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 13:30:18:243 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 13:30:18:267 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56725.
+%Mar 31 13:30:18:267 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Apr  1 10:49:49:201 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49490 ssh2.
+
+%Apr  1 10:49:49:249 2013 XZ.RKZ.MN.5530_1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Apr  1 10:49:50:631 2013 XZ.RKZ.MN.5530_1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Apr  1 10:51:26:240 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Apr  1 10:51:26:257 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Apr  1 10:51:26:336 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Apr  1 10:51:26:378 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Apr  1 10:51:26:429 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Apr  1 10:51:26:472 2013 XZ.RKZ.MN.5530_1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Apr  1 10:51:26:489 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Apr  1 10:51:26:697 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Apr  1 10:51:26:747 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Apr  1 10:51:27:270 2013 XZ.RKZ.MN.5530_1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table

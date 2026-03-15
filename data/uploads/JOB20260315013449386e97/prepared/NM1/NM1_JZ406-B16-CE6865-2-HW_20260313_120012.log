@@ -1,0 +1,1116 @@
+﻿<JZ406-B16-CE6865-2>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<JZ406-B16-CE6865-2>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.180 (CE6865EI V200R005C10SPC800)
+Copyright (C) 2012-2018 Huawei Technologies Co., Ltd.
+HUAWEI CE6865-48S8CQ-EI uptime is 1367 days, 15 hours, 35 minutes 
+Patch Version: V200R005SPH017
+
+CE6865-48S8CQ-EI(Master) 1 : uptime is  1367 days, 15 hours, 34 minutes
+        StartupTime 2022/06/14   19:54:59
+Memory    Size    : 4096 M bytes
+Flash     Size    : 2048 M bytes
+CE6865-48S8CQ-EI version information                               
+1. PCB    Version : CEM48S8CQP04 VER A
+2. MAB    Version : 1
+3. Board  Type    : CE6865-48S8CQ-EI
+4. CPLD1  Version : 102
+5. CPLD2  Version : 102
+6. BIOS   Version : 192
+<JZ406-B16-CE6865-2>display device
+Device status:
+-------------------------------------------------------------------------------------------
+Slot  Card   Type                     Online   Power Register     Alarm     Primary        
+-------------------------------------------------------------------------------------------
+1     -      CE6865-48S8CQ-EI         Present  On    Registered   Normal    Master         
+      FAN1   FAN-40HA-F               Present  On    Registered   Normal    NA             
+      FAN2   FAN-40HA-F               Present  On    Registered   Normal    NA             
+      PWR1   PAC-600WA-F              Present  On    Registered   Normal    NA             
+      PWR2   PAC-600WA-F              Present  On    Registered   Normal    NA             
+-------------------------------------------------------------------------------------------
+<JZ406-B16-CE6865-2>display startup
+MainBoard:
+  Configured startup system software:        flash:/CE6865EI-V200R005C10SPC800.cc
+  Startup system software:                   flash:/CE6865EI-V200R005C10SPC800.cc
+  Next startup system software:              flash:/CE6865EI-V200R005C10SPC800.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup patch package:                     flash:/CE6865EI-V200R005SPH017.PAT
+  Next startup patch package:                flash:/CE6865EI-V200R005SPH017.PAT
+<JZ406-B16-CE6865-2>display cpu-usage
+                            ^
+Error: Unrecognized command found at '^' position.
+<JZ406-B16-CE6865-2>display memory-usage
+                            ^
+Error: Unrecognized command found at '^' position.
+<JZ406-B16-CE6865-2>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(dl): DLDP down
+(c): CFM down
+InUti/OutUti: input utility rate/output utility rate
+Interface                  PHY      Protocol  InUti OutUti   inErrors  outErrors
+100GE1/0/1                 *down    down         0%     0%          0          0
+100GE1/0/2                 *down    down         0%     0%          0          0
+100GE1/0/3                 *down    down         0%     0%          0          0
+100GE1/0/4                 *down    down         0%     0%          0          0
+100GE1/0/5                 *down    down         0%     0%          0          0
+100GE1/0/6                 *down    down         0%     0%          0          0
+100GE1/0/7                 *down    down         0%     0%          0          0
+100GE1/0/8                 *down    down         0%     0%          0          0
+25GE1/0/1                  *down    down         0%     0%          0          0
+25GE1/0/2                  up       up           0%  0.01%          0          0
+25GE1/0/3                  up       up       30.83%  9.16%          0          0
+25GE1/0/4                  *down    down         0%     0%          0          0
+25GE1/0/5                  up       up        0.01%  0.01%          0          0
+25GE1/0/6                  up       up        0.01%  0.01%          0          0
+25GE1/0/7                  up       up        0.01%  0.01%          0          0
+25GE1/0/8                  up       up        0.01%  0.01%          0          0
+25GE1/0/9                  up       up        6.92%  6.76%          0          0
+25GE1/0/10                 up       up        6.13%  6.83%          0          0
+25GE1/0/11                 up       up           0%  0.01%          0          0
+25GE1/0/12                 up       up        0.01%  0.01%          0          0
+25GE1/0/13                 up       up        6.87%  7.85%        186          0
+25GE1/0/14                 up       up        5.96%  6.89%          0          0
+25GE1/0/15                 up       up        0.01%  0.01%          0          0
+25GE1/0/16                 up       up       11.80% 57.53%          0          0
+25GE1/0/17                 up       up           0%  0.01%          0          0
+25GE1/0/18                 up       up        6.02%  6.76%          0          0
+25GE1/0/19                 up       up        2.82%  2.68%          0          0
+25GE1/0/20                 up       up        2.80%  2.82%          0          0
+25GE1/0/21                 up       up        0.01%  0.01%          0          0
+25GE1/0/22                 up       up        0.01%  0.02%          0          0
+25GE1/0/23                 up       up        0.01%  6.57%          0          0
+25GE1/0/24                 up       up        0.01%  0.01%          0          0
+25GE1/0/25                 up       up       16.34%  0.06%          0          0
+25GE1/0/26                 up       up       29.49%  0.11%          0          0
+25GE1/0/27                 up       up        0.01%  0.01%          0          0
+25GE1/0/28                 down     down         0%     0%          0          0
+25GE1/0/29                 up       up        0.01%  0.01%          0          0
+25GE1/0/30                 up       up        0.08% 25.54%          0          0
+25GE1/0/31                 up       up       16.37%  0.06%        769          0
+25GE1/0/32                 up       up       23.62% 21.27%        836          0
+25GE1/0/33                 up       up       20.73% 22.74%        113          0
+25GE1/0/34                 down     down         0%     0%        118          0
+25GE1/0/35                 up       up       21.82% 22.15%        304          0
+25GE1/0/36                 down     down         0%     0%        232          0
+25GE1/0/37                 down     down         0%     0%         24          0
+25GE1/0/38                 *down    down         0%     0%          0          0
+25GE1/0/39                 *down    down         0%     0%          0          0
+25GE1/0/40                 down     down         0%     0%          0          0
+25GE1/0/41                 down     down         0%     0%          0          0
+25GE1/0/42                 down     down         0%     0%          0          0
+25GE1/0/43                 *down    down         0%     0%          0          0
+25GE1/0/44                 *down    down         0%     0%          0          0
+25GE1/0/46                 *down    down         0%     0%          0          0
+25GE1/0/48                 *down    down         0%     0%          0          0
+Eth-Trunk1                 up       up       42.20% 43.49%          0          0
+  25GE1/0/45               up       up       35.12% 37.62%          0          0
+  25GE1/0/47               up       up       49.29% 49.37%          0          0
+MEth0/0/0                  *down    down         0%     0%          0          0
+NULL0                      up       up(s)        0%     0%          0          0
+Vlanif100                  up       up           --     --          0          0
+Vlanif192                  up       down         --     --          0          0
+<JZ406-B16-CE6865-2>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+The number of interface that is UP in Physical is 3
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 2
+The number of interface that is DOWN in Protocol is 2
+Interface                   IP Address/Mask    Physical Protocol VPN           
+MEth0/0/0                   unassigned         *down    down     --            
+NULL0                       unassigned         up       up(s)    --            
+Vlanif100                   10.241.93.27/24    up       up       --            
+Vlanif192                   unassigned         up       down     --            
+<JZ406-B16-CE6865-2>display current-configuration
+!Software Version V200R005C10SPC800
+!Last configuration was updated at 2026-02-09 09:42:15+00:00 by xz4a_admin
+!Last configuration was saved at 2025-07-18 04:33:45+00:00
+#
+sysname JZ406-B16-CE6865-2
+#
+info-center loghost 10.237.35.254 facility local4 local-time
+#
+system resource standard
+#
+device board 1 board-type CE6865-48S8CQ-EI
+#
+drop-profile default
+#
+dcb pfc
+#
+dcb ets-profile default
+#
+vlan batch 100 192
+#
+telnet server disable
+telnet ipv6 server disable
+#
+diffserv domain default
+#
+acl number 2000
+ rule 20 permit source 10.241.93.0 0.0.0.255 logging
+ rule 21 permit source 10.237.35.0 0.0.0.255 logging
+ rule 22 permit source 10.233.138.0 0.0.0.255 logging
+ rule 25 permit source 10.237.100.0 0.0.0.255 logging
+#
+acl number 2001
+ rule 5 permit source 10.237.99.123 0
+ rule 10 permit source 10.237.99.233 0
+ rule 15 permit source 10.233.205.244 0
+#
+acl number 3000
+ rule 5 deny tcp destination-port eq 445
+ rule 10 deny tcp destination-port eq 5800
+ rule 15 deny tcp destination-port eq 5900
+ rule 20 deny udp destination-port eq 1434
+ rule 25 deny udp destination-port eq tftp
+ rule 30 deny tcp destination-port eq 135
+ rule 35 deny udp destination-port eq netbios-ns
+ rule 40 deny udp destination-port eq netbios-dgm
+ rule 45 deny tcp destination-port eq 139
+ rule 50 deny udp destination-port eq netbios-ssn
+ rule 55 deny tcp destination-port eq 539
+ rule 60 deny udp destination-port eq 539
+ rule 65 deny tcp destination-port eq 593
+ rule 70 deny tcp destination-port eq 4786
+ rule 75 permit ip
+#
+aaa
+ undo local-user policy security-enhance
+ local-user huawei password irreversible-cipher $1c$'p27L*T^h7$A)&'OM^ShQ4=jc8WY'$SQ'j#SVR0OMCBX2Rb52m#$
+ local-user huawei service-type ssh
+ local-user huawei level 1
+ local-user langjiewangdui password irreversible-cipher $1c$|O2Z/5kb+.$WwT9#NfLf389t@!BgO;~mUI!)rjH/ZK~\r/b\OcR$
+ local-user langjiewangdui service-type ssh
+ local-user langjiewangdui level 2
+ local-user xz4a_admin password irreversible-cipher $1c$8gpO&E<`3E$W\xK<,3Z&4L[*P9x<#tW2tQ[3[;yZVpsVz1jroS5$
+ local-user xz4a_admin service-type telnet ssh
+ local-user xz4a_admin level 3
+ local-user jtcjxz password irreversible-cipher $1c$&$NcQPE]lJ$E3sU,f0B5UuYR<I2:z%6+n^=*\_#-MUnem*L(>eT$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 2
+ #
+ authentication-scheme default
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default
+ #
+ domain default
+ #
+ domain default_admin
+#
+stack
+#
+license
+#
+interface Vlanif100
+ ip address 10.241.93.27 255.255.255.0
+#
+interface Vlanif192
+ description neibujiaohuan
+#
+interface MEth0/0/0
+ shutdown
+#
+interface Eth-Trunk1
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface 25GE1/0/1
+ shutdown
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/2
+ port default vlan 100
+ traffic-filter acl 3000 inbound 
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/3
+ port default vlan 100
+ traffic-filter acl 3000 inbound 
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/4
+ shutdown
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/5
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/6
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/7
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/8
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/9
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/10
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/11
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/12
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/13
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/14
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/15
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/16
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/17
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/18
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/19
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/20
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/21
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/22
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/23
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/24
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/25
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/26
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/27
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/28
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/29
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/30
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/31
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/32
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/33
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/34
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/35
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/36
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/37
+ port default vlan 100
+ device transceiver 1000BASE-T
+ port mode GE
+#
+interface 25GE1/0/38
+ shutdown
+ device transceiver 10GBASE-FIBER
+ port mode GE
+#
+interface 25GE1/0/39
+ shutdown
+ device transceiver 10GBASE-FIBER
+ port mode GE
+#
+interface 25GE1/0/40
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode GE
+#
+interface 25GE1/0/41
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/42
+ port default vlan 192
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/43
+ shutdown
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/44
+ shutdown
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/45
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/46
+ shutdown
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/47
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/48
+ shutdown
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 100GE1/0/1
+ shutdown
+ device transceiver 100GBASE-FIBER
+#
+interface 100GE1/0/2
+ shutdown
+#
+interface 100GE1/0/3
+ shutdown
+#
+interface 100GE1/0/4
+ shutdown
+#
+interface 100GE1/0/5
+ shutdown
+#
+interface 100GE1/0/6
+ shutdown
+#
+interface 100GE1/0/7
+ shutdown
+#
+interface 100GE1/0/8
+ shutdown
+#
+interface NULL0
+#
+ip route-static 10.233.205.244 255.255.255.255 10.241.93.1
+ip route-static 10.237.35.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.99.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.100.0 255.255.255.0 10.241.93.1
+#
+snmp-agent
+snmp-agent local-engineid 800007DB0310C3AB9CE181
+snmp-agent community read cipher %^%#qoZj5Caw5>@uMfYc3H#GFPP>+R+Q3:[5,RGhdK~VGP>7F/}tc~u;0[&st0S583WJF;fkM'xAka'FR{qG%^%# acl 2001
+#
+snmp-agent sys-info version v2c v3
+#
+stelnet server enable
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user langjiewangdui
+ssh user langjiewangdui authentication-type password
+ssh user langjiewangdui service-type stelnet
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_gcm
+ssh server hmac sha2_256
+ssh server key-exchange dh_group_exchange_sha256
+#
+ssh server dh-exchange min-len 2048
+#
+ssh client cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr aes256_cbc aes128_cbc 3des_cbc
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$T<yxKg$u{P$0:qCIQKHX5[+cQ$"_.)/vL8V=Xt[V$MciCKMto`V$
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+#
+port-group duankou
+ group-member 100GE1/0/1
+ group-member 100GE1/0/2
+ group-member 100GE1/0/3
+ group-member 100GE1/0/4
+ group-member 100GE1/0/5
+ group-member 100GE1/0/6
+ group-member 100GE1/0/7
+ group-member 100GE1/0/8
+ group-member 25GE1/0/1
+ group-member 25GE1/0/4
+ group-member 25GE1/0/27
+ group-member 25GE1/0/28
+ group-member 25GE1/0/29
+ group-member 25GE1/0/30
+ group-member 25GE1/0/35
+ group-member 25GE1/0/36
+ group-member 25GE1/0/38
+ group-member 25GE1/0/39
+ group-member 25GE1/0/40
+ group-member 25GE1/0/41
+ group-member 25GE1/0/42
+ group-member 25GE1/0/43
+ group-member 25GE1/0/44
+ group-member 25GE1/0/45
+ group-member 25GE1/0/46
+ group-member 25GE1/0/48
+ group-member MEth0/0/0
+#
+vm-manager
+#
+return
+<JZ406-B16-CE6865-2>display ip routing-table
+Proto: Protocol        Pre: Preference
+Route Flags: R - relay, D - download to fib, T - to vpn-instance, B - black hole route
+------------------------------------------------------------------------------
+Routing Table : _public_
+         Destinations : 11       Routes : 11        
+
+Destination/Mask    Proto   Pre  Cost        Flags NextHop         Interface
+
+ 10.233.205.244/32  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.35.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.99.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+   10.237.100.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.241.93.0/24  Direct  0    0             D   10.241.93.27    Vlanif100
+   10.241.93.27/32  Direct  0    0             D   127.0.0.1       Vlanif100
+  10.241.93.255/32  Direct  0    0             D   127.0.0.1       Vlanif100
+      127.0.0.0/8   Direct  0    0             D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+127.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+255.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+<JZ406-B16-CE6865-2>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 5872
+Current messages : 512
+
+Mar 13 2026 04:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260125212513.pads.zip)
+Mar 11 2026 12:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260218045708.log.zip)
+Mar 11 2026 08:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260124005513.pads.zip)
+Mar  9 2026 12:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260122042513.pads.zip)
+Mar  9 2026 10:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260216014013.log.zip)
+Mar  7 2026 15:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260120075513.pads.zip)
+Mar  7 2026 06:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260213214013.log.zip)
+Mar  5 2026 18:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260118112512.pads.zip)
+Mar  5 2026 18:06:29 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=29, IfIndex=29, PortName=25GE1/0/17, PwName=-)
+Mar  5 2026 18:06:24 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=29, IfIndex=29, PortName=25GE1/0/17, PwName=-)
+Mar  5 2026 18:06:24 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/17, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/17)
+Mar  5 2026 18:06:24 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=29, IfName=25GE1/0/17)
+Mar  5 2026 18:06:09 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/17, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/17)
+Mar  5 2026 18:06:09 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=29, IfName=25GE1/0/17)
+Mar  5 2026 17:57:08 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=29, IfIndex=29, PortName=25GE1/0/17, PwName=-)
+Mar  5 2026 17:57:03 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=29, IfIndex=29, PortName=25GE1/0/17, PwName=-)
+Mar  5 2026 17:57:03 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/17, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/17)
+Mar  5 2026 17:57:03 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=29, IfName=25GE1/0/17)
+Mar  5 2026 17:56:48 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/17, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/17)
+Mar  5 2026 17:56:48 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=29, IfName=25GE1/0/17)
+Mar  5 2026 17:47:07 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=42, IfIndex=42, PortName=25GE1/0/30, PwName=-)
+Mar  5 2026 17:47:02 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=42, IfIndex=42, PortName=25GE1/0/30, PwName=-)
+Mar  5 2026 17:47:02 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/30, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/30)
+Mar  5 2026 17:47:02 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=42, IfName=25GE1/0/30)
+Mar  5 2026 17:46:44 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/30, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/30)
+Mar  5 2026 17:46:44 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=42, IfName=25GE1/0/30)
+Mar  5 2026 02:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260211181013.log.zip)
+Mar  3 2026 22:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260116145512.pads.zip)
+Mar  2 2026 23:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260209141013.log.zip)
+Mar  2 2026 01:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260114182512.pads.zip)
+Feb 28 2026 20:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260207104013.log.zip)
+Feb 28 2026 05:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260112215512.pads.zip)
+Feb 26 2026 16:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260205064013.log.zip)
+Feb 26 2026 09:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260111012512.pads.zip)
+Feb 24 2026 12:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260109045512.pads.zip)
+Feb 24 2026 12:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260203024013.log.zip)
+Feb 22 2026 15:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260107082512.pads.zip)
+Feb 22 2026 08:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260201004013.log.zip)
+Feb 20 2026 19:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260105115512.pads.zip)
+Feb 20 2026 05:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260129213341.log.zip)
+Feb 18 2026 23:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260103152512.pads.zip)
+Feb 18 2026 02:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260127191013.log.zip)
+Feb 17 2026 02:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260101185512.pads.zip)
+Feb 15 2026 23:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260125154013.log.zip)
+Feb 15 2026 06:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251230222512.pads.zip)
+Feb 13 2026 19:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260123120606.log.zip)
+Feb 13 2026 09:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251229015512.pads.zip)
+Feb 11 2026 16:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260121101013.log.zip)
+Feb 11 2026 13:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251227052512.pads.zip)
+Feb  9 2026 16:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251225085512.pads.zip)
+Feb  9 2026 11:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260119071012.log.zip)
+Feb  7 2026 20:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251223122512.pads.zip)
+Feb  7 2026 08:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260117031012.log.zip)
+Feb  5 2026 23:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251221155512.pads.zip)
+Feb  5 2026 04:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260114234012.log.zip)
+Feb  4 2026 03:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251219192512.pads.zip)
+Feb  3 2026 01:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260112201012.log.zip)
+Feb  2 2026 17:31:55 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:31:51 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:31:51 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 17:31:51 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:31:38 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 17:31:38 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:14:20 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:14:15 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:14:15 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 17:14:15 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:14:15 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:13:48 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:11:48 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 17:11:48 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:06:32 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:06:27 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:06:27 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 17:06:27 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:06:27 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:03:20 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 17:03:20 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:03:20 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:02:37 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:02:32 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 17:02:32 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 17:02:32 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:02:32 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:02:08 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 17:02:08 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 17:02:08 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:57:58 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:57:53 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:57:53 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 16:57:53 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:57:53 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:57:51 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:57:51 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:57:51 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:57:51 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:57:50 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 16:57:50 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:56:31 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:56:27 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:56:27 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 16:56:27 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:55:59 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:55:59 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 16:31:02 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_active(l):CID=0x80fc0101-alarmID=0x08132154;The optical module was not certified by Huawei Ethernet Switch.(EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=145920, Reason=It has been observed that a transceiver has been installed that is not certified by Huawei Ethernet Switch. Huawei cannot ensure that it is completely adaptive and will not cause any adverse effects.If it is continued to be used, Huawei is not obligated to provide support to remedy defects or faults arising out of or resulting from installing and using of the non-certified transceiver.)
+Feb  2 2026 16:25:47 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:25:47 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:25:47 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:25:39 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:25:39 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:25:38 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:25:22 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:25:08 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_clear(l):CID=0x80fc0101-alarmID=0x08132154-clearType=service_resume;The alarm on optical module not certified by Huawei Ethernet Switch was clearned.(EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=145920, Reason=The alarm on optical module not certified by Huawei Ethernet Switch does not exist on this inteface.)
+Feb  2 2026 16:25:08 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:21:06 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_active(l):CID=0x80fc0101-alarmID=0x08132154;The optical module was not certified by Huawei Ethernet Switch.(EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=145920, Reason=It has been observed that a transceiver has been installed that is not certified by Huawei Ethernet Switch. Huawei cannot ensure that it is completely adaptive and will not cause any adverse effects.If it is continued to be used, Huawei is not obligated to provide support to remedy defects or faults arising out of or resulting from installing and using of the non-certified transceiver.)
+Feb  2 2026 16:20:22 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:20:17 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:20:17 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 16:20:16 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:18:32 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:18:32 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:18:32 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:18:25 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:18:00 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:16:37 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:16:28 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_clear(l):CID=0x80fc0101-alarmID=0x08132154-clearType=service_resume;The alarm on optical module not certified by Huawei Ethernet Switch was clearned.(EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=145920, Reason=The alarm on optical module not certified by Huawei Ethernet Switch does not exist on this inteface.)
+Feb  2 2026 16:16:28 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:16:08 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:16:04 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:16:04 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:16:03 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:59 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:15:59 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:57 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 16:15:57 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:54 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:15:50 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:15:50 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 16:15:50 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:49 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 16:15:49 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:45 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:15:41 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:15:41 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 16:15:41 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:36 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:36 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:15:36 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:35 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:33 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:15:33 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:15:25 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 16:15:25 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:14:33 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_active(l):CID=0x80fc0101-alarmID=0x08132154;The optical module was not certified by Huawei Ethernet Switch.(EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=145920, Reason=It has been observed that a transceiver has been installed that is not certified by Huawei Ethernet Switch. Huawei cannot ensure that it is completely adaptive and will not cause any adverse effects.If it is continued to be used, Huawei is not obligated to provide support to remedy defects or faults arising out of or resulting from installing and using of the non-certified transceiver.)
+Feb  2 2026 16:13:48 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:13:43 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:13:43 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:13:43 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_clear(l):CID=0x80fc0101-alarmID=0x08132154-clearType=service_resume;The alarm on optical module not certified by Huawei Ethernet Switch was clearned.(EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=145920, Reason=The alarm on optical module not certified by Huawei Ethernet Switch does not exist on this inteface.)
+Feb  2 2026 16:13:43 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:11:35 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:11:31 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 16:11:31 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:11:31 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:30 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:30 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:11:30 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:29 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:28 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:27 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:27 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:11:27 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:26 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 16:11:26 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:11:24 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_active(l):CID=0x80fc0101-alarmID=0x08132154;The optical module was not certified by Huawei Ethernet Switch.(EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=145920, Reason=It has been observed that a transceiver has been installed that is not certified by Huawei Ethernet Switch. Huawei cannot ensure that it is completely adaptive and will not cause any adverse effects.If it is continued to be used, Huawei is not obligated to provide support to remedy defects or faults arising out of or resulting from installing and using of the non-certified transceiver.)
+Feb  2 2026 16:11:17 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_active(l):CID=0x80fc0101-alarmID=0x08132154;The optical module was not certified by Huawei Ethernet Switch.(EntPhysicalIndex=16850204, EntPhysicalName=25GE1/0/27, EntityTrapFaultID=145920, Reason=It has been observed that a transceiver has been installed that is not certified by Huawei Ethernet Switch. Huawei cannot ensure that it is completely adaptive and will not cause any adverse effects.If it is continued to be used, Huawei is not obligated to provide support to remedy defects or faults arising out of or resulting from installing and using of the non-certified transceiver.)
+Feb  2 2026 16:09:45 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:09:45 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:09:44 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:09:34 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:09:34 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 16:09:34 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:09:23 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850216, EntPhysicalName=25GE1/0/39, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:09:14 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850216, EntPhysicalName=25GE1/0/39, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:08:30 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850216, EntPhysicalName=25GE1/0/39, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:08:21 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_clear(l):CID=0x80fc0101-alarmID=0x08132154-clearType=service_resume;The alarm on optical module not certified by Huawei Ethernet Switch was clearned.(EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=145920, Reason=The alarm on optical module not certified by Huawei Ethernet Switch does not exist on this inteface.)
+Feb  2 2026 16:08:21 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:08:17 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850216, EntPhysicalName=25GE1/0/39, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:08:01 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalUnAuthorized_active(l):CID=0x80fc0101-alarmID=0x08132154;The optical module was not certified by Huawei Ethernet Switch.(EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=145920, Reason=It has been observed that a transceiver has been installed that is not certified by Huawei Ethernet Switch. Huawei cannot ensure that it is completely adaptive and will not cause any adverse effects.If it is continued to be used, Huawei is not obligated to provide support to remedy defects or faults arising out of or resulting from installing and using of the non-certified transceiver.)
+Feb  2 2026 16:07:47 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:07:40 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850217, EntPhysicalName=25GE1/0/40, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:06:25 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:06:21 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 16:06:21 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 16:06:20 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:06:20 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:06:06 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850220, EntPhysicalName=25GE1/0/43, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:06:00 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=53, IfName=25GE1/0/41)
+Feb  2 2026 16:06:00 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:05:51 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Feb  2 2026 16:05:51 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Feb  2 2026 16:05:50 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850219, EntPhysicalName=25GE1/0/42, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:05:45 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850219, EntPhysicalName=25GE1/0/42, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 16:05:45 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=54, IfName=25GE1/0/42)
+Feb  2 2026 16:05:45 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=54, IfName=25GE1/0/42)
+Feb  2 2026 16:05:17 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:05:17 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:05:17 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850204, EntPhysicalName=25GE1/0/27, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 16:05:10 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:05:10 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 16:05:09 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850204, EntPhysicalName=25GE1/0/27, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 15:55:24 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/28, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/28)
+Feb  2 2026 15:55:24 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:55:24 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:55:20 JZ406-B16-CE6865-2 %%01MSTP/4/MSTPLOG_PROLOOPBACK_DETECTED(l):CID=0x80542725;The MSTP process's port has been set to discarding state because of detecting loopback. (ProcessID=0, InstanceID=0, PortID=36, IfIndex=40, PortName=25GE1/0/28, PwName=-)
+Feb  2 2026 15:55:20 JZ406-B16-CE6865-2 %%01MSTP/4/PROLOOPBACK_DETECTED(l):CID=0x80542725;The MSTP process's port has been set to discarding state because of detecting loopback. (ProcessID=0, InstanceID=0, PortID1=40, PortID2=0, PortID3=0, PortID4=0, PortIDFlag=0, PortState=2, IfIndex=40, PortName=25GE1/0/28, PwName=-)
+Feb  2 2026 15:55:20 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=40, IfIndex=40, PortName=25GE1/0/28, PwName=-)
+Feb  2 2026 15:55:19 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/28, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/28)
+Feb  2 2026 15:55:19 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:55:19 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:55:10 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:55:10 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:55:10 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 15:55:05 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850220, EntPhysicalName=25GE1/0/43, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 15:54:55 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:54:55 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=40, IfName=25GE1/0/28)
+Feb  2 2026 15:54:54 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 15:54:52 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=53, IfName=25GE1/0/41)
+Feb  2 2026 15:54:51 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 15:54:06 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/27)
+Feb  2 2026 15:54:06 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 15:54:06 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=39, IfName=25GE1/0/27)
+Feb  2 2026 15:54:01 JZ406-B16-CE6865-2 %%01MSTP/4/MSTPLOG_PROLOOPBACK_DETECTED(l):CID=0x80542725;The MSTP process's port has been set to discarding state because of detecting loopback. (ProcessID=0, InstanceID=0, PortID=35, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 15:54:01 JZ406-B16-CE6865-2 %%01MSTP/4/PROLOOPBACK_DETECTED(l):CID=0x80542725;The MSTP process's port has been set to discarding state because of detecting loopback. (ProcessID=0, InstanceID=0, PortID1=39, PortID2=0, PortID3=0, PortID4=0, PortIDFlag=0, PortState=2, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 15:54:00 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=39, IfIndex=39, PortName=25GE1/0/27, PwName=-)
+Feb  2 2026 15:54:00 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/27, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/27)
+Feb  2 2026 15:53:51 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850204, EntPhysicalName=25GE1/0/27, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Feb  2 2026 15:53:12 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850204, EntPhysicalName=25GE1/0/27, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Feb  2 2026 07:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251217225512.pads.zip)
+Jan 31 2026 22:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260110154012.log.zip)
+Jan 31 2026 10:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251216022512.pads.zip)
+Jan 29 2026 20:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260108114012.log.zip)
+Jan 29 2026 14:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251214055512.pads.zip)
+Jan 27 2026 17:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251212092512.pads.zip)
+Jan 27 2026 17:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260106074012.log.zip)
+Jan 25 2026 21:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251210125512.pads.zip)
+Jan 25 2026 13:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260104034012.log.zip)
+Jan 24 2026 00:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251208162512.pads.zip)
+Jan 23 2026 10:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260101234012.log.zip)
+Jan 22 2026 04:25:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251206195512.pads.zip)
+Jan 21 2026 07:40:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251230194012.log.zip)
+Jan 20 2026 19:17:06 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=53, IfName=25GE1/0/41)
+Jan 20 2026 19:17:06 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jan 20 2026 19:16:59 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=53, IfName=25GE1/0/41)
+Jan 20 2026 19:16:59 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jan 20 2026 19:16:43 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=53, IfName=25GE1/0/41)
+Jan 20 2026 19:16:42 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jan 20 2026 19:16:35 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=53, IfName=25GE1/0/41)
+Jan 20 2026 19:16:35 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jan 20 2026 18:54:02 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:54:02 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:54:01 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850219, EntPhysicalName=25GE1/0/42, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jan 20 2026 18:53:54 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:53:54 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:53:53 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850219, EntPhysicalName=25GE1/0/42, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jan 20 2026 18:53:32 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=53, IfName=25GE1/0/41)
+Jan 20 2026 18:34:25 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Jan 20 2026 18:34:25 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Jan 20 2026 18:34:24 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jan 20 2026 18:34:06 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=40, IfName=25GE1/0/28)
+Jan 20 2026 18:34:06 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=40, IfName=25GE1/0/28)
+Jan 20 2026 18:34:06 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850205, EntPhysicalName=25GE1/0/28, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jan 20 2026 18:16:23 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jan 20 2026 18:15:49 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jan 20 2026 18:13:24 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:13:24 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:13:24 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850219, EntPhysicalName=25GE1/0/42, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jan 20 2026 18:12:55 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:12:55 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=54, IfName=25GE1/0/42)
+Jan 20 2026 18:12:54 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850219, EntPhysicalName=25GE1/0/42, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jan 20 2026 07:55:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251204232512.pads.zip)
+Jan 19 2026 17:47:19 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jan 19 2026 17:47:06 JZ406-B16-CE6865-2 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850218, EntPhysicalName=25GE1/0/41, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jan 19 2026 16:58:22 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Jan 19 2026 16:58:22 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=40, IfName=25GE1/0/28)
+Jan 19 2026 05:10:13 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251228151012.log.zip)
+Jan 18 2026 11:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251203025512.pads.zip)
+Jan 17 2026 01:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251226111012.log.zip)
+Jan 16 2026 14:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251201062512.pads.zip)
+Jan 16 2026 11:37:24 JZ406-B16-CE6865-2 %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Jan 16 2026 11:37:24 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=54, IfName=25GE1/0/42)
+Jan 15 2026 11:26:07 JZ406-B16-CE6865-2 %%01TTY/4/TTY_LOGINFAILED(s):CID=0x809003ec;Failed to login. (Ip=**, UserName=**, Times=2, AccessType=CON, VpnName=)
+Jan 14 2026 21:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251224071012.log.zip)
+Jan 14 2026 18:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251129095512.pads.zip)
+Jan 12 2026 21:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251127135512.pads.zip)
+Jan 12 2026 17:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251222031012.log.zip)
+Jan 11 2026 01:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251125172512.pads.zip)
+Jan 10 2026 13:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251219231012.log.zip)
+Jan  9 2026 04:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251123205512.pads.zip)
+Jan  8 2026 09:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251217184012.log.zip)
+Jan  7 2026 08:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251122002512.pads.zip)
+Jan  6 2026 05:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251215141012.log.zip)
+Jan  5 2026 11:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251120035512.pads.zip)
+Jan  4 2026 01:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251213094012.log.zip)
+Jan  3 2026 15:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251118072512.pads.zip)
+Jan  1 2026 20:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251211034012.log.zip)
+Jan  1 2026 18:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251116105512.pads.zip)
+Dec 30 2025 22:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251114142512.pads.zip)
+Dec 30 2025 17:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251208224012.log.zip)
+Dec 29 2025 01:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251112175511.pads.zip)
+Dec 28 2025 12:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251206174012.log.zip)
+Dec 27 2025 05:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251110212512.pads.zip)
+Dec 26 2025 08:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251204121012.log.zip)
+Dec 25 2025 08:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251109005512.pads.zip)
+Dec 24 2025 04:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251202074012.log.zip)
+Dec 23 2025 12:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251107042512.pads.zip)
+Dec 22 2025 00:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251130024012.log.zip)
+Dec 21 2025 15:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251105075511.pads.zip)
+Dec 19 2025 21:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251127213747.log.zip)
+Dec 19 2025 19:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251103112511.pads.zip)
+Dec 19 2025 16:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251101145511.pads.zip)
+Dec 18 2025 06:12:03 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.192, VpnName=_public_, BlockCount=1).
+Dec 17 2025 20:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251030182511.pads.zip)
+Dec 17 2025 16:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251125171012.log.zip)
+Dec 16 2025 00:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251028215511.pads.zip)
+Dec 15 2025 11:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251123121012.log.zip)
+Dec 14 2025 03:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251027012511.pads.zip)
+Dec 13 2025 06:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251121074012.log.zip)
+Dec 12 2025 06:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251025045511.pads.zip)
+Dec 11 2025 01:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251119021012.log.zip)
+Dec  8 2025 20:35:04 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251116211012.log.zip)
+Dec  8 2025 16:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251023082511.pads.zip)
+Dec  8 2025 13:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251021115511.pads.zip)
+Dec  6 2025 15:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251114161012.log.zip)
+Dec  4 2025 23:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251019152511.pads.zip)
+Dec  4 2025 20:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251017185511.pads.zip)
+Dec  4 2025 13:08:30 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Dec  4 2025 10:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251112111012.log.zip)
+Dec  2 2025 23:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251015222511.pads.zip)
+Dec  2 2025 05:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251110054012.log.zip)
+Dec  1 2025 03:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251014015511.pads.zip)
+Nov 30 2025 00:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251108004012.log.zip)
+Nov 29 2025 07:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251012052511.pads.zip)
+Nov 28 2025 20:42:47 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Nov 27 2025 20:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251105194011.log.zip)
+Nov 27 2025 11:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251010085511.pads.zip)
+Nov 27 2025 04:39:46 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.201, VpnName=_public_, BlockCount=1).
+Nov 25 2025 15:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251008122511.pads.zip)
+Nov 25 2025 14:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251103144011.log.zip)
+Nov 24 2025 22:41:32 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Nov 23 2025 19:43:21 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Nov 23 2025 18:49:48 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251006155511.pads.zip)
+Nov 23 2025 10:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251101101011.log.zip)
+Nov 21 2025 22:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251004192511.pads.zip)
+Nov 21 2025 05:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251030054011.log.zip)
+Nov 20 2025 01:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251002225511.pads.zip)
+Nov 18 2025 23:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251028004011.log.zip)
+Nov 18 2025 05:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251001022511.pads.zip)
+Nov 16 2025 18:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251025201011.log.zip)
+Nov 16 2025 08:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250929055511.pads.zip)
+Nov 14 2025 13:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251023144011.log.zip)
+Nov 14 2025 12:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250927092511.pads.zip)
+Nov 12 2025 15:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250925125511.pads.zip)
+Nov 12 2025 09:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251021095742.log.zip)
+Nov 10 2025 19:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250923162511.pads.zip)
+Nov 10 2025 03:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251019044011.log.zip)
+Nov  8 2025 22:55:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250921202511.pads.zip)
+Nov  7 2025 21:40:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251017001011.log.zip)
+Nov  7 2025 02:25:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250920002511.pads.zip)
+Nov  5 2025 17:10:12 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251014201011.log.zip)
+Nov  5 2025 05:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250918042511.pads.zip)
+Nov  3 2025 12:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251012154011.log.zip)
+Nov  1 2025 14:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250916075511.pads.zip)
+Nov  1 2025 08:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251010114011.log.zip)
+Oct 30 2025 18:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250914115511.pads.zip)
+Oct 30 2025 16:38:33 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=28, IfIndex=28, PortName=25GE1/0/16, PwName=-)
+Oct 30 2025 16:38:29 JZ406-B16-CE6865-2 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=28, IfIndex=28, PortName=25GE1/0/16, PwName=-)
+Oct 30 2025 16:38:29 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/16, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/16)
+Oct 30 2025 16:38:29 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=28, IfName=25GE1/0/16)
+Oct 30 2025 16:38:13 JZ406-B16-CE6865-2 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/16, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/16)
+Oct 30 2025 16:38:13 JZ406-B16-CE6865-2 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=28, IfName=25GE1/0/16)
+Oct 30 2025 15:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250912155511.pads.zip)
+Oct 30 2025 03:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251008071011.log.zip)
+Oct 29 2025 16:02:17 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Oct 27 2025 22:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251006021011.log.zip)
+Oct 27 2025 01:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250910195511.pads.zip)
+Oct 26 2025 22:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250908232511.pads.zip)
+Oct 25 2025 17:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251003231011.log.zip)
+Oct 25 2025 02:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250907025511.pads.zip)
+Oct 23 2025 12:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251001203618.log.zip)
+Oct 23 2025 05:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250905062511.pads.zip)
+Oct 21 2025 08:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250929174011.log.zip)
+Oct 19 2025 15:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250903095511.pads.zip)
+Oct 19 2025 02:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250927144011.log.zip)
+Oct 17 2025 18:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250901132511.pads.zip)
+Oct 17 2025 16:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250830165511.pads.zip)
+Oct 16 2025 22:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250925111011.log.zip)
+Oct 14 2025 17:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250923091011.log.zip)
+Oct 14 2025 01:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250828202511.pads.zip)
+Oct 14 2025 01:48:45 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Oct 12 2025 13:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250921061011.log.zip)
+Oct 12 2025 05:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250826234726.pads.zip)
+Oct 10 2025 13:58:16 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.188, VpnName=_public_, BlockCount=1).
+Oct 10 2025 09:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250919031011.log.zip)
+Oct 10 2025 08:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250825032511.pads.zip)
+Oct  8 2025 12:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250823065511.pads.zip)
+Oct  8 2025 05:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250916234011.log.zip)
+Oct  6 2025 15:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250821102511.pads.zip)
+Oct  6 2025 00:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250914211011.log.zip)
+Oct  4 2025 19:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250819135510.pads.zip)
+Oct  3 2025 21:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250912181011.log.zip)
+Oct  2 2025 22:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250817172510.pads.zip)
+Oct  1 2025 18:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250910151011.log.zip)
+Oct  1 2025 02:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250815205510.pads.zip)
+Sep 29 2025 15:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250908124011.log.zip)
+Sep 29 2025 05:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250814002510.pads.zip)
+Sep 27 2025 12:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250906092747.log.zip)
+Sep 27 2025 09:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250812042510.pads.zip)
+Sep 25 2025 12:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250810075510.pads.zip)
+Sep 25 2025 09:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250904064011.log.zip)
+Sep 23 2025 19:18:32 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Sep 23 2025 16:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250808112510.pads.zip)
+Sep 23 2025 06:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250902031011.log.zip)
+Sep 22 2025 12:16:18 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Sep 21 2025 20:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250806152510.pads.zip)
+Sep 21 2025 03:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250830234011.log.zip)
+Sep 19 2025 23:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250804192226.pads.zip)
+Sep 19 2025 00:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250828202529.log.zip)
+Sep 18 2025 03:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250802225510.pads.zip)
+Sep 16 2025 21:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250826164011.log.zip)
+Sep 16 2025 07:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250801022510.pads.zip)
+Sep 14 2025 19:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250824124011.log.zip)
+Sep 14 2025 11:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250730055510.pads.zip)
+Sep 12 2025 16:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250822094011.log.zip)
+Sep 12 2025 15:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250728092510.pads.zip)
+Sep 11 2025 15:36:09 JZ406-B16-CE6865-2 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=2).
+Sep 10 2025 19:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250726125510.pads.zip)
+Sep 10 2025 13:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250820061011.log.zip)
+Sep  8 2025 22:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250724162510.pads.zip)
+Sep  8 2025 10:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250818014010.log.zip)
+Sep  7 2025 02:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250722195510.pads.zip)
+Sep  6 2025 08:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250815221010.log.zip)
+Sep  5 2025 05:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250720232510.pads.zip)
+Sep  4 2025 04:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250813191010.log.zip)
+Sep  3 2025 09:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250719025510.pads.zip)
+Sep  2 2025 01:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250811154010.log.zip)
+Sep  1 2025 12:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250717072510.pads.zip)
+Aug 30 2025 20:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250809114010.log.zip)
+Aug 30 2025 16:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250715105510.pads.zip)
+Aug 28 2025 19:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250713142510.pads.zip)
+Aug 28 2025 18:10:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250807084010.log.zip)
+Aug 26 2025 23:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250711175510.pads.zip)
+Aug 26 2025 13:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250805054010.log.zip)
+Aug 25 2025 02:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250709212510.pads.zip)
+Aug 24 2025 09:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250803021010.log.zip)
+Aug 23 2025 06:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250708005510.pads.zip)
+Aug 22 2025 06:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250731224010.log.zip)
+Aug 21 2025 18:39:43 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 21 2025 18:33:46 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 21 2025 09:55:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250706042510.pads.zip)
+Aug 20 2025 02:40:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250729194010.log.zip)
+Aug 19 2025 12:55:10 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250704075510.pads.zip)
+Aug 17 2025 22:10:10 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250727161010.log.zip)
+Aug 17 2025 16:25:11 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250702112510.pads.zip)
+Aug 15 2025 19:55:10 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250630145510.pads.zip)
+Aug 15 2025 19:40:10 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250725131010.log.zip)
+Aug 15 2025 16:49:50 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 15 2025 16:43:46 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 15 2025 16:21:46 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 15 2025 16:09:46 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 19:17:20 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 19:05:20 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 18:53:20 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 18:35:11 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 18:27:20 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 16:59:20 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 12:49:08 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 11:39:07 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 11:17:07 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 11:07:07 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 10:57:07 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 14 2025 10:33:09 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 23:25:10 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250628182510.pads.zip)
+Aug 13 2025 18:58:45 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 18:36:45 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 18:30:42 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 16:40:39 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 16:22:41 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 16:10:10 JZ406-B16-CE6865-2 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250723094010.log.zip)
+Aug 13 2025 15:58:36 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 15:18:32 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 14:52:32 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 12:46:33 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 11:22:27 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 11:16:27 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 13 2025 10:38:25 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 18:53:50 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 17:37:52 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 17:27:49 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 16:49:47 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 16:41:47 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 16:11:47 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 15:55:43 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 15:45:49 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 13:47:41 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 13:37:50 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 13:03:44 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 12:53:41 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 12:47:41 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 12:41:41 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 12:25:38 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 11:23:40 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f0433-alarmID=0x0962201c;The interface has packets dropped.(Interface=25GE1/0/45, QueueId=0, SlotId=1)
+Aug 12 2025 11:13:37 JZ406-B16-CE6865-2 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f0433-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=25GE1/0/45, QueueId=0, SlotId=1)

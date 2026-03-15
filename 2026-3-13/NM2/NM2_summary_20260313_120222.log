@@ -1,0 +1,252 @@
+NetMgmt-2 daily check started: 2026/3/13 12:02:22
+Log directory: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2
+========================================================================
+[2026/3/13 12:02:22] Start tab: LS-NMS-HJ-OUTSIDE-SW-01-H3C detected prompt: <LS-NMS-HJ-OUTSIDE-SW-01>
+[2026/3/13 12:02:22] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display version
+[2026/3/13 12:02:22] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display device
+[2026/3/13 12:02:22] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display startup
+[2026/3/13 12:02:22] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display cpu-usage
+[2026/3/13 12:02:22] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display memory-usage
+[2026/3/13 12:02:22] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display interface brief
+[2026/3/13 12:02:23] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display ip interface brief
+[2026/3/13 12:02:24] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display current-configuration
+[2026/3/13 12:02:26] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display ip routing-table
+[2026/3/13 12:02:30] LS-NMS-HJ-OUTSIDE-SW-01-H3C run command: display logbuffer
+[2026/3/13 12:02:31] Tab finished: LS-NMS-HJ-OUTSIDE-SW-01-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_LS-NMS-HJ-OUTSIDE-SW-01-H3C_20260313_120222.log
+------------------------------------------------------------------------
+[2026/3/13 12:02:31] Start tab: LS-NMS-HJ-OUTSIDE-SW-02-H3C detected prompt: <LS-NMS-HJ-OUTSIDE-SW-02>
+[2026/3/13 12:02:31] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display version
+[2026/3/13 12:02:31] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display device
+[2026/3/13 12:02:31] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display startup
+[2026/3/13 12:02:31] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display cpu-usage
+[2026/3/13 12:02:31] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display memory-usage
+[2026/3/13 12:02:31] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display interface brief
+[2026/3/13 12:02:32] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display ip interface brief
+[2026/3/13 12:02:32] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display current-configuration
+[2026/3/13 12:02:34] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display ip routing-table
+[2026/3/13 12:02:38] LS-NMS-HJ-OUTSIDE-SW-02-H3C run command: display logbuffer
+[2026/3/13 12:02:38] Tab finished: LS-NMS-HJ-OUTSIDE-SW-02-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_LS-NMS-HJ-OUTSIDE-SW-02-H3C_20260313_120231.log
+------------------------------------------------------------------------
+[2026/3/13 12:02:38] Start tab: LW-307-B10-SW01-HW detected prompt: <LW-307-B10-SW01>
+[2026/3/13 12:02:38] LW-307-B10-SW01-HW run command: display version
+[2026/3/13 12:02:38] LW-307-B10-SW01-HW run command: display device
+[2026/3/13 12:02:39] LW-307-B10-SW01-HW run command: display startup
+[2026/3/13 12:02:39] LW-307-B10-SW01-HW run command: display cpu-usage
+[2026/3/13 12:02:39] LW-307-B10-SW01-HW run command: display memory-usage
+[2026/3/13 12:02:39] LW-307-B10-SW01-HW run command: display interface brief
+[2026/3/13 12:02:39] LW-307-B10-SW01-HW run command: display ip interface brief
+[2026/3/13 12:02:40] LW-307-B10-SW01-HW run command: display current-configuration
+[2026/3/13 12:02:40] LW-307-B10-SW01-HW run command: display ip routing-table
+[2026/3/13 12:02:40] LW-307-B10-SW01-HW run command: display logbuffer
+[2026/3/13 12:02:41] Tab finished: LW-307-B10-SW01-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_LW-307-B10-SW01-HW_20260313_120238.log
+------------------------------------------------------------------------
+[2026/3/13 12:02:41] Start tab: QU-20-DPI SW01-HW detected prompt: <Qu-20-DPi sw01>
+[2026/3/13 12:02:41] QU-20-DPI SW01-HW run command: display version
+[2026/3/13 12:02:41] QU-20-DPI SW01-HW run command: display device
+[2026/3/13 12:02:41] QU-20-DPI SW01-HW run command: display startup
+[2026/3/13 12:02:42] QU-20-DPI SW01-HW run command: display cpu-usage
+[2026/3/13 12:02:42] QU-20-DPI SW01-HW run command: display memory-usage
+[2026/3/13 12:02:42] QU-20-DPI SW01-HW run command: display interface brief
+[2026/3/13 12:02:42] QU-20-DPI SW01-HW run command: display ip interface brief
+[2026/3/13 12:02:42] QU-20-DPI SW01-HW run command: display current-configuration
+[2026/3/13 12:02:44] QU-20-DPI SW01-HW run command: display ip routing-table
+[2026/3/13 12:02:44] QU-20-DPI SW01-HW run command: display logbuffer
+[2026/3/13 12:02:45] Tab finished: QU-20-DPI SW01-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QU-20-DPI_SW01-HW_20260313_120241.log
+------------------------------------------------------------------------
+[2026/3/13 12:02:46] Start tab: QU-20-DPI SW02-HW detected prompt: <Qu-20-DPi sw02>
+[2026/3/13 12:02:46] QU-20-DPI SW02-HW run command: display version
+[2026/3/13 12:02:46] QU-20-DPI SW02-HW run command: display device
+[2026/3/13 12:02:46] QU-20-DPI SW02-HW run command: display startup
+[2026/3/13 12:02:46] QU-20-DPI SW02-HW run command: display cpu-usage
+[2026/3/13 12:02:47] QU-20-DPI SW02-HW run command: display memory-usage
+[2026/3/13 12:02:47] QU-20-DPI SW02-HW run command: display interface brief
+[2026/3/13 12:02:48] QU-20-DPI SW02-HW run command: display ip interface brief
+[2026/3/13 12:02:48] QU-20-DPI SW02-HW run command: display current-configuration
+[2026/3/13 12:02:50] QU-20-DPI SW02-HW run command: display ip routing-table
+[2026/3/13 12:02:50] QU-20-DPI SW02-HW run command: display logbuffer
+[2026/3/13 12:02:52] Tab finished: QU-20-DPI SW02-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QU-20-DPI_SW02-HW_20260313_120246.log
+------------------------------------------------------------------------
+[2026/3/13 12:02:52] Start tab: QUIDWAY_1-HW detected prompt: <Quidway>
+[2026/3/13 12:02:52] QUIDWAY_1-HW run command: display version
+[2026/3/13 12:02:52] QUIDWAY_1-HW run command: display device
+[2026/3/13 12:02:52] QUIDWAY_1-HW run command: display startup
+[2026/3/13 12:02:52] QUIDWAY_1-HW run command: display cpu-usage
+[2026/3/13 12:02:52] QUIDWAY_1-HW run command: display memory-usage
+[2026/3/13 12:02:53] QUIDWAY_1-HW run command: display interface brief
+[2026/3/13 12:02:54] QUIDWAY_1-HW run command: display ip interface brief
+[2026/3/13 12:02:54] QUIDWAY_1-HW run command: display current-configuration
+[2026/3/13 12:02:56] QUIDWAY_1-HW run command: display ip routing-table
+[2026/3/13 12:02:56] QUIDWAY_1-HW run command: display logbuffer
+[2026/3/13 12:02:56] Tab finished: QUIDWAY_1-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QUIDWAY_1-HW_20260313_120252.log
+------------------------------------------------------------------------
+[2026/3/13 12:02:56] Start tab: QUIDWAY_2-HW detected prompt: <Quidway>
+[2026/3/13 12:02:57] QUIDWAY_2-HW run command: display version
+[2026/3/13 12:02:57] QUIDWAY_2-HW run command: display device
+[2026/3/13 12:02:57] QUIDWAY_2-HW run command: display startup
+[2026/3/13 12:02:57] QUIDWAY_2-HW run command: display cpu-usage
+[2026/3/13 12:02:57] QUIDWAY_2-HW run command: display memory-usage
+[2026/3/13 12:02:57] QUIDWAY_2-HW run command: display interface brief
+[2026/3/13 12:02:58] QUIDWAY_2-HW run command: display ip interface brief
+[2026/3/13 12:02:58] QUIDWAY_2-HW run command: display current-configuration
+[2026/3/13 12:03:01] QUIDWAY_2-HW run command: display ip routing-table
+[2026/3/13 12:03:01] QUIDWAY_2-HW run command: display logbuffer
+[2026/3/13 12:03:04] Tab finished: QUIDWAY_2-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QUIDWAY_2-HW_20260313_120256.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:04] Start tab: QUIDWAY_3-HW detected prompt: <Quidway>
+[2026/3/13 12:03:04] QUIDWAY_3-HW run command: display version
+[2026/3/13 12:03:04] QUIDWAY_3-HW run command: display device
+[2026/3/13 12:03:04] QUIDWAY_3-HW run command: display startup
+[2026/3/13 12:03:04] QUIDWAY_3-HW run command: display cpu-usage
+[2026/3/13 12:03:04] QUIDWAY_3-HW run command: display memory-usage
+[2026/3/13 12:03:05] QUIDWAY_3-HW run command: display interface brief
+[2026/3/13 12:03:08] QUIDWAY_3-HW run command: display ip interface brief
+[2026/3/13 12:03:08] QUIDWAY_3-HW run command: display current-configuration
+[2026/3/13 12:03:10] QUIDWAY_3-HW run command: display ip routing-table
+[2026/3/13 12:03:10] QUIDWAY_3-HW run command: display logbuffer
+[2026/3/13 12:03:12] Tab finished: QUIDWAY_3-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QUIDWAY_3-HW_20260313_120304.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:12] Start tab: QUIDWAY_4-HW detected prompt: <Quidway>
+[2026/3/13 12:03:12] QUIDWAY_4-HW run command: display version
+[2026/3/13 12:03:12] QUIDWAY_4-HW run command: display device
+[2026/3/13 12:03:12] QUIDWAY_4-HW run command: display startup
+[2026/3/13 12:03:13] QUIDWAY_4-HW run command: display cpu-usage
+[2026/3/13 12:03:13] QUIDWAY_4-HW run command: display memory-usage
+[2026/3/13 12:03:13] QUIDWAY_4-HW run command: display interface brief
+[2026/3/13 12:03:16] QUIDWAY_4-HW run command: display ip interface brief
+[2026/3/13 12:03:16] QUIDWAY_4-HW run command: display current-configuration
+[2026/3/13 12:03:18] QUIDWAY_4-HW run command: display ip routing-table
+[2026/3/13 12:03:18] QUIDWAY_4-HW run command: display logbuffer
+[2026/3/13 12:03:19] Tab finished: QUIDWAY_4-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QUIDWAY_4-HW_20260313_120312.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:19] Start tab: QUIDWAY_5-HW detected prompt: <Quidway>
+[2026/3/13 12:03:19] QUIDWAY_5-HW run command: display version
+[2026/3/13 12:03:19] QUIDWAY_5-HW run command: display device
+[2026/3/13 12:03:19] QUIDWAY_5-HW run command: display startup
+[2026/3/13 12:03:20] QUIDWAY_5-HW run command: display cpu-usage
+[2026/3/13 12:03:20] QUIDWAY_5-HW run command: display memory-usage
+[2026/3/13 12:03:20] QUIDWAY_5-HW run command: display interface brief
+[2026/3/13 12:03:20] QUIDWAY_5-HW run command: display ip interface brief
+[2026/3/13 12:03:21] QUIDWAY_5-HW run command: display current-configuration
+[2026/3/13 12:03:22] QUIDWAY_5-HW run command: display ip routing-table
+[2026/3/13 12:03:23] QUIDWAY_5-HW run command: display logbuffer
+[2026/3/13 12:03:24] Tab finished: QUIDWAY_5-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QUIDWAY_5-HW_20260313_120319.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:24] Start tab: QUIDWAY_6-HW detected prompt: <Quidway>
+[2026/3/13 12:03:24] QUIDWAY_6-HW run command: display version
+[2026/3/13 12:03:24] QUIDWAY_6-HW run command: display device
+[2026/3/13 12:03:24] QUIDWAY_6-HW run command: display startup
+[2026/3/13 12:03:24] QUIDWAY_6-HW run command: display cpu-usage
+[2026/3/13 12:03:25] QUIDWAY_6-HW run command: display memory-usage
+[2026/3/13 12:03:25] QUIDWAY_6-HW run command: display interface brief
+[2026/3/13 12:03:25] QUIDWAY_6-HW run command: display ip interface brief
+[2026/3/13 12:03:25] QUIDWAY_6-HW run command: display current-configuration
+[2026/3/13 12:03:27] QUIDWAY_6-HW run command: display ip routing-table
+[2026/3/13 12:03:27] QUIDWAY_6-HW run command: display logbuffer
+[2026/3/13 12:03:28] Tab finished: QUIDWAY_6-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_QUIDWAY_6-HW_20260313_120324.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:28] Start tab: XZ-JZ406-HX-SW1-HW detected prompt: <xz-jz406-HX-sw1>
+[2026/3/13 12:03:28] XZ-JZ406-HX-SW1-HW run command: display version
+[2026/3/13 12:03:29] XZ-JZ406-HX-SW1-HW run command: display device
+[2026/3/13 12:03:29] XZ-JZ406-HX-SW1-HW run command: display startup
+[2026/3/13 12:03:29] XZ-JZ406-HX-SW1-HW run command: display cpu-usage
+[2026/3/13 12:03:29] XZ-JZ406-HX-SW1-HW run command: display memory-usage
+[2026/3/13 12:03:29] XZ-JZ406-HX-SW1-HW run command: display interface brief
+[2026/3/13 12:03:29] XZ-JZ406-HX-SW1-HW run command: display ip interface brief
+[2026/3/13 12:03:30] XZ-JZ406-HX-SW1-HW run command: display current-configuration
+[2026/3/13 12:03:30] XZ-JZ406-HX-SW1-HW run command: display ip routing-table
+[2026/3/13 12:03:30] XZ-JZ406-HX-SW1-HW run command: display logbuffer
+[2026/3/13 12:03:31] Tab finished: XZ-JZ406-HX-SW1-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ-JZ406-HX-SW1-HW_20260313_120328.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:31] Start tab: XZ-YD-4F-XINLING-S9312-1-HW detected prompt: <XZ-YD-4F-XinLing-s9312-1>
+[2026/3/13 12:03:31] XZ-YD-4F-XINLING-S9312-1-HW run command: display version
+[2026/3/13 12:03:31] XZ-YD-4F-XINLING-S9312-1-HW run command: display device
+[2026/3/13 12:03:31] XZ-YD-4F-XINLING-S9312-1-HW run command: display startup
+[2026/3/13 12:03:31] XZ-YD-4F-XINLING-S9312-1-HW run command: display cpu-usage
+[2026/3/13 12:03:32] XZ-YD-4F-XINLING-S9312-1-HW run command: display memory-usage
+[2026/3/13 12:03:32] XZ-YD-4F-XINLING-S9312-1-HW run command: display interface brief
+[2026/3/13 12:03:35] XZ-YD-4F-XINLING-S9312-1-HW run command: display ip interface brief
+[2026/3/13 12:03:35] XZ-YD-4F-XINLING-S9312-1-HW run command: display current-configuration
+[2026/3/13 12:03:39] XZ-YD-4F-XINLING-S9312-1-HW run command: display ip routing-table
+[2026/3/13 12:03:39] XZ-YD-4F-XINLING-S9312-1-HW run command: display logbuffer
+[2026/3/13 12:03:39] Tab finished: XZ-YD-4F-XINLING-S9312-1-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ-YD-4F-XINLING-S9312-1-HW_20260313_120331.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:39] Start tab: XZ-YD-4F-XINLING-S9312-2-HW detected prompt: <XZ-YD-4F-XinLing-s9312-2>
+[2026/3/13 12:03:39] XZ-YD-4F-XINLING-S9312-2-HW run command: display version
+[2026/3/13 12:03:40] XZ-YD-4F-XINLING-S9312-2-HW run command: display device
+[2026/3/13 12:03:40] XZ-YD-4F-XINLING-S9312-2-HW run command: display startup
+[2026/3/13 12:03:40] XZ-YD-4F-XINLING-S9312-2-HW run command: display cpu-usage
+[2026/3/13 12:03:40] XZ-YD-4F-XINLING-S9312-2-HW run command: display memory-usage
+[2026/3/13 12:03:40] XZ-YD-4F-XINLING-S9312-2-HW run command: display interface brief
+[2026/3/13 12:03:43] XZ-YD-4F-XINLING-S9312-2-HW run command: display ip interface brief
+[2026/3/13 12:03:43] XZ-YD-4F-XINLING-S9312-2-HW run command: display current-configuration
+[2026/3/13 12:03:47] XZ-YD-4F-XINLING-S9312-2-HW run command: display ip routing-table
+[2026/3/13 12:03:47] XZ-YD-4F-XINLING-S9312-2-HW run command: display logbuffer
+[2026/3/13 12:03:49] Tab finished: XZ-YD-4F-XINLING-S9312-2-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ-YD-4F-XINLING-S9312-2-HW_20260313_120339.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:50] Start tab: XZ.RKZ.MN.5530_1-H3C detected prompt: <XZ.RKZ.MN.5530_1>
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display version
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display device
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display startup
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display cpu-usage
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display memory-usage
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display interface brief
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display ip interface brief
+[2026/3/13 12:03:50] XZ.RKZ.MN.5530_1-H3C run command: display current-configuration
+[2026/3/13 12:03:51] XZ.RKZ.MN.5530_1-H3C run command: display ip routing-table
+[2026/3/13 12:03:51] XZ.RKZ.MN.5530_1-H3C run command: display logbuffer
+[2026/3/13 12:03:53] Tab finished: XZ.RKZ.MN.5530_1-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ.RKZ.MN.5530_1-H3C_20260313_120350.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:53] Start tab: XZ.SN.MN.H3C_5530_1-H3C detected prompt: <XZ.SN.MN.H3C_5530_1>
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display version
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display device
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display startup
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display cpu-usage
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display memory-usage
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display interface brief
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display ip interface brief
+[2026/3/13 12:03:53] XZ.SN.MN.H3C_5530_1-H3C run command: display current-configuration
+[2026/3/13 12:03:54] XZ.SN.MN.H3C_5530_1-H3C run command: display ip routing-table
+[2026/3/13 12:03:54] XZ.SN.MN.H3C_5530_1-H3C run command: display logbuffer
+[2026/3/13 12:03:55] Tab finished: XZ.SN.MN.H3C_5530_1-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ.SN.MN.H3C_5530_1-H3C_20260313_120353.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:55] Start tab: XZ.SN.MN.H3C_5530_2-H3C detected prompt: <XZ.SN.MN.H3C_5530_2>
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display version
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display device
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display startup
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display cpu-usage
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display memory-usage
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display interface brief
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display ip interface brief
+[2026/3/13 12:03:55] XZ.SN.MN.H3C_5530_2-H3C run command: display current-configuration
+[2026/3/13 12:03:56] XZ.SN.MN.H3C_5530_2-H3C run command: display ip routing-table
+[2026/3/13 12:03:56] XZ.SN.MN.H3C_5530_2-H3C run command: display logbuffer
+[2026/3/13 12:03:56] Tab finished: XZ.SN.MN.H3C_5530_2-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ.SN.MN.H3C_5530_2-H3C_20260313_120355.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:57] Start tab: XZ_CD_NMS_5530_2-H3C detected prompt: <XZ_CD_NMS_5530_2>
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display version
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display device
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display startup
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display cpu-usage
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display memory-usage
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display interface brief
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display ip interface brief
+[2026/3/13 12:03:57] XZ_CD_NMS_5530_2-H3C run command: display current-configuration
+[2026/3/13 12:03:58] XZ_CD_NMS_5530_2-H3C run command: display ip routing-table
+[2026/3/13 12:03:58] XZ_CD_NMS_5530_2-H3C run command: display logbuffer
+[2026/3/13 12:03:59] Tab finished: XZ_CD_NMS_5530_2-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ_CD_NMS_5530_2-H3C_20260313_120357.log
+------------------------------------------------------------------------
+[2026/3/13 12:03:59] Start tab: XZ_LZ_NMS_5530_1-H3C detected prompt: <XZ_LZ_NMS_5530_1>
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display version
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display device
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display startup
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display cpu-usage
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display memory-usage
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display interface brief
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display ip interface brief
+[2026/3/13 12:03:59] XZ_LZ_NMS_5530_1-H3C run command: display current-configuration
+[2026/3/13 12:04:00] XZ_LZ_NMS_5530_1-H3C run command: display ip routing-table
+[2026/3/13 12:04:00] XZ_LZ_NMS_5530_1-H3C run command: display logbuffer
+[2026/3/13 12:04:01] Tab finished: XZ_LZ_NMS_5530_1-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM2\NM2_XZ_LZ_NMS_5530_1-H3C_20260313_120359.log
+------------------------------------------------------------------------
+========================================================================
+NetMgmt-2 daily check finished: 2026/3/13 12:04:01

@@ -1,0 +1,2806 @@
+﻿<LSCE01BHW>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<LSCE01BHW>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.100 (NE40E V800R007C00SPC100)
+Copyright (C) 2012-2015 Huawei Technologies Co., Ltd.
+HUAWEI NE40E-X8A uptime is 2127 days, 12 hours, 26 minutes 
+Patch Version: V800R007SPH051
+
+NE40E-X8A version information:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BKP  version information:
+  PCB         Version : CR57BKP08F REV A
+  MPU  Slot  Quantity : 0
+  SRU  Slot  Quantity : 2
+  SFU  Slot  Quantity : 4
+  LPU  Slot  Quantity : 8
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+MPU version information:
+
+MPU (Master) 9 : uptime is 1109 days, 12 hours, 13 minutes
+  StartupTime 2023/02/28   00:06:30
+  SDRAM Memory Size   : 8192 M bytes
+  FLASH Memory Size   : 16 M bytes
+  NVRAM Memory Size   : 512 K bytes
+  CFCARD Memory Size  : 7681 M bytes
+  MPU CR5D0SRUA870 version information
+  PCB         Version : CR56RPUC REV D
+  EPLD        Version : 102
+  FRA version information
+  PCB         Version : CR57FRA1TA REV B
+  FPGA        Version : 008
+  BootROM     Version : 06.11
+  BootLoad    Version : 06.11
+  MonitorBUS version information:
+  Software    Version : 8.78
+
+MPU (Slave) 10 : uptime is 1109 days, 12 hours, 10 minutes
+  StartupTime 2023/02/28   00:09:30
+  SDRAM Memory Size   : 8192 M bytes
+  FLASH Memory Size   : 16 M bytes
+  NVRAM Memory Size   : 512 K bytes
+  CFCARD Memory Size  : 7681 M bytes
+  MPU CR5D0SRUA870 version information
+  PCB         Version : CR56RPUC REV D
+  EPLD        Version : 102
+  FRA version information
+  PCB         Version : CR57FRA1TA REV B
+  FPGA        Version : 008
+  BootROM     Version : 06.11
+  BootLoad    Version : 06.11
+  MonitorBUS version information:
+  Software    Version : 8.78
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+LPU/SPU version information:
+
+LPU 1 : uptime is 2127 days, 12 hours, 23 minutes
+  StartupTime 2020/05/16   00:12:19
+  Host processor :
+  SDRAM Memory Size   : 4096 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUF517E version information:
+  PCB Version         : CR57LPUF120A REV C
+  EPLD Version        : 100
+  FPGA Version        : 101
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.11
+  BootLoad Version    : 06.11
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D0EFGFA70 version information 
+  StartupTime         : 2020/05/16    00:12:34 
+  PCB Version         : CR57EFGFB REV A
+  FPGA Version        : 105
+  CHIP Version        : 110
+  BOM Version         : 000
+  PIC1:CR5D0EFGFA70 version information 
+  StartupTime         : 2020/05/16    00:12:44 
+  PCB Version         : CR57EFGFB REV A
+  FPGA Version        : 105
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 10.51
+  Configure license items:
+  NULL
+
+LPU 2 : uptime is 2127 days, 12 hours, 23 minutes
+  StartupTime 2020/05/16   00:12:20
+  Host processor :
+  SDRAM Memory Size   : 4096 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFB070 version information:
+  PCB Version         : CR57LPUF120A REV C
+  EPLD Version        : 100
+  FPGA Version        : 101
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.11
+  BootLoad Version    : 06.11
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D0L6XFA70 version information 
+  StartupTime         : 2020/05/16    00:12:43 
+  PCB Version         : CR57L6XFB REV A
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  PIC1:CR5D0L6XFA70 version information 
+  StartupTime         : 2020/05/16    00:12:33 
+  PCB Version         : CR57L6XFB REV A
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 10.51
+  Configure license items:
+  NULL
+
+LPU 3 : uptime is 2127 days, 12 hours, 23 minutes
+  StartupTime 2020/05/16   00:12:18
+  Host processor :
+  SDRAM Memory Size   : 4096 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFB070 version information:
+  PCB Version         : CR57LPUF120A REV C
+  EPLD Version        : 100
+  FPGA Version        : 101
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.11
+  BootLoad Version    : 06.11
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D0L6XFA70 version information 
+  StartupTime         : 2020/05/16    00:12:31 
+  PCB Version         : CR57L6XFB REV A
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  PIC1:CR5D0L6XFA70 version information 
+  StartupTime         : 2020/05/16    00:12:40 
+  PCB Version         : CR57L6XFB REV A
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 10.51
+  Configure license items:
+  NULL
+
+LPU 4 : uptime is 2127 days, 12 hours, 23 minutes
+  StartupTime 2020/05/16   00:12:14
+  Host processor :
+  SDRAM Memory Size   : 8192 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF070 version information:
+  PCB Version         : CR57LPUF240A REV E
+  EPLD Version        : 100
+  FPGA Version        : 101
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.11
+  BootLoad Version    : 06.11
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00LBXF71 version information 
+  StartupTime         : 2020/05/16    00:12:42 
+  PCB Version         : CR57LBXFB REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 10.51
+  Configure license items:
+  NULL
+
+LPU 5 : uptime is 1876 days, 12 hours, 22 minutes
+  StartupTime 2021/01/22   00:07:25
+  Host processor :
+  SDRAM Memory Size   : 8192 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF070 version information:
+  PCB Version         : CR57LPUF240A REV E
+  EPLD Version        : 100
+  FPGA Version        : 101
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.11
+  BootLoad Version    : 06.11
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00LBXF71 version information 
+  StartupTime         : 2021/01/22    00:08:43 
+  PCB Version         : CR57LBXFB REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  PIC1:CR5D00LBXF71 version information 
+  StartupTime         : 2021/01/22    00:08:49 
+  PCB Version         : CR57LBXFB REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 10.51
+  Configure license items:
+  NULL
+
+LPU 6 : uptime is 1876 days, 12 hours, 20 minutes
+  StartupTime 2021/01/22   00:09:47
+  Host processor :
+  SDRAM Memory Size   : 8192 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF070 version information:
+  PCB Version         : CR57LPUF240A REV E
+  EPLD Version        : 100
+  FPGA Version        : 101
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.11
+  BootLoad Version    : 06.11
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00LBXF71 version information 
+  StartupTime         : 2021/01/22    00:11:06 
+  PCB Version         : CR57LBXFB REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  PIC1:CR5D00LBXF71 version information 
+  StartupTime         : 2021/01/22    00:10:57 
+  PCB Version         : CR57LBXFB REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 10.51
+  Configure license items:
+  NULL
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+SFU version information:
+
+SFU 11 : uptime is 2127 days, 12 hours, 23 minutes
+  StartupTime 2020/05/16   00:12:20
+  SDRAM Memory Size   : 1024 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIM07C version information:
+  PCB         Version : CR57SFU1TC REV A
+  EPLD        Version : 103
+  BootROM     Version : 01.37
+  BootLoad    Version : 01.37
+  MonitorBUS version information:
+  Software Version : 10.51
+
+SFU 12 : uptime is 790 days, 12 hours, 10 minutes
+  StartupTime 2024/01/13   00:01:33
+  SDRAM Memory Size   : 1024 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIM07C version information:
+  PCB         Version : CR57SFU1TC REV A
+  EPLD        Version : 103
+  BootROM     Version : 01.37
+  BootLoad    Version : 01.37
+  MonitorBUS version information:
+  Software Version : 10.51
+
+SFU 13 : uptime is 1109 days, 12 hours, 13 minutes
+  StartupTime 2023/02/28   00:06:13
+  SDRAM Memory Size   : 1024 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5D0SRUA870 version information:
+  PCB         Version : CR57CTLA REV A
+  EPLD        Version : 103
+  BootROM     Version : 01.37
+  BootLoad    Version : 01.37
+  MonitorBUS version information:
+  Software Version : 8.78
+
+SFU 14 : uptime is 2127 days, 12 hours, 25 minutes
+  StartupTime 2020/05/16   00:10:03
+  SDRAM Memory Size   : 1024 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5D0SRUA870 version information:
+  PCB         Version : CR57CTLA REV A
+  EPLD        Version : 103
+  BootROM     Version : 01.37
+  BootLoad    Version : 01.37
+  MonitorBUS version information:
+  Software Version : 8.78
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CLK version information:
+
+Slot 15 : uptime is 1109 days, 12 hours, 13 minutes
+  StartupTime 2023/02/28   00:06:30
+  1. FPGA     Version : 002
+  2. DSP      Version : 221
+
+Slot 16 : uptime is 1109 days, 12 hours, 10 minutes
+  StartupTime 2023/02/28   00:09:30
+  1. FPGA     Version : 002
+  2. DSP      Version : 221
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Power version information: 
+
+POWER 17 MonitorBUS version information:
+  PM A1 version information:
+  PCB      Version : PHD-3000WA REV C
+  Software Version : 1.40
+  PM A2 version information:
+  PCB      Version : PHD-3000WA REV C
+  Software Version : 1.40
+  PM A3 version information:
+  PCB      Version : PHD-3000WA REV C
+  Software Version : 1.40
+  PM A4 version information:
+  PCB      Version : PHD-3000WA REV C
+  Software Version : 1.40
+
+POWER 18 MonitorBUS version information:
+  PM B1 version information:
+  PCB      Version : PHD-3000WA REV C
+  Software Version : 1.40
+  PM B2 version information:
+  PCB      Version : PHD-3000WA REV C
+  Software Version : 1.40
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+FAN version information: 
+
+FAN 19 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 1.8
+
+FAN 20 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 1.8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+PMU version information: 
+
+PMU 22 MonitorBUS version information:
+  PCB      Version : CR56PMUA REV A
+  Software Version : 1.38
+
+PMU 23 MonitorBUS version information:
+  PCB      Version : CR56PMUA REV A
+  Software Version : 1.38
+
+<LSCE01BHW>display device
+NE40E-X8A's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        LPU     Present    Registered   Normal     LC     0      NA           
+2        LPU     Present    Registered   Normal     LC     0      NA           
+3        LPU     Present    Registered   Normal     LC     0      NA           
+4        LPU     Present    Registered   Normal     LC     0      NA           
+5        LPU     Present    Registered   Normal     LC     0      NA           
+6        LPU     Present    Registered   Normal     LC     0      NA           
+9        MPU     Present    Registered   Normal     MMB    0      Master       
+10       MPU     Present    Registered   Normal     MMB    0      Slave        
+11       SFU     Present    Registered   Normal     OTHER  0      NA           
+12       SFU     Present    Registered   Normal     OTHER  0      NA           
+13       SFU     Present    Registered   Normal     OTHER  0      NA           
+14       SFU     Present    Registered   Normal     OTHER  0      NA           
+15       CLK     Present    Registered   Normal     OTHER  0      Master       
+16       CLK     Present    Registered   Normal     OTHER  0      Slave        
+17       PWR     Present    Registered   Abnormal   OTHER  0      NA           
+18       PWR     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+20       FAN     Present    Registered   Normal     OTHER  0      NA           
+22       PMU     Present    Registered   Normal     OTHER  0      Master       
+23       PMU     Present    Registered   Normal     OTHER  0      Slave        
+-------------------------------------------------------------------------------
+<LSCE01BHW>display cpu-usage
+Cpu utilization statistics at 2026-03-13 11:55:02 466 ms
+System cpu use rate is : 14%
+Cpu utilization for five seconds: 14% ;  one minute: 9% ;  five minutes: 7%.
+Max CPU Usage : 84%
+Max CPU Usage Stat. Time : 2023-02-28 00:06:54 314 ms
+---------------------------
+ServiceName  UseRate   
+---------------------------
+CMF              10%
+SYSTEM            4%
+AAA               0%
+ARP               0%
+DEVICE            0%
+DHCP              0%
+EUM               0%
+ETRUNK            0%
+FEA               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+ISIS              0%
+LINK              0%
+LOCAL PKT         0%
+MFLP              0%
+MSTP              0%
+ND                0%
+NETSTREAM         0%
+OAM               0%
+OSPF              0%
+PNP               0%
+PTPA              0%
+RBS               0%
+RGM               0%
+RM                0%
+SLA               0%
+SMLK              0%
+SVRO              0%
+TNLM              0%
+TUNNEL            0%
+VLAN              0%
+VRRP              0%
+---------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0        20%      20%      13%      10%  78% 2023-02-28 00:06:47
+cpu1        11%      11%       7%       6%  79% 2023-02-28 00:06:57
+cpu2        13%      13%       8%       6%  88% 2023-02-28 00:06:57
+cpu3        13%      13%       8%       6%  89% 2023-02-28 00:06:57
+----------------------------------------------------------------
+<LSCE01BHW>display memory-usage
+Memory utilization statistics at 2026-03-13 11:55:02 599 ms
+System Total Memory Is: 8120260 Kbytes
+Total Memory Used Is: 1223316 Kbytes
+Memory Using Percentage Is: 15%
+<LSCE01BHW>display memory all
+                          ^
+Error: Too many parameters found at '^' position.
+<LSCE01BHW>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(B): Bit-error-detection down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(lh): link heartbeat down
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Eth-Trunk0                  up    down      0.03%  0.03%       5010          0
+  GigabitEthernet2/0/2(10G) up    up        0.05%  0.02%          0          0
+  GigabitEthernet2/1/0(10G) up    up        0.03%  0.01%          0          0
+  GigabitEthernet2/1/5(10G) up    up        0.02%  0.01%          8          0
+  GigabitEthernet3/0/3(10G) up    up        0.02%  0.01%          0          0
+  GigabitEthernet3/0/4(10G) up    up        0.02%  0.01%          0          0
+  GigabitEthernet3/0/5(10G) up    up        0.02%  0.01%       5002          0
+  GigabitEthernet3/1/0(10G) up    up        0.02%  0.06%          0          0
+  GigabitEthernet4/0/0(10G) up    up        0.04%  0.01%          0          0
+  GigabitEthernet4/0/1(10G) up    up        0.02%  0.01%          0          0
+  GigabitEthernet4/0/2(10G) up    up        0.05%  0.01%          0          0
+  GigabitEthernet4/0/6(10G) up    up        0.05%  0.04%          0          0
+  GigabitEthernet4/0/7(10G) up    up        0.05%  0.02%          0          0
+  GigabitEthernet4/0/8(10G) up    up        0.04%  0.04%          0          0
+  GigabitEthernet6/1/0(10G) up    up        0.02%  0.08%          0          0
+  GigabitEthernet6/1/1(10G) up    up        0.02%  0.01%          0          0
+  GigabitEthernet6/1/2(10G) up    up        0.03%  0.02%          0          0
+  GigabitEthernet6/1/3(10G) up    up        0.02%  0.03%          0          0
+  GigabitEthernet6/1/4(10G) up    up        0.02%  0.02%          0          0
+  GigabitEthernet6/1/5(10G) up    up        0.02%  0.02%          0          0
+  GigabitEthernet6/1/6(10G) up    up        0.03%  0.10%          0          0
+  GigabitEthernet6/1/7(10G) up    up        0.03%  0.02%          0          0
+Eth-Trunk0.10               up    up           0%     0%          0          0
+Eth-Trunk0.1000             up    up           0%     0%          0          0
+Eth-Trunk0.1001             up    up           0%     0%          0          0
+Eth-Trunk1                  up    up        0.01%  0.01%          0          0
+  GigabitEthernet2/1/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet3/1/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/0(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/7(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/8(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/9(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/10(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/1/11(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/5(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk2                  up    up        0.02%  0.03%        221          0
+  GigabitEthernet1/0/5      up    up        0.02%  0.03%        221          0
+Eth-Trunk3                  up    up        0.02%  0.01%         11          0
+  GigabitEthernet1/0/9      up    up        0.02%  0.01%         11          0
+Eth-Trunk4                  down  down         0%     0%          0          0
+  GigabitEthernet1/0/1      down  down         0%     0%          0          0
+  GigabitEthernet1/0/3      down  down         0%     0%          0          0
+  GigabitEthernet1/0/7      down  down         0%     0%          0          0
+  GigabitEthernet1/0/12     down  down         0%     0%          0          0
+  GigabitEthernet1/1/5      down  down         0%     0%          0          0
+Eth-Trunk5                  down  down         0%     0%          0          0
+  GigabitEthernet1/1/13     down  down         0%     0%          0          0
+  GigabitEthernet1/1/14     down  down         0%     0%          0          0
+Eth-Trunk6                  down  down         0%     0%          0          0
+  GigabitEthernet3/0/1(10G) down  down         0%     0%          0          0
+Eth-Trunk8                  down  down         0%     0%          1          0
+  GigabitEthernet2/0/3(10G) down  down         0%     0%          0          0
+  GigabitEthernet2/0/4(10G) down  down         0%     0%          0          0
+  GigabitEthernet2/0/5(10G) down  down         0%     0%          0          0
+  GigabitEthernet2/1/3(10G) down  down         0%     0%          0          0
+  GigabitEthernet3/1/2(10G) down  down         0%     0%          0          0
+  GigabitEthernet4/0/10(10G) down  down         0%     0%          0          0
+  GigabitEthernet5/0/2(10G) down  down         0%     0%          0          0
+  GigabitEthernet5/0/3(10G) down  down         0%     0%          0          0
+  GigabitEthernet6/0/2(10G) down  down         0%     0%          0          0
+  GigabitEthernet6/0/3(10G) down  down         0%     0%          1          0
+Eth-Trunk9                  down  down         0%     0%          0          0
+  GigabitEthernet3/0/2(10G) down  down         0%     0%          0          0
+Eth-Trunk10                 up    up        0.01%  0.05%       2626          0
+  GigabitEthernet3/1/3(10G) up    up        0.01%  0.06%          1          0
+  GigabitEthernet3/1/4(10G) up    up        0.01%  0.03%          0          0
+  GigabitEthernet3/1/5(10G) up    up        0.01%  0.06%          0          0
+  GigabitEthernet4/0/3(10G) up    up        0.01%  0.06%          1          0
+  GigabitEthernet4/0/4(10G) up    up        0.01%  0.05%       2624          0
+  GigabitEthernet4/0/9(10G) up    up        0.01%  0.04%          0          0
+  GigabitEthernet5/0/0(10G) up    up        0.01%  0.06%          0          0
+  GigabitEthernet5/0/1(10G) up    up        0.01%  0.04%          0          0
+  GigabitEthernet6/0/0(10G) up    up        0.02%  0.03%          0          0
+  GigabitEthernet6/0/1(10G) up    up        0.01%  0.04%          0          0
+Eth-Trunk11                 up    up        0.53%  0.15%        406          0
+  GigabitEthernet4/0/5(10G) up    up        0.53%  0.15%        406          0
+Eth-Trunk12                 up    up        0.01%  0.01%         11          0
+  GigabitEthernet1/0/8      up    up        0.01%  0.01%         11          0
+Eth-Trunk13                 up    up        0.01%  0.01%         23          0
+  GigabitEthernet1/0/10     up    up        0.01%  0.01%         23          0
+Eth-Trunk14                 up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/13     up    up        0.01%  0.01%          0          0
+Eth-Trunk15                 down  down         0%     0%          0          0
+  GigabitEthernet1/0/11     down  down         0%     0%          0          0
+Eth-Trunk16                 down  down         0%     0%          0          0
+  GigabitEthernet6/0/8(10G) down  down         0%     0%          0          0
+  GigabitEthernet6/0/9(10G) down  down         0%     0%          0          0
+  GigabitEthernet6/0/10(10G) down  down         0%     0%          0          0
+Eth-Trunk17                 down  down         0%     0%          0          0
+  GigabitEthernet5/0/8(10G) down  down         0%     0%          0          0
+  GigabitEthernet5/0/9(10G) down  down         0%     0%          0          0
+  GigabitEthernet5/0/10(10G) down  down         0%     0%          0          0
+Eth-Trunk20                 down  down         0%     0%          0          0
+  GigabitEthernet2/0/0(10G) down  down         0%     0%          0          0
+  GigabitEthernet2/1/2(10G) down  down         0%     0%          0          0
+  GigabitEthernet3/0/0(10G) down  down         0%     0%          0          0
+GigabitEthernet0/0/0        down  down         0%     0%          0          0
+GigabitEthernet1/0/0        down  down         0%     0%          0          0
+GigabitEthernet1/0/2        up    up        0.01%  0.01%          0          0
+GigabitEthernet1/0/4        up    up           0%  0.01%          0          0
+GigabitEthernet1/0/6        down  down         0%     0%          0          0
+GigabitEthernet1/0/14       *down down         0%     0%          0          0
+GigabitEthernet1/0/14.2000  down  down         0%     0%          0          0
+GigabitEthernet1/0/14.2100  down  down         0%     0%          0          0
+GigabitEthernet1/0/14.2200  down  down         0%     0%          0          0
+GigabitEthernet1/0/14.2300  down  down         0%     0%          0          0
+GigabitEthernet1/0/15       up    up        0.01%  0.01%          0          0
+GigabitEthernet1/0/16       up    up        0.01%  0.01%          0          0
+GigabitEthernet1/0/17       *down down         0%     0%          0          0
+GigabitEthernet1/0/18       down  down         0%     0%          0          0
+GigabitEthernet1/0/19       down  down         0%     0%          0          0
+GigabitEthernet1/0/20       down  down         0%     0%          0          0
+GigabitEthernet1/0/21       down  down         0%     0%          0          0
+GigabitEthernet1/0/22       up    down      0.01%  0.01%          0          0
+GigabitEthernet1/0/23       *down down         0%     0%          0          0
+GigabitEthernet1/1/0        down  down         0%     0%          0          0
+GigabitEthernet1/1/1        down  down         0%     0%          0          0
+GigabitEthernet1/1/2        down  down         0%     0%          0          0
+GigabitEthernet1/1/3        down  down         0%     0%          0          0
+GigabitEthernet1/1/4        down  down         0%     0%          0          0
+GigabitEthernet1/1/6        *down down         0%     0%          0          0
+GigabitEthernet1/1/7        down  down         0%     0%          0          0
+GigabitEthernet1/1/8        *down down         0%     0%          0          0
+GigabitEthernet1/1/9        down  down         0%     0%          0          0
+GigabitEthernet1/1/10       down  down         0%     0%          0          0
+GigabitEthernet1/1/11       down  down         0%  0.01%        449          0
+GigabitEthernet1/1/12       up    up        0.01%  0.02%          1          0
+GigabitEthernet1/1/15       down  down         0%     0%          0          0
+GigabitEthernet1/1/16       down  down         0%     0%          0          0
+GigabitEthernet1/1/17       *down down         0%     0%          0          0
+GigabitEthernet1/1/18       *down down         0%     0%          0          0
+GigabitEthernet1/1/19       *down down         0%     0%          0          0
+GigabitEthernet1/1/20       down  down         0%     0%          0          0
+GigabitEthernet1/1/21       down  down         0%     0%          0          0
+GigabitEthernet1/1/22       down  down         0%     0%          0          0
+GigabitEthernet1/1/23       down  down         0%     0%          0          0
+GigabitEthernet2/0/1(10G)   down  down         0%     0%        799          0
+GigabitEthernet2/1/4(10G)   down  down         0%     0%          0          0
+GigabitEthernet4/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet5/0/6(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet5/0/7(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet6/0/6(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet6/0/7(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet6/1/8(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/1/9(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/1/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet6/1/11(10G)  down  down         0%     0%          2          0
+LoopBack30                  up    up(s)        0%     0%          0          0
+LoopBack40                  up    up(s)        0%     0%          0          0
+LoopBack100                 up    up(s)        0%     0%          0          0
+LoopBack2147483647          up    up(s)        0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Vlanif100                   up    up           --     --          0          0
+Vlanif101                   down  down         --     --          0          0
+Vlanif200                   down  down         --     --          0          0
+Vlanif400                   up    up           --     --          0          0
+Vlanif500                   up    up           --     --          0          0
+Vlanif600                   up    up           --     --          0          0
+Vlanif700                   up    up           --     --          0          0
+Vlanif1002                  down  down         --     --          0          0
+Vlanif1050                  up    up           --     --          0          0
+Vlanif1051                  up    up           --     --          0          0
+Vlanif1100                  up    down         --     --          0          0
+Vlanif1200                  up    up           --     --          0          0
+Vlanif1600                  down  down         --     --          0          0
+<LSCE01BHW>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 850045
+Current messages : 512
+
+Mar 13 2026 11:55:02+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:55:01+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 1 time.
+Mar 13 2026 11:54:52+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:49+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:48+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:46+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:45+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:39+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:38+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:36+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:35+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:32+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:31+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:25+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:25+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:15+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:15+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:12+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:11+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:05+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:04+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:54:02+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:54:01+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:52+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:51+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:46+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:45+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:42+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:42+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:26+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:25+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:23+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:22+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:19+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:18+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:16+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:15+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:06+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:05+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:53:03+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:53:02+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:52:59+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:52:58+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:52:43+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:52:42+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:52:40+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:52:39+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:52:33+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:52:32+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:52:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:52:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:52:07+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:52:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:52:01+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:52:00+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:45+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:44+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:41+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:40+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:34+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:34+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:31+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:30+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:24+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:23+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:15+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:14+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:11+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:10+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:51:08+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:51:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:50:39+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:50:38+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:50:35+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:50:34+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:50:28+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:50:28+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:50:16+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:50:15+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:50:12+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:50:11+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:53+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:52+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:49+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:49+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:36+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:36+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:33+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:32+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:29+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:26+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:25+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:23+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:22+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:13+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:12+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:06+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:06+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:49:03+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:49:02+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:50+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:49+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:40+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:39+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:36+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:35+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:33+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:32+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:26+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:25+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:19+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:18+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:16+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:15+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:12+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:12+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:09+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:08+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:48:02+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:48:01+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:59+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:58+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:55+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:54+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:42+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:41+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:33+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:32+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:29+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:28+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:22+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:21+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:09+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:08+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:47:06+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:47:05+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:59+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:58+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:55+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:54+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:52+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:51+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:45+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:44+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:42+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:41+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:38+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:37+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:32+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:31+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:28+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:27+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:15+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:14+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:46:09+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:46:08+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:45:49+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:45:48+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:45:43+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:45:42+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:45:36+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:45:35+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:45:23+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:45:22+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:45:13+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:45:12+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:45:09+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:45:09+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:45:03+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:45:02+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:56+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:55+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:53+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:52+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:49+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:48+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:46+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:45+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:42+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:41+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:32+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:32+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:25+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:25+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:22+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:21+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:15+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:15+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:12+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:11+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:44:08+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:44:08+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:43:56+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:43:55+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:43:43+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:43:42+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:43:26+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:43:26+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:43:23+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:43:22+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:43:20+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:43:19+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:43:06+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:43:05+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:43:03+08:00 LSCE01BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):VS=Admin-VS-CID=0x807f04d1-Slot=2;The LPU does not support this rule. (SlotId=2, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 13 2026 11:43:03+08:00 LSCE01BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):VS=Admin-VS-CID=0x807f04d1-Slot=2;The LPU does not support this rule. (SlotId=2, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 13 2026 11:43:03+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:43:02+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:56+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:55+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:53+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:52+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:37+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:36+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:20+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:19+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:17+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:16+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:13+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:12+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:10+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:09+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:06+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:05+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:42:03+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:42:02+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:41:47+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:41:46+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:41:34+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:41:33+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:41:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:41:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:41:24+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:41:23+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:41:20+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:41:19+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:41:13+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:41:13+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:41:04+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:41:03+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:57+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:56+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:50+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:49+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:44+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:43+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:37+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:36+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:27+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:26+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:24+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:23+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:07+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:40:01+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:40:00+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:54+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:54+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:45+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:44+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:38+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:37+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:31+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:30+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:28+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:27+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:24+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:23+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:11+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:10+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:08+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:39:01+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:39:00+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:54+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:53+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:51+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:50+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:47+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:47+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:44+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:43+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:41+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:40+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:28+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:27+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:24+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:23+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:21+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:20+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:14+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:13+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:08+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:04+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:03+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:38:01+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:38:00+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:57+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:56+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:54+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:53+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:50+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:49+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:40+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:39+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:34+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:33+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:27+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:26+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:24+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:23+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:11+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:10+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:07+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:37:04+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:37:03+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:54+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:53+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:50+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:49+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:47+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:46+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:37+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:36+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:33+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:32+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:26+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:26+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:23+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:22+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:16+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:15+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:13+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:12+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:09+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:08+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:36:06+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:36:05+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:56+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:55+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:53+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:52+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:43+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:42+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:36+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:35+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:33+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:32+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:26+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:25+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:17+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:16+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:13+08:00 LSCE01BHW %%01INFO/3/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 1 time.
+Mar 13 2026 11:35:13+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:12+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:35:03+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:35:03+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:54+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:53+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:50+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:49+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:41+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:40+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:37+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:36+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:34+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:33+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:27+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:26+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:20+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:19+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:17+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:16+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:13+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:12+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:10+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:34:09+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:34:00+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:59+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:57+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:56+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:47+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:46+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:40+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:39+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:27+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:26+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:20+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:19+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:17+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:16+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:07+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:06+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:33:04+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:33:03+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:54+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:53+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:50+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:49+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:47+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:46+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:43+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:42+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:33+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:33+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:30+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:29+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:11+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:06+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:32:02+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:32:02+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:59+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:58+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:52+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:51+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:46+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:45+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:42+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:41+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:39+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:38+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:35+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:34+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:29+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:28+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:25+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:24+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:18+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:17+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:15+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:14+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:08+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:05+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:04+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:31:01+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:31:01+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:55+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:54+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:51+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:51+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:48+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:47+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:44+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:44+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:41+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:40+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:36+08:00 LSCE01BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):VS=Admin-VS-CID=0x807f052b-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 13 2026 11:30:36+08:00 LSCE01BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):VS=Admin-VS-CID=0x807f052b-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 13 2026 11:30:34+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:34+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:31+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:30+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:18+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:17+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:30:01+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:30:01+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:29:58+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:29:57+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 2 times.
+Mar 13 2026 11:29:48+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:29:45+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:29:45+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:29:42+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:29:42+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 3 times.
+Mar 13 2026 11:29:23+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:29:17+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:29:16+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:29:14+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:29:13+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:29:07+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:29:06+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:29:04+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:29:03+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:28:47+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:28:47+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:28:44+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:28:43+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 1 time.
+Mar 13 2026 11:28:21+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:28:19+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:28:18+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:28:15+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:28:14+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 1 time.
+Mar 13 2026 11:28:11+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:28:08+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:28:07+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:28:05+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:28:04+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 1 time.
+Mar 13 2026 11:28:01+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:27:52+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:27:51+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 2 times.
+Mar 13 2026 11:27:41+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:27:39+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:27:38+08:00 LSCE01BHW %%01INFO/4/IM_SUPPRESS_LOG(l):VS=Admin-VS-CID=0x8060040c;Last message repeated 1 time.
+Mar 13 2026 11:27:28+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:27:26+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:27:25+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:27:10+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+Mar 13 2026 11:27:09+08:00 LSCE01BHW %%01DRIVER/4/PHY_STATUS_DOWN2UP(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The status of port1/1/11 change up. (The bandwidth is 1000M and the duplex is FULL)
+Mar 13 2026 11:27:07+08:00 LSCE01BHW %%01DRIVER/3/HWPORTDOWNREASON(l):VS=Admin-VS-CID=0xfc0465-Slot=1;The physical status of the Port11 on Card1 in slot 1 changed to Down. The possible cause is: LINK_FAIL 
+<LSCE01BHW>display current-configuration
+!Software Version V800R007C00SPC100
+!Last configuration was updated at 2026-01-19 15:16:31+08:00 by xz4a_admin
+!Last configuration was saved at 2026-02-11 15:51:13+08:00 by xz4a_admin
+#
+clock timezone BJ add 08:00:00
+#
+sysname LSCE01BHW
+#
+set neid 4cf5bf
+#
+FTP server enable
+#
+info-center filter-id bymodule-alias snmp SNMP_AUTHEN_FAILED
+info-center filter-id bymodule-alias snmp SNMP_IPLOCK
+info-center filter-id bymodule-alias snmp SNMP_IPUNLOCK
+info-center loghost source Vlanif200
+info-center loghost 10.237.35.55 source-ip 10.233.81.53
+info-center loghost 10.237.35.249
+info-center loghost 10.237.99.80
+info-center loghost 10.237.100.71
+info-center loghost 10.237.100.228
+info-center loghost 211.139.73.201 vpn-instance GPRS_Gn facility local3
+info-center loghost 211.139.73.206 vpn-instance GPRS_Gn facility local3
+#
+fan speed auto
+#
+undo user-security-policy enable
+#
+port-wred li
+#
+service-template template-default0
+#
+service-template template-default1
+#
+service-template template-default2
+#
+service-template template-default3
+#
+service-template template-default4
+#
+undo loopback autoclear
+loopback autoclear period 30
+#
+ntp-service ipv6 server disable
+ntp-service authentication-keyid 1 authentication-mode md5 cipher %^%#;$v}AG,g)X-MN<'*JDV@~W>kMa7a#!0^/{)~bK/U%^%#
+ntp-service reliable authentication-keyid 1
+ntp-service unicast-server 10.233.87.254 authentication-keyid 1
+ntp-service refclock-master 1
+ntp-service authentication enable
+#
+slot 1 
+ mirror to observe-index 4
+ traffic-policy ipv6-address-rule match mask
+#
+slot 2 
+ traffic-policy ipv6-address-rule match mask
+#
+slot 3 
+ mirror to observe-index 3
+ traffic-policy ipv6-address-rule match mask
+#
+slot 4 
+ mirror to observe-index 3
+ traffic-policy ipv6-address-rule match mask
+#
+slot 5 
+ mirror to observe-index 3
+ traffic-policy ipv6-address-rule match mask
+#
+slot 6 
+ mirror to observe-index 3
+ traffic-policy ipv6-address-rule match mask
+#
+vlan batch 100 to 101 200 to 201 300 400 500 600 700 1000 to 1002 1050 to 1051 1100
+vlan batch 1200 1600 4000
+#
+mac-address aging-time 2400
+#
+rsa peer-public-key 127.0.0.1
+ public-key-code begin
+ 3082010A
+  02820101
+    00E3BB38 8072FEF5 1851810E 8C0F3EF1 E4167F89 756DAC5C 76BC3E80 51E23698
+    6ED73BD8 C64A6793 1265C991 E0CE625A 8497B108 C5DC5854 69400287 D09699E0
+    B91B3CD6 1F56F113 EFB23165 16B19700 25F4EE64 CAC126F6 9BC13DB6 14DAABE1
+    0C50FCF0 68474656 9B78F767 566311A9 A2F32E32 67C1AC63 9873D8E4 7AF5349A
+    3B522FAA 1E18C955 C5DAB71C C7BDA635 35875783 BB9C3345 499B26D8 5F511542
+    1EB66B28 EB95A8DF A3F87D98 33FAFE2C 3FFACCCA FD2D55D9 E90A35F5 668A62B8
+    03C7EAEE EA35A30D 74CF4B00 0E8B39CC D6642700 2037B860 FF894B85 FFA04C60
+    42AB27B0 21624783 DD147BAF DF8AAA2E 70CCE700 3A051C84 1C2BE6E3 CD3AEBDB
+    D1
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+rsa peer-public-key 10.233.81.51
+ public-key-code begin
+ 308189
+  028181
+    009FF76B 95D1F2F0 71419D67 9193793E 8BD96B0F 6E6BA3F5 5FBE41C3 6BE69618
+    5C5C013C 64170F42 A01CA6A9 641FE904 AE9CA386 61C0B4DA 4DCCBC40 D6BE590B
+    14DCBBF7 112102F1 4D49DC7E FE21DC6D 039A6184 E6CA7E01 7898AF50 4794D0D2
+    7733053A 2EC1772D 954592A7 69196F72 92AD8572 623CC335 AF2BF5CF D8D6B78B
+    65
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+rsa peer-public-key 10.233.81.54
+ public-key-code begin
+ 3082010A
+  02820101
+    00E46BAA 10BC874E 3FC1D918 59F83EEB 93FAEA8D AE1DE987 DD2C9BC1 FC6B064E
+    75406886 8FE7E9FA 904D2AAB E2768104 46BF630E 55DEC4C5 8E276DAD 8FC5AD06
+    66ED2A6E 3866F5C3 6A4299C2 884D7598 041CB350 0B610A44 044C388D 8B7F8B99
+    383EB010 106C87F5 A07A95A8 75539F58 7DF6C891 267369F1 C599DBD8 C6D7D769
+    747DB117 5031A61A 97280C79 6A1A1C94 1A55C30E 9DBBAE8E 8FE62283 6B135AD1
+    7D9BC1B0 AA7FA9E6 353AFFF8 24F866D3 4974FDCE 439B3724 7201598B 4B2C6496
+    D2448503 0038431F 3C72DECE 706426CD E622D11D 780395A8 1A0DA27E 2D75EA4D
+    49F65265 5A628777 33002B51 9290E1DE 7B46A7E5 F18EC8FB 218FDB32 1ADF33B6
+    41
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+undo telnet server enable
+undo telnet ipv6 server enable
+#
+diffserv domain default
+#
+diffserv domain 5p3d
+#
+diffserv domain qinq
+#
+soc
+#
+ip vpn-instance ChinaMobile_SGi
+ ipv6-family 
+  route-distinguisher 24059:4600
+#
+ip vpn-instance GPRS_Gi
+ description ChinaMobile_GPRS_Gi
+ ipv4-family 
+  route-distinguisher 200:1
+ ipv6-family 
+  route-distinguisher 200:1
+#
+ip vpn-instance GPRS_Gn
+ description ChinaMobile_GPRS_Gn
+ ipv4-family 
+  route-distinguisher 100:1
+#
+ip vpn-instance Gn_vpn
+ description ChinaMobile_GPRS_Gn_vpn
+ ipv4-family 
+  route-distinguisher 105:1
+#
+ip dcn vpn-instance __dcn_vpn__
+ ipv4-family 
+#
+ip vpn-instance vpn.Grp
+ description ChinaMobile_GPRS_grp
+ ipv4-family 
+  route-distinguisher 1050:1
+#
+bfd
+#
+vlan 100
+ description GPRS_Gn
+#
+vlan 200
+ description For_Gi
+#
+vlan 300
+ description TO Server
+#
+vlan 1000
+ description Gn_toE1000E
+#
+vlan 1001
+ description Gi_toE1000E
+#
+vlan 1002
+ description ipv6_to_E8000E
+#
+vlan 1100
+ description TO-[XZLS-GPRS-CE2-SGi]-[Eth-Trunk1]
+ statistic enable
+#
+vlan 1200
+ description CE1/2-hulian-Gi
+#
+acl number 2000
+ rule 1 permit source 10.237.35.0 0.0.0.255
+ rule 2 permit source 10.241.106.34 0
+ rule 3 permit source 10.237.99.0 0.0.0.255
+ rule 5 permit source 10.233.81.0 0.0.0.255
+ rule 7 permit source 10.237.100.0 0.0.0.255
+#
+acl number 2001
+ rule 5 permit source 10.233.104.0 0.0.0.255
+ rule 10 permit source 111.11.227.106 0
+ rule 25 permit source 111.11.253.9 0
+ rule 30 permit source 10.233.205.235 0
+ rule 30 description shujuwangguancaiji
+#
+acl number 2500
+ rule 5 permit source 221.177.132.75 0
+#
+acl number 3000
+ rule 5 deny udp destination-port eq tftp
+ rule 10 deny tcp destination-port eq 135
+ rule 15 deny tcp destination-port eq 139
+ rule 20 deny tcp destination-port eq 445
+ rule 25 deny tcp destination-port eq 1434
+ rule 30 deny tcp destination-port eq 4444
+ rule 35 deny tcp destination-port eq 593
+ rule 40 deny tcp destination-port eq 5554
+ rule 45 deny tcp destination-port eq 9995
+ rule 50 deny tcp destination-port eq 9996
+ rule 55 deny tcp destination-port eq 69
+ rule 60 deny tcp destination-port eq 137
+ rule 65 deny udp destination-port eq 135
+ rule 70 deny udp destination-port eq netbios-ns
+ rule 75 deny udp destination-port eq netbios-ssn
+ rule 1000 permit ip
+#
+acl number 3333
+ rule 5 permit ip source 111.11.251.174 0 destination 10.169.79.181 0
+ rule 10 permit ip source 10.169.79.181 0 destination 111.11.251.174 0
+#
+acl number 3888
+ rule 1 permit icmp source 221.179.8.4 0
+ rule 2 permit icmp source 211.139.71.162 0 destination 221.179.8.4 0
+ rule 3 permit icmp source 211.139.71.162 0 destination 221.176.65.71 0
+#
+acl number 3999
+ rule 10 permit icmp source 221.177.132.76 0 destination 223.103.26.28 0
+ rule 15 permit icmp source 223.103.26.28 0 destination 221.177.132.76 0
+ rule 20 permit icmp vpn-instance GPRS_Gn source 221.177.132.76 0 destination 223.103.26.28 0
+ rule 25 permit icmp vpn-instance GPRS_Gn source 223.103.26.28 0 destination 221.177.132.76 0
+#
+acl number 1999
+#
+acl number 4999
+#
+traffic classifier 3999 operator or
+ if-match acl 3999
+#
+traffic classifier VIRUS operator or
+ if-match acl 3000
+#
+traffic classifier huawei operator or
+ if-match acl 3333
+#
+traffic classifier wap-test operator or
+ if-match acl 3888
+#
+traffic behavior 3999
+#
+traffic behavior VIRUS
+#
+traffic behavior huawei
+#
+traffic behavior wap-test
+#
+traffic policy 3339
+ share-mode
+#
+traffic policy 3999
+ share-mode
+ statistics enable
+ classifier 3999 behavior 3999 precedence 1
+#
+traffic policy VIRUS
+ share-mode
+ classifier VIRUS behavior VIRUS precedence 1
+#
+traffic policy huawei
+ share-mode
+ statistics enable
+ classifier huawei behavior huawei precedence 1
+#
+traffic policy wap-test
+ share-mode
+ statistics enable
+ classifier wap-test behavior wap-test precedence 1
+#
+aaa
+ local-user xazccj password irreversible-cipher $1a$8)tRATJHG!$Qk_$&Vy$nE:mrvG'-8/H|oO`,XV>#278lQ"1Ys5P$
+ local-user xazccj service-type ssh
+ local-user xazccj level 1
+ local-user xz4a_admin password irreversible-cipher $1a$ZzsfE.-l"#$R0l6=a>6MOy~Aw<8XkuXBj6^:+PD4<3EujK;{W9Y$
+ local-user xz4a_admin service-type terminal ssh snmp
+ local-user xz4a_admin level 3
+ local-user jtcjxz password irreversible-cipher $1a$=\])6-O"g:$w`!DSY`ogX{y~FSU.:TW.:*DTg,pB@UqSR4sW^I"$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 1
+ local-user ftp password irreversible-cipher $1a$8|+}Ch4^_K$A#La'7>N42&P`UPe]Oh.YHli>upTqUl9zl/;/cP<$
+ local-user ftp service-type ftp
+ local-user ftp level 3
+ local-user ftp ftp-directory cfcard:
+ local-user cszdxj password irreversible-cipher $1a$CM\ZRQb$FZ$'O.O1uII!G-lsGO9_yoTG!^J7b=<o9me`]>@=LrO$
+ local-user cszdxj service-type telnet ssh
+ local-user cszdxj level 3
+ local-user cmxz_feizeqing password irreversible-cipher $1a$*KaX6lxrEV$,1:MI>H4W4gsq#AA:yy0}VQy)W9d9UzW"J;aMJx+$
+ local-user cmxz_feizeqing service-type ssh
+ local-user cmxz_feizeqing level 3
+ local-user cmxz_licheng password irreversible-cipher $1a$rTB0E[Xxa&$dP"X.+{IX53@-',7'(YWjjVS3-}457tlLq(bl=e<$
+ local-user cmxz_licheng service-type ssh
+ local-user cmxz_licheng level 3
+ #
+ authentication-scheme default0
+ #
+ authentication-scheme default1
+ #
+ authentication-scheme default
+  authentication-mode local radius
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default0
+ #
+ accounting-scheme default1
+ #
+ accounting-scheme default
+ #
+ domain default0
+ #
+ domain default1
+ #
+ domain default_admin
+ #
+ domain default
+#
+license
+#
+isis 1
+#
+ospfv3 20 vpn-instance GPRS_Gi
+ router-id 117.136.18.2
+ default-route-advertise
+ area 0.0.0.0
+ area 0.0.0.1
+ area 0.0.0.20
+ area 0.0.0.30
+#
+ospfv3 42 vpn-instance ChinaMobile_SGi
+ router-id 10.234.38.1
+ vpn-instance-capability simple
+ import-route direct type 1 route-policy VoLTE_SGi
+ import-route static type 1 route-policy VoLTE_SGi
+ area 0.0.0.0
+#
+interface Vlanif100
+ description TO-LSDNS01_A-dns-VLANIF100
+ ip binding vpn-instance GPRS_Gn
+ ip address 221.177.132.20 255.255.255.240
+ vrrp vrid 1 virtual-ip 221.177.132.19
+ vrrp vrid 1 priority 110
+#
+interface Vlanif101
+ description TO-LSDNS01_A-Gn-VLANIF101
+ ip binding vpn-instance GPRS_Gn
+ ip address 221.177.132.249 255.255.255.252
+ ospf timer hello 3
+#
+interface Vlanif200
+ description TO-LSSAEGW01BHW_A-GI-VLANIF200
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 10.234.35.41 255.255.255.252
+ ipv6 address 2409:807E:2800:1001:1::2/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.1
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospf timer hello 3
+#
+interface Vlanif400
+ description TO-XZLSNE40_2-hulian-vlanif400
+ ip binding vpn-instance Gn_vpn
+ ip address 221.177.132.99 255.255.255.248
+ vrrp vrid 7 virtual-ip 221.177.132.97
+ vrrp vrid 7 priority 150
+#
+interface Vlanif500
+ description TO-LSMME01BHW-_A-Gn-VLANIF500
+ ip binding vpn-instance GPRS_Gn
+ ip address 221.177.132.129 255.255.255.248
+#
+interface Vlanif600
+ description TO-XZLSNE40_2-GN-VLANIF600
+ ip binding vpn-instance GPRS_Gn
+ ip address 221.177.132.145 255.255.255.252
+#
+interface Vlanif700
+ description TO-S3500_A-4A-VLANIF700
+ ip address 10.233.81.42 255.255.255.248
+ vrrp vrid 70 virtual-ip 10.233.81.41
+ vrrp vrid 70 priority 120
+#
+interface Vlanif1002
+#
+interface Vlanif1050
+ description TO-UDN-OM-VLANIF1050
+ ip binding vpn-instance vpn.Grp
+ ip address 10.133.31.34 255.255.255.248
+ vrrp vrid 50 virtual-ip 10.133.31.33
+ vrrp vrid 50 priority 105
+#
+interface Vlanif1051
+ description TO-LSMME01BHW_A-GN-VLAN1051
+ ip binding vpn-instance vpn.Grp
+ ip address 10.133.31.42 255.255.255.248
+ vrrp vrid 51 virtual-ip 10.133.31.41
+ vrrp vrid 51 priority 105
+#
+interface Vlanif1100
+#
+interface Vlanif1200
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 221.177.132.149 255.255.255.252
+ ipv6 address 2409:807E:2800:1001:1::4/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.0
+ ospfv3 network-type p2p
+#
+interface Vlanif1600
+ ip binding vpn-instance GPRS_Gi
+ ip address 192.168.168.1 255.255.255.224
+#
+interface Eth-Trunk0
+ description TO-E8000E_1-GI-Eth-Trunk2-3*10G
+ mode lacp-static
+ traffic-policy huawei inbound 
+ traffic-policy huawei outbound 
+#
+interface Eth-Trunk0.10
+ vlan-type dot1q 12
+ ip address 11.11.11.2 255.255.255.252
+#
+interface Eth-Trunk0.1000
+ vlan-type dot1q 1000
+ description TO-E8000E_1-Gn
+ ip binding vpn-instance GPRS_Gn
+ ip address 221.177.132.42 255.255.255.252
+ ospf cost 1000
+ ospf network-type p2p
+ ospf timer hello 15
+ traffic-policy 3999 inbound 
+ traffic-policy 3999 outbound 
+#
+interface Eth-Trunk0.1001
+ vlan-type dot1q 1001
+ description TO-E8000E_1-GI
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 221.177.132.50 255.255.255.252
+ ipv6 address 2409:807E:2800:1::3/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.0
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospf cost 1000
+ ospf network-type p2p
+ ospf timer hello 15
+#
+interface Eth-Trunk1
+ portswitch
+ description TO-XZLSNE40_2-hulian-Eth-Trunk1_2*10G
+ port link-type trunk
+ port trunk allow-pass vlan 100 102 to 199 300 400 600 700 1000 to 1001 1050 to 1051 1100 1200
+#
+interface Eth-Trunk2
+ portswitch
+ description TO-LSMME01BHW-Gn-ETH-Trunk2-4*G
+ port default vlan 500
+#
+interface Eth-Trunk3
+ portswitch
+ description TO-LSMME01BHW-Gn-ETH-Trunk2-4*G
+ port default vlan 500
+#
+interface Eth-Trunk4
+ portswitch
+ description TO-LSASAEGW01BHW-GN-Eth-Trunk12-4*G
+ port default vlan 101
+ statistics enable vlan 101
+ mode lacp-static
+ traffic-policy 3999 inbound vlan 101
+ traffic-policy 3999 outbound vlan 101
+#
+interface Eth-Trunk5
+ portswitch
+ description TO-UDN-OM-Eth-Trunk1-2*G
+ port link-type access
+ port default vlan 1050
+#
+interface Eth-Trunk6
+ description TO-LSASAEGW01BHW-IMS-Eth-Trunk17-10G
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8010:1::3/127
+ ipv6 address auto link-local
+ ospfv3 42 area 0.0.0.0
+ ospfv3 cost 10
+ ospfv3 network-type p2p
+ ospfv3 timer hello 5
+ mode lacp-static
+#
+interface Eth-Trunk8
+ description TO-LSSAEGW03BHW-GI-Eth-Trunk4-40G
+ undo enable snmp trap updown
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 10.234.35.17 255.255.255.252
+ ipv6 address 2409:807E:2800:1001:1::6/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.20
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospfv3 timer hello 3
+ ospf authentication-mode md5 1 cipher %^%#,Qr=2nPD@#R]{.Jucmg2B|WjM`}bQ-qIn;6K{@M$%^%#
+ ospf cost 200
+ ospf network-type p2p
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 6
+#
+interface Eth-Trunk9
+ description TO-LSSAEGW03BHW-GN-Eth-Trunk2-10G
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.234.35.9 255.255.255.252
+ ospf cost 100
+ ospf network-type p2p
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk10
+ description TO-LSSAEGW04HW-GI-Eth-Trunk4-40G
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 10.234.35.33 255.255.255.252
+ ipv6 address 2409:807E:2800:1001:1::C/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.30
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospfv3 timer hello 3
+ ospf authentication-mode md5 1 cipher %^%#R{/!>ND/QX\oaSOU-NB%SyvoF%q^K;f;1;'8GgzW%^%#
+ ospf cost 200
+ ospf network-type p2p
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 4
+#
+interface Eth-Trunk11
+ description TO-LSSAEGW04BHW-GN-Eth-Trunk2-10G
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.234.35.25 255.255.255.252
+ ospf cost 100
+ ospf network-type p2p
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk12
+ portswitch
+ description TO-LSMME01BHW-Gn-ETH-Trunk2-4*G
+ port default vlan 500
+#
+interface Eth-Trunk13
+ portswitch
+ description TO-LSMME01BHW-Gn-ETH-Trunk2-4*G
+ port default vlan 500
+#
+interface Eth-Trunk14
+ description TO-LSMME01BHW-GN-0-10-0-1G
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.234.35.225 255.255.255.252
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk15
+ description TO-LSMME03BHW-GN-0-10-0-1G
+ undo enable snmp trap updown
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.234.35.233 255.255.255.252
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk16
+ port-observing observe-index 1
+#
+interface Eth-Trunk17
+ port-observing observe-index 3
+#
+interface Eth-Trunk20
+ portswitch
+ description TO-LSSAEGW01BHW-GI-ETH-Trunk10-3*10G
+ port trunk allow-pass vlan 200 to 201
+ mode lacp-static
+ port-mirroring inbound vlan 200 to 201
+ port-mirroring outbound vlan 200 to 201
+ port-mirroring to observe-index 2
+#
+interface GigabitEthernet0/0/0
+ speed auto
+ duplex auto
+ undo shutdown
+ ip address 1.1.1.1 255.255.255.252
+#
+interface GigabitEthernet1/0/0
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet1/0/1
+ description TO-LSASAEGW01BHW-GN-G1/0/1-1G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet1/0/2
+ description TO-TT-XINAN-G1/0/2-1G
+ undo shutdown
+ ip binding vpn-instance GPRS_Gi
+ ip address 10.133.32.5 255.255.255.252
+ dcn
+#
+interface GigabitEthernet1/0/3
+ description TO-LSASAEGW01BHW-GN-G1/1/0-1G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet1/0/4
+ description TO-E1000E_1-jianhang-G0/9-1G
+ undo shutdown
+ ip binding vpn-instance GPRS_Gi
+ ip address 10.233.159.9 255.255.255.252
+ ospf network-type p2p
+ dcn
+ traffic-policy VIRUS inbound 
+#
+interface GigabitEthernet1/0/5
+ negotiation auto
+ description to-LSMME01BHW-GN-G0/11/0-1G
+ undo shutdown
+ eth-trunk 2
+ dcn
+#
+interface GigabitEthernet1/0/6
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet1/0/7
+ description TO-LSASAEGW01BHW-GN-G1/1/1-1G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet1/0/8
+ description to-LSMME01BHW-GN-G2/11/0-1G
+ undo shutdown
+ eth-trunk 12
+#
+interface GigabitEthernet1/0/9
+ negotiation auto
+ description to-LSMME01BHW-GN-G1/11/0-1G
+ undo shutdown
+ eth-trunk 3
+#
+interface GigabitEthernet1/0/10
+ description to-LSMME01BHW-GN-G2/10/0-1G
+ undo shutdown
+ eth-trunk 13
+#
+interface GigabitEthernet1/0/11
+ negotiation auto
+ description TO-LSMME03BHW-GN-0-10-0-1G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 15
+ dcn
+#
+interface GigabitEthernet1/0/12
+ negotiation auto
+ description TO-LSSAEGW01BHW-GN-G1/1/9-1G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 4
+#
+interface GigabitEthernet1/0/13
+ negotiation auto
+ description TO-LSMME01BHW-GN-0-10-0-1G
+ undo shutdown
+ eth-trunk 14
+ dcn
+#
+interface GigabitEthernet1/0/14
+ shutdown
+ ipv6 enable
+#
+interface GigabitEthernet1/0/14.2000
+ vlan-type dot1q 2000
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:1A/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/14.2100
+ vlan-type dot1q 2100
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:22/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/14.2200
+ vlan-type dot1q 2200
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:2A/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/14.2300
+ vlan-type dot1q 2300
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:2/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/15
+ description TO_BOCEXITONG_Gn
+ undo shutdown
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.234.35.50 255.255.255.252
+ ospf cost 100
+ ospf network-type p2p
+#
+interface GigabitEthernet1/0/16
+ description TO_BOCEXITONG_Gi
+ undo shutdown
+ ip binding vpn-instance GPRS_Gi
+ ip address 10.234.35.58 255.255.255.252
+ ospf cost 100
+ ospf network-type p2p
+#
+interface GigabitEthernet1/0/17
+ shutdown
+#
+interface GigabitEthernet1/0/18
+ description TO-LSASAEGW01BHW-GN_A-G1/0/1-10G
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::1:2/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/19
+ description TO-LSASAEGW01BHW-GN_A-G1/0/3-10G
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::1:1A/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/20
+ description TO-LSASAEGW01BHW-GN_A-G1/0/5-10G
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::1:22/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/21
+ description TO-LSASAEGW01BHW-GN_A-G1/0/7-10G
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::1:2A/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/0/22
+ negotiation auto
+ undo shutdown
+#
+interface GigabitEthernet1/0/23
+ negotiation auto
+ shutdown
+#
+interface GigabitEthernet1/1/0
+ portswitch
+ description TO-LSDNS01-dns-G0/4/0-1G
+ undo shutdown
+ port link-type access
+ port default vlan 100
+ dcn
+#
+interface GigabitEthernet1/1/1
+ portswitch
+ description TO-FW200S_A-ZX-G0/1-1G
+ undo shutdown
+ port link-type access
+ port default vlan 201
+ dcn
+#
+interface GigabitEthernet1/1/2
+ portswitch
+ description TO-LSPCRF01BHW-PCRF-G2/0/4-1G
+ undo shutdown
+ port default vlan 700
+ dcn
+#
+interface GigabitEthernet1/1/3
+ portswitch
+ undo shutdown
+ port link-type access
+ port default vlan 100
+ dcn
+#
+interface GigabitEthernet1/1/4
+ negotiation auto
+ portswitch
+ undo shutdown
+ port link-type access
+ port default vlan 700
+ dcn
+ port-mirroring inbound
+ port-mirroring outbound
+#
+interface GigabitEthernet1/1/5
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet1/1/6
+ negotiation auto
+ portswitch
+ shutdown
+ port link-type access
+ port default vlan 100
+ dcn
+#
+interface GigabitEthernet1/1/7
+ negotiation auto
+ undo shutdown
+ ip address 10.240.81.2 255.255.255.252
+ dcn
+#
+interface GigabitEthernet1/1/8
+ shutdown
+#
+interface GigabitEthernet1/1/9
+ negotiation auto
+ undo shutdown
+ ip address 10.250.81.2 255.255.255.252
+ ip urpf strict 
+#
+interface GigabitEthernet1/1/10
+ undo shutdown
+#
+interface GigabitEthernet1/1/11
+ portswitch
+ undo shutdown
+ port link-type trunk
+ port trunk allow-pass vlan 1600
+ port-mirroring inbound
+ port-mirroring outbound
+#
+interface GigabitEthernet1/1/12
+ description TO-S3500-4A-G0/0/3-1G
+ undo shutdown
+ ip address 10.233.81.53 255.255.255.240
+ ntp-service multicast-server
+#
+interface GigabitEthernet1/1/13
+ description TO-LSMME01BHW-UDN-A-G8/0/13-1G
+ undo shutdown
+ eth-trunk 5
+#
+interface GigabitEthernet1/1/14
+ description TO-LSMME01BHW-UDN-A-G8/0/14-1G
+ undo shutdown
+ eth-trunk 5
+#
+interface GigabitEthernet1/1/15
+ portswitch
+ description TO-LSMME01BHW-GN-A-G8/0/15-1G
+ undo shutdown
+ port link-type access
+ port default vlan 1051
+#
+interface GigabitEthernet1/1/16
+ undo shutdown
+#
+interface GigabitEthernet1/1/17
+ portswitch
+ shutdown
+ port link-type access
+ port default vlan 200
+#
+interface GigabitEthernet1/1/18
+ portswitch
+ shutdown
+ port link-type access
+ port default vlan 200
+#
+interface GigabitEthernet1/1/19
+ shutdown
+#
+interface GigabitEthernet1/1/20
+ portswitch
+ description TO-NE40E-1-XXJC-A-SERVER
+ undo shutdown
+ port link-type access
+ port default vlan 300
+#
+interface GigabitEthernet1/1/21
+ portswitch
+ description TO-NE40E-1-XXJC-A-SERVER
+ undo shutdown
+ port link-type access
+ port default vlan 300
+#
+interface GigabitEthernet1/1/22
+ portswitch
+ description TO-XZLS-FW-200S_A-E0/1-100M
+ undo shutdown
+ port link-type access
+ port default vlan 200
+#
+interface GigabitEthernet1/1/23
+ negotiation auto
+ undo shutdown
+#
+interface GigabitEthernet2/0/0
+ description TO-LSASAEGW01BHW-GI-G3/1/0-1G
+ undo shutdown
+ eth-trunk 20
+ dcn
+#
+interface GigabitEthernet2/0/1
+ description TO-LSSAEGW03BHW-GN-0/1/0-10G
+ undo shutdown
+ undo enable snmp trap updown
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.234.35.1 255.255.255.252
+ ospf cost 100
+ ospf network-type p2p
+ dcn
+#
+interface GigabitEthernet2/0/2
+ description TO-E8000E_1-GI-G4/2/0-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet2/0/3
+ description TO-LSSAEGW03BHW-GI-GE1/0/1 -10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+ undo dcn
+#
+interface GigabitEthernet2/0/4
+ description TO-LSSAEGW03BHW-GI-GE1/0/3 -10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+#
+interface GigabitEthernet2/0/5
+ description TO-LSSAEGW03BHW-GI-GE1/0/5 -10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+#
+interface GigabitEthernet2/1/0
+ description TO-E8000E_1-GI-G1/0/0-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet2/1/1
+ description TO-XZLSNE40E_2-hulian-G2/1/1-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet2/1/2
+ description TO-LSASAEGW01BHW-GI-G5/1/1-10G
+ undo shutdown
+ eth-trunk 20
+ dcn
+#
+interface GigabitEthernet2/1/3
+ description TO-LSSAEGW03BHW-GI-GE1/0/7 -10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+ undo dcn
+#
+interface GigabitEthernet2/1/4
+ undo shutdown
+#
+interface GigabitEthernet2/1/5
+ undo shutdown
+ eth-trunk 0
+#
+interface GigabitEthernet3/0/0
+ description TO-LSASAEGW01BHW-GI-G3/1/1-10G
+ undo shutdown
+ eth-trunk 20
+ dcn
+#
+interface GigabitEthernet3/0/1
+ description TO-LSASAEGW01BHW-IMS-G5/0/0-10G
+ undo shutdown
+ eth-trunk 6
+ dcn
+#
+interface GigabitEthernet3/0/2
+ description TO-LSSAEGW03BHW-GN-GE1/0/11 -1G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 9
+ dcn
+#
+interface GigabitEthernet3/0/3
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet3/0/4
+ undo shutdown
+ eth-trunk 0
+#
+interface GigabitEthernet3/0/5
+ undo shutdown
+ eth-trunk 0
+#
+interface GigabitEthernet3/1/0
+ description UP:XZLS-GPRS-E8000E-1:G3/0/1 10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet3/1/1
+ description TO-XZLSNE40E_2-hulian-G3/1/1-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet3/1/2
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+ dcn
+#
+interface GigabitEthernet3/1/3
+ undo shutdown
+ eth-trunk 10
+ dcn
+#
+interface GigabitEthernet3/1/4
+ undo shutdown
+ eth-trunk 10
+#
+interface GigabitEthernet3/1/5
+ undo shutdown
+ eth-trunk 10
+#
+interface GigabitEthernet4/0/0
+ description TO-E8000E_2-GI-G7/1/2-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/1
+ description TO-E8000E_2-GI-G7/1/3-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/2
+ description TO-E8000E_2-GI-G7/1/3-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/3
+ undo shutdown
+ eth-trunk 10
+ dcn
+#
+interface GigabitEthernet4/0/4
+ undo shutdown
+ eth-trunk 10
+ dcn
+#
+interface GigabitEthernet4/0/5
+ undo shutdown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet4/0/6
+ description UP:XZLS-GPRS-E8000E-1:G3/0/9 10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/7
+ description UP:XZLS-GPRS-E8000E-1:G3/0/10 10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/8
+ description UP:XZLS-GPRS-E8000E-1:G3/0/11 10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/9
+ description TO TO-LSSAEGW04BHW-GI-GE1/0/0 -10G
+ undo shutdown
+ eth-trunk 10
+#
+interface GigabitEthernet4/0/10
+ description TO TO-LSSAEGW03BHW-GI-GE3/0/7 -10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+#
+interface GigabitEthernet4/0/11
+ undo shutdown
+#
+interface GigabitEthernet5/0/0
+ description TO UGW04 G4/1/6-SGi-10G
+ undo shutdown
+ eth-trunk 10
+ dcn
+#
+interface GigabitEthernet5/0/1
+ description TO UGW04 G4/1/7-SGi-10G
+ undo shutdown
+ eth-trunk 10
+ dcn
+#
+interface GigabitEthernet5/0/2
+ description TO UGW03 G3/1/4-SGi-10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+ dcn
+#
+interface GigabitEthernet5/0/3
+ description TO UGW03 G3/1/5-SGi-10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+ dcn
+#
+interface GigabitEthernet5/0/4
+ description TO NE40E02 G5/0/4-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/0/5
+ description TO NE40E02 G5/0/5-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/0/6
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet5/0/7
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet5/0/8
+ undo shutdown
+ eth-trunk 17
+#
+interface GigabitEthernet5/0/9
+ undo shutdown
+ eth-trunk 17
+#
+interface GigabitEthernet5/0/10
+ undo shutdown
+ eth-trunk 17
+#
+interface GigabitEthernet5/0/11
+ undo shutdown
+ port-observing observe-index 6
+#
+interface GigabitEthernet5/1/0
+ description TO NE40E02 G5/1/0-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/1
+ description TO NE40E02 G5/1/1-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/2
+ description TO NE40E02 G5/1/2-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/3
+ description TO NE40E02 G5/1/3-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/4
+ description TO NE40E02 G5/1/4-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/5
+ description TO NE40E02 G5/1/5-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/6
+ description TO NE40E02 G5/1/6-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/7
+ description TO NE40E02 G5/1/7-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/1/8
+ description TO NE40E02 G5/1/8-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+#
+interface GigabitEthernet5/1/9
+ description TO NE40E02 G5/1/9-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+#
+interface GigabitEthernet5/1/10
+ description TO NE40E02 G5/1/10-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+#
+interface GigabitEthernet5/1/11
+ description TO NE40E02 G5/1/11-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+#
+interface GigabitEthernet6/0/0
+ description TO UGW04 G4/1/8-SGi-10G
+ undo shutdown
+ eth-trunk 10
+ dcn
+#
+interface GigabitEthernet6/0/1
+ description TO UGW04 G4/1/9-SGi-10G
+ undo shutdown
+ eth-trunk 10
+ dcn
+#
+interface GigabitEthernet6/0/2
+ description TO UGW03 G3/1/6-SGi-10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+ dcn
+#
+interface GigabitEthernet6/0/3
+ description TO UGW03 G3/1/7-SGi-10G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 8
+ dcn
+#
+interface GigabitEthernet6/0/4
+ description TO NE40E02 G6/0/4-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet6/0/5
+ description TO NE40E02 G6/0/5-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet6/0/6
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet6/0/7
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet6/0/8
+ undo shutdown
+ eth-trunk 16
+#
+interface GigabitEthernet6/0/9
+ undo shutdown
+ eth-trunk 16
+#
+interface GigabitEthernet6/0/10
+ undo shutdown
+ eth-trunk 16
+#
+interface GigabitEthernet6/0/11
+ undo shutdown
+#
+interface GigabitEthernet6/1/0
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/1
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/2
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/3
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/4
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/5
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/6
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/7
+ description TO-E8000E_1-Eth-Trunk2.1-210G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet6/1/8
+ undo shutdown
+#
+interface GigabitEthernet6/1/9
+ undo shutdown
+#
+interface GigabitEthernet6/1/10
+ undo shutdown
+#
+interface GigabitEthernet6/1/11
+ undo shutdown
+ port-observing observe-index 4
+#
+interface LoopBack30
+ ip binding vpn-instance GPRS_Gn
+ ip address 192.168.168.169 255.255.255.255
+#
+interface LoopBack40
+ ip binding vpn-instance GPRS_Gi
+ ip address 192.168.168.193 255.255.255.255
+#
+interface LoopBack100
+ ip binding vpn-instance GPRS_Gn
+ ip address 223.103.26.90 255.255.255.255
+#
+interface LoopBack2147483647
+ description DCN loopback interface
+ ip binding vpn-instance __dcn_vpn__
+ ip address 128.76.245.191 255.255.0.0
+#
+interface NULL0
+#
+ospf 1 router-id 221.177.132.33 vpn-instance Gn_vpn
+ import-route direct
+ import-route static
+ opaque-capability enable
+ graceful-restart
+ vpn-instance-capability simple
+ area 0.0.0.0
+  network 221.177.132.32 0.0.0.15
+  network 221.177.132.96 0.0.0.7
+#
+ospf 10 router-id 221.177.132.129 vpn-instance GPRS_Gn
+ import-route direct type 1
+ import-route static
+ opaque-capability enable
+ graceful-restart
+ vpn-instance-capability simple
+ area 0.0.0.0
+  network 221.177.132.40 0.0.0.3
+  network 221.177.132.144 0.0.0.3
+  network 223.103.26.90 0.0.0.0
+ area 0.0.0.1
+  authentication-mode md5 1 cipher %^%#w7l(ICq.+.k@ke&]d\UBSkIUHy2`'H!7(t<Q$^&G%^%#
+  network 221.177.132.248 0.0.0.3
+  nssa
+ area 0.0.0.2
+  authentication-mode md5 1 cipher %^%#[>T,G!N/vYH3o[W-QKe#iEfOUU@W<4.S88.RPKe-%^%#
+  network 10.234.35.224 0.0.0.3
+  network 221.177.132.128 0.0.0.7
+  nssa
+ area 0.0.0.10
+  authentication-mode md5 1 cipher %^%#a,u/Lc7e$Le'#;5C<"k*<'%t-FO@%T~L'hF+Q3_;%^%#
+  network 10.234.35.0 0.0.0.3
+  network 10.234.35.8 0.0.0.3
+  network 10.234.35.232 0.0.0.3
+  nssa
+ area 0.0.0.20
+  authentication-mode md5 1 cipher %^%#O$1q6y`=9BBSV^M$(3>Ng^%bAV+ecK[>=!X8z&+G%^%#
+  network 10.234.35.24 0.0.0.3
+  nssa
+ area 0.0.0.30
+  authentication-mode md5 1 cipher %^%#fM.#9`.>lWa$e6Xf-Nj+BA04,70V,1x"`&W<i)%X%^%#
+  network 10.234.35.48 0.0.0.3
+  nssa
+#
+ospf 20 router-id 117.136.18.2 vpn-instance GPRS_Gi
+ import-route direct
+ import-route ospf 100
+ import-route static
+ opaque-capability enable
+ graceful-restart
+ area 0.0.0.0
+  network 221.177.132.48 0.0.0.3
+  network 221.177.132.148 0.0.0.3
+ area 0.0.0.1
+  authentication-mode md5 1 cipher %^%#+M:8EddtA#`V&U4MdQA1GcDU*zn1*8=Y!z@Pvsn2%^%#
+  network 10.234.35.40 0.0.0.3
+  network 117.136.18.0 0.0.0.3
+  nssa
+ area 0.0.0.20
+  network 10.234.35.16 0.0.0.3
+  nssa
+ area 0.0.0.30
+  network 10.234.35.32 0.0.0.3
+  nssa
+ area 0.0.0.40
+  authentication-mode md5 1 cipher %^%#E{6-08*ZSOvm'`<HEqU/6vuCYDf:2O:U"BD9b1N<%^%#
+  network 10.234.35.56 0.0.0.3
+  nssa
+#
+ospf 42
+#
+ospf 100 router-id 10.233.159.9 vpn-instance GPRS_Gi
+ default-route-advertise always
+ import-route direct
+ import-route ospf 40
+ import-route static
+ area 0.0.0.0
+  network 10.233.159.8 0.0.0.3
+#
+ospf 65534 vpn-instance __dcn_vpn__
+ description DCN ospf create by default
+ opaque-capability enable
+ hostname
+ vpn-instance-capability simple
+ area 0.0.0.0
+  network 0.0.0.0 255.255.255.255
+#
+!The DCN function implements the capability of plug-and-play for this device.
+!A NE IP address based on the unique NE ID is automatically generated in VPN
+!of DCN. It is recommended that the NE IP address be changed to the planned 
+!one by running the ne-ip X.X.X.X <MASK> command after the device being online.
+dcn
+#
+route-policy VoLTE_SGi permit node 10
+ if-match ipv6 address prefix-list prefix_sgi_huawei
+#
+ip route-static 0.0.0.0 0.0.0.0 221.177.132.43
+ip route-static 10.104.89.100 255.255.255.255 10.233.81.49
+ip route-static 10.233.81.128 255.255.255.224 10.233.81.49
+ip route-static 10.233.81.142 255.255.255.255 10.233.81.49
+ip route-static 10.233.81.143 255.255.255.255 10.233.81.49
+ip route-static 10.233.81.193 255.255.255.255 10.233.81.51
+ip route-static 10.233.81.194 255.255.255.255 10.233.81.51
+ip route-static 10.233.104.39 255.255.255.255 10.233.81.51
+ip route-static 10.233.205.235 255.255.255.255 10.233.81.49
+ip route-static 10.237.35.0 255.255.255.0 10.233.81.49
+ip route-static 10.237.95.23 255.255.255.255 10.233.81.49
+ip route-static 10.237.99.0 255.255.255.0 10.233.81.49 description to_NEW_4A
+ip route-static 10.237.100.0 255.255.255.0 10.233.81.49 description to_new_new4a
+ip route-static 10.241.106.34 255.255.255.255 10.233.81.49
+ip route-static 10.241.118.0 255.255.255.0 10.233.81.49
+ip route-static vpn-instance GPRS_Gi 10.233.159.34 255.255.255.255 117.136.18.1
+ip route-static vpn-instance vpn.Grp 10.133.31.112 255.255.255.248 Vlanif1051 10.133.31.46
+ip route-static vpn-instance vpn.Grp 10.133.31.120 255.255.255.248 Vlanif1051 10.133.31.46
+#
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:1 128 2409:801F:8000::1:3
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:8 128 2409:801F:8000::1:1B
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:8 128 2409:801F:8000::1:23
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:8 128 2409:801F:8000::1:2B
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:9 128 2409:801F:8000::1:1B
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:9 128 2409:801F:8000::1:23
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:9 128 2409:801F:8000::1:2B
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:A 128 2409:801F:8000::1:1B
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:A 128 2409:801F:8000::1:23
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::10:A 128 2409:801F:8000::1:2B
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:817E:DE00:: 45 2409:801F:8010:1::2
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:880F:8040:: 43 NULL0 description Summary-[SAEGW1]
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:880F:8040:: 43 2409:801F:8010:1::2
+#
+ip ipv6-prefix prefix_sgi_huawei index 10 permit 2409:801F:8010:1:: 126
+ip ipv6-prefix prefix_sgi_huawei index 20 permit 2409:880F:8040:: 43
+ip ipv6-prefix prefix_sgi_huawei index 30 permit 2409:801F:8000::2:0 126
+ip ipv6-prefix prefix_sgi_huawei index 50 permit 2409:801F:8000::2:18 126
+ip ipv6-prefix prefix_sgi_huawei index 90 permit 2409:801F:8000::2:20 126
+ip ipv6-prefix prefix_sgi_huawei index 100 permit 2409:801F:8000::2:28 126
+ip ipv6-prefix prefix_sgi_huawei index 110 permit 2409:801F:8000::1:0 126
+ip ipv6-prefix prefix_sgi_huawei index 120 permit 2409:801F:8000::10:1 128
+ip ipv6-prefix prefix_sgi_huawei index 130 permit 2409:801F:8000::1:18 126
+ip ipv6-prefix prefix_sgi_huawei index 140 permit 2409:801F:8000::10:8 128
+ip ipv6-prefix prefix_sgi_huawei index 150 permit 2409:801F:8000::10:9 128
+ip ipv6-prefix prefix_sgi_huawei index 160 permit 2409:801F:8000::10:A 128
+ip ipv6-prefix prefix_sgi_huawei index 170 permit 2409:801F:8000::1:20 126
+ip ipv6-prefix prefix_sgi_huawei index 180 permit 2409:801F:8000::1:28 126
+#
+snmp-agent
+snmp-agent local-engineid 800007DB053910910680002970
+snmp-agent community read cipher %^%#Oa5aUU4IW7\}J],.1!x"oBUZ$>.AD9O,1cDPx^S;Ysua<k5dYD$U{xDp"*'J8M%;5Xnr#F'E]N-p_`1#%^%# acl 2001
+snmp-agent community read cipher %^%#w6"W;:kXD%ND_T8HFd++f(iEQY-[&$29l\"lw0.A"Wvq.C]_d)%NbA/_[}n.kKkvG[:"J@m3FB)'U@;+%^%#
+snmp-agent community read cipher %^%#%<nM0*/^3ERk>|.E<l@(rdm$TM6bdY.*q0)hL%tLZj>E-{H8-QkRQI)86)C3dq5c68wQw-cc]LE=U4_G%^%# acl 2001
+snmp-agent community read cipher %^%#4+j,Z:^B.3Me;%F.w26,t0Ug7"<6\AWrV%5%*aY-DRU:)s$d/'7*DCD;QpDXf:,)(>\*pHl_IAXw^+[<%^%#
+snmp-agent community read cipher %^%#+[GVT[,B#/bnz=ECf8%9!8itGLpc\"hZu_@7!j,E.TzMFD!t~>WyxMQ<\|ZGr={b"{SeAU<WbhG;atO.%^%#
+#
+snmp-agent sys-info version v2c v3
+snmp-agent target-host trap address udp-domain 10.233.104.39 params securityname cipher %^%#9/q$8u%<fJB(73#WT$.NOYX*YMxN6,zqPj0q<b!M%^%# v2c
+snmp-agent target-host trap address udp-domain 10.233.205.235 params securityname cipher %^%#|i4X&7d&WH~US}(/4U>V.xh%~.43FS~CSgFc3tW;%^%# v2c
+snmp-agent target-host trap address udp-domain 10.233.205.235 params securityname cipher %^%#b-%j66*X#8!W{SRnk\d;[25lHR/)AJy^10F[&g,R:g"q+EjW1"<@uT<j7uq&%^%# v2c
+snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname cipher %^%#.+^S&=z.3'5w{O<HhH+H1}$B2xi4e>2Wy68!W;ZO%^%# v2c
+snmp-agent target-host trap address udp-domain 10.241.105.144 params securityname cipher %^%#`TDCAKYSF=M#Ot&vYfBK9d0_Iq<q~J@Jv@7KEm].%^%# v2c
+#
+snmp-agent trap source GigabitEthernet1/1/12
+#
+snmp-agent trap type base-trap
+#
+snmp-agent trap enable
+#
+lldp enable
+#
+stelnet server enable
+snetconf server enable
+ssh user cmxz_feizeqing
+ssh user cmxz_feizeqing authentication-type password
+ssh user cmxz_feizeqing service-type stelnet
+ssh user cmxz_licheng
+ssh user cmxz_licheng authentication-type password
+ssh user cmxz_licheng service-type stelnet
+ssh user cmxz_tangjin
+ssh user cmxz_tangjin authentication-type password
+ssh user cmxz_tangjin service-type stelnet
+ssh user cszdxj
+ssh user cszdxj authentication-type password
+ssh user cszdxj service-type stelnet
+ssh user jituan01
+ssh user jituan01 authentication-type password
+ssh user jituan01 service-type stelnet
+ssh user jituan02
+ssh user jituan02 authentication-type password
+ssh user jituan02 service-type stelnet
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user licheng
+ssh user licheng authentication-type password
+ssh user licheng service-type stelnet
+ssh user root
+ssh user root authentication-type password
+ssh user root service-type snetconf stelnet
+ssh user xz4a_admin
+ssh user xz4a_admin authentication-type password
+ssh user xz4a_admin service-type stelnet
+ssh server acl 2000
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_ctr aes128_ctr
+#
+ssh client first-time enable
+ssh client 10.233.81.51 assign rsa-key 10.233.81.51
+ssh client 10.233.81.54 assign rsa-key 10.233.81.54
+ssh client 127.0.0.1 assign rsa-key 127.0.0.1
+#
+user-interface maximum-vty 21
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1a$C9E.I3)qo;$pvz^~m-$LV]l;D(VY/#Yj2`gJ:j7-FXwDO.DWzEZ$
+ screen-length 0
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 15
+ idle-timeout 15 0
+ screen-length 0
+ protocol inbound ssh
+#
+user-interface vty 16 20
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 15
+ protocol inbound ssh
+#
+local-aaa-server
+#
+return

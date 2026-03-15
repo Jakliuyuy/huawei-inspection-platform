@@ -1,0 +1,1117 @@
+﻿<xzyd-enip1>screen-length 0 temporary
+                          ^
+ % Unrecognized command found at '^' position.
+<xzyd-enip1>display version
+H3C Comware Software, Version 7.1.070, Release 1115
+Copyright (c) 2004-2022 New H3C Technologies Co., Ltd. All rights reserved.
+H3C S5554S-EI-D uptime is 1 week, 3 days, 19 hours, 9 minutes
+Last reboot reason : Cold reboot
+
+Boot image: flash:/s5500_ei_d-cmw710-boot-r1115.bin
+Boot image version: 7.1.070, Release 1115
+  Compiled Oct 14 2022 11:00:00
+System image: flash:/s5500_ei_d-cmw710-system-r1115.bin
+System image version: 7.1.070, Release 1115
+  Compiled Oct 14 2022 11:00:00
+
+
+Slot 1:
+Uptime is 1 week,3 days,19 hours,9 minutes
+S5554S-EI-D with 1 Processor
+BOARD TYPE:         S5554S-EI-D
+DRAM:               1024M bytes
+FLASH:              256M bytes
+PCB 1 Version:      VER.A
+Bootrom Version:    110
+CPLD 1 Version:     004
+Release Version:    H3C S5554S-EI-D-1115
+Patch Version  :    None
+Reboot Cause  :     ColdReboot
+[SubSlot 0] 48GE+6SFP Plus
+<xzyd-enip1>display device
+Slot Type              State    Subslot  Soft Ver             Patch Ver
+1    S5554S-EI-D       Master   0        S5500_EI_D-1115      None      
+<xzyd-enip1>display startup
+MainBoard:
+ Current startup saved-configuration file: flash:/startup.cfg(*)
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<xzyd-enip1>display cpu-usage
+Slot 1 CPU 0 CPU usage:
+       3% in last 5 seconds
+       4% in last 1 minute
+       4% in last 5 minutes
+
+<xzyd-enip1>display memory-usage
+                    ^
+ % Unrecognized command found at '^' position.
+<xzyd-enip1>display memory
+Memory statistics are measured in KB:
+Slot 1: 
+             Total      Used      Free    Shared   Buffers    Cached   FreeRatio
+Mem:        991732    446848    544884         0      1472    186520       56.1%
+-/+ Buffers/Cache:    258856    732876
+Swap:            0         0         0
+
+<xzyd-enip1>display ip interface brief
+*down: administratively down
+(s): spoofing  (l): loopback
+Interface           Physical Protocol IP address      VPN instance Description  
+Vlan1               up       up       --              --           --
+Vlan3               up       up       --              --           --
+Vlan4               up       up       10.233.121.201  --           --
+Vlan100             up       up       --              --           --
+<xzyd-enip1>display interface brief
+Brief information on interfaces in route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Primary IP        Description              
+InLoop0              UP   UP(s)    --                
+NULL0                UP   UP(s)    --                
+REG0                 UP   --       --                
+Vlan1                UP   UP       --                
+Vlan3                UP   UP       --                
+Vlan4                UP   UP       10.233.121.201    
+Vlan100              UP   UP       --                
+
+Brief information on interfaces in bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed: (a) - auto
+Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed     Duplex Type PVID Description              
+BAGG1                UP   2G(a)     F(a)   T    1    to xzyd-enip2
+GE1/0/1              ADM  auto      A      A    4    TO WEB2
+GE1/0/2              ADM  auto      A      A    4    TO WEB1
+GE1/0/3              UP   100M(a)   F(a)   A    4    TO FEPOIA1
+GE1/0/4              ADM  auto      A      A    4    TO FEPOIA2
+GE1/0/5              UP   1G(a)     F(a)   A    4    TO SMP2
+GE1/0/6              UP   1G(a)     F(a)   A    4    TO SMP1
+GE1/0/7              UP   100M(a)   H(a)   T    1    "TO_J07_XZ-CENTREXAS-S352
+GE1/0/8              UP   1G(a)     F(a)   T    1    TO_EX650_1
+GE1/0/9              ADM  auto      A      A    4    "TO BAM"
+GE1/0/10             UP   1G(a)     F(a)   T    1    "to D02_E1000_slot1-2"
+GE1/0/11             UP   1G(a)     F(a)   A    4    TO xzyd-usau1
+GE1/0/12             UP   100M(a)   F(a)   A    4    TO WEIHU
+GE1/0/13             ADM  auto      A      A    3    "From CE03-7-5"
+GE1/0/14             UP   1G(a)     F(a)   A    4    TO RBI
+GE1/0/15             UP   1G(a)     F(a)   A    3    "From D05-ATAE-slot1-scp3
+GE1/0/16             UP   1G(a)     F(a)   T    3    "from_D05_ATAE2_slot7-FAB
+GE1/0/17             DOWN auto      A      A    3    "to D07_3650-1-pc1 "
+GE1/0/18             ADM  auto      A      A    3    "to D07_3650-2-Pc1 "
+GE1/0/19             ADM  auto      A      A    3    "to unknown but not activ
+GE1/0/20             ADM  auto      A      T    3    ""
+GE1/0/21             ADM  auto      A      A    3    "to D07_3650-5-1 "
+GE1/0/22             UP   1G(a)     F(a)   A    3    "to D06_switch1-23 "
+GE1/0/23             ADM  auto      A      A    3    "to D07_3650-7-2 "
+GE1/0/24             ADM  auto      A      A    3    "to D07_3650-8-2 "
+GE1/0/25             DOWN auto      A      A    1    
+GE1/0/26             DOWN auto      A      A    1    
+GE1/0/27             DOWN auto      A      A    1    
+GE1/0/28             DOWN auto      A      A    1    
+GE1/0/29             DOWN auto      A      A    1    
+GE1/0/30             DOWN auto      A      A    1    
+GE1/0/31             DOWN auto      A      A    1    
+GE1/0/32             DOWN auto      A      A    1    
+GE1/0/33             DOWN auto      A      A    1    
+GE1/0/34             DOWN auto      A      A    1    
+GE1/0/35             DOWN auto      A      A    1    
+GE1/0/36             DOWN auto      A      A    1    
+GE1/0/37             DOWN auto      A      A    1    
+GE1/0/38             DOWN auto      A      A    1    
+GE1/0/39             DOWN auto      A      A    1    
+GE1/0/40             DOWN auto      A      A    1    
+GE1/0/41             DOWN auto      A      A    1    
+GE1/0/42             DOWN auto      A      A    1    
+GE1/0/43             DOWN auto      A      A    1    
+GE1/0/44             DOWN auto      A      A    1    
+GE1/0/45             DOWN auto      A      A    1    
+GE1/0/46             DOWN auto      A      A    1    
+GE1/0/47             UP   1G(a)     F(a)   T    1    TO xzyd-enip2
+GE1/0/48             UP   1G(a)     F(a)   T    1    TO xzyd-enip2
+XGE1/0/49            UP   1G(a)     F(a)   T    1    
+XGE1/0/50            ADM  auto      A      A    1    
+XGE1/0/51            DOWN auto      A      A    1    
+XGE1/0/52            DOWN auto      A      A    1    
+XGE1/0/53            DOWN auto      A      A    1    
+XGE1/0/54            DOWN auto      A      A    1    
+
+<xzyd-enip1>display ip routing-table
+
+Destinations : 17       Routes : 17
+
+Destination/Mask   Proto   Pre Cost        NextHop         Interface
+0.0.0.0/32         Direct  0   0           127.0.0.1       InLoop0
+10.233.121.128/25  Direct  0   0           10.233.121.201  Vlan4
+10.233.121.128/32  Direct  0   0           10.233.121.201  Vlan4
+10.233.121.201/32  Direct  0   0           127.0.0.1       InLoop0
+10.233.121.255/32  Direct  0   0           10.233.121.201  Vlan4
+10.237.35.0/24     Static  60  0           10.233.121.213  Vlan4
+10.237.95.0/24     Static  60  0           10.233.121.213  Vlan4
+10.237.99.0/24     Static  60  0           10.233.121.213  Vlan4
+10.237.100.0/24    Static  60  0           10.233.121.213  Vlan4
+10.241.118.0/29    Static  60  0           10.233.121.213  Vlan4
+127.0.0.0/8        Direct  0   0           127.0.0.1       InLoop0
+127.0.0.0/32       Direct  0   0           127.0.0.1       InLoop0
+127.0.0.1/32       Direct  0   0           127.0.0.1       InLoop0
+127.255.255.255/32 Direct  0   0           127.0.0.1       InLoop0
+224.0.0.0/4        Direct  0   0           0.0.0.0         NULL0
+224.0.0.0/24       Direct  0   0           0.0.0.0         NULL0
+255.255.255.255/32 Direct  0   0           127.0.0.1       InLoop0
+<xzyd-enip1>display logbuffer
+Log buffer: Enabled
+Max buffer size: 1024
+Actual buffer size: 512
+Dropped messages: 0
+Overwritten messages: 2672
+Current messages: 512
+%Jan 10 07:28:46:312 2013 xzyd-enip1 SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 59312 passed password authentication.
+%Jan 10 07:28:47:389 2013 xzyd-enip1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan 10 07:28:47:821 2013 xzyd-enip1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan 10 07:32:07:838 2013 xzyd-enip1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jan 10 07:32:07:866 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan 10 07:32:08:022 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan 10 07:32:08:175 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan 10 07:32:08:306 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jan 10 07:32:08:428 2013 xzyd-enip1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jan 10 07:32:08:454 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Jan 10 07:32:08:601 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan 10 07:32:08:750 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan 10 07:32:09:373 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan 10 07:32:09:522 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jan 10 07:32:10:710 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jan 10 07:37:13:871 2013 xzyd-enip1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jan 10 07:37:13:934 2013 xzyd-enip1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 59312.
+%Jan 10 07:37:13:935 2013 xzyd-enip1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jan 10 07:52:51:529 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 07:52:53:650 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 07:52:54:321 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 07:52:56:649 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 07:57:52:111 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 07:57:54:650 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:22:52:591 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:22:54:651 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:22:55:322 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:22:57:651 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:27:53:136 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:27:55:651 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:52:53:631 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:52:55:652 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:52:56:328 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:52:58:652 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:57:54:207 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 08:57:56:652 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:22:54:744 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:22:57:654 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:27:55:445 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:27:57:654 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:27:58:333 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:28:00:654 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:52:54:775 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:52:57:655 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:57:55:511 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:57:57:655 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:57:58:332 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 09:58:00:655 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:22:55:902 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:22:58:656 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:27:56:549 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:27:58:656 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:27:59:338 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:28:01:656 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:52:56:972 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:52:59:657 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:57:57:648 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:57:59:658 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:58:00:342 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 10:58:02:658 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:22:58:059 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:23:00:658 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:27:58:712 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:28:01:658 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:52:59:221 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:53:01:660 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:57:59:889 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 11:58:02:660 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:23:00:294 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:23:02:661 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:28:00:918 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:28:03:661 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:53:01:432 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:53:03:662 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:53:04:345 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:53:06:662 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:58:02:036 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 12:58:04:662 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:23:02:452 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:23:04:664 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:23:05:347 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:23:07:664 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:28:03:087 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:28:05:664 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:53:03:524 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:53:05:665 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:53:06:364 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:53:08:665 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:58:04:200 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 13:58:06:665 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:23:04:649 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:23:06:667 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:23:07:349 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:23:09:666 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:28:05:305 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:28:07:667 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:53:04:792 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:53:07:668 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:58:06:421 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 14:58:08:668 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:23:05:757 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:23:08:669 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:28:06:492 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:28:08:670 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:28:09:365 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:28:11:669 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:53:06:827 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:53:09:673 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:58:07:586 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:58:09:670 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:58:10:361 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 15:58:12:671 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:23:07:990 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:23:10:672 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:28:08:687 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:28:10:672 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:28:11:368 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:28:13:672 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:53:09:018 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:53:11:685 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:53:11:733 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:53:14:673 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:58:09:715 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 16:58:12:673 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:23:10:182 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:23:12:674 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:28:09:863 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:28:12:674 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:53:10:248 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:53:12:675 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:58:10:953 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 17:58:13:676 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:23:11:298 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:23:13:677 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:28:12:069 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:28:14:677 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:53:12:474 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:53:14:678 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:53:15:376 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:53:17:678 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:58:13:130 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 18:58:15:678 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:23:13:506 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:23:15:679 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:23:16:372 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:23:18:679 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:28:13:335 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:28:15:679 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:53:14:596 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:53:16:680 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:53:17:371 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:53:19:680 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:58:14:294 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 19:58:16:680 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:23:15:704 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:23:17:681 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:23:18:374 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:23:20:681 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:28:15:418 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:28:17:681 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:53:15:887 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:53:18:683 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:58:16:464 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:58:18:683 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:58:19:376 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 20:58:21:683 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:23:16:890 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:23:19:684 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:28:17:640 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:28:19:684 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:28:20:400 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:28:22:684 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:53:17:938 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:53:20:686 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:58:18:696 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:58:20:685 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:58:21:432 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 21:58:23:685 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:23:19:064 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:23:21:686 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:28:19:768 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:28:22:686 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:53:20:097 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:53:22:688 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:58:20:908 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 22:58:23:687 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:23:20:156 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:23:22:689 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:28:21:020 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:28:23:689 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:53:21:269 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:53:23:690 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:58:22:126 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 10 23:58:24:690 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:23:22:373 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:23:24:691 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:28:23:192 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:28:25:692 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:53:23:470 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:53:25:693 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:53:26:392 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:53:28:692 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:58:24:284 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 00:58:26:692 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:23:24:547 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:23:26:693 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:23:27:394 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:23:29:693 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:28:25:296 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:28:27:693 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:53:25:651 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:53:27:694 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:53:28:396 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:53:30:695 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:58:26:497 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 01:58:28:694 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:23:26:810 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:23:29:696 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:28:26:578 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:28:28:696 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:28:29:404 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:28:31:695 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:53:27:883 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:53:30:697 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:58:26:673 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:58:28:697 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:58:29:408 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 02:58:31:697 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:23:28:920 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:23:31:698 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:28:26:707 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:28:28:699 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:28:29:405 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:28:31:698 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:53:29:043 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:53:31:701 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:58:29:864 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 03:58:32:700 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:23:30:129 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:23:32:701 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:28:30:945 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:28:33:701 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:53:31:235 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:53:33:701 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:53:33:948 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:53:36:702 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:58:32:042 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 04:58:34:702 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:23:32:349 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:23:34:703 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:28:33:058 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:28:35:703 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:43:50:863 2013 xzyd-enip1 SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 57999 passed password authentication.
+%Jan 11 05:43:51:966 2013 xzyd-enip1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan 11 05:43:52:392 2013 xzyd-enip1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan 11 05:44:27:551 2013 xzyd-enip1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jan 11 05:44:27:605 2013 xzyd-enip1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 57999.
+%Jan 11 05:44:27:605 2013 xzyd-enip1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jan 11 05:44:37:445 2013 xzyd-enip1 SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 58167 passed password authentication.
+%Jan 11 05:44:38:527 2013 xzyd-enip1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan 11 05:44:38:956 2013 xzyd-enip1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan 11 05:44:51:689 2013 xzyd-enip1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jan 11 05:44:51:721 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan 11 05:44:51:889 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan 11 05:44:52:053 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan 11 05:44:52:189 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jan 11 05:44:52:310 2013 xzyd-enip1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jan 11 05:44:52:334 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Jan 11 05:44:52:474 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan 11 05:44:52:619 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan 11 05:44:53:239 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan 11 05:44:53:377 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Jan 11 05:44:54:788 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Jan 11 05:49:12:908 2013 xzyd-enip1 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Jan 11 05:49:12:975 2013 xzyd-enip1 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58167.
+%Jan 11 05:49:12:976 2013 xzyd-enip1 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Jan 11 05:53:33:433 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:53:35:704 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:53:36:116 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:53:38:704 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:58:33:219 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 05:58:35:704 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:23:34:540 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:23:36:705 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:23:37:417 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:23:39:706 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:28:33:303 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:28:35:706 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:53:35:681 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:53:37:707 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:53:38:447 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:53:40:706 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:58:33:337 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 06:58:35:707 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:23:36:700 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:23:38:708 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:23:39:422 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:23:41:708 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:28:33:504 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:28:35:708 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:28:36:422 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:28:38:708 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:53:36:821 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:53:39:709 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:58:34:565 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:58:36:709 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:58:37:422 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 07:58:39:709 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:23:37:822 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:23:40:711 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:28:35:650 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:28:37:711 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:28:38:452 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:28:40:711 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:53:38:897 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:53:41:712 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:58:35:812 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 08:58:38:712 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:23:39:032 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:23:41:713 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:28:35:854 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:28:38:713 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:53:40:077 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:53:42:715 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:58:35:942 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 09:58:38:715 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:23:41:226 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:23:43:716 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:28:37:115 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:28:39:716 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:53:42:236 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:53:44:722 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:58:37:136 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 10:58:39:717 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:23:43:406 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:23:45:719 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:28:37:313 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:28:39:719 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:53:43:413 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:53:45:720 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:58:37:326 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 11:58:39:720 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:23:44:490 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:23:46:721 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:23:47:449 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:23:49:721 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:28:37:456 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:28:39:722 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:53:45:615 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:53:47:723 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:53:48:445 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:53:50:722 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:58:37:545 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:58:39:723 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:58:40:474 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 12:58:42:723 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:23:46:679 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:23:48:724 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:23:49:452 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:23:51:724 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:28:37:669 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:28:39:724 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:28:40:445 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:28:42:724 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:53:47:802 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:53:50:725 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:58:37:821 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:58:39:725 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:58:40:447 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 13:58:42:726 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:23:48:955 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:23:51:727 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:28:48:762 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:28:51:727 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:53:48:957 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:53:51:728 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:58:48:954 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 14:58:51:728 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:23:50:086 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:23:52:729 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:28:50:003 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:28:52:730 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:53:51:219 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:53:53:731 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:58:50:050 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 15:58:52:731 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:23:52:278 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:23:54:732 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:28:50:117 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:28:52:732 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:53:53:385 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:53:55:733 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:58:50:311 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 16:58:52:734 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:23:54:479 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:23:56:735 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:28:50:394 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:28:52:735 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:53:54:458 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:53:56:736 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:58:50:508 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 17:58:52:736 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:23:55:656 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:23:57:738 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:23:58:466 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:24:00:737 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:28:50:505 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:28:52:738 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:28:53:472 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:28:55:738 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:53:56:631 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:53:58:739 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:53:59:472 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:54:01:742 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:58:50:704 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:58:52:739 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:58:53:468 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 18:58:55:739 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:23:57:870 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:23:59:740 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:24:00:471 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:24:02:740 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:28:57:676 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:28:59:740 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:29:00:483 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:29:02:740 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:53:58:838 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:54:01:742 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:58:57:758 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 19:59:00:742 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:23:59:024 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:24:01:749 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:28:57:972 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:29:00:743 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:54:00:121 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:54:02:745 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:58:57:996 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 20:59:00:745 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:24:01:216 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:24:03:746 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:28:59:126 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:29:01:748 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:54:02:276 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:54:04:747 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:59:02:250 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 21:59:04:747 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:24:03:283 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:24:05:748 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:29:04:282 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:29:06:749 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:54:03:481 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:54:05:750 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:59:04:324 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 22:59:06:750 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:24:04:449 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:24:06:751 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:29:04:403 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:29:06:752 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:54:05:565 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:54:07:753 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:54:08:495 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:54:10:753 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:59:04:576 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:59:06:753 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:59:07:489 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 11 23:59:09:753 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:24:06:615 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:24:08:754 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:24:09:547 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:24:11:754 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:29:07:621 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:29:09:754 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:29:10:496 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:29:12:754 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:54:07:683 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:54:09:755 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:54:10:500 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:54:12:755 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:59:07:694 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:59:09:756 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:59:10:571 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 00:59:12:756 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:24:08:867 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:24:11:757 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:29:07:887 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:29:10:757 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:54:08:971 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:54:11:758 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:59:09:883 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 01:59:12:760 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:24:10:013 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:24:12:758 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:29:11:108 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:29:13:759 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:54:11:070 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:54:13:761 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:59:12:181 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 02:59:14:759 2013 xzyd-enip1 STP/6/STP_NOTIFIED_TC: Instance 0's port GigabitEthernet1/0/11 was notified a topology change.
+%Jan 12 03:08:41:841 2013 xzyd-enip1 SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 51129 passed password authentication.
+%Jan 12 03:08:43:009 2013 xzyd-enip1 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Jan 12 03:08:43:443 2013 xzyd-enip1 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Jan 12 03:09:01:394 2013 xzyd-enip1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Jan 12 03:09:01:455 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Jan 12 03:09:01:648 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Jan 12 03:09:01:820 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Jan 12 03:09:01:966 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Jan 12 03:09:02:126 2013 xzyd-enip1 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Jan 12 03:09:02:177 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Jan 12 03:09:02:341 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Jan 12 03:09:02:509 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Jan 12 03:09:03:147 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Jan 12 03:09:03:302 2013 xzyd-enip1 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+<xzyd-enip1>display current-configuration
+#
+ version 7.1.070, Release 1115
+#
+ sysname xzyd-enip1
+#
+ clock timezone BJ add 08:00:00
+ clock protocol none
+#
+ telnet server enable
+#
+ voice-vlan mac-address 00e0-bb00-0000 mask ffff-ff00-0000 description 3com phone
+ voice-vlan mac-address 0001-e300-0000 mask ffff-ff00-0000 description Simens phone
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 1
+#
+ lldp global enable
+#
+ password-recovery enable
+#
+vlan 1
+#
+vlan 3
+ description mCentrex-vlan
+#
+vlan 4
+ description to vpn-vlan
+#
+vlan 5
+#
+vlan 100
+#
+ stp instance 0 root primary
+ stp bpdu-protection
+ stp global enable
+#
+interface Bridge-Aggregation1
+ description to xzyd-enip2
+ port link-type trunk
+ port trunk permit vlan 1 to 1059 1062 to 4094
+ stp root-protection
+#
+interface NULL0
+#
+interface Vlan-interface1
+#
+interface Vlan-interface3
+#
+interface Vlan-interface4
+ ip address 10.233.121.201 255.255.255.128
+#
+interface Vlan-interface100
+#
+interface GigabitEthernet1/0/1
+ port link-mode bridge
+ description TO WEB2
+ port access vlan 4
+ shutdown
+#
+interface GigabitEthernet1/0/2
+ port link-mode bridge
+ description TO WEB1
+ port access vlan 4
+ shutdown
+#
+interface GigabitEthernet1/0/3
+ port link-mode bridge
+ description TO FEPOIA1
+ port access vlan 4
+#
+interface GigabitEthernet1/0/4
+ port link-mode bridge
+ description TO FEPOIA2
+ port access vlan 4
+ shutdown
+#
+interface GigabitEthernet1/0/5
+ port link-mode bridge
+ description TO SMP2
+ port access vlan 4
+#
+interface GigabitEthernet1/0/6
+ port link-mode bridge
+ description TO SMP1
+ port access vlan 4
+#
+interface GigabitEthernet1/0/7
+ port link-mode bridge
+ description "TO_J07_XZ-CENTREXAS-S3520-1_46"
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 100
+#
+interface GigabitEthernet1/0/8
+ port link-mode bridge
+ description TO_EX650_1
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 4
+#
+interface GigabitEthernet1/0/9
+ port link-mode bridge
+ description "TO BAM"
+ port access vlan 4
+ shutdown
+#
+interface GigabitEthernet1/0/10
+ port link-mode bridge
+ description "to D02_E1000_slot1-2"
+ port link-type trunk
+ port trunk permit vlan all
+#
+interface GigabitEthernet1/0/11
+ port link-mode bridge
+ description TO xzyd-usau1
+ port access vlan 4
+#
+interface GigabitEthernet1/0/12
+ port link-mode bridge
+ description TO WEIHU
+ port access vlan 4
+#
+interface GigabitEthernet1/0/13
+ port link-mode bridge
+ description "From CE03-7-5"
+ port access vlan 3
+ shutdown
+#
+interface GigabitEthernet1/0/14
+ port link-mode bridge
+ description TO RBI
+ port access vlan 4
+#
+interface GigabitEthernet1/0/15
+ port link-mode bridge
+ description "From D05-ATAE-slot1-scp31a-card3-lan0"
+ port access vlan 3
+#
+interface GigabitEthernet1/0/16
+ port link-mode bridge
+ description "from_D05_ATAE2_slot7-FABRIC-GE-LAN0"
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 2 to 4094
+ port trunk pvid vlan 3
+#
+interface GigabitEthernet1/0/17
+ port link-mode bridge
+ description "to D07_3650-1-pc1 "
+ port access vlan 3
+#
+interface GigabitEthernet1/0/18
+ port link-mode bridge
+ description "to D07_3650-2-Pc1 "
+ port access vlan 3
+ shutdown
+#
+interface GigabitEthernet1/0/19
+ port link-mode bridge
+ description "to unknown but not active "
+ port access vlan 3
+ shutdown
+#
+interface GigabitEthernet1/0/20
+ port link-mode bridge
+ description ""
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 2 to 4094
+ port trunk pvid vlan 3
+ shutdown
+#
+interface GigabitEthernet1/0/21
+ port link-mode bridge
+ description "to D07_3650-5-1 "
+ port access vlan 3
+ shutdown
+#
+interface GigabitEthernet1/0/22
+ port link-mode bridge
+ description "to D06_switch1-23 "
+ port access vlan 3
+#
+interface GigabitEthernet1/0/23
+ port link-mode bridge
+ description "to D07_3650-7-2 "
+ port access vlan 3
+ shutdown
+#
+interface GigabitEthernet1/0/24
+ port link-mode bridge
+ description "to D07_3650-8-2 "
+ port access vlan 3
+ shutdown
+#
+interface GigabitEthernet1/0/25
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/26
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/28
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/29
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/30
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/31
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/32
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/33
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/34
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/35
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/36
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/37
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/38
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/39
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/40
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/41
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/42
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/43
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/44
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/45
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/46
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/47
+ port link-mode bridge
+ description TO xzyd-enip2
+ port link-type trunk
+ port trunk permit vlan 1 to 1059 1062 to 4094
+ port link-aggregation group 1
+#
+interface GigabitEthernet1/0/48
+ port link-mode bridge
+ description TO xzyd-enip2
+ port link-type trunk
+ port trunk permit vlan 1 to 1059 1062 to 4094
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/49
+ port link-mode bridge
+ port link-type trunk
+ port trunk permit vlan all
+ stp root-protection
+#
+interface Ten-GigabitEthernet1/0/50
+ port link-mode bridge
+ shutdown
+#
+interface Ten-GigabitEthernet1/0/51
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/52
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/53
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/54
+ port link-mode bridge
+#
+ scheduler logfile size 16
+#
+line class aux
+ user-role network-admin
+#
+line class vty
+ user-role network-operator
+#
+line aux 0
+ user-role network-admin
+#
+line vty 0 4
+ authentication-mode scheme
+ user-role network-operator
+ idle-timeout 5 0
+ screen-length 0
+#
+line vty 5 63
+ user-role network-operator
+#
+ ip route-static 10.237.35.0 24 10.233.121.213
+ ip route-static 10.237.95.0 24 10.233.121.213
+ ip route-static 10.237.99.0 24 10.233.121.213
+ ip route-static 10.237.100.0 24 10.233.121.213
+ ip route-static 10.241.118.0 29 10.233.121.213
+#
+ info-center loghost 10.237.35.249
+ info-center loghost 10.237.99.80
+#
+ snmp-agent
+ snmp-agent local-engineid 800063A28014847760FABE00000001
+ snmp-agent community read LCjcGPRS
+ snmp-agent community read XZYD_smjk-2018 acl 2000
+ snmp-agent sys-info version v2c v3 
+ snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname LCjcGPRS v2c
+ snmp-agent trap enable arp 
+ snmp-agent trap enable radius 
+ snmp-agent trap enable stp 
+ snmp-agent trap enable syslog 
+#
+ ssh server enable
+ ssh user cszdxj service-type stelnet authentication-type password
+ ssh user jtcjxz service-type stelnet authentication-type password
+ ssh user xz4a_admin service-type stelnet authentication-type password
+ ssh user xzyd_zhuoma service-type stelnet authentication-type password
+ ssh server acl 2000
+#
+ ssh2 algorithm cipher aes128-ctr
+#
+acl basic 2000
+ rule 5 permit source 10.237.35.0 0.0.0.255
+ rule 10 permit source 10.237.99.0 0.0.0.255
+ rule 15 permit source 10.237.100.0 0.0.0.255
+#
+acl advanced 3001
+ rule 5 deny udp source-port eq ntp
+#
+ super password role level-15 hash $h$6$iAgz84eKwUWq2c9V$4xmztrD8KTLaXWvCohX50/IFZAvTpLNFYrhuF5ZpclQGW3j/EQqLEge30Z+PqlfvG3qc9XGxkzKKQas9Ms9phQ==
+#
+radius scheme system
+ user-name-format without-domain
+#
+domain system
+#
+ domain default enable system
+#
+role name level-0
+ description Predefined level-0 role
+#
+role name level-1
+ description Predefined level-1 role
+#
+role name level-2
+ description Predefined level-2 role
+#
+role name level-3
+ description Predefined level-3 role
+#
+role name level-4
+ description Predefined level-4 role
+#
+role name level-5
+ description Predefined level-5 role
+#
+role name level-6
+ description Predefined level-6 role
+#
+role name level-7
+ description Predefined level-7 role
+#
+role name level-8
+ description Predefined level-8 role
+#
+role name level-9
+ description Predefined level-9 role
+#
+role name level-10
+ description Predefined level-10 role
+#
+role name level-11
+ description Predefined level-11 role
+#
+role name level-12
+ description Predefined level-12 role
+#
+role name level-13
+ description Predefined level-13 role
+#
+role name level-14
+ description Predefined level-14 role
+#
+user-group system
+#
+local-user cszdxj class manage
+ password hash $h$6$bHutxepAs2d18Q8n$NWEbXzg8zgkIImk10dog6cUJed70oK0q7Zv3ZDBlc9QLseNxFkhxmNaSHS6OWa6+NTD/miQmGjHAOWC+z6tjXQ==
+ service-type telnet ssh
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user jtcjxz class manage
+ password hash $h$6$rf4Gj53lQScXY5az$2LptGOy0SZGTEfgvNPq9gwSiSNE42V3fbE4qnaXUXjUjvAkqiONqPh04HZt+jk8UHHpLsQ4UExuHN9GHd+T4tA==
+ service-type ssh
+ authorization-attribute user-role level-2
+ authorization-attribute user-role network-operator
+#
+local-user xz4a_admin class manage
+ password hash $h$6$rg3dMAC/XVa2c/KP$pEstMXG9+x6CPlP/vJCoVRCy4cvaxPIh6pEnQSrXbjqHwUN3dE0np1dzVJbIwirtjzLRzJHBmaMhW5uaV/Is8g==
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-1
+ authorization-attribute user-role network-operator
+#
+local-user xzyd_zhuoma class manage
+ password hash $h$6$tFY9kfpy63wcwsyJ$+c6osoUbM6GK8HfoFDRsyXfrW+veXODTrLXerpQv/HDYq3csT5DdtNvXErWFp9dVO6uelY6qVZnfk+urfkWozw==
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+return

@@ -1,0 +1,2483 @@
+﻿<LSCE04BHW>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<LSCE04BHW>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.210 (NE40E V800R011C10SPC900)
+Copyright (C) 2012-2021 Huawei Technologies Co., Ltd.
+HUAWEI NE40E-X16 uptime is 1354 days, 10 hours, 13 minutes 
+Patch Version: V800R011SPH075
+
+NE40E-X16 version information:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BKP  version information:
+  PCB         Version : CR56BKP16B REV D
+  MPU  Slot  Quantity : 2
+  SRU  Slot  Quantity : 0
+  SFU  Slot  Quantity : 4
+  LPU  Slot  Quantity : 16
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+MPU version information:
+
+MPU (Master) 17 : uptime is 1354 days, 10 hours, 13 minutes
+  StartupTime 2022/06/27   15:01:14
+  SDRAM Memory Size   : 32768 M bytes
+  FLASH Memory Size   : 64 M bytes
+  CFCARD Memory Size  : 28627 M bytes
+  MPU CR5D0MPUB974 version information
+  PCB         Version : CR57RPUH REV C
+  EPLD        Version : 200
+  EPLD2       Version : 200
+  FPGA        Version : 102
+  MADD version information
+  PCB         Version : CR57MADD REV D
+  FPGA        Version : 112
+  BootROM     Version : 08.15
+  MonitorBUS version information:
+  Software    Version : 38.8
+
+MPU (Slave) 18 : uptime is 1354 days, 10 hours, 12 minutes
+  StartupTime 2022/06/27   15:01:49
+  SDRAM Memory Size   : 32768 M bytes
+  FLASH Memory Size   : 64 M bytes
+  CFCARD Memory Size  : 28627 M bytes
+  MPU CR5D0MPUB974 version information
+  PCB         Version : CR57RPUH REV C
+  EPLD        Version : 200
+  EPLD2       Version : 200
+  FPGA        Version : 102
+  MADD version information
+  PCB         Version : CR57MADD REV D
+  FPGA        Version : 112
+  BootROM     Version : 08.15
+  MonitorBUS version information:
+  Software    Version : 38.8
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+LPU/SPU version information:
+
+LPU 1 : uptime is 1354 days, 9 hours, 46 minutes
+  StartupTime 2022/06/27   15:27:28
+  Host processor :
+  SDRAM Memory Size   : 16384 M bytes
+  Flash Memory Size   : 64 M bytes
+  LPU CR5DLPUFF070 version information:
+  CPU PCB Version     : CR58CPUG REV A
+  EPLD Version        : 122
+  LPU PCB Version     : CR57LPUF240K REV A
+  EPLD Version        : 106
+  FPGA1 Version       : 107
+  FPGA2 Version       : 000
+  NP Version          : 100
+  TM Version          : 180
+  BootROM Version     : 10.61
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00LBXF71 version information
+  StartupTime         : 2022/06/27    15:30:20
+  PCB Version         : CR57LBXFL REV A
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  PIC1:CR5D0EFGFA70 version information
+  StartupTime         : 2022/06/27    15:30:11
+  PCB Version         : CR57EFGFG REV A
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 4 : uptime is 1354 days, 9 hours, 55 minutes
+  StartupTime 2022/06/27   15:18:53
+  Host processor :
+  SDRAM Memory Size   : 8192 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF070 version information:
+  PCB Version         : CR57LPUF240A REV E
+  EPLD Version        : 102
+  FPGA Version        : 103
+  NP Version          : 100
+  TM Version          : 110
+  BootROM Version     : 06.15
+  BootLoad Version    : 06.15
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00LBXF71 version information
+  StartupTime         : 2022/06/27    15:19:49
+  PCB Version         : CR57LBXF REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 5 : uptime is 1354 days, 9 hours, 55 minutes
+  StartupTime 2022/06/27   15:18:58
+  Host processor :
+  SDRAM Memory Size   : 8192 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF070 version information:
+  PCB Version         : CR57LPUF240A REV E
+  EPLD Version        : 102
+  FPGA Version        : 103
+  NP Version          : 100
+  TM Version          : 110
+  BootROM Version     : 06.15
+  BootLoad Version    : 06.15
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00LBXF71 version information
+  StartupTime         : 2022/06/27    15:19:51
+  PCB Version         : CR57LBXF REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 6 : uptime is 1354 days, 9 hours, 55 minutes
+  StartupTime 2022/06/27   15:18:57
+  Host processor :
+  SDRAM Memory Size   : 8192 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF070 version information:
+  PCB Version         : CR57LPUF240A REV E
+  EPLD Version        : 102
+  FPGA Version        : 103
+  NP Version          : 100
+  TM Version          : 110
+  BootROM Version     : 06.15
+  BootLoad Version    : 06.15
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00LBXF71 version information
+  StartupTime         : 2022/06/27    15:19:49
+  PCB Version         : CR57LBXF REV B
+  FPGA Version        : 102
+  CHIP Version        : 110
+  BOM Version         : 000
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 7 : uptime is 1354 days, 9 hours, 56 minutes
+  StartupTime 2022/06/27   15:17:23
+  Host processor :
+  SDRAM Memory Size   : 16384 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF374 version information:
+  PCB Version         : CR57LPUF240X REV A
+  EPLD Version        : 111
+  FPGA1 Version       : 105
+  FPGA2 Version       : 106
+  NP Version          : 100
+  TM Version          : 100
+  BootROM Version     : 10.61
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D0LBXFM70 version information
+  StartupTime         : 2022/06/27    15:18:50
+  PCB Version         : CR57LBXFJ REV A
+  FPGA Version        : 101
+  CHIP Version        : 100
+  BOM Version         : 003
+  PIC1:CR5D0LBXFM70 version information
+  StartupTime         : 2022/06/27    15:18:19
+  PCB Version         : CR57LBXFJ REV A
+  FPGA Version        : 101
+  CHIP Version        : 100
+  BOM Version         : 003
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 16 : uptime is 1354 days, 9 hours, 47 minutes
+  StartupTime 2022/06/27   15:26:46
+  Host processor :
+  SDRAM Memory Size   : 16384 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFF374 version information:
+  PCB Version         : CR57LPUF240X REV A
+  EPLD Version        : 111
+  FPGA1 Version       : 105
+  FPGA2 Version       : 106
+  NP Version          : 100
+  TM Version          : 100
+  BootROM Version     : 10.61
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D0LBXFM70 version information
+  StartupTime         : 2022/06/27    15:27:49
+  PCB Version         : CR57LBXFJ REV A
+  FPGA Version        : 101
+  CHIP Version        : 100
+  BOM Version         : 003
+  PIC1:CR5D0LBXFM70 version information
+  StartupTime         : 2022/06/27    15:28:21
+  PCB Version         : CR57LBXFJ REV A
+  FPGA Version        : 101
+  CHIP Version        : 100
+  BOM Version         : 003
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+SFU version information:
+
+SFU 19 : uptime is 1354 days, 10 hours, 5 minutes
+  StartupTime 2022/06/27   15:09:05
+  SDRAM Memory Size   : 256 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIE07B version information:
+  PCB         Version : CR57SFU200B REV A
+  EPLD        Version : 101
+  BootROM     Version : 06.15
+  BootLoad    Version : 06.15
+  MonitorBUS version information:
+  Software Version : 36.3
+
+SFU 20 : uptime is 1354 days, 10 hours, 4 minutes
+  StartupTime 2022/06/27   15:09:30
+  SDRAM Memory Size   : 256 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIE07B version information:
+  PCB         Version : CR57SFU200B REV A
+  EPLD        Version : 101
+  BootROM     Version : 06.15
+  BootLoad    Version : 06.15
+  MonitorBUS version information:
+  Software Version : 36.3
+
+SFU 21 : uptime is 1354 days, 10 hours, 5 minutes
+  StartupTime 2022/06/27   15:09:10
+  SDRAM Memory Size   : 256 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIE07B version information:
+  PCB         Version : CR57SFU200B REV A
+  EPLD        Version : 101
+  BootROM     Version : 06.15
+  BootLoad    Version : 06.15
+  MonitorBUS version information:
+  Software Version : 36.3
+
+SFU 22 : uptime is 1354 days, 10 hours, 5 minutes
+  StartupTime 2022/06/27   15:09:14
+  SDRAM Memory Size   : 256 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIE07B version information:
+  PCB         Version : CR57SFU200B REV A
+  EPLD        Version : 101
+  BootROM     Version : 06.15
+  BootLoad    Version : 06.15
+  MonitorBUS version information:
+  Software Version : 36.3
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CLK version information:
+
+CLK 23 : uptime is 1354 days, 10 hours, 13 minutes
+  StartupTime 2022/06/27   15:01:14
+  FPGA     Version : 258
+  DSP      Version : 30502009
+
+CLK 24 : uptime is 1354 days, 10 hours, 11 minutes
+  StartupTime 2022/06/27   15:02:32
+  FPGA     Version : 258
+  DSP      Version : 30502009
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+FAN version information: 
+
+FAN 27 MonitorBUS version information:
+  PCB      Version : CR52FCBH REV A
+  Software Version : 5.12
+
+FAN 28 MonitorBUS version information:
+  PCB      Version : CR52FCBH REV A
+  Software Version : 5.12
+
+FAN 29 MonitorBUS version information:
+  PCB      Version : CR52FCBH REV A
+  Software Version : 5.12
+
+FAN 30 MonitorBUS version information:
+  PCB      Version : CR52FCBH REV A
+  Software Version : 5.12
+
+<LSCE04BHW>display device
+NE40E-X16's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        LPU     Present    Registered   Normal     LC     0      NA           
+4        LPU     Present    Registered   Normal     LC     0      NA           
+5        LPU     Present    Registered   Normal     LC     0      NA           
+6        LPU     Present    Registered   Normal     LC     0      NA           
+7        LPU     Present    Registered   Normal     LC     0      NA           
+16       LPU     Present    Registered   Normal     LC     0      NA           
+17       MPU     Present    Registered   Normal     MMB    0      Master       
+18       MPU     Present    Registered   Normal     MMB    0      Slave        
+19       SFU     Present    Registered   Normal     OTHER  0      NA           
+20       SFU     Present    Registered   Normal     OTHER  0      NA           
+21       SFU     Present    Registered   Normal     OTHER  0      NA           
+22       SFU     Present    Registered   Normal     OTHER  0      NA           
+23       CLK     Present    Registered   Normal     OTHER  0      Master       
+24       CLK     Present    Registered   Normal     OTHER  0      Slave        
+25       PWR     Present    Registered   Normal     OTHER  0      NA           
+26       PWR     Present    Registered   Normal     OTHER  0      NA           
+27       FAN     Present    Registered   Normal     OTHER  0      NA           
+28       FAN     Present    Registered   Normal     OTHER  0      NA           
+29       FAN     Present    Registered   Normal     OTHER  0      NA           
+30       FAN     Present    Registered   Normal     OTHER  0      NA           
+-------------------------------------------------------------------------------
+<LSCE04BHW>display cpu-usage
+Cpu utilization statistics at 2026-03-13 11:59:26 655 ms
+System cpu use rate is : 1%
+Cpu utilization for five seconds: 1% ;  one minute: 1% ;  five minutes: 1%.
+Max CPU Usage : 8%
+Max CPU Usage Stat. Time : 2022-06-27 15:02:48 764 ms
+---------------------------
+ServiceName  UseRate
+---------------------------
+SYSTEM            1%
+AAA               0%
+ARP               0%
+BRAS              0%
+CMF               0%
+CSP               0%
+DEVICE            0%
+DHCP              0%
+ETRUNK            0%
+EUM               0%
+FEA               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+LDT               0%
+LINK              0%
+LOCAL PKT         0%
+MFLP              0%
+MSTP              0%
+ND                0%
+NETSTREAM         0%
+OAM               0%
+OSPF              0%
+PKI               0%
+PNP               0%
+PTPA              0%
+RBS               0%
+RGM               0%
+RM                0%
+SLA               0%
+SMLK              0%
+SVRO              0%
+TNLM              0%
+TUNNEL            0%
+VLAN              0%
+VRRP              0%
+---------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0         2%       2%       2%       2%  16% 2022-06-27 15:03:20
+cpu1         1%       2%       1%       1%  15% 2023-01-17 16:02:09
+cpu2         3%       4%       4%       3%  13% 2023-02-16 16:04:09
+cpu3         1%       2%       2%       2%  13% 2022-06-27 15:01:31
+cpu4         1%       1%       1%       1%  18% 2022-06-27 15:02:51
+cpu5         2%       2%       1%       1%  14% 2023-02-04 16:03:09
+cpu6         1%       1%       1%       1%  18% 2023-02-18 16:04:07
+cpu7         2%       2%       2%       1%  12% 2023-03-31 16:06:43
+cpu8         1%       0%       1%       1%  17% 2023-04-04 16:06:53
+cpu9         1%       0%       1%       1%  13% 2022-11-13 15:59:54
+cpu10        1%       0%       1%       1%  16% 2023-02-21 16:04:17
+cpu11        1%       0%       1%       1%  16% 2023-01-21 16:02:27
+cpu12        0%       0%       1%       1%  13% 2023-01-06 16:01:26
+cpu13        0%       0%       0%       1%  18% 2023-01-04 16:01:21
+cpu14        2%       3%       2%       1%  15% 2024-12-24 16:31:01
+cpu15        0%       0%       0%       1%  28% 2022-06-27 15:01:21
+cpu16        1%       1%       0%       1%  13% 2022-11-14 16:00:06
+cpu17        1%       1%       1%       1%  13% 2023-01-20 16:02:19
+cpu18        1%       1%       1%       1%  13% 2023-02-23 16:04:37
+cpu19        1%       1%       0%       1%   9% 2024-12-24 16:30:51
+cpu20        0%       0%       0%       0%  17% 2023-04-06 16:06:53
+cpu21        0%       0%       0%       0%  15% 2023-01-19 16:02:19
+cpu22        0%       0%       0%       0%  38% 2022-06-27 15:02:51
+cpu23        1%       1%       1%       0%  13% 2023-03-20 16:06:14
+----------------------------------------------------------------
+<LSCE04BHW>display memory-usage
+Memory utilization statistics at 2026-03-13 11:59:27 184 ms
+System Total Memory Is: 30744424 Kbytes
+Total Memory Used Is: 3817680 Kbytes
+Memory Using Percentage Is: 12%
+----------------------------------------
+Process memory information in the slot:
+----------------------------------------
+ProcessId  ProcessName      Used(Kbytes)
+----------------------------------------
+3          CFG                    897865
+1012       PROTO4                 134908
+1016       PSM1                   132754
+1021       FESMB                   90550
+9          LM                      75438
+1004       RESP                    56341
+2          SM                      54882
+1020       IFM                     45251
+1014       CFG_COMMON              43614
+1059       OSPF                    42596
+1015       LOGSERVER               37467
+1028       OPS                     37468
+10001      RM                      31614
+1027       SSH                     33370
+1010       ARP                     27733
+1017       STK                     27222
+1023       PNP                     22621
+1026       UM                      24155
+1006       PROTO5                  24148
+1013       LLP                     23635
+1025       OAM                     22611
+1005       CLOCK                   22611
+1003       SYSMNT                  21075
+1007       PSM2                    23124
+1063       LLDP                    21586
+1024       NSM                     20562
+1061       VRRP                    20562
+1022       TNL6                    22099
+1009       LLC                     16980
+1011       DHCP                    20049
+1008       PKI                     23635
+1018       TELEMETRY               22099
+1002       LICENSE                 24147
+1019       EWM                     23122
+1000       TMC                     19104
+1001       TTY                     16465
+0          system                1614217
+----------------------------------------
+<LSCE04BHW>display memory all
+                          ^
+Error: Too many parameters found at '^' position.
+<LSCE04BHW>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(B): Bit-error-detection down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(ld): loop-detect trigger down
+(mf): mac-flapping blocked
+(c): CFM down
+(sd): STP instance discarding
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Eth-Trunk0                  up    up        0.01%  0.01%       8733          0
+  GigabitEthernet1/0/0(10G) up    up        0.01%  0.01%       8470          0
+  GigabitEthernet1/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/9(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/0(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/3(10G) up    up        0.01%  0.01%        263          0
+  GigabitEthernet4/0/9(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/10(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/11(10G) down  down         0%     0%          0          0
+  GigabitEthernet5/0/0(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk0.10               up    up           0%     0%          0          0
+Eth-Trunk0.100              up    down         0%     0%          0          0
+Eth-Trunk0.1000             up    up           0%     0%          0          0
+Eth-Trunk0.1001             up    up           0%     0%          0          0
+Eth-Trunk1                  up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/8(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/3(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk2                  up    up        0.07%  0.02%          0          0
+  GigabitEthernet4/0/4(10G) up    up        0.07%  0.02%          0          0
+Eth-Trunk3                  up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/7(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/2(10G) up    up        0.01%  0.02%          0          0
+  GigabitEthernet4/0/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/7(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/8(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk4                  up    down      0.01%  0.01%        125          0
+  GigabitEthernet16/0/0(10G) up    up        0.01%  0.01%        124          0
+  GigabitEthernet16/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/7(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/8(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/9(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/10(10G) up    up        0.01%  0.01%          1          0
+  GigabitEthernet16/0/11(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/0(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/7(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk4.1001             up    up           0%     0%          0          0
+Eth-Trunk4.1002             up    up           0%     0%          0          0
+Eth-Trunk4.1003             up    up           0%     0%          0          0
+Eth-Trunk6                  down  down         0%     0%          0          0
+Eth-Trunk7                  up    up        0.01%  0.01%          0       5758
+  GigabitEthernet1/1/0      up    up        0.01%  0.01%          0       5758
+Eth-Trunk10                 down  down         0%     0%          0          0
+  GigabitEthernet5/0/5(10G) down  down         0%     0%          0          0
+Eth-Trunk11                 down  down         0%     0%          0          0
+  GigabitEthernet7/0/0(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/1(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/2(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/3(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/4(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/5(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/6(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/7(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/8(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/9(10G) down  down         0%     0%          0          0
+Eth-Trunk16                 down  down         0%     0%          0          0
+  GigabitEthernet6/0/8(10G) down  down         0%     0%          0          0
+Eth-Trunk17                 down  down         0%     0%          0          0
+  GigabitEthernet6/0/9(10G) down  down         0%     0%          0          0
+GigabitEthernet0/0/0        down  down         0%     0%          0          0
+GigabitEthernet1/0/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet1/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet1/1/1        up    up        0.01%  0.01%          0          0
+GigabitEthernet1/1/2        down  down         0%     0%          0          0
+GigabitEthernet1/1/3        down  down         0%     0%          0          0
+GigabitEthernet1/1/4        up    up        0.01%  0.01%          0     312419
+GigabitEthernet1/1/5        up    up        0.02%  0.01%          0     297529
+GigabitEthernet1/1/6        up    up        0.01%  0.01%          0      87791
+GigabitEthernet1/1/7        up    up        0.02%  0.01%          0     196903
+GigabitEthernet1/1/8        up    up        0.01%  0.01%          0     198042
+GigabitEthernet1/1/9        down  down         0%     0%          0          0
+GigabitEthernet1/1/10       down  down         0%     0%          0          0
+GigabitEthernet1/1/11       down  down         0%     0%          0          0
+GigabitEthernet1/1/12       down  down         0%     0%          0          0
+GigabitEthernet1/1/13       down  down         0%     0%          0          0
+GigabitEthernet1/1/14       down  down         0%     0%          0          0
+GigabitEthernet1/1/15       down  down         0%     0%          0          0
+GigabitEthernet1/1/16       down  down         0%     0%          0          0
+GigabitEthernet1/1/17       down  down         0%     0%          0          0
+GigabitEthernet1/1/18       down  down         0%     0%          0          0
+GigabitEthernet1/1/19       down  down         0%     0%          0          0
+GigabitEthernet1/1/20       down  down         0%     0%          0          0
+GigabitEthernet1/1/21       down  down         0%     0%          0          0
+GigabitEthernet1/1/22       down  down         0%     0%          0          0
+GigabitEthernet1/1/23       down  down         0%     0%          0          0
+GigabitEthernet5/0/4(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/6(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/7(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/8(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/9(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet5/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet6/0/0(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/4(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/5(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/6(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/7(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/10(10G)  *down down         0%     0%          0          0
+GigabitEthernet6/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet7/0/10(10G)  up    down      0.01%  0.01%          0          0
+GigabitEthernet7/0/11(10G)  up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/0(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/1(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/2(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/3(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/4(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/5(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/6(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/7(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/8(10G)   down  down         0%     0%          0          0
+GigabitEthernet7/1/9(10G)   down  down         0%     0%          0          0
+GigabitEthernet7/1/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet7/1/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet16/1/8(10G)  down  down         0%     0%          0          0
+GigabitEthernet16/1/9(10G)  down  down         0%     0%          0          0
+GigabitEthernet16/1/10(10G) down  down         0%     0%          0          0
+GigabitEthernet16/1/11(10G) down  down         0%     0%          0          0
+HP-GE17/3/0                 down  down         0%     0%          0          0
+HP-GE17/3/1                 down  down         0%     0%          0          0
+HP-GE18/3/0                 down  down         0%     0%          0          0
+HP-GE18/3/1                 down  down         0%     0%          0          0
+LoopBack0                   up    up(s)        0%     0%          0          0
+LoopBack1                   up    up(s)        0%     0%          0          0
+LoopBack2                   up    up(s)        0%     0%          0          0
+LoopBack42                  up    up(s)        0%     0%          0          0
+LoopBack100                 up    up(s)        0%     0%          0          0
+LoopBack2147483647          up    up(s)        0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Virtual-Template0           up    up(s)        0%     0%          0          0
+Vlanif100                   up    down         --     --          0          0
+Vlanif400                   up    up           --     --          0          0
+Vlanif600                   up    up           --     --          0          0
+Vlanif700                   up    up           --     --          0          0
+Vlanif1200                  up    up           --     --          0          0
+Vlanif1600                  down  down         --     --          0          0
+<LSCE04BHW>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 39943
+Current messages : 512
+
+Mar 13 2026 08:58:24-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260309035822.pads.zip)
+Mar 13 2026 05:57:36-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 13 2026 05:57:36-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 13 2026 05:28:49-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05c5-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Mar 13 2026 05:26:48-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05c5-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Mar 13 2026 05:10:05-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250912172519.log.zip)
+Mar 13 2026 04:49:27-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=275, hwPhysicalPortName=GigabitEthernet16/1/2)
+Mar 13 2026 04:47:26-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=275, hwPhysicalPortName=GigabitEthernet16/1/2)
+Mar 13 2026 03:33:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308224013.pads.zip)
+Mar 13 2026 02:37:19-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 13 2026 02:37:19-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 13 2026 01:53:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 13 2026 01:53:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 12 2026 22:11:30-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308172339.pads.zip)
+Mar 12 2026 19:09:58-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250912083256.log.zip)
+Mar 12 2026 16:45:44-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308120340.pads.zip)
+Mar 12 2026 11:30:06-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308064525.pads.zip)
+Mar 12 2026 10:24:58-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250911223420.log.zip)
+Mar 12 2026 06:05:44-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308012543.pads.zip)
+Mar 12 2026 05:50:25-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 12 2026 05:50:25-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 12 2026 02:29:54-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 12 2026 02:29:54-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 12 2026 01:51:10-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 12 2026 01:51:10-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 12 2026 00:45:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307200559.pads.zip)
+Mar 12 2026 00:30:45-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250911131208.log.zip)
+Mar 11 2026 19:25:44-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307144757.pads.zip)
+Mar 11 2026 14:58:56-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250911034659.log.zip)
+Mar 11 2026 14:11:28-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307092907.pads.zip)
+Mar 11 2026 08:52:38-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307041121.pads.zip)
+Mar 11 2026 05:42:51-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 11 2026 05:42:51-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 11 2026 05:35:00-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250910173756.log.zip)
+Mar 11 2026 03:34:06-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306225343.pads.zip)
+Mar 11 2026 02:20:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 11 2026 02:20:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 11 2026 01:50:13-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 11 2026 01:50:13-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 10 2026 22:14:13-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306173341.pads.zip)
+Mar 10 2026 19:52:37-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250910090036.log.zip)
+Mar 10 2026 16:55:44-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306121528.pads.zip)
+Mar 10 2026 11:34:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306065542.pads.zip)
+Mar 10 2026 11:09:59-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250909233438.log.zip)
+Mar 10 2026 06:14:12-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306013742.pads.zip)
+Mar 10 2026 05:37:33-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 10 2026 05:37:33-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 10 2026 02:14:20-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 10 2026 02:14:20-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 10 2026 01:49:01-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar 10 2026 01:49:01-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar 10 2026 01:14:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250909140802.log.zip)
+Mar 10 2026 00:58:32-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305201739.pads.zip)
+Mar  9 2026 19:41:24-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305145857.pads.zip)
+Mar  9 2026 15:44:40-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250909045027.log.zip)
+Mar  9 2026 14:29:58-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305094113.pads.zip)
+Mar  9 2026 09:11:15-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305042331.pads.zip)
+Mar  9 2026 07:57:37-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc059d-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=73, hwPhysicalPortName=GigabitEthernet4/0/7)
+Mar  9 2026 07:55:36-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc059d-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=73, hwPhysicalPortName=GigabitEthernet4/0/7)
+Mar  9 2026 06:28:46-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250908184033.log.zip)
+Mar  9 2026 05:32:26-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  9 2026 05:32:26-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  9 2026 03:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304230323.pads.zip)
+Mar  9 2026 02:06:46-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  9 2026 02:06:46-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  9 2026 01:47:17-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  9 2026 01:47:17-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  8 2026 22:33:43-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304174541.pads.zip)
+Mar  8 2026 20:24:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250908094949.log.zip)
+Mar  8 2026 17:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304122542.pads.zip)
+Mar  8 2026 11:58:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304070721.pads.zip)
+Mar  8 2026 11:28:09-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250907234923.log.zip)
+Mar  8 2026 07:22:33-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=278, hwPhysicalPortName=GigabitEthernet16/1/5)
+Mar  8 2026 07:20:32-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=278, hwPhysicalPortName=GigabitEthernet16/1/5)
+Mar  8 2026 06:41:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304014757.pads.zip)
+Mar  8 2026 05:26:23-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  8 2026 05:26:23-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  8 2026 02:44:46-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc059d-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=68, hwPhysicalPortName=GigabitEthernet4/0/2)
+Mar  8 2026 02:42:45-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc059d-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=68, hwPhysicalPortName=GigabitEthernet4/0/2)
+Mar  8 2026 02:01:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  8 2026 02:01:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  8 2026 01:48:18-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250907141117.log.zip)
+Mar  8 2026 01:45:56-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  8 2026 01:45:56-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  8 2026 01:23:53-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303202928.pads.zip)
+Mar  8 2026 00:53:39-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303151107.pads.zip)
+Mar  7 2026 17:20:08-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250907052639.log.zip)
+Mar  7 2026 14:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303095328.pads.zip)
+Mar  7 2026 14:15:07-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303043459.pads.zip)
+Mar  7 2026 09:02:07-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302231517.pads.zip)
+Mar  7 2026 08:25:04-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250906194014.log.zip)
+Mar  7 2026 05:16:09-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  7 2026 05:16:09-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  7 2026 03:45:43-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302175540.pads.zip)
+Mar  7 2026 01:51:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  7 2026 01:51:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  7 2026 01:44:22-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  7 2026 01:44:22-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  6 2026 22:26:25-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250906110158.log.zip)
+Mar  6 2026 22:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302123541.pads.zip)
+Mar  6 2026 17:03:34-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302071700.pads.zip)
+Mar  6 2026 13:14:09-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250906011016.log.zip)
+Mar  6 2026 11:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302015828.pads.zip)
+Mar  6 2026 08:47:19-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Mar  6 2026 08:45:17-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Mar  6 2026 07:35:26-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=294, hwPhysicalPortName=GigabitEthernet16/0/9)
+Mar  6 2026 07:33:23-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=294, hwPhysicalPortName=GigabitEthernet16/0/9)
+Mar  6 2026 06:29:40-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301204055.pads.zip)
+Mar  6 2026 06:03:38-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=293, hwPhysicalPortName=GigabitEthernet16/0/8)
+Mar  6 2026 06:01:36-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=293, hwPhysicalPortName=GigabitEthernet16/0/8)
+Mar  6 2026 05:09:28-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  6 2026 05:09:28-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  6 2026 03:20:01-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250905151114.log.zip)
+Mar  6 2026 01:44:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  6 2026 01:44:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  6 2026 01:39:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  6 2026 01:39:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  6 2026 01:11:15-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301152221.pads.zip)
+Mar  5 2026 19:51:53-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301100316.pads.zip)
+Mar  5 2026 17:14:37-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250905061726.log.zip)
+Mar  5 2026 14:35:10-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301044539.pads.zip)
+Mar  5 2026 09:15:01-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228232541.pads.zip)
+Mar  5 2026 08:15:38-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250904200101.log.zip)
+Mar  5 2026 05:43:00-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=286, hwPhysicalPortName=GigabitEthernet16/0/1)
+Mar  5 2026 05:40:59-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=286, hwPhysicalPortName=GigabitEthernet16/0/1)
+Mar  5 2026 05:21:35-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=295, hwPhysicalPortName=GigabitEthernet16/0/10)
+Mar  5 2026 05:19:33-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=295, hwPhysicalPortName=GigabitEthernet16/0/10)
+Mar  5 2026 05:04:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  5 2026 05:04:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  5 2026 04:36:00-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Mar  5 2026 04:33:59-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Mar  5 2026 04:03:26-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228180556.pads.zip)
+Mar  5 2026 03:48:25-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Mar  5 2026 03:46:24-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Mar  5 2026 01:38:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  5 2026 01:38:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  5 2026 01:37:19-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  5 2026 01:37:19-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  4 2026 22:41:12-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228124757.pads.zip)
+Mar  4 2026 22:39:59-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250904111114.log.zip)
+Mar  4 2026 22:03:10-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=7;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  4 2026 22:03:10-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=7;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  4 2026 19:23:59-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=16;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  4 2026 19:23:59-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=16;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  4 2026 17:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228072951.pads.zip)
+Mar  4 2026 13:44:45-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250904013753.log.zip)
+Mar  4 2026 11:58:49-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228021046.pads.zip)
+Mar  4 2026 06:45:41-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227205310.pads.zip)
+Mar  4 2026 04:57:51-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  4 2026 04:57:51-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  4 2026 04:39:35-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05c5-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=35, hwPhysicalPortName=GigabitEthernet1/0/3)
+Mar  4 2026 04:39:19-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Mar  4 2026 04:38:52-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=294, hwPhysicalPortName=GigabitEthernet16/0/9)
+Mar  4 2026 04:37:34-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05c5-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=35, hwPhysicalPortName=GigabitEthernet1/0/3)
+Mar  4 2026 04:37:18-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Mar  4 2026 04:36:51-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=294, hwPhysicalPortName=GigabitEthernet16/0/9)
+Mar  4 2026 04:16:51-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250903155348.log.zip)
+Mar  4 2026 01:35:38-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  4 2026 01:35:38-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  4 2026 01:31:59-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  4 2026 01:31:59-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  4 2026 01:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227153353.pads.zip)
+Mar  3 2026 20:03:13-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227101450.pads.zip)
+Mar  3 2026 18:18:18-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250903070650.log.zip)
+Mar  3 2026 14:45:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227045537.pads.zip)
+Mar  3 2026 09:30:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226233539.pads.zip)
+Mar  3 2026 09:21:23-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250902210038.log.zip)
+Mar  3 2026 08:53:55-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  3 2026 08:53:55-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  3 2026 04:52:28-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  3 2026 04:52:28-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  3 2026 04:11:04-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226181619.pads.zip)
+Mar  3 2026 01:34:48-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  3 2026 01:34:48-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  3 2026 01:27:38-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  3 2026 01:27:38-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  2 2026 23:28:15-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250902115021.log.zip)
+Mar  2 2026 22:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226125743.pads.zip)
+Mar  2 2026 17:29:23-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226074022.pads.zip)
+Mar  2 2026 14:06:56-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250902021519.log.zip)
+Mar  2 2026 12:10:10-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226022301.pads.zip)
+Mar  2 2026 06:52:09-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225210300.pads.zip)
+Mar  2 2026 04:46:39-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  2 2026 04:46:39-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  2 2026 04:37:29-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250901161224.log.zip)
+Mar  2 2026 01:35:09-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225154536.pads.zip)
+Mar  2 2026 01:30:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  2 2026 01:30:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  2 2026 01:20:21-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  2 2026 01:20:21-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  1 2026 20:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225102538.pads.zip)
+Mar  1 2026 19:00:18-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250901073055.log.zip)
+Mar  1 2026 14:55:38-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225050538.pads.zip)
+Mar  1 2026 11:14:04-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=6;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  1 2026 11:14:04-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=6;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  1 2026 10:48:57-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=4;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  1 2026 10:48:57-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=4;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  1 2026 10:24:58-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250831220256.log.zip)
+Mar  1 2026 10:11:55-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=5;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  1 2026 10:11:55-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=5;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  1 2026 09:40:43-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224234757.pads.zip)
+Mar  1 2026 04:40:55-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  1 2026 04:40:55-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  1 2026 04:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224182919.pads.zip)
+Mar  1 2026 01:28:18-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  1 2026 01:28:18-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  1 2026 01:13:09-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Mar  1 2026 01:13:09-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Mar  1 2026 00:28:02-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250831125421.log.zip)
+Feb 28 2026 23:03:16-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224131404.pads.zip)
+Feb 28 2026 17:44:18-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224075536.pads.zip)
+Feb 28 2026 14:54:59-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250831032426.log.zip)
+Feb 28 2026 12:29:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224023548.pads.zip)
+Feb 28 2026 07:03:12-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223211610.pads.zip)
+Feb 28 2026 05:22:53-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250830170604.log.zip)
+Feb 28 2026 04:31:29-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 28 2026 04:31:29-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 28 2026 03:18:14-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=278, hwPhysicalPortName=GigabitEthernet16/1/5)
+Feb 28 2026 03:16:13-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=278, hwPhysicalPortName=GigabitEthernet16/1/5)
+Feb 28 2026 01:45:38-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223155850.pads.zip)
+Feb 28 2026 01:25:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 28 2026 01:25:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 28 2026 01:04:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 28 2026 01:04:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 27 2026 20:30:33-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223104347.pads.zip)
+Feb 27 2026 19:16:55-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250830081111.log.zip)
+Feb 27 2026 15:10:36-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223052537.pads.zip)
+Feb 27 2026 10:23:56-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250829221403.log.zip)
+Feb 27 2026 09:52:34-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223000538.pads.zip)
+Feb 27 2026 07:17:36-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 27 2026 07:15:35-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 27 2026 04:30:32-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222184538.pads.zip)
+Feb 27 2026 04:25:48-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 27 2026 04:25:48-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 27 2026 01:24:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 27 2026 01:24:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 27 2026 00:56:47-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 27 2026 00:56:47-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 27 2026 00:41:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250829125044.log.zip)
+Feb 26 2026 23:13:52-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222132845.pads.zip)
+Feb 26 2026 17:55:37-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222080947.pads.zip)
+Feb 26 2026 15:39:17-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250829034629.log.zip)
+Feb 26 2026 12:40:32-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222024757.pads.zip)
+Feb 26 2026 07:15:38-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221212851.pads.zip)
+Feb 26 2026 06:29:58-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250828180513.log.zip)
+Feb 26 2026 04:15:46-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 26 2026 04:15:46-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 26 2026 01:58:24-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221161025.pads.zip)
+Feb 26 2026 01:22:27-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 26 2026 01:22:27-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 26 2026 00:48:27-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 26 2026 00:48:27-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 25 2026 20:40:30-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221105245.pads.zip)
+Feb 25 2026 20:32:42-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250828092041.log.zip)
+Feb 25 2026 15:23:43-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221053356.pads.zip)
+Feb 25 2026 11:34:59-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250827232606.log.zip)
+Feb 25 2026 10:02:15-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221001504.pads.zip)
+Feb 25 2026 05:23:42-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Feb 25 2026 05:21:41-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Feb 25 2026 04:45:26-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220185534.pads.zip)
+Feb 25 2026 04:30:59-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc059d-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=72, hwPhysicalPortName=GigabitEthernet4/0/6)
+Feb 25 2026 04:28:58-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc059d-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=72, hwPhysicalPortName=GigabitEthernet4/0/6)
+Feb 25 2026 04:09:15-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 25 2026 04:09:15-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 25 2026 01:32:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250827135024.log.zip)
+Feb 25 2026 01:19:47-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 25 2026 01:19:47-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 25 2026 00:40:27-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 25 2026 00:40:27-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 24 2026 23:29:39-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220133552.pads.zip)
+Feb 24 2026 18:10:07-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220081744.pads.zip)
+Feb 24 2026 15:53:53-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250827043501.log.zip)
+Feb 24 2026 12:52:56-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220025758.pads.zip)
+Feb 24 2026 08:19:05-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=295, hwPhysicalPortName=GigabitEthernet16/0/10)
+Feb 24 2026 08:17:04-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=295, hwPhysicalPortName=GigabitEthernet16/0/10)
+Feb 24 2026 07:34:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219214022.pads.zip)
+Feb 24 2026 07:20:08-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=280, hwPhysicalPortName=GigabitEthernet16/1/7)
+Feb 24 2026 07:18:07-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=280, hwPhysicalPortName=GigabitEthernet16/1/7)
+Feb 24 2026 06:36:11-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250826182042.log.zip)
+Feb 24 2026 04:03:41-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 24 2026 04:03:41-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 24 2026 02:15:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219162255.pads.zip)
+Feb 24 2026 01:18:59-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 24 2026 01:18:59-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 24 2026 00:33:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 24 2026 00:33:14-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 23 2026 20:58:17-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219110234.pads.zip)
+Feb 23 2026 20:47:34-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250826093256.log.zip)
+Feb 23 2026 15:41:09-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219054447.pads.zip)
+Feb 23 2026 12:06:12-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250825235113.log.zip)
+Feb 23 2026 10:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219002533.pads.zip)
+Feb 23 2026 08:15:51-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 23 2026 08:15:04-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05c5-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=39, hwPhysicalPortName=GigabitEthernet1/0/7)
+Feb 23 2026 08:13:50-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 23 2026 08:13:02-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05c5-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=39, hwPhysicalPortName=GigabitEthernet1/0/7)
+Feb 23 2026 07:24:35-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=287, hwPhysicalPortName=GigabitEthernet16/0/2)
+Feb 23 2026 07:22:34-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=287, hwPhysicalPortName=GigabitEthernet16/0/2)
+Feb 23 2026 07:16:46-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05c5-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Feb 23 2026 07:14:45-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05c5-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Feb 23 2026 06:38:05-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=277, hwPhysicalPortName=GigabitEthernet16/1/4)
+Feb 23 2026 06:36:04-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=277, hwPhysicalPortName=GigabitEthernet16/1/4)
+Feb 23 2026 05:02:50-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218190340.pads.zip)
+Feb 23 2026 03:56:40-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 23 2026 03:56:40-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 23 2026 02:12:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250825143017.log.zip)
+Feb 23 2026 01:15:19-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 23 2026 01:15:19-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 23 2026 00:52:37-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=277, hwPhysicalPortName=GigabitEthernet16/1/4)
+Feb 23 2026 00:50:36-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=277, hwPhysicalPortName=GigabitEthernet16/1/4)
+Feb 23 2026 00:23:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 23 2026 00:23:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 22 2026 23:45:21-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218134504.pads.zip)
+Feb 22 2026 18:32:49-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218082319.pads.zip)
+Feb 22 2026 16:36:21-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250825052003.log.zip)
+Feb 22 2026 13:09:41-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218030229.pads.zip)
+Feb 22 2026 07:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217214107.pads.zip)
+Feb 22 2026 07:32:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250824190941.log.zip)
+Feb 22 2026 07:09:59-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=295, hwPhysicalPortName=GigabitEthernet16/0/10)
+Feb 22 2026 07:07:58-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=295, hwPhysicalPortName=GigabitEthernet16/0/10)
+Feb 22 2026 06:32:07-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 22 2026 06:30:05-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 22 2026 05:18:49-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=292, hwPhysicalPortName=GigabitEthernet16/0/7)
+Feb 22 2026 05:17:21-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 22 2026 05:16:48-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=292, hwPhysicalPortName=GigabitEthernet16/0/7)
+Feb 22 2026 05:15:20-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 22 2026 03:51:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 22 2026 03:51:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 22 2026 02:28:44-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217162250.pads.zip)
+Feb 22 2026 01:11:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 22 2026 01:11:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 22 2026 00:16:25-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 22 2026 00:16:25-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 21 2026 21:20:35-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250824101746.log.zip)
+Feb 21 2026 21:10:25-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217110337.pads.zip)
+Feb 21 2026 15:52:45-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217054533.pads.zip)
+Feb 21 2026 12:28:07-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250824001818.log.zip)
+Feb 21 2026 10:35:11-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217002533.pads.zip)
+Feb 21 2026 08:09:53-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05c5-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Feb 21 2026 08:07:52-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05c5-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Feb 21 2026 06:51:16-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 21 2026 06:49:15-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 21 2026 05:14:29-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216190535.pads.zip)
+Feb 21 2026 03:44:15-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 21 2026 03:44:15-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 21 2026 02:43:37-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250823143208.log.zip)
+Feb 21 2026 01:09:44-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 21 2026 01:09:44-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 21 2026 00:11:35-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 21 2026 00:11:35-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 20 2026 23:55:34-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216134459.pads.zip)
+Feb 20 2026 18:33:53-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216082533.pads.zip)
+Feb 20 2026 17:02:31-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250823053820.log.zip)
+Feb 20 2026 13:15:00-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216030614.pads.zip)
+Feb 20 2026 08:27:05-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250822200037.log.zip)
+Feb 20 2026 07:55:34-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215214458.pads.zip)
+Feb 20 2026 05:57:05-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=291, hwPhysicalPortName=GigabitEthernet16/0/6)
+Feb 20 2026 05:55:04-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=291, hwPhysicalPortName=GigabitEthernet16/0/6)
+Feb 20 2026 05:15:18-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc059d-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=67, hwPhysicalPortName=GigabitEthernet4/0/1)
+Feb 20 2026 05:13:17-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc059d-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=67, hwPhysicalPortName=GigabitEthernet4/0/1)
+Feb 20 2026 04:58:57-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 20 2026 04:56:56-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 20 2026 04:53:40-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=286, hwPhysicalPortName=GigabitEthernet16/0/1)
+Feb 20 2026 04:51:39-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=286, hwPhysicalPortName=GigabitEthernet16/0/1)
+Feb 20 2026 04:21:53-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=273, hwPhysicalPortName=GigabitEthernet16/1/0)
+Feb 20 2026 04:19:51-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=273, hwPhysicalPortName=GigabitEthernet16/1/0)
+Feb 20 2026 03:38:32-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 20 2026 03:38:32-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 20 2026 02:40:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215162531.pads.zip)
+Feb 20 2026 02:28:21-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=293, hwPhysicalPortName=GigabitEthernet16/0/8)
+Feb 20 2026 02:26:19-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=293, hwPhysicalPortName=GigabitEthernet16/0/8)
+Feb 20 2026 01:08:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 20 2026 01:08:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 20 2026 00:06:00-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 20 2026 00:06:00-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 19 2026 22:29:59-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250822111751.log.zip)
+Feb 19 2026 21:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215110731.pads.zip)
+Feb 19 2026 15:55:33-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215054757.pads.zip)
+Feb 19 2026 13:12:05-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250822013018.log.zip)
+Feb 19 2026 10:40:27-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215002533.pads.zip)
+Feb 19 2026 07:38:23-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05c5-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Feb 19 2026 07:36:21-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05c5-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=38, hwPhysicalPortName=GigabitEthernet1/0/6)
+Feb 19 2026 06:28:53-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=291, hwPhysicalPortName=GigabitEthernet16/0/6)
+Feb 19 2026 06:26:51-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=291, hwPhysicalPortName=GigabitEthernet16/0/6)
+Feb 19 2026 05:25:07-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=275, hwPhysicalPortName=GigabitEthernet16/1/2)
+Feb 19 2026 05:23:06-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=275, hwPhysicalPortName=GigabitEthernet16/1/2)
+Feb 19 2026 05:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214190732.pads.zip)
+Feb 19 2026 03:31:52-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 19 2026 03:31:52-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 19 2026 03:24:59-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250821152450.log.zip)
+Feb 19 2026 01:05:56-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 19 2026 01:05:56-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 19 2026 00:00:41-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 19 2026 00:00:41-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 18 2026 23:58:17-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214134757.pads.zip)
+Feb 18 2026 18:41:12-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214082838.pads.zip)
+Feb 18 2026 17:24:02-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250821063016.log.zip)
+Feb 18 2026 13:17:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214031039.pads.zip)
+Feb 18 2026 08:39:43-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250820201323.log.zip)
+Feb 18 2026 07:55:33-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213215235.pads.zip)
+Feb 18 2026 03:46:36-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=289, hwPhysicalPortName=GigabitEthernet16/0/4)
+Feb 18 2026 03:44:35-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=289, hwPhysicalPortName=GigabitEthernet16/0/4)
+Feb 18 2026 03:23:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 18 2026 03:23:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 18 2026 02:45:35-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=291, hwPhysicalPortName=GigabitEthernet16/0/6)
+Feb 18 2026 02:43:34-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=291, hwPhysicalPortName=GigabitEthernet16/0/6)
+Feb 18 2026 02:34:30-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213163532.pads.zip)
+Feb 18 2026 01:03:03-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 18 2026 01:03:03-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 17 2026 23:55:26-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 17 2026 23:55:26-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 17 2026 22:49:17-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250820111523.log.zip)
+Feb 17 2026 21:14:10-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213111455.pads.zip)
+Feb 17 2026 15:55:27-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213055532.pads.zip)
+Feb 17 2026 13:59:58-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250820014941.log.zip)
+Feb 17 2026 10:34:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213003742.pads.zip)
+Feb 17 2026 05:14:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212191748.pads.zip)
+Feb 17 2026 04:50:09-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250819160726.log.zip)
+Feb 17 2026 03:45:34-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 17 2026 03:43:32-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=296, hwPhysicalPortName=GigabitEthernet16/0/11)
+Feb 17 2026 03:17:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 17 2026 03:17:06-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 17 2026 01:01:55-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 17 2026 01:01:55-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 16 2026 23:49:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 16 2026 23:49:16-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 16 2026 19:05:35-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212135906.pads.zip)
+Feb 16 2026 18:49:00-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250819072459.log.zip)
+Feb 16 2026 18:33:37-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212084019.pads.zip)
+Feb 16 2026 16:51:59-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=7;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb 16 2026 16:51:59-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=7;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb 16 2026 14:15:55-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=16;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb 16 2026 14:15:55-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=16;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb 16 2026 13:13:30-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212032309.pads.zip)
+Feb 16 2026 09:56:35-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250818212440.log.zip)
+Feb 16 2026 07:38:22-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc059d-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=72, hwPhysicalPortName=GigabitEthernet4/0/6)
+Feb 16 2026 07:36:21-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc059d-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=72, hwPhysicalPortName=GigabitEthernet4/0/6)
+Feb 16 2026 05:54:40-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Feb 16 2026 05:52:39-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=276, hwPhysicalPortName=GigabitEthernet16/1/3)
+Feb 16 2026 03:09:11-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 16 2026 03:09:11-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 16 2026 03:06:14-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211220328.pads.zip)
+Feb 16 2026 02:34:05-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211164531.pads.zip)
+Feb 16 2026 00:57:34-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 16 2026 00:57:34-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 15 2026 23:59:28-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250818120727.log.zip)
+Feb 15 2026 23:43:22-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 15 2026 23:43:22-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 15 2026 21:10:21-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211112531.pads.zip)
+Feb 15 2026 15:53:06-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211060718.pads.zip)
+Feb 15 2026 14:32:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250818023432.log.zip)
+Feb 15 2026 06:46:36-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc059d-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=67, hwPhysicalPortName=GigabitEthernet4/0/1)
+Feb 15 2026 06:44:34-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc059d-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=67, hwPhysicalPortName=GigabitEthernet4/0/1)
+Feb 15 2026 06:37:53-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=285, hwPhysicalPortName=GigabitEthernet16/0/0)
+Feb 15 2026 06:35:52-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=285, hwPhysicalPortName=GigabitEthernet16/0/0)
+Feb 15 2026 05:45:01-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211004757.pads.zip)
+Feb 15 2026 05:10:20-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210192851.pads.zip)
+Feb 15 2026 05:02:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250817162804.log.zip)
+Feb 15 2026 04:12:42-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb 15 2026 04:12:42-10:45 LSCE04BHW %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb 15 2026 03:03:26-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 15 2026 03:03:26-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 15 2026 00:55:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 15 2026 00:55:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 14 2026 23:52:50-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210141006.pads.zip)
+Feb 14 2026 23:37:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 14 2026 23:37:45-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 14 2026 19:11:43-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250817074518.log.zip)
+Feb 14 2026 13:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210085246.pads.zip)
+Feb 14 2026 10:38:56-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250816220927.log.zip)
+Feb 14 2026 08:28:38-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210033444.pads.zip)
+Feb 14 2026 03:10:39-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209221531.pads.zip)
+Feb 14 2026 02:56:51-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 14 2026 02:56:51-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 14 2026 00:53:07-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 14 2026 00:53:07-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 14 2026 00:49:30-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250816130032.log.zip)
+Feb 13 2026 23:32:38-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 13 2026 23:32:38-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 13 2026 21:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209165533.pads.zip)
+Feb 13 2026 16:30:19-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209113715.pads.zip)
+Feb 13 2026 15:16:52-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250816033020.log.zip)
+Feb 13 2026 11:10:10-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209061733.pads.zip)
+Feb 13 2026 05:51:20-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250815171805.log.zip)
+Feb 13 2026 05:47:57-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209005927.pads.zip)
+Feb 13 2026 02:50:41-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 13 2026 02:50:41-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 13 2026 00:49:50-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 13 2026 00:49:50-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 13 2026 00:29:46-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208194014.pads.zip)
+Feb 12 2026 23:26:55-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 12 2026 23:26:55-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 12 2026 19:45:38-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250815083042.log.zip)
+Feb 12 2026 19:10:22-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208142324.pads.zip)
+Feb 12 2026 13:52:41-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208090323.pads.zip)
+Feb 12 2026 10:54:33-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250814215505.log.zip)
+Feb 12 2026 08:34:54-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208034530.pads.zip)
+Feb 12 2026 08:09:14-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=280, hwPhysicalPortName=GigabitEthernet16/1/7)
+Feb 12 2026 08:07:13-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=280, hwPhysicalPortName=GigabitEthernet16/1/7)
+Feb 12 2026 06:24:51-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc05bd-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 12 2026 06:22:50-10:45 LSCE04BHW %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc05bd-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=290, hwPhysicalPortName=GigabitEthernet16/0/5)
+Feb 12 2026 03:15:32-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260207222533.pads.zip)
+Feb 12 2026 02:44:12-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 12 2026 02:44:12-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f0638-Slot=5;The LPU does not support this rule. (SlotId=5, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 12 2026 01:59:57-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc05c5-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=39, hwPhysicalPortName=GigabitEthernet1/0/7)
+Feb 12 2026 01:57:55-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc05c5-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=39, hwPhysicalPortName=GigabitEthernet1/0/7)
+Feb 12 2026 01:48:39-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc059d-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=74, hwPhysicalPortName=GigabitEthernet4/0/8)
+Feb 12 2026 01:46:38-10:45 LSCE04BHW %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc059d-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=74, hwPhysicalPortName=GigabitEthernet4/0/8)
+Feb 12 2026 01:05:56-10:45 LSCE04BHW %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060044f;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250814123256.log.zip)
+Feb 12 2026 00:49:25-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 12 2026 00:49:25-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f067a-Slot=1;The LPU does not support this rule. (SlotId=1, Direction=Inbound, Rule=vpn-instance rule.)
+Feb 11 2026 23:19:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Outbound, Rule=vpn-instance rule.)
+Feb 11 2026 23:19:58-10:45 LSCE04BHW %%01QOS/4/QOSACL_NO_CHASSISID(l):CID=0x807f05f7-Slot=4;The LPU does not support this rule. (SlotId=4, Direction=Inbound, Rule=vpn-instance rule.)
+<LSCE04BHW>display current-configuration
+!Software Version V800R011C10SPC900
+!Last configuration was updated at 2026-01-19 15:29:20-10:45 by xz4a_admin
+!Last configuration was saved at 2026-02-11 15:58:20-10:45 by xz4a_admin
+#
+clock timezone beijing minus 10:45:20
+#
+sysname LSCE04BHW
+#
+set neid 2aee66
+#
+undo FTP server-source all-interface
+undo FTP ipv6 server-source all-interface
+#
+info-center filter-id bymodule-alias snmp AUTHENTICATIONFAILURE
+info-center loghost 10.237.35.249
+info-center loghost 10.237.35.249 vpn-instance GPRS_Gi
+info-center loghost 10.237.99.80
+info-center loghost 10.237.100.71 source-ip 10.237.112.28
+info-center loghost 10.237.100.228
+info-center loghost 211.139.72.74
+#
+set service-mode forwarding-mode compatible
+#
+undo user-security-policy enable
+#
+port-wred li
+#
+service-template template-default0
+#
+service-template template-default1
+#
+service-template template-default2
+#
+service-template template-default3
+#
+service-template template-default4
+#
+ntp-service server source-interface all enable
+ntp-service ipv6 server source-interface all enable
+ntp-service authentication-keyid 1 authentication-mode md5 cipher %^%#KXB{+q^c[)-;5~56x_KYB+%G8%^D&#{ETCDq,///%^%#
+ntp-service reliable authentication-keyid 1
+ntp-service unicast-server 221.177.132.51 vpn-instance GPRS_Gi authentication-keyid 1
+ntp-service refclock-master 1
+ntp-service authentication enable
+#
+slot 1
+ mirror to observe-index 1
+#
+vlan batch 100 to 101 150 200 to 201 300 400 500 600 700 1000 to 1001 1050 to 1051
+vlan batch 1100 1200 1500 to 1501 1600
+#
+mac-address aging-time 2400
+#
+undo telnet server enable
+undo telnet ipv6 server enable
+undo telnet server-source all-interface
+undo telnet ipv6 server-source all-interface
+#
+diffserv domain default
+#
+diffserv domain 5p3d
+#
+diffserv domain qinq
+#
+sub-port-queue -
+#
+soc
+#
+ip vpn-instance ChinaMobile_SGi
+ ipv6-family
+  route-distinguisher 24059:4600
+  apply-label per-route
+#
+ip vpn-instance GPRS_Gi
+ description TO-UGW-GI
+ ipv4-family
+  route-distinguisher 200:1
+  apply-label per-route
+ ipv6-family
+  route-distinguisher 200:1
+  apply-label per-route
+#
+ip vpn-instance GPRS_Gn
+ description TO-UGW-GN
+ ipv4-family
+  route-distinguisher 100:1
+  apply-label per-route
+#
+ip dcn vpn-instance __dcn_vpn__
+ ipv4-family
+#
+ip vpn-instance vpn.Grp
+ ipv4-family
+  route-distinguisher 1050:1
+  apply-label per-route
+#
+undo radius local-ip all
+#
+bfd
+#
+vlan 100
+ description GPRS_Gn
+#
+vlan 200
+ description GPRS_Gi
+#
+vlan 300
+ description TO Server
+#
+vlan 400
+ description to_MME02_GPRS_Gn
+#
+vlan 700
+ description to FE-PCRF02_UPPDU_duanxinwangguan
+#
+vlan 1000
+ description Gn_toE8000E
+#
+vlan 1001
+ description Gi_toE8000E
+#
+vlan 1050
+ description to PCRF_GX/Rx_Ge2/4/1
+#
+vlan 1100
+ description TO-[XZLS-GPRS-CE4-SGi]-[Eth-Trunk1]
+ statistic enable
+#
+vlan 1200
+ description CE3/4-hulian-Gi
+#
+vlan 1600
+#
+dhcp server request-packet all-interface disable
+#
+dot1x-template 1
+#
+acl number 2000
+ rule 1 permit vpn-instance GPRS_Gi source 10.237.99.0 0.0.0.255
+ rule 2 permit source 10.241.106.34 0
+ rule 80 permit vpn-instance GPRS_Gi source 10.237.35.0 0.0.0.255
+ rule 86 permit vpn-instance GPRS_Gi source 10.237.100.0 0.0.0.255
+ rule 100 permit vpn-instance GPRS_Gi source 10.233.81.0 0.0.0.255
+ rule 105 permit source 10.233.81.0 0.0.0.255
+ rule 110 permit source 10.241.202.5 0
+ rule 115 permit source 10.237.35.254 0
+ rule 150 permit source 10.237.100.0 0.0.0.255
+#
+acl number 2001
+ rule 5 permit source 10.233.104.0 0.0.0.255
+ rule 10 permit vpn-instance GPRS_Gi source 10.233.104.0 0.0.0.255
+ rule 15 permit vpn-instance GPRS_Gi source 211.139.73.0 0.0.0.255
+ rule 20 permit vpn-instance GPRS_Gn source 111.11.227.106 0
+ rule 25 permit vpn-instance GPRS_Gi source 111.11.253.9 0
+#
+acl number 3100
+ rule 5 deny tcp destination-port eq 4444
+ rule 10 deny udp destination-port eq tftp
+ rule 15 deny tcp destination-port eq 135
+ rule 20 deny udp destination-port eq 135
+ rule 25 deny tcp destination-port eq 139
+ rule 30 deny udp destination-port eq netbios-ssn
+ rule 35 deny tcp destination-port eq 445
+ rule 40 deny udp destination-port eq 445
+ rule 45 deny tcp destination-port eq 593
+ rule 50 deny udp destination-port eq 593
+ rule 55 deny udp destination-port eq 1434
+ rule 60 deny tcp destination-port eq 5554
+ rule 65 deny tcp destination-port eq 9995
+ rule 70 deny tcp destination-port eq 9996
+ rule 75 deny udp destination-port eq netbios-ns
+ rule 80 deny udp destination-port eq netbios-dgm
+#
+acl number 3333
+ rule 5 permit ip source 111.11.251.174 0 destination 10.169.79.181 0
+ rule 10 permit ip source 10.169.79.181 0 destination 111.11.251.174 0
+ rule 15 permit ip source 111.11.251.174 0 destination 223.104.26.155 0
+ rule 20 permit ip source 223.104.26.155 0 destination 111.11.251.174 0
+#
+acl number 3999
+ rule 10 permit icmp source 221.177.132.76 0 destination 223.103.26.28 0
+ rule 15 permit icmp source 223.103.26.28 0 destination 221.177.132.76 0
+ rule 20 permit icmp vpn-instance GPRS_Gn source 221.177.132.76 0 destination 223.103.26.28 0
+ rule 25 permit icmp vpn-instance GPRS_Gn source 223.103.26.28 0 destination 221.177.132.76 0
+#
+traffic classifier 3999 operator or
+ if-match acl 3999 precedence 1
+#
+traffic classifier dd operator or
+ if-match acl 3333 precedence 1
+#
+traffic classifier huawei operator or
+ if-match acl 3333 precedence 1
+#
+traffic behavior 3999
+#
+traffic behavior dd
+ car cir 2000000 cbs 18700000 green pass red discard
+#
+traffic behavior huawei
+#
+traffic policy 3999
+ share-mode
+ statistics enable
+ classifier 3999 behavior 3999 precedence 1
+#
+traffic policy dd
+ share-mode
+ classifier dd behavior dd precedence 1
+#
+traffic policy huawei
+ share-mode
+ statistics enable
+ classifier huawei behavior huawei precedence 1
+#
+aaa
+ local-user cszdxj password irreversible-cipher $1c$F!%`7`gkeB$2n7#!,a2zF)N;@P-_`fK!{4D7"f][>/C.[>3%+&4$
+ local-user cszdxj service-type ssh
+ local-user cszdxj level 3
+ local-user cszdxj state block fail-times 3 interval 5
+ local-user cmxz_feizeqing password irreversible-cipher $1c$zL7BD3rynW$L.|YMMl0f%NgtI<\!^bTd+(-OrYZQ=7G"N+J|b'%$
+ local-user cmxz_feizeqing service-type ssh
+ local-user cmxz_feizeqing level 3
+ local-user cmxz_feizeqing state block fail-times 3 interval 5
+ local-user cmxz_licheng password irreversible-cipher $1c$|~SO2zM";Y$E*`t!a"-'*r.+;4=B{W5/:$S,Mqt:D-rM"G,`>Z!$
+ local-user cmxz_licheng service-type ssh
+ local-user cmxz_licheng level 3
+ local-user cmxz_licheng state block fail-times 3 interval 5
+ local-user xazccj password irreversible-cipher $1c$5qwQ/@!ggD$s=)33Qex8F+|7i,|ZL)P=7we*b5*WV@c*]*bY$:*$
+ local-user xazccj service-type ssh
+ local-user xazccj level 1
+ local-user xazccj state block fail-times 3 interval 5
+ local-user feizeqing password irreversible-cipher $1c$F&Z~:eGTS&$bp.AYmo*nA%&5-9GO@e.TGrGA!LL{-Vk+B!R:y>6$
+ local-user feizeqing service-type ssh
+ local-user feizeqing level 3
+ local-user feizeqing state block fail-times 3 interval 5
+ local-user licheng password irreversible-cipher $1c$bB._IgW!)T$0<$yV$&cqF;#v@41V~/1x@)C$d6VP1__IT3u.^'K$
+ local-user licheng service-type ssh
+ local-user licheng level 3
+ local-user licheng state block fail-times 3 interval 5
+ local-user jtcjxz password irreversible-cipher $1c$uECkT0.L[)$p5Vf-(qS@!1>X~KZVIf2b[6EPAg>eQyo3G6u*y}H$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 3
+ local-user jtcjxz state block fail-times 3 interval 5
+ local-user xz4a_admin password irreversible-cipher $1a$>cZkYThmRW$c<{EGG{VeFai(l7V~_cXN+Q$0Ii;'E$UL6Jn~:%>$
+ local-user xz4a_admin service-type ssh
+ local-user xz4a_admin level 3
+ local-user xz4a_admin state active
+ #
+ authentication-scheme default0
+  authentication-mode none
+ #
+ authentication-scheme default1
+ #
+ authentication-scheme default
+  authentication-mode local radius
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default0
+ #
+ accounting-scheme default1
+ #
+ accounting-scheme default
+ #
+ domain default0
+ #
+ domain default1
+ #
+ domain default_admin
+ #
+ domain default
+#
+license
+#
+ospfv3 20 vpn-instance GPRS_Gi
+ router-id 223.104.26.109
+ default-route-advertise
+ area 0.0.0.0
+ area 0.0.0.10
+#
+ospfv3 42 vpn-instance ChinaMobile_SGi
+ router-id 10.237.111.129
+ vpn-instance-capability simple
+ import-route direct type 1 route-policy VoLTE_SGi
+ import-route static type 1 route-policy VoLTE_SGi
+ bfd all-interfaces enable
+ bfd all-interfaces min-transmit-interval 100 min-receive-interval 100
+ area 0.0.0.0
+#
+interface Vlanif100
+ description TO-LSSAEGW02BHW-JGN-Vlanif
+ ip binding vpn-instance GPRS_Gn
+ ospf timer hello 3
+ ospf enable 10 area 0.0.0.1
+#
+interface Vlanif400
+ description TO-LSMME02BHW-GN-Vlanif
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.237.111.1 255.255.255.240
+#
+interface Vlanif600
+ description TO-NE40E3-hulian-Vlanif
+ ip binding vpn-instance GPRS_Gn
+ ip address 223.103.26.81 255.255.255.252
+#
+interface Vlanif700
+ description TO-PCRF02-dxwanguan-Vlanif
+ ip binding vpn-instance GPRS_Gi
+ ip address 10.233.130.25 255.255.255.248
+ vrrp vrid 7 virtual-ip 10.233.130.27
+ vrrp vrid 7 priority 150
+#
+interface Vlanif1200
+ description pT:XZLS-GPRS_NE40E_3::Vlanif1200
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 117.136.18.134 255.255.255.252
+ ipv6 address 2409:807E:2800:1003:1::5/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.0
+ ospfv3 network-type p2p
+#
+interface Vlanif1600
+ ip binding vpn-instance GPRS_Gi
+ ip address 192.168.168.4 255.255.255.224
+#
+interface Eth-Trunk0
+ portswitch
+ description TO-E8000E2-GNGI-Eth-Trunk3-20G
+ mode lacp-static
+#
+interface Eth-Trunk0.10
+ vlan-type dot1q 14
+ ip address 14.14.14.2 255.255.255.252
+#
+interface Eth-Trunk0.100
+#
+interface Eth-Trunk0.1000
+ vlan-type dot1q 1000
+ description TO-E8000E_1-Gn
+ ip binding vpn-instance GPRS_Gn
+ ip address 223.104.26.98 255.255.255.252
+ traffic-policy 3999 inbound
+ traffic-policy 3999 outbound
+ ospf cost 1000
+ ospf network-type p2p
+ ospf timer hello 15
+#
+interface Eth-Trunk0.1001
+ vlan-type dot1q 1001
+ description TO-E8000E_1-GI
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 223.104.26.118 255.255.255.252
+ ipv6 address 2409:807E:2800:2::5/127
+ ipv6 address auto link-local
+ traffic-policy huawei inbound
+ traffic-policy huawei outbound
+ ospfv3 20 area 0.0.0.0
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospf cost 1000
+ ospf network-type p2p
+ ospf timer hello 15
+#
+interface Eth-Trunk1
+ portswitch
+ description TO-NE40E4-GNGI-Eth-Trunk1-20G
+ port link-type trunk
+ port trunk allow-pass vlan 100 to 200 300 400 600 700 1000 to 1001 1050 to 1051 1100 1200
+#
+interface Eth-Trunk2
+ description TO-LSSAEGW02BHW-GN-Eth-Trunk5-2G
+ ip binding vpn-instance GPRS_Gn
+ ip address 223.103.26.66 255.255.255.252
+ traffic-policy 3999 inbound
+ traffic-policy 3999 outbound
+ ospf cost 100
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk3
+ description TO-LSSAEGW02BHW-GI-Eth-Trunk2-30G
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 10.237.111.113 255.255.255.252
+ ipv6 address 2409:807E:2800:1004:1::2/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.10
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospfv3 timer hello 3
+ ospf cost 200
+ ospf network-type p2p
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk4
+ description TO-XZLS_LSFW04BHW-ETH-TRUNK4-200G
+ mode lacp-static
+#
+interface Eth-Trunk4.1001
+ vlan-type dot1q 1001
+ description TO-XZLS_LSFW04BHW-ETH-TRUNK4-VPN_Gi
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 117.136.170.18 255.255.255.252
+ ipv6 address 2409:807E:2804:22::1/127
+ ipv6 address auto link-local
+ ospfv3 20 area 0.0.0.0
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospf cost 1000
+ ospf network-type p2p
+ ospf timer hello 15
+#
+interface Eth-Trunk4.1002
+ vlan-type dot1q 1002
+ description TO-XZLS_LSFW08BHW-ETH-TRUNK4-VPN_GN
+ ip binding vpn-instance GPRS_Gn
+ ip address 117.136.170.22 255.255.255.252
+ ospf cost 1000
+ ospf network-type p2p
+ ospf timer hello 15
+#
+interface Eth-Trunk4.1003
+ vlan-type dot1q 1003
+ description yuanchengdenglu
+ ip address 10.241.202.6 255.255.255.252
+#
+interface Eth-Trunk6
+ description TO-[XZLS-SAEGW02-SGi]
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8010:3::3/127
+ ipv6 address auto link-local
+ ospfv3 42 area 0.0.0.0
+ ospfv3 cost 200
+ ospfv3 network-type p2p
+ ospfv3 timer hello 5
+ mode lacp-static
+ lacp timeout fast
+ statistic enable
+#
+interface Eth-Trunk7
+ description TO-LSMME02BHW-GN-0-10-0-1G
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.237.111.69 255.255.255.252
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk10
+ description TO_LSAEGW05BHW-GN-1-0-9-1G
+ undo enable snmp trap updown
+ ip binding vpn-instance GPRS_Gn
+ ip address 10.234.35.86 255.255.255.252
+ ospf cost 200
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk11
+ description TO-LSSAEGW06BHW-GI-Eth-Trunk3-30G
+ undo enable snmp trap updown
+ ip binding vpn-instance GPRS_Gi
+ ipv6 enable
+ ip address 10.237.111.149 255.255.255.252
+ ipv6 address 2409:807E:2800:1005:1::2/127
+ ospfv3 20 area 0.0.0.10
+ ospfv3 cost 1000
+ ospfv3 network-type p2p
+ ospfv3 timer hello 3
+ ospf cost 200
+ ospf network-type p2p
+ ospf timer hello 3
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk16
+ port-observing observe-index 40
+#
+interface Eth-Trunk17
+ port-observing observe-index 50
+#
+interface Virtual-Template0
+ ppp authentication-mode auto
+#
+interface GigabitEthernet0/0/0
+ speed auto
+ duplex auto
+ undo shutdown
+ ip address 1.1.1.1 255.255.255.0
+#
+interface GigabitEthernet1/0/0
+ description to TO-E8000E2-GNGI-G5/0/5-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet1/0/1
+ description TO-NE40E3-GNGI-G1/0/1-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet1/0/2
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet1/0/3
+ undo shutdown
+ eth-trunk 3
+ undo dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 40
+#
+interface GigabitEthernet1/0/4
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet1/0/5
+ description TO-LSSAEGW02BHW-GI-G4/2/0-10G
+ undo shutdown
+ eth-trunk 3
+ undo dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 40
+#
+interface GigabitEthernet1/0/6
+ description TO-LSSAEGW02BHW-GI-G1/2/2-10G
+ undo shutdown
+ eth-trunk 3
+ undo dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 40
+#
+interface GigabitEthernet1/0/7
+ description TO-LSSAEGW02BHW-GI-G1/2/3-10G
+ undo shutdown
+ eth-trunk 3
+ undo dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 40
+#
+interface GigabitEthernet1/0/8
+ description TO-NE40E3-GNGI-G1/2/3-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet1/0/9
+ description TO-E8000E2-GNGI-G3/0/0-10G
+ undo shutdown
+ eth-trunk 0
+#
+interface GigabitEthernet1/0/10
+ undo shutdown
+#
+interface GigabitEthernet1/0/11
+ undo shutdown
+#
+interface GigabitEthernet1/1/0
+ negotiation auto
+ description TO-LSMME02BHW-GN-0-12-0-1G
+ undo shutdown
+ eth-trunk 7
+ dcn
+#
+interface GigabitEthernet1/1/1
+ description to S9306-3 1-0-12 OM
+ undo shutdown
+ ip address 10.237.112.28 255.255.255.192
+ dcn
+#
+interface GigabitEthernet1/1/2
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet1/1/3
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet1/1/4
+ negotiation auto
+ portswitch
+ description TO-LSMME02BHW-GN-0/11/1-1G
+ undo shutdown
+ port link-type access
+ port default vlan 400
+ undo dcn
+#
+interface GigabitEthernet1/1/5
+ negotiation auto
+ portswitch
+ description TO-LSMME02BHW-GN-1/10/1-1G
+ undo shutdown
+ port link-type access
+ port default vlan 400
+ undo dcn
+#
+interface GigabitEthernet1/1/6
+ negotiation auto
+ portswitch
+ description TO-LSMME02BHW-GN-1/11/1-1G
+ undo shutdown
+ port link-type access
+ port default vlan 400
+ undo dcn
+#
+interface GigabitEthernet1/1/7
+ negotiation auto
+ portswitch
+ description TO-LSMME02BHW-GN-2/10/1-1G
+ undo shutdown
+ port link-type access
+ port default vlan 400
+ undo dcn
+#
+interface GigabitEthernet1/1/8
+ negotiation auto
+ portswitch
+ description TO-LSMME02BHW-GN-2/11/1-1G
+ undo shutdown
+ port link-type access
+ port default vlan 400
+#
+interface GigabitEthernet1/1/9
+ description TO-LSSAEGW02BHW-GN-G1/0/0-1G
+ undo shutdown
+#
+interface GigabitEthernet1/1/10
+ description TO-LSSAEGW02BHW-GN-G1/0/1-1G
+ undo shutdown
+#
+interface GigabitEthernet1/1/11
+ portswitch
+ description T0-PCRF02BHW-PCRF-G2/1/3-1G
+ undo shutdown
+ port default vlan 700
+#
+interface GigabitEthernet1/1/12
+ undo shutdown
+#
+interface GigabitEthernet1/1/13
+ description TO-[ZX-Volte-SBC-SGi-LiuWu]-[I-16-1-up][Gei0/7]
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:6/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/1/14
+ description TO-[ZX-Volte-SBC2-SGi-LiuWu]-[I-16-3-down][Gei0/1]
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:1E/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/1/15
+ description TO-[ZX-Volte-SBC-SGi-LiuWu]-[I-16-1-up][Gei0/3]
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:26/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/1/16
+ description TO-[ZX-Volte-SBC-SGi-LiuWu]-[I-16-1-up][Gei0/5]
+ undo shutdown
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:2E/126
+ ipv6 address auto link-local
+#
+interface GigabitEthernet1/1/17
+ undo shutdown
+ traffic-policy dd inbound
+#
+interface GigabitEthernet1/1/18
+ undo shutdown
+#
+interface GigabitEthernet1/1/19
+ undo shutdown
+#
+interface GigabitEthernet1/1/20
+ undo shutdown
+#
+interface GigabitEthernet1/1/21
+ description TO-LSSAEGW02BHW-GN-G1/0/10-1G
+ undo shutdown
+#
+interface GigabitEthernet1/1/22
+ description TO-LSSAEGW02BHW-GN-G1/0/11-1G
+ undo shutdown
+#
+interface GigabitEthernet1/1/23
+ description TO-LSSAEGW02BHW-GN-G1/0/12-1G
+ undo shutdown
+#
+interface GigabitEthernet4/0/0
+ description TO-LSSAEGW02BHW-GI-G4/2/2-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/1
+ description TO-LSSAEGW02BHW-GI-G3/2/4-10G
+ undo shutdown
+ eth-trunk 3
+ undo dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 50
+#
+interface GigabitEthernet4/0/2
+ description TO TO-LSSAEGW02BHW-GI-GE6/0/3 -10G
+ undo shutdown
+ eth-trunk 3
+ dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 50
+#
+interface GigabitEthernet4/0/3
+ description UP:XZLS-GPRS-E8000E-2:G3/1/0 10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet4/0/4
+ description TO LSSAEGW02BHW-GN-G5/0/4-10G
+ undo shutdown
+ eth-trunk 2
+ dcn
+ port-mirroring inbound
+ port-mirroring outbound
+#
+interface GigabitEthernet4/0/5
+ description TO UGW02 G4/1/5-SGi-10G
+ undo shutdown
+ eth-trunk 3
+ dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 50
+#
+interface GigabitEthernet4/0/6
+ description TO UGW02 G4/1/6-SGi-10G
+ undo shutdown
+ eth-trunk 3
+ dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 50
+#
+interface GigabitEthernet4/0/7
+ description TO UGW02 G4/1/7-SGi-10G
+ undo shutdown
+ eth-trunk 3
+ dcn
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 50
+#
+interface GigabitEthernet4/0/8
+ description TO UGW02 G4/1/8-SGi-10G
+ undo shutdown
+ eth-trunk 3
+ port-mirroring inbound
+ port-mirroring outbound
+ port-mirroring to observe-index 50
+#
+interface GigabitEthernet4/0/9
+ description TO E8000E-S G2/0/9-SGi-10G
+ undo shutdown
+ eth-trunk 0
+#
+interface GigabitEthernet4/0/10
+ description TO E8000E-S G2/0/10-SGi-10G
+ undo shutdown
+ eth-trunk 0
+#
+interface GigabitEthernet4/0/11
+ description TO E8000E-S G2/0/11-SGi-10G
+ undo shutdown
+ eth-trunk 0
+#
+interface GigabitEthernet5/0/0
+ description TO E8000E-S G2/1/0-SGi-10G
+ undo shutdown
+ eth-trunk 0
+ dcn
+#
+interface GigabitEthernet5/0/1
+ description TO NE40E03 G5/0/1-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/0/2
+ description TO NE40E03 G5/0/2-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/0/3
+ description TO NE40E03 G5/0/3-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet5/0/4
+ portswitch
+ undo shutdown
+ port link-type trunk
+ port trunk allow-pass vlan 1600
+ dcn
+#
+interface GigabitEthernet5/0/5
+ description TO_LSAEGW05BHW-GN-1-0-9-1G
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 10
+ dcn
+ negotiation auto
+#
+interface GigabitEthernet5/0/6
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet5/0/7
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet5/0/8
+ undo shutdown
+#
+interface GigabitEthernet5/0/9
+ undo shutdown
+#
+interface GigabitEthernet5/0/10
+ undo shutdown
+#
+interface GigabitEthernet5/0/11
+ undo shutdown
+#
+interface GigabitEthernet6/0/0
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet6/0/1
+ description TO NE40E03 G6/0/1-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet6/0/2
+ description TO NE40E03 G6/0/2-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet6/0/3
+ description TO NE40E03 G6/0/3-HULIAN-10G
+ undo shutdown
+ eth-trunk 1
+ dcn
+#
+interface GigabitEthernet6/0/4
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet6/0/5
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet6/0/6
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet6/0/7
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet6/0/8
+ undo shutdown
+ eth-trunk 16
+#
+interface GigabitEthernet6/0/9
+ undo shutdown
+ eth-trunk 17
+#
+interface GigabitEthernet6/0/10
+ shutdown
+#
+interface GigabitEthernet6/0/11
+ undo shutdown
+#
+interface GigabitEthernet7/0/0
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/1
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/2
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/3
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/4
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/5
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/6
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/7
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+ dcn
+#
+interface GigabitEthernet7/0/8
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+#
+interface GigabitEthernet7/0/9
+ undo shutdown
+ undo enable snmp trap updown
+ eth-trunk 11
+#
+interface GigabitEthernet7/0/10
+ undo shutdown
+#
+interface GigabitEthernet7/0/11
+ undo shutdown
+#
+interface GigabitEthernet7/1/0
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/1
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/2
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/3
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/4
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/5
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/6
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/7
+ undo shutdown
+ dcn
+#
+interface GigabitEthernet7/1/8
+ undo shutdown
+#
+interface GigabitEthernet7/1/9
+ undo shutdown
+#
+interface GigabitEthernet7/1/10
+ undo shutdown
+#
+interface GigabitEthernet7/1/11
+ undo shutdown
+#
+interface GigabitEthernet16/0/0
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/1
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/2
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/3
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/4
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/5
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/6
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/7
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/0/8
+ undo shutdown
+ eth-trunk 4
+#
+interface GigabitEthernet16/0/9
+ undo shutdown
+ eth-trunk 4
+#
+interface GigabitEthernet16/0/10
+ undo shutdown
+ eth-trunk 4
+#
+interface GigabitEthernet16/0/11
+ undo shutdown
+ eth-trunk 4
+#
+interface GigabitEthernet16/1/0
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/1
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/2
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/3
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/4
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/5
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/6
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/7
+ undo shutdown
+ eth-trunk 4
+ dcn
+#
+interface GigabitEthernet16/1/8
+ undo shutdown
+#
+interface GigabitEthernet16/1/9
+ undo shutdown
+#
+interface GigabitEthernet16/1/10
+ undo shutdown
+#
+interface GigabitEthernet16/1/11
+ undo shutdown
+#
+interface HP-GE17/3/0
+ undo shutdown
+#
+interface HP-GE17/3/1
+ undo shutdown
+#
+interface HP-GE18/3/0
+ undo shutdown
+#
+interface HP-GE18/3/1
+ undo shutdown
+#
+interface LoopBack0
+ description for_GPRS_Gi
+ ip address 223.104.26.109 255.255.255.255
+#
+interface LoopBack1
+ description GPRS_Gn
+ ip address 223.103.26.84 255.255.255.255
+#
+interface LoopBack2
+ description for_beiyong
+ ip address 223.103.26.86 255.255.255.255
+#
+interface LoopBack42
+ description SGi_lookback
+ ip binding vpn-instance ChinaMobile_SGi
+ ipv6 enable
+ ipv6 address 2409:801F:8000::2:85/128
+#
+interface LoopBack100
+#
+interface LoopBack2147483647
+ description DCN loopback interface
+ ip binding vpn-instance __dcn_vpn__
+ ip address 128.42.238.102 255.255.0.0
+#
+interface NULL0
+#
+ospf 10 router-id 223.103.26.84 vpn-instance GPRS_Gn
+ default-route-advertise
+ import-route direct type 1
+ import-route static
+ opaque-capability enable
+ vpn-instance-capability simple
+ area 0.0.0.0
+  network 117.136.170.20 0.0.0.3
+  network 223.103.26.80 0.0.0.3
+  network 223.104.26.96 0.0.0.3
+ area 0.0.0.1
+  authentication-mode md5 1 cipher %^%#/x$!2#JJ^4tH\XHL}3g2;T2s9eOtN,b\8;*b|.nD%^%#
+  network 10.237.111.0 0.0.0.15
+  network 10.237.111.68 0.0.0.3
+  network 223.103.26.64 0.0.0.3
+  nssa
+ area 0.0.0.2
+  authentication-mode md5 1 cipher %^%#b&ya#6mMq3Qidl0F5M:5g\;w~IYKvMQ#>!@0CoP%%^%#
+  network 10.234.35.84 0.0.0.3
+  nssa
+#
+ospf 20 router-id 223.104.26.109 vpn-instance GPRS_Gi
+ default-route-advertise
+ import-route direct
+ import-route static
+ opaque-capability enable
+ area 0.0.0.0
+  network 117.136.18.132 0.0.0.3
+  network 117.136.170.16 0.0.0.3
+  network 223.104.26.116 0.0.0.3
+ area 0.0.0.10
+  authentication-mode md5 1 cipher %^%#cIjuYML4WBPlY5I7aFLJn;A:"lrR}617T+1TR!m%%^%#
+  network 10.237.111.112 0.0.0.3
+  nssa
+ area 0.0.0.11
+  authentication-mode md5 1 cipher %^%#|L$/YzFAC':<*2O%~da"UJmu$|&7JGmOZH.eJP+Y%^%#
+  network 10.237.111.148 0.0.0.3
+  nssa
+#
+ospf 65534 vpn-instance __dcn_vpn__
+ description DCN ospf create by default
+ opaque-capability enable
+ hostname
+ vpn-instance-capability simple
+ area 0.0.0.0
+  network 0.0.0.0 255.255.255.255
+#
+!The DCN function implements the capability of plug-and-play for this device.
+!A NE IP address based on the unique NE ID is automatically generated in VPN
+!of DCN. It is recommended that the NE IP address be changed to the planned
+!one by running the ne-ip X.X.X.X <MASK> command after the device being online.
+dcn
+#
+route-policy VoLTE_SGi permit node 10
+ if-match ipv6 address prefix-list prefix_sgi_huawei
+#
+ip route-static 0.0.0.0 0.0.0.0 223.104.26.102
+ip route-static 10.233.81.128 255.255.255.224 10.237.112.1
+ip route-static 10.237.35.254 255.255.255.255 10.237.112.1
+ip route-static 10.237.95.23 255.255.255.255 10.237.112.1
+ip route-static 10.237.99.0 255.255.255.0 10.237.112.1
+ip route-static 10.237.99.80 255.255.255.255 10.237.112.1
+ip route-static 10.237.100.0 255.255.255.0 10.237.112.1
+ip route-static 10.241.106.34 255.255.255.255 10.237.112.1
+#
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:1 128 2409:801F:8000::2:7
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:8 128 2409:801F:8000::2:1F
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:8 128 2409:801F:8000::2:27
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:8 128 2409:801F:8000::2:2F
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:9 128 2409:801F:8000::2:1F
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:9 128 2409:801F:8000::2:27
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:9 128 2409:801F:8000::2:2F
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:A 128 2409:801F:8000::2:1F
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:A 128 2409:801F:8000::2:27
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:801F:8000::20:A 128 2409:801F:8000::2:2F
+ipv6 route-static vpn-instance ChinaMobile_SGi 2409:880F:8080:: 43 2409:801F:8010:3::2
+#
+ip ipv6-prefix prefix_sgi_huawei index 10 permit 2409:801F:8010:3::2 127
+ip ipv6-prefix prefix_sgi_huawei index 20 permit 2409:801F:8000::20:1 128
+ip ipv6-prefix prefix_sgi_huawei index 30 permit 2409:801F:8000::20:8 128
+ip ipv6-prefix prefix_sgi_huawei index 40 permit 2409:801F:8000::20:9 128
+ip ipv6-prefix prefix_sgi_huawei index 50 permit 2409:801F:8000::20:A 128
+#
+snmp-agent
+snmp-agent local-engineid 800007DB039C37F40A9857
+snmp-agent community read cipher %^%#`ucTN,JDrQp}jJO"-ccQ$WY6$<eq~Em@5',JnxUA%7{t(P3MnM"dcf!gi()2'P*-5+Y7i1cor~#!9FOV%^%# alias __CommunityAliasName_01_64921
+snmp-agent community read cipher %^%#`al`6$^$K,l#*OJ<7_>MZ:}t,MhK';<eM.:6OSdCw,P[K-WzhX-Uv/GrF^UD&Kr%;33C9NgPyQ+OBo!X%^%# alias __CommunityAliasName_02_37926
+snmp-agent community read cipher %^%#\L9'M|L^zG6NJc'4GPuNX]LR0'dyaHMQn01ZBRr7"s[=EbIRvYP}l.Lq0EEZcSA*+jjxN>P9YY>zcJ'>%^%# alias __CommunityAliasName_03_19033
+snmp-agent community read cipher %^%#&orL"~U@bU0J=(X<3AY)6n.QI(kvw8;8fcNu(xW5Z%m>%}!W,,3BV3ARH1B87R@k;X`Q>FN)+pIfNWjS%^%# acl 2001 alias __CommunityAliasName_04_53490
+snmp-agent community read cipher %^%#}ts:"}%UnG@,`=3u.[uC_1^_CF2:44Y!.#~p9t1M`{=<ALk~:ZjNRdWn@,1Y9+%#Hx.IWN)rx56]g)^%%^%# acl 2001 alias __CommunityAliasName_05_46620
+snmp-agent community read cipher %^%#7{-*YV;_8KIT|/4=0xwBREd/5PWCCDkkkrO|.@^<d6Hb8bi)%J|7(TMg_2mP"J^A*X@LlPtISM&@*N'@%^%# acl 2001 alias __CommunityAliasName_06_24056
+#
+snmp-agent sys-info version v2c v3
+snmp-agent target-host host-name __targetHost_1_49653 trap address udp-domain 211.139.73.201 vpn-instance GPRS_Gi params securityname cipher %^%#14s\3Hm0G=]aQ8~5O(e~~m5HE5{[n(XU({OU,h}2%^%# v2c
+snmp-agent target-host host-name __targetHost_2_1879 trap address udp-domain 111.11.253.9 vpn-instance GPRS_Gi params securityname cipher %^%#bS>GB@mP*@hjiy#hb.+(g%t}"oO4".$Il=TG$FT#%^%# v2c
+snmp-agent target-host host-name __targetHost_3_14553 trap address udp-domain 10.237.95.23 params securityname cipher %^%#'B%6QePY;"Fsq`"nxa~)j'E-DDXhDDx,CsGwVj/;%^%# v2c
+snmp-agent target-host host-name __targetHost_4_51635 trap address udp-domain 111.11.253.9 vpn-instance GPRS_Gi params securityname cipher %^%#ajhb*Pe%pXv`,(G--#jM0qsyN<!'O;{)[\;%1YOOMe)xV0}#*1`7=y@<RG&>%^%# v2c
+snmp-agent target-host host-name __targetHost_5_4071 trap address udp-domain 211.139.73.201 vpn-instance GPRS_Gi params securityname cipher %^%#uFWu6G~7p/&C9]POD`F+hsx[LL38jW)bhx:Q4;HU:ZiJ0F,Y=%Mz`e)~u__'%^%# v2c
+#
+snmp-agent protocol source-status all-interface
+snmp-agent protocol source-status ipv6 all-interface
+#
+undo snmp-agent proxy protocol source-status all-interface
+undo snmp-agent proxy protocol source-status ipv6 all-interface
+#
+snmp-agent trap enable
+#
+lldp enable
+#
+undo web-auth-server source-ip all
+#
+undo web-auth-server source-ipv6 all
+#
+stelnet server enable
+ssh user client001
+ssh user client001 authentication-type password
+ssh user cmxz_feizeqing
+ssh user cmxz_feizeqing authentication-type all
+ssh user cmxz_feizeqing service-type stelnet
+ssh user cmxz_licheng
+ssh user cmxz_licheng authentication-type all
+ssh user cmxz_licheng service-type stelnet
+ssh user cmxz_tangjin
+ssh user cmxz_tangjin authentication-type password
+ssh user cmxz_tangjin service-type stelnet
+ssh user cszdxj
+ssh user cszdxj authentication-type password
+ssh user cszdxj service-type stelnet
+ssh user epc
+ssh user epc authentication-type password
+ssh user epc service-type stelnet
+ssh user feizeqing
+ssh user feizeqing authentication-type password
+ssh user feizeqing service-type stelnet
+ssh user jituan01
+ssh user jituan01 authentication-type password
+ssh user jituan01 service-type stelnet
+ssh user jituan02
+ssh user jituan02 authentication-type password
+ssh user jituan02 service-type stelnet
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user licheng
+ssh user licheng authentication-type password
+ssh user licheng service-type stelnet
+ssh user xz4a_admin
+ssh user xz4a_admin authentication-type all
+ssh user xz4a_admin service-type stelnet
+ssh server-source all-interface
+ssh ipv6 server-source all-interface
+ssh server acl 2000
+ssh authorization-type default root
+#
+ssh server cipher aes256_ctr aes128_ctr
+ssh server hmac sha2_512 sha2_256_96 sha2_256 sha1 sha1_96 md5 md5_96
+ssh server key-exchange dh_group_exchange_sha256 dh_group_exchange_sha1 dh_group14_sha1 dh_group1_sha1 ecdh_sha2_nistp256 ecdh_sha2_nistp384 ecdh_sha2_nistp521 sm2_kep
+#

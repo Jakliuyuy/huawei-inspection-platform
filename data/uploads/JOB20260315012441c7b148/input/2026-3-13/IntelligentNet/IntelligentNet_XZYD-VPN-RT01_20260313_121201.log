@@ -1,0 +1,776 @@
+﻿<XZYD-VPN-RT01>screen-length 0 temporary
+                             ^
+ % Unrecognized command found at '^' position.
+<XZYD-VPN-RT01>display version
+Huawei Versatile Routing Platform Software
+VRP software, Version 3.40, Release 0311P07
+Copyright (c) 1998-2011 Huawei Technologies Co., Ltd. All rights reserved.
+Without the owner's prior written consent, no decompiling
+nor reverse-engineering shall be allowed.
+Quidway AR28-31 uptime is 755 weeks, 2 days, 10 hours, 6 minutes
+Last reboot 2011/09/21 01:20:54
+System returned to ROM By <Reboot> Command.
+
+ CPU type: PowerPC 8245 300MHz
+ 128M bytes SDRAM Memory
+ 32M bytes Flash Memory
+ 128K bytes NvRAM Memory
+ PCB      Version:1.0
+ Logic    Version:1.0
+ BootROM  Version:9.51
+  [SLOT 0] 2FE      (Hardware)3.1, (Driver)2.0, (CPLD)0.0
+  [SLOT 1] 2FE      (Hardware)3.1, (Driver)2.0, (CPLD)0.0
+  [SLOT 2] 2E1      (Hardware)3.2, (Driver)1.0, (CPLD)3.0
+<XZYD-VPN-RT01>display device
+                              ^
+ % Incomplete command found at '^' position.
+<XZYD-VPN-RT01>display startup
+  Startup saved-configuration file:          flash:/vrpcfg.cfg
+  Next startup saved-configuration file:     flash:/vrpcfg.cfg
+<XZYD-VPN-RT01>display cpu-usage
+===== Current CPU usage info =====
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 3%
+CPU Usage Stat. Time : 2026-03-13  11:51:17
+CPU Usage Stat. Tick : 0x282b50(CPU Tick High) 0x465d3eac(CPU Tick Low)
+Actual Stat. Cycle   : 0x0(CPU Tick High) 0x596a93e1(CPU Tick Low)
+
+TaskName        CPU        Runtime(CPU Tick High/CPU Tick Low)
+VIDL            97%               0/5769d435
+TICK             0%               0/  2d52c6
+ vt0             0%               0/   1d4cc
+INFO             0%               0/   50932
+DRTM             0%               0/    ea66
+ROUT             0%               0/   9d7cb
+SapT             0%               0/  476b29
+SOCK             0%               0/   cd197
+VSIF             0%               0/   493ff
+VTYD             0%               0/  7b6155
+IPSP             0%               0/   19a32
+ IKE             0%               0/   2f9cc
+DVPN             0%               0/    7533
+ TAC             0%               0/   50932
+  SC             0%               0/  25152e
+ RDS             0%               0/  2c6860
+ ACM             0%               0/  249ffb
+TRAP             0%               0/   d8164
+DTCT             0%               0/   96298
+NTPT             0%               0/    7533
+PIMT             0%               0/    7533
+LSPM             0%               0/   2f9cc
+ L2V             0%               0/   3a999
+ IPP             0%               0/    3a99
+ SIP             0%               0/   4ce98
+HTTP             0%               0/   36eff
+PTTP             0%               0/   19a32
+DNSA             0%               0/   249ff
+DHCP             0%               0/  249ffb
+RMON             0%               0/    afcc
+DHCC             0%               0/  1d4cc8
+
+<XZYD-VPN-RT01>display memory-usage
+                       ^
+ % Unrecognized command found at '^' position.
+<XZYD-VPN-RT01>display memory
+System Available Memory(bytes): 69459456
+System Used Memory(bytes): 43653624
+Used Rate: 62%
+<XZYD-VPN-RT01>display ip interface brief
+*down: administratively down
+(l): loopback
+(s): spoofing
+ Interface                   IP Address      Physical Protocol     Description 
+ Aux0                        unassigned      *down    down         Aux0 Inte...
+ Ethernet0/0                 192.168.234.10  up       up           Ethernet0...
+ Ethernet0/1                 unassigned      down     down         Ethernet0...
+ Ethernet1/0                 unassigned      down     down         to RT02-i...
+ Ethernet1/1                 10.143.45.31    up       up           Ethernet1...
+ Serial2/0:0                 192.168.1.146   *down    down         Serial2/0...
+ Serial2/1:0                 192.168.3.142   down     down         to beijin...
+<XZYD-VPN-RT01>display interface brief
+                                 ^
+ % Wrong parameter found at '^' position.
+<XZYD-VPN-RT01>display ip routing-table
+ Routing Table: public net
+Destination/Mask   Protocol Pre  Cost        Nexthop         Interface
+0.0.0.0/0          STATIC   60   0           10.143.45.21    Ethernet1/1
+10.143.45.0/25     DIRECT   0    0           10.143.45.31    Ethernet1/1
+10.143.45.31/32    DIRECT   0    0           127.0.0.1       InLoopBack0
+10.233.121.128/25  STATIC   60   0           10.143.45.21    Ethernet1/1
+127.0.0.0/8        DIRECT   0    0           127.0.0.1       InLoopBack0
+127.0.0.1/32       DIRECT   0    0           127.0.0.1       InLoopBack0
+192.168.234.8/30   DIRECT   0    0           192.168.234.10  Ethernet0/0
+192.168.234.10/32  DIRECT   0    0           127.0.0.1       InLoopBack0
+<XZYD-VPN-RT01>display logbuffer
+Logging buffer configuration and contents:enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 80144
+Current messages : 512
+
+%Feb 12 10:32:32:798 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 12 10:32:33:140 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 12 10:32:33:941 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 12 10:32:34:275 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 12 10:32:42:753 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 12 10:32:52:655 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 12 10:33:08:019 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display interface
+%Feb 12 10:33:15:640 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 12 10:33:25:423 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuffer
+%Feb 12 10:38:28:709 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 12 10:38:28:710 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 12 10:38:28:711 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 12 10:38:28:712 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 13 10:35:05:084 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 13 10:35:05:085 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 13 10:35:05:106 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 13 10:35:05:354 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 13 10:35:05:757 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 13 10:35:05:762 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 13 10:35:05:763 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 13 10:35:05:831 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 13 10:35:05:858 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 13 10:35:05:877 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 13 10:35:05:987 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 13 10:35:19:757 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 13 10:35:20:084 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 13 10:35:20:843 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 13 10:35:21:196 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 13 10:35:21:536 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 13 10:35:22:341 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 13 10:35:22:712 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 13 10:35:23:259 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 13 10:35:56:873 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Feb 13 10:40:59:790 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 13 10:40:59:791 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 13 10:40:59:792 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 13 10:40:59:793 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 13 17:22:29:676 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 13 17:22:29:677 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 13 17:22:29:703 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 13 17:22:29:953 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 13 17:22:30:361 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 13 17:22:30:368 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 13 17:22:30:369 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 13 17:22:30:447 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 13 17:22:30:478 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 13 17:22:30:502 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 13 17:22:30:612 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 13 17:23:09:608 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 13 17:23:09:609 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 13 17:23:09:611 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 13 17:23:09:630 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 14 10:17:13:453 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 14 10:17:13:455 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 14 10:17:13:478 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 14 10:17:13:726 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 14 10:17:14:128 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 14 10:17:14:133 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 14 10:17:14:135 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 14 10:17:14:306 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 14 10:17:14:330 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 14 10:17:14:353 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 14 10:17:14:463 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 14 10:17:18:663 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 14 10:17:18:988 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 14 10:17:19:737 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 14 10:17:20:083 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 14 10:17:20:430 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 14 10:17:21:243 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 14 10:17:21:614 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 14 10:17:22:166 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 14 10:17:25:629 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 14 10:17:35:004 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 14 10:22:37:798 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 14 10:22:37:799 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 14 10:22:37:800 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 14 10:22:37:802 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 15 12:49:40:622 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 15 12:49:40:623 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 15 12:49:40:647 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 15 12:49:40:896 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 15 12:49:41:302 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 15 12:49:41:307 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 15 12:49:41:308 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 15 12:49:41:374 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 15 12:49:41:403 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 15 12:49:41:426 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 15 12:49:41:536 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 15 12:49:42:690 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 15 12:49:43:016 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 15 12:49:43:773 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 15 12:49:44:115 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 15 12:49:44:464 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 15 12:49:45:267 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 15 12:49:45:640 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 15 12:49:46:190 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 15 12:52:57:636 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 15 12:52:57:637 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 15 12:52:57:638 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 15 12:52:57:669 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 15 12:56:28:166 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 15 12:56:28:167 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 15 12:56:28:227 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 15 12:56:28:476 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 15 12:56:28:881 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 15 12:56:28:917 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 15 12:56:28:918 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 15 12:56:29:011 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 15 12:56:29:036 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 15 12:56:29:077 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 15 12:56:29:231 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 15 12:56:33:497 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 15 12:56:37:914 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 15 13:01:19:887 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 15 13:01:19:888 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 15 13:01:19:890 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 15 13:01:20:009 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 16 17:49:40:361 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 16 17:49:40:362 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 16 17:49:40:388 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 16 17:49:40:638 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 16 17:49:41:045 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 16 17:49:41:049 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 16 17:49:41:052 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 16 17:49:41:126 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 16 17:49:41:148 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 16 17:49:41:170 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 16 17:49:41:279 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 16 17:49:42:261 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 16 17:49:42:585 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 16 17:49:43:341 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 16 17:49:43:683 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 16 17:49:44:032 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 16 17:49:44:836 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 16 17:49:45:213 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 16 17:49:45:769 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 16 17:54:46:093 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 16 17:54:46:094 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 16 17:54:46:095 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 16 17:54:46:096 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 17 11:59:30:384 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 17 11:59:30:385 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 17 11:59:30:409 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 17 11:59:30:658 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 17 11:59:31:063 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 17 11:59:31:068 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 17 11:59:31:069 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 17 11:59:31:147 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 17 11:59:31:175 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 17 11:59:31:199 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 17 11:59:31:308 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 17 11:59:32:409 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 17 11:59:32:734 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 17 11:59:33:499 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 17 11:59:33:836 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 17 11:59:34:184 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 17 11:59:34:986 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 17 11:59:35:358 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 17 11:59:35:910 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 17 12:03:29:461 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 17 12:03:29:462 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 17 12:03:29:487 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 17 12:03:29:737 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 17 12:03:30:146 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 17 12:03:30:151 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 17 12:03:30:152 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 17 12:03:30:368 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 17 12:03:30:392 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 17 12:03:30:415 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 17 12:03:30:525 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 17 12:03:36:892 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt1 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 17 12:04:36:250 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 17 12:04:36:251 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 17 12:04:36:253 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 17 12:04:36:254 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 17 12:08:40:150 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 17 12:08:40:151 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 17 12:08:40:152 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 17 12:08:40:153 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 18 14:04:09:344 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 18 14:04:09:345 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 18 14:04:09:387 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 18 14:04:09:635 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 18 14:04:10:039 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 18 14:04:10:068 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 18 14:04:10:069 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 18 14:04:10:140 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 18 14:04:10:164 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 18 14:04:10:210 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 18 14:04:10:367 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 18 14:04:11:466 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 18 14:04:11:794 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 18 14:04:12:557 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 18 14:04:12:895 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 18 14:04:13:242 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 18 14:04:14:054 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 18 14:04:14:436 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 18 14:04:14:996 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 18 14:09:15:324 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 18 14:09:15:325 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 18 14:09:15:326 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 18 14:09:15:327 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 19 17:40:09:765 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 19 17:40:09:767 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 19 17:40:09:791 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 19 17:40:10:039 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 19 17:40:10:445 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 19 17:40:10:450 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 19 17:40:10:451 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 19 17:40:10:538 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 19 17:40:10:561 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 19 17:40:10:584 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 19 17:40:10:694 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 19 17:40:15:569 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 19 17:40:15:894 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 19 17:40:16:653 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 19 17:40:16:992 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 19 17:40:17:343 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 19 17:40:18:144 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 19 17:40:18:514 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 19 17:40:19:063 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 19 17:45:19:384 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 19 17:45:19:386 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :                          
+%Feb 19 17:45:19:387 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 19 17:45:19:388 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 20 16:22:44:560 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 20 16:22:44:561 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 20 16:22:44:588 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 20 16:22:44:837 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 20 16:22:45:243 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 20 16:22:45:247 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 20 16:22:45:250 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 20 16:22:45:468 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 20 16:22:45:497 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 20 16:22:45:520 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 20 16:22:45:629 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 20 16:22:47:893 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 20 16:22:48:220 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 20 16:22:48:974 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 20 16:22:49:316 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 20 16:22:49:667 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 20 16:22:50:463 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 20 16:22:50:833 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 20 16:22:51:387 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 20 16:24:43:213 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 20 16:24:43:214 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 20 16:24:43:215 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 20 16:24:43:238 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 21 17:49:39:534 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 21 17:49:39:535 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 21 17:49:39:558 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 21 17:49:39:807 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 21 17:49:40:212 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 21 17:49:40:216 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 21 17:49:40:219 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 21 17:49:40:280 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 21 17:49:40:307 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 21 17:49:40:329 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 21 17:49:40:439 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 21 17:49:41:932 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 21 17:49:42:257 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 21 17:49:43:013 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 21 17:49:43:352 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 21 17:49:43:700 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 21 17:49:44:498 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 21 17:49:44:872 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 21 17:49:45:434 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 21 17:49:45:772 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 21 17:54:46:525 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Feb 21 17:54:46:526 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 21 17:54:46:527 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 21 17:54:46:528 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 22 18:02:30:601 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 22 18:02:30:602 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 22 18:02:30:629 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 22 18:02:30:877 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 22 18:02:31:284 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 22 18:02:31:288 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 22 18:02:31:291 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 22 18:02:31:366 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 22 18:02:31:389 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 22 18:02:31:411 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 22 18:02:31:521 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 22 18:02:33:783 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 22 18:02:34:103 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 22 18:02:34:858 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 22 18:02:35:199 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 22 18:02:35:543 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 22 18:02:36:352 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 22 18:02:36:725 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 22 18:02:37:282 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 22 18:02:37:622 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 22 18:04:11:318 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 22 18:04:11:319 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 22 18:04:11:320 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 22 18:04:11:411 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 23 16:33:20:474 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 23 16:33:20:475 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 23 16:33:20:499 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 23 16:33:20:748 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 23 16:33:21:158 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 23 16:33:21:164 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 23 16:33:21:165 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 23 16:33:21:251 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 23 16:33:21:274 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 23 16:33:21:296 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 23 16:33:21:406 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 23 16:33:22:534 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 23 16:33:22:859 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 23 16:33:23:612 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 23 16:33:23:953 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 23 16:33:24:298 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 23 16:33:25:099 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 23 16:33:25:476 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 23 16:33:26:037 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 23 16:33:46:215 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 23 16:33:46:216 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 23 16:33:46:218 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 23 16:33:46:256 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 23 16:35:31:138 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 23 16:35:31:140 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 23 16:35:31:159 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 23 16:35:31:408 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 23 16:35:31:812 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 23 16:35:31:816 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 23 16:35:31:819 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 23 16:35:31:924 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 23 16:35:31:948 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 23 16:35:31:969 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 23 16:35:32:079 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 23 16:35:35:702 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 23 16:37:39:276 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 23 16:37:39:277 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 23 16:37:39:278 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 23 16:37:39:330 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 26 14:08:21:593 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 26 14:08:21:595 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 26 14:08:21:621 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 26 14:08:21:871 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 26 14:08:22:274 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 26 14:08:22:281 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 26 14:08:22:284 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 26 14:08:22:381 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 26 14:08:22:408 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 26 14:08:22:429 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 26 14:08:22:539 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 26 14:08:25:735 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 26 14:08:26:054 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 26 14:08:26:816 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Feb 26 14:08:27:157 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Feb 26 14:08:27:504 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 26 14:08:28:309 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Feb 26 14:08:28:683 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 26 14:08:29:230 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Feb 26 14:08:33:091 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Feb 26 14:09:35:148 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 26 14:09:35:149 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess      
+%Feb 26 14:09:35:150 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 26 14:09:35:259 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar  2 15:46:33:164 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  2 15:46:33:166 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  2 15:46:33:188 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  2 15:46:33:436 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  2 15:46:33:842 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  2 15:46:33:847 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  2 15:46:33:850 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  2 15:46:33:940 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  2 15:46:33:970 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  2 15:46:33:993 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  2 15:46:34:102 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar  2 15:46:42:975 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar  2 15:46:56:279 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar  2 15:47:08:281 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device manuinfo
+%Mar  2 15:47:21:281 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Mar  2 15:47:36:664 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Mar  2 15:47:58:309 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display interface
+%Mar  2 15:48:15:196 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis ip interface brief
+%Mar  2 15:48:29:161 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar  2 15:48:43:882 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar  2 15:48:55:607 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar  2 15:49:10:216 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar  2 15:49:10:218 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar  2 15:49:10:219 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar  2 15:49:10:353 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar  3 16:57:08:158 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  3 16:57:08:160 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  3 16:57:08:181 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  3 16:57:08:430 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  3 16:57:08:836 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  3 16:57:08:841 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  3 16:57:08:842 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  3 16:57:09:068 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  3 16:57:09:092 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  3 16:57:09:115 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  3 16:57:09:225 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar  3 16:57:19:463 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar  3 16:57:19:785 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar  3 16:57:20:538 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Mar  3 16:57:20:883 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu
+%Mar  3 16:57:21:230 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Mar  3 16:57:22:038 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar  3 16:57:22:410 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar  3 16:57:22:961 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar  3 16:57:26:901 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis logbuff
+%Mar  3 16:59:35:107 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar  3 16:59:35:108 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar  3 16:59:35:109 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar  3 16:59:35:222 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar  9 15:08:36:187 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  9 15:08:36:189 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  9 15:08:36:215 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  9 15:08:36:464 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  9 15:08:36:871 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  9 15:08:36:876 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  9 15:08:36:877 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  9 15:08:36:955 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  9 15:08:36:982 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  9 15:08:37:004 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  9 15:08:37:114 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar  9 15:08:43:610 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar  9 15:08:53:580 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar  9 15:09:09:493 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device manuinfo
+%Mar  9 15:09:19:936 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Mar  9 15:09:33:299 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Mar  9 15:09:56:900 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display interface
+%Mar  9 15:10:09:719 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar  9 15:10:19:885 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar  9 15:10:33:920 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-tabl
+%Mar  9 15:10:42:428 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar  9 15:14:25:401 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar  9 15:14:25:403 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar  9 15:14:25:404 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar  9 15:14:25:536 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 11 16:10:43:049 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 11 16:10:43:834 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 11 16:10:43:852 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 11 16:10:44:116 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 11 16:10:44:898 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 11 16:10:44:901 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 11 16:10:44:904 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 11 16:10:44:966 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 11 16:10:44:990 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 11 16:10:45:012 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 11 16:10:45:122 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 11 16:14:25:394 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar 11 16:14:26:111 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar 11 16:14:26:474 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Mar 11 16:14:27:192 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Mar 11 16:14:27:617 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar 11 16:14:28:425 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar 11 16:14:28:794 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar 11 16:14:30:454 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar 11 16:19:31:981 2026 XZYD-VPN-RT01 HWCM/5/EXIT: exit from configure mode
+%Mar 11 16:19:31:982 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Mar 11 16:19:31:983 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Mar 11 16:19:31:984 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 12 14:25:45:016 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 12 14:25:45:793 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 12 14:25:45:810 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 12 14:25:46:074 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 12 14:25:46:482 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 12 14:25:46:488 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 12 14:25:46:490 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 12 14:25:46:626 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 12 14:25:46:650 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 12 14:25:46:676 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 12 14:25:46:786 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 12 14:26:23:920 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar 12 14:26:23:921 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar 12 14:26:23:922 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar 12 14:26:24:001 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 12 14:26:30:986 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 12 14:26:30:987 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 12 14:26:31:008 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 12 14:26:31:258 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 12 14:26:31:662 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 12 14:26:31:666 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 12 14:26:31:669 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 12 14:26:31:732 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 12 14:26:31:761 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 12 14:26:31:783 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 12 14:26:31:893 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 12 14:27:09:610 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar 12 14:27:10:326 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar 12 14:27:10:687 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Mar 12 14:27:11:387 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Mar 12 14:27:11:810 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar 12 14:27:12:622 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar 12 14:27:12:987 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar 12 14:27:14:625 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar 12 14:31:09:334 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar 12 14:31:09:335 2026 XZYD-VPN-RT01 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar 12 14:31:09:336 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar 12 14:31:09:353 2026 XZYD-VPN-RT01 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 13 11:50:33:009 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 13 11:50:33:010 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 13 11:50:33:057 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 13 11:50:33:307 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 13 11:50:33:711 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 13 11:50:33:744 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 13 11:50:33:747 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 13 11:50:33:827 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 13 11:50:33:852 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 13 11:50:33:904 2026 XZYD-VPN-RT01 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 13 11:50:34:074 2026 XZYD-VPN-RT01 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 13 11:51:16:774 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar 13 11:51:17:487 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar 13 11:51:17:850 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display cpu-usage
+%Mar 13 11:51:18:572 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Mar 13 11:51:18:988 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar 13 11:51:19:802 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar 13 11:51:20:173 2026 XZYD-VPN-RT01 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+<XZYD-VPN-RT01>display current-configuration
+#
+ sysname XZYD-VPN-RT01
+#
+ clock timezone BeiJing add 08:00:00
+#
+ cpu-usage cycle 1min
+#
+ web set-package force flash:/http.zip
+#
+radius scheme system
+#
+domain 1dy
+domain system
+#
+local-user jtxzcj
+ password cipher O8,+_(X;EN>9S,G%)\D@SA!!
+local-user xz4a_admin
+ password cipher BK-'B7U!&X_Q=^Q`MAF4<1!!
+ service-type ssh telnet terminal
+ level 1
+#                                         
+acl number 2000
+ rule 0 permit source 10.233.0.0 0.0.255.255
+ rule 1 permit source 192.168.0.0 0.0.255.255
+ rule 3 permit source 10.237.35.0 0.0.0.255
+ rule 4 permit source 10.237.99.0 0.0.0.255
+ rule 5 permit source 10.237.100.0 0.0.0.255
+#
+acl number 3096
+ rule 9 deny tcp source 10.233.121.0 0.0.0.255 destination-port eq telnet
+#
+controller E1 2/0
+ channel-set 0 timeslot-list 1-31
+#
+controller E1 2/1
+ using e1
+#
+interface Aux0
+ async mode flow
+ shutdown
+#                                         
+interface Ethernet0/0
+ speed 100
+ duplex full
+ ip address 192.168.234.10 255.255.255.252
+#
+interface Ethernet0/1
+ speed 100
+ duplex full
+#
+interface Ethernet1/0
+ speed 100
+ duplex full
+ description to RT02-int1/0
+#
+interface Ethernet1/1
+ ip address 10.143.45.31 255.255.255.128
+ ospf authentication-mode md5 1 U=LK2\-AC6SQ=^Q`MAF4<1!!
+#
+interface Serial2/0:0
+ link-protocol ppp                        
+ shutdown
+ ip address 192.168.1.146 255.255.255.252
+#
+interface Serial2/1:0
+ link-protocol ppp
+ description to beijing CE
+ ip address 192.168.3.142 255.255.255.252
+ ospf cost 100
+ ospf authentication-mode md5 1 U=LK2\-AC6SQ=^Q`MAF4<1!!
+#
+interface NULL0
+#
+ospf 2
+ import-route static
+ import-route direct
+ area 0.0.0.0
+  network 10.143.45.0 0.0.0.127
+  network 192.168.3.140 0.0.0.3
+  network 192.168.234.8 0.0.0.3
+  authentication-mode md5                 
+#
+ospf 3
+#
+ospf 1
+#
+ info-center loghost 10.237.35.249
+ info-center loghost 10.237.99.80
+#
+ ip route-static 0.0.0.0 0.0.0.0 10.143.45.21 preference 60
+ ip route-static 10.233.121.128 255.255.255.128 10.143.45.21 preference 60
+#
+ snmp-agent
+ snmp-agent local-engineid 000007DB7F00000100004962
+ snmp-agent community read LCjcGPRS
+ snmp-agent sys-info version v2c v3
+ snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname LCjcGPRS v2c
+#
+ ntp-service authentication enable
+ ntp-service unicast-server 10.237.35.249
+#                                         
+ ssh authentication-type default all
+ ssh user jtcjxz authentication-type all
+ ssh user jtcjxz service-type all
+ ssh user cszdxj authentication-type all
+ ssh user cszdxj service-type all
+ ssh user xz4a_admin authentication-type all
+ ssh user xz4a_admin service-type stelnet
+ ssh user xzyd_zhuoma authentication-type all
+ ssh user xzyd_zhuoma service-type all
+ ssh user dinghaibo authentication-type all
+ ssh user dinghaibo service-type all
+#
+ header login %TEXT welcome
+welcome
+%
+#
+user-interface con 0
+ authentication-mode password
+user-interface aux 0
+ set authentication password cipher BK-'B7U!&X_Q=^Q`MAF4<1!!
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode scheme
+ idle-timeout 5 0
+ screen-length 20
+#
+return

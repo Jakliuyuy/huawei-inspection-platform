@@ -1,0 +1,1916 @@
+﻿<xz-jz406-HX-sw1>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<xz-jz406-HX-sw1>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE16800 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE16808 uptime is 1456 days, 10 hours, 26 minutes 
+Patch Version: V200R019SPH003
+
+BKP  version information:
+1.PCB      Version  : CE01BAK08GX VER A
+2.Board    Type     : CE-BAK08GX  
+3.MPU Slot Quantity : 2
+4.LPU Slot Quantity : 8
+5.SFU Slot Quantity : 9
+
+MPU(Master) 9 : uptime is  1456 days, 10 hours, 26 minutes
+        StartupTime 2022/03/17   17:17:57 
+Memory     Size     : 16384 M bytes
+Flash      Size     : 4096 M bytes
+MPU version information:                              
+1.PCB      Version  : GPMPUA VER B
+2.MAB      Version  : 1 
+3.Board    Type     : CE-MPUD-HALF
+4.CPLD1    Version  : 258
+5.BIOS     Version  : 1102
+  
+MPU(Slave) 10 : uptime is  1456 days, 10 hours, 26 minutes
+        StartupTime 2022/03/17   17:18:15 
+Memory     Size     : 16384 M bytes
+Flash      Size     : 4096 M bytes
+MPU version information:                              
+1.PCB      Version  : GPMPUA VER B
+2.MAB      Version  : 1 
+3.Board    Type     : CE-MPUD-HALF
+4.CPLD1    Version  : 258
+5.BIOS     Version  : 1102
+  
+LPU 1 : uptime is 1456 days, 10 hours, 24 minutes
+        StartupTime 2022/03/17   17:20:10 
+Memory     Size     : 4096 M bytes
+Flash      Size     : 128  M bytes
+LPU version information:
+1.PCB      Version  : GPL48XSFD VER C
+2.MAB      Version  : 0
+3.Board    Type     : CEL48XSFD-G
+4.CPLD1    Version  : 260
+5.CPLD2    Version  : 260
+6.CPLD3    Version  : 260
+7.BIOS     Version  : 1262
+
+LPU 2 : uptime is 1456 days, 10 hours, 24 minutes
+        StartupTime 2022/03/17   17:20:10 
+Memory     Size     : 4096 M bytes
+Flash      Size     : 128  M bytes
+LPU version information:
+1.PCB      Version  : GPL48XSFD VER C
+2.MAB      Version  : 0
+3.Board    Type     : CEL48XSFD-G
+4.CPLD1    Version  : 260
+5.CPLD2    Version  : 260
+6.CPLD3    Version  : 260
+7.BIOS     Version  : 1262
+
+SFU SFU1 : uptime is 1456 days, 10 hours, 24 minutes
+        StartupTime 2022/03/17   17:19:29 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU2 : uptime is 1456 days, 10 hours, 24 minutes
+        StartupTime 2022/03/17   17:19:30 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU3 : uptime is 1456 days, 10 hours, 24 minutes
+        StartupTime 2022/03/17   17:19:30 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU4 : uptime is 1456 days, 10 hours, 24 minutes
+        StartupTime 2022/03/17   17:19:29 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+
+SFU SFU5 : uptime is 1456 days, 10 hours, 24 minutes
+        StartupTime 2022/03/17   17:19:28 
+Memory     Size     : 2048 M bytes
+Flash      Size     : 128  M bytes
+SFU version information:
+1.PCB      Version  : GPSFU08FB VER C
+2.MAB      Version  : 0
+3.Board    Type     : CE-SFU08G-G
+4.CPLD1    Version  : 264
+5.BIOS     Version  : 1262
+<xz-jz406-HX-sw1>display device
+CE16808's Device status:
+-------------------------------------------------------------------------------------------
+Slot  Card   Type                     Online   Power Register     Alarm     Primary        
+-------------------------------------------------------------------------------------------
+1     -      CEL48XSFD-G              Present  On    Registered   Normal    NA             
+2     -      CEL48XSFD-G              Present  On    Registered   Normal    NA             
+9     -      CE-MPUD-HALF             Present  On    Registered   Normal    Master         
+10    -      CE-MPUD-HALF             Present  On    Registered   Normal    Slave          
+SFU1  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU2  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU3  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU4  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+SFU5  -      CE-SFU08G-G              Present  On    Registered   Normal    NA             
+PWR1  -      PAH-3000WA               Present  On    Registered   Normal    NA             
+PWR2  -      PAH-3000WA               Present  On    Registered   Normal    NA             
+FAN1  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+FAN2  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+FAN3  -      FAN-480SA-B              Present  On    Registered   Normal    NA             
+-------------------------------------------------------------------------------------------
+<xz-jz406-HX-sw1>display startup
+MainBoard:
+  Configured startup system software:        flash:/CE16800-V200R019C10SPC800.cc
+  Startup system software:                   flash:/CE16800-V200R019C10SPC800.cc
+  Next startup system software:              flash:/CE16800-V200R019C10SPC800.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup patch package:                     flash:/CE16800-V200R019SPH003.PAT
+  Next startup patch package:                flash:/CE16800-V200R019SPH003.PAT
+SlaveBoard:
+  Configured startup system software:        flash:/CE16800-V200R019C10SPC800.cc
+  Startup system software:                   flash:/CE16800-V200R019C10SPC800.cc
+  Next startup system software:              flash:/CE16800-V200R019C10SPC800.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup patch package:                     flash:/CE16800-V200R019SPH003.PAT
+  Next startup patch package:                flash:/CE16800-V200R019SPH003.PAT
+<xz-jz406-HX-sw1>display cpu-usage
+                         ^
+Error: Unrecognized command found at '^' position.
+<xz-jz406-HX-sw1>display memory-usage
+                         ^
+Error: Unrecognized command found at '^' position.
+<xz-jz406-HX-sw1>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(dl): DLDP down
+(c): CFM down
+(sd): STP instance discarding
+InUti/OutUti: input utility rate/output utility rate
+Interface                  PHY      Protocol  InUti OutUti   inErrors  outErrors
+10GE1/0/2                  up       up        0.06%  0.08%          0          0
+10GE1/0/3                  *down    down         0%     0%          0          0
+10GE1/0/4                  *down    down         0%     0%          0          0
+10GE1/0/5                  *down    down         0%     0%          0          0
+10GE1/0/6                  *down    down         0%     0%          0          0
+10GE1/0/7                  *down    down         0%     0%          0          0
+10GE1/0/9                  *down    down         0%     0%          0          0
+10GE1/0/21                 *down    down         0%     0%          0          0
+10GE1/0/22                 *down    down         0%     0%          0          0
+10GE1/0/23                 *down    down         0%     0%          0          0
+10GE1/0/32                 *down    down         0%     0%          0          0
+10GE1/0/33                 *down    down         0%     0%          0          0
+10GE1/0/34                 *down    down         0%     0%          0          0
+10GE1/0/35                 *down    down         0%     0%          0          0
+10GE1/0/36                 *down    down         0%     0%          0          0
+10GE1/0/37                 *down    down         0%     0%          0          0
+10GE1/0/38                 *down    down         0%     0%          0          0
+10GE1/0/39                 *down    down         0%     0%          0          0
+10GE2/0/8                  *down    down         0%     0%          0          0
+10GE2/0/9                  *down    down         0%     0%          0          0
+10GE2/0/10                 up       up        0.72% 49.87%          0          0
+10GE2/0/11                 *down    down         0%     0%          0          0
+10GE2/0/16                 *down    down         0%     0%          0          0
+10GE2/0/17                 *down    down         0%     0%          0          0
+10GE2/0/18                 *down    down         0%     0%          0          0
+10GE2/0/19                 *down    down         0%     0%          0          0
+10GE2/0/20                 *down    down         0%     0%          0          0
+10GE2/0/21                 *down    down         0%     0%          0          0
+10GE2/0/22                 *down    down         0%     0%          0          0
+10GE2/0/23                 *down    down         0%     0%          0          0
+10GE2/0/28                 *down    down         0%     0%          0          0
+10GE2/0/29                 *down    down         0%     0%          0          0
+10GE2/0/30                 *down    down         0%     0%          0          0
+10GE2/0/31                 *down    down         0%     0%          0          0
+10GE2/0/32                 *down    down         0%     0%          0          0
+10GE2/0/33                 *down    down         0%     0%          0          0
+10GE2/0/34                 *down    down         0%     0%          0          0
+10GE2/0/35                 *down    down         0%     0%          0          0
+10GE2/0/36                 *down    down         0%     0%          0          0
+10GE2/0/37                 *down    down         0%     0%          0          0
+10GE2/0/38                 *down    down         0%     0%          0          0
+10GE2/0/39                 *down    down         0%     0%          0          0
+10GE2/0/40                 *down    down         0%     0%          0          0
+10GE2/0/41                 *down    down         0%     0%          0          0
+10GE2/0/42                 *down    down         0%     0%          0          0
+10GE2/0/43                 *down    down         0%     0%          0          0
+10GE2/0/44                 *down    down         0%     0%          0          0
+10GE2/0/45                 *down    down         0%     0%          0          0
+10GE2/0/46                 *down    down         0%     0%          0          0
+10GE2/0/47                 *down    down         0%     0%          0          0
+Eth-Trunk0                 *down    down         0%     0%          0          0
+Eth-Trunk1                 up       up       59.84% 12.42%          0          0
+  10GE1/0/0                up       up       94.18% 11.25%          0          0
+  10GE1/0/1                up       up       25.50% 13.59%          0          0
+Eth-Trunk2                 up       up        0.01%  2.33%          0          0
+  10GE1/0/24               up       up        0.01%  0.05%          0          0
+  10GE1/0/25               up       up        0.03%  1.43%          0          0
+  10GE1/0/26               up       up        0.01%  0.02%          0          0
+  10GE1/0/27               up       up        0.01%  7.81%          0          0
+Eth-Trunk3                 up       up        0.01%  3.11%          0          0
+  10GE1/0/28               up       up        0.01%  0.01%          0          0
+  10GE1/0/29               up       up        0.01%  5.48%          0          0
+  10GE1/0/30               up       up        0.02%  0.24%          0          0
+  10GE1/0/31               up       up        0.01%  6.69%          0          0
+Eth-Trunk4                 up       up       43.79% 43.57%          0          0
+  10GE1/0/8                up       up       43.30% 32.99%          0          0
+  10GE1/0/12               up       up       44.29% 54.16%          0          0
+Eth-Trunk5                 up       up       21.78% 41.23%          0          0
+  10GE1/0/10               up       up       11.18% 48.35%          0          0
+  10GE1/0/11               up       up       29.54% 36.22%          0          0
+  10GE1/0/13               up       up       24.61% 39.12%          0          0
+Eth-Trunk6                 *down    down         0%     0%          0          0
+  10GE1/0/14               *down    down         0%     0%          0          0
+Eth-Trunk7                 up       up       44.59% 41.99%          0          0
+  10GE1/0/15               up       up       50.35% 49.64%          0          0
+  10GE1/0/20               up       up       38.84% 34.34%          0          0
+Eth-Trunk8                 up       up        0.01%  0.01%          0          0
+  10GE1/0/16               up       up        0.01%  0.01%          0          0
+Eth-Trunk9                 up       up        0.36%  0.01%          0          0
+  10GE1/0/17               up       up        0.36%  0.01%          0          0
+Eth-Trunk10                up       up       57.11% 41.20%          0          0
+  10GE1/0/40               *down    down         0%     0%          0          0
+  10GE1/0/41               up       up       55.29% 36.94%          0          0
+  10GE1/0/42               up       up       56.86% 38.11%          0          0
+  10GE1/0/43               up       up       59.19% 48.56%          0          0
+Eth-Trunk12                up       up        1.65% 14.37%          0          0
+  10GE2/0/12               up       up        2.19% 13.36%          0          0
+  10GE2/0/13               up       up        0.15% 14.79%          0          0
+  10GE2/0/14               up       up        4.12% 12.57%          0          0
+  10GE2/0/15               up       up        0.15% 16.75%          0          0
+Eth-Trunk18                up       up        2.02%  0.01%          0          0
+  10GE1/0/18               up       up        2.02%  0.01%          0          0
+Eth-Trunk19                up       up        1.95%  0.01%          0          0
+  10GE1/0/19               up       up        1.95%  0.01%          0          0
+Eth-Trunk20                up       up       27.59% 48.41%        149          0
+  10GE1/0/44               up       up       28.99% 46.49%          0          0
+  10GE1/0/45               up       up       27.01% 54.26%         27          0
+  10GE1/0/46               down     down         0%     0%        122          0
+  10GE1/0/47               up       up       26.76% 44.47%          0          0
+Eth-Trunk30                up       up        7.87% 31.94%          0          0
+  10GE2/0/0                up       up        8.90% 32.66%          0          0
+  10GE2/0/1                up       up       12.07% 34.76%          0          0
+  10GE2/0/2                up       up        9.23% 26.01%          0          0
+  10GE2/0/3                up       up        1.26% 34.34%          0          0
+Eth-Trunk40                up       up       35.55% 12.02%          2          0
+  10GE2/0/4                up       up       19.62%  9.74%          0          0
+  10GE2/0/5                up       up       49.95% 12.65%          0          0
+  10GE2/0/6                up       up       32.76% 13.02%          0          0
+  10GE2/0/7                up       up       36.33%  7.76%          0          0
+  10GE2/0/24               up       up       32.61% 11.46%          2          0
+  10GE2/0/25               up       up       53.41% 15.78%          0          0
+  10GE2/0/26               up       up       24.00% 10.52%          0          0
+  10GE2/0/27               up       up       35.71% 15.24%          0          0
+MEth0/0/0                  *down    down         0%     0%          0          0
+NULL0                      up       up(s)        0%     0%          0          0
+Sip9/0/0                   *down    down         0%     0%         12          0
+Sip9/0/1                   *down    down         0%     0%          0          0
+Sip10/0/0                  *down    down         0%     0%          0          0
+Sip10/0/1                  *down    down         0%     0%          0          0
+Stack-Port1                *down    down         0%     0%          0          0
+Vlanif100                  up       up           --     --          0          0
+Vlanif192                  *down    down         --     --          0          0
+<xz-jz406-HX-sw1>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+The number of interface that is UP in Physical is 3
+The number of interface that is DOWN in Physical is 2
+The number of interface that is UP in Protocol is 3
+The number of interface that is DOWN in Protocol is 2
+Interface                   IP Address/Mask    Physical Protocol VPN           
+Eth-Trunk30                 192.168.7.2/30     up       up       --            
+MEth0/0/0                   unassigned         *down    down     --            
+NULL0                       unassigned         up       up(s)    --            
+Vlanif100                   10.241.93.22/24    up       up       --            
+Vlanif192                   unassigned         *down    down     --            
+<xz-jz406-HX-sw1>display current-configuration
+!Software Version V200R019C10SPC800
+!Last configuration was updated at 2025-07-05 07:24:29+00:00
+!Last configuration was saved at 2025-07-05 07:30:32+00:00
+#
+sysname xz-jz406-HX-sw1
+#
+undo ftp server source all-interface
+undo ftp ipv6 server source all-interface
+#
+info-center loghost 10.237.35.254 facility local4
+#
+device board 9 board-type CE-MPUD-HALF
+device board 10 board-type CE-MPUD-HALF
+device board 2 board-type CEL48XSFD-G
+device board 1 board-type CEL48XSFD-G
+#
+drop-profile default
+#
+dcb pfc
+#
+ntp server disable
+ntp ipv6 server disable
+ntp server source-interface all disable
+ntp ipv6 server source-interface all disable
+ntp unicast-server 111.11.227.106
+#
+vlan batch 100 192 200
+#
+rsa peer-public-key 10.241.93.24
+ public-key-code begin
+ 3082010A
+  02820101
+    00EC9AB5 76CA1A7B F44816FC E222948C 1A5E4981 902D1599 D20ABA3D 465F4514
+    A763DFCC E284F884 5AAE1B1E 3BBA06F1 CD8C612B 750C4CE9 B8D8A9B5 478DCA77
+    52E76996 2B5B4E03 17E84897 F5A6CD4B 97768FF5 6A758AFF A9B5066D B0FFE449
+    AAB1A7F7 11EE698A 717A094A 2C0D3C5D 9DAC3D92 AE998D1C 10248995 3136FC56
+    C246D7E6 1DF726C8 AF536142 62712492 43CA30AE 52CCE0D0 C1043674 287F8379
+    98437954 FA234AE9 EB5F4DE5 67DD84D6 7E387DD5 8C37B15F 89242FB9 BAAD3390
+    C672FEAA AA354DCB A21C30C4 D29B8BF0 09BE323D E672B3D7 2D7A44FE CDA73124
+    FF24E455 255BA2ED 8B78FAF9 4DD14FDB 700388F2 ECE519B8 51BB10F6 105C9FF1
+    EF
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+rsa peer-public-key 10.241.93.25
+ public-key-code begin
+ 3082010A
+  02820101
+    00BA2DB5 156F4A20 11128D84 FD07058E 3FE1800C F529E083 5F442C3B E93858B0
+    9BE43F24 747D7CD5 A155C66D 2C3F0688 34AEB231 6571A190 D56DF493 8915AA91
+    0648FCAB 66C77522 4DE69470 B09833F1 881B3663 E0087B88 C4F8F50A 2A31B8B9
+    6F22264C 985C8283 23A5B3C4 3DDEC6C9 F46A8065 573FCCAE 332ABAEC BD073A4B
+    20A7B5AB AC1DF3A9 52119315 12B16D76 848A21C2 16D3552B D3813457 5EBEC328
+    82624E12 82178A08 51506752 4B61AEEA 47EEEFB3 3B4913E3 AA6B0B39 009355C4
+    866E7F2B 39DFBE2C D26F0AFC CA657D79 54BDC446 62A87F68 3D41658F 8C4B6181
+    38872402 FFF54D41 357755AE 59590116 D2C51E32 B5D8BBBB 0FFAE19F DACB3397
+    C3
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+rsa peer-public-key 10.241.93.28
+ public-key-code begin
+ 3082010A
+  02820101
+    00BE1F62 92C8B3C0 549E165A 06E3600F C9210B03 AC0891AD C043258C 0C412229
+    5A1E40FE B1C6FC40 77E3582C 284410AF AD58DB61 ED086150 8913999D 96F0E09C
+    0E8C83E8 572A18BB 2A190EED 71BBCB5D 676B90F6 53FFAC88 9864F184 DE615090
+    BFD6259D 9903E315 9EB988DC 8ACA1057 0DD9F98B A7A87C69 C9CDC9A9 D40B9EBC
+    0BD11A37 DDE8DD31 41E4634E 7C7DC37E 5A2A4B1A 7F15ABA3 C7DB2476 4AA56C6F
+    05AC0C59 C4675151 6F611D66 DB0A18AA DC534BDD 95BB97B4 DA3E4150 B2077380
+    21BDDAD9 7A861E72 CB7A5B53 A0F884E2 A990C870 AF473DA8 D6CF2458 F863529D
+    3CA557B9 61F9B276 D4CE8AE4 EB7EB29A 134F51B5 E72211FA 98792D11 A48F29AD
+    4F
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+rsa peer-public-key 10.241.93.30
+ public-key-code begin
+ 3082010A
+  02820101
+    00C28871 C3036557 D1FC9931 93C0C08B 1C952E00 35D28856 7E7D3B1E 7B0F34E7
+    96C6C205 819731E5 9D9B0E95 D485768C 1918BD66 58BAEAE5 6CF097EA 0D07A520
+    0C93A582 4646E455 01A97C04 25BA19AD 77708240 52029573 96A85A35 5D202B16
+    5FF02E26 C3F49E06 D7EEF6F1 554537EA F44AEDC7 328C6750 256146C6 D3E0603E
+    0722B2B1 81EE3E86 C500E51D 51E4A8AA 3CA6DA9F F5626E23 61B91BA5 2E9CF84B
+    E88CAC57 35F2094E A5E1896D 39AE6495 F2461B15 9F1A1163 28D78A27 5BC683D0
+    F5087E81 03318D97 BD422921 D7EF187D 83F4F282 09644D66 7F83B4A1 42822668
+    CF30B4A0 5ABF3AE4 69403426 C6DF46E6 E511CD08 554B7F73 95FB3711 69D1807C
+    ED
+  0203
+    010001
+ public-key-code end
+ peer-public-key end
+#
+telnet server disable
+telnet ipv6 server disable
+telnet server-source all-interface
+undo telnet ipv6 server-source all-interface
+#
+diffserv domain default
+#
+vlan 100
+ description 5G-MaLiuHuiChuan
+#
+vlan 192
+#
+vlan 200
+#
+acl number 2000
+ rule 20 permit source 10.241.93.0 0.0.0.255 logging
+ rule 21 permit source 10.237.35.0 0.0.0.255 logging
+ rule 22 permit source 10.233.138.0 0.0.0.255 logging
+ rule 25 permit source 10.237.100.0 0.0.0.255 logging
+#
+acl number 3000
+ rule 5 deny tcp destination-port eq 445
+ rule 10 deny tcp destination-port eq 5800
+ rule 15 deny tcp destination-port eq 5900
+ rule 20 deny udp destination-port eq 1434
+ rule 25 deny udp destination-port eq tftp
+ rule 30 deny tcp destination-port eq 135
+ rule 35 deny udp destination-port eq netbios-ns
+ rule 40 deny udp destination-port eq netbios-dgm
+ rule 45 deny tcp destination-port eq 139
+ rule 50 deny udp destination-port eq netbios-ssn
+ rule 55 deny tcp destination-port eq 539
+ rule 60 deny udp destination-port eq 539
+ rule 65 deny tcp destination-port eq 593
+ rule 70 deny tcp destination-port eq 4786
+ rule 75 permit ip
+#
+aaa
+ undo local-user policy security-enhance
+ local-user huawei password irreversible-cipher $1c$I6,'J7`CV4$1]'WW(H]2KjIM"@rqkSAP#_A&}i;uHo0+FF5I;LQ$
+ local-user huawei service-type ssh
+ local-user huawei level 1
+ local-user langjiewangdui password irreversible-cipher $1c$N7T`VQ(HKK$d<1^/3w{c'*^!P2t,[OJ'vt5C57vpCQj5C5R>HnS$
+ local-user langjiewangdui service-type ssh
+ local-user langjiewangdui level 2
+ local-user xz4a_admin password irreversible-cipher $1c$X*c$+DpmE!$(i~9Kn>]X)nQ4N#D*6b2\\no%%_1q2q-56E&=tK&$
+ local-user xz4a_admin service-type ssh
+ local-user xz4a_admin level 3
+ local-user jtcjxz password irreversible-cipher $1c$l\QLS<P5a#$"F)%TRHQU@0eIVOA$IzSx!'m28`X\6#!#qCYS"_U$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 2
+ #
+ authentication-scheme default
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default
+ #
+ domain default
+ #
+ domain default_admin
+#
+stack
+ #
+ stack domain 10
+ stack priority 150
+#
+interface Vlanif100
+ description 5G-MaLiuHuiChuan
+ ip address 10.241.93.22 255.255.255.0
+#
+interface Vlanif192
+ shutdown
+#
+interface MEth0/0/0
+ shutdown
+#
+interface Eth-Trunk0
+ shutdown
+#
+interface Eth-Trunk1
+ port default vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk2
+ description DRWG-P2
+ port default vlan 100
+ mode lacp-dynamic
+#
+interface Eth-Trunk3
+ description DRWG-P7
+ port default vlan 100
+ mode lacp-dynamic
+#
+interface Eth-Trunk4
+ description to_B17_46-47
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk5
+ description to_b18_45-47
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk6
+ shutdown
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk7
+ description to_b16
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk8
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk9
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk10
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk12
+ description to:B15 jiaohuanjihulian
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface Eth-Trunk18
+ description JZ-307-Fw-Qianzhiji-01
+ port default vlan 100
+#
+interface Eth-Trunk19
+ description LW-307 Fw-Qianzhiji-02
+ port default vlan 100
+#
+interface Eth-Trunk20
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+ lacp timeout fast
+#
+interface Eth-Trunk30
+ undo portswitch
+ ip address 192.168.7.2 255.255.255.252
+ mode lacp-static
+#
+interface Eth-Trunk40
+ description to:I14-9312-1_8_4/5
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+#
+interface Stack-Port1
+ shutdown
+#
+interface 10GE1/0/0
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/1
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/2
+ port default vlan 100
+ traffic-filter acl 3000 inbound 
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/3
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/4
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/5
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/6
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE1/0/7
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/8
+ eth-trunk 4
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/9
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/10
+ eth-trunk 5
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/11
+ eth-trunk 5
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/12
+ eth-trunk 4
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/13
+ eth-trunk 5
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/14
+ shutdown
+ eth-trunk 6
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/15
+ eth-trunk 7
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/16
+ eth-trunk 8
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/17
+ eth-trunk 9
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/18
+ description JZ-307-Fw-Qianzhiji-01 int0/1
+ eth-trunk 18
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/19
+ description LW-307 Fw-Qianzhiji-02
+ eth-trunk 19
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/20
+ eth-trunk 7
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/21
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/22
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE1/0/23
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/24
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/25
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/26
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/27
+ eth-trunk 2
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/28
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/29
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/30
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/31
+ eth-trunk 3
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/32
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/33
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE1/0/34
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/35
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/36
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE1/0/37
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE1/0/38
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/39
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/40
+ shutdown
+ eth-trunk 10
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/41
+ eth-trunk 10
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/42
+ eth-trunk 10
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/43
+ eth-trunk 10
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/44
+ eth-trunk 20
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/45
+ eth-trunk 20
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/46
+ eth-trunk 20
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE1/0/47
+ eth-trunk 20
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/0
+ eth-trunk 30
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/1
+ eth-trunk 30
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/2
+ eth-trunk 30
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/3
+ eth-trunk 30
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/4
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/5
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/6
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/7
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/8
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/9
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/10
+ description to:207-f14-yunhuajingfen
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/11
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/12
+ eth-trunk 12
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/13
+ eth-trunk 12
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/14
+ eth-trunk 12
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/15
+ eth-trunk 12
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/16
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/17
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/18
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/19
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/20
+ shutdown
+ device transceiver 1000BASE-T
+#
+interface 10GE2/0/21
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/22
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/23
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/24
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/25
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/26
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/27
+ eth-trunk 40
+ device transceiver 10GBASE-FIBER
+#
+interface 10GE2/0/28
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/29
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/30
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/31
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/32
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/33
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/34
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/35
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/36
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/37
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/38
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/39
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/40
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/41
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/42
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/43
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/44
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/45
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/46
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface 10GE2/0/47
+ shutdown
+ device transceiver 1000BASE-X
+#
+interface Sip9/0/0
+ shutdown
+#
+interface Sip9/0/1
+ shutdown
+#
+interface Sip10/0/0
+ shutdown
+#
+interface Sip10/0/1
+ shutdown
+#
+interface NULL0
+#
+ip route-static 0.0.0.0 0.0.0.0 10.241.93.1
+ip route-static 10.233.138.0 255.255.255.0 192.168.7.1
+ip route-static 10.233.188.0 255.255.255.0 192.168.7.1
+ip route-static 10.237.97.0 255.255.255.192 192.168.7.1
+ip route-static 10.237.100.0 255.255.255.0 10.241.93.1
+#
+snmp-agent
+snmp-agent local-engineid 800007DB03FC1BD1AF1E01
+snmp-agent community read cipher %^%#TY+n5i{rJ0z$SzL%0i]NJ~$sGEH_+U|t%\R9!zx/rUD&"2CtK*E;:D.GEkXE+;K\*_8EY'|:"4AgF.K=%^%#
+#
+snmp-agent sys-info version v2c v3
+#
+snmp-agent protocol source-status all-interface
+snmp-agent protocol source-status ipv6 all-interface
+#
+snmp-agent proxy protocol source-status all-interface
+snmp-agent proxy protocol source-status ipv6 all-interface
+#
+lldp enable
+#
+stelnet server enable
+ssh user huawei
+ssh user huawei authentication-type password
+ssh user huawei service-type stelnet
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user langjiewangdui
+ssh user langjiewangdui authentication-type password
+ssh user langjiewangdui service-type stelnet
+ssh user sunzijie
+ssh user sunzijie authentication-type password
+ssh user sunzijie service-type stelnet
+ssh user xz4a_admin
+ssh user xz4a_admin authentication-type password
+ssh user xz4a_admin service-type stelnet
+ssh server-source all-interface
+ssh ipv6 server-source all-interface
+ssh server ip-block disable
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_ctr aes128_ctr
+ssh server hmac sha2_256 sha1
+ssh server key-exchange dh_group14_sha1
+#
+ssh server publickey rsa
+#
+ssh server dh-exchange min-len 2048
+#
+ssh client first-time enable
+ssh client peer 10.241.93.24 assign rsa-key 10.241.93.24
+ssh client peer 10.241.93.25 assign rsa-key 10.241.93.25
+ssh client peer 10.241.93.28 assign rsa-key 10.241.93.28
+ssh client peer 10.241.93.30 assign rsa-key 10.241.93.30
+#
+ssh client publickey dsa rsa
+#
+ssh client cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr aes256_cbc aes128_cbc 3des_cbc
+ssh client hmac sha2_512 sha2_256
+ssh client key-exchange dh_group_exchange_sha256
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$,XpEW=E\DG$d3KnCimn]2mPU@"zPmx'<ig=V;vNYI[1k2=$FNUU$
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+ protocol inbound ssh
+#
+port-group duankou
+ group-member 10GE1/0/3
+ group-member 10GE1/0/4
+ group-member 10GE1/0/5
+ group-member 10GE1/0/6
+ group-member 10GE1/0/7
+ group-member 10GE1/0/8
+ group-member 10GE1/0/9
+ group-member 10GE1/0/10
+ group-member 10GE1/0/11
+ group-member 10GE1/0/20
+ group-member 10GE1/0/21
+ group-member 10GE1/0/22
+ group-member 10GE1/0/23
+ group-member 10GE1/0/32
+ group-member 10GE1/0/33
+ group-member 10GE1/0/34
+ group-member 10GE1/0/35
+ group-member 10GE1/0/36
+ group-member 10GE1/0/37
+ group-member 10GE1/0/38
+ group-member 10GE1/0/39
+ group-member 10GE2/0/4
+ group-member 10GE2/0/5
+ group-member 10GE2/0/6
+ group-member 10GE2/0/7
+ group-member 10GE2/0/8
+ group-member 10GE2/0/9
+ group-member 10GE2/0/10
+ group-member 10GE2/0/11
+#
+port-group duankou1
+ group-member 10GE2/0/16
+ group-member 10GE2/0/17
+ group-member 10GE2/0/18
+ group-member 10GE2/0/19
+ group-member 10GE2/0/20
+ group-member 10GE2/0/21
+ group-member 10GE2/0/22
+ group-member 10GE2/0/23
+ group-member 10GE2/0/24
+ group-member 10GE2/0/25
+ group-member 10GE2/0/26
+ group-member 10GE2/0/27
+ group-member 10GE2/0/28
+ group-member 10GE2/0/29
+ group-member 10GE2/0/30
+ group-member 10GE2/0/31
+ group-member 10GE2/0/32
+ group-member 10GE2/0/33
+ group-member 10GE2/0/34
+ group-member 10GE2/0/35
+ group-member 10GE2/0/36
+ group-member 10GE2/0/37
+ group-member 10GE2/0/38
+ group-member 10GE2/0/39
+ group-member 10GE2/0/40
+ group-member 10GE2/0/41
+ group-member 10GE2/0/42
+ group-member 10GE2/0/43
+ group-member 10GE2/0/44
+ group-member 10GE2/0/45
+ group-member 10GE2/0/46
+ group-member 10GE2/0/47
+ group-member Eth-Trunk0
+ group-member Eth-Trunk6
+ group-member MEth0/0/0
+ group-member Sip9/0/0
+ group-member Sip9/0/1
+ group-member Sip10/0/0
+ group-member Sip10/0/1
+ group-member Stack-Port1
+#
+port-group duankou2
+ group-member 10GE1/0/40
+ group-member 10GE1/0/44
+ group-member 10GE1/0/45
+ group-member Vlanif192
+#
+return
+<xz-jz406-HX-sw1>display ip routing-table
+Proto: Protocol        Pre: Preference
+Route Flags: R - relay, D - download to fib, T - to vpn-instance, B - black hole route
+------------------------------------------------------------------------------
+Routing Table : _public_
+         Destinations : 15       Routes : 15        
+
+Destination/Mask    Proto   Pre  Cost        Flags NextHop         Interface
+
+        0.0.0.0/0   Static  60   0             RD  10.241.93.1     Vlanif100
+   10.233.138.0/24  Static  60   0             RD  192.168.7.1     Eth-Trunk30
+   10.233.188.0/24  Static  60   0             RD  192.168.7.1     Eth-Trunk30
+    10.237.97.0/26  Static  60   0             RD  192.168.7.1     Eth-Trunk30
+   10.237.100.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.241.93.0/24  Direct  0    0             D   10.241.93.22    Vlanif100
+   10.241.93.22/32  Direct  0    0             D   127.0.0.1       Vlanif100
+  10.241.93.255/32  Direct  0    0             D   127.0.0.1       Vlanif100
+      127.0.0.0/8   Direct  0    0             D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+127.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+    192.168.7.0/30  Direct  0    0             D   192.168.7.2     Eth-Trunk30
+    192.168.7.2/32  Direct  0    0             D   127.0.0.1       Eth-Trunk30
+    192.168.7.3/32  Direct  0    0             D   127.0.0.1       Eth-Trunk30
+255.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+<xz-jz406-HX-sw1>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 122481
+Current messages : 512
+
+Mar 13 2026 04:00:26 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:58:46 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:50:26 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:48:46 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:43:46 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:42:06 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:40:26 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:38:46 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:32:56 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:26:16 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:21:16 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:12:06 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 03:02:06 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 02:57:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260222010650.pads.zip)
+Mar 13 2026 02:57:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260222010650.pads.zip)
+Mar 13 2026 02:09:35 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 02:03:45 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=92, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 13 2026 00:54:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 13 2026 00:16:51 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-13 00:16:51-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar 12 2026 21:04:32 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228113752.log.zip)
+Mar 12 2026 21:04:32 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228113752.log.zip)
+Mar 12 2026 17:54:33 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 12 2026 17:38:33 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 12 2026 15:48:33 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 12 2026 13:58:32 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 12 2026 13:53:42 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=83, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 13:43:42 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 13:42:32 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 12 2026 11:50:32 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar 12 2026 11:44:32 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar 12 2026 10:36:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260221084715.pads.zip)
+Mar 12 2026 10:36:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260221084715.pads.zip)
+Mar 12 2026 10:21:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228004355.log.zip)
+Mar 12 2026 10:21:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260228004355.log.zip)
+Mar 12 2026 10:12:02 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 10:10:22 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 10:09:32 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 10:02:52 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 09:20:31 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 12 2026 09:10:31 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 12 2026 06:32:29 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 12 2026 06:06:28 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 12 2026 04:17:00 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 03:48:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar 12 2026 03:48:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 12 2026 03:42:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar 12 2026 03:38:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 12 2026 03:00:20 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:57:50 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:51:10 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:48:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 12 2026 02:43:40 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:42:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 12 2026 02:40:20 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:36:10 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:34:30 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:26:10 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:21:10 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:12:50 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 02:04:30 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 12 2026 00:58:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 12 2026 00:48:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 12 2026 00:34:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 12 2026 00:18:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 12 2026 00:16:36 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-12 00:16:36-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar 12 2026 00:12:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 23:50:01 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227141525.log.zip)
+Mar 11 2026 23:50:01 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227141525.log.zip)
+Mar 11 2026 21:18:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 21:12:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 20:46:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 20:38:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 19:12:18 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 19:06:18 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 18:17:19 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220162718.pads.zip)
+Mar 11 2026 18:17:19 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220162718.pads.zip)
+Mar 11 2026 17:58:18 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 17:38:18 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 17:10:16 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 17:04:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 16:50:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 16:40:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 16:28:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 16:22:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 16:14:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 16:04:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 15:57:19 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220000650.pads.zip)
+Mar 11 2026 15:57:19 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260220000650.pads.zip)
+Mar 11 2026 15:48:15 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 13:53:38 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=84, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 11 2026 13:44:27 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=93, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 11 2026 13:11:25 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227032945.log.zip)
+Mar 11 2026 13:11:25 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260227032945.log.zip)
+Mar 11 2026 11:48:12 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 11:34:12 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 10:48:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 10:34:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 10:06:06 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 11 2026 10:04:27 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 11 2026 09:48:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 09:38:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar 11 2026 09:34:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 09:32:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar 11 2026 09:18:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 09:14:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 11 2026 09:12:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 09:08:09 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 11 2026 08:18:07 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 08:12:07 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 05:18:07 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 05:12:07 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar 11 2026 04:06:55 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 11 2026 04:01:55 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 11 2026 02:30:32 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226171200.log.zip)
+Mar 11 2026 02:30:32 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226171200.log.zip)
+Mar 11 2026 01:20:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 00:36:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 00:22:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 11 2026 00:16:17 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-11 00:16:17-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar 10 2026 23:47:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260219074715.pads.zip)
+Mar 10 2026 23:47:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260219074715.pads.zip)
+Mar 10 2026 17:47:56 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 17:39:56 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 16:09:56 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 15:56:17 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226062011.log.zip)
+Mar 10 2026 15:56:17 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260226062011.log.zip)
+Mar 10 2026 15:13:53 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 14:57:53 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 13:52:42 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=87, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 10 2026 13:44:22 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=92, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 10 2026 10:25:51 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 10 2026 10:11:52 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 10 2026 07:27:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260218152718.pads.zip)
+Mar 10 2026 07:27:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260218152718.pads.zip)
+Mar 10 2026 05:12:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225194505.log.zip)
+Mar 10 2026 05:12:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225194505.log.zip)
+Mar 10 2026 04:21:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 10 2026 04:07:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar 10 2026 04:06:50 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 10 2026 04:03:30 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar 10 2026 01:19:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 00:55:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 00:37:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar 10 2026 00:16:01 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-10 00:16:01-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  9 2026 22:45:43 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 22:31:43 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 21:07:43 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 21:05:43 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  9 2026 20:55:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 20:55:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  9 2026 20:39:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 20:37:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  9 2026 20:37:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/41, QueueId=0, SlotId=1)
+Mar  9 2026 20:31:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  9 2026 20:31:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/41, QueueId=0, SlotId=1)
+Mar  9 2026 20:29:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 19:57:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 19:47:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  9 2026 18:45:40 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225092114.log.zip)
+Mar  9 2026 18:45:40 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260225092114.log.zip)
+Mar  9 2026 17:59:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  9 2026 17:39:38 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  9 2026 16:15:37 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  9 2026 15:06:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260217230650.pads.zip)
+Mar  9 2026 15:06:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260217230650.pads.zip)
+Mar  9 2026 13:53:27 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=83, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 13:44:17 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=92, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 12:50:07 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=86, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 12:45:57 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 10:06:46 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 10:03:26 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 07:50:34 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224224027.log.zip)
+Mar  9 2026 07:50:34 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224224027.log.zip)
+Mar  9 2026 04:07:35 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 04:00:55 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 03:43:25 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 03:41:45 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 03:05:55 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 03:04:15 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  9 2026 01:53:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  9 2026 01:31:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  9 2026 01:13:26 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  9 2026 00:15:44 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-09 00:15:44-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  8 2026 22:57:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260217064718.pads.zip)
+Mar  8 2026 22:57:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260217064718.pads.zip)
+Mar  8 2026 22:09:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  8 2026 22:05:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  8 2026 21:55:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  8 2026 21:53:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  8 2026 21:19:45 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224120736.log.zip)
+Mar  8 2026 21:19:45 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224120736.log.zip)
+Mar  8 2026 16:01:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 15:55:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 15:49:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 15:11:21 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 15:01:21 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 14:55:21 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 14:45:18 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 13:53:22 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=83, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  8 2026 13:44:12 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  8 2026 11:01:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  8 2026 10:55:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  8 2026 10:42:09 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224012626.log.zip)
+Mar  8 2026 10:42:09 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260224012626.log.zip)
+Mar  8 2026 09:11:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  8 2026 08:57:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  8 2026 06:36:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260216142718.pads.zip)
+Mar  8 2026 06:36:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260216142718.pads.zip)
+Mar  8 2026 06:31:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  8 2026 06:25:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  8 2026 05:59:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  8 2026 05:45:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  8 2026 01:53:11 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  8 2026 00:15:21 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-08 00:15:21-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  7 2026 23:56:09 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223145621.log.zip)
+Mar  7 2026 23:56:09 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223145621.log.zip)
+Mar  7 2026 21:47:08 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  7 2026 21:33:08 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  7 2026 20:47:05 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  7 2026 20:41:05 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  7 2026 16:15:04 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  7 2026 15:41:04 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  7 2026 15:35:04 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  7 2026 15:13:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 15:07:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 14:17:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215220650.pads.zip)
+Mar  7 2026 14:17:20 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215220650.pads.zip)
+Mar  7 2026 13:53:16 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=86, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  7 2026 13:45:46 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=93, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  7 2026 13:38:05 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223041107.log.zip)
+Mar  7 2026 13:38:05 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260223041107.log.zip)
+Mar  7 2026 10:13:00 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 10:07:00 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 10:06:35 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  7 2026 10:04:56 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  7 2026 09:45:00 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 09:39:00 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 09:29:00 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 09:03:00 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 08:47:00 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 08:34:58 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 08:00:58 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 07:40:58 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 06:18:58 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  7 2026 06:12:58 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  7 2026 05:34:57 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 05:12:54 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  7 2026 04:06:34 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  7 2026 04:01:34 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  7 2026 02:51:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222173017.log.zip)
+Mar  7 2026 02:51:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222173017.log.zip)
+Mar  7 2026 02:02:54 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  7 2026 01:44:54 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  7 2026 01:00:54 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  7 2026 00:14:55 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-07 00:14:55-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  6 2026 22:06:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215054715.pads.zip)
+Mar  6 2026 22:06:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260215054715.pads.zip)
+Mar  6 2026 16:21:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222064604.log.zip)
+Mar  6 2026 16:21:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260222064604.log.zip)
+Mar  6 2026 16:12:49 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  6 2026 14:48:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 14:32:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 13:53:11 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=85, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  6 2026 13:48:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 13:44:01 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  6 2026 13:42:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 13:28:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 13:28:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/41, QueueId=0, SlotId=1)
+Mar  6 2026 13:22:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/41, QueueId=0, SlotId=1)
+Mar  6 2026 13:02:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 12:14:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 12:04:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 11:38:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 11:32:48 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 10:34:47 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 10:24:47 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 10:07:21 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  6 2026 10:02:20 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  6 2026 09:48:47 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 09:42:47 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 09:02:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 08:48:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 08:48:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 08:42:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 07:48:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 07:42:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 06:28:45 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 06:00:42 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  6 2026 05:47:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260214132718.pads.zip)
+Mar  6 2026 05:47:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260214132718.pads.zip)
+Mar  6 2026 05:35:30 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221200715.log.zip)
+Mar  6 2026 05:35:30 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221200715.log.zip)
+Mar  6 2026 04:48:42 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 04:42:42 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 04:08:09 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  6 2026 04:01:29 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  6 2026 03:28:42 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 03:12:42 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 02:48:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 02:42:40 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  6 2026 00:20:39 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  6 2026 00:14:41 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-06 00:14:41-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  5 2026 21:56:37 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 21:50:37 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 21:36:37 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 21:28:37 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 19:00:01 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221093452.log.zip)
+Mar  5 2026 19:00:01 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260221093452.log.zip)
+Mar  5 2026 16:30:32 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  5 2026 14:38:31 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 14:32:31 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 14:18:31 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 14:12:31 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 13:53:06 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=83, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 13:44:46 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=92, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 13:27:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213210650.pads.zip)
+Mar  5 2026 13:27:15 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213210650.pads.zip)
+Mar  5 2026 13:10:28 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  5 2026 13:04:28 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  5 2026 12:18:28 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 12:12:28 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 11:08:28 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 11:02:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 10:34:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  5 2026 10:18:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 10:12:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 10:06:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 10:06:25 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 10:04:45 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 10:04:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 10:00:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 09:58:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/41, QueueId=0, SlotId=1)
+Mar  5 2026 09:54:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 09:52:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/41, QueueId=0, SlotId=1)
+Mar  5 2026 09:48:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 09:48:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 09:42:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 09:42:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 09:18:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 09:12:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 08:48:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 08:34:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 08:30:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 08:18:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 08:17:00 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220224636.log.zip)
+Mar  5 2026 08:17:00 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220224636.log.zip)
+Mar  5 2026 08:12:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 07:54:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 07:48:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 07:24:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 07:18:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 07:18:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 07:12:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 07:00:27 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 06:18:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 06:18:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 06:04:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 05:54:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 05:48:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 05:42:25 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 05:28:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 05:22:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 05:18:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 05:12:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 04:58:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 04:48:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 04:42:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 04:32:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 04:18:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 04:12:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 04:12:14 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 04:01:24 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=92, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 03:48:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 03:42:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 03:18:24 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 03:17:14 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 03:12:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 03:01:24 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=92, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 02:38:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 02:32:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 02:06:24 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=89, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 02:04:44 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  5 2026 01:58:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 01:52:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  5 2026 01:50:23 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  5 2026 01:18:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 01:12:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 00:52:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  5 2026 00:48:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  5 2026 00:48:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 00:42:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  5 2026 00:40:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  5 2026 00:34:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  5 2026 00:24:22 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  5 2026 00:14:24 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-05 00:14:24-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  4 2026 23:06:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 22:52:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 21:44:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 21:41:30 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220121056.log.zip)
+Mar  4 2026 21:41:30 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220121056.log.zip)
+Mar  4 2026 21:24:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 21:06:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213044719.pads.zip)
+Mar  4 2026 21:06:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260213044719.pads.zip)
+Mar  4 2026 20:46:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 20:38:20 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  4 2026 20:20:19 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 20:20:19 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  4 2026 18:12:19 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 18:02:19 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 17:44:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 17:26:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 17:20:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 17:16:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 17:10:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 16:48:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 16:42:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 16:36:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 16:30:16 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 16:10:17 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 14:48:16 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 14:42:16 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 13:53:51 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=85, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 13:45:31 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 13:16:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 13:06:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 12:24:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 12:06:14 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 11:48:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 11:34:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 11:10:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 11:04:02 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220013014.log.zip)
+Mar  4 2026 11:04:02 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260220013014.log.zip)
+Mar  4 2026 10:48:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 10:42:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 10:38:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 10:16:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 10:10:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 10:06:20 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 10:03:50 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 09:50:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 09:48:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 09:42:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 09:28:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 09:18:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 09:18:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 08:38:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 08:28:13 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 08:24:11 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 08:20:11 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 07:40:11 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 07:38:11 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 07:22:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 07:12:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 07:02:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  4 2026 07:02:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 06:56:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  4 2026 06:56:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 06:38:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 06:32:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 06:30:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 06:14:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 06:06:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 06:06:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 06:00:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 06:00:10 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 05:06:08 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 04:56:08 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/44, QueueId=0, SlotId=1)
+Mar  4 2026 04:36:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260212122719.pads.zip)
+Mar  4 2026 04:36:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/pads/pads_9_20260212122719.pads.zip)
+Mar  4 2026 04:12:09 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 04:01:19 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 03:48:08 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 03:46:19 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 03:40:29 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 03:34:08 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  4 2026 03:06:18 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 03:06:07 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 03:04:38 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 03:00:07 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  4 2026 02:06:18 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=90, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 02:03:48 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=91, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  4 2026 01:38:05 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 01:16:05 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 00:52:05 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  4 2026 00:16:02 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219150435.log.zip)
+Mar  4 2026 00:16:02 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219150435.log.zip)
+Mar  4 2026 00:14:14 xz-jz406-HX-sw1 %%01DEBUG/4/DBG_ASSERT(D):CID=0x0;Assert information: 
+2026-03-04 00:14:14-ERRINFO:Slot:1/10, Process:RSM(ID:1010), Component:SEMAGT800304AF
+Errinfo at file: 'semagt_dbg_querycompinfo.c', Line:1011
+Withlog:       
+VRP Version:   
+DOPRA Version: V800R019C16SPC599B599
+PATCH:         DOPRA SSP V300R005C10SPC131
+V200R019SPH003Call Stack:
+semagt.so(SEMAGT_DBG_ConstructTimeOutTime+0x19c)
+semagt.so(SEMAGT_DBG_ConstructTmrLlist+0x1bc)
+semagt.so(SEMAGT_DBG_QueryApptimerRecordRsp+0x64)
+semagt.so(SEMAGT_DBG_ProcAppTimerInstanceInfoMsg+0x140)
+semagt.so(SEMAGT_ProcMsg+0x114)
+semagt.so(SEMAGT_MsgProcessFunc+0xdc)
+libdefault.so(RTF_MsgProcessCbk+0xd8)
+libdefault.so(rtfScmMessageSchedule+0x648)
+libdefault.so(rtfScmCompScheKernelEntryFifo+0x13c)
+libdefault.so(rtfScmCompSchTaskEntry+0xa4)
+libdefault.so(rtfScmCompScheDefaultEntry+0xd8)
+libdefault.so(tskAllTaskEntry+0x15c)
+libpthread.so.0(+0x7ab4)
+libc.so.6(+0xd75fc)
+
+Mar  3 2026 23:36:05 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 22:28:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  3 2026 22:12:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  3 2026 21:20:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  3 2026 21:20:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  3 2026 21:10:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/42, QueueId=0, SlotId=1)
+Mar  3 2026 21:06:02 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/43, QueueId=0, SlotId=1)
+Mar  3 2026 17:58:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 17:52:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 17:18:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  3 2026 17:10:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 17:04:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  3 2026 16:56:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 16:56:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  3 2026 16:36:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  3 2026 16:18:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/15, QueueId=0, SlotId=1)
+Mar  3 2026 16:12:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 15:36:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_active(l):CID=0x807f047c-alarmID=0x0962201c;The interface has packets dropped.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 15:20:01 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/45, QueueId=0, SlotId=1)
+Mar  3 2026 13:52:55 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0472-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=58, BandWidthUsage=86, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  3 2026 13:51:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219042025.log.zip)
+Mar  3 2026 13:51:50 xz-jz406-HX-sw1 %%01INFO/4/IM_LOGFILE_AGING(s):CID=0x80600405;One log file was deleted due to aging.(LogFileName=9#flash:/logfile/diaglog_9_20260219042025.log.zip)
+Mar  3 2026 13:44:35 xz-jz406-HX-sw1 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0472-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=58, BandWidthUsage=92, TrapThreshold=90, InterfaceName=10GE1/0/0)
+Mar  3 2026 13:11:59 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/47, QueueId=0, SlotId=1)
+Mar  3 2026 13:11:59 xz-jz406-HX-sw1 %%01QOS/4/hwXQoSPacketsDropInterfaceAlarm_clear(l):CID=0x807f047c-alarmID=0x0962201c-clearType=service_resume;The interface recovered from packets dropped state.(Interface=10GE1/0/44, QueueId=0, SlotId=1)

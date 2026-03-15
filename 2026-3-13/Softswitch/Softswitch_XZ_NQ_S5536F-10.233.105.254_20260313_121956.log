@@ -1,0 +1,3124 @@
+﻿<XZ_NQ_S5536F>screen-length 0 temporary
+                            ^
+ % Unrecognized command found at '^' position.
+<XZ_NQ_S5536F>display version
+H3C Comware Software, Version 7.1.070, Release 1115
+Copyright (c) 2004-2022 New H3C Technologies Co., Ltd. All rights reserved.
+H3C S5536F-EI-D uptime is 117 weeks, 2 days, 13 hours, 41 minutes
+Last reboot reason : Cold reboot
+
+Boot image: flash:/s5500_ei_d-cmw710-boot-r1115.bin
+Boot image version: 7.1.070, Release 1115
+  Compiled Oct 14 2022 11:00:00
+System image: flash:/s5500_ei_d-cmw710-system-r1115.bin
+System image version: 7.1.070, Release 1115
+  Compiled Oct 14 2022 11:00:00
+
+
+Slot 1:
+Uptime is 117 weeks,2 days,13 hours,41 minutes
+S5536F-EI-D with 1 Processor
+BOARD TYPE:         S5536F-EI-D
+DRAM:               1024M bytes
+FLASH:              256M bytes
+PCB 1 Version:      VER.B
+Bootrom Version:    110
+CPLD 1 Version:     003
+Release Version:    H3C S5536F-EI-D-1115
+Patch Version  :    None
+Reboot Cause  :     ColdReboot
+[SubSlot 0] 24SFP+8GE+4SFP Plus
+<XZ_NQ_S5536F>display device
+Slot Type              State    Subslot  Soft Ver             Patch Ver
+1    S5536F-EI-D       Master   0        S5500_EI_D-1115      None      
+<XZ_NQ_S5536F>display startup
+MainBoard:
+ Current startup saved-configuration file: NULL 
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<XZ_NQ_S5536F>dis cpu-usage
+Slot 1 CPU 0 CPU usage:
+       2% in last 5 seconds
+       2% in last 1 minute
+       2% in last 5 minutes
+
+<XZ_NQ_S5536F>dis memory
+Memory statistics are measured in KB:
+Slot 1: 
+             Total      Used      Free    Shared   Buffers    Cached   FreeRatio
+Mem:        991732    450208    541524         0      1472    180752       55.2%
+-/+ Buffers/Cache:    267984    723748
+Swap:            0         0         0
+
+<XZ_NQ_S5536F>display interface
+GigabitEthernet1/0/1
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62ae
+Description: GigabitEthernet1/0/1 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 114
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 114
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/2
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62af
+Description: GigabitEthernet1/0/2 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/3
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b0
+Description: GigabitEthernet1/0/3 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/4
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b1
+Description: GigabitEthernet1/0/4 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/5
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b2
+Description: GigabitEthernet1/0/5 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/6
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b3
+Description: GigabitEthernet1/0/6 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/7
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b4
+Description: GigabitEthernet1/0/7 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:15 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/8
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b5
+Description: GigabitEthernet1/0/8 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/9
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b6
+Description: GigabitEthernet1/0/9 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/10
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b7
+Description: GigabitEthernet1/0/10 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/11
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b8
+Description: GigabitEthernet1/0/11 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/12
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62b9
+Description: GigabitEthernet1/0/12 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:27
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/13
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62ba
+Description: GigabitEthernet1/0/13 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/14
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62bb
+Description: GigabitEthernet1/0/14 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/15
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62bc
+Description: GigabitEthernet1/0/15 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/16
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62bd
+Description: GigabitEthernet1/0/16 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/17
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62be
+Description: GigabitEthernet1/0/17 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/18
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62bf
+Description: GigabitEthernet1/0/18 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/19
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c0
+Description: GigabitEthernet1/0/19 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/20
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c1
+Description: GigabitEthernet1/0/20 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/21
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c2
+Description: GigabitEthernet1/0/21 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/22
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c3
+Description: GigabitEthernet1/0/22 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/23
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c4
+Description: GigabitEthernet1/0/23 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/24
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c5
+Description: GigabitEthernet1/0/24 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/25
+Current state: UP
+Line protocol state: UP
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c6
+Description: GigabitEthernet1/0/25 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+1000Mbps-speed mode, full-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 100
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 100
+Port priority: 0
+Last link flapping: 2 weeks 4 days 6 hours 38 minutes
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:2015-03-15 07:03:00
+Last time when physical state changed to down:2015-03-15 07:02:57
+ Peak input rate: 66509013 bytes/sec, at 2014-12-27 23:23:53 
+ Peak output rate: 220494939 bytes/sec, at 2014-12-27 23:23:53 
+ Last 300 seconds input: 2 packets/sec 348 bytes/sec 0%
+ Last 300 seconds output: 2 packets/sec 578 bytes/sec 0%
+ Input (total):  177461390 packets, 24565707172 bytes
+         175094963 unicasts, 11 broadcasts, 2366416 multicasts, 0 pauses
+ Input (normal):  177461390 packets, - bytes
+         175094963 unicasts, 11 broadcasts, 2366416 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 208529028 packets, 81513380774 bytes
+         170672407 unicasts, 3 broadcasts, 37856618 multicasts, 0 pauses
+ Output (normal): 208529028 packets, - bytes
+         170672407 unicasts, 3 broadcasts, 37856618 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/26
+Current state: UP
+Line protocol state: UP
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c7
+Description: GigabitEthernet1/0/26 Interface
+Bandwidth: 100000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+100Mbps-speed mode, full-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: 117 weeks 2 days 13 hours 0 minutes
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:2013-01-01 00:40:17
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 84727103 bytes/sec, at 2015-03-12 20:37:17 
+ Peak output rate: 17433719 bytes/sec, at 2015-03-12 20:37:17 
+ Last 300 seconds input: 6 packets/sec 403 bytes/sec 0%
+ Last 300 seconds output: 0 packets/sec 87 bytes/sec 0%
+ Input (total):  439158469 packets, 28384014293 bytes
+         437976592 unicasts, 34 broadcasts, 1181843 multicasts, 0 pauses
+ Input (normal):  439158469 packets, - bytes
+         437976592 unicasts, 34 broadcasts, 1181843 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 46466243 packets, 5851039231 bytes
+         62763 unicasts, 1448671 broadcasts, 44954809 multicasts, 0 pauses
+ Output (normal): 46466243 packets, - bytes
+         62763 unicasts, 1448671 broadcasts, 44954809 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/27
+Current state: UP
+Line protocol state: UP
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c8
+Description: GigabitEthernet1/0/27 Interface
+Bandwidth: 100000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+100Mbps-speed mode, full-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: 112 weeks 2 days 12 hours 23 minutes
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:2013-02-05 01:18:05
+Last time when physical state changed to down:2013-02-05 01:18:03
+ Peak input rate: 134820890 bytes/sec, at 2014-10-25 20:39:45 
+ Peak output rate: 96921824 bytes/sec, at 2014-10-25 20:39:45 
+ Last 300 seconds input: 0 packets/sec 63 bytes/sec 0%
+ Last 300 seconds output: 7 packets/sec 538 bytes/sec 0%
+ Input (total):  76840478 packets, 55437448114 bytes
+         76840433 unicasts, 45 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  76840478 packets, - bytes
+         76840433 unicasts, 45 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 562690365 packets, 39449904938 bytes
+         515105136 unicasts, 1448632 broadcasts, 46136597 multicasts, 0 pauses
+ Output (normal): 562690365 packets, - bytes
+         515105136 unicasts, 1448632 broadcasts, 46136597 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/28
+Current state: UP
+Line protocol state: UP
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62c9
+Description: GigabitEthernet1/0/28 Interface
+Bandwidth: 100000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+100Mbps-speed mode, full-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: 104 weeks 0 days 11 hours 11 minutes
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:2013-04-04 02:29:29
+Last time when physical state changed to down:2013-04-04 02:29:27
+ Peak input rate: 121208 bytes/sec, at 2013-02-05 00:32:19 
+ Peak output rate: 85459877 bytes/sec, at 2014-10-29 14:35:41 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec 0%
+ Last 300 seconds output: 6 packets/sec 491 bytes/sec 0%
+ Input (total):  4832331 packets, 2530934943 bytes
+         4832295 unicasts, 36 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  4832331 packets, - bytes
+         4832295 unicasts, 36 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 489031428 packets, 34467322670 bytes
+         441446294 unicasts, 1448646 broadcasts, 46136488 multicasts, 0 pauses
+ Output (normal): 489031428 packets, - bytes
+         441446294 unicasts, 1448646 broadcasts, 46136488 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/29
+Current state: UP
+Line protocol state: UP
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62ca
+Description: GigabitEthernet1/0/29 Interface
+Bandwidth: 100000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+100Mbps-speed mode, half-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: 117 weeks 2 days 12 hours 57 minutes
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:28
+Last time when physical state changed to up:2013-01-01 00:43:22
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 84815704 bytes/sec, at 2014-10-29 16:35:45 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec 0%
+ Last 300 seconds output: 6 packets/sec 491 bytes/sec 0%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 485498660 packets, 34226881662 bytes
+         437913472 unicasts, 1448657 broadcasts, 46136531 multicasts, 0 pauses
+ Output (normal): 485498660 packets, - bytes
+         437913472 unicasts, 1448657 broadcasts, 46136531 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/30
+Current state: UP
+Line protocol state: UP
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62cb
+Description: GigabitEthernet1/0/30 Interface
+Bandwidth: 100000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+100Mbps-speed mode, half-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: 83 weeks 3 days 14 hours 52 minutes
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:29
+Last time when physical state changed to up:2013-08-25 22:49:08
+Last time when physical state changed to down:2013-08-25 22:49:06
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 84727391 bytes/sec, at 2014-10-29 06:50:33 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec 0%
+ Last 300 seconds output: 6 packets/sec 491 bytes/sec 0%
+ Input (total):  2 packets, 128 bytes
+         1 unicasts, 0 broadcasts, 1 multicasts, 0 pauses
+ Input (normal):  2 packets, - bytes
+         1 unicasts, 0 broadcasts, 1 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 485465975 packets, 34224601464 bytes
+         437883676 unicasts, 1448657 broadcasts, 46133642 multicasts, 0 pauses
+ Output (normal): 485465975 packets, - bytes
+         437883676 unicasts, 1448657 broadcasts, 46133642 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/31
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62cc
+Description: GigabitEthernet1/0/31 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:29
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+GigabitEthernet1/0/32
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62cd
+Description: GigabitEthernet1/0/32 Interface
+Bandwidth: 1000000 kbps
+Loopback is not set
+Media type is twisted pair
+Port hardware type is 1000_BASE_T
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:29
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+InLoopBack0
+Current state: UP
+Line protocol state: UP(spoofing)
+Description: InLoopBack0 Interface
+Maximum transmission unit: 1536
+Physical: InLoopBack
+Last 300 seconds input rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Last 300 seconds output rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Input: 0 packets, 0 bytes, 0 drops
+Output: 0 packets, 0 bytes, 0 drops
+
+LoopBack0
+Current state: UP
+Line protocol state: UP(spoofing)
+Description: LoopBack0 Interface
+Maximum transmission unit: 1536
+Internet address: 10.233.105.254/32 (Primary)
+Physical: Loopback
+Last clearing of counters: Never
+Last 300 seconds input rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Last 300 seconds output rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Input: 0 packets, 0 bytes, 0 drops
+Output: 0 packets, 0 bytes, 0 drops
+
+LoopBack1
+Current state: UP
+Line protocol state: UP(spoofing)
+Description: LoopBack1 Interface
+Maximum transmission unit: 1536
+Internet protocol processing: Disabled
+Physical: Loopback
+Last clearing of counters: Never
+Last 300 seconds input rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Last 300 seconds output rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Input: 0 packets, 0 bytes, 0 drops
+Output: 0 packets, 0 bytes, 0 drops
+
+NULL0
+Current state: UP
+Line protocol state: UP(spoofing)
+Description: NULL0 Interface
+Bandwidth: 1000000 kbps
+Maximum transmission unit: 1500
+Internet protocol processing: Disabled
+Physical: NULL DEV, baudrate: 1000000 kbps
+Last clearing of counters: Never
+Last 300 seconds input rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Last 300 seconds output rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Input: 0 packets, 0 bytes, 0 drops
+Output: 0 packets, 0 bytes, 0 drops
+
+Register-Tunnel0
+Current state: UP
+Line protocol state: DOWN
+Description: Register-Tunnel0 Interface
+Maximum transmission unit: 1536
+Internet protocol processing: Disabled
+Physical: Unknown
+Last 300 seconds input rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Last 300 seconds output rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+Input: 0 packets, 0 bytes, 0 drops
+Output: 0 packets, 0 bytes, 0 drops
+
+Ten-GigabitEthernet1/0/33
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62ce
+Description: Ten-GigabitEthernet1/0/33 Interface
+Bandwidth: 10000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:29
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+Ten-GigabitEthernet1/0/34
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62cf
+Description: Ten-GigabitEthernet1/0/34 Interface
+Bandwidth: 10000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:29
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+Ten-GigabitEthernet1/0/35
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62d0
+Description: Ten-GigabitEthernet1/0/35 Interface
+Bandwidth: 10000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:29
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+Ten-GigabitEthernet1/0/36
+Current state: DOWN
+Line protocol state: DOWN
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62d1
+Description: Ten-GigabitEthernet1/0/36 Interface
+Bandwidth: 10000000 kbps
+Loopback is not set
+Media type is not sure, Port hardware type is no connector
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control is not enabled
+Maximum frame length: 12288
+Allow jumbo frames to pass
+Broadcast max-ratio: 100%
+Multicast max-ratio: 100%
+Unicast max-ratio: 100%
+Known-unicast max-ratio: 100%
+PVID: 1
+MDI type: Automdix
+Port link-type: Access
+ Tagged VLANs:   None
+ Untagged VLANs: 1
+Port priority: 0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2015-04-02 13:41:29
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2013-01-01 00:00:28
+ Peak input rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Peak output rate: 0 bytes/sec, at 2013-01-01 00:02:16 
+ Last 300 seconds input: 0 packets/sec 0 bytes/sec -%
+ Last 300 seconds output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input (normal):  0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, 0 throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output (normal): 0 packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         0 lost carrier, - no carrier
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+
+Vlan-interface1
+Current state: UP
+Line protocol state: UP
+Description: Gateway
+Bandwidth: 10000000 kbps
+Maximum transmission unit: 1500
+Internet address: 10.233.105.113/28 (Primary)
+IP packet frame type: Ethernet II, hardware address: 7449-d275-628f
+IPv6 packet frame type: Ethernet II, hardware address: 7449-d275-628f
+Last clearing of counters: Never
+
+Vlan-interface100
+Current state: UP
+Line protocol state: UP
+Description: to MDCN_NE40-2_2/0/2
+Bandwidth: 10000000 kbps
+Maximum transmission unit: 1500
+Internet address: 10.237.34.210/30 (Primary)
+IP packet frame type: Ethernet II, hardware address: 7449-d275-6292
+IPv6 packet frame type: Ethernet II, hardware address: 7449-d275-6292
+Last clearing of counters: Never
+
+Vlan-interface114
+Current state: DOWN
+Line protocol state: DOWN
+Description: Vlan-interface114 Interface
+Bandwidth: 10000000 kbps
+Maximum transmission unit: 1500
+Internet protocol processing: Disabled
+IP packet frame type: Ethernet II, hardware address: 7449-d275-62a0
+IPv6 packet frame type: Ethernet II, hardware address: 7449-d275-62a0
+Last clearing of counters: Never
+
+<XZ_NQ_S5536F>display interface brief
+Brief information on interfaces in route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Primary IP        Description              
+InLoop0              UP   UP(s)    --                
+Loop0                UP   UP(s)    10.233.105.254    
+Loop1                UP   UP(s)    --                
+NULL0                UP   UP(s)    --                
+REG0                 UP   --       --                
+Vlan1                UP   UP       10.233.105.113    Gateway
+Vlan100              UP   UP       10.237.34.210     to MDCN_NE40-2_2/0/2
+Vlan114              DOWN DOWN     --                
+
+Brief information on interfaces in bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed: (a) - auto
+Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed     Duplex Type PVID Description              
+GE1/0/1              DOWN auto      A      A    114  
+GE1/0/2              DOWN auto      A      A    1    
+GE1/0/3              DOWN auto      A      A    1    
+GE1/0/4              DOWN auto      A      A    1    
+GE1/0/5              DOWN auto      A      A    1    
+GE1/0/6              DOWN auto      A      A    1    
+GE1/0/7              DOWN auto      A      A    1    
+GE1/0/8              DOWN auto      A      A    1    
+GE1/0/9              DOWN auto      A      A    1    
+GE1/0/10             DOWN auto      A      A    1    
+GE1/0/11             DOWN auto      A      A    1    
+GE1/0/12             DOWN auto      A      A    1    
+GE1/0/13             DOWN auto      A      A    1    
+GE1/0/14             DOWN auto      A      A    1    
+GE1/0/15             DOWN auto      A      A    1    
+GE1/0/16             DOWN auto      A      A    1    
+GE1/0/17             DOWN auto      A      A    1    
+GE1/0/18             DOWN auto      A      A    1    
+GE1/0/19             DOWN auto      A      A    1    
+GE1/0/20             DOWN auto      A      A    1    
+GE1/0/21             DOWN auto      A      A    1    
+GE1/0/22             DOWN auto      A      A    1    
+GE1/0/23             DOWN auto      A      A    1    
+GE1/0/24             DOWN auto      A      A    1    
+GE1/0/25             UP   1G(a)     F(a)   A    100  
+GE1/0/26             UP   100M(a)   F(a)   A    1    
+GE1/0/27             UP   100M(a)   F(a)   A    1    
+GE1/0/28             UP   100M(a)   F(a)   A    1    
+GE1/0/29             UP   100M(a)   H(a)   A    1    
+GE1/0/30             UP   100M(a)   H(a)   A    1    
+GE1/0/31             DOWN auto      A      A    1    
+GE1/0/32             DOWN auto      A      A    1    
+XGE1/0/33            DOWN auto      A      A    1    
+XGE1/0/34            DOWN auto      A      A    1    
+XGE1/0/35            DOWN auto      A      A    1    
+XGE1/0/36            DOWN auto      A      A    1    
+
+<XZ_NQ_S5536F>display ip interface brief
+*down: administratively down
+(s): spoofing  (l): loopback
+Interface           Physical Protocol IP address      VPN instance Description  
+Loop0               up       up(s)    10.233.105.254  --           --
+Loop1               up       up(s)    --              --           --
+Vlan1               up       up       10.233.105.113  --           Gateway
+Vlan100             up       up       10.237.34.210   --           to MDCN_NE...
+Vlan114             down     down     --              --           --
+<XZ_NQ_S5536F>display ip routing-table
+
+Destinations : 18       Routes : 18
+
+Destination/Mask   Proto   Pre Cost        NextHop         Interface
+0.0.0.0/0          Static  60  0           10.237.34.209   Vlan100
+0.0.0.0/32         Direct  0   0           127.0.0.1       InLoop0
+10.233.105.112/28  Direct  0   0           10.233.105.113  Vlan1
+10.233.105.112/32  Direct  0   0           10.233.105.113  Vlan1
+10.233.105.113/32  Direct  0   0           127.0.0.1       InLoop0
+10.233.105.127/32  Direct  0   0           10.233.105.113  Vlan1
+10.233.105.254/32  Direct  0   0           127.0.0.1       InLoop0
+10.237.34.208/30   Direct  0   0           10.237.34.210   Vlan100
+10.237.34.208/32   Direct  0   0           10.237.34.210   Vlan100
+10.237.34.210/32   Direct  0   0           127.0.0.1       InLoop0
+10.237.34.211/32   Direct  0   0           10.237.34.210   Vlan100
+127.0.0.0/8        Direct  0   0           127.0.0.1       InLoop0
+127.0.0.0/32       Direct  0   0           127.0.0.1       InLoop0
+127.0.0.1/32       Direct  0   0           127.0.0.1       InLoop0
+127.255.255.255/32 Direct  0   0           127.0.0.1       InLoop0
+224.0.0.0/4        Direct  0   0           0.0.0.0         NULL0
+224.0.0.0/24       Direct  0   0           0.0.0.0         NULL0
+255.255.255.255/32 Direct  0   0           127.0.0.1       InLoop0
+<XZ_NQ_S5536F>dis alarm urgent
+                  ^
+ % Unrecognized command found at '^' position.
+<XZ_NQ_S5536F>display logbuffer
+Log buffer: Enabled
+Max buffer size: 1024
+Actual buffer size: 512
+Dropped messages: 0
+Overwritten messages: 24447
+Current messages: 512
+%Feb 24 05:27:49:087 2015 XZ_NQ_S5536F SSHS/6/SSHS_VERSION_MISMATCH: SSH client 10.237.100.196 failed to log in because of version mismatch.
+%Feb 24 05:27:49:151 2015 XZ_NQ_S5536F SSHS/6/SSHS_VERSION_MISMATCH: SSH client 10.237.100.196 failed to log in because of version mismatch.
+%Feb 24 05:27:53:340 2015 XZ_NQ_S5536F SSHS/6/SSHS_VERSION_MISMATCH: SSH client 10.237.100.196 failed to log in because of version mismatch.
+%Feb 24 05:27:55:402 2015 XZ_NQ_S5536F SSHS/6/SSHS_VERSION_MISMATCH: SSH client 10.237.100.196 failed to log in because of version mismatch.
+%Feb 24 05:27:55:484 2015 XZ_NQ_S5536F SSHS/6/SSHS_VERSION_MISMATCH: SSH client 10.237.100.196 failed to log in because of version mismatch.
+%Feb 24 05:27:55:545 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: Connection closed by 10.237.100.196.
+%Feb 24 05:27:55:545 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user (null) (IP: 10.237.100.196) disconnected from the server.
+%Feb 24 05:27:56:002 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: Protocol dispatch error: type 52, seq 4.
+%Feb 24 05:27:56:008 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: Protocol dispatch error: type 90, seq 5.
+%Feb 24 05:27:57:089 2015 XZ_NQ_S5536F SSHS/6/SSHS_VERSION_MISMATCH: SSH client 10.237.100.196 failed to log in because of version mismatch.
+%Feb 24 05:27:57:990 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: Invalid user #_does_not_exists_#.
+%Feb 24 05:27:57:994 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user #_does_not_exists_# (IP: 10.237.100.196) disconnected from the server.
+%Feb 24 05:28:06:103 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: Connection closed by 10.237.100.196.
+%Feb 24 05:28:06:104 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user (null) (IP: 10.237.100.196) disconnected from the server.
+%Feb 24 17:37:42:743 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 49327 passed password authentication.
+%Feb 24 17:37:43:842 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 24 17:37:44:224 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 24 17:37:51:149 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 24 17:38:01:063 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 24 17:38:11:443 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command  display startup。  in view shell failed to be matched.
+%Feb 24 17:38:15:281 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 24 17:38:29:791 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 24 17:38:39:355 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb 24 17:38:48:561 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 24 17:39:03:256 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 24 17:39:12:593 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 24 17:39:22:218 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb 24 17:39:31:971 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 24 17:39:44:924 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 24 17:39:44:981 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49327.
+%Feb 24 17:39:44:981 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 25 12:43:12:901 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user jtcjxz from 10.237.100.188 port 52114 passed password authentication.
+%Feb 25 12:43:14:025 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Feb 25 12:43:14:393 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Feb 25 12:43:28:584 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Feb 25 12:43:38:591 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Feb 25 12:43:48:603 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Feb 25 12:43:58:609 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system product model in view shell failed to be matched.
+%Feb 25 12:44:08:617 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system version in view shell failed to be matched.
+%Feb 25 12:44:18:636 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Feb 25 12:44:28:642 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is quit
+%Feb 25 12:44:28:701 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Feb 25 12:44:29:650 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 52114.
+%Feb 25 12:44:29:650 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Feb 25 13:26:50:889 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 57183 passed password authentication.
+%Feb 25 13:26:52:042 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 25 13:26:52:460 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 25 13:26:55:830 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 25 13:27:03:456 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 25 13:27:22:974 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 25 13:27:30:827 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 25 13:27:39:515 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb 25 13:27:49:958 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 25 13:27:52:567 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 25 13:32:57:517 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 25 13:32:57:636 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 57183.
+%Feb 25 13:32:57:636 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 25 13:56:36:472 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 61652 passed password authentication.
+%Feb 25 13:56:37:609 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 25 13:56:37:975 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 25 13:57:28:115 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 25 13:57:40:358 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 25 13:57:48:972 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb 25 13:57:59:153 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 25 13:58:10:257 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 25 13:58:10:344 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61652.
+%Feb 25 13:58:10:347 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 26 13:23:19:259 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 52305 passed password authentication.
+%Feb 26 13:23:20:355 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 26 13:23:20:718 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 26 13:23:23:716 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 26 13:23:32:631 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 26 13:23:42:771 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 26 13:23:54:170 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 26 13:24:01:501 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb 26 13:24:09:960 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 26 13:24:19:057 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 26 13:24:28:031 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 26 13:24:47:857 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb 26 13:24:59:410 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 26 13:25:08:840 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 26 13:25:08:898 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 52305.
+%Feb 26 13:25:08:898 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  1 17:01:03:137 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 61919 passed password authentication.
+%Mar  1 17:01:04:229 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  1 17:01:04:598 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  1 17:01:09:952 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  1 17:01:18:315 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  1 17:01:27:489 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  1 17:01:35:774 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  1 17:01:44:405 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar  1 17:01:51:998 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  1 17:02:01:638 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar  1 17:02:10:679 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  1 17:02:19:407 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar  1 17:02:28:623 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar  1 17:02:37:904 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  1 17:02:37:965 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61919.
+%Mar  1 17:02:37:966 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  2 18:45:00:682 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 58310 passed password authentication.
+%Mar  2 18:45:01:865 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  2 18:45:02:218 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  2 18:45:05:317 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  2 18:45:17:158 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  2 18:45:34:489 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar  2 18:45:41:528 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 58418 passed password authentication.
+%Mar  2 18:45:42:625 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  2 18:45:42:866 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  2 18:45:42:951 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58310.
+%Mar  2 18:45:42:952 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  2 18:45:43:075 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  2 18:45:43:899 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  2 18:45:43:963 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58418.
+%Mar  2 18:45:43:963 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  3 12:50:15:671 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 64983 passed password authentication.
+%Mar  3 12:50:16:767 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  3 12:50:17:138 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  3 12:50:21:391 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  3 12:50:31:055 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  3 12:50:38:960 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  3 12:50:46:637 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  3 12:50:55:063 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar  3 12:51:05:077 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  3 12:51:17:951 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar  3 12:51:27:275 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  3 12:51:39:207 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar  3 12:51:49:620 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar  3 12:51:58:681 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  3 12:51:58:747 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 64983.
+%Mar  3 12:51:58:748 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  3 19:00:53:325 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 57447 passed password authentication.
+%Mar  3 19:00:54:419 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  3 19:00:54:792 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  3 19:01:24:848 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is save
+%Mar  3 19:01:26:178 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD_CONFIRM: Confirm option of command save is yes.
+%Mar  3 19:01:27:402 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD_INPUT: Input string for the save command is the Enter key.
+%Mar  3 19:01:30:738 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD_CONFIRM: Confirm option of command save is yes.
+%Mar  3 19:01:33:827 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cur
+%Mar  3 19:06:35:790 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  3 19:06:35:853 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 57447.
+%Mar  3 19:06:35:853 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  4 13:43:03:813 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 53765 passed password authentication.
+%Mar  4 13:43:04:907 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  4 13:43:05:275 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  4 13:43:13:753 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  4 13:43:13:904 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  4 13:43:14:025 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is Display device
+%Mar  4 13:43:14:172 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar  4 13:43:14:284 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar  4 13:43:14:409 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  4 13:43:14:825 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar  4 13:43:14:940 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  4 13:43:16:676 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar  4 13:43:21:731 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar  4 13:48:23:319 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  4 13:48:23:386 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 53765.
+%Mar  4 13:48:23:386 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  5 13:20:41:876 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 62395 passed password authentication.
+%Mar  5 13:20:42:979 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  5 13:20:43:338 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  5 13:21:10:467 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  5 13:21:10:627 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  5 13:21:10:755 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  5 13:21:10:877 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar  5 13:21:10:889 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  5 13:21:11:002 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar  5 13:21:11:111 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar  5 13:21:11:123 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar  5 13:21:11:247 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  5 13:21:11:665 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  5 13:21:22:272 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar  5 13:26:24:383 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  5 13:26:24:454 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  5 19:01:33:954 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 50557 passed password authentication.
+%Mar  5 19:01:35:045 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  5 19:01:35:412 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  5 19:01:54:997 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  5 19:01:55:072 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 50557.
+%Mar  5 19:01:55:073 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  6 12:44:33:470 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 52624 passed password authentication.
+%Mar  6 12:44:34:652 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  6 12:44:35:020 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  6 12:44:37:076 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  6 12:44:37:227 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  6 12:44:37:370 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  6 12:44:37:566 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar  6 12:44:37:591 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  6 12:44:37:795 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar  6 12:44:37:911 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar  6 12:44:37:926 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar  6 12:44:38:057 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  6 12:44:38:500 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  6 12:44:45:947 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Mar  6 12:49:48:038 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  6 12:49:48:110 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 52624.
+%Mar  6 12:49:48:110 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  7 14:51:12:212 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 52131 passed password authentication.
+%Mar  7 14:51:13:305 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  7 14:51:13:672 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  7 14:51:14:484 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  7 14:51:14:639 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  7 14:51:14:773 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  7 14:51:14:896 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar  7 14:51:14:910 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  7 14:51:15:023 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar  7 14:51:15:136 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar  7 14:51:15:157 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar  7 14:51:15:279 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  7 14:51:15:686 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  7 14:52:15:739 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  7 14:52:15:793 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 52131.
+%Mar  7 14:52:15:793 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  8 19:24:03:390 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 58518 passed password authentication.
+%Mar  8 19:24:04:485 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  8 19:24:04:845 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  8 19:24:05:700 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  8 19:24:05:851 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  8 19:24:05:991 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  8 19:24:06:118 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar  8 19:24:06:140 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  8 19:24:06:256 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar  8 19:24:06:364 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar  8 19:24:06:384 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar  8 19:24:06:510 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  8 19:24:06:933 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  8 19:24:31:975 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  8 19:24:32:034 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58518.
+%Mar  8 19:24:32:035 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  9 14:18:04:263 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 56144 passed password authentication.
+%Mar  9 14:18:05:366 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  9 14:18:05:734 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  9 14:18:06:758 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  9 14:18:06:909 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  9 14:18:07:038 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  9 14:18:07:161 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar  9 14:18:07:174 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  9 14:18:07:288 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar  9 14:18:07:640 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar  9 14:18:07:652 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar  9 14:18:07:777 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  9 14:18:08:222 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  9 14:18:38:993 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  9 14:18:39:056 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56144.
+%Mar  9 14:18:39:057 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  9 15:07:20:431 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 63943 passed password authentication.
+%Mar  9 15:07:21:522 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  9 15:07:21:890 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  9 15:07:29:461 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Mar  9 15:12:30:885 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  9 15:12:30:954 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 63943.
+%Mar  9 15:12:30:955 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 10 15:44:04:117 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 49817 passed password authentication.
+%Mar 10 15:44:05:212 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 10 15:44:05:579 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 10 15:44:07:556 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 10 15:44:07:736 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 10 15:44:07:861 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 10 15:44:07:988 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 10 15:44:08:004 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 10 15:44:08:129 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 10 15:44:08:241 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 10 15:44:08:259 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 10 15:44:08:395 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 10 15:44:08:820 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 10 15:49:10:665 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 10 15:49:10:729 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49817.
+%Mar 10 15:49:10:729 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 11 19:16:30:591 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 62364 passed password authentication.
+%Mar 11 19:16:31:688 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 11 19:16:32:053 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 11 19:16:32:722 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 11 19:16:32:883 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 11 19:16:33:015 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 11 19:16:33:136 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 11 19:16:33:148 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 11 19:16:33:262 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 11 19:16:33:371 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 11 19:16:33:382 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 11 19:16:33:508 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 11 19:16:33:933 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 11 19:21:36:048 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 11 19:21:36:117 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 62364.
+%Mar 11 19:21:36:117 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 12 18:09:06:579 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 62340 passed password authentication.
+%Mar 12 18:09:07:677 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 12 18:09:08:041 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 12 18:09:09:606 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 12 18:09:09:763 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 12 18:09:09:895 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 12 18:09:10:015 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 12 18:09:10:027 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 12 18:09:10:140 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 12 18:09:10:250 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 12 18:09:10:259 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 12 18:09:10:389 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 12 18:09:10:811 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 12 18:12:02:841 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 12 18:12:02:903 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 62340.
+%Mar 12 18:12:02:903 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 13 19:29:30:067 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 52267 passed password authentication.
+%Mar 13 19:29:31:207 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 13 19:29:31:613 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 13 19:29:31:812 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 13 19:29:31:947 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 13 19:29:32:077 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 13 19:29:32:209 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 13 19:29:32:224 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 13 19:29:32:352 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 13 19:29:32:692 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 13 19:29:32:703 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 13 19:29:32:844 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 13 19:29:33:276 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 13 19:30:08:298 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 13 19:30:08:380 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 52267.
+%Mar 13 19:30:08:381 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 14 19:42:42:750 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 65207 passed password authentication.
+%Mar 14 19:42:43:891 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 14 19:42:44:268 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 14 19:42:45:047 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 14 19:42:45:202 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 14 19:42:45:364 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 14 19:42:45:487 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 14 19:42:45:498 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 14 19:42:45:611 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 14 19:42:45:727 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 14 19:42:45:744 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 14 19:42:45:868 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 14 19:42:46:259 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 14 19:43:10:918 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 14 19:43:10:994 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 65207.
+%Mar 14 19:43:10:994 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 15 07:02:57:650 2015 XZ_NQ_S5536F IFNET/3/PHY_UPDOWN: Physical state on the interface GigabitEthernet1/0/25 changed to down.
+%Mar 15 07:02:57:660 2015 XZ_NQ_S5536F IFNET/5/LINK_UPDOWN: Line protocol state on the interface GigabitEthernet1/0/25 changed to down.
+%Mar 15 07:02:57:669 2015 XZ_NQ_S5536F IFNET/3/PHY_UPDOWN: Physical state on the interface Vlan-interface100 changed to down.
+%Mar 15 07:02:57:671 2015 XZ_NQ_S5536F IFNET/5/LINK_UPDOWN: Line protocol state on the interface Vlan-interface100 changed to down.
+%Mar 15 07:03:00:618 2015 XZ_NQ_S5536F IFNET/3/PHY_UPDOWN: Physical state on the interface GigabitEthernet1/0/25 changed to up.
+%Mar 15 07:03:00:623 2015 XZ_NQ_S5536F IFNET/5/LINK_UPDOWN: Line protocol state on the interface GigabitEthernet1/0/25 changed to up.
+%Mar 15 07:03:00:632 2015 XZ_NQ_S5536F IFNET/3/PHY_UPDOWN: Physical state on the interface Vlan-interface100 changed to up.
+%Mar 15 07:03:00:637 2015 XZ_NQ_S5536F IFNET/5/LINK_UPDOWN: Line protocol state on the interface Vlan-interface100 changed to up.
+%Mar 15 07:03:03:544 2015 XZ_NQ_S5536F LLDP/6/LLDP_CREATE_NEIGHBOR: Nearest bridge agent neighbor created on port GigabitEthernet1/0/25 (IfIndex 25), neighbor's chassis ID is 0025-9e08-b907, port ID is GigabitEthernet1/0/2.
+%Mar 15 18:52:48:852 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 51890 passed password authentication.
+%Mar 15 18:52:49:997 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 15 18:52:50:376 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 15 18:52:51:028 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 15 18:52:51:176 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 15 18:52:51:333 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 15 18:52:51:455 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 15 18:52:51:467 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 15 18:52:51:587 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 15 18:52:51:699 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 15 18:52:51:710 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 15 18:52:51:838 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 15 18:52:52:253 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 15 18:53:09:678 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 15 18:53:09:758 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 51890.
+%Mar 15 18:53:09:758 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 15 19:09:12:893 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 54570 passed password authentication.
+%Mar 15 19:09:14:033 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 15 19:09:14:399 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 15 19:09:18:448 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 15 19:10:32:372 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 15 19:10:32:478 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54570.
+%Mar 15 19:10:32:479 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 22 13:50:38:188 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user jtcjxz from 10.237.100.188 port 59640 passed password authentication.
+%Mar 22 13:50:39:316 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar 22 13:50:39:683 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar 22 13:50:41:507 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 59640.
+%Mar 22 13:50:41:507 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar 22 13:50:41:515 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar 23 19:12:14:481 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 53490 passed password authentication.
+%Mar 23 19:12:15:619 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 23 19:12:15:993 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 23 19:12:16:713 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 23 19:12:16:874 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 23 19:12:17:014 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 23 19:12:17:136 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar 23 19:12:17:154 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 23 19:12:17:272 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar 23 19:12:17:408 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar 23 19:12:17:419 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 23 19:12:17:748 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 23 19:12:18:194 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 23 19:12:19:887 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 23 19:17:22:046 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 23 19:17:22:130 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 53490.
+%Mar 23 19:17:22:130 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 24 19:55:39:308 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user jtcjxz from 10.237.100.188 port 43010 passed password authentication.
+%Mar 24 19:55:40:428 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar 24 19:55:40:792 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar 24 19:55:54:979 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 24 19:56:04:986 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar 24 19:56:15:002 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar 24 19:56:25:004 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system product model in view shell failed to be matched.
+%Mar 24 19:56:35:014 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system version in view shell failed to be matched.
+%Mar 24 19:56:45:035 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 24 19:56:55:041 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is quit
+%Mar 24 19:56:55:074 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar 24 19:56:56:042 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 43010.
+%Mar 24 19:56:56:042 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar 29 21:37:40:075 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user jtcjxz from 10.237.100.188 port 54086 passed password authentication.
+%Mar 29 21:37:41:152 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar 29 21:37:41:518 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar 29 21:37:55:699 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 29 21:38:05:705 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar 29 21:38:15:729 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display current-configuration
+%Mar 29 21:38:25:740 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display interface
+%Mar 29 21:38:38:760 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display device manuinfo
+%Mar 29 21:38:48:306 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display device
+%Mar 29 21:38:58:318 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar 29 21:39:08:324 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is quit
+%Mar 29 21:39:08:361 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar 29 21:39:09:324 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 54086.
+%Mar 29 21:39:09:324 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar 31 16:51:01:496 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 49618 passed password authentication.
+%Mar 31 16:51:02:604 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 16:51:02:971 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 16:52:13:372 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 16:52:13:428 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49618.
+%Mar 31 16:52:13:428 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 16:52:57:870 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 49958 passed password authentication.
+%Mar 31 16:52:58:977 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 16:52:59:347 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 16:53:07:901 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 16:53:07:958 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49958.
+%Mar 31 16:53:07:959 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 16:54:50:809 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 50270 passed password authentication.
+%Mar 31 16:54:51:905 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 16:54:52:267 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 16:59:53:295 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 16:59:53:368 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 50270.
+%Mar 31 16:59:53:369 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 31 17:34:54:475 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 56746 passed password authentication.
+%Mar 31 17:34:55:572 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 31 17:34:55:938 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 31 17:37:36:229 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 31 17:37:36:264 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 31 17:37:36:422 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 31 17:37:36:563 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 31 17:37:36:692 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 31 17:37:36:826 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar 31 17:37:36:956 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface
+%Mar 31 17:37:39:628 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 31 17:37:40:040 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 31 17:37:40:173 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 31 17:37:40:303 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm urgent in view shell failed to be matched.
+%Mar 31 17:37:40:391 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 31 17:37:41:571 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 31 17:42:44:026 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 31 17:42:44:091 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56746.
+%Mar 31 17:42:44:091 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Apr  1 12:36:58:803 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 56536 passed password authentication.
+%Apr  1 12:36:59:900 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Apr  1 12:37:00:259 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Apr  1 12:38:55:144 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Apr  1 12:38:55:188 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Apr  1 12:38:55:343 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Apr  1 12:38:55:484 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Apr  1 12:38:55:615 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Apr  1 12:38:55:743 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Apr  1 12:38:55:877 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface
+%Apr  1 12:38:58:512 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Apr  1 12:38:58:946 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Apr  1 12:38:59:088 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Apr  1 12:38:59:223 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm urgent in view shell failed to be matched.
+%Apr  1 12:38:59:259 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Apr  1 12:39:00:396 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Apr  1 12:42:24:976 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Apr  1 12:42:25:048 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56536.
+%Apr  1 12:42:25:048 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Apr  1 15:56:36:399 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 55999 passed password authentication.
+%Apr  1 15:56:37:495 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Apr  1 15:56:37:915 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Apr  1 15:58:30:983 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Apr  1 15:58:31:018 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Apr  1 15:58:31:184 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Apr  1 15:58:31:324 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Apr  1 15:58:31:448 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Apr  1 15:58:31:576 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Apr  1 15:58:31:710 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface
+%Apr  1 15:58:34:380 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Apr  1 15:58:34:851 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Apr  1 15:58:34:985 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Apr  1 15:58:35:116 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm urgent in view shell failed to be matched.
+%Apr  1 15:58:35:149 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Apr  1 15:58:36:189 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Apr  1 15:59:35:330 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm urgent in view shell failed to be matched.
+%Apr  1 15:59:40:387 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Apr  1 15:59:49:732 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Apr  1 16:04:51:956 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Apr  1 16:04:52:026 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 55999.
+%Apr  1 16:04:52:026 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Apr  2 13:38:47:632 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 52093 passed password authentication.
+%Apr  2 13:38:48:740 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Apr  2 13:38:49:105 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Apr  2 13:39:08:942 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Apr  2 13:39:09:005 2015 XZ_NQ_S5536F SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 52093.
+%Apr  2 13:39:09:005 2015 XZ_NQ_S5536F SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Apr  2 13:39:32:143 2015 XZ_NQ_S5536F SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 52213 passed password authentication.
+%Apr  2 13:39:33:236 2015 XZ_NQ_S5536F SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Apr  2 13:39:33:605 2015 XZ_NQ_S5536F SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Apr  2 13:41:26:251 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Apr  2 13:41:26:281 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Apr  2 13:41:26:468 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Apr  2 13:41:26:609 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Apr  2 13:41:26:739 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Apr  2 13:41:26:876 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Apr  2 13:41:27:012 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface
+%Apr  2 13:41:29:742 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Apr  2 13:41:30:178 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Apr  2 13:41:30:322 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Apr  2 13:41:30:454 2015 XZ_NQ_S5536F SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm urgent in view shell failed to be matched.
+%Apr  2 13:41:30:483 2015 XZ_NQ_S5536F SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+<XZ_NQ_S5536F>display current-configuration
+#
+ version 7.1.070, Release 1115
+#
+ sysname XZ_NQ_S5536F
+#
+ telnet server enable
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 1
+#
+ router id 10.233.105.254
+#
+ospf 1 router-id 10.233.105.254
+ area 0.0.0.0
+  network 10.233.105.112 0.0.0.15
+  network 10.233.105.172 0.0.0.3
+  network 10.233.105.254 0.0.0.0
+#
+ lldp global enable
+#
+ password-recovery enable
+#
+vlan 1
+#
+vlan 100
+#
+vlan 114
+#
+ stp global enable
+#
+interface NULL0
+#
+interface LoopBack0
+ ip address 10.233.105.254 255.255.255.255
+#
+interface LoopBack1
+#
+interface Vlan-interface1
+ description Gateway
+ ip address 10.233.105.113 255.255.255.240
+#
+interface Vlan-interface100
+ description to MDCN_NE40-2_2/0/2
+ ip address 10.237.34.210 255.255.255.252
+#
+interface Vlan-interface114
+#
+interface GigabitEthernet1/0/1
+ port link-mode bridge
+ port access vlan 114
+#
+interface GigabitEthernet1/0/2
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/3
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/4
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/5
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/6
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/7
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/8
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/9
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/10
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/11
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/12
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/13
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/14
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/15
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/16
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/17
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/18
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/19
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/20
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/21
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/22
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/23
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/24
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/25
+ port link-mode bridge
+ port access vlan 100
+#
+interface GigabitEthernet1/0/26
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/28
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/29
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/30
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/31
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/32
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/33
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/34
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/35
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/36
+ port link-mode bridge
+#
+ scheduler logfile size 16
+#
+line class aux
+ user-role network-admin
+#
+line class vty
+ user-role network-operator
+#
+line aux 0
+ user-role network-admin
+#
+line vty 0 4
+ authentication-mode scheme
+ user-role network-operator
+ idle-timeout 5 0
+ screen-length 0
+#
+line vty 5 63
+ user-role network-operator
+#
+ ip route-static 0.0.0.0 0 10.237.34.209 description to MDCN_NE40-2
+#
+ info-center loghost source LoopBack0
+ info-center loghost 1.1.1.1
+ info-center loghost 10.237.35.249
+ info-center loghost 10.237.99.80
+#
+ snmp-agent
+ snmp-agent local-engineid 800063A2807449D27562AE00000001
+ snmp-agent community read LCjcGPRS
+ snmp-agent community read XZYD_smjk-2018 acl 2000
+ snmp-agent sys-info version v2c v3 
+ snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname LCjcGPRS v2c
+ snmp-agent target-host trap address udp-domain 10.237.35.254 params securityname public v2c
+ snmp-agent trap source LoopBack0
+#
+ ssh server enable
+ ssh user cszdxj service-type all authentication-type password
+ ssh user jtcjxz service-type all authentication-type password
+ ssh user xz4a_admin service-type all authentication-type password
+ ssh user xzyd_xiangkun service-type all authentication-type password
+ ssh server acl 2000
+#
+ ssh2 algorithm cipher aes128-ctr
+#
+ ntp-service authentication-keyid 1 authentication-mode md5 cipher $c$3$KVRBH9RYS/bAZO9ca6RsfIi+jvUIX8elPXl+0D1L
+ ntp-service unicast-server 1.1.1.1 authentication-keyid 1
+#
+acl basic 2000
+ rule 1 permit source 10.233.105.0 0.0.0.255
+ rule 2 permit source 10.237.35.0 0.0.0.255
+ rule 3 permit source 10.233.96.0 0.0.0.255
+ rule 4 permit source 10.237.34.24 0.0.0.3
+ rule 5 permit source 10.237.99.0 0.0.0.255
+ rule 10 permit source 10.237.100.0 0.0.0.255
+#
+radius scheme system
+ user-name-format without-domain
+#
+domain system
+#
+ domain default enable system
+#
+role name level-0
+ description Predefined level-0 role
+#
+role name level-1
+ description Predefined level-1 role
+#
+role name level-2
+ description Predefined level-2 role
+#
+role name level-3
+ description Predefined level-3 role
+#
+role name level-4
+ description Predefined level-4 role
+#
+role name level-5
+ description Predefined level-5 role
+#
+role name level-6
+ description Predefined level-6 role
+#
+role name level-7
+ description Predefined level-7 role
+#
+role name level-8
+ description Predefined level-8 role
+#
+role name level-9
+ description Predefined level-9 role
+#
+role name level-10
+ description Predefined level-10 role
+#
+role name level-11
+ description Predefined level-11 role
+#
+role name level-12
+ description Predefined level-12 role
+#
+role name level-13
+ description Predefined level-13 role
+#
+role name level-14
+ description Predefined level-14 role
+#
+user-group system
+#
+local-user cszdxj class manage
+ password hash $h$6$b8HaHIEkci6vw8QN$cjgx2QuIOJnKlqe+wk9AHsiOGy5d43GZbOq9BTpvouuOByFHKJnMk00dqA6bejYahiQBNMTJeOsoadLAoX1DxQ==
+ service-type telnet ssh
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user jtcjxz class manage
+ password hash $h$6$cyNWrF9CUfWZCNe3$KYFu4DrwHLOaFFC2YgWSaFnEJxiImNXarGjp1pQKlk1P8uvkAARHqndTe1n1T15Qrf1l1jhvrCs2E0OV1TAHGw==
+ service-type telnet ssh
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user jtcjxzqq class manage
+ authorization-attribute user-role network-operator
+#
+local-user pubuzhaxi class manage
+ password hash $h$6$aG8i5GMyvcsCnpap$KRRBBgaK7EfWhX0hj9tuW9DxCHPWsk8qkiOb/THgNiKGEdGbj0MrmO57e+ErkxlYkgM90MTLiqGosecUvs2LrA==
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user xz4a_admin class manage
+ password hash $h$6$4p9ZP8VkB6Dhxr/N$LAbV6T6pOEyBYw2TWV7wXDDBurNYDD3tku8ey+9UhzDY+JqsxkL/4gGHVDN6NKjrTk7qBAnoLPAWLM/qz6sUDQ==
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user xzyd_xiangkun class manage
+ password hash $h$6$AT1vZv7bwqaaANpT$ZeEC01IvTPj5nsjqT+FC4lOzKN9mYUYz8rPpogbcNjrBX/aUYq4ODF/NE6G9xETiKrGR79n9zDvUSR0tsLl4Tw==
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+return

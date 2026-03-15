@@ -1,0 +1,1674 @@
+﻿<XZ_LS_WG_AR46-20>screen-length 0 temporary
+                                ^
+ % Unrecognized command found at '^' position.
+<XZ_LS_WG_AR46-20>display version
+Huawei Versatile Routing Platform Software
+VRP software, Version 3.40, Release 0201P08
+Copyright (c) 1998-2007 Huawei Technologies Co., Ltd. All rights reserved.
+Without the owner's prior written consent, no decompiling
+nor reverse-engineering shall be allowed.
+Quidway AR46-20 uptime is 121 weeks, 0 day, 11 hours, 14 minutes
+Last reboot 2023/11/16 23:48:24
+System returned to ROM By Power-on.
+
+ RPU's version information:
+ Router AR46-20 with 1 PowerPC 750 Processor
+ 256M     bytes SDRAM
+ 32M      bytes FLASH
+ 512K     bytes NVRAM
+ PCB       Version : 2.0
+ RPE Logic Version : 3.4
+ SBG Logic Version : 12.0
+ Small BootROM  Version :  3.07
+ Big   BootROM  Version :  5.25
+ Config Register points to FLASH
+
+  [SLOT 0] AUX0     (Hardware)2.0, (Driver)1.0, (CPLD)3.4
+  [SLOT 0] ETH0     (Hardware)2.0, (Driver)1.0, (CPLD)3.4
+  [SLOT 0] ETH1     (Hardware)2.0, (Driver)1.0, (CPLD)3.4
+  [SLOT 1] 8E1(75)  (Hardware)3.0, (Driver)1.0, (CPLD)1.0
+  [SLOT 2] 8E1(75)  (Hardware)3.0, (Driver)1.0, (CPLD)1.0
+<XZ_LS_WG_AR46-20>display device
+ AR46-20's Device status:
+
+ Slot #    Type        Online    Status      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 0         RPU         Present   Normal      
+ 1         8E1(75)     Present   Normal      
+ 2         8E1(75)     Present   Normal      
+ 3         PWR         Present   Normal      
+ 5         FAN         Present   Abnormal    
+
+<XZ_LS_WG_AR46-20>display startup
+  Startup saved-configuration file:          flash:/vrpcfg.cfg
+  Next startup saved-configuration file:     flash:/vrpcfg.cfg
+<XZ_LS_WG_AR46-20>dis cpu-usage
+===== Current CPU usage info =====
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 2%
+CPU Usage Stat. Time : 2026-03-13  11:02:54
+CPU Usage Stat. Tick : 0x82113(CPU Tick High) 0x68627377(CPU Tick Low)
+Actual Stat. Cycle   : 0x0(CPU Tick High) 0x6fc4ad41(CPU Tick Low)
+
+TaskName        CPU        Runtime(CPU Tick High/CPU Tick Low)
+VIDL            98%               0/6e42a5ba
+TICK             0%               0/   77075
+ vt0             0%               0/    493f
+INFO             0%               0/   249fc
+ SRM             0%               0/    dbbe
+DRTM             0%               0/   16e3e
+ROUT             0%               0/   2dc7c
+SapT             0%               0/   89574
+SOCK             0%               0/   802f4
+VSIF             0%               0/   84c34
+VTYD             1%               0/ 11f8eb1
+IPSP             0%               0/    493f
+ IKE             0%               0/    493f
+DVPN             0%               0/    558b
+ TAC             0%               0/   16e3e
+  SC             0%               0/   5b8f8
+ RDS             0%               0/   5b8f8
+ ACM             0%               0/   56fb8
+TRAP             0%               0/   2dc7c
+DTCT             0%               0/   16e3e
+NTPT             0%               0/  17765f
+PIMT             0%               0/    3cee
+LSPM             0%               0/    493f
+ L2V             0%               0/    493f
+ MIP             0%               0/    7af8
+ IPP             0%               0/    26b7
+ SIP             0%               0/    dbbe
+PTTP             0%               0/    493f
+DHCP             0%               0/   493f9
+ HOT             0%               0/    927f
+RMON             0%               0/    8ebf
+DHCC             0%               0/   325bb
+
+<XZ_LS_WG_AR46-20>dis memory
+System Available Memory(bytes): 161335680
+System Used Memory(bytes): 45883644
+Used Rate: 28%
+<XZ_LS_WG_AR46-20>display interface
+Aux0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Aux0 Interface 
+The Maximum Transmit Unit is 1500
+Internet protocol processing : disabled
+Data drive mode: flow
+    Last 300 seconds input:  0.0 bytes/sec, 0.0 packets/sec
+    Last 300 seconds output:  0.0 bytes/sec, 0.0 packets/sec
+    Input:  0 packets,  0 bytes
+    Output: 0 packets,  0 bytes
+    error: Parity 0, Frame 0, Overrun 0, FIFO 0
+
+
+Ethernet0/0/0 current state :UP   
+Line protocol current state :UP
+Description : to NE80E-2_3/0/5-MDCN 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Internet Address is 10.237.34.26/30 
+IP Sending Frames' Format is PKTFMT_ETHNT_2, Hardware address is 000f-e2b5-c116
+Media type is twisted pair, loopback not set, promiscuous mode not set
+100Mb/s-speed mode, Full-duplex mode, link type is auto negotiation
+Output flow-control is unsupported, input flow-control is unsupported
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+    Last 300 seconds input:  6398.75 bytes/sec, 51190 bits/sec, 10.65 packets/sec
+    Last 300 seconds output:  812.36 bytes/sec, 6498 bits/sec, 10.26 packets/sec
+    Input: 594531912 packets, 369682209 bytes, 594531912 buffers
+           1 broadcasts, 0 multicasts, 0 pauses
+           0 errors, 0 runts, 0 giants
+           0 crc, 0 align errors, 0 overruns
+           0 jabbers, 0 drops, 0 no buffers
+           0 collisions, 0 late collisions, 0 resource errors
+           0 other errors
+    Output:645614625 packets, 4096268612 bytes, 645614625 buffers
+           61790 broadcasts, 7322124 multicasts, 0 pauses
+           0 errors, 0 underruns, 0 collisions
+           0 late collisions, 0 retransmit limits
+
+Ethernet0/0/1 current state :UP   
+Line protocol current state :UP
+Description : TO XZ_LS_WG_E200S E0/0/4 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Internet Address is 10.233.105.186/30 
+IP Sending Frames' Format is PKTFMT_ETHNT_2, Hardware address is 000f-e2b5-c117
+Media type is twisted pair, loopback not set, promiscuous mode not set
+100Mb/s-speed mode, Full-duplex mode, link type is auto negotiation
+Output flow-control is unsupported, input flow-control is unsupported
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/232 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+    Last 300 seconds input:  1186.62 bytes/sec, 9492 bits/sec, 9.04 packets/sec
+    Last 300 seconds output:  6823.94 bytes/sec, 54591 bits/sec, 11.33 packets/sec
+    Input: 576362060 packets, 1085102287 bytes, 576362060 buffers
+           223 broadcasts, 11971634 multicasts, 0 pauses
+           0 errors, 0 runts, 0 giants
+           0 crc, 0 align errors, 0 overruns
+           0 jabbers, 0 drops, 0 no buffers
+           0 collisions, 0 late collisions, 0 resource errors
+           0 other errors
+    Output:659519802 packets, 3145821913 bytes, 659519802 buffers
+           61315 broadcasts, 11780239 multicasts, 0 pauses
+           0 errors, 0 underruns, 0 collisions
+           0 late collisions, 0 retransmit limits
+
+LoopBack0 current state :UP   
+Line protocol current state :UP (spoofing)
+Description : LoopBack0 Interface 
+The Maximum Transmit Unit is 1536
+Internet Address is 10.233.105.241/32 
+Physical is Loopback 
+    Last 300 seconds input:  0.00 bytes/sec 0.00 packets/sec
+    Last 300 seconds output:  0.00 bytes/sec 0.00 packets/sec
+    0 packets input, 0 bytes, 0 drops
+    0 packets output, 0 bytes, 0 drops
+
+NULL0 current state :UP   
+Line protocol current state :UP (spoofing)
+Description : NULL0 Interface 
+The Maximum Transmit Unit is 1500
+Internet protocol processing : disabled
+Physical is NULL DEV 
+    Last 300 seconds input:  0.00 bytes/sec 0.00 packets/sec
+    Last 300 seconds output:  0.00 bytes/sec 0.00 packets/sec
+    0 packets input, 0 bytes, 0 drops
+    0 packets output, 0 bytes, 0 drops
+
+Serial1/0/0:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : TO XZ_rikazhe_WG_AR28-11 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/0,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial1/0/1:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : TO XZ_linzi_WG_AR28-11 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/1,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial1/0/2:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : TO XZ_shannan_WG_AR28-11 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/2,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial1/0/3:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : TO XZ_changdu_WG_AR28-11 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/3,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial1/0/4:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : TO XZ_naqu_WG_AR28-11 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/4,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial1/0/5:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : TO XZ_ali_WG_AR28-11 ser3/0:0 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/5,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial1/0/6:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : TO XZ_ali_WG_AR28-11 ser 2/0:0 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/6,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial1/0/7:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial1/0/7:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 1/0/7,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/0:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/0:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/0,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/1:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/1:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/1,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/2:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/2:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/2,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/3:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/3:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/3,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/4:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/4:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/4,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/5:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/5:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/5,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/6:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/6:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/6,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+Serial2/0/7:0 current state : Administratively DOWN  
+Line protocol current state :DOWN
+Description : Serial2/0/7:0 Interface 
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec) 
+Derived from E1 2/0/7,  Unframed mode,  baudrate is 2048000 bps
+Internet protocol processing : disabled
+Link layer protocol is PPP 
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/50/0
+Output queue : (Protocol queuing : Size/Length/Discards) 0/500/0 
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Last clearing of counters: Never
+Error packet detect: Initial
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers 
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+
+<XZ_LS_WG_AR46-20>display interface brief
+                                    ^
+ % Wrong parameter found at '^' position.
+<XZ_LS_WG_AR46-20>display ip interface brief
+*down: administratively down
+(l): loopback
+(s): spoofing
+ Interface                   IP Address      Physical Protocol     Description 
+ Aux0                        unassigned      *down    down         Aux0 Inte...
+ Ethernet0/0/0               10.237.34.26    up       up           to NE80E-...
+ Ethernet0/0/1               10.233.105.186  up       up           TO XZ_LS_...
+ LoopBack0                   10.233.105.241  up       up(s)        LoopBack0...
+ Serial1/0/0:0               unassigned      *down    down         TO XZ_rik...
+ Serial1/0/1:0               unassigned      *down    down         TO XZ_lin...
+ Serial1/0/2:0               unassigned      *down    down         TO XZ_sha...
+ Serial1/0/3:0               unassigned      *down    down         TO XZ_cha...
+ Serial1/0/4:0               unassigned      *down    down         TO XZ_naq...
+ Serial1/0/7:0               unassigned      *down    down         Serial1/0...
+ Serial2/0/0:0               unassigned      *down    down         Serial2/0...
+ Serial2/0/1:0               unassigned      *down    down         Serial2/0...
+ Serial2/0/2:0               unassigned      *down    down         Serial2/0...
+ Serial2/0/3:0               unassigned      *down    down         Serial2/0...
+ Serial2/0/4:0               unassigned      *down    down         Serial2/0...
+ Serial2/0/5:0               unassigned      *down    down         Serial2/0...
+ Serial2/0/6:0               unassigned      *down    down         Serial2/0...
+ Serial2/0/7:0               unassigned      *down    down         Serial2/0...
+<XZ_LS_WG_AR46-20>display ip routing-table
+ Routing Table: public net
+Destination/Mask   Protocol Pre  Cost        Nexthop         Interface
+10.1.85.0/24       O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.1.93.208/28     OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.1.95.0/24       O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.1.119.129/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.1.119.134/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.1.119.137/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.1.121.0/24      O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.1.123.45/32     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.1.143.0/24      O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.11.192.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.186.115.130/32  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.209.24.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.209.25.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.9.0/24      O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.9.40/29     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.26.55/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.53.0/26     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.55.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.63.64/27    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.81.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.88.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.96.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.96.91/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.98.16/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.98.170/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.105.0/27    OSPF     10   3           10.233.105.185  Ethernet0/0/1
+10.233.105.32/27   OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.233.105.64/28   STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.80/28   STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.96/28   STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.112/28  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.128/28  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.144/28  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.160/29  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.105.168/29  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.105.176/29  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.105.184/30  DIRECT   0    0           10.233.105.186  Ethernet0/0/1
+10.233.105.186/32  DIRECT   0    0           127.0.0.1       InLoopBack0
+10.233.105.188/30  OSPF     10   2           10.233.105.185  Ethernet0/0/1
+10.233.105.192/30  OSPF     10   2           10.233.105.185  Ethernet0/0/1
+10.233.105.196/30  OSPF     10   2           10.233.105.185  Ethernet0/0/1
+10.233.105.200/30  OSPF     10   3           10.233.105.185  Ethernet0/0/1
+10.233.105.204/32  OSPF     10   1           10.233.105.185  Ethernet0/0/1
+10.233.105.207/32  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.208/28  OSPF     10   3           10.233.105.185  Ethernet0/0/1
+10.233.105.224/29  OSPF     10   3           10.233.105.185  Ethernet0/0/1
+10.233.105.232/30  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.105.236/30  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.105.240/32  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.241/32  DIRECT   0    0           127.0.0.1       InLoopBack0
+10.233.105.242/32  OSPF     10   2           10.233.105.185  Ethernet0/0/1
+10.233.105.243/32  OSPF     10   2           10.233.105.185  Ethernet0/0/1
+10.233.105.246/32  OSPF     10   2           10.233.105.185  Ethernet0/0/1
+10.233.105.247/32  OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.233.105.248/32  OSPF     10   3           10.233.105.185  Ethernet0/0/1
+10.233.105.249/32  OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.233.105.251/32  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.252/32  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.253/32  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.105.254/32  STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.233.121.142/32  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.121.200/32  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.137.0/29    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.233.137.128/25  O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.233.187.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.205.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.233.205.235/32  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.234.2.232/30    STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.234.2.244/30    STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.234.3.118/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.234.3.200/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.234.115.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.39.41/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.40.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.41.0/29     OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.235.41.8/29     OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.235.41.16/29    OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.235.41.24/29    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.32/29    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.40/29    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.48/28    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.64/29    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.72/29    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.80/28    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.112/28   O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.128/25   O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.41.192/29   O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.235.42.0/29     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.8/29     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.16/28    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.32/29    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.40/29    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.48/28    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.72/29    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.112/29   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.42.128/25   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.60.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.235.61.0/24     O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.237.16.32/29    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.16.40/29    O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.237.34.24/30    DIRECT   0    0           10.237.34.26    Ethernet0/0/0
+10.237.34.26/32    DIRECT   0    0           127.0.0.1       InLoopBack0
+10.237.34.164/30   STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.237.34.208/30   STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.237.34.220/30   STATIC   60   0           10.237.34.25    Ethernet0/0/0
+10.237.35.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.50.25/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.61.9/32     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.61.32/30    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.62.0/25     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.62.8/32     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.75.233/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.80.0/27     OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.237.80.32/27    OSPF     10   5           10.233.105.185  Ethernet0/0/1
+10.237.80.196/30   OSPF     10   4           10.233.105.185  Ethernet0/0/1
+10.237.80.220/30   OSPF     10   3           10.233.105.185  Ethernet0/0/1
+10.237.95.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.96.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.98.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.98.16/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.98.170/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.99.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.100.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.112.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.237.252.0/25    OSPF     10   3           10.233.105.185  Ethernet0/0/1
+10.237.252.128/26  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.239.104.0/25    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.239.111.0/25    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.239.122.0/25    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.239.155.128/25  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.239.242.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.87.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.94.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.99.30/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.103.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.105.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.106.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.106.18/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.106.34/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.117.0/25    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.117.128/25  O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.241.118.0/29    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.124.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.146.80/28   O_ASE    150  5           10.233.105.185  Ethernet0/0/1
+10.241.156.85/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.156.213/32  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.193.0/27    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.206.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.206.128/28  O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.215.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.218.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.219.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.232.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.232.0/27    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.233.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.241.236.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.66.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.68.212/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.69.41/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.69.43/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.69.44/32    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.103.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.176.76/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.182.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.243.183.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.245.147.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.245.166.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+10.254.251.0/24    O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+127.0.0.0/8        DIRECT   0    0           127.0.0.1       InLoopBack0
+127.0.0.1/32       DIRECT   0    0           127.0.0.1       InLoopBack0
+172.16.6.0/24      O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+172.16.9.0/24      O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+172.16.14.184/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+172.16.23.192/26   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+172.16.190.82/32   O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+172.17.64.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+172.17.68.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+172.17.69.0/24     O_ASE    150  1           10.233.105.185  Ethernet0/0/1
+<XZ_LS_WG_AR46-20>dis alarm urgent
+Alarm ID   Slot       Date        Time      Para1   Para2 
+12         0        25/7 /4     23:55:36     3         243      
+18         0        25/6 /11    6 :22:15     3         243      
+18         0        25/5 /31    10:14:14     3         243      
+12         0        23/12/12    5 :28:54     3         243      
+18         0        23/11/16    12:16:18     3         243      
+1          5        9 /3 /23    19:3 :40    1         
+3          5        9 /3 /23    19:3 :40    1         
+2          5        9 /3 /23    19:3 :34    1         
+0          5        9 /3 /23    19:2 :18    1         
+3          5        9 /3 /23    19:2 :18    1         
+1          5        9 /3 /23    19:2 :18    1         
+2          5        9 /3 /23    19:2 :8     1         
+1          5        8 /12/23    12:12:23    1         
+3          5        8 /12/23    12:12:23    1         
+2          5        8 /12/23    12:12:0     1         
+1          5        8 /12/23    12:10:46    1         
+3          5        8 /12/23    12:10:46    1         
+2          5        8 /12/23    12:10:34    1         
+
+<XZ_LS_WG_AR46-20>display logbuffer
+Logging buffer configuration and contents:enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 38820
+Current messages : 512
+
+%Feb 19 16:40:05:261 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 19 16:40:05:281 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 19 16:40:05:418 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 19 16:40:06:888 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 19 16:40:06:890 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 19 16:40:06:891 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 19 16:40:06:964 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 19 16:40:06:990 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 19 16:40:06:009 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 19 16:40:06:110 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 19 16:40:07:239 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 19 16:40:07:305 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 19 16:40:07:379 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Feb 19 16:40:08:538 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Feb 19 16:40:08:610 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu
+%Feb 19 16:40:08:762 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 19 16:40:08:924 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 19 17:00:09:311 2026 XZ_LS_WG_AR46-20 HWCM/5/EXIT: exit from configure mode
+%Feb 19 17:00:09:312 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : |%Feb 19 17:00:09:312 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM |O SSH_Main_Disconnect
+%Feb 19 17:00:09:313 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 20 15:32:38:507 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 20 15:32:38:508 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 20 15:32:38:528 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 20 15:32:38:667 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 20 15:32:38:142 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 20 15:32:38:145 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 20 15:32:38:146 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 20 15:32:38:423 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 20 15:32:38:450 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 20 15:32:39:471 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 20 15:32:39:570 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 20 15:32:40:740 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 20 15:32:40:806 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 20 15:32:40:881 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Feb 20 15:32:40:040 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Feb 20 15:32:40:111 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu
+%Feb 20 15:32:40:270 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 20 15:32:40:425 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 20 15:36:13:214 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 20 15:36:13:214 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 20 15:36:13:215 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 20 15:36:13:411 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 21 16:52:56:223 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 21 16:52:56:224 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 21 16:52:56:241 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 21 16:52:56:378 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 21 16:52:57:849 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 21 16:52:57:852 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 21 16:52:57:853 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 21 16:52:57:123 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 21 16:52:57:150 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 21 16:52:57:170 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 21 16:52:57:270 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 21 16:53:00:708 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 21 16:53:00:775 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 21 16:53:00:848 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Feb 21 16:53:00:008 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Feb 21 16:53:00:080 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu
+%Feb 21 16:53:00:240 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 21 16:53:01:404 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 21 16:54:14:327 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 21 16:54:14:328 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 21 16:54:14:328 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 21 16:54:14:391 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 22 17:06:04:722 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 22 17:06:04:723 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 22 17:06:04:743 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 22 17:06:04:880 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 22 17:06:05:353 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 22 17:06:05:357 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 22 17:06:05:358 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 22 17:06:05:588 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 22 17:06:05:610 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 22 17:06:05:630 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 22 17:06:05:730 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 22 17:06:06:664 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 22 17:06:06:732 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 22 17:06:06:808 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Feb 22 17:06:06:970 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Feb 22 17:06:06:050 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu
+%Feb 22 17:06:06:209 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 22 17:06:07:374 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 22 17:07:13:961 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 22 17:07:13:961 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 22 17:07:13:961 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 22 17:07:13:161 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 23 16:16:10:306 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 23 16:16:10:307 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 23 16:16:10:326 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 23 16:16:10:463 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 23 16:16:10:935 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 23 16:16:10:938 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 23 16:16:10:939 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 23 16:16:10:008 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 23 16:16:10:030 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 23 16:16:10:049 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 23 16:16:10:150 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 23 16:16:12:019 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Feb 23 16:16:12:087 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Feb 23 16:16:12:159 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Feb 23 16:16:13:318 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Feb 23 16:16:13:391 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu
+%Feb 23 16:16:13:548 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Feb 23 16:16:13:704 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Feb 23 16:17:08:797 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 23 16:17:08:797 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 23 16:17:08:797 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 23 16:17:08:891 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 23 16:28:15:763 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 23 16:28:15:764 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 23 16:28:15:783 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 23 16:28:15:922 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 23 16:28:16:392 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 23 16:28:16:395 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 23 16:28:16:395 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 23 16:28:16:473 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Feb 23 16:28:16:500 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Feb 23 16:28:16:519 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Feb 23 16:28:16:620 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Feb 23 16:28:20:458 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Feb 23 16:34:30:628 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Feb 23 16:34:30:628 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 23 16:34:30:629 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 23 16:34:30:651 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Feb 27 11:39:36:766 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:39:36:767 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:39:36:768 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:40:33:685 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:40:33:687 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:40:33:687 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:41:46:661 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:41:46:662 2026 XZ_LS_WG_AR46-20 SSH/5/get_version_fail:Get version string fail!
+%Feb 27 11:41:46:662 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:41:46:662 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:41:54:388 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:41:54:394 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:41:54:394 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:42:00:446 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:00:455 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:42:00:455 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:42:02:587 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:04:592 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:04:593 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:04:593 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:04:886 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:04:922 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:42:04:922 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:42:09:991 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:10:030 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:10:051 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:10:390 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:11:082 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:11:585 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:11:651 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:11:654 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Feb 27 11:42:11:654 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Feb 27 11:42:12:113 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:12:130 2026 XZ_LS_WG_AR46-20 SSH/5/ver_minor_err:Protocol minor versions 33 is too old
+%Feb 27 11:42:12:131 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:42:12:131 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:42:12:149 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:12:158 2026 XZ_LS_WG_AR46-20 SSH/5/ver_minor_err:Protocol minor versions 5 is too old
+%Feb 27 11:42:12:158 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:42:12:158 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:42:16:394 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:16:434 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:42:16:434 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:42:16:436 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:16:439 2026 XZ_LS_WG_AR46-20 SSH/5/get_version_fail:Get version string fail!
+%Feb 27 11:42:16:439 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_VersionMatch
+%Feb 27 11:42:16:439 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_Disconnect
+%Feb 27 11:42:16:761 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:16:836 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:16:866 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:17:188 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:17:842 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:18:269 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:18:515 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:18:530 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:18:530 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:18:547 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:18:555 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:18:556 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:18:793 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:19:807 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:20:130 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:20:279 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:20:289 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:20:289 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:20:294 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:20:315 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:20:338 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:20:587 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:21:297 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:21:818 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:22:215 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:22:221 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:22:222 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:22:235 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:22:251 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:22:342 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:22:587 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:23:267 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:23:758 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:23:858 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:23:866 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:23:866 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:23:868 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:23:873 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:23:876 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:24:187 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:24:775 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:25:188 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:25:416 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:25:420 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:25:421 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:25:446 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:25:459 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:25:460 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:25:787 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:26:487 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:26:978 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:27:153 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:27:157 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:27:157 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:27:161 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:27:187 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:27:204 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:27:387 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:27:977 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:28:423 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:28:462 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:28:490 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:28:490 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Feb 27 11:42:28:492 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Feb 27 11:42:28:514 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Feb 27 11:42:28:558 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Feb 27 11:42:28:787 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Feb 27 11:42:29:500 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Feb 27 11:42:30:266 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Feb 27 11:42:30:550 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Feb 27 11:42:30:557 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is :
+%Feb 27 11:42:30:557 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM  TO [STRING]
+%Mar  2 11:15:01:673 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  2 11:15:01:675 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  2 11:15:01:689 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  2 11:15:01:826 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  2 11:15:02:296 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  2 11:15:02:299 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  2 11:15:02:300 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  2 11:15:02:301 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  2 11:15:02:330 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  2 11:15:02:331 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  2 11:15:02:430 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: jtcjxz login from 10.237.100.188
+%Mar  2 11:15:04:036 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar  2 11:15:04:036 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar  2 11:15:04:036 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar  2 11:15:04:037 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_Disconnect
+%Mar  2 11:15:04:038 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Disconnect TO SSH_Main_Disconnect
+%Mar  2 11:15:04:231 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: jtcjxz logout from 10.237.100.188
+%Mar  3 15:44:09:915 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  3 15:44:09:916 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  3 15:44:09:935 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  3 15:44:09:072 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  3 15:44:09:545 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  3 15:44:09:547 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  3 15:44:09:548 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  3 15:44:09:703 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  3 15:44:09:730 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  3 15:44:09:749 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  3 15:44:10:850 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar  3 16:04:10:052 2026 XZ_LS_WG_AR46-20 HWCM/5/EXIT: exit from configure mode
+%Mar  3 16:04:10:052 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : |%Mar  3 16:04:10:053 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM |O SSH_Main_Disconnect
+%Mar  3 16:04:10:053 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar  3 16:34:31:249 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  3 16:34:31:251 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  3 16:34:31:270 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  3 16:34:31:407 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  3 16:34:32:878 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  3 16:34:32:881 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  3 16:34:32:882 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  3 16:34:32:148 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  3 16:34:32:170 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  3 16:34:32:191 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  3 16:34:32:290 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar  3 16:34:33:605 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar  3 16:34:33:673 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar  3 16:34:33:748 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Mar  3 16:34:34:907 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Mar  3 16:34:34:980 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu
+%Mar  3 16:34:34:141 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display memory
+%Mar  3 16:34:34:305 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar  3 16:34:35:675 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar  3 16:54:36:091 2026 XZ_LS_WG_AR46-20 HWCM/5/EXIT: exit from configure mode
+%Mar  3 16:54:36:092 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : |%Mar  3 16:54:36:092 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM |O SSH_Main_Disconnect
+%Mar  3 16:54:36:093 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar  4 08:58:36:481 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  4 08:58:36:482 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  4 08:58:36:502 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  4 08:58:36:639 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  4 08:58:37:111 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  4 08:58:37:114 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  4 08:58:37:115 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  4 08:58:37:380 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  4 08:58:37:410 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  4 08:58:37:430 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  4 08:58:37:530 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar  4 09:00:45:720 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar  4 09:00:45:721 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar  4 09:00:45:721 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar  4 09:00:46:740 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar  4 17:31:03:143 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  4 17:31:03:144 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  4 17:31:03:145 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  4 17:31:03:282 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  4 17:31:04:756 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  4 17:31:04:759 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  4 17:31:04:760 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  4 17:31:04:760 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  4 17:31:04:790 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  4 17:31:04:791 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  4 17:31:04:890 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: jtcjxz login from 10.237.100.188
+%Mar  4 17:31:19:376 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:dis users
+%Mar  4 17:31:29:393 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:display version
+%Mar  4 17:32:09:431 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:dis users
+%Mar  4 17:32:40:898 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar  4 17:32:40:898 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar  4 17:32:40:899 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar  4 17:32:40:899 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_Disconnect
+%Mar  4 17:32:40:900 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Disconnect TO SSH_Main_Disconnect
+%Mar  4 17:32:40:001 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: jtcjxz logout from 10.237.100.188
+%Mar  9 14:47:57:875 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar  9 14:47:57:876 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar  9 14:47:57:877 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar  9 14:47:57:014 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar  9 14:47:58:485 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar  9 14:47:58:487 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar  9 14:47:58:488 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar  9 14:47:58:489 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar  9 14:47:58:510 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar  9 14:47:58:511 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar  9 14:47:58:610 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: jtcjxz login from 10.237.100.188
+%Mar  9 14:48:13:102 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:dis users
+%Mar  9 14:48:23:115 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:display interface
+%Mar  9 14:48:33:134 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:display version
+%Mar  9 14:48:43:160 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:display current-configuration | include sysname
+%Mar  9 14:49:03:167 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:display version
+%Mar  9 14:49:13:180 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:display current-configuration
+%Mar  9 14:49:23:184 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.100.188 user:** command:dis users
+%Mar  9 14:49:54:733 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar  9 14:49:54:733 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar  9 14:49:54:733 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar  9 14:49:54:734 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_Disconnect
+%Mar  9 14:49:54:735 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Disconnect TO SSH_Main_Disconnect
+%Mar  9 14:49:54:750 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: jtcjxz logout from 10.237.100.188
+%Mar 11 14:13:50:841 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 11 14:13:50:842 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 11 14:13:50:861 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 11 14:13:50:999 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 11 14:13:51:468 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 11 14:13:51:472 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 11 14:13:51:473 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 11 14:13:56:321 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 11 14:13:56:350 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 11 14:13:57:285 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 11 14:13:58:410 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 11 14:15:09:354 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar 11 14:15:09:355 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar 11 14:15:09:355 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar 11 14:15:09:411 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 11 14:15:48:394 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 11 14:15:48:395 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 11 14:15:48:421 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 11 14:15:48:559 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 11 14:15:48:032 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 11 14:15:48:036 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 11 14:15:48:037 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 11 14:15:52:146 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 11 14:15:52:170 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 11 14:15:52:191 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 11 14:15:53:290 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 11 14:16:04:928 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar 11 14:16:04:929 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar 11 14:16:04:929 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar 11 14:16:04:091 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 11 14:17:40:655 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 11 14:17:40:656 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 11 14:17:40:676 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 11 14:17:40:813 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 11 14:17:40:286 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 11 14:17:40:289 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 11 14:17:41:290 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 11 14:17:43:259 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 11 14:17:43:280 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 11 14:17:46:989 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 11 14:17:46:110 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 11 14:37:47:312 2026 XZ_LS_WG_AR46-20 HWCM/5/EXIT: exit from configure mode
+%Mar 11 14:37:47:312 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : |%Mar 11 14:37:47:313 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM |O SSH_Main_Disconnect
+%Mar 11 14:37:47:313 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 11 14:57:45:005 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 11 14:57:45:006 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 11 14:57:45:029 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 11 14:57:45:166 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 11 14:57:46:638 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 11 14:57:46:642 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 11 14:57:46:643 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 11 14:57:49:852 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 11 14:57:49:880 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 11 14:57:50:334 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 11 14:57:52:680 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 11 14:59:10:099 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar 11 14:59:10:176 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Mar 11 14:59:10:254 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar 11 14:59:11:333 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Mar 11 14:59:11:426 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis memory
+%Mar 11 14:59:11:507 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display interface
+%Mar 11 14:59:11:755 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar 11 14:59:11:882 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar 11 14:59:11:030 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis alarm urgent
+%Mar 11 14:59:11:119 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar 11 14:59:12:521 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar 11 15:19:13:901 2026 XZ_LS_WG_AR46-20 HWCM/5/EXIT: exit from configure mode
+%Mar 11 15:19:13:902 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : |%Mar 11 15:19:13:902 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM |O SSH_Main_Disconnect
+%Mar 11 15:19:13:903 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 12 09:59:45:981 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 12 09:59:45:982 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 12 09:59:45:004 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 12 09:59:45:142 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 12 09:59:46:610 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 12 09:59:46:614 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 12 09:59:46:615 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 12 09:59:48:922 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 12 09:59:48:950 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 12 09:59:52:364 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 12 09:59:52:860 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 12 10:00:28:698 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar 12 10:00:28:778 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Mar 12 10:00:28:860 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar 12 10:00:28:938 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Mar 12 10:00:28:027 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis memory
+%Mar 12 10:00:28:108 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display interface
+%Mar 12 10:00:29:362 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar 12 10:00:29:485 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar 12 10:00:29:636 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis alarm urgent
+%Mar 12 10:00:29:724 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar 12 10:00:29:072 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar 12 10:05:18:691 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Dissconnect
+%Mar 12 10:05:18:691 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar 12 10:05:18:692 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar 12 10:05:18:851 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 12 13:19:22:609 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 12 13:19:22:611 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 12 13:19:22:634 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 12 13:19:22:770 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 12 13:19:23:241 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 12 13:19:23:245 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 12 13:19:23:245 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 12 13:19:25:463 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 12 13:19:25:490 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 12 13:19:25:921 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 12 13:19:29:820 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 12 13:20:01:100 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar 12 13:20:01:178 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Mar 12 13:20:02:258 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar 12 13:20:02:337 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Mar 12 13:20:02:428 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis memory
+%Mar 12 13:20:02:508 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display interface
+%Mar 12 13:20:02:758 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar 12 13:20:02:880 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar 12 13:20:02:034 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis alarm urgent
+%Mar 12 13:20:02:121 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+%Mar 12 13:20:03:526 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display current-configuration
+%Mar 12 13:40:04:901 2026 XZ_LS_WG_AR46-20 HWCM/5/EXIT: exit from configure mode
+%Mar 12 13:40:04:902 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : |%Mar 12 13:40:04:902 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM |O SSH_Main_Disconnect
+%Mar 12 13:40:04:903 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGOUT: xz4a_admin logout from 10.237.35.254
+%Mar 13 11:01:31:997 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 13 11:01:31:998 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 13 11:01:31:014 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 13 11:01:31:152 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 13 11:01:32:622 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 13 11:01:42:280 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 13 11:01:42:451 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 13 11:01:42:453 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 13 11:01:54:751 2026 XZ_LS_WG_AR46-20 SSH/5/err_disconnect:The connection is closed by SSH Server
+Current FSM is : SSH_Main_SSHProcess
+%Mar 13 11:01:54:752 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_SSHProcess TO SSH_Main_Disconnect
+%Mar 13 11:02:15:952 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_Connect TO SSH_Main_VersionMatch
+%Mar 13 11:02:15:953 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Main_VersionMatch TO SSH_Main_SSHProcess
+%Mar 13 11:02:15:971 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_Init TO SSH_Sub1_KEX_GEX_Group
+%Mar 13 11:02:15:109 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Group TO SSH_Sub1_KEX_GEX_Reply
+%Mar 13 11:02:16:582 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_GEX_Reply TO SSH_Sub1_KEX_NewKey
+%Mar 13 11:02:16:585 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_KEX_NewKey TO SSH_Sub1_Authentication
+%Mar 13 11:02:16:586 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Service_Acc TO SSH_Sub2_Auth_Init
+%Mar 13 11:02:18:903 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub2_Auth_Init TO SSH_Sub2_Auth_Password
+%Mar 13 11:02:18:930 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Authentication TO SSH_Sub1_Channel
+%Mar 13 11:02:20:757 2026 XZ_LS_WG_AR46-20 SSH/5/fsm_move:FSM MOVE FROM SSH_Sub1_Channel TO SSH_Sub1_Session
+%Mar 13 11:02:21:040 2026 XZ_LS_WG_AR46-20 SHELL/5/LOGIN: xz4a_admin login from 10.237.35.254
+%Mar 13 11:02:54:664 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display version
+%Mar 13 11:02:54:740 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display device
+%Mar 13 11:02:54:819 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display startup
+%Mar 13 11:02:54:896 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis cpu-usage
+%Mar 13 11:02:54:984 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis memory
+%Mar 13 11:02:54:066 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display interface
+%Mar 13 11:02:55:319 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip interface brief
+%Mar 13 11:02:55:438 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display ip routing-table
+%Mar 13 11:02:55:590 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:dis alarm urgent
+%Mar 13 11:02:55:674 2026 XZ_LS_WG_AR46-20 SHELL/5/CMD:task:vt0 ip:10.237.35.254 user:** command:display logbuffer
+<XZ_LS_WG_AR46-20>display current-configuration
+#
+ sysname XZ_LS_WG_AR46-20
+#
+ super password level 3 cipher X%W12.-_]B'Q=^Q`MAF4<1!!
+#
+ cpu-usage cycle 1min
+#
+radius scheme system
+#
+domain system
+#
+local-user cszdxj
+ password cipher 0^,FNa8Y$8/Q=^Q`MAF4<1!!
+ service-type ssh telnet
+ level 3
+local-user jtcjxz
+ password cipher .*:7LaC_G=GQ=^Q`MAF4<1!!
+ service-type ssh telnet terminal
+ level 3
+local-user pubuzhaxi
+ password cipher HX-.!L=6;J<A]\L[4:3;MQ!!
+ service-type ssh telnet terminal
+ level 3
+local-user xz4a_admin
+ password cipher 4^N..I/&0D\EBB]$N8+<<!!!
+ service-type ssh telnet terminal
+ level 3
+local-user xzyd_xiangkun
+ password cipher BK-'B7U!&X_Q=^Q`MAF4<1!!
+ service-type ssh telnet terminal
+ level 3
+#
+acl number 2000
+ rule 5 permit source 10.233.105.0 0.0.0.255
+ rule 10 permit source 10.233.96.0 0.0.0.255
+ rule 15 permit source 10.237.35.0 0.0.0.255
+ rule 20 permit source 10.237.99.0 0.0.0.255
+ rule 25 permit source 10.237.100.0 0.0.0.255
+acl number 2005
+#
+acl number 3001
+ rule 1 deny tcp destination-port eq 4444
+ rule 2 deny udp destination-port eq tftp
+ rule 3 deny tcp destination-port eq 135
+ rule 4 deny udp destination-port eq 135
+ rule 5 deny tcp destination-port eq 139
+ rule 6 deny udp destination-port eq netbios-ssn
+ rule 7 deny tcp destination-port eq 445
+ rule 8 deny udp destination-port eq 445
+ rule 9 deny tcp destination-port eq 593
+ rule 10 deny udp destination-port eq 593
+ rule 11 deny udp destination-port eq 1434
+ rule 12 deny tcp destination-port eq 5554
+ rule 13 deny tcp destination-port eq 9995
+ rule 14 deny tcp destination-port eq 9996
+ rule 15 deny udp destination-port eq netbios-ns
+ rule 16 deny udp destination-port eq netbios-dgm
+#
+controller E1 1/0/0
+ using e1
+ description TO XZ_rikazhe_WG_AR28-11
+#
+controller E1 1/0/1
+ using e1
+ description TO XZ_linzi_WG_AR28-11
+#
+controller E1 1/0/2
+ using e1
+ description TO XZ_shannan_WG_AR28-11
+#
+controller E1 1/0/3
+ using e1
+ description TO XZ_changdu_WG_AR28-11
+#
+controller E1 1/0/4
+ using e1
+ description TO XZ_naqu_WG_AR28-11
+#
+controller E1 1/0/5
+ using e1
+ description TO XZ_ali_WG_AR28-11
+#
+controller E1 1/0/6
+ using e1
+ description TO XZ_ali_WG_AR28-11 E1 2/0
+#
+controller E1 1/0/7
+ using e1
+ shutdown
+#
+controller E1 2/0/0
+ using e1
+ shutdown
+#
+controller E1 2/0/1
+ using e1
+ shutdown
+#
+controller E1 2/0/2
+ using e1
+ shutdown
+#
+controller E1 2/0/3
+ using e1
+ shutdown
+#
+controller E1 2/0/4
+ using e1
+ shutdown
+#
+controller E1 2/0/5
+ using e1
+ shutdown
+#
+controller E1 2/0/6
+ using e1
+ shutdown
+#
+controller E1 2/0/7
+ using e1
+ shutdown
+#
+interface Aux0
+ async mode flow
+ shutdown
+#
+interface Ethernet0/0/0
+ description to NE80E-2_3/0/5-MDCN
+ ip address 10.237.34.26 255.255.255.252
+#
+interface Ethernet0/0/1
+ description TO XZ_LS_WG_E200S E0/0/4
+ ip address 10.233.105.186 255.255.255.252
+ ip urpf strict
+#
+interface Serial1/0/0:0
+ link-protocol ppp
+ description TO XZ_rikazhe_WG_AR28-11
+ shutdown
+ ip urpf strict
+#
+interface Serial1/0/1:0
+ link-protocol ppp
+ description TO XZ_linzi_WG_AR28-11
+ shutdown
+ ip urpf strict
+#
+interface Serial1/0/2:0
+ link-protocol ppp
+ description TO XZ_shannan_WG_AR28-11
+ shutdown
+ ip urpf strict
+#
+interface Serial1/0/3:0
+ link-protocol ppp
+ description TO XZ_changdu_WG_AR28-11
+ shutdown
+ ip urpf strict
+#
+interface Serial1/0/4:0
+ link-protocol ppp
+ description TO XZ_naqu_WG_AR28-11
+ shutdown
+ ip urpf strict
+#
+interface Serial1/0/5:0
+ link-protocol ppp
+ description TO XZ_ali_WG_AR28-11 ser3/0:0
+ shutdown
+ ppp mp Mp-group 1
+#
+interface Serial1/0/6:0
+ link-protocol ppp
+ description TO XZ_ali_WG_AR28-11 ser 2/0:0
+ shutdown
+ ppp mp Mp-group 1
+#
+interface Serial1/0/7:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/0:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/1:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/2:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/3:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/4:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/5:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/6:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial2/0/7:0
+ link-protocol ppp
+ shutdown
+#
+interface NULL0
+#
+interface LoopBack0
+ ip address 10.233.105.241 255.255.255.255
+#
+ospf 1
+ import-route static
+ silent-interface LoopBack0
+ area 0.0.0.0
+  network 10.233.105.160 0.0.0.3
+  network 10.233.105.164 0.0.0.3
+  network 10.233.105.168 0.0.0.3
+  network 10.233.105.172 0.0.0.3
+  network 10.233.105.176 0.0.0.3
+  network 10.233.105.180 0.0.0.3
+  network 10.233.105.184 0.0.0.3
+  network 10.233.105.241 0.0.0.0
+  network 10.237.34.24 0.0.0.3
+#
+ info-center loghost source LoopBack0
+ info-center loghost 10.237.35.55
+ info-center loghost 10.237.35.249
+ info-center loghost 10.237.99.80
+#
+ ip route-static 10.233.105.64 255.255.255.240 10.237.34.25 preference 60 description SN_MDCN_yewu
+ ip route-static 10.233.105.80 255.255.255.240 10.237.34.25 preference 60 description RKZ_MDCN_yewu
+ ip route-static 10.233.105.96 255.255.255.240 10.237.34.25 preference 60 description LZ_MDCN_yewu
+ ip route-static 10.233.105.112 255.255.255.240 10.237.34.25 preference 60 description NQ_MDCN_yewu
+ ip route-static 10.233.105.128 255.255.255.240 10.237.34.25 preference 60 description CD_MDCN_yewu
+ ip route-static 10.233.105.144 255.255.255.240 10.237.34.25 preference 60 description AL_MDCN_yewu
+ ip route-static 10.233.105.207 255.255.255.255 10.237.34.25 preference 60 description CD_MDCN_yewu
+ ip route-static 10.233.105.240 255.255.255.255 10.237.34.25 preference 60 description AL_MDCN_yewu
+ ip route-static 10.233.105.251 255.255.255.255 10.237.34.25 preference 60 description SN_MDCN_yewu
+ ip route-static 10.233.105.252 255.255.255.255 10.237.34.25 preference 60 description RKZ_MDCN_yewu
+ ip route-static 10.233.105.253 255.255.255.255 10.237.34.25 preference 60 description LZ_MDCN_yewu
+ ip route-static 10.233.105.254 255.255.255.255 10.237.34.25 preference 60 description NQ_MDCN_yewu
+ ip route-static 10.234.2.232 255.255.255.252 10.237.34.25 preference 60 description AL_MDCN_hulian
+ ip route-static 10.234.2.244 255.255.255.252 10.237.34.25 preference 60 description CD_MDCN_hulian
+ ip route-static 10.237.34.164 255.255.255.252 10.237.34.25 preference 60 description RKZ_MDCN_hulian
+ ip route-static 10.237.34.208 255.255.255.252 10.237.34.25 preference 60 description NQ_MDCN_hulian
+ ip route-static 10.237.34.220 255.255.255.252 10.237.34.25 preference 60 description LZ_MDCN_hulian
+#
+ snmp-agent
+ snmp-agent local-engineid 000007DB7F00000100006617
+ snmp-agent community read LCjcGPRS
+ snmp-agent community read XZYD_smjk-2018 acl 2000
+ snmp-agent sys-info version v2c v3
+ snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname LCjcGPRS v2c
+ snmp-agent target-host trap address udp-domain 10.237.35.254 params securityname public v2c
+ snmp-agent trap source LoopBack0
+#
+ ntp-service authentication-keyid 1 authentication-mode md5 PUaW5WFYEkI=
+ ntp-service unicast-server 1.1.1.1 authentication-keyid 1
+#
+ ssh authentication-type default password
+ undo ssh server compatible-ssh1x
+ ssh user jtcjxz authentication-type all
+ ssh user jtcjxz service-type all
+ ssh user xz4a_admin authentication-type password
+ ssh user xz4a_admin service-type all
+ ssh user cszdxj authentication-type password
+ ssh user cszdxj service-type stelnet
+ ssh user xzyd_xiangkun authentication-type password
+ ssh user xzyd_xiangkun service-type all
+ ssh user pubuzhaxi authentication-type password
+ ssh user pubuzhaxi service-type all
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher BK-'B7U!&X_Q=^Q`MAF4<1!!
+user-interface aux 0
+ set authentication password cipher BK-'B7U!&X_Q=^Q`MAF4<1!!
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode scheme
+ idle-timeout 20 0
+ screen-length 0
+#
+return

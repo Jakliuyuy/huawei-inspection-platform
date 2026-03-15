@@ -1,0 +1,136 @@
+{
+  "TOC": {
+    "display_name": "TOC系统网络设备",
+    "template": "TOC_Template.docx",
+    "is_english_name": true,
+    "hosts": {
+      "1": "JZ-TOC-EOR01BHW",
+      "2": "JZ-TOC-EOR02BHW",
+      "3": "JZ-TOC-EOR05BHW",
+      "4": "JZ-TOC-EOR06BHW",
+      "5": "JZ-TOC-SACE01BHW",
+      "6": "JZ-TOC-SACE02BHW",
+      "7": "LSJZSN_RN01_BG01_HWNE40E",
+      "8": "LW-TOC-EOR03BHW",
+      "9": "LSLWSN_RN01_DCGW01",
+      "10": "LW-TOC-EOR07BHW",
+      "11": "LW-TOC-SACE04BHW",
+      "12": "LW-TOC-SACE03BHW",
+      "13": "LSLWSN_RN01_DCGW02",
+      "14": "LSLWSN_RN01_BG02-HWNE40E",
+      "15": "LSJZSN_RN01_DCGW01",
+      "16": "LSJZSN_RN01_DCGW02",
+      "17": "LW-TOC-EOR08BHW",
+      "18": "LW-TOC-EOR04BHW"
+    }
+  },
+  "GPRS": {
+    "display_name": "GPRS系统网络设备",
+    "template": "GPRS_Template.docx",
+    "hosts": {
+      "1": "LSNE20E01BHW",
+      "2": "LSNE20E02BHW",
+      "3": "LSSW01BHW",
+      "4": "LSSW02BHW",
+      "5": "LSSW03BHW",
+      "6": "LSSW04BHW",
+      "7": "LSCE01BHW",
+      "8": "LSCE02BHW",
+      "9": "LSCE03BHW",
+      "10": "LSCE04BHW",
+      "11": "LSCE05BHW",
+      "12": "LSCE06BHW"
+    }
+  },
+  "Softswitch": {
+    "display_name": "软交换网络设备",
+    "template": "Softswitch_Template.docx",
+    "hosts": {
+      "1": "XZ_AL_WG_S5536F",
+      "2": "XZ_LS_JF_S5554-EI-D_1",
+      "3": "XZ_LS_JF_S5554S-EI-D_2",
+      "4": "XZ_LS_WG_AR46-20",
+      "5": "XZ_LS_WG_S5554S-EI-D_1",
+      "6": "XZ_LS_WG_S5554S-EI-D_2",
+      "7": "XZ_LS_WH_S5554S-EI-D_1",
+      "8": "XZ_LW_JF_S5554_1",
+      "9": "XZ_LW_JF_S5554_2",
+      "10": "XZ_LW_WG_S5554S_1",
+      "11": "XZ_LW_WG_S5554S_2",
+      "12": "XZ_LW_WG_S5554S_3",
+      "13": "XZ_NQ_S5536F",
+      "14": "XZ_RKZ_S5536F",
+      "15": "XZ_SN_WG_S5554S"
+    }
+  },
+  "SMS": {
+    "display_name": "短信系统网络设备",
+    "template": "SMS_Template.docx",
+    "hosts": {
+      "1": "LSJZ-YD-HTWG-NE8000-M8-1",
+      "2": "LSJZ-YD-HTWG-NE8000-M8-2",
+      "3": "XZYD_ISMG_OUTSIDETOFW_SW_2",
+      "4": "XZYD_ISMG_OUTSIDETOFW_SW_1",
+      "5": "XZYD_JINZHU_ISMG_SW-1_E03",
+      "6": "XZYD_JINZHU_ISMG_SW-2_E04",
+      "7": "XZLS-JZ-DXHYWG-SC-SW-01",
+      "8": "XZLS-JZ-DXHYWG-SC-SW-02"
+    }
+  },
+  "TOB": {
+    "display_name": "TOB网络设备",
+    "template": "TOB_Template.docx",
+    "is_english_name": true,
+    "hosts": {
+      "1": "CDFW101BHW",
+      "2": "CDFW102BHW",
+      "3": "CDSWCE101BHW",
+      "4": "CDSWCE102BHW",
+      "5": "CDWGCE01-HW",
+      "6": "CDWGCE02-HW",
+      "7": "CDYD_RN01_DCGW01-HW",
+      "8": "CDYD_RN01_DCGW02-HW",
+      "9": "JZ-5GToB-EOR-01-HW",
+      "10": "JZ-5GToB-EOR-02-HW",
+      "11": "LW-5GToB-EOR-03-HW",
+      "12": "LW-5GToB-EOR-04-HW",
+      "13": "YLFW101BHW",
+      "14": "YLFW102BHW",
+      "15": "YLSWCE101BHW",
+      "16": "YLSWCE102BHW",
+      "17": "YLTK_RN01_DCGW01-HW",
+      "18": "YLTK_RN01_DCGW02-HW",
+      "19": "YLWGCE01-HW",
+      "20": "YLWGCE02-HW"
+    }
+  },
+  "IntelligentNet": {
+    "display_name": "智能网络设备",
+    "template": "IntelligentNet_Template.docx",
+    "hosts": {
+      "1": "jzznw_S6520_1_down",
+      "2": "jzznw_s6520_2_up",
+      "3": "xzyd-enip1",
+      "4": "xzyd-enip2",
+      "5": "xzyd-usau1",
+      "6": "xzyd-usau2",
+      "7": "XZYD-VPN-RT01",
+      "8": "XZYD-VPN-RT02"
+    }
+  },
+  "NM1": {
+    "display_name": "网管1系统网络设备",
+    "template": "NetMgmt1_Template.docx",
+    "is_dual_title": true
+  },
+  "NM2": {
+    "display_name": "网管2系统网络设备",
+    "template": "NetMgmt2_Template.docx",
+    "is_dual_title": true
+  },
+  "NM3": {
+    "display_name": "网管3系统网络设备",
+    "template": "NetMgmt3_Template.docx",
+    "is_dual_title": true
+  }
+}

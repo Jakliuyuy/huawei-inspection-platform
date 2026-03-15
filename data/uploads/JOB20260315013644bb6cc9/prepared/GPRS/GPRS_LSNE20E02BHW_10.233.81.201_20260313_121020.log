@@ -1,0 +1,126 @@
+﻿<LSNE20E02BHW>screen-length 0 temporary
+              ^
+Error:Unrecognized command found at '^' position.
+<LSNE20E02BHW>dis system-alarm
+System alarm information:
+    No any system alarm!
+
+<LSNE20E02BHW>display device
+NE20E-8's Device status:
+
+Slot #    Type        Online    Status      Role        
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1         2FE         Present   Normal      HIC         
+2         HIPSEC      Present   Normal      HIC         
+3         8E1         Present   Normal      FIC         
+4         4FE         Present   Normal      HIC         
+6         8E1         Present   Normal      FIC         
+9         RPU1        Present   Normal      Master      
+10        RPU2        Present   Normal      Slave       
+11        NPU1        Present   Normal      Master      
+12        NPU2        Present   Normal      Slave       
+13        PWR1        Present   Normal      DC          
+14        PWR2        Present   Normal      DC          
+17        FAN         Present   Normal      NA          
+
+<LSNE20E02BHW>display cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 3% Max: 99%
+CPU Usage Stat. Time : 2026-03-13  12:04:53
+CPU Usage Stat. Tick : 0x53696f(CPU Tick High) 0x21f3fefd(CPU Tick Low)
+Actual Stat. Cycle   : 0x0(CPU Tick High) 0x703dda97(CPU Tick Low)
+
+TaskName        CPU        Runtime(CPU Tick High/CPU Tick Low)
+BUFM             0%               0/   fa837
+VIDL            97%               0/6dcf611d
+TICK             0%               0/  176581
+ NTR             0%               0/    1b74
+IPCQ             0%               0/   2581d
+RPCQ             0%               0/   19858
+HTMR             0%               0/  12b90a
+ HSC             0%               0/   f024b
+VMON             0%               0/     21e
+ NPS             0%               0/  221f7a
+tNet             0%               0/   30eca
+tRlo             0%               0/    e094
+ PTS             0%               0/  2327a0
+STND             0%               0/  127087
+ CFA             0%               0/   1af64
+INFO             0%               0/   ae021
+ SRM             0%               0/  2cd38a
+L2IF             0%               0/   3cdfa
+ BFD             0%               0/   792c1
+ROUT             0%               0/  6ded07
+LSPA             0%               0/   eff98
+RSVP             0%               0/   7f978
+TNLM             0%               0/   8c87a
+ FIB             0%               0/   2e16a
+SOCK             0%               0/  22d336
+VTYD             0%               0/   4dc7b
+IPSP             0%               0/     60c
+ co0             0%               0/   20d99
+L2TP             0%               0/   165f2
+AGNT             0%               0/  3ad15f
+TRAP             0%               0/  1246a4
+MDMT             0%               0/   f4bb9
+NTPT             0%               0/  2ebed0
+ TAC             0%               0/   5a1fb
+ UCM             0%               0/    2d95
+ASPF             0%               0/    2520
+LOAD             0%               0/   1208f
+HS2M             0%               0/   20e94
+VRRP             0%               0/    136d
+DHCP             0%               0/   3c04c
+RMON             0%               0/    e85e
+ HOT             0%               0/   37689
+ vt0             0%               0/  255274
+ vt1             0%               0/   1bda6
+ vt2             0%               0/   1f52c
+  OS             3%               0/       0
+
+<LSNE20E02BHW>display memory-usage
+ Memory utilization statistics at 2026-03-13 12:04:54 566 ms
+ System Total Memory Is: 381178860 bytes
+ Total Memory Used Is: 85537952 bytes
+ Memory Using Percentage Is: 22%
+<LSNE20E02BHW>dis ip interface brief
+*down: administratively down
+(l): loopback
+(s): spoofing
+The number of interface that is UP in Physical is 11
+The number of interface that is DOWN in Physical is 17
+The number of interface that is UP in Protocol is 10
+The number of interface that is DOWN in Protocol is 18
+
+Interface                      IP Address/Mask           Physical   Protocol  
+Aux0                           unassigned                down       down      
+Ethernet1/0/0                  10.233.81.201/30          up         up        
+Ethernet1/0/1                  10.233.251.57/30          up         up        
+Ethernet4/0/0                  10.233.251.41/30          up         up        
+Ethernet4/0/1                  10.233.251.129/30         up         up        
+Ethernet4/0/2                  10.233.251.145/30         up         up        
+Ethernet4/0/3                  10.233.251.137/30         up         up        
+GigabitEthernet0/0/1           unassigned                *down      down      
+GigabitEthernet0/0/2           unassigned                *down      down      
+LoopBack0                      unassigned                up         up(s)     
+MFR0/0/0                       unassigned                down       down      
+NULL0                          unassigned                up         up(s)     
+Serial3/0/0:1                  unassigned                up         up(l)     
+Serial3/0/1:0                  unassigned                up         down      
+Serial3/0/2:0                  unassigned                *down      down      
+Serial3/0/3:1                  unassigned                *down      down      
+Serial3/0/4:1                  10.233.251.65/30          *down      down      
+Serial3/0/5:0                  unassigned                *down      down      
+Serial3/0/6:0                  unassigned                *down      down      
+Serial3/0/7:0                  unassigned                *down      down      
+Serial6/0/0:0                  unassigned                *down      down      
+Serial6/0/1:0                  unassigned                *down      down      
+Serial6/0/2:0                  unassigned                *down      down      
+Serial6/0/3:0                  unassigned                *down      down      
+Serial6/0/4:0                  unassigned                *down      down      
+Serial6/0/5:0                  unassigned                *down      down      
+Serial6/0/6:0                  unassigned                *down      down      
+Serial6/0/7:0                  10.233.251.73/30          up         up(l)     
+<LSNE20E02BHW>dis alarm active
+                  ^
+Error:Unrecognized command found at '^' position.

@@ -1,0 +1,1063 @@
+﻿<XZYD-CSWG-SW-02>screen-length 0 temporary
+                               ^
+ % Unrecognized command found at '^' position.
+<XZYD-CSWG-SW-02>display version
+H3C Comware Software, Version 7.1.045, Release 1122
+Copyright (c) 2004-2017 New H3C Technologies Co., Ltd. All rights reserved.
+H3C S5530C-EI-D uptime is 372 weeks, 1 day, 10 hours, 41 minutes
+Last reboot reason : Cold reboot
+
+Boot image: flash:/s5560ei_d-cmw710-boot-r1122.bin
+Boot image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+System image: flash:/s5560ei_d-cmw710-system-r1122.bin
+System image version: 7.1.045, Release 1122
+  Compiled Mar 15 2017 16:00:00
+
+
+Slot 1:
+Uptime is 372 weeks,1 day,10 hours,41 minutes
+H3C S5530C-EI-D with 2 Processors
+BOARD TYPE:         S5530C-EI-D
+DRAM:               1984M bytes
+FLASH:              512M bytes
+PCB 1 Version:      VER.A
+Bootrom Version:    126
+CPLD 1 Version:     003
+Release Version:    H3C S5530C-EI-D-1122
+Patch Version  :    None
+Reboot Cause  :     ColdReboot
+[SubSlot 0] 24GE+4SFP Plus
+<XZYD-CSWG-SW-02>display device
+Slot Type             State    Subslot  Soft Ver             Patch Ver
+1    S5530C-EI-D      Master   0        S5560EI_D-1122       None      
+<XZYD-CSWG-SW-02>display startup
+MainBoard:
+ Current startup saved-configuration file: flash:/startup.cfg
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<XZYD-CSWG-SW-02>display cpu-usage
+Slot 1 CPU 0 CPU usage:
+       5% in last 5 seconds
+       4% in last 1 minute
+       5% in last 5 minutes
+
+<XZYD-CSWG-SW-02>display memory-usage
+                         ^
+ % Unrecognized command found at '^' position.
+<XZYD-CSWG-SW-02>display interface brief
+Brief information on interfaces in route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Primary IP      Description                
+InLoop0              UP   UP(s)    --              
+Loop0                UP   UP(s)    10.233.87.19    
+M-GE0/0/0            ADM  DOWN     --              
+M-GE0/0/1            DOWN DOWN     --              
+NULL0                UP   UP(s)    --              
+REG0                 UP   --       --              
+Vlan1                DOWN DOWN     --              
+Vlan10               UP   UP       10.233.73.29    
+Vlan73               UP   UP       10.233.73.34    to fierwall-1
+
+Brief information on interfaces in bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed: (a) - auto
+Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed   Duplex Type PVID Description                
+GE1/0/1              DOWN auto    A      A    30   to SW3_1/0/9 Դsw-1 0
+GE1/0/2              DOWN auto    A      A    10   ԭsw-1 0/11
+GE1/0/3              UP   100M(a) F(a)   A    10   ԭsw-1 0/15
+GE1/0/4              DOWN auto    A      A    10   ԭsw-1 0/18
+GE1/0/5              DOWN auto    A      A    30   to CE-ROUTER ԭsw-1 0/23 
+GE1/0/6              DOWN auto    A      A    73   to firewall-1_1/0/0 ԭsw-1 
+GE1/0/7              UP   1G(a)   F(a)   A    73   to_FH_FHRMS ԭ SW2 0/12
+GE1/0/8              DOWN auto    A      A    21   
+GE1/0/9              DOWN auto    A      A    1    
+GE1/0/10             DOWN auto    A      A    1    
+GE1/0/11             DOWN auto    A      A    1    
+GE1/0/12             DOWN auto    A      A    1    
+GE1/0/13             DOWN auto    A      A    1    
+GE1/0/14             DOWN auto    A      A    1    
+GE1/0/15             DOWN auto    A      A    1    
+GE1/0/16             DOWN auto    A      A    1    
+GE1/0/17             DOWN auto    A      A    1    
+GE1/0/18             DOWN auto    A      A    1    
+GE1/0/19             DOWN auto    A      A    1    
+GE1/0/20             DOWN auto    A      A    1    
+GE1/0/21             DOWN auto    A      A    1    
+GE1/0/22             DOWN auto    A      A    1    
+GE1/0/23             DOWN auto    A      A    1    
+GE1/0/24             UP   1G(a)   F(a)   T    1    
+XGE1/0/25            DOWN auto    A      A    1    
+XGE1/0/26            DOWN auto    A      A    1    
+XGE1/0/27            DOWN auto    A      A    1    
+XGE1/0/28            DOWN auto    A      A    1    
+
+<XZYD-CSWG-SW-02>display ip interface brief
+*down: administratively down
+(s): spoofing
+Interface                     Physical Protocol IP Address      Description 
+Loop0                         up       up(s)    10.233.87.19    LoopBack0...
+M-GE0/0/0                     *down    down     unassigned      M-Gigabit...
+M-GE0/0/1                     down     down     unassigned      M-Gigabit...
+Vlan1                         down     down     unassigned      Vlan-inte...
+Vlan10                        up       up       10.233.73.29    Vlan-inte...
+Vlan73                        up       up       10.233.73.34    to fierwa...
+<XZYD-CSWG-SW-02>display current-configuration
+#
+ version 7.1.045, Release 1122
+#
+ sysname XZYD-CSWG-SW-02
+#
+ clock timezone BJ add 08:00:00
+#
+ telnet server enable
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 1
+#
+ospf 301
+ area 0.0.0.0
+  authentication-mode md5 1 cipher $c$3$gkDzCtipSUx5mCOsSV0tzflY4J13wfSHghS2
+  filter route-policy dd import
+#
+ ip unreachables enable
+ ip ttl-expires enable
+#
+ lldp global enable
+#
+ fan prefer-direction slot 1 port-to-power 
+ password-recovery enable
+ pex working-mode switch slot 1
+#
+vlan 1
+#
+vlan 10
+#
+vlan 20
+ name Link_to_other_system
+#
+vlan 21
+#
+vlan 30
+ name link_to_YiGanFanQianZhongDuan
+#
+vlan 73
+#
+vlan 100
+#
+vlan 1111
+ description yuanchengguanli
+#
+ stp global enable
+#
+interface NULL0
+#
+interface LoopBack0
+ ip address 10.233.87.19 255.255.255.255
+#
+interface Vlan-interface1
+#
+interface Vlan-interface10
+ ip address 10.233.73.29 255.255.255.224
+ ip address 10.233.73.66 255.255.255.192 sub
+ vrrp vrid 20 virtual-ip 10.233.73.1
+ vrrp vrid 20 priority 109
+ vrrp vrid 30 virtual-ip 10.233.73.65
+ vrrp vrid 30 priority 109
+#
+interface Vlan-interface73
+ description to fierwall-1
+ ip address 10.233.73.34 255.255.255.224
+ vrrp vrid 10 virtual-ip 10.233.73.36
+ vrrp vrid 10 priority 109
+#
+interface GigabitEthernet1/0/1
+ port link-mode bridge
+ description to SW3_1/0/9 Դsw-1 0
+ port access vlan 30
+#
+interface GigabitEthernet1/0/2
+ port link-mode bridge
+ description ԭsw-1 0/11
+ port access vlan 10
+#
+interface GigabitEthernet1/0/3
+ port link-mode bridge
+ description ԭsw-1 0/15
+ port access vlan 10
+#
+interface GigabitEthernet1/0/4
+ port link-mode bridge
+ description ԭsw-1 0/18
+ port access vlan 10
+#
+interface GigabitEthernet1/0/5
+ port link-mode bridge
+ description to CE-ROUTER ԭsw-1 0/23 
+ port access vlan 30
+#
+interface GigabitEthernet1/0/6
+ port link-mode bridge
+ description to firewall-1_1/0/0 ԭsw-1 0/24
+ port access vlan 73
+#
+interface GigabitEthernet1/0/7
+ port link-mode bridge
+ description to_FH_FHRMS ԭ SW2 0/12
+ port access vlan 73
+#
+interface GigabitEthernet1/0/8
+ port link-mode bridge
+ port access vlan 21
+#
+interface GigabitEthernet1/0/9
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/10
+ port link-mode bridge
+#              
+interface GigabitEthernet1/0/11
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/12
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/13
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/14
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/15
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/16
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/17
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/18
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/19
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/20
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/21
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/22
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/23
+ port link-mode bridge
+#
+interface GigabitEthernet1/0/24
+ port link-mode bridge
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 10 73
+#
+interface M-GigabitEthernet0/0/0
+ shutdown
+#
+interface M-GigabitEthernet0/0/1
+#
+interface Ten-GigabitEthernet1/0/25
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/26
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/28
+ port link-mode bridge
+#
+route-policy dd permit node 0
+ if-match ip address acl 3011
+#
+ scheduler logfile size 16
+#
+line class aux
+ user-role network-admin
+#
+line class vty
+ user-role network-operator
+#
+line aux 0
+ authentication-mode password
+ user-role network-admin
+ user-role xz4a_admin
+ set authentication password hash $h$6$7opuV3f7U/VJ1SDU$TuEl6MHJpuabkZFKwqOtymclclPVnFrqAdxoRoy9QpJIYXqnG57xAZWQ0dUirenYbgLqA09q/dAcJo/TSpVncQ==
+ idle-timeout 5 0
+#
+line vty 0 4
+ authentication-mode scheme
+ user-role network-admin
+ user-role network-operator
+ idle-timeout 5 0
+ screen-length 20
+#
+line vty 5 63
+ authentication-mode scheme
+ user-role network-admin
+ user-role network-operator
+ idle-timeout 5 0
+#
+ ip route-static 0.0.0.0 0 10.233.73.38
+ ip route-static 10.1.98.203 32 10.233.73.38
+ ip route-static 10.1.98.210 32 10.233.73.38
+ ip route-static 10.1.139.160 27 10.233.73.30
+ ip route-static 10.233.7.0 24 10.233.73.33
+ ip route-static 10.233.83.69 32 10.233.73.33
+ ip route-static 10.237.99.0 24 10.233.73.33
+ ip route-static 172.16.13.64 26 10.233.73.33
+ ip route-static 172.16.13.172 32 10.233.73.33
+ ip route-static 172.16.14.102 32 10.233.73.33
+ ip route-static 172.16.15.0 26 10.233.73.33
+ ip route-static 172.16.15.7 32 10.233.73.33
+ ip route-static 172.16.23.128 29 10.233.73.33
+ ip route-static 172.16.26.32 28 10.233.73.33
+ ip route-static 172.17.12.0 24 10.233.73.33
+#
+ info-center loghost source Vlan-interface10
+ info-center loghost 10.237.35.55
+ info-center loghost 10.237.35.249
+ info-center loghost 10.237.99.80
+ info-center loghost 10.237.100.228
+#
+ snmp-agent
+ snmp-agent local-engineid 800063A2807485C4EBDAEC00000001
+ snmp-agent community read XZYD_smjk-2018 acl 2001
+ snmp-agent community read Xz-itwg-ro
+ snmp-agent community read xzyd@wg12((
+ snmp-agent sys-info version v2c v3 
+ snmp-agent target-host trap address udp-domain 10.233.9.55 params securityname Xz-itwg-ro
+ snmp-agent target-host trap address udp-domain 10.233.83.69 params securityname xzyd@wg12((
+ snmp-agent trap enable radius 
+#
+ ssh server enable
+ ssh user jtcjxz service-type all authentication-type password
+ ssh user xz4a_admin service-type all authentication-type password
+ ssh user xz4a_shenma service-type stelnet authentication-type password
+ ssh server acl 3000
+#
+ arp timer aging 1
+ arp static 10.233.73.14 3c97-0e40-4dc6
+ arp static 10.233.73.20 0000-0000-0001
+#
+ ssh2 algorithm cipher aes128-ctr
+#
+acl number 2000
+ rule 0 deny
+ rule 10 permit source 10.237.35.0 0.0.0.255
+ rule 20 permit source 10.233.73.0 0.0.0.255
+ rule 30 permit source 10.233.87.0 0.0.0.255
+ rule 35 permit source 10.237.9.0 0.0.0.255
+ rule 40 permit source 10.237.99.0 0.0.0.255
+ rule 50 permit source 10.237.100.0 0.0.0.255
+#
+acl number 2001
+#
+acl number 3000
+ rule 0 deny tcp destination-port eq 4444
+ rule 5 deny tcp destination-port eq 69
+ rule 10 permit ip
+#
+acl number 3001
+ rule 1 deny tcp destination-port eq 4444
+ rule 2 deny udp destination-port eq tftp
+#
+domain system
+#
+ domain default enable system
+#
+role name level-0
+ description Predefined level-0 role
+#
+role name level-1
+ description Predefined level-1 role
+#
+role name level-2
+ description Predefined level-2 role
+#
+role name level-3
+ description Predefined level-3 role
+#
+role name level-4
+ description Predefined level-4 role
+#
+role name level-5
+ description Predefined level-5 role
+#
+role name level-6
+ description Predefined level-6 role
+#
+role name level-7
+ description Predefined level-7 role
+#
+role name level-8
+ description Predefined level-8 role
+#
+role name level-9
+ description Predefined level-9 role
+#
+role name level-10
+ description Predefined level-10 role
+#
+role name level-11
+ description Predefined level-11 role
+#
+role name level-12
+ description Predefined level-12 role
+#
+role name level-13
+ description Predefined level-13 role
+#
+role name level-14
+ description Predefined level-14 role
+#
+user-group system
+#
+local-user 0001 class manage
+ password hash $h$6$70qrHNOoUuHgLWZP$6+WHc3fUuS3e2k77g/BRVYtyF/4HHgToslLuBG++BghMd9GGm5h1cWIQFqNu+hwPe3oJpaEDA5AQ8tD3VUfq3A==
+ service-type ssh
+ authorization-attribute user-role level-0
+ authorization-attribute user-role network-operator
+#
+local-user 1 class manage
+ authorization-attribute user-role network-operator
+#
+local-user jtcjxz class manage
+ password hash $h$6$Q4yyGOguuxhnEVjw$cVFh0hwcOGeJzScOO4kT9gvTCZkSMkjdOGzO3h10TOurNtrwrdlNfudulUKWD1+ELBuAvX+cXcEi1nJwj3aYZA==
+ service-type ssh telnet
+ authorization-attribute user-role level-3
+ authorization-attribute user-role network-operator
+#
+local-user xazccj class manage
+ password hash $h$6$hU3EJ9RGRMh/ZSmg$1EB7j2sZ/6PJW3d13P63dF3S0peX68tESFQtnU8KWPUYaI0/ghImOGLGByUXgB2ihQ4+fl2qN+1V3vCStnNFmg==
+ service-type ssh telnet
+ authorization-attribute user-role level-0
+ authorization-attribute user-role network-operator
+#
+local-user xz4a_admin class manage
+ password hash $h$6$EVyAq96QE809KcYN$qAi2QPJ7J7zuRFxJcuyhCn1Ec+Jcxk9myKQIpi5rtfWyCG1Kup/P7NUT4TqUbVbRIdQi9zGY9PHutdpe8E6Pow==
+ service-type ssh telnet terminal
+ authorization-attribute user-role level-14
+ authorization-attribute user-role network-admin
+ authorization-attribute user-role network-operator
+#
+public-key peer 10.233.73.29
+ public-key-code begin
+   30819F300D06092A864886F70D010101050003818D0030818902818100DC0D4AF33D83A685
+   A02F6EFE0B0F54A5E6D5A0C3FDC34C300C7D9DBC117F81ECF61983D84D521C294216D108EF
+   004527CD5E72800A39C0D391B867CDD34A3888D10C83CB38FEB7444398EBA3A5951156D77F
+   53B9CF567D8657A4D785462B04D915B0E06BCDC1FFE318A1FBD85915D5AB59C1DC202A0C02
+   5577C6BB73A52998290203010001
+ public-key-code end
+ peer-public-key end
+#
+return         
+<XZYD-CSWG-SW-02>display ip routing-table
+
+Destinations : 36       Routes : 36
+
+Destination/Mask    Proto  Pre  Cost         NextHop         Interface
+0.0.0.0/0           Static 60   0            10.233.73.38    Vlan73
+0.0.0.0/32          Direct 0    0            127.0.0.1       InLoop0
+10.1.98.203/32      Static 60   0            10.233.73.38    Vlan73
+10.1.98.210/32      Static 60   0            10.233.73.38    Vlan73
+10.1.139.160/27     Static 60   0            10.233.73.30    Vlan10
+10.233.7.0/24       Static 60   0            10.233.73.33    Vlan73
+10.233.73.0/27      Direct 0    0            10.233.73.29    Vlan10
+10.233.73.0/32      Direct 0    0            10.233.73.29    Vlan10
+10.233.73.29/32     Direct 0    0            127.0.0.1       InLoop0
+10.233.73.31/32     Direct 0    0            10.233.73.29    Vlan10
+10.233.73.32/27     Direct 0    0            10.233.73.34    Vlan73
+10.233.73.32/32     Direct 0    0            10.233.73.34    Vlan73
+10.233.73.34/32     Direct 0    0            127.0.0.1       InLoop0
+10.233.73.63/32     Direct 0    0            10.233.73.34    Vlan73
+10.233.73.64/26     Direct 0    0            10.233.73.66    Vlan10
+10.233.73.64/32     Direct 0    0            10.233.73.66    Vlan10
+10.233.73.66/32     Direct 0    0            127.0.0.1       InLoop0
+10.233.73.127/32    Direct 0    0            10.233.73.66    Vlan10
+10.233.83.69/32     Static 60   0            10.233.73.33    Vlan73
+10.233.87.19/32     Direct 0    0            127.0.0.1       InLoop0
+10.237.99.0/24      Static 60   0            10.233.73.33    Vlan73
+127.0.0.0/8         Direct 0    0            127.0.0.1       InLoop0
+127.0.0.0/32        Direct 0    0            127.0.0.1       InLoop0
+127.0.0.1/32        Direct 0    0            127.0.0.1       InLoop0
+127.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+172.16.13.64/26     Static 60   0            10.233.73.33    Vlan73
+172.16.13.172/32    Static 60   0            10.233.73.33    Vlan73
+172.16.14.102/32    Static 60   0            10.233.73.33    Vlan73
+172.16.15.0/26      Static 60   0            10.233.73.33    Vlan73
+172.16.15.7/32      Static 60   0            10.233.73.33    Vlan73
+172.16.23.128/29    Static 60   0            10.233.73.33    Vlan73
+172.16.26.32/28     Static 60   0            10.233.73.33    Vlan73
+172.17.12.0/24      Static 60   0            10.233.73.33    Vlan73
+224.0.0.0/4         Direct 0    0            0.0.0.0         NULL0
+224.0.0.0/24        Direct 0    0            0.0.0.0         NULL0
+255.255.255.255/32  Direct 0    0            127.0.0.1       InLoop0
+<XZYD-CSWG-SW-02>display logbuffer
+Log buffer: Enabled
+Max buffer size: 1024
+Actual buffer size: 512
+Dropped messages: 0
+Overwritten messages: 604046
+Current messages: 512
+%Feb  6 16:00:19:638 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb  7 04:58:25:665 2026 XZYD-CSWG-SW-02 OPTMOD/4/PHONY_MODULE: Ten-GigabitEthernet1/0/27: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+%Feb  9 15:33:29:282 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 64875 ssh2.
+
+%Feb  9 15:33:29:326 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb  9 15:33:30:721 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb  9 15:33:37:194 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb  9 15:33:52:278 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb  9 15:34:03:479 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb  9 15:34:27:344 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb  9 15:34:39:536 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb  9 15:34:49:692 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb  9 15:35:01:097 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb  9 15:35:15:683 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb  9 15:35:29:170 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb  9 15:35:41:140 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Feb  9 15:40:44:979 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb  9 15:40:44:997 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 64875.
+%Feb  9 15:40:44:997 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 10 18:06:24:066 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 52678 ssh2.
+
+%Feb 10 18:06:24:102 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 10 18:06:25:497 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 10 18:06:31:137 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 10 18:06:59:387 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 10 18:07:09:496 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 10 18:07:24:396 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 10 18:07:33:854 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb 10 18:07:43:192 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 10 18:07:54:991 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 10 18:08:11:771 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 10 18:08:31:707 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb 10 18:08:44:579 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Feb 10 18:13:47:795 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 10 18:13:47:830 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 52678.
+%Feb 10 18:13:47:831 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 11 18:00:26:910 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 64943 ssh2.
+
+%Feb 11 18:00:26:948 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 11 18:00:28:273 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 11 18:00:34:259 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 11 18:00:41:445 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 11 18:00:51:746 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 11 18:01:00:361 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 11 18:01:08:817 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb 11 18:01:18:914 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 11 18:01:28:752 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 11 18:01:37:578 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 11 18:01:45:858 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb 11 18:01:55:529 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Feb 11 18:02:22:985 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 11 18:02:23:001 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 64943.
+%Feb 11 18:02:23:002 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 12 16:49:54:448 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 50446 ssh2.
+
+%Feb 12 16:49:54:481 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 12 16:49:55:810 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 12 16:50:00:300 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 12 16:50:05:996 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 12 16:50:10:701 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 12 16:50:14:655 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 12 16:50:20:041 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb 12 16:50:24:719 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 12 16:50:30:988 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 12 16:50:35:566 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 12 16:50:45:466 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb 12 16:50:54:017 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Feb 12 16:55:57:130 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 12 16:55:57:148 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 50446.
+%Feb 12 16:55:57:148 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 13 15:25:51:382 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49872 ssh2.
+
+%Feb 13 15:25:51:418 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 13 15:25:52:805 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 13 15:25:52:910 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 13 15:25:52:964 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 13 15:25:53:001 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 13 15:25:53:023 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 13 15:25:53:061 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 13 15:25:53:097 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 13 15:25:53:129 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 13 15:25:53:152 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 13 15:25:53:190 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 13 15:25:53:246 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 13 15:25:53:312 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 13 15:26:05:011 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 13 15:26:05:029 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49872.
+%Feb 13 15:26:05:029 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 13 15:56:19:059 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 54878 ssh2.
+               
+%Feb 13 15:56:19:100 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 13 15:56:20:499 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 13 15:56:28:258 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 13 16:01:31:828 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 13 16:01:31:847 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54878.
+%Feb 13 16:01:31:847 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 14 15:31:45:114 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 63504 ssh2.
+
+%Feb 14 15:31:45:168 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 14 15:31:46:491 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 14 15:31:46:508 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 14 15:31:46:556 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 14 15:31:46:587 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 14 15:31:46:617 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 14 15:31:46:622 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 14 15:31:46:630 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 14 15:31:46:683 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 14 15:31:46:713 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 14 15:31:46:719 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 14 15:31:46:753 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 14 15:31:46:825 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 14 15:31:46:868 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 14 15:31:46:925 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Feb 14 15:31:46:969 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 14 15:32:17:922 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 14 15:32:17:941 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 63504.
+%Feb 14 15:32:17:941 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 14 15:51:16:158 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 50307 ssh2.
+
+%Feb 14 15:51:16:196 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 14 15:51:17:597 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 14 15:51:19:856 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 14 15:56:22:863 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 14 15:56:22:885 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 50307.
+%Feb 14 15:56:22:885 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 15 13:14:37:413 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 54089 ssh2.
+
+%Feb 15 13:14:37:477 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 15 13:14:38:801 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 15 13:14:38:825 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 15 13:14:38:870 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 15 13:14:38:907 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 15 13:14:38:936 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 15 13:14:38:942 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 15 13:14:38:950 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 15 13:14:38:978 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 15 13:14:39:098 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 15 13:14:39:103 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 15 13:14:39:147 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 15 13:14:39:192 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 15 13:14:39:229 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 15 13:14:39:282 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Feb 15 13:14:39:326 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 15 13:15:01:501 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 15 13:15:01:522 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54089.
+%Feb 15 13:15:01:522 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 16 17:41:14:461 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 59579 ssh2.
+
+%Feb 16 17:41:14:497 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 16 17:41:15:841 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 16 17:41:16:483 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 16 17:41:16:526 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 16 17:41:16:561 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 16 17:41:16:599 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 16 17:41:16:606 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 16 17:41:16:611 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 16 17:41:16:642 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 16 17:41:16:670 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 16 17:41:16:689 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 16 17:41:16:746 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 16 17:41:16:800 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 16 17:41:16:839 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 16 17:41:16:899 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Feb 16 17:41:16:941 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 16 17:41:39:170 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 16 17:41:39:188 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 59579.
+%Feb 16 17:41:39:188 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 17 05:18:02:179 2026 XZYD-CSWG-SW-02 OPTMOD/4/PHONY_MODULE: Ten-GigabitEthernet1/0/27: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+%Feb 17 13:32:02:421 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 49575 ssh2.
+
+%Feb 17 13:32:02:453 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 17 13:32:03:781 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 17 13:32:03:981 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 17 13:32:04:040 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 17 13:32:04:075 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 17 13:32:04:105 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 17 13:32:04:129 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 17 13:32:04:158 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 17 13:32:04:192 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 17 13:32:04:228 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 17 13:32:04:265 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 17 13:32:04:321 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 17 13:32:04:381 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 17 13:32:39:609 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 17 13:32:39:627 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 49575.
+%Feb 17 13:32:39:627 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 17 13:54:53:236 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 53161 ssh2.
+
+%Feb 17 13:54:53:272 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 17 13:54:54:673 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 17 13:54:57:914 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 17 14:00:01:909 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 17 14:00:01:926 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 53161.
+%Feb 17 14:00:01:926 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 18 14:04:10:669 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 51186 ssh2.
+
+%Feb 18 14:04:10:706 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 18 14:04:12:090 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 18 14:04:12:107 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 18 14:04:12:161 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 18 14:04:12:197 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 18 14:04:12:225 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 18 14:04:12:245 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 18 14:04:12:253 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 18 14:04:12:291 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 18 14:04:12:324 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 18 14:04:12:330 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 18 14:04:12:363 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 18 14:04:12:533 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 18 14:04:12:577 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 18 14:04:12:630 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Feb 18 14:04:12:672 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 18 14:04:32:847 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 18 14:04:32:870 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 51186.
+%Feb 18 14:04:32:870 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 19 17:45:58:249 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 65378 ssh2.
+
+%Feb 19 17:45:58:285 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 19 17:45:59:619 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 19 17:46:00:403 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 19 17:46:00:454 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 19 17:46:00:491 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 19 17:46:00:606 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 19 17:46:00:616 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 19 17:46:00:674 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 19 17:46:00:707 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 19 17:46:00:710 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 19 17:46:00:750 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 19 17:46:00:824 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 19 17:46:00:864 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 19 17:46:00:919 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Feb 19 17:46:00:970 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 19 17:51:07:107 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 19 17:51:07:126 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 65378.
+%Feb 19 17:51:07:126 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 20 16:15:03:918 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 61410 ssh2.
+
+%Feb 20 16:15:03:952 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 20 16:15:05:335 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 20 16:15:05:967 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 20 16:15:06:013 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 20 16:15:06:045 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 20 16:15:06:083 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 20 16:15:06:088 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 20 16:15:06:094 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 20 16:15:06:125 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 20 16:15:06:158 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 20 16:15:06:177 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 20 16:15:06:231 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 20 16:15:06:286 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 20 16:15:06:320 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 20 16:20:07:715 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 20 16:20:07:736 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 61410.
+%Feb 20 16:20:07:736 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 21 17:49:29:383 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 53711 ssh2.
+
+%Feb 21 17:49:29:490 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 21 17:49:30:808 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 21 17:49:31:408 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 21 17:49:31:460 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 21 17:49:31:487 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 21 17:49:31:530 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 21 17:49:31:550 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 21 17:49:31:601 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 21 17:49:31:629 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 21 17:49:31:651 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 21 17:49:31:685 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 21 17:49:31:748 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 21 17:49:31:811 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 21 17:49:32:276 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 21 17:54:38:359 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 21 17:54:38:378 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 53711.
+%Feb 21 17:54:38:378 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 22 18:01:53:098 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 50024 ssh2.
+
+%Feb 22 18:01:53:134 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 22 18:01:54:532 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 22 18:01:55:156 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 22 18:01:55:274 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 22 18:01:55:304 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 22 18:01:55:345 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 22 18:01:55:375 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 22 18:01:55:403 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 22 18:01:55:438 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 22 18:01:55:510 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 22 18:02:15:808 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 22 18:02:15:828 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 50024.
+%Feb 22 18:02:15:828 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 23 17:30:50:519 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 56166 ssh2.
+
+%Feb 23 17:30:50:555 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 23 17:30:51:881 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 23 17:30:52:577 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 23 17:30:52:642 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 23 17:30:52:671 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 23 17:30:52:698 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 23 17:30:52:728 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 23 17:30:52:774 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 23 17:30:52:815 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 23 17:30:52:819 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 23 17:30:52:852 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 23 17:31:15:030 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 23 17:31:15:047 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56166.
+%Feb 23 17:31:15:047 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 26 14:38:04:474 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 60573 ssh2.
+
+%Feb 26 14:38:04:514 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 26 14:38:05:931 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 26 14:38:05:947 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 26 14:38:05:996 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 26 14:38:06:035 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 26 14:38:06:063 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 26 14:38:06:068 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 26 14:38:06:075 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 26 14:38:06:102 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 26 14:38:06:132 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 26 14:38:06:153 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 26 14:38:06:204 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 26 14:38:06:262 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 26 14:38:06:299 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 26 14:38:06:352 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Feb 26 14:38:06:404 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 26 14:38:11:756 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 26 14:43:17:297 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 26 14:43:17:316 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 60573.
+%Feb 26 14:43:17:316 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 27 05:38:06:858 2026 XZYD-CSWG-SW-02 OPTMOD/4/PHONY_MODULE: Ten-GigabitEthernet1/0/27: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+%Feb 27 17:08:34:289 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 50749 ssh2.
+
+%Feb 27 17:08:34:325 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 27 17:08:35:757 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 27 17:08:37:659 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 27 17:08:37:722 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 27 17:08:37:753 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Feb 27 17:08:37:793 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Feb 27 17:08:37:812 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 27 17:08:37:850 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Feb 27 17:08:37:881 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Feb 27 17:08:37:906 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Feb 27 17:08:37:993 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 27 17:08:38:047 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 27 17:08:38:082 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 27 17:08:38:132 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip rout
+%Feb 27 17:08:43:257 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Feb 27 17:11:19:622 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 27 17:11:19:640 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 50749.
+%Feb 27 17:11:19:640 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Feb 28 16:19:01:602 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 55161 ssh2.
+
+%Feb 28 16:19:01:639 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Feb 28 16:19:03:037 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Feb 28 16:19:08:967 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Feb 28 16:19:20:708 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Feb 28 16:19:30:195 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Feb 28 16:19:40:679 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Feb 28 16:19:53:269 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Feb 28 16:20:02:277 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Feb 28 16:20:17:059 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Feb 28 16:20:28:215 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Feb 28 16:20:41:802 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Feb 28 16:20:54:364 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Feb 28 16:25:27:425 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Feb 28 16:25:27:444 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 55161.
+%Feb 28 16:25:27:444 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  2 12:01:54:055 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for jtcjxz from 10.237.100.188 port 50548 ssh2.
+
+%Mar  2 12:01:54:070 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar  2 12:01:55:461 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar  2 12:01:57:076 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 50548.
+%Mar  2 12:01:57:076 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar  2 12:01:57:288 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar  3 17:30:34:188 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 54642 ssh2.
+
+%Mar  3 17:30:34:223 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  3 17:30:35:657 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  3 17:30:36:573 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  3 17:30:36:631 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  3 17:30:36:665 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display alarm active in view shell failed to be matched.
+%Mar  3 17:30:36:690 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command dis alarm  in view shell failed to be matched.
+%Mar  3 17:30:36:737 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  3 17:30:36:773 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu
+%Mar  3 17:30:36:801 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory all in view shell failed to be matched.
+%Mar  3 17:30:36:821 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar  3 17:30:36:860 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  3 17:30:36:913 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  3 17:30:36:984 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar  3 17:30:58:458 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  3 17:30:58:474 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54642.
+%Mar  3 17:30:58:474 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar  4 18:28:32:084 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for jtcjxz from 10.237.100.188 port 35738 ssh2.
+
+%Mar  4 18:28:32:098 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar  4 18:28:33:436 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar  4 18:28:47:627 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar  4 18:28:57:636 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar  4 18:29:18:153 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar  4 18:29:38:168 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system product model in view shell failed to be matched.
+%Mar  4 18:29:47:683 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=jtcjxz-IPAddr=10.237.100.188; Command system version in view shell failed to be matched.
+%Mar  4 18:29:57:701 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar  4 18:30:07:710 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is quit
+%Mar  4 18:30:07:712 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar  4 18:30:08:716 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 35738.
+%Mar  4 18:30:08:716 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar  9 05:59:07:372 2026 XZYD-CSWG-SW-02 OPTMOD/4/PHONY_MODULE: Ten-GigabitEthernet1/0/27: This transceiver is NOT sold by H3C. H3C therefore shall NOT guarantee the normal function of the device or assume the maintenance responsibility thereof!
+%Mar  9 15:05:59:055 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for jtcjxz from 10.237.100.188 port 42560 ssh2.
+
+%Mar  9 15:05:59:069 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user jtcjxz (IP: 10.237.100.188) connected to the server successfully.
+%Mar  9 15:06:00:401 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: jtcjxz logged in from 10.237.100.188.
+%Mar  9 15:06:14:598 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar  9 15:06:24:607 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display version
+%Mar  9 15:06:45:125 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display current-configuration
+%Mar  9 15:10:06:229 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display interface
+%Mar  9 15:22:14:014 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display device manuinfo
+%Mar  9 15:22:23:534 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is display device
+%Mar  9 15:22:33:545 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is dis users
+%Mar  9 15:22:43:555 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.100.188-User=jtcjxz; Command is quit
+%Mar  9 15:22:43:557 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: jtcjxz logged out from 10.237.100.188.
+%Mar  9 15:22:44:561 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User jtcjxz logged out from 10.237.100.188 port 42560.
+%Mar  9 15:22:44:561 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user jtcjxz (IP: 10.237.100.188) disconnected from the server.
+%Mar  9 18:16:11:995 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 54078 ssh2.
+
+%Mar  9 18:16:12:028 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar  9 18:16:13:355 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar  9 18:16:29:431 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar  9 18:16:43:473 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar  9 18:17:00:037 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar  9 18:17:11:826 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar  9 18:17:27:911 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar  9 18:17:42:458 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar  9 18:17:55:839 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar  9 18:18:11:608 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar  9 18:18:35:514 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar  9 18:19:07:858 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Mar  9 18:24:12:601 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar  9 18:24:12:623 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 54078.
+%Mar  9 18:24:12:623 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 10 16:19:48:834 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 64910 ssh2.
+
+%Mar 10 16:19:48:871 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 10 16:19:50:205 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 10 16:20:45:800 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 10 16:20:45:816 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 64910.
+%Mar 10 16:20:45:817 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 10 17:34:01:381 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 60380 ssh2.
+
+%Mar 10 17:34:01:417 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 10 17:34:02:813 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 10 17:34:09:961 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 10 17:34:23:146 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 10 17:36:46:164 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 10 17:37:03:657 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 10 17:37:22:022 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar 10 17:37:39:578 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 10 17:38:02:732 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 10 17:38:28:845 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 10 17:38:59:043 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 10 17:39:15:123 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Mar 10 17:44:20:103 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 10 17:44:20:121 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 60380.
+%Mar 10 17:44:20:121 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 11 16:41:38:753 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 65465 ssh2.
+
+%Mar 11 16:41:38:790 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 11 16:41:40:183 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 11 16:41:47:139 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 11 16:42:00:114 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 11 16:42:13:636 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 11 16:42:29:290 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis cpu-usage
+%Mar 11 16:42:42:375 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis memory
+%Mar 11 16:42:56:768 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 11 16:43:12:055 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 11 16:43:27:510 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 11 16:43:48:173 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 11 16:44:03:580 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is dis logbuffer
+%Mar 11 16:49:07:526 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 11 16:49:07:544 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 65465.
+%Mar 11 16:49:07:544 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 11 18:08:27:333 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 62718 ssh2.
+
+%Mar 11 18:08:27:369 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 11 18:08:28:783 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 11 18:09:19:728 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 11 18:09:19:739 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 11 18:09:19:795 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 11 18:09:19:830 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 11 18:09:19:863 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 11 18:09:19:993 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 11 18:09:20:004 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 11 18:09:20:114 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 11 18:09:20:160 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 11 18:09:20:500 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 11 18:09:20:591 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 11 18:14:22:055 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 11 18:14:22:074 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 62718.
+%Mar 11 18:14:22:074 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 12 12:29:51:060 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 56810 ssh2.
+
+%Mar 12 12:29:51:097 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 12 12:29:52:433 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 12 12:30:32:789 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 12 12:30:32:802 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 12 12:30:32:869 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 12 12:30:32:984 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 12 12:30:33:023 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 12 12:30:33:057 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 12 12:30:33:067 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 12 12:30:33:179 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 12 12:30:33:232 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 12 12:30:33:604 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 12 12:30:33:685 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 12 12:35:34:705 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 12 12:35:34:743 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 56810.
+%Mar 12 12:35:34:744 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 12 14:16:31:581 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 57692 ssh2.
+
+%Mar 12 14:16:31:614 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 12 14:16:32:951 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 12 14:17:11:733 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 12 14:17:11:744 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 12 14:17:11:810 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 12 14:17:11:843 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 12 14:17:11:888 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 12 14:17:11:932 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 12 14:17:11:943 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 12 14:17:12:081 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 12 14:17:12:129 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 12 14:17:12:548 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 12 14:17:12:632 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 12 14:22:13:327 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 12 14:22:13:347 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 57692.
+%Mar 12 14:22:13:347 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 13 11:38:35:521 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_LOG: Accepted password for xz4a_admin from 10.237.35.254 port 50289 ssh2.
+
+%Mar 13 11:38:35:556 2026 XZYD-CSWG-SW-02 SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 13 11:38:36:907 2026 XZYD-CSWG-SW-02 SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 13 11:39:12:784 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 13 11:39:12:797 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 13 11:39:12:875 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 13 11:39:12:917 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 13 11:39:12:961 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 13 11:39:13:004 2026 XZYD-CSWG-SW-02 SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 13 11:39:13:022 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 13 11:39:13:147 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 13 11:39:13:204 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 13 11:39:13:728 2026 XZYD-CSWG-SW-02 SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table

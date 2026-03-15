@@ -1,0 +1,1098 @@
+﻿<B18>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<B18>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.180 (CE6865EI V200R005C10SPC800)
+Copyright (C) 2012-2018 Huawei Technologies Co., Ltd.
+HUAWEI CE6865-48S8CQ-EI uptime is 1456 days, 10 hours, 29 minutes 
+Patch Version: V200R005SPH017
+
+CE6865-48S8CQ-EI(Master) 1 : uptime is  1456 days, 10 hours, 28 minutes
+        StartupTime 2022/03/18   01:15:58
+Memory    Size    : 4096 M bytes
+Flash     Size    : 2048 M bytes
+CE6865-48S8CQ-EI version information                               
+1. PCB    Version : CEM48S8CQP04 VER A
+2. MAB    Version : 1
+3. Board  Type    : CE6865-48S8CQ-EI
+4. CPLD1  Version : 102
+5. CPLD2  Version : 102
+6. BIOS   Version : 192
+<B18>display device
+Device status:
+-------------------------------------------------------------------------------------------
+Slot  Card   Type                     Online   Power Register     Alarm     Primary        
+-------------------------------------------------------------------------------------------
+1     -      CE6865-48S8CQ-EI         Present  On    Registered   Normal    Master         
+      FAN1   FAN-40HA-F               Present  On    Registered   Normal    NA             
+      FAN2   FAN-40HA-F               Present  On    Registered   Normal    NA             
+      PWR1   PAC-600WA-F              Present  On    Registered   Normal    NA             
+      PWR2   PAC-600WA-F              Present  On    Registered   Normal    NA             
+-------------------------------------------------------------------------------------------
+<B18>display startup
+MainBoard:
+  Configured startup system software:        flash:/CE6865EI-V200R005C10SPC800.cc
+  Startup system software:                   flash:/CE6865EI-V200R005C10SPC800.cc
+  Next startup system software:              flash:/CE6865EI-V200R005C10SPC800.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup patch package:                     flash:/CE6865EI-V200R005SPH017.PAT
+  Next startup patch package:                flash:/CE6865EI-V200R005SPH017.PAT
+<B18>display cpu-usage
+             ^
+Error: Unrecognized command found at '^' position.
+<B18>display memory-usage
+             ^
+Error: Unrecognized command found at '^' position.
+<B18>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(b): BFD down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(dl): DLDP down
+(c): CFM down
+InUti/OutUti: input utility rate/output utility rate
+Interface                  PHY      Protocol  InUti OutUti   inErrors  outErrors
+100GE1/0/1                 up       up        0.01%  0.01%          0          0
+100GE1/0/2                 up       up        0.20%  8.96%          0          0
+100GE1/0/3                 *down    down         0%     0%          0          0
+100GE1/0/4                 *down    down         0%     0%          0          0
+100GE1/0/5                 *down    down         0%     0%          0          0
+100GE1/0/6                 *down    down         0%     0%          0          0
+100GE1/0/7                 *down    down         0%     0%          0          0
+100GE1/0/8                 *down    down         0%     0%          0          0
+25GE1/0/1                  up       up        0.01%  0.01%          0          0
+25GE1/0/2                  up       up        0.17%  0.22%          0          0
+25GE1/0/3                  up       up        0.19%  0.21%          0          0
+25GE1/0/4                  up       up        0.20% 10.97%          0          0
+25GE1/0/5                  up       up        0.17%  0.17%          0          0
+25GE1/0/6                  up       up        0.22%  0.15%          0          0
+25GE1/0/7                  up       up        0.01%  0.01%          0          0
+25GE1/0/8                  up       up        0.01%  0.01%          0          0
+25GE1/0/9                  up       up       58.23%  9.88%          0          0
+25GE1/0/10                 up       up        0.01%  0.01%          0          0
+25GE1/0/11                 up       up        0.01%  0.01%          0          0
+25GE1/0/12                 up       up        0.01%  0.01%          0          0
+25GE1/0/13                 *down    down         0%     0%          0          0
+25GE1/0/14                 *down    down         0%     0%          0          0
+25GE1/0/15                 *down    down         0%     0%          0          0
+25GE1/0/16                 *down    down         0%     0%          0          0
+25GE1/0/17                 *down    down         0%     0%          0          0
+25GE1/0/18                 *down    down         0%     0%          0          0
+25GE1/0/19                 *down    down         0%     0%          0          0
+25GE1/0/20                 *down    down         0%     0%          0          0
+25GE1/0/21                 *down    down         0%     0%          0          0
+25GE1/0/22                 *down    down         0%     0%          0          0
+25GE1/0/23                 *down    down         0%     0%          0          0
+25GE1/0/24                 *down    down         0%     0%          0          0
+25GE1/0/25                 *down    down         0%     0%          0          0
+25GE1/0/26                 *down    down         0%     0%          0          0
+25GE1/0/27                 *down    down         0%     0%          0          0
+25GE1/0/28                 *down    down         0%     0%          0          0
+25GE1/0/29                 *down    down         0%     0%          0          0
+25GE1/0/30                 *down    down         0%     0%          0          0
+25GE1/0/31                 *down    down         0%     0%          0          0
+25GE1/0/32                 *down    down         0%     0%          0          0
+25GE1/0/33                 *down    down         0%     0%          0          0
+25GE1/0/34                 *down    down         0%     0%          0          0
+25GE1/0/35                 *down    down         0%     0%          0          0
+25GE1/0/36                 *down    down         0%     0%          0          0
+25GE1/0/37                 *down    down         0%     0%          0          0
+25GE1/0/38                 *down    down         0%     0%          0          0
+25GE1/0/39                 *down    down         0%     0%          0          0
+25GE1/0/40                 *down    down         0%     0%          0          0
+25GE1/0/41                 *down    down         0%     0%          0          0
+25GE1/0/42                 *down    down         0%     0%          0          0
+25GE1/0/43                 *down    down         0%     0%          0          0
+25GE1/0/44                 *down    down         0%     0%          0          0
+25GE1/0/48                 up       up        0.01%     0%          0          0
+Eth-Trunk1                 up       up       37.01% 20.27%          0          0
+  25GE1/0/45               up       up       44.32%  9.86%          0          0
+  25GE1/0/46               up       up       32.37% 28.58%          0          0
+  25GE1/0/47               up       up       34.34% 22.37%          0          0
+MEth0/0/0                  *down    down         0%     0%          0          0
+NULL0                      up       up(s)        0%     0%          0          0
+Vlanif100                  up       up           --     --          0          0
+<B18>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+The number of interface that is UP in Physical is 2
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 2
+The number of interface that is DOWN in Protocol is 1
+Interface                   IP Address/Mask    Physical Protocol VPN           
+MEth0/0/0                   unassigned         *down    down     --            
+NULL0                       unassigned         up       up(s)    --            
+Vlanif100                   10.241.93.25/24    up       up       --            
+<B18>display current-configuration
+!Software Version V200R005C10SPC800
+!Last configuration was updated at 2025-07-05 13:51:34+00:00
+!Last configuration was saved at 2025-06-24 11:46:33+00:00
+#
+sysname B18
+#
+info-center loghost 10.237.35.254 facility local4
+#
+system resource standard
+#
+device board 1 board-type CE6865-48S8CQ-EI
+#
+drop-profile default
+#
+dcb pfc
+#
+dcb ets-profile default
+#
+vlan batch 100
+#
+telnet server disable
+telnet ipv6 server disable
+#
+diffserv domain default
+#
+acl number 2000
+ rule 20 permit source 10.233.138.0 0.0.0.255 logging
+ rule 21 permit source 10.237.35.0 0.0.0.255 logging
+ rule 25 permit source 10.241.93.0 0.0.0.255 logging
+ rule 30 permit source 10.237.100.0 0.0.0.255 logging
+#
+acl number 2001
+ rule 5 permit source 10.237.99.123 0
+ rule 10 permit source 10.237.99.233 0
+ rule 15 permit source 10.233.205.244 0
+#
+acl number 3000
+ rule 5 deny tcp destination-port eq 445
+ rule 10 deny tcp destination-port eq 5800
+ rule 15 deny tcp destination-port eq 5900
+ rule 20 deny udp destination-port eq 1434
+ rule 25 deny udp destination-port eq tftp
+ rule 30 deny tcp destination-port eq 135
+ rule 35 deny udp destination-port eq netbios-ns
+ rule 40 deny udp destination-port eq netbios-dgm
+ rule 45 deny tcp destination-port eq 139
+ rule 50 deny udp destination-port eq netbios-ssn
+ rule 55 deny tcp destination-port eq 539
+ rule 60 deny udp destination-port eq 539
+ rule 65 deny tcp destination-port eq 593
+ rule 70 deny tcp destination-port eq 4786
+ rule 75 permit ip
+#
+aaa
+ undo local-user policy security-enhance
+ local-user huawei password irreversible-cipher $1c$Icl~A#JbG,$J.Y8#m8:>2I*@^Pt/0T<fi8wU8wBy,ue%i9KGkQM$
+ local-user huawei service-type ssh
+ local-user huawei level 1
+ local-user xz4a_admin password irreversible-cipher $1c$Uw\Q>9K#r-$O&K>Pi:K]1.pSi9A#d3F#F#0J|C~KDE#4l=tBZ57$
+ local-user xz4a_admin service-type ssh
+ local-user xz4a_admin level 3
+ local-user langjiewangdui password irreversible-cipher $1c$Kwe~,jQBnB$f`Du/'=ZH#K|[qECf@/83Q)/H!)0I*ed]l"1j+I@$
+ local-user langjiewangdui service-type ssh
+ local-user langjiewangdui level 2
+ local-user jtcjxz password irreversible-cipher $1c$8YUHEjw6]=$6ci5H{aw+Fs(O53_e2]#.WV$$`9HI>ZTbHC38U4:$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 2
+ #
+ authentication-scheme default
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default
+ #
+ domain default
+ #
+ domain default_admin
+#
+stack
+#
+license
+#
+interface Vlanif100
+ ip address 10.241.93.25 255.255.255.0
+#
+interface MEth0/0/0
+ shutdown
+#
+interface Eth-Trunk1
+ port link-type trunk
+ undo port trunk allow-pass vlan 1
+ port trunk allow-pass vlan 100
+ mode lacp-static
+#
+interface 25GE1/0/1
+ port default vlan 100
+ traffic-filter acl 3000 inbound 
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/2
+ port default vlan 100
+ traffic-filter acl 3000 inbound 
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/3
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/4
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/5
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/6
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/7
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/8
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/9
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/10
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/11
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/12
+ port default vlan 100
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/13
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/14
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/15
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/16
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/17
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/18
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/19
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/20
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/21
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/22
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/23
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/24
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/25
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/26
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/27
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/28
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/29
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/30
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/31
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/32
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/33
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/34
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/35
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/36
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/37
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/38
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/39
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/40
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/41
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/42
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/43
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/44
+ shutdown
+ device transceiver 10GBASE-FIBER
+#
+interface 25GE1/0/45
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/46
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/47
+ eth-trunk 1
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 25GE1/0/48
+ device transceiver 10GBASE-FIBER
+ port mode 10G
+#
+interface 100GE1/0/1
+ description tojieshouwangguan252
+ port default vlan 100
+ device transceiver 100GBASE-FIBER
+#
+interface 100GE1/0/2
+ description tojieshouwangguan253
+ port default vlan 100
+ traffic-filter acl 3000 inbound 
+ device transceiver 100GBASE-FIBER
+#
+interface 100GE1/0/3
+ shutdown
+#
+interface 100GE1/0/4
+ shutdown
+#
+interface 100GE1/0/5
+ shutdown
+#
+interface 100GE1/0/6
+ shutdown
+#
+interface 100GE1/0/7
+ shutdown
+#
+interface 100GE1/0/8
+ shutdown
+#
+interface NULL0
+#
+ip route-static 10.233.205.244 255.255.255.255 10.241.93.1
+ip route-static 10.237.35.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.99.0 255.255.255.0 10.241.93.1
+ip route-static 10.237.100.0 255.255.255.0 10.241.93.1
+#
+snmp-agent
+snmp-agent local-engineid 800007DB0310C3AB9CDF41
+snmp-agent community read cipher %^%#\WNLXzcphV'#Q,#=TQU~Y)ze&!Qw;O5gdsJ&+Z-TOq[y7@pBxN5-aZ%k4tP"M_y7RoBvqB^pm:Vj3LqW%^%# acl 2001
+#
+snmp-agent sys-info version all
+#
+stelnet server enable
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user langjiewangdui
+ssh user langjiewangdui authentication-type password
+ssh user langjiewangdui service-type stelnet
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_ctr aes128_ctr
+ssh server hmac sha2_256_96 sha2_256 sha1_96
+ssh server key-exchange dh_group_exchange_sha256 dh_group_exchange_sha1 ecdh_sha2_nistp256 ecdh_sha2_nistp384 ecdh_sha2_nistp521 sm2_kep
+#
+ssh server dh-exchange min-len 2048
+#
+ssh client cipher aes256_gcm aes128_gcm aes256_ctr aes192_ctr aes128_ctr aes256_cbc aes128_cbc 3des_cbc
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$$]56X5&$*C$u+|!7e>.{4A8+|61/,H2Ogd,#dozA"m^0"KqEY)-$
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+ protocol inbound ssh
+#
+port-group duankou
+ group-member 100GE1/0/3
+ group-member 100GE1/0/4
+ group-member 100GE1/0/5
+ group-member 100GE1/0/6
+ group-member 100GE1/0/7
+ group-member 100GE1/0/8
+ group-member MEth0/0/0
+#
+port-group duankou1
+ group-member 25GE1/0/13
+ group-member 25GE1/0/14
+ group-member 25GE1/0/15
+ group-member 25GE1/0/16
+ group-member 25GE1/0/17
+ group-member 25GE1/0/18
+ group-member 25GE1/0/19
+ group-member 25GE1/0/20
+ group-member 25GE1/0/21
+ group-member 25GE1/0/22
+ group-member 25GE1/0/23
+ group-member 25GE1/0/24
+ group-member 25GE1/0/25
+ group-member 25GE1/0/26
+ group-member 25GE1/0/27
+ group-member 25GE1/0/28
+ group-member 25GE1/0/29
+ group-member 25GE1/0/30
+ group-member 25GE1/0/31
+ group-member 25GE1/0/32
+ group-member 25GE1/0/33
+ group-member 25GE1/0/34
+ group-member 25GE1/0/35
+ group-member 25GE1/0/36
+ group-member 25GE1/0/37
+ group-member 25GE1/0/38
+ group-member 25GE1/0/39
+ group-member 25GE1/0/40
+ group-member 25GE1/0/41
+ group-member 25GE1/0/42
+ group-member 25GE1/0/43
+ group-member 25GE1/0/44
+ group-member 25GE1/0/45
+ group-member 25GE1/0/46
+#
+vm-manager
+#
+return
+<B18>display ip routing-table
+Proto: Protocol        Pre: Preference
+Route Flags: R - relay, D - download to fib, T - to vpn-instance, B - black hole route
+------------------------------------------------------------------------------
+Routing Table : _public_
+         Destinations : 11       Routes : 11        
+
+Destination/Mask    Proto   Pre  Cost        Flags NextHop         Interface
+
+ 10.233.205.244/32  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.35.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.237.99.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+   10.237.100.0/24  Static  60   0             RD  10.241.93.1     Vlanif100
+    10.241.93.0/24  Direct  0    0             D   10.241.93.25    Vlanif100
+   10.241.93.25/32  Direct  0    0             D   127.0.0.1       Vlanif100
+  10.241.93.255/32  Direct  0    0             D   127.0.0.1       Vlanif100
+      127.0.0.0/8   Direct  0    0             D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+127.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+255.255.255.255/32  Direct  0    0             D   127.0.0.1       InLoopBack0
+<B18>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 7143
+Current messages : 512
+
+Mar 12 2026 20:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260122151612.pads.zip)
+Mar 11 2026 09:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260216180113.log.zip)
+Mar 10 2026 22:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260120174612.pads.zip)
+Mar  9 2026 03:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260214103113.log.zip)
+Mar  9 2026 01:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260118201612.pads.zip)
+Mar  7 2026 04:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260116224612.pads.zip)
+Mar  6 2026 20:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260212043113.log.zip)
+Mar  5 2026 06:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260115011612.pads.zip)
+Mar  4 2026 14:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260209220113.log.zip)
+Mar  3 2026 09:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260113034612.pads.zip)
+Mar  2 2026 07:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260207160113.log.zip)
+Mar  1 2026 11:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260111061612.pads.zip)
+Feb 28 2026 00:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260205090113.log.zip)
+Feb 27 2026 14:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260109084612.pads.zip)
+Feb 25 2026 17:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260203025849.log.zip)
+Feb 25 2026 16:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260107111612.pads.zip)
+Feb 23 2026 19:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260105134612.pads.zip)
+Feb 23 2026 09:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260131200113.log.zip)
+Feb 21 2026 21:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260103161612.pads.zip)
+Feb 21 2026 03:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260129140112.log.zip)
+Feb 20 2026 00:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20260101184612.pads.zip)
+Feb 18 2026 21:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260127070112.log.zip)
+Feb 18 2026 02:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251230211612.pads.zip)
+Feb 16 2026 14:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260125000112.log.zip)
+Feb 16 2026 05:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251228234612.pads.zip)
+Feb 14 2026 07:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251227021612.pads.zip)
+Feb 14 2026 07:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260122173112.log.zip)
+Feb 12 2026 10:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251225044612.pads.zip)
+Feb 12 2026 02:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260120110112.log.zip)
+Feb 10 2026 12:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251223071612.pads.zip)
+Feb  9 2026 19:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260118043112.log.zip)
+Feb  8 2026 15:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251221094612.pads.zip)
+Feb  7 2026 12:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260115213112.log.zip)
+Feb  6 2026 17:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251219121612.pads.zip)
+Feb  5 2026 06:01:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260113153112.log.zip)
+Feb  4 2026 20:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251217144612.pads.zip)
+Feb  3 2026 04:30:01 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Feb  2 2026 23:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260111080112.log.zip)
+Feb  2 2026 22:46:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251215171612.pads.zip)
+Feb  1 2026 01:16:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251213194612.pads.zip)
+Jan 31 2026 17:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260109013112.log.zip)
+Jan 30 2026 03:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251211221612.pads.zip)
+Jan 29 2026 10:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260106190112.log.zip)
+Jan 28 2026 05:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251210004612.pads.zip)
+Jan 27 2026 03:31:13 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260104123112.log.zip)
+Jan 26 2026 09:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251208031612.pads.zip)
+Jan 24 2026 20:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20260102060112.log.zip)
+Jan 24 2026 11:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251206054316.pads.zip)
+Jan 22 2026 14:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251230233112.log.zip)
+Jan 22 2026 13:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251204081612.pads.zip)
+Jan 20 2026 16:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251202104612.pads.zip)
+Jan 20 2026 07:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251228173112.log.zip)
+Jan 18 2026 19:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251130131612.pads.zip)
+Jan 18 2026 01:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251226103112.log.zip)
+Jan 16 2026 21:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251128154612.pads.zip)
+Jan 15 2026 18:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251224043112.log.zip)
+Jan 14 2026 23:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251126181612.pads.zip)
+Jan 13 2026 12:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251221213112.log.zip)
+Jan 13 2026 02:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251124204612.pads.zip)
+Jan 11 2026 05:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251219143112.log.zip)
+Jan 11 2026 04:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251122231612.pads.zip)
+Jan  9 2026 07:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251121014612.pads.zip)
+Jan  8 2026 21:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251217070112.log.zip)
+Jan  7 2026 09:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251119041612.pads.zip)
+Jan  7 2026 04:26:47 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Jan  6 2026 16:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251215000112.log.zip)
+Jan  6 2026 03:58:28 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:58:24 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:58:24 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/2)
+Jan  6 2026 03:58:24 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=14, IfName=25GE1/0/2)
+Jan  6 2026 03:58:22 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/2)
+Jan  6 2026 03:58:22 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=14, IfName=25GE1/0/2)
+Jan  6 2026 03:58:20 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:58:16 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:58:16 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/2)
+Jan  6 2026 03:58:15 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=14, IfName=25GE1/0/2)
+Jan  6 2026 03:58:14 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/2)
+Jan  6 2026 03:58:14 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=14, IfName=25GE1/0/2)
+Jan  6 2026 03:41:44 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:41:39 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:41:39 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/2)
+Jan  6 2026 03:41:39 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=14, IfName=25GE1/0/2)
+Jan  6 2026 03:41:37 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/2)
+Jan  6 2026 03:41:37 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=14, IfName=25GE1/0/2)
+Jan  6 2026 03:41:35 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:41:30 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=14, IfIndex=14, PortName=25GE1/0/2, PwName=-)
+Jan  6 2026 03:41:30 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/2)
+Jan  6 2026 03:41:30 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=14, IfName=25GE1/0/2)
+Jan  6 2026 03:41:28 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/2, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/2)
+Jan  6 2026 03:41:28 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=14, IfName=25GE1/0/2)
+Jan  5 2026 12:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251117064612.pads.zip)
+Jan  4 2026 08:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251212170112.log.zip)
+Jan  3 2026 14:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251115091612.pads.zip)
+Jan  2 2026 02:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251210093112.log.zip)
+Jan  1 2026 17:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251113114612.pads.zip)
+Dec 30 2025 19:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251111141612.pads.zip)
+Dec 30 2025 19:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251208023112.log.zip)
+Dec 28 2025 22:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251109164612.pads.zip)
+Dec 28 2025 14:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251205180112.log.zip)
+Dec 27 2025 00:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251107191612.pads.zip)
+Dec 26 2025 07:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251203103112.log.zip)
+Dec 25 2025 03:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251105214612.pads.zip)
+Dec 24 2025 01:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251201030112.log.zip)
+Dec 23 2025 05:44:39 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251104001611.pads.zip)
+Dec 21 2025 17:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251128183112.log.zip)
+Dec 21 2025 08:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251102024611.pads.zip)
+Dec 19 2025 10:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251031051611.pads.zip)
+Dec 19 2025 10:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251126103112.log.zip)
+Dec 18 2025 05:58:49 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.192, VpnName=_public_, BlockCount=1).
+Dec 17 2025 13:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251029074611.pads.zip)
+Dec 17 2025 03:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251124030112.log.zip)
+Dec 15 2025 15:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251027101611.pads.zip)
+Dec 14 2025 20:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251121183112.log.zip)
+Dec 13 2025 18:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251025124611.pads.zip)
+Dec 12 2025 13:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251119093112.log.zip)
+Dec 11 2025 20:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251023151611.pads.zip)
+Dec 10 2025 06:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251117013112.log.zip)
+Dec  9 2025 23:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251021174611.pads.zip)
+Dec  8 2025 01:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251019201611.pads.zip)
+Dec  7 2025 22:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251114170112.log.zip)
+Dec  6 2025 04:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251017224611.pads.zip)
+Dec  5 2025 15:26:25 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Dec  5 2025 14:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251112080112.log.zip)
+Dec  4 2025 06:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251016011611.pads.zip)
+Dec  3 2025 07:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251110000112.log.zip)
+Dec  2 2025 09:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251014034611.pads.zip)
+Nov 30 2025 23:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251107153112.log.zip)
+Nov 30 2025 11:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251012061611.pads.zip)
+Nov 28 2025 15:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251105063112.log.zip)
+Nov 28 2025 14:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251010084611.pads.zip)
+Nov 27 2025 04:54:53 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.201, VpnName=_public_, BlockCount=1).
+Nov 26 2025 16:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251008111611.pads.zip)
+Nov 26 2025 12:22:24 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.201, VpnName=_public_, BlockCount=1).
+Nov 26 2025 06:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251102233111.log.zip)
+Nov 24 2025 22:55:57 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Nov 24 2025 19:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251006134611.pads.zip)
+Nov 23 2025 23:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251031153111.log.zip)
+Nov 23 2025 19:51:36 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Nov 22 2025 22:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251004161611.pads.zip)
+Nov 21 2025 14:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251029070111.log.zip)
+Nov 21 2025 00:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20251002184611.pads.zip)
+Nov 19 2025 05:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251026233111.log.zip)
+Nov 19 2025 03:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250930211611.pads.zip)
+Nov 17 2025 05:44:59 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250928234611.pads.zip)
+Nov 16 2025 21:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251024162837.log.zip)
+Nov 15 2025 08:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250927021611.pads.zip)
+Nov 14 2025 13:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251022083111.log.zip)
+Nov 13 2025 10:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250925044611.pads.zip)
+Nov 12 2025 04:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251020013111.log.zip)
+Nov 11 2025 13:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250923071611.pads.zip)
+Nov  9 2025 20:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251017183111.log.zip)
+Nov  9 2025 15:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250921101611.pads.zip)
+Nov  7 2025 17:46:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250919124611.pads.zip)
+Nov  7 2025 11:31:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251015123111.log.zip)
+Nov  5 2025 20:16:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250917151611.pads.zip)
+Nov  5 2025 04:01:12 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251013063111.log.zip)
+Nov  3 2025 22:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250915174611.pads.zip)
+Nov  3 2025 17:28:15 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:28:11 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:28:11 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/3, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/3)
+Nov  3 2025 17:28:10 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:28:08 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/3, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/3)
+Nov  3 2025 17:28:08 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:28:07 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:28:02 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:28:02 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/3, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/3)
+Nov  3 2025 17:28:02 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:28:01 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/3, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/3)
+Nov  3 2025 17:28:01 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:16:19 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:16:15 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:16:15 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/3, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/3)
+Nov  3 2025 17:16:15 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:16:13 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:16:12 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:16:07 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:16:07 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:16:06 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:16:06 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=15, IfIndex=15, PortName=25GE1/0/3, PwName=-)
+Nov  3 2025 17:16:06 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=15, IfName=25GE1/0/3)
+Nov  3 2025 17:15:57 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/3, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/3)
+Nov  3 2025 17:15:57 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=15, IfName=25GE1/0/3)
+Nov  2 2025 20:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251010233111.log.zip)
+Nov  2 2025 01:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250913201611.pads.zip)
+Oct 31 2025 12:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251008173111.log.zip)
+Oct 31 2025 03:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250911231611.pads.zip)
+Oct 29 2025 16:16:52 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Oct 29 2025 05:43:52 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250910014611.pads.zip)
+Oct 29 2025 04:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251006103111.log.zip)
+Oct 27 2025 08:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250908041611.pads.zip)
+Oct 26 2025 20:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251004040111.log.zip)
+Oct 25 2025 10:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250906064611.pads.zip)
+Oct 24 2025 13:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20251001210111.log.zip)
+Oct 23 2025 13:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250904091611.pads.zip)
+Oct 22 2025 05:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250929140111.log.zip)
+Oct 21 2025 15:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250902114611.pads.zip)
+Oct 19 2025 22:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250927063111.log.zip)
+Oct 19 2025 18:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250831141611.pads.zip)
+Oct 17 2025 20:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250829164611.pads.zip)
+Oct 17 2025 16:19:39 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250924233111.log.zip)
+Oct 15 2025 23:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250827191611.pads.zip)
+Oct 15 2025 09:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250922163111.log.zip)
+Oct 14 2025 01:48:33 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Oct 14 2025 01:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250825214611.pads.zip)
+Oct 13 2025 03:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250920093111.log.zip)
+Oct 12 2025 04:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250824001611.pads.zip)
+Oct 10 2025 20:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250918023111.log.zip)
+Oct 10 2025 13:04:52 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.188, VpnName=_public_, BlockCount=1).
+Oct 10 2025 06:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250822024611.pads.zip)
+Oct  8 2025 14:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250915183111.log.zip)
+Oct  8 2025 09:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250820051559.pads.zip)
+Oct  6 2025 11:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250818074611.pads.zip)
+Oct  6 2025 07:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250913113111.log.zip)
+Oct  4 2025 14:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250816101610.pads.zip)
+Oct  4 2025 00:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250911040111.log.zip)
+Oct  2 2025 16:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250814124610.pads.zip)
+Oct  1 2025 17:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250908200111.log.zip)
+Sep 30 2025 18:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250812151610.pads.zip)
+Sep 29 2025 09:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250906130111.log.zip)
+Sep 28 2025 21:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250810174610.pads.zip)
+Sep 27 2025 03:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250904050111.log.zip)
+Sep 25 2025 04:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250808201610.pads.zip)
+Sep 25 2025 02:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250806224610.pads.zip)
+Sep 24 2025 19:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250901213111.log.zip)
+Sep 23 2025 19:32:24 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Sep 22 2025 12:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250830143111.log.zip)
+Sep 22 2025 12:30:39 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Sep 21 2025 10:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250805011610.pads.zip)
+Sep 20 2025 06:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250828063111.log.zip)
+Sep 19 2025 12:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250803034610.pads.zip)
+Sep 19 2025 10:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250801061610.pads.zip)
+Sep 17 2025 22:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250825233111.log.zip)
+Sep 16 2025 17:59:39 B18 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850220, EntPhysicalName=25GE1/0/43, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Sep 16 2025 15:59:24 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850220, EntPhysicalName=25GE1/0/43, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Sep 15 2025 17:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250730084610.pads.zip)
+Sep 15 2025 15:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250728111610.pads.zip)
+Sep 15 2025 15:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250823153111.log.zip)
+Sep 13 2025 18:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250726134610.pads.zip)
+Sep 13 2025 07:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250821060111.log.zip)
+Sep 12 2025 09:31:40 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.201, VpnName=_public_, BlockCount=1).
+Sep 11 2025 21:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250724161610.pads.zip)
+Sep 11 2025 15:49:47 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=2).
+Sep 11 2025 00:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250818213111.log.zip)
+Sep  9 2025 23:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250722184610.pads.zip)
+Sep  8 2025 16:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250816130110.log.zip)
+Sep  8 2025 02:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250720211610.pads.zip)
+Sep  6 2025 08:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250814040110.log.zip)
+Sep  6 2025 04:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250718234610.pads.zip)
+Sep  4 2025 07:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250717021610.pads.zip)
+Sep  4 2025 01:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250811193110.log.zip)
+Sep  2 2025 09:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250715044610.pads.zip)
+Sep  1 2025 18:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250809123110.log.zip)
+Aug 31 2025 12:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250713064610.pads.zip)
+Aug 30 2025 10:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250807043110.log.zip)
+Aug 29 2025 14:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250711091610.pads.zip)
+Aug 28 2025 03:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250804203110.log.zip)
+Aug 27 2025 17:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250709114610.pads.zip)
+Aug 25 2025 19:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250707141610.pads.zip)
+Aug 25 2025 19:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250802140110.log.zip)
+Aug 23 2025 22:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250705164610.pads.zip)
+Aug 23 2025 11:01:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250731063110.log.zip)
+Aug 22 2025 00:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250703191610.pads.zip)
+Aug 21 2025 02:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250728230110.log.zip)
+Aug 20 2025 03:16:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250701214610.pads.zip)
+Aug 18 2025 17:31:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250726153110.log.zip)
+Aug 18 2025 05:46:11 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250630001610.pads.zip)
+Aug 16 2025 09:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250724080110.log.zip)
+Aug 16 2025 07:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250628024610.pads.zip)
+Aug 14 2025 10:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250626051323.pads.zip)
+Aug 14 2025 00:31:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250722013110.log.zip)
+Aug 11 2025 16:31:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250719180110.log.zip)
+Aug 10 2025 17:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250624074610.pads.zip)
+Aug  9 2025 08:31:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250717103110.log.zip)
+Aug  8 2025 20:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250622101610.pads.zip)
+Aug  7 2025 01:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250715023110.log.zip)
+Aug  6 2025 22:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250620124610.pads.zip)
+Aug  5 2025 01:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250618151610.pads.zip)
+Aug  4 2025 20:17:26 B18 %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80932723;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Aug  4 2025 17:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250712183110.log.zip)
+Aug  3 2025 03:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250616174610.pads.zip)
+Aug  2 2025 10:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250710110110.log.zip)
+Aug  1 2025 06:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250614201610.pads.zip)
+Jul 31 2025 03:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250708033110.log.zip)
+Jul 30 2025 08:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250612224610.pads.zip)
+Jul 28 2025 19:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250705193110.log.zip)
+Jul 28 2025 11:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250611011610.pads.zip)
+Jul 26 2025 13:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250609034610.pads.zip)
+Jul 26 2025 12:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250703113110.log.zip)
+Jul 24 2025 16:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250607061610.pads.zip)
+Jul 24 2025 04:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250701023110.log.zip)
+Jul 22 2025 18:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250605084610.pads.zip)
+Jul 21 2025 21:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250628180110.log.zip)
+Jul 20 2025 21:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250603111610.pads.zip)
+Jul 19 2025 14:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250626093110.log.zip)
+Jul 18 2025 23:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250601134610.pads.zip)
+Jul 17 2025 06:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250624013110.log.zip)
+Jul 17 2025 02:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250530161610.pads.zip)
+Jul 15 2025 04:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250528184610.pads.zip)
+Jul 14 2025 22:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250621160110.log.zip)
+Jul 13 2025 06:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250526211609.pads.zip)
+Jul 12 2025 14:31:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250619073110.log.zip)
+Jul 11 2025 09:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250524234609.pads.zip)
+Jul 10 2025 06:31:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250616203110.log.zip)
+Jul  9 2025 11:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250523021609.pads.zip)
+Jul  8 2025 00:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250614090110.log.zip)
+Jul  7 2025 13:16:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250521061604.pads.zip)
+Jul  5 2025 15:31:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250611233110.log.zip)
+Jul  5 2025 14:59:57 B18 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850194, EntPhysicalName=25GE1/0/17, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jul  5 2025 14:59:53 B18 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850193, EntPhysicalName=25GE1/0/16, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jul  5 2025 14:57:21 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850193, EntPhysicalName=25GE1/0/16, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 14:57:19 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850195, EntPhysicalName=25GE1/0/18, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 14:57:16 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850194, EntPhysicalName=25GE1/0/17, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 14:46:59 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850199, EntPhysicalName=25GE1/0/22, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 14:46:59 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850197, EntPhysicalName=25GE1/0/20, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 14:46:54 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850198, EntPhysicalName=25GE1/0/21, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 14:46:54 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850196, EntPhysicalName=25GE1/0/19, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 14:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250519144316.pads.zip)
+Jul  5 2025 13:54:15 B18 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850223, EntPhysicalName=25GE1/0/46, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jul  5 2025 13:54:11 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850201, EntPhysicalName=25GE1/0/24, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  5 2025 13:54:01 B18 %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc0101-alarmID=0x0813005a-clearType=service_resume;Optical Module has been inserted. (EntPhysicalIndex=16850200, EntPhysicalName=25GE1/0/23, EntityTrapFaultID=135680, Reason=Optical Module Inserted.)
+Jul  5 2025 13:53:55 B18 %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc0101-alarmID=0x0813005a;Optical Module has been removed. (EntPhysicalIndex=16850223, EntPhysicalName=25GE1/0/46, EntityTrapFaultID=135680, Reason=Optical Module Removed.)
+Jul  4 2025 18:42:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 18:38:47 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 17:22:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 17:19:37 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 17:12:56 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 17:08:46 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 17:04:36 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 16:57:56 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 11:53:44 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=87, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  4 2025 11:52:04 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 18:51:55 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 18:50:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 18:41:55 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 18:40:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 18:21:55 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 18:20:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 17:53:35 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 17:50:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 16:31:54 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=85, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 16:19:24 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 11:51:52 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 11:50:12 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  3 2025 07:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250609133110.log.zip)
+Jul  2 2025 11:52:30 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  2 2025 11:50:00 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  2 2025 11:12:30 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  2 2025 11:10:50 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  1 2025 21:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250517231423.pads.zip)
+Jul  1 2025 11:53:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jul  1 2025 11:51:28 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 30 2025 23:01:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/diaglog_1_20250607030110.log.zip)
+Jun 30 2025 11:42:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 30 2025 11:41:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 30 2025 11:34:37 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 30 2025 11:27:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 30 2025 11:24:37 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 30 2025 11:22:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 22:46:10 B18 %%01INFO/4/IM_LOGFILE_AGING(l):CID=0x80600404;One log file was deleted due to aging.(LogFileName=1#flash:/logfile/pads/pads_1_20250516074510.pads.zip)
+Jun 29 2025 20:28:39 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:28:35 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:28:35 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/4)
+Jun 29 2025 20:28:35 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:28:32 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/4)
+Jun 29 2025 20:28:32 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:28:31 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:28:26 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:28:26 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/4)
+Jun 29 2025 20:28:26 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:28:25 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/4)
+Jun 29 2025 20:28:25 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:13:42 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:13:37 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:13:37 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/4)
+Jun 29 2025 20:13:37 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:13:35 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/4)
+Jun 29 2025 20:13:35 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:13:33 B18 %%01MSTP/4/PORT_STATE_FORWARDING(l):CID=0x80542725;The port has been set to forwarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:13:28 B18 %%01MSTP/4/PORT_STATE_DISCARDING(l):CID=0x80542725;The port has been set to discarding state. (InstanceID=0, PortIndex=16, IfIndex=16, PortName=25GE1/0/4, PwName=-)
+Jun 29 2025 20:13:28 B18 %%01IFNET/2/linkDown_clear(l):CID=0x807a040a-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=25GE1/0/4)
+Jun 29 2025 20:13:28 B18 %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc0101-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:13:26 B18 %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc0101-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=16, IfName=25GE1/0/4)
+Jun 29 2025 20:13:26 B18 %%01IFNET/2/linkDown_active(l):CID=0x807a040a-alarmID=0x08520003;The interface status changes. (ifName=25GE1/0/4, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=25GE1/0/4)
+Jun 29 2025 19:54:29 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:46:59 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:44:29 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:40:19 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:34:29 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:31:09 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:26:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:20:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:16:58 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:10:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:04:28 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 19:01:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:56:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:49:28 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:48:38 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:40:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:36:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:30:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:26:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:18:38 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:16:58 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:09:28 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:06:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 18:00:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:56:58 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:48:38 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:47:48 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:39:28 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:36:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:31:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:27:47 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:20:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:16:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:10:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:06:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 17:01:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:56:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:51:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:46:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:40:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:34:27 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:32:47 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:24:27 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:21:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:16:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 16:10:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:52:47 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:51:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:44:27 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:41:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:22:46 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:21:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:15:16 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 15:11:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:55:16 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:51:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:44:26 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:41:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:22:46 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:21:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:16:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:09:26 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:04:26 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 14:02:46 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:55:16 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:50:16 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:46:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:40:16 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:36:05 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:31:55 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:24:25 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:20:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:16:05 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:10:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:05:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 13:01:05 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 12:56:05 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 12:39:25 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 12:36:55 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 12:28:35 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 12:27:45 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 11:30:15 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 11:28:35 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 10:28:34 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 10:26:54 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 09:58:34 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 09:56:54 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 09:51:04 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 09:44:24 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 29 2025 09:41:04 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:54:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:49:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:45:58 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:39:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=92, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:34:18 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:30:08 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:15:58 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=87, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 21:10:58 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:55:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:50:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:45:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:40:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:24:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:20:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:16:47 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:09:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:04:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 20:00:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:54:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:49:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:45:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:38:27 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:34:17 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:30:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:25:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:18:27 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:16:47 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:10:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:05:57 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 19:00:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:55:07 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:48:27 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:46:47 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:38:26 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:36:46 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=89, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:30:06 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:26:46 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=88, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:18:26 B18 %%01DEVM/4/hwIfMonitorInputRateRising_active(l):CID=0x80fc0101-alarmID=0x081300ae;Interface input flow bandwidth usage exceeded the trap threshold. (Interface=59, BandWidthUsage=91, TrapThreshold=90, InterfaceName=25GE1/0/47)
+Jun 28 2025 18:17:36 B18 %%01DEVM/4/hwIfMonitorInputRateRising_clear(l):CID=0x80fc0101-alarmID=0x081300ae-clearType=service_resume;Interface input flow bandwidth usage was restored to the trap threshold. (Interface=59, BandWidthUsage=90, TrapThreshold=90, InterfaceName=25GE1/0/47)

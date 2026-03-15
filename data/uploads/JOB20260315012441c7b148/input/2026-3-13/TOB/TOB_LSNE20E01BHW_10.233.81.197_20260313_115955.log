@@ -1,0 +1,1072 @@
+﻿<LSNE20E01BHW>screen-length 0 temporary
+              ^
+Error:Unrecognized command found at '^' position.
+<LSNE20E01BHW>display version
+Huawei Versatile Routing Platform Software
+VRP (R) Software, Version 5.30(NE20E V200R005C03B320)
+Copyright (C) 2000-2007 Huawei Technologies Co., Ltd.
+Quidway NetEngine 20E-8 Router uptime is 6527 days, 16 hours, 2 minutes
+Patch: V200R005C03B320HP0001
+
+Master Rpu (9)'s version information:
+System start up mode is warm
+Uptime is 6527 days, 16 hours, 2 minutes
+Startup time :  2008-04-28 20:03
+Huawei Versatile Routing Platform Software
+512M     bytes SDRAM
+ 64M     bytes FLASH
+512K     bytes NVRAM
+Pcb       Version : VER.E
+Bridge    Version : VER.B
+RPE Logic Version : 023
+SBG Logic Version : 034
+HAC Logic Version : 037
+Small BootROM Version :  4.00
+Big   BootROM Version :  7.01
+VRP (R) Software, Version 5.30 (NE20E V200R005C03B320)
+Slot1:  2FE     (pcb)A  (logic)027  (board)RTM1E2FE    
+Uptime is 6527 days, 15 hours, 58 minutes
+Startup time :  2008-04-28 20:07
+Slot2:  HIPSEC  (pcb)A  (software)003  (hc1ge logic)026  (dba logic)011
+                 (epld)004  (cpcb)003  (bootrom)209  (board)RTP1HPSEC   
+Uptime is 6527 days, 15 hours, 58 minutes
+Startup time :  2008-04-28 20:07
+Slot3:  8E1     (pcb)D  (logic)002  (board)RTM18E1B    
+Uptime is 6527 days, 15 hours, 58 minutes
+Startup time :  2008-04-28 20:07
+Slot4:  4FE     (pcb)A  (logic)027  (board)RTM1E4FE    
+Uptime is 5840 days, 11 hours, 27 minutes
+Startup time :  2010-03-17 00:39
+Slot6:  8E1     (pcb)D  (logic)002  (board)RTM18E1B    
+Uptime is 6527 days, 15 hours, 58 minutes
+Startup time :  2008-04-28 20:07
+
+Slave Rpu (10)'s version information:
+Uptime is 6527 days, 16 hours, 2 minutes
+Startup time :  2008-04-28 20:03
+Huawei Versatile Routing Platform Software
+512M     bytes SDRAM
+ 64M     bytes FLASH
+512K     bytes NVRAM
+Pcb       Version : VER.E
+Bridge    Version : VER.B
+RPE Logic Version : 023
+SBG Logic Version : 034
+HAC Logic Version : 037
+Small BootROM Version :  4.00
+Big   BootROM Version :  7.01
+VRP (R) Software, Version 5.30 (NE20E V200R005C03B320)
+
+Master Npu (11)'s version information:
+Uptime is 6527 days, 16 hours, 2 minutes
+Startup time :  2008-04-28 20:03
+Pico code Version : 2.1
+Pcb       Version : VER.B
+512M      bytes DRAM
+AGR Logic Version : 061
+
+Slave Npu(12)'s version information:
+Uptime is 6527 days, 16 hours, 2 minutes
+Startup time :  2008-04-28 20:03
+Pico code Version : 2.1
+Pcb       Version : VER.B
+512M      bytes DRAM
+AGR Logic Version : 061
+
+Backboard Pcb Version : VER.B
+
+<LSNE20E01BHW>display device
+NE20E-8's Device status:
+
+Slot #    Type        Online    Status      Role        
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+1         2FE         Present   Normal      HIC         
+2         HIPSEC      Present   Normal      HIC         
+3         8E1         Present   Normal      FIC         
+4         4FE         Present   Normal      HIC         
+6         8E1         Present   Normal      FIC         
+9         RPU1        Present   Normal      Master      
+10        RPU2        Present   Normal      Slave       
+11        NPU1        Present   Normal      Master      
+12        NPU2        Present   Normal      Slave       
+13        PWR1        Present   Normal      DC          
+14        PWR2        Present   Normal      DC          
+17        FAN         Present   Normal      NA          
+
+<LSNE20E01BHW>display cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 2% Max: 100%
+CPU Usage Stat. Time : 2026-03-13  12:06:09
+CPU Usage Stat. Tick : 0x532735(CPU Tick High) 0x312f190d(CPU Tick Low)
+Actual Stat. Cycle   : 0x0(CPU Tick High) 0x70004ccf(CPU Tick Low)
+
+TaskName        CPU        Runtime(CPU Tick High/CPU Tick Low)
+BUFM             0%               0/   f2664
+VIDL            98%               0/6dec1882
+TICK             0%               0/  1681cc
+ NTR             0%               0/    1a68
+IPCQ             0%               0/   23f63
+RPCQ             0%               0/   1895a
+HTMR             0%               0/  126199
+ HSC             0%               0/   ecb6c
+VMON             0%               0/     113
+ NPS             0%               0/  12e7b4
+tNet             0%               0/   2afa8
+tRlo             0%               0/    d84d
+ PTS             0%               0/  148585
+STND             0%               0/  1238ea
+ CFA             0%               0/   1a9c5
+INFO             0%               0/   ad950
+ SRM             0%               0/  2adf17
+L2IF             0%               0/   3b773
+ BFD             0%               0/   76f7a
+ROUT             0%               0/  6c7827
+LSPA             0%               0/   efda5
+RSVP             0%               0/   7c081
+TNLM             0%               0/   8beb7
+ FIB             0%               0/   2ddc7
+SOCK             0%               0/  25f5f5
+VTYD             0%               0/   4ce14
+IFNT             0%               0/   1567b
+IPSP             0%               0/     524
+ co0             0%               0/   1faf2
+L2TP             0%               0/   16499
+AGNT             0%               0/    231c
+TRAP             0%               0/  119737
+MDMT             0%               0/   de4f6
+NTPT             0%               0/  2d1c2c
+ TAC             0%               0/   587cd
+ UCM             0%               0/    1dc1
+ASPF             0%               0/    2504
+LOAD             0%               0/    ef0e
+HS2M             0%               0/   23921
+VRRP             0%               0/    13b0
+DHCP             0%               0/   179c6
+RMON             0%               0/    cdd6
+ HOT             0%               0/   36358
+ vt0             0%               0/   1e3be
+ vt1             0%               0/   1f8b4
+ vt2             0%               0/   1ecf3
+ vt3             0%               0/  2a3b5d
+  OS             2%               0/       0
+
+<LSNE20E01BHW>display memory-usage
+ Memory utilization statistics at 2026-03-13 12:06:11 566 ms
+ System Total Memory Is: 381178860 bytes
+ Total Memory Used Is: 86077792 bytes
+ Memory Using Percentage Is: 22%
+<LSNE20E01BHW>display memory all
+                             ^
+Error:Too many parameters found at '^' position.
+<LSNE20E01BHW>display interface brief
+                                ^
+Error:Wrong parameter found at '^' position.
+<LSNE20E01BHW>display logbuffer
+Logging buffer configuration and contents:enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 2064656
+Current messages : 512
+
+Mar 12 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar 12 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar 12 2026 14:37:33 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 55045.
+Mar 12 2026 14:37:33 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 123(TCP), Protocol number: 6.
+Mar 12 2026 14:37:33 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar 12 2026 14:35:25 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 54871.
+Mar 12 2026 14:35:25 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 134(TCP), Protocol number: 6.
+Mar 12 2026 14:35:24 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar 12 2026 11:02:38 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 10: 37: 52, Current delay: 4000 ms, Retransfer total: 6.
+Mar 12 2026 11:02:38 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64620.
+Mar 12 2026 11:02:38 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 127(TCP), Protocol number: 6.
+Mar 12 2026 11:02:38 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar 12 2026 10:33:10 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 10: 21: 30, Current delay: 4000 ms, Retransfer total: 1.
+Mar 12 2026 10:33:10 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 62013.
+Mar 12 2026 10:33:10 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 124(TCP), Protocol number: 6.
+Mar 12 2026 10:33:10 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar 12 2026 10:14:47 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 61768.
+Mar 12 2026 10:14:47 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 454(TCP), Protocol number: 6.
+Mar 12 2026 10:14:47 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar 11 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar 11 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar 10 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar 10 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar 10 2026 10:39:01 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 10: 28: 36, Current delay: 4000 ms, Retransfer total: 2.
+Mar 10 2026 10:39:01 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 53130.
+Mar 10 2026 10:39:01 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 133(TCP), Protocol number: 6.
+Mar 10 2026 10:39:01 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  9 2026 21:18:33 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 21: 17: 43, Current delay: 4000 ms, Retransfer total: 5.
+Mar  9 2026 21:18:33 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 58280.
+Mar  9 2026 21:18:33 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 453(TCP), Protocol number: 6.
+Mar  9 2026 21:18:33 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  9 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  9 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  9 2026 16:28:05 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 16: 26: 45, Current delay: 4000 ms, Retransfer total: 2.
+Mar  9 2026 16:28:04 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64041.
+Mar  9 2026 16:28:04 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 452(TCP), Protocol number: 6.
+Mar  9 2026 16:28:04 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  9 2026 16:24:57 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64038.
+Mar  9 2026 16:24:57 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 451(TCP), Protocol number: 6.
+Mar  9 2026 16:24:57 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  8 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  8 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  7 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  7 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  6 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  6 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  5 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  5 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  4 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  4 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  4 2026 17:55:06 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 17: 46: 19, Current delay: 4000 ms, Retransfer total: 1.
+Mar  4 2026 17:55:06 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64735.
+Mar  4 2026 17:55:06 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 129(TCP), Protocol number: 6.
+Mar  4 2026 17:55:06 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  3 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  3 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  3 2026 17:38:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50418.
+Mar  3 2026 17:38:35 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 91(TCP), Protocol number: 6.
+Mar  3 2026 17:38:35 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  3 2026 17:37:42 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50237.
+Mar  3 2026 17:37:42 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 113(TCP), Protocol number: 6.
+Mar  3 2026 17:37:42 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  3 2026 17:35:02 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 60255.
+Mar  3 2026 17:35:02 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 107(TCP), Protocol number: 6.
+Mar  3 2026 17:35:02 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Mar  2 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  2 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Mar  1 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Mar  1 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 28 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 28 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 27 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 27 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 27 2026 17:55:38 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 52432.
+Feb 27 2026 17:55:38 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 108(TCP), Protocol number: 6.
+Feb 27 2026 17:55:38 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 26 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 26 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 25 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 25 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 24 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 24 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 23 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 23 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 22 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 22 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 22 2026 18:25:10 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64285.
+Feb 22 2026 18:25:10 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 118(TCP), Protocol number: 6.
+Feb 22 2026 18:25:10 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 21 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 21 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 21 2026 18:07:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50909.
+Feb 21 2026 18:07:35 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 114(TCP), Protocol number: 6.
+Feb 21 2026 18:07:35 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 20 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 20 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 19 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 19 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 19 2026 18:00:37 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 61476.
+Feb 19 2026 18:00:37 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 120(TCP), Protocol number: 6.
+Feb 19 2026 18:00:37 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 18 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 18 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 18 2026 14:24:16 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64877.
+Feb 18 2026 14:24:16 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 110(TCP), Protocol number: 6.
+Feb 18 2026 14:24:16 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 17 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 17 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 17 2026 12:03:10 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 62031.
+Feb 17 2026 12:03:10 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 109(TCP), Protocol number: 6.
+Feb 17 2026 12:03:10 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 16 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 16 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 16 2026 18:04:04 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 57454.
+Feb 16 2026 18:04:04 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 106(TCP), Protocol number: 6.
+Feb 16 2026 18:04:04 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 16 2026 18:04:04 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 57450.
+Feb 16 2026 18:04:04 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 76(TCP), Protocol number: 6.
+Feb 16 2026 18:04:04 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 16 2026 18:03:09 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 57750.
+Feb 16 2026 18:03:09 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 450(TCP), Protocol number: 6.
+Feb 16 2026 18:03:09 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 15 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 15 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 15 2026 10:29:24 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 55361.
+Feb 15 2026 10:29:24 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 116(TCP), Protocol number: 6.
+Feb 15 2026 10:29:24 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 14 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 14 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 14 2026 11:03:43 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 59161.
+Feb 14 2026 11:03:42 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 449(TCP), Protocol number: 6.
+Feb 14 2026 11:03:42 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 13 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 13 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 13 2026 17:48:30 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50732.
+Feb 13 2026 17:48:30 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 112(TCP), Protocol number: 6.
+Feb 13 2026 17:48:30 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 13 2026 11:32:26 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 62918.
+Feb 13 2026 11:32:26 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 102(TCP), Protocol number: 6.
+Feb 13 2026 11:32:26 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 13 2026 09:56:09 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 53744.
+Feb 13 2026 09:56:09 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 448(TCP), Protocol number: 6.
+Feb 13 2026 09:56:09 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 13 2026 09:56:07 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 10: 44: 3, Current delay: 4000 ms, Retransfer total: 2.
+Feb 13 2026 09:56:07 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 53414.
+Feb 13 2026 09:56:07 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 105(TCP), Protocol number: 6.
+Feb 13 2026 09:56:07 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 12 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 12 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 11 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 11 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 11 2026 16:11:00 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 16: 10: 53, Current delay: 4000 ms, Retransfer total: 1.
+Feb 11 2026 16:11:00 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 58180.
+Feb 11 2026 16:11:00 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 104(TCP), Protocol number: 6.
+Feb 11 2026 16:11:00 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 11 2026 16:09:51 LSNE20E01BHW %%01HWCM/4/TRAPLOG(l):  1.3.6.1.4.1.2011.6.10.2.1 configure changed:  EventIndex=1709,CommandSource=1,ConfigSource=2,ConfigDestination=4.
+Feb 11 2026 16:08:41 LSNE20E01BHW %%01CFM/4/SAVE(l): When deciding whether to save configuration to the device, the user chose Y.
+Feb 11 2026 11:44:07 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 49753.
+Feb 11 2026 11:44:07 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 103(TCP), Protocol number: 6.
+Feb 11 2026 11:44:07 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb 10 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb 10 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb 10 2026 17:34:59 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 58866.
+Feb 10 2026 17:34:59 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 446(TCP), Protocol number: 6.
+Feb 10 2026 17:34:59 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb  9 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  9 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  9 2026 16:05:15 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64492.
+Feb  9 2026 16:05:15 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 11(TCP), Protocol number: 6.
+Feb  9 2026 16:05:15 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb  8 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  8 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  7 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  7 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  6 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  6 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  6 2026 12:21:57 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 54197.
+Feb  6 2026 12:21:57 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 101(TCP), Protocol number: 6.
+Feb  6 2026 12:21:57 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb  5 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  5 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  5 2026 11:13:31 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 11: 11: 42, Current delay: 4000 ms, Retransfer total: 1.
+Feb  5 2026 11:13:31 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64033.
+Feb  5 2026 11:13:31 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 94(TCP), Protocol number: 6.
+Feb  5 2026 11:13:31 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb  4 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  4 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  4 2026 12:17:41 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 59001.
+Feb  4 2026 12:17:41 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 87(TCP), Protocol number: 6.
+Feb  4 2026 12:17:40 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb  3 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  3 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  3 2026 17:02:53 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 55435.
+Feb  3 2026 17:02:53 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 73(TCP), Protocol number: 6.
+Feb  3 2026 17:02:53 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb  2 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  2 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Feb  2 2026 11:54:55 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50765.
+Feb  2 2026 11:54:55 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 445(TCP), Protocol number: 6.
+Feb  2 2026 11:54:55 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Feb  1 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Feb  1 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 31 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 31 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 30 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 30 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 30 2026 12:25:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 12: 25: 16, Current delay: 4000 ms, Retransfer total: 1.
+Jan 30 2026 12:25:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 49838.
+Jan 30 2026 12:25:35 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 398(TCP), Protocol number: 6.
+Jan 30 2026 12:25:35 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 29 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 29 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 29 2026 11:42:41 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 11: 42: 3, Current delay: 4000 ms, Retransfer total: 1.
+Jan 29 2026 11:42:41 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 63640.
+Jan 29 2026 11:42:41 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 88(TCP), Protocol number: 6.
+Jan 29 2026 11:42:41 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 28 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 28 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 28 2026 16:44:46 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 16: 44: 6, Current delay: 4000 ms, Retransfer total: 1.
+Jan 28 2026 16:44:46 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 52961.
+Jan 28 2026 16:44:46 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 81(TCP), Protocol number: 6.
+Jan 28 2026 16:44:46 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 27 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 27 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 27 2026 12:17:37 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 55690.
+Jan 27 2026 12:17:37 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 77(TCP), Protocol number: 6.
+Jan 27 2026 12:17:37 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 26 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 26 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 26 2026 12:02:31 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 60529.
+Jan 26 2026 12:02:31 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 72(TCP), Protocol number: 6.
+Jan 26 2026 12:02:31 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 25 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 25 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 24 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 24 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 23 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 23 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 23 2026 16:10:56 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 56849.
+Jan 23 2026 16:10:56 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 67(TCP), Protocol number: 6.
+Jan 23 2026 16:10:56 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 22 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 22 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 22 2026 16:35:43 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50636.
+Jan 22 2026 16:35:43 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 65(TCP), Protocol number: 6.
+Jan 22 2026 16:35:43 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 21 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 21 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 21 2026 12:39:23 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 12: 38: 44, Current delay: 4000 ms, Retransfer total: 1.
+Jan 21 2026 12:39:23 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 51908.
+Jan 21 2026 12:39:23 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 59(TCP), Protocol number: 6.
+Jan 21 2026 12:39:23 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 20 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 20 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 20 2026 16:43:54 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 16: 43: 13, Current delay: 4000 ms, Retransfer total: 1.
+Jan 20 2026 16:43:54 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 60587.
+Jan 20 2026 16:43:54 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 57(TCP), Protocol number: 6.
+Jan 20 2026 16:43:54 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 19 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 19 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 19 2026 15:42:51 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 15: 42: 12, Current delay: 4000 ms, Retransfer total: 1.
+Jan 19 2026 15:42:51 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 58763.
+Jan 19 2026 15:42:51 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 34(TCP), Protocol number: 6.
+Jan 19 2026 15:42:51 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 19 2026 14:25:04 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 63116.
+Jan 19 2026 14:25:04 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 401(TCP), Protocol number: 6.
+Jan 19 2026 14:25:04 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 19 2026 14:04:28 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 59738.
+Jan 19 2026 14:04:28 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 70(TCP), Protocol number: 6.
+Jan 19 2026 14:04:28 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 18 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 18 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 17 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 17 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 16 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 16 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 16 2026 15:21:13 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 14: 51: 15, Current delay: 4000 ms, Retransfer total: 1.
+Jan 16 2026 15:21:13 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 52052.
+Jan 16 2026 15:21:13 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 415(TCP), Protocol number: 6.
+Jan 16 2026 15:21:13 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 16 2026 14:41:52 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 11: 29: 12, Current delay: 4000 ms, Retransfer total: 1.
+Jan 16 2026 14:41:52 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 59310.
+Jan 16 2026 14:41:52 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 500(TCP), Protocol number: 6.
+Jan 16 2026 14:41:52 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 16 2026 14:41:46 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 65485.
+Jan 16 2026 14:41:46 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 92(TCP), Protocol number: 6.
+Jan 16 2026 14:41:46 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 16 2026 14:41:45 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 20: 38: 9, Current delay: 6000 ms, Retransfer total: 7.
+Jan 16 2026 14:41:45 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 55407.
+Jan 16 2026 14:41:45 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 366(TCP), Protocol number: 6.
+Jan 16 2026 14:41:45 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 15 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 15 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 15 2026 16:53:29 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 49732.
+Jan 15 2026 16:53:29 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 90(TCP), Protocol number: 6.
+Jan 15 2026 16:53:29 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 14 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 14 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 14 2026 15:04:07 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 15: 3: 47, Current delay: 4000 ms, Retransfer total: 1.
+Jan 14 2026 15:04:07 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 59875.
+Jan 14 2026 15:04:07 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 504(TCP), Protocol number: 6.
+Jan 14 2026 15:04:07 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 13 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 13 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 13 2026 11:07:50 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64264.
+Jan 13 2026 11:07:50 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 503(TCP), Protocol number: 6.
+Jan 13 2026 11:07:50 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan 12 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 12 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 11 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 11 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan 10 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan 10 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  9 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  9 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  8 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  8 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  7 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  7 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  7 2026 16:47:41 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 16: 47: 9, Current delay: 4000 ms, Retransfer total: 2.
+Jan  7 2026 16:47:41 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50417.
+Jan  7 2026 16:47:41 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 399(TCP), Protocol number: 6.
+Jan  7 2026 16:47:41 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan  6 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  6 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  6 2026 10:45:08 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 58985.
+Jan  6 2026 10:45:08 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 376(TCP), Protocol number: 6.
+Jan  6 2026 10:45:08 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Jan  5 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  5 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  4 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  4 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  3 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  3 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  2 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  2 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Jan  1 2026 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Jan  1 2026 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 31 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 31 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 30 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 30 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 29 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 29 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 29 2025 12:48:01 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 12: 47: 15, Current delay: 4000 ms, Retransfer total: 1.
+Dec 29 2025 12:48:01 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 63548.
+Dec 29 2025 12:48:01 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 75(TCP), Protocol number: 6.
+Dec 29 2025 12:48:01 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 28 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 28 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 27 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 27 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 26 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 26 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 26 2025 15:44:23 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64697.
+Dec 26 2025 15:44:23 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 491(TCP), Protocol number: 6.
+Dec 26 2025 15:44:23 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 25 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 25 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 25 2025 16:27:04 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 16: 26: 16, Current delay: 4000 ms, Retransfer total: 1.
+Dec 25 2025 16:27:04 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 60098.
+Dec 25 2025 16:27:04 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 64(TCP), Protocol number: 6.
+Dec 25 2025 16:27:04 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 24 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 24 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 24 2025 12:36:56 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 55971.
+Dec 24 2025 12:36:56 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 84(TCP), Protocol number: 6.
+Dec 24 2025 12:36:56 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 23 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 23 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 23 2025 12:41:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 12: 40: 59, Current delay: 4000 ms, Retransfer total: 1.
+Dec 23 2025 12:41:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 59536.
+Dec 23 2025 12:41:35 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 82(TCP), Protocol number: 6.
+Dec 23 2025 12:41:35 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 22 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 22 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 22 2025 12:42:56 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 63881.
+Dec 22 2025 12:42:56 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 60(TCP), Protocol number: 6.
+Dec 22 2025 12:42:56 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 21 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 21 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 20 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 20 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 19 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 19 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 19 2025 18:33:44 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 57588.
+Dec 19 2025 18:33:44 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 74(TCP), Protocol number: 6.
+Dec 19 2025 18:33:44 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 19 2025 17:05:14 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 60401.
+Dec 19 2025 17:05:14 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 69(TCP), Protocol number: 6.
+Dec 19 2025 17:05:14 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 18 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 18 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 17 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 17 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 17 2025 14:40:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 14: 40: 14, Current delay: 4000 ms, Retransfer total: 11.
+Dec 17 2025 14:40:35 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 51115.
+Dec 17 2025 14:40:35 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 441(TCP), Protocol number: 6.
+Dec 17 2025 14:40:35 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 16 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 16 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 16 2025 16:58:37 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 57577.
+Dec 16 2025 16:58:37 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 71(TCP), Protocol number: 6.
+Dec 16 2025 16:58:37 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 15 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 15 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 15 2025 11:37:30 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 60890.
+Dec 15 2025 11:37:30 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 439(TCP), Protocol number: 6.
+Dec 15 2025 11:37:30 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 15 2025 11:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 57822.
+Dec 15 2025 11:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 30(TCP), Protocol number: 6.
+Dec 15 2025 11:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 15 2025 11:37:19 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 62101.
+Dec 15 2025 11:37:19 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 427(TCP), Protocol number: 6.
+Dec 15 2025 11:37:19 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 14 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 14 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 13 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 13 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 12 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 12 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 11 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 11 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec 11 2025 17:04:56 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 51325.
+Dec 11 2025 17:04:56 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 66(TCP), Protocol number: 6.
+Dec 11 2025 17:04:56 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 10 2025 21:31:40 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 51677.
+Dec 10 2025 21:31:40 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 63(TCP), Protocol number: 6.
+Dec 10 2025 21:31:40 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 10 2025 21:31:40 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 53399.
+Dec 10 2025 21:31:40 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 62(TCP), Protocol number: 6.
+Dec 10 2025 21:31:40 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec 10 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec 10 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  9 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  9 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  9 2025 11:46:55 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 10: 16: 58, Current delay: 4000 ms, Retransfer total: 1.
+Dec  9 2025 11:46:55 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 52769.
+Dec  9 2025 11:46:55 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 55(TCP), Protocol number: 6.
+Dec  9 2025 11:46:55 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec  8 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  8 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  7 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  7 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  6 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  6 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  5 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  5 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 53324.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 61(TCP), Protocol number: 6.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 10: 18: 35, Current delay: 4000 ms, Retransfer total: 1.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 52671.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 58(TCP), Protocol number: 6.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPRETRANS(l): The current tcp retransmitted at: 10: 54: 39, Current delay: 4000 ms, Retransfer total: 2.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 64651.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 423(TCP), Protocol number: 6.
+Dec  5 2025 10:37:26 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec  4 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  4 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  4 2025 10:39:55 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50534.
+Dec  4 2025 10:39:55 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 54(TCP), Protocol number: 6.
+Dec  4 2025 10:39:55 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Dec  3 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  3 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  2 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  2 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  1 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Dec  1 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Dec  1 2025 17:44:00 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 50938.
+Dec  1 2025 17:44:00 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 53(TCP), Protocol number: 6.
+Dec  1 2025 17:44:00 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 30 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Nov 30 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Nov 29 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Nov 29 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Nov 29 2025 14:22:21 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Established, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 61217.
+Nov 29 2025 14:22:21 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 51(TCP), Protocol number: 6.
+Nov 29 2025 14:22:21 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 29 2025 14:19:12 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Closing, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 61183.
+Nov 29 2025 14:19:12 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 0(TCP), Protocol number: 6.
+Nov 29 2025 14:19:12 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 29 2025 14:18:54 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Closing, local-ip: 10.233.81.197, local-port: 22, remote-ip: 10.237.35.254, remote-port: 61134.
+Nov 29 2025 14:18:54 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 0(TCP), Protocol number: 6.
+Nov 29 2025 14:18:54 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 28 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Nov 28 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Nov 27 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Nov 27 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Nov 26 2025 20:08:20 LSNE20E01BHW %%01FIB/3/REFRESH_END(l): FIB refreshing end, the refresh group map is 0!
+Nov 26 2025 20:08:17 LSNE20E01BHW %%01FIB/3/REFRESH_START(l): FIB refreshing start, the refresh group map is 4294967295!
+Nov 26 2025 16:55:45 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Close_Wait, local-ip: 10.233.81.197, local-port: 23, remote-ip: 10.237.35.201, remote-port: 17938.
+Nov 26 2025 16:55:45 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 45(TCP), Protocol number: 6.
+Nov 26 2025 16:55:45 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 26 2025 16:55:44 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=3).
+Nov 26 2025 16:55:42 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=2).
+Nov 26 2025 16:55:41 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Close_Wait, local-ip: 10.233.81.197, local-port: 23, remote-ip: 10.237.35.201, remote-port: 17932.
+Nov 26 2025 16:55:41 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 44(TCP), Protocol number: 6.
+Nov 26 2025 16:55:41 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 26 2025 16:55:41 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=3).
+Nov 26 2025 16:55:39 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=2).
+Nov 26 2025 16:55:38 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Close_Wait, local-ip: 10.233.81.197, local-port: 23, remote-ip: 10.237.35.201, remote-port: 17926.
+Nov 26 2025 16:55:38 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 26(TCP), Protocol number: 6.
+Nov 26 2025 16:55:38 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 26 2025 16:55:38 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=3).
+Nov 26 2025 16:55:37 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=1).
+Nov 26 2025 16:55:36 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=2).
+Nov 26 2025 16:55:34 LSNE20E01BHW %%01SOCKET/4/SOCK_TCPDETAILLOG(l): Detailed information on the current tcp socket: State: Close_Wait, local-ip: 10.233.81.197, local-port: 23, remote-ip: 10.237.35.201, remote-port: 17918.
+Nov 26 2025 16:55:34 LSNE20E01BHW %%01SOCKET/4/SOCK_SOCKDETAILLOG(l): Detailed information on the current socket:  Task: VTYD(39), Socket number: 438(TCP), Protocol number: 6.
+Nov 26 2025 16:55:34 LSNE20E01BHW %%01SOCKET/4/SOCK_CLOSESOCK(l): Current socket was closed, Proto: TCP, Cause: Received RST segment.
+Nov 26 2025 16:55:34 LSNE20E01BHW %%01SHELL/4/TELNETFAILED(l): Login through telnet failed( ip=10.237.35.201 times=3).
+<LSNE20E01BHW>display current-configuration
+#
+ sysname LSNE20E01BHW
+#
+ super password level 3 cipher X%W12.-_]B'Q=^Q`MAF4<1!!
+#
+ info-center loghost 10.237.35.249
+ info-center loghost 10.237.35.55
+ info-center loghost 10.237.99.80
+ info-center loghost 10.237.100.71
+ info-center loghost 10.237.100.228
+#
+ router id 10.233.81.193
+#
+diffserv domain
+#
+acl number 2000
+ rule 0 permit source 10.237.99.0 0.0.0.255
+ rule 10 permit source 10.237.35.254 0
+#
+acl number 2001
+ rule 5 permit source 10.233.104.0 0.0.0.255
+#
+acl number 3000
+ rule 5 deny udp destination-port eq tftp
+ rule 10 deny tcp destination-port eq 135
+ rule 15 deny tcp destination-port eq 139
+ rule 20 deny tcp destination-port eq 445
+ rule 25 deny tcp destination-port eq 1434
+ rule 30 deny tcp destination-port eq 4444
+ rule 35 deny tcp destination-port eq 593
+ rule 40 deny tcp destination-port eq 5554
+ rule 45 deny tcp destination-port eq 9995
+ rule 50 deny tcp destination-port eq 9996
+ rule 55 deny tcp destination-port eq 69
+ rule 60 deny tcp destination-port eq 137
+ rule 65 deny udp destination-port eq 135
+ rule 70 deny udp destination-port eq netbios-ns
+ rule 75 deny udp destination-port eq netbios-ssn
+ rule 80 deny udp destination-port eq ntp
+ rule 1000 permit ip
+#
+acl number 3100
+ rule 10 permit ip source 10.237.35.0 0.0.0.255
+ rule 15 permit ip source 10.237.99.0 0.0.0.255
+ rule 20 permit ip source 10.237.100.0 0.0.0.255
+ rule 25 permit ip source 10.233.81.0 0.0.0.255
+ rule 30 permit ip source 10.241.106.34 0
+#
+traffic classifier VIRUS
+ if-match acl 3000
+#
+traffic behavior VIRUS
+#
+traffic policy VIRUS
+ classifier VIRUS behavior VIRUS
+#
+controller E1 3/0/0
+ channel-set 1 timeslot-list 1-31
+ description TO zhonghangCISCO
+#
+controller E1 3/0/1
+ using e1
+ description to_jian_hang-POS
+#
+controller E1 3/0/2
+ clock master
+ description TO mingzhu_cisco
+#
+controller E1 3/0/3
+ using e1
+#
+controller E1 3/0/4
+ using e1
+#
+controller E1 3/0/5
+ using e1
+ description to nonghang
+#
+controller E1 3/0/6
+ using e1
+#
+controller E1 3/0/7
+ using e1
+#
+controller E1 6/0/0
+ channel-set 1 timeslot-list 1-31
+ description TO nyyjs
+#
+controller E1 6/0/1
+ using e1
+#
+controller E1 6/0/2
+ using e1
+#
+controller E1 6/0/3
+ using e1
+#
+controller E1 6/0/4
+ using e1
+#
+controller E1 6/0/5
+ using e1
+#
+controller E1 6/0/6
+ using e1
+#
+controller E1 6/0/7
+ using e1
+ description gongjiaogongsi
+#
+interface Aux0
+ async mode flow
+ link-protocol ppp
+#
+interface Ethernet1/0/0
+ description TO [XZLS-FW-200S_A]E0/0/2-//100M
+ ip address 10.233.81.197 255.255.255.252
+ traffic-policy VIRUS inbound
+ ntp-service in-interface disable
+#
+interface Ethernet1/0/1
+ speed 10
+ duplex full
+ description TO CWJZH-MIS- PDA_AR46-20
+ ip address 10.233.86.66 255.255.255.252
+#
+interface Ethernet4/0/0
+ description TO-XZJWT.XZ
+ ip address 10.233.251.81 255.255.255.252
+ traffic-policy VIRUS inbound
+#
+interface Ethernet4/0/1
+ description To-YinLian_GongJiao
+ ip address 10.233.251.185 255.255.255.252
+#
+interface Ethernet4/0/2
+ description TO ZHONGHANG
+ ip address 10.233.251.1 255.255.255.252
+#
+interface Ethernet4/0/3
+ description TO ChengGuanQu
+ ip address 10.233.251.121 255.255.255.252
+#
+interface Serial3/0/0:1
+ link-protocol hdlc
+ description TO zhonghangCISCO
+#
+interface Serial3/0/1:0
+ link-protocol ppp
+ ppp mp Virtual-Template 1
+ description TO-JIANHUANGPOS
+#
+interface Serial3/0/3:0
+ link-protocol ppp
+ description fayuan  apn zhuanxian
+ ip address 10.233.251.113 255.255.255.252
+#
+interface Serial3/0/4:0
+ link-protocol ppp
+#
+interface Serial3/0/5:0
+ link-protocol ppp
+ description TO-nonghangPOS
+ ip address 10.233.251.49 255.255.255.252
+#
+interface Serial3/0/6:0
+ link-protocol ppp
+ description zhongxinPOS
+ ip address 10.233.251.33 255.255.255.252
+#
+interface Serial3/0/7:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial6/0/0:1
+ link-protocol ppp
+ description TO nyyjs
+ ip address 10.233.251.105 255.255.255.252
+#
+interface Serial6/0/1:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial6/0/2:0
+ link-protocol ppp
+ description TO_BianFangZongDui
+ ip address 10.233.251.169 255.255.255.252
+#
+interface Serial6/0/3:0
+ link-protocol ppp
+ control-flap
+ ip address 10.233.251.201 255.255.255.252
+#
+interface Serial6/0/4:0
+ link-protocol ppp
+ shutdown
+#
+interface Serial6/0/5:0
+ link-protocol ppp
+ ppp mp Virtual-Template 1
+ description jianhangjiekou
+#
+interface Serial6/0/6:0
+ link-protocol hdlc
+ shutdown
+#
+interface Serial6/0/7:0
+ link-protocol ppp
+ description gongjiaogongshi
+ ip address 10.233.251.193 255.255.255.252
+#
+interface Virtual-Template1
+ ip address 10.233.251.21 255.255.255.252
+#
+interface GigabitEthernet0/0/1
+#
+interface GigabitEthernet0/0/2
+ ip urpf
+#
+interface NULL0
+#
+interface Secp2/0/0
+#
+aaa
+ local-user cmxz_tangjin password cipher :1)5RM2C+;M./a!1$H@GYA!!
+ local-user cmxz_tangjin service-type ssh
+ local-user cmxz_tangjin level 3
+ local-user cmxz_feizeqing password cipher :1)5RM2C+;M./a!1$H@GYA!!
+ local-user cmxz_feizeqing service-type telnet ssh
+ local-user cmxz_feizeqing level 3
+ local-user gprs01 password cipher 1-FFCJW[9B.,S>DV)+/6#A!!
+ local-user gprs01 service-type ssh
+ local-user xz4a_shenma password cipher BK-'B7U!&X_Q=^Q`MAF4<1!!
+ local-user xz4a_shenma service-type terminal telnet ssh
+ local-user xz4a_shenma level 2
+ local-user xz4a_admin password cipher BK-'B7U!&X_Q=^Q`MAF4<1!!
+ local-user xz4a_admin service-type terminal telnet ssh
+ local-user xz4a_admin level 3
+ local-user cmxz_licheng password cipher :1)5RM2C+;M./a!1$H@GYA!!
+ local-user cmxz_licheng service-type ssh
+ local-user cmxz_licheng level 1
+ local-user feizeqing password cipher :1)5RM2C+;M./a!1$H@GYA!!
+ local-user feizeqing service-type terminal telnet ssh
+ local-user feizeqing level 3
+ local-user xazccj password cipher BK-'B7U!&X]K6YV-FO"4J!!!
+ local-user xazccj service-type ssh
+ local-user xazccj level 1
+ local-user jtcjxz password cipher BK-'B7U!&X_8KF76KT!6\!!!
+ local-user jtcjxz service-type terminal telnet ssh
+ local-user jtcjxz level 3
+ local-user cszdxj password cipher 0^,FNa8Y$8/Q=^Q`MAF4<1!!
+ local-user cszdxj service-type telnet ssh
+ local-user cszdxj level 3
+ authentication-scheme default
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default
+ #
+ domain default
+ #
+#
+ospf 1
+ import-route static
+ silent-interface Serial3/0/1:0
+ silent-interface Serial3/0/0:1
+ silent-interface Serial3/0/5:0
+ silent-interface Serial6/0/0:1
+ opaque-capability enable
+ area 0.0.0.0
+  network 10.233.81.193 0.0.0.0
+  network 10.233.81.196 0.0.0.3
+  network 10.233.251.20 0.0.0.3
+  network 10.233.251.0 0.0.0.3
+  network 10.233.251.32 0.0.0.3
+  network 10.233.86.64 0.0.0.3
+  network 10.233.251.48 0.0.0.3
+  network 10.233.251.80 0.0.0.3
+  network 10.233.251.88 0.0.0.3
+  network 10.233.251.104 0.0.0.3
+  network 10.233.251.120 0.0.0.3
+  network 10.233.251.96 0.0.0.3
+  network 10.233.251.168 0.0.0.3
+  network 10.233.251.184 0.0.0.3
+#
+route-policy route_in permit node 10
+ if-match ip-prefix route_in
+#
+nqa-jitter tag-version 1
+
+#
+ arp static 10.233.251.98 0023-ff20-e1dd
+#
+ ip ip-prefix route_in index 10 permit 10.233.104.0 24
+ ip ip-prefix route_in index 20 permit 10.233.251.8 32
+ ip ip-prefix route_in index 30 permit 10.233.251.9 32
+ ip ip-prefix route_in index 40 permit 10.233.251.10 32
+ ip ip-prefix route_in index 50 permit 10.233.251.17 32
+ ip ip-prefix route_in index 60 permit 10.233.251.239 32
+ ip ip-prefix route_in index 70 permit 10.233.251.241 32
+ ip ip-prefix route_in index 80 permit 10.233.251.242 32
+ ip ip-prefix route_in index 90 permit 10.233.251.243 32
+ ip ip-prefix route_in index 100 permit 10.233.251.249 32
+ ip ip-prefix route_in index 110 permit 10.233.251.250 32
+ ip ip-prefix route_in index 120 permit 10.233.251.251 32
+ ip ip-prefix route_in index 130 permit 10.233.251.252 32
+ ip ip-prefix route_in index 140 permit 10.233.251.253 32
+ ip ip-prefix route_in index 150 permit 10.233.251.254 32
+ ip ip-prefix route_in index 160 permit 26.164.253.0 24
+#
+ ip route-static 10.233.81.141 255.255.255.255 10.233.81.198
+ ip route-static 10.233.104.0 255.255.255.0 10.233.81.198
+ ip route-static 10.233.251.8 255.255.255.255 10.233.251.2
+ ip route-static 10.233.251.9 255.255.255.255 10.233.251.50
+ ip route-static 10.233.251.10 255.255.255.255 10.233.251.34
+ ip route-static 10.233.251.17 255.255.255.255 10.233.251.22
+ ip route-static 10.233.251.239 255.255.255.255 10.233.251.202 description gonghang
+ ip route-static 10.233.251.240 255.255.255.255 10.233.251.194 description gongjiaogongshi
+ ip route-static 10.233.251.241 255.255.255.255 10.233.251.186 description TO_YingLian
+ ip route-static 10.233.251.243 255.255.255.255 10.233.251.170
+ ip route-static 10.233.251.249 255.255.255.255 10.233.251.122
+ ip route-static 10.233.251.250 255.255.255.255 10.233.251.112
+ ip route-static 10.233.251.251 255.255.255.255 10.233.251.106
+ ip route-static 10.233.251.252 255.255.255.255 10.233.251.98
+ ip route-static 10.233.251.253 255.255.255.255 10.233.251.82
+ ip route-static 10.233.251.254 255.255.255.255 10.233.251.90
+ ip route-static 10.241.106.34 255.255.255.255 10.233.81.198
+ ip route-static 10.241.118.0 255.255.255.248 10.233.81.198
+ ip route-static 26.164.253.0 255.255.255.0 10.233.251.2
+ ip route-static 26.164.253.116 255.255.255.255 10.233.251.2
+#
+ snmp-agent
+ snmp-agent local-engineid 000007DB7F000001000070EA
+ snmp-agent community read  LCjcGPRS
+ snmp-agent community read  xzyd!GPRS0891 acl 2001
+ snmp-agent community read  XZYD_smjk-2018
+ snmp-agent sys-info version v2c v3
+ snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname LCjcGPRS v2c
+ snmp-agent target-host trap address udp-domain 10.233.104.39 params securityname xzyd!GPRS0891 v2c
+ snmp-agent trap enable bfd
+ snmp-agent trap enable ospf 1
+ snmp-agent trap enable bgp
+ snmp-agent trap enable lsp
+ snmp-agent trap enable te tunnel
+ snmp-agent trap enable static-lsp
+ snmp-agent trap enable te tunnel-reop
+ snmp-agent trap enable te te-frr
+ snmp-agent trap enable te te-frr private
+ snmp-agent trap enable te hot-standby
+ snmp-agent trap enable te ordinary
+ snmp-agent trap enable ldp
+ snmp-agent trap enable vpls
+ snmp-agent trap enable kompella
+ snmp-agent trap enable configuration
+ snmp-agent trap enable system
+ snmp-agent trap enable standard
+ snmp-agent trap enable flash
+ snmp-agent trap enable privateent
+#
+ ntp-service authentication-keyid 1 authentication-mode md5 D%F)Z-&aKM3Q=^Q`MAF4<1!!
+ ntp-service authentication-keyid 2 authentication-mode md5 [H'G](GN]'7Q=^Q`MAF4<1!!
+ ntp-service max-dynamic-sessions 2
+ ntp-service refclock-master  2
+#
+ ssh user shenma authentication-type password
+ ssh user xz4a_admin authentication-type password
+ ssh user jtcjxz authentication-type all
+ ssh user cmxz_tangjin authentication-type password
+ ssh user cmxz_licheng authentication-type password
+ ssh user cmxz_feizeqing authentication-type password
+ ssh user cszdxj authentication-type password
+#
+ header login information "Huawei"
+#
+user-interface con 0
+ authentication-mode aaa
+user-interface aux 0
+ authentication-mode aaa
+user-interface vty 0 4
+ acl 3100 inbound
+ authentication-mode aaa
+ user privilege level 15
+ idle-timeout 20 0
+ screen-length 0
+ protocol inbound all
+#
+return

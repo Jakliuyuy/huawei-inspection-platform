@@ -1,0 +1,903 @@
+﻿<LSCE04BHW>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<LSCE04BHW>display device
+NE40E-X16's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        LPU     Present    Registered   Normal     LC     0      NA           
+4        LPU     Present    Registered   Normal     LC     0      NA           
+5        LPU     Present    Registered   Normal     LC     0      NA           
+6        LPU     Present    Registered   Normal     LC     0      NA           
+7        LPU     Present    Registered   Normal     LC     0      NA           
+16       LPU     Present    Registered   Normal     LC     0      NA           
+17       MPU     Present    Registered   Normal     MMB    0      Master       
+18       MPU     Present    Registered   Normal     MMB    0      Slave        
+19       SFU     Present    Registered   Normal     OTHER  0      NA           
+20       SFU     Present    Registered   Normal     OTHER  0      NA           
+21       SFU     Present    Registered   Normal     OTHER  0      NA           
+22       SFU     Present    Registered   Normal     OTHER  0      NA           
+23       CLK     Present    Registered   Normal     OTHER  0      Master       
+24       CLK     Present    Registered   Normal     OTHER  0      Slave        
+25       PWR     Present    Registered   Normal     OTHER  0      NA           
+26       PWR     Present    Registered   Normal     OTHER  0      NA           
+27       FAN     Present    Registered   Normal     OTHER  0      NA           
+28       FAN     Present    Registered   Normal     OTHER  0      NA           
+29       FAN     Present    Registered   Normal     OTHER  0      NA           
+30       FAN     Present    Registered   Normal     OTHER  0      NA           
+-------------------------------------------------------------------------------
+<LSCE04BHW>display cpu-usage
+Cpu utilization statistics at 2026-03-13 12:09:57 284 ms
+System cpu use rate is : 1%
+Cpu utilization for five seconds: 1% ;  one minute: 1% ;  five minutes: 1%.
+Max CPU Usage : 8%
+Max CPU Usage Stat. Time : 2022-06-27 15:02:48 764 ms
+---------------------------
+ServiceName  UseRate
+---------------------------
+SYSTEM            1%
+AAA               0%
+ARP               0%
+BRAS              0%
+CMF               0%
+CSP               0%
+DEVICE            0%
+DHCP              0%
+ETRUNK            0%
+EUM               0%
+FEA               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+LDT               0%
+LINK              0%
+LOCAL PKT         0%
+MFLP              0%
+MSTP              0%
+ND                0%
+NETSTREAM         0%
+OAM               0%
+OSPF              0%
+PKI               0%
+PNP               0%
+PTPA              0%
+RBS               0%
+RGM               0%
+RM                0%
+SLA               0%
+SMLK              0%
+SVRO              0%
+TNLM              0%
+TUNNEL            0%
+VLAN              0%
+VRRP              0%
+---------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0         3%       3%       3%       2%  16% 2022-06-27 15:03:20
+cpu1         1%       1%       1%       1%  15% 2023-01-17 16:02:09
+cpu2         2%       2%       2%       3%  13% 2023-02-16 16:04:09
+cpu3         2%       2%       2%       2%  13% 2022-06-27 15:01:31
+cpu4         2%       2%       2%       1%  18% 2022-06-27 15:02:51
+cpu5         1%       1%       1%       1%  14% 2023-02-04 16:03:09
+cpu6         2%       2%       2%       1%  18% 2023-02-18 16:04:07
+cpu7         1%       1%       1%       1%  12% 2023-03-31 16:06:43
+cpu8         2%       2%       2%       1%  17% 2023-04-04 16:06:53
+cpu9         2%       2%       2%       1%  13% 2022-11-13 15:59:54
+cpu10        0%       0%       1%       1%  16% 2023-02-21 16:04:17
+cpu11        0%       0%       0%       1%  16% 2023-01-21 16:02:27
+cpu12        1%       1%       0%       1%  13% 2023-01-06 16:01:26
+cpu13        0%       0%       0%       1%  18% 2023-01-04 16:01:21
+cpu14        1%       1%       1%       1%  15% 2024-12-24 16:31:01
+cpu15        1%       1%       1%       1%  28% 2022-06-27 15:01:21
+cpu16        1%       1%       1%       1%  13% 2022-11-14 16:00:06
+cpu17        1%       1%       1%       2%  13% 2023-01-20 16:02:19
+cpu18        0%       0%       0%       1%  13% 2023-02-23 16:04:37
+cpu19        1%       1%       1%       0%   9% 2024-12-24 16:30:51
+cpu20        0%       0%       0%       0%  17% 2023-04-06 16:06:53
+cpu21        0%       0%       0%       0%  15% 2023-01-19 16:02:19
+cpu22        0%       0%       0%       0%  38% 2022-06-27 15:02:51
+cpu23        0%       0%       0%       0%  13% 2023-03-20 16:06:14
+----------------------------------------------------------------
+<LSCE04BHW>display memory
+Memory utilization statistics at 2026-03-13 12:09:57 376 ms
+System Total Memory Is: 30744424 Kbytes
+Total Memory Used Is: 3819316 Kbytes
+Memory Using Percentage Is: 12%
+----------------------------------------
+Process memory information in the slot:
+----------------------------------------
+ProcessId  ProcessName      Used(Kbytes)
+----------------------------------------
+3          CFG                    897865
+1012       PROTO4                 134908
+1016       PSM1                   132754
+1021       FESMB                   90550
+9          LM                      75438
+1004       RESP                    56341
+2          SM                      54882
+1020       IFM                     45251
+1014       CFG_COMMON              43614
+1059       OSPF                    42596
+1015       LOGSERVER               37467
+1028       OPS                     37468
+10001      RM                      31614
+1027       SSH                     33370
+1010       ARP                     27733
+1017       STK                     27222
+1023       PNP                     22621
+1026       UM                      24155
+1006       PROTO5                  24148
+1013       LLP                     23635
+1025       OAM                     22611
+1005       CLOCK                   22611
+1003       SYSMNT                  21075
+1007       PSM2                    23124
+1063       LLDP                    21586
+1024       NSM                     20562
+1061       VRRP                    20562
+1022       TNL6                    22099
+1009       LLC                     16980
+1011       DHCP                    20049
+1008       PKI                     23635
+1018       TELEMETRY               22099
+1002       LICENSE                 24147
+1019       EWM                     23122
+1000       TMC                     19104
+1001       TTY                     16465
+0          system                1615853
+----------------------------------------
+<LSCE04BHW>dis alarm active
+1:Critical  2:Major  3:Minor  4:Warning
+--------------------------------------------------------------------------------
+Sequence   AlarmId    Level Date Time  Description                              
+--------------------------------------------------------------------------------
+1127261    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:13- dex=17109254,BoardID=5,CardID=0,PortID=5,
+                            10:45      InterfaceName=GigabitEthernet5/0/5,AlarmN
+                                       ame=ETH_LOS)                             
+1127260    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:11- dex=17240330,BoardID=7,CardID=0,PortID=9,
+                            10:45      InterfaceName=GigabitEthernet7/0/9,AlarmN
+                                       ame=ETH_LOS)                             
+1127259    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:11- dex=17240329,BoardID=7,CardID=0,PortID=8,
+                            10:45      InterfaceName=GigabitEthernet7/0/8,AlarmN
+                                       ame=ETH_LOS)                             
+1127258    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:11- dex=17240328,BoardID=7,CardID=0,PortID=7,
+                            10:45      InterfaceName=GigabitEthernet7/0/7,AlarmN
+                                       ame=ETH_LOS)                             
+1127257    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:11- dex=17240327,BoardID=7,CardID=0,PortID=6,
+                            10:45      InterfaceName=GigabitEthernet7/0/6,AlarmN
+                                       ame=ETH_LOS)                             
+1127256    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:10- dex=17240326,BoardID=7,CardID=0,PortID=5,
+                            10:45      InterfaceName=GigabitEthernet7/0/5,AlarmN
+                                       ame=ETH_LOS)                             
+1127255    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:10- dex=17240325,BoardID=7,CardID=0,PortID=4,
+                            10:45      InterfaceName=GigabitEthernet7/0/4,AlarmN
+                                       ame=ETH_LOS)                             
+1127254    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:07- dex=17240324,BoardID=7,CardID=0,PortID=3,
+                            10:45      InterfaceName=GigabitEthernet7/0/3,AlarmN
+                                       ame=ETH_LOS)                             
+1127253    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:07- dex=17240323,BoardID=7,CardID=0,PortID=2,
+                            10:45      InterfaceName=GigabitEthernet7/0/2,AlarmN
+                                       ame=ETH_LOS)                             
+1127252    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:07- dex=17240322,BoardID=7,CardID=0,PortID=1,
+                            10:45      InterfaceName=GigabitEthernet7/0/1,AlarmN
+                                       ame=ETH_LOS)                             
+1127251    0x813007C  1     2026-01-20 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:21:07- dex=17240321,BoardID=7,CardID=0,PortID=0,
+                            10:45      InterfaceName=GigabitEthernet7/0/0,AlarmN
+                                       ame=ETH_LOS)                             
+1127250    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=127, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/0, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127249    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=128, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/1, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127248    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=129, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/2, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127247    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=130, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/3, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127246    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=131, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/4, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127245    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=132, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/5, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127244    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=133, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/6, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127243    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=134, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/7, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127242    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=135, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/8, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127241    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=9, PortIfInd
+                            10:45      ex=136, TrunkId=11, TrunkName=Eth-Trunk11
+                                       , PortName=GigabitEthernet7/0/9, Reason=A
+                                        link fault occurred or negotiation infor
+                                       mation synchronization failed.)          
+1127240    0x9360001  2     2026-01-20 Link bandwidth lost totally. (TrunkIndex=
+                             10:21:06- 9, TrunkIfIndex=333, TrunkId=11, TrunkNam
+                            10:45      e=Eth-Trunk11, Reason=No link is selected
+                                       .)                                       
+1127239    0x9360000  2     2026-01-20 The member of LAG can neither receive PDU
+                             10:21:06- s nor send PDUs. (TrunkIndex=6, PortIfInd
+                            10:45      ex=83, TrunkId=10, TrunkName=Eth-Trunk10,
+                                        PortName=GigabitEthernet5/0/5, Reason=A 
+                                       link fault occurred or negotiation inform
+                                       ation synchronization failed.)           
+1127238    0x9360001  2     2026-01-20 Link bandwidth lost totally. (TrunkIndex=
+                             10:21:06- 6, TrunkIfIndex=29, TrunkId=10, TrunkName
+                            10:45      =Eth-Trunk10, Reason=No link is selected.
+                                       )                                        
+1127237    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=29,PortIfIndex=83,
+                            10:45      TrunkId=10,TrunkName=Eth-Trunk10,PortName
+                                       =GigabitEthernet5/0/5,Reason=LACP negotia
+                                       tion fails.)                             
+1127236    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=12
+                            10:45      7,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/0,Reason=LACP negot
+                                       iation fails.)                           
+1127235    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=13
+                            10:45      6,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/9,Reason=LACP negot
+                                       iation fails.)                           
+1127234    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=13
+                            10:45      5,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/8,Reason=LACP negot
+                                       iation fails.)                           
+1127233    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=13
+                            10:45      4,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/7,Reason=LACP negot
+                                       iation fails.)                           
+1127232    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=13
+                            10:45      3,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/6,Reason=LACP negot
+                                       iation fails.)                           
+1127231    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=13
+                            10:45      2,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/5,Reason=LACP negot
+                                       iation fails.)                           
+1127230    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=13
+                            10:45      1,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/4,Reason=LACP negot
+                                       iation fails.)                           
+1127229    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=13
+                            10:45      0,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/3,Reason=LACP negot
+                                       iation fails.)                           
+1127228    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=12
+                            10:45      9,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/2,Reason=LACP negot
+                                       iation fails.)                           
+1127227    0x9362015  2     2026-01-20 The LACP status of the member port change
+                             10:21:06- s to down. (TrunkIndex=333,PortIfIndex=12
+                            10:45      8,TrunkId=11,TrunkName=Eth-Trunk11,PortNa
+                                       me=GigabitEthernet7/0/1,Reason=LACP negot
+                                       iation fails.)                           
+1127226    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240330,EntPhysicalName=Gi
+                                       gabitEthernet7/0/9, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127225    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240329,EntPhysicalName=Gi
+                                       gabitEthernet7/0/8, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127224    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240328,EntPhysicalName=Gi
+                                       gabitEthernet7/0/7, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127223    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240327,EntPhysicalName=Gi
+                                       gabitEthernet7/0/6, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127222    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240326,EntPhysicalName=Gi
+                                       gabitEthernet7/0/5, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127221    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240325,EntPhysicalName=Gi
+                                       gabitEthernet7/0/4, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127220    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240324,EntPhysicalName=Gi
+                                       gabitEthernet7/0/3, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127219    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240323,EntPhysicalName=Gi
+                                       gabitEthernet7/0/2, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127218    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240322,EntPhysicalName=Gi
+                                       gabitEthernet7/0/1, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127217    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:06- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17240321,EntPhysicalName=Gi
+                                       gabitEthernet7/0/0, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127216    0x81300A8  1     2026-01-20 The status of the physical interface is D
+                             10:21:05- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17109254,EntPhysicalName=Gi
+                                       gabitEthernet5/0/5, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+1127215    0x8900005  2     2026-01-20 The status of the non-virtual neighbor ha
+                             10:21:05- s changed. (RouterId=223.104.26.109, NbrI
+                            10:45      pAddress=10.237.111.150, NbrAddressLessIn
+                                       dex=0, NbrRtrId=221.177.132.245, NbrState
+                                       =1, ProcessId=20, AreaId=0.0.0.11, IfnetI
+                                       ndex=333, LocalIfIpAddress=10.237.111.149
+                                       , IfName=Eth-Trunk11, VpnName=GPRS_Gi, Re
+                                       ason=Physical interface change, SubReason
+                                       =Link Fault or Interface Configuration Ch
+                                       ange)                                    
+1127214    0x8930003  2     2026-01-20 The status of the non-virtual neighbor ha
+                             10:21:05- s changed. (RouterId=223.104.26.109, NbrI
+                            10:45      fIndex=333, NbrIfInstId=0, NbrRtrId=221.1
+                                       77.132.245, NbrState=1, IfName=Eth-Trunk1
+                                       1, Reason=Physical interface change, SubR
+                                       eason=Link Fault or Interface Configurati
+                                       on Change)                               
+1127213    0x8532008  3     2026-01-20 The last member interface link status cha
+                             10:21:05- nges to down. (TrunkIfIndex=333, TrunkNam
+                            10:45      e=Eth-Trunk11)                           
+1127212    0x8532008  3     2026-01-20 The last member interface link status cha
+                             10:21:05- nges to down. (TrunkIfIndex=29, TrunkName
+                            10:45      =Eth-Trunk10)                            
+870425     0x9360000  2     2025-03-29 The member of LAG can neither receive PDU
+                             06:43:56- s nor send PDUs. (TrunkIndex=0, PortIfInd
+                            10:45      ex=77, TrunkId=0, TrunkName=Eth-Trunk0, P
+                                       ortName=GigabitEthernet4/0/11, Reason=A l
+                                       ink fault occurred or negotiation informa
+                                       tion synchronization failed.)            
+870424     0x81320C7  1     2025-03-29 The remote fault alarm has occurred. (IfI
+                             06:43:55- ndex=77, IfName=GigabitEthernet4/0/11)   
+                            10:45                                               
+870423     0x81300A8  1     2025-03-29 The status of the physical interface is D
+                             06:43:55- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17043724,EntPhysicalName=Gi
+                                       gabitEthernet4/0/11, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+870422     0x8520003  2     2025-03-29 The interface status changes. (ifName=Gig
+                             06:43:55- abitEthernet4/0/11, AdminStatus=UP, OperS
+                            10:45      tatus=DOWN, Reason=Interface physical lin
+                                       k is down, mainIfname=Eth-Trunk0)        
+870421     0x9362015  2     2025-03-29 The LACP status of the member port change
+                             06:43:55- s to down. (TrunkIndex=19,PortIfIndex=77,
+                            10:45      TrunkId=0,TrunkName=Eth-Trunk0,PortName=G
+                                       igabitEthernet4/0/11,Reason=LACP negotiat
+                                       ion fails.)                              
+868842     0x8900005  2     2025-03-27 The status of the non-virtual neighbor ha
+                             10:50:17- s changed. (RouterId=223.103.26.84, NbrIp
+                            10:45      Address=10.234.35.85, NbrAddressLessIndex
+                                       =0, NbrRtrId=221.177.132.211, NbrState=1,
+                                        ProcessId=10, AreaId=0.0.0.2, IfnetIndex
+                                       =29, LocalIfIpAddress=10.234.35.86, IfNam
+                                       e=Eth-Trunk10, VpnName=GPRS_Gn, Reason=Pe
+                                       er router reason, SubReason=1-Wayhello Re
+                                       ceived)                                  
+868367     0x813007C  1     2025-03-26 Loss of signal alarm. (hwPhysicalPortIfIn
+                             21:45:19- dex=17109253,BoardID=5,CardID=0,PortID=4,
+                            10:45      InterfaceName=GigabitEthernet5/0/4,AlarmN
+                                       ame=ETH_LOS)                             
+782928     0x8130098  1     2024-12-18 Physical entity is removed.(BaseTrapSever
+                             01:16:50- ity=4, BaseTrapProbableCause=65541, BaseT
+                            10:45      rapEventType=5, EntityPhysicalIndex=17174
+                                       794, EntPhysicalContainedIn=17174784, Ent
+                                       PhysicalName=GigabitEthernet6/0/9, Reason
+                                       =The optical module was removed from an i
+                                       nterface of the subcard.)                
+782927     0x8130098  1     2024-12-18 Physical entity is removed.(BaseTrapSever
+                             01:16:50- ity=4, BaseTrapProbableCause=65541, BaseT
+                            10:45      rapEventType=5, EntityPhysicalIndex=17174
+                                       793, EntPhysicalContainedIn=17174784, Ent
+                                       PhysicalName=GigabitEthernet6/0/8, Reason
+                                       =The optical module was removed from an i
+                                       nterface of the subcard.)                
+782919     0x81300A8  1     2024-12-18 The status of the physical interface is D
+                             01:12:08- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17174793,EntPhysicalName=Gi
+                                       gabitEthernet6/0/8, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+782918     0x8520003  2     2024-12-18 The interface status changes. (ifName=Gig
+                             01:12:08- abitEthernet6/0/8, AdminStatus=UP, OperSt
+                            10:45      atus=DOWN, Reason=Interface physical link
+                                        is down, mainIfname=Eth-Trunk16)        
+782917     0x8520003  2     2024-12-18 The interface status changes. (ifName=Eth
+                             01:12:08- -Trunk16, AdminStatus=UP, OperStatus=DOWN
+                            10:45      , Reason=The conditions for the activatio
+                                       n of the interface are not met, mainIfnam
+                                       e=Eth-Trunk16)                           
+782915     0x81300A8  1     2024-12-18 The status of the physical interface is D
+                             01:06:46- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17174794,EntPhysicalName=Gi
+                                       gabitEthernet6/0/9, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+782914     0x8520003  2     2024-12-18 The interface status changes. (ifName=Gig
+                             01:06:45- abitEthernet6/0/9, AdminStatus=UP, OperSt
+                            10:45      atus=DOWN, Reason=Interface physical link
+                                        is down, mainIfname=Eth-Trunk17)        
+782913     0x8520003  2     2024-12-18 The interface status changes. (ifName=Eth
+                             01:06:45- -Trunk17, AdminStatus=UP, OperStatus=DOWN
+                            10:45      , Reason=The conditions for the activatio
+                                       n of the interface are not met, mainIfnam
+                                       e=Eth-Trunk17)                           
+777966     0x8130055  1     2024-12-12 Physical entity failed. (BaseTrapSeverity
+                             10:39:09- =4, BaseTrapProbableCause=67697, BaseTrap
+                            10:45      EventType=5, EntityPhysicalIndex=17830145
+                                       , EntPhysicalContainedIn=17830144, EntPhy
+                                       sicalName=GigabitEthernet16/0/0, Relative
+                                       Resource=Optical Module, ReasonDescriptio
+                                       n=GigabitEthernet16/0/0 is failed, the op
+                                       tical module receive power is too low)   
+751011     0x8130055  1     2024-11-11 Physical entity failed. (BaseTrapSeverity
+                             16:48:36- =6, BaseTrapProbableCause=67660, BaseTrap
+                            10:45      EventType=5, EntityPhysicalIndex=17235968
+                                       , EntPhysicalContainedIn=17235968, EntPhy
+                                       sicalName=PhyMbusNode 7, RelativeResource
+                                       =Power, ReasonDescription=Slot 7 is faile
+                                       d, the second 48V power supply became fau
+                                       lty)                                     
+751010     0x8130055  1     2024-11-11 Physical entity failed. (BaseTrapSeverity
+                             16:48:36- =6, BaseTrapProbableCause=67660, BaseTrap
+                            10:45      EventType=5, EntityPhysicalIndex=17235968
+                                       , EntPhysicalContainedIn=17235968, EntPhy
+                                       sicalName=PhyMbusNode 7, RelativeResource
+                                       =Power, ReasonDescription=Slot 7 is faile
+                                       d, the first 48V power supply became faul
+                                       ty)                                      
+710396     0x8520003  2     2024-09-25 The interface status changes. (ifName=Vla
+                             17:36:39- nif1600, AdminStatus=UP, OperStatus=DOWN,
+                            10:45       Reason=Interface physical link is down, 
+                                       mainIfname=Vlanif1600)                   
+710395     0x8520003  2     2024-09-25 The interface status changes. (ifName=Gig
+                             17:36:39- abitEthernet5/0/4, AdminStatus=UP, OperSt
+                            10:45      atus=DOWN, Reason=Interface physical link
+                                        is down, mainIfname=GigabitEthernet5/0/4
+                                       )                                        
+710394     0x81300A8  1     2024-09-25 The status of the physical interface is D
+                             17:36:39- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17109253,EntPhysicalName=Gi
+                                       gabitEthernet5/0/4, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+311090     0x8130098  1     2023-06-21 Physical entity is removed.(BaseTrapSever
+                             16:43:38- ity=4, BaseTrapProbableCause=65541, BaseT
+                            10:45      rapEventType=5, EntityPhysicalIndex=17174
+                                       785, EntPhysicalContainedIn=17174784, Ent
+                                       PhysicalName=GigabitEthernet6/0/0, Reason
+                                       =The optical module was removed from an i
+                                       nterface of the subcard.)                
+268957     0x8900005  2     2023-05-04 The status of the non-virtual neighbor ha
+                             01:13:35- s changed. (RouterId=223.103.26.84, NbrIp
+                            10:45      Address=223.104.26.97, NbrAddressLessInde
+                                       x=0, NbrRtrId=221.177.132.45, NbrState=1,
+                                        ProcessId=10, AreaId=0.0.0.0, IfnetIndex
+                                       =22, LocalIfIpAddress=223.104.26.98, IfNa
+                                       me=Eth-Trunk0.1000, VpnName=GPRS_Gn, Reas
+                                       on=Adjacency holdTimer expired, SubReason
+                                       =Hello Not Seen)                         
+268956     0x8900005  2     2023-05-04 The status of the non-virtual neighbor ha
+                             01:13:28- s changed. (RouterId=223.104.26.109, NbrI
+                            10:45      pAddress=223.104.26.117, NbrAddressLessIn
+                                       dex=0, NbrRtrId=221.177.132.53, NbrState=
+                                       1, ProcessId=20, AreaId=0.0.0.0, IfnetInd
+                                       ex=23, LocalIfIpAddress=223.104.26.118, I
+                                       fName=Eth-Trunk0.1001, VpnName=GPRS_Gi, R
+                                       eason=Adjacency holdTimer expired, SubRea
+                                       son=Hello Not Seen)                      
+268955     0x8930003  2     2023-05-04 The status of the non-virtual neighbor ha
+                             01:13:16- s changed. (RouterId=223.104.26.109, NbrI
+                            10:45      fIndex=23, NbrIfInstId=0, NbrRtrId=221.17
+                                       7.132.53, NbrState=1, IfName=Eth-Trunk0.1
+                                       001, Reason=Adjacency holdTimer expired, 
+                                       SubReason=Hello Not Seen)                
+262162     0x8130098  1     2023-04-26 Physical entity is removed.(BaseTrapSever
+                             19:22:09- ity=4, BaseTrapProbableCause=65541, BaseT
+                            10:45      rapEventType=5, EntityPhysicalIndex=17830
+                                       411, EntPhysicalContainedIn=17830400, Ent
+                                       PhysicalName=GigabitEthernet16/1/10, Reas
+                                       on=The optical module was removed from an
+                                        interface of the subcard.)              
+262142     0x8520003  2     2023-04-26 The interface status changes. (ifName=Gig
+                             19:17:38- abitEthernet16/1/10, AdminStatus=UP, Oper
+                            10:45      Status=DOWN, Reason=Interface physical li
+                                       nk is down, mainIfname=GigabitEthernet16/
+                                       1/10)                                    
+262141     0x81300A8  1     2023-04-26 The status of the physical interface is D
+                             19:17:38- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17830411,EntPhysicalName=Gi
+                                       gabitEthernet16/1/10, ReasonDescription=T
+                                       he status of the physical interface is Do
+                                       wn.)                                     
+262132     0x8130098  1     2023-04-26 Physical entity is removed.(BaseTrapSever
+                             19:09:19- ity=4, BaseTrapProbableCause=65541, BaseT
+                            10:45      rapEventType=5, EntityPhysicalIndex=17830
+                                       409, EntPhysicalContainedIn=17830400, Ent
+                                       PhysicalName=GigabitEthernet16/1/8, Reaso
+                                       n=The optical module was removed from an 
+                                       interface of the subcard.)               
+262130     0x8520003  2     2023-04-26 The interface status changes. (ifName=Gig
+                             19:09:16- abitEthernet16/1/8, AdminStatus=UP, OperS
+                            10:45      tatus=DOWN, Reason=Interface physical lin
+                                       k is down, mainIfname=GigabitEthernet16/1
+                                       /8)                                      
+262129     0x81300A8  1     2023-04-26 The status of the physical interface is D
+                             19:09:16- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17830409,EntPhysicalName=Gi
+                                       gabitEthernet16/1/8, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+78137      0x8130055  1     2022-09-26 Physical entity failed. (BaseTrapSeverity
+                             01:47:42- =4, BaseTrapProbableCause=67995, BaseTrap
+                            10:45      EventType=5, EntityPhysicalIndex=16777216
+                                       , EntPhysicalContainedIn=16777216, EntPhy
+                                       sicalName=X16 frame, RelativeResource=NA,
+                                        ReasonDescription=The air filter inside 
+                                       the chassis was not cleaned.)            
+168        0x8520003  2     2022-06-27 The interface status changes. (ifName=Gig
+                             15:48:34- abitEthernet0/0/0, AdminStatus=UP, OperSt
+                            10:45      atus=DOWN, Reason=Interface physical link
+                                        is down, mainIfname=GigabitEthernet0/0/0
+                                       )                                        
+100        0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847383,EntPhysicalName=Gi
+                                       gabitEthernet1/1/22, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+99         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847382,EntPhysicalName=Gi
+                                       gabitEthernet1/1/21, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+98         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847378,EntPhysicalName=Gi
+                                       gabitEthernet1/1/17, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+97         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847377,EntPhysicalName=Gi
+                                       gabitEthernet1/1/16, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+96         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847376,EntPhysicalName=Gi
+                                       gabitEthernet1/1/15, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+95         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847375,EntPhysicalName=Gi
+                                       gabitEthernet1/1/14, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+94         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847374,EntPhysicalName=Gi
+                                       gabitEthernet1/1/13, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+93         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847373,EntPhysicalName=Gi
+                                       gabitEthernet1/1/12, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+92         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847372,EntPhysicalName=Gi
+                                       gabitEthernet1/1/11, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+91         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:30:18- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847363,EntPhysicalName=Gi
+                                       gabitEthernet1/1/2, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+40         0x81300A8  1     2022-06-27 The status of the physical interface is D
+                             15:20:07- own. (BaseTrapSeverity=3, BaseTrapProbabl
+                            10:45      eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17174785,EntPhysicalName=Gi
+                                       gabitEthernet6/0/0, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+24         0xF10466   2     2022-06-27 With the development of cryptographic tec
+                             15:12:31- hnologies and the improvement of computin
+                            10:45      g capabilities, some cryptographic algori
+                                       thm and protocols are deprecated. Please 
+                                       use more secure algorithms and protocols.
+                                        (Type=insecure algorithm)               
+23         0xF10466   2     2022-06-27 With the development of cryptographic tec
+                             15:12:31- hnologies and the improvement of computin
+                            10:45      g capabilities, some cryptographic algori
+                                       thm and protocols are deprecated. Please 
+                                       use more secure algorithms and protocols.
+                                        (Type=insecure protocol)                
+16         0x9360001  2     2022-06-27 Link bandwidth lost totally. (TrunkIndex=
+                             15:02:47- 4, TrunkIfIndex=27, TrunkId=6, TrunkName=
+                            10:45      Eth-Trunk6, Reason=No link is selected.) 
+--------------------------------------------------------------------------------
+<LSCE04BHW>dis interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(B): Bit-error-detection down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(ld): loop-detect trigger down
+(mf): mac-flapping blocked
+(c): CFM down
+(sd): STP instance discarding
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Eth-Trunk0                  up    up        0.01%  0.01%       8733          0
+  GigabitEthernet1/0/0(10G) up    up        0.01%  0.01%       8470          0
+  GigabitEthernet1/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/9(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/0(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/3(10G) up    up        0.01%  0.01%        263          0
+  GigabitEthernet4/0/9(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/10(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/11(10G) down  down         0%     0%          0          0
+  GigabitEthernet5/0/0(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk0.10               up    up           0%     0%          0          0
+Eth-Trunk0.100              up    down         0%     0%          0          0
+Eth-Trunk0.1000             up    up           0%     0%          0          0
+Eth-Trunk0.1001             up    up           0%     0%          0          0
+Eth-Trunk1                  up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/8(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet5/0/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet6/0/3(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk2                  up    up        0.11%  0.07%          0          0
+  GigabitEthernet4/0/4(10G) up    up        0.11%  0.07%          0          0
+Eth-Trunk3                  up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet1/0/7(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/7(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet4/0/8(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk4                  up    down      0.01%  0.01%        125          0
+  GigabitEthernet16/0/0(10G) up    up        0.01%  0.01%        124          0
+  GigabitEthernet16/0/1(10G) up    up        0.02%  0.01%          0          0
+  GigabitEthernet16/0/2(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/7(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/8(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/9(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/0/10(10G) up    up        0.01%  0.01%          1          0
+  GigabitEthernet16/0/11(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/0(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/1(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/2(10G) up    up        0.01%  0.04%          0          0
+  GigabitEthernet16/1/3(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/4(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/5(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/6(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet16/1/7(10G) up    up        0.01%  0.02%          0          0
+Eth-Trunk4.1001             up    up           0%     0%          0          0
+Eth-Trunk4.1002             up    up           0%     0%          0          0
+Eth-Trunk4.1003             up    up           0%     0%          0          0
+Eth-Trunk6                  down  down         0%     0%          0          0
+Eth-Trunk7                  up    up        0.01%  0.01%          0       5758
+  GigabitEthernet1/1/0      up    up        0.01%  0.01%          0       5758
+Eth-Trunk10                 down  down         0%     0%          0          0
+  GigabitEthernet5/0/5(10G) down  down         0%     0%          0          0
+Eth-Trunk11                 down  down         0%     0%          0          0
+  GigabitEthernet7/0/0(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/1(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/2(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/3(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/4(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/5(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/6(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/7(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/8(10G) down  down         0%     0%          0          0
+  GigabitEthernet7/0/9(10G) down  down         0%     0%          0          0
+Eth-Trunk16                 down  down         0%     0%          0          0
+  GigabitEthernet6/0/8(10G) down  down         0%     0%          0          0
+Eth-Trunk17                 down  down         0%     0%          0          0
+  GigabitEthernet6/0/9(10G) down  down         0%     0%          0          0
+GigabitEthernet0/0/0        down  down         0%     0%          0          0
+GigabitEthernet1/0/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet1/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet1/1/1        up    up        0.01%  0.01%          0          0
+GigabitEthernet1/1/2        down  down         0%     0%          0          0
+GigabitEthernet1/1/3        down  down         0%     0%          0          0
+GigabitEthernet1/1/4        up    up        0.01%  0.01%          0     312419
+GigabitEthernet1/1/5        up    up        0.01%  0.01%          0     297529
+GigabitEthernet1/1/6        up    up        0.01%  0.01%          0      87791
+GigabitEthernet1/1/7        up    up        0.02%  0.01%          0     196903
+GigabitEthernet1/1/8        up    up        0.02%  0.01%          0     198042
+GigabitEthernet1/1/9        down  down         0%     0%          0          0
+GigabitEthernet1/1/10       down  down         0%     0%          0          0
+GigabitEthernet1/1/11       down  down         0%     0%          0          0
+GigabitEthernet1/1/12       down  down         0%     0%          0          0
+GigabitEthernet1/1/13       down  down         0%     0%          0          0
+GigabitEthernet1/1/14       down  down         0%     0%          0          0
+GigabitEthernet1/1/15       down  down         0%     0%          0          0
+GigabitEthernet1/1/16       down  down         0%     0%          0          0
+GigabitEthernet1/1/17       down  down         0%     0%          0          0
+GigabitEthernet1/1/18       down  down         0%     0%          0          0
+GigabitEthernet1/1/19       down  down         0%     0%          0          0
+GigabitEthernet1/1/20       down  down         0%     0%          0          0
+GigabitEthernet1/1/21       down  down         0%     0%          0          0
+GigabitEthernet1/1/22       down  down         0%     0%          0          0
+GigabitEthernet1/1/23       down  down         0%     0%          0          0
+GigabitEthernet5/0/4(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/6(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/7(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/8(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/9(10G)   down  down         0%     0%          0          0
+GigabitEthernet5/0/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet5/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet6/0/0(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/4(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/5(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/6(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/7(10G)   down  down         0%     0%          0          0
+GigabitEthernet6/0/10(10G)  *down down         0%     0%          0          0
+GigabitEthernet6/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet7/0/10(10G)  up    down      0.01%  0.01%          0          0
+GigabitEthernet7/0/11(10G)  up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/0(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/1(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/2(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/3(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/4(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/5(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/6(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/7(10G)   up    down      0.01%  0.01%          0          0
+GigabitEthernet7/1/8(10G)   down  down         0%     0%          0          0
+GigabitEthernet7/1/9(10G)   down  down         0%     0%          0          0
+GigabitEthernet7/1/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet7/1/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet16/1/8(10G)  down  down         0%     0%          0          0
+GigabitEthernet16/1/9(10G)  down  down         0%     0%          0          0
+GigabitEthernet16/1/10(10G) down  down         0%     0%          0          0
+GigabitEthernet16/1/11(10G) down  down         0%     0%          0          0
+HP-GE17/3/0                 down  down         0%     0%          0          0
+HP-GE17/3/1                 down  down         0%     0%          0          0
+HP-GE18/3/0                 down  down         0%     0%          0          0
+HP-GE18/3/1                 down  down         0%     0%          0          0
+LoopBack0                   up    up(s)        0%     0%          0          0
+LoopBack1                   up    up(s)        0%     0%          0          0
+LoopBack2                   up    up(s)        0%     0%          0          0
+LoopBack42                  up    up(s)        0%     0%          0          0
+LoopBack100                 up    up(s)        0%     0%          0          0
+LoopBack2147483647          up    up(s)        0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Virtual-Template0           up    up(s)        0%     0%          0          0
+Vlanif100                   up    down         --     --          0          0
+Vlanif400                   up    up           --     --          0          0
+Vlanif600                   up    up           --     --          0          0
+Vlanif700                   up    up           --     --          0          0
+Vlanif1200                  up    up           --     --          0          0
+Vlanif1600                  down  down         --     --          0          0

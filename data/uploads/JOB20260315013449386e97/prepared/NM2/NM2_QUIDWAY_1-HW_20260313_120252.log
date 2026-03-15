@@ -1,0 +1,1912 @@
+﻿<Quidway>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<Quidway>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S9300 V200R010C00SPC600)
+Copyright (C) 2000-2016 HUAWEI TECH CO., LTD
+Quidway S9306 Terabit Routing Switch uptime is 384 weeks, 2 days, 16 hours, 24 minutes
+BKP 0 version information:
+1. PCB      Version  : LE02BAKI VER.E
+2. Support  PoE      : No
+3. Board    Type     : LE0KS9306
+4. MPU Slot Quantity : 2
+5. LPU Slot Quantity : 6
+
+MPU 7(Slave)  : uptime is 132 weeks, 6 days, 23 hours, 0 minute
+SDRAM Memory Size    : 4096    M bytes
+Flash Memory Size    : 64      M bytes
+NVRAM Memory Size    : 512     K bytes
+EUSB Memory Size     : 1905    M bytes
+MPU version information : 
+1. PCB      Version  : SWC02SRUH000 VER.C
+2. MAB      Version  : 1
+3. Board    Type     : LE1D2SRUH000
+4. CPLD0    Version  : 1504.2300
+5. BootROM  Version  : 020a.0065
+6. BootLoad Version  : 020a.008c
+
+MPU 8(Master)  : uptime is 384 weeks, 2 days, 16 hours, 23 minutes
+SDRAM Memory Size    : 4096    M bytes
+Flash Memory Size    : 64      M bytes
+NVRAM Memory Size    : 512     K bytes
+EUSB Memory Size     : 1905    M bytes
+MPU version information : 
+1. PCB      Version  : SWC02SRUH000 VER.C
+2. MAB      Version  : 1
+3. Board    Type     : LE1D2SRUH000
+4. CPLD0    Version  : 1504.2300
+5. BootROM  Version  : 020a.0065
+6. BootLoad Version  : 020a.008c
+
+LPU 1  : uptime is 384 weeks, 2 days, 16 hours, 21 minutes
+SDRAM Memory Size    : 256     M bytes
+Flash Memory Size    : 16      M bytes
+LPU version information : 
+1. PCB      Version  : LE02G48S VER.B
+2. MAB      Version  : 9
+3. Board    Type     : LE0MG48SC
+4. CPLD0    Version  : 1102.1516
+5. BootROM  Version  : 020a.010f
+6. BootLoad Version  : 020a.0155
+TCAM version information : 
+1. TCAM size         : 9       M bits
+
+LPU 2  : uptime is 384 weeks, 2 days, 16 hours, 22 minutes
+SDRAM Memory Size    : 256     M bytes
+Flash Memory Size    : 16      M bytes
+LPU version information : 
+1. PCB      Version  : LE02G48V VER.B
+2. MAB      Version  : 8
+3. Board    Type     : LE0MG48TC
+4. BootROM  Version  : 020a.010f
+5. BootLoad Version  : 020a.0155
+TCAM version information : 
+1. TCAM size         : 9       M bits
+
+LPU 3  : uptime is 384 weeks, 2 days, 16 hours, 21 minutes
+SDRAM Memory Size    : 2048    M bytes
+Flash Memory Size    : 64      M bytes
+LPU version information : 
+1. PCB      Version  : SWC02X32SSC0 VER.A
+2. MAB      Version  : 1
+3. Board    Type     : LE1D2X32SSC0
+4. CPLD0    Version  : 1504.2100
+5. BootROM  Version  : 020a.0065
+6. BootLoad Version  : 020a.003d
+
+CMU 9(Master)  : uptime is 384 weeks, 2 days, 16 hours, 23 minutes
+CMU version information : 
+1. PCB      Version  : LE02CMUA VER.B
+2. MAB      Version  : 8
+3. Board    Type     : LE02CMUA
+<Quidway>display device
+S9306's Device status:
+Slot  Sub Type         Online    Power      Register       Status     Role  
+-------------------------------------------------------------------------------
+1     -   LE0MG48SC    Present   PowerOn    Registered     Normal     NA    
+2     -   LE0MG48TC    Present   PowerOn    Registered     Normal     NA    
+3     -   LE1D2X32SSC0 Present   PowerOn    Registered     Normal     NA    
+7     -   LE1D2SRUH000 Present   PowerOn    Registered     Normal     Slave 
+8     -   LE1D2SRUH000 Present   PowerOn    Registered     Normal     Master
+PWR1  -   -            Present   PowerOn    Registered     Normal     NA    
+PWR2  -   -            Present   PowerOn    Registered     Normal     NA    
+PWR3  -   -            Present   PowerOn    Registered     Normal     NA    
+PWR4  -   -            Present   PowerOn    Registered     Normal     NA    
+CMU1  -   LE02CMUA     Present   PowerOn    Registered     Normal     Master
+FAN1  -   -            Present   PowerOn    Registered     Normal     NA    
+FAN2  -   -            Present   PowerOn    Registered     Normal     NA    
+<Quidway>display startup
+MainBoard: 
+  Configured startup system software:        flash:/s9300-v200r010c00spc600.cc
+  Startup system software:                   flash:/s9300-v200r010c00spc600.cc
+  Next startup system software:              flash:/s9300-v200r010c00spc600.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup license file:                      default
+  Next startup license file:                 default
+  Startup patch package:                     flash:/s9300series-v200r010sph008.pat
+  Next startup patch package:                flash:/s9300series-v200r010sph008.pat
+SlaveBoard:
+  Configured startup system software:        flash:/s9300-v200r010c00spc600.cc
+  Startup system software:                   flash:/s9300-v200r010c00spc600.cc
+  Next startup system software:              flash:/s9300-v200r010c00spc600.cc
+  Startup saved-configuration file:          flash:/vrpcfg.zip
+  Next startup saved-configuration file:     flash:/vrpcfg.zip
+  Startup paf file:                          default
+  Next startup paf file:                     default
+  Startup license file:                      default
+  Next startup license file:                 default
+  Startup patch package:                     flash:/s9300series-v200r010sph008.pat
+  Next startup patch package:                flash:/s9300series-v200r010sph008.pat
+<Quidway>display cpu-usage
+CPU Usage Stat. Cycle: 60 (Second)
+CPU Usage            : 7% Max: 96%
+CPU Usage Stat. Time : 2026-03-13  11:37:11 
+CPU utilization for five seconds: 7%: one minute: 7%: five minutes: 7%
+Max CPU Usage Stat. Time : 2018-10-30 18:33:11.
+
+TaskName        CPU  Runtime(CPU Tick High/Tick Low)  Task Explanation
+VIDL                 93%        13/7ce8a4ff       DOPRA IDLE                    
+OS                    6%         1/41dd75ff       Operation System              
+TICK                  1%         0/3a1d51c0                                     
+1AGA                  0%         0/       0       1AGAGT                        
+AAA                   0%         0/ 1c9c380       AAA  Authen Account Authorize 
+ADPT                  0%         0/       0       ADPT                          
+AGNT                  0%         0/       0       AGNTSNMP agent task           
+AGT6                  0%         0/       0       AGT6SNMP AGT6 task            
+ALM                   0%         0/       0       ALM  Alarm Management         
+AM                    0%         0/       0       AM   Address Management       
+APP                   0%         0/       0       APP                           
+APS                   0%         0/ 1c9c380       APS Automatic Protection
+                                                  Switch                       
+ARP                   0%         0/ 47868c0       ARP                           
+ARPA                  0%         0/       0       ARPA ARP Adapter              
+ASFM                  0%         0/       0       ASFM                          
+BEAT                  0%         0/  e4e1c0       BEAT Beat Management          
+BFD                   0%         0/ 2aea540       BFD Bidirection Forwarding
+                                                  Detect                       
+BFDA                  0%         0/       0       BFDA BFD Adapter              
+BFDS                  0%         0/       0       BFDS                          
+BOX_Out               0%         0/ 2aea540                                     
+BTRC                  0%         0/       0       BTRC                          
+CAPM                  0%         0/       0       CAPM Capture Packet           
+CCTL                  0%         0/       0       CCTLBulk stat connect control 
+CFM                   0%         0/       0       CFM Configuration file
+                                                  management                   
+CHAL                  0%         0/       0       CHAL Core Hardware Layer      
+CKDV                  0%         0/       0       CKDV                          
+CLKI                  0%         0/       0       CLKI                          
+CMDA                  0%         0/       0       CMDA                          
+CSBR                  0%         0/       0       CSBRCompare slave
+                                                  buildrun-info                
+CSPF                  0%         0/  e4e1c0       CSPF task                     
+CSS                   0%         0/       0       CSS Cluster Switch System     
+CSSP                  0%         0/       0       CSSP CSS Protocol Process     
+DEFD                  0%         0/  e4e1c0       DEFD CPU Defend               
+DEV                   0%         0/ 2aea540       DEV  Device Management        
+DEVA                  0%         0/       0       DEVA Device Assistant         
+DFSU                  0%         0/       0       DFSU Device Flexible Service
+                                                  Unit                         
+DHCP                  0%         0/       0       DHCP Dynamic Host Config
+                                                  Protocol                     
+DIAG                  0%         0/       0       DIAG                          
+DLDP                  0%         0/       0       DLDP Protocol                 
+DRVD                  0%         0/       0       DRVD                          
+DSMS                  0%         0/       0       DSMS Device adapt to SMS      
+EAP                   0%         0/       0       EAP  Extensible Authen
+                                                  Protocol                     
+ECM                   0%         0/ 2aea540       ECM Ethernet Communicate
+                                                  Manage                       
+ECMS                  0%         0/       0       ECMSharedQueue                
+EFMT                  0%         0/       0       EFMTEST 802.3AH Test          
+ELAB                  0%         0/       0       ELAB e-label Management       
+EOAM                  0%         0/  e4e1c0       EOAM1AG                       
+ESAP                  0%         0/  e4e1c0       ESAP eSap Adapter             
+EZDT                  0%         0/  e4e1c0       EZDT                          
+EZOP                  0%         0/       0       EZOP EasyOperation
+                                                  application                  
+EZPP                  0%         0/       0       EZPP EasyOperation packet     
+Eout                  0%         0/       0       Eout ECM Out                  
+FCAT                  0%         0/       0       FCAT Catch Packets for
+                                                  debugging                    
+FECD                  0%         0/       0       FECD Mod Manage Task          
+FIB                   0%         0/       0       FIB Forward Information Base  
+FIB6                  0%         0/       0       FIB6IPv6 FIB                  
+FINT                  0%         0/       0       FINT                          
+FLOW                  0%         0/       0       FLOW SFLOW                    
+FMAT                  0%         0/  e4e1c0       FMATFault Manage task         
+FMCK                  0%         0/ aba9500       FMCK Detect device faults     
+FMES                  0%         0/       0       FMES Output fault information 
+FNTL                  0%         0/ 47868c0       FNTL                          
+FTS                   0%         0/  e4e1c0       FTS                           
+GEM                   0%         0/       0       GEM task                      
+GEMR                  0%         0/       0       GEMRun task                   
+GLRM                  0%         0/       0       GLRM License Resource Manage  
+GREM                  0%         0/       0       GREM MPU Process GRE packets  
+GRES                  0%         0/       0       GRESM task                    
+GRSA                  0%         0/202fbf00       GRSA                          
+GTL                   0%         0/       0       GTL                           
+GVRP                  0%         0/       0       GVRP Protocol                 
+HACK                  0%         0/       0       HACKtask for HA ACK           
+HGMP                  0%         0/       0       HGMPADP HGMP Adapter          
+HOTT                  0%         0/       0       HOTT                          
+HS2M                  0%         0/  e4e1c0       HS2MHigh available task       
+HTPSRD                0%         0/ 47868c0                                     
+HTTP                  0%         0/ 1c9c380       HTTP                          
+HVRP                  0%         0/       0       HVRP Protocol                 
+IFAD                  0%         0/       0       IFAD Ifnet Adpter             
+IFLP                  0%         0/  e4e1c0       IFLP                          
+IFNT                  0%         0/       0       IFNTIfnet task                
+IFPD                  0%         0/       0       IFPD Ifnet Product Adapter    
+INFO                  0%         0/  e4e1c0       INFOInformation center        
+INPT                  0%         0/       0       INPT                          
+IP                    0%         0/       0       IP                            
+IPCK                  0%         0/ 1c9c380       IPCKIPC task for ack message  
+IPCQ                  0%         0/1ad27480       IPCQIPC task for single queue 
+IPCR                  0%         0/ 3938700       IPCR IPC Receive              
+IPCS                  0%         0/       0       IPCSharedQueue                
+IPFP                  0%         0/10fcc140       IPFPM                         
+IS2U                  0%         0/       0       IS2U ISSU function Adapter    
+ISC6                  0%         0/       0       ISC6                          
+ISSU                  0%         0/       0       ISSU                          
+ITSK                  0%         0/  e4e1c0       ITSKIPOS common task          
+JOB                   0%         0/       0       JOB Schedule                  
+L2                    0%         0/  e4e1c0       L2                            
+L2IF                  0%         0/ 1c9c380       L2IF                          
+L2PQ                  0%         0/       0       L2PQ                          
+L2V                   0%         0/       0       L2V                           
+L2_E                  0%         0/       0       L2_EOAM_Y1731                 
+L2_P                  0%         0/  e4e1c0       L2_PR                         
+L2_R                  0%         0/ 47868c0       L2_RING                       
+L2_T                  0%         0/       0       L2_TRUNK                      
+L3M4                  0%         0/       0       L3M4 MPU Manage IPv4 unicast
+                                                  FDB                          
+L3MB                  0%         0/       0       L3MB MPU Process urpf, vrrp
+                                                  etc.                         
+LBDT                  0%         0/ 1c9c380       LBDT Loopback Detect Mpu      
+LCSP                  0%         0/       0       LCSP License Adapter          
+LDCM                  0%         0/       0       LDCM                          
+LDP                   0%         0/       0       LDP task                      
+LDT                   0%         0/       0       LDT Loop Detection            
+LDTP                  0%         0/       0       LDTP LDT-Packet Process       
+LINK                  0%         0/       0       LINK                          
+LLDP                  0%         0/ 1c9c380       LLDP Protocol                 
+LNP                   0%         0/       0       LNP task                      
+LOAD                  0%         0/       0       LOAD Load Server              
+LRCV                  0%         0/       0       LRCV                          
+LSPA                  0%         0/       0       LSPA                          
+LSPM                  0%         0/ 3938700       LSPMLsp management            
+LWVP                  0%         0/       0       LWVPSharedQueue               
+MACL                  0%         0/       0       MACL Access Control List      
+MAD                   0%         0/       0       MAD Task                      
+MADP                  0%         0/       0       MADP MAD proxy Task           
+MCSW                  0%         0/       0       MCSW Mulitcast Switch Adapter 
+MDGW                  0%         0/       0       MDGW                          
+MDRY                  0%         0/       0       MDRY                          
+MERX                  0%         0/       0       MERX Meth Receive             
+METH                  0%         0/       0       METH Metropolitan Ethernet    
+MFF                   0%         0/       0       MFF MAC Forced Forwarding     
+MFIB                  0%         0/       0       MFIBMulticast forward info    
+MOD                   0%         0/       0       MOD  Module Management        
+MPAT                  0%         0/       0       MPAT                          
+MPSF                  0%         0/       0       MPSF Mpls SFU Adapter         
+MPSM                  0%         0/       0       MPSM Mpls Main Adapter        
+MTP                   0%         0/       0       MTP                           
+MTR                   0%         0/  e4e1c0       MTR Scheduled Memory Usage    
+Mirr                  0%         0/  e4e1c0       Mirror                        
+NDMB                  0%         0/       0       NDMB MPU Manage IPv6 unicast
+                                                  FDB                          
+NFPT                  0%         0/ 3938700       NFPTNFP timer task            
+NQAF                  0%         0/       0       NQAFTPR                       
+NSA                   0%         0/  e4e1c0       NSA Netstream Adapter         
+NTLK                  0%         0/ 6422c40       NTLK                          
+NTPT                  0%         0/  e4e1c0       NTPT task                     
+OAM                   0%         0/ 47868c0       OAM OAM                       
+OAM1                  0%         0/       0       OAM1 EOAM Adapter             
+OAMT                  0%         0/       0       OAMT Mpls Oam Adapter         
+OMMS                  0%         0/       0       OMMS                          
+PARITY_CHECK          0%         0/ 80befc0                                     
+PAT                   0%         0/       0       PAT                           
+PATC                  0%         0/       0       PATCH Maintenance             
+PCAM                  0%         0/       0       PCAM MPU Manage iPCA          
+PM                    0%         0/       0       PM  Performance Management    
+PMS                   0%         0/  e4e1c0       PMS PM Server                 
+PNGM                  0%         0/  e4e1c0       PNGM MPU Process icmp reply
+                                                  fast                         
+POE+                  0%         0/       0       POE+ PPP Over Ethernet Plus   
+PPI                   0%         0/       0       PPI Product Process Interface 
+PPP                   0%         0/       0       PPP                           
+PRDG                  0%         0/       0       PRDG                          
+PROC                  0%         0/       0       PROC                          
+PTAL                  0%         0/       0       PTAL Portal                   
+QDIA                  0%         0/       0       QDIA AUTODIAG Application     
+QOSA                  0%         0/       0       QOSA Quality of Service       
+RACL                  0%         0/       0       RACL Reversed Access Control
+                                                  List                         
+RDS                   0%         0/       0       RDS  Radius                   
+RMON                  0%         0/       0       RMONRemote monitoring         
+ROUT                  0%         0/19ed92c0       ROUTRoute task                
+RPCQ                  0%         0/       0       RPCQRemote procedure call     
+RSVP                  0%         0/       0       RSVP task                     
+RTMR                  0%         0/ 3938700       RTMR                          
+SAPP                  0%         0/       0       SAPP                          
+SCFT                  0%         0/       0       SCFTSet command flag task     
+SDKD                  0%         0/ 7270e00       SDKD                          
+SDKE                  0%         0/       0       SDKE                          
+SECE                  0%         0/       0       SECE Security                 
+SFPM                  0%         0/       0       SFPM                          
+SIMC                  0%         0/       0       SIMC Simulate CPU Usage       
+SIMU                  0%         0/       0       SIMU Simulate Function Task   
+SLAG                  0%         0/       0       SLAG                          
+SMLK                  0%         0/       0       SMLK Smart Link Protocol      
+SNPG                  0%         0/  e4e1c0       SNPG Multicast Snooping       
+SOCK                  0%         0/  e4e1c0       SOCKPacket schedule and
+                                                  process                      
+SPM                   0%         0/       0       SPM  Smart Power Management   
+SRVC                  0%         0/       0       SRVC                          
+STFW                  0%         0/       0       STFW Super task forward       
+STND                  0%         0/       0       STNDStandby task              
+STP                   0%         0/11e1a300       STP                           
+STRA                  0%         0/ 1c9c380       STRA Source Trail             
+SUPP                  0%         0/ 2aea540       SUPP Support the device
+                                                  management                   
+TACH                  0%         0/ 2aea540       TACHWTACACS                   
+TARP                  0%         0/       0       TARPING                       
+TCBM                  0%         0/       0       TCBM Task callback block
+                                                  monitor                      
+TCTL                  0%         0/       0       TCTLBulk stat transmit
+                                                  control                      
+TM                    0%         0/       0       TM   Transmission Management  
+TNLM                  0%         0/  e4e1c0       TNLMTunnel management task    
+TNQA                  0%         0/ 1c9c380       TNQAC                         
+TRAF                  0%         0/  e4e1c0       TRAFTraffic Statistics        
+TRAP                  0%         0/       0       TRAPSNMP trap task            
+TRUN                  0%         0/       0       TRUNK Product Adapter         
+TTNQ                  0%         0/       0       TTNQAS                        
+TTVP                  0%         0/       0       TTVPLS                        
+TUNL                  0%         0/       0       TUNL                          
+UCM                   0%         0/       0       UCM  User Control Management  
+UDPM                  0%         0/       0       UDPM MPU Convert UDP packets  
+USA                   0%         0/       0       USA User Service Agent        
+USBL                  0%         0/       0       USBLOAD application           
+UTSK                  0%         0/       0       UTSK                          
+VCLK                  0%         0/1017df80                                     
+VCMP                  0%         0/       0       VCMP task                     
+VCON                  0%         0/       0       VCON Virtual Console to LPU   
+VFS                   0%         0/       0       VFS Virtual file system       
+VFSD                  0%         0/       0       VFSDVFS flash task for delete
+                                                  file block                   
+VMON                  0%         0/       0       VMONSystem monitor            
+VMSH                  0%         0/       0       VMSH                          
+VOAM                  0%         0/       0       VOAM                          
+VP                    0%         0/       0       VP  Virtual path task         
+VPR                   0%         0/ c845880       VPR VP Receive                
+VPS                   0%         0/  e4e1c0       VPS VP Send                   
+VPSh                  0%         0/       0       VPSharedQueue                 
+VRPT                  0%         0/       0       VRPT                          
+VRRP                  0%         0/ 3938700       VRRP                          
+VT                    0%         0/       0       VT                            
+VT0                   0%         0/       0       VT0 Line user's task          
+VTYD                  0%         0/ 55d4a80       VTYDVirtual terminal          
+WEB                   0%         0/       0       WEB  Web                      
+WT0                   0%         0/ c845880       WT0                           
+XSTP                  0%         0/       0       XSTP AGENT                    
+bcmCNTR.0             0%         0/11e1a300                                     
+bcmCNTR.1             0%         0/12c684c0                                     
+bcmD                  0%         0/       0       bcmD                          
+bcmDPC                0%         0/       0                                     
+bcmI                  0%         0/ 3938700       bcmINTR                       
+bcmMEM_SCAN.0         0%         0/ aba9500                                     
+bcmMEM_SCAN.1         0%         0/ 8f0d180                                     
+bcmPortMon.0          0%         0/       0                                     
+bcmPortMon.1          0%         0/       0                                     
+bcmR                  0%         0/ 47868c0       bcmRX                         
+bcmTX                 0%         0/       0                                     
+bcmXGS3AsyncTX        0%         0/       0                                     
+bmLINK.0              0%         0/1ad27480                                     
+bmLINK.1              0%         0/1908b100                                     
+co0                   0%         0/       0       co0 Line user's task          
+lshelp                0%         0/       0                                     
+smsCbDeal             0%         0/       0       smsCbDeal                     
+smsLoad               0%         0/       0       smsLoad                       
+smsRqDeal             0%         0/       0       smsRqDeal                     
+smsRsDeal             0%         0/ 1c9c380       smsRsDeal                     
+smsRx                 0%         0/ 1c9c380       smsRx                         
+smsTimer              0%         0/ 80befc0       smsTimer                      
+smsTx                 0%         0/  e4e1c0       smsTx                         
+
+<Quidway>display memory-usage
+ Memory utilization statistics at 2026-03-13 11:37:11+00:00
+ System Total Memory Is: 2134900736 bytes
+ Total Memory Used Is: 205415920 bytes
+ Memory Using Percentage Is: 9%
+<Quidway>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+~down: LDT down
+#down: LBDT down
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(e): ETHOAM down
+(dl): DLDP down
+(d): Dampening Suppressed
+(ld): LDT block
+(lb): LBDT block
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Ethernet0/0/0               *down down         0%     0%          0          0
+GigabitEthernet1/0/0        *down down         0%     0%          0          0
+GigabitEthernet1/0/1        *down down         0%     0%          0          0
+GigabitEthernet1/0/2        *down down         0%     0%          0          0
+GigabitEthernet1/0/3        *down down         0%     0%          0          0
+GigabitEthernet1/0/4        *down down         0%     0%          0          0
+GigabitEthernet1/0/5        *down down         0%     0%          0          0
+GigabitEthernet1/0/6        *down down         0%     0%          0          0
+GigabitEthernet1/0/7        *down down         0%     0%          0          0
+GigabitEthernet1/0/8        *down down         0%     0%          0          0
+GigabitEthernet1/0/9        *down down         0%     0%         89          0
+GigabitEthernet1/0/10       *down down         0%     0%          0          0
+GigabitEthernet1/0/11       *down down         0%     0%          0          0
+GigabitEthernet1/0/12       *down down         0%     0%          0          0
+GigabitEthernet1/0/13       *down down         0%     0%          0          0
+GigabitEthernet1/0/14       *down down         0%     0%          0          0
+GigabitEthernet1/0/15       *down down         0%     0%          0          0
+GigabitEthernet1/0/16       *down down         0%     0%          0          0
+GigabitEthernet1/0/17       *down down         0%     0%          0          0
+GigabitEthernet1/0/18       *down down         0%     0%          0          0
+GigabitEthernet1/0/19       *down down         0%     0%          0          0
+GigabitEthernet1/0/20       *down down         0%     0%          0          0
+GigabitEthernet1/0/21       *down down         0%     0%          0          0
+GigabitEthernet1/0/22       *down down         0%     0%          0          0
+GigabitEthernet1/0/23       *down down         0%     0%          0          0
+GigabitEthernet1/0/24       *down down         0%     0%          0          0
+GigabitEthernet1/0/25       *down down         0%     0%          0          0
+GigabitEthernet1/0/26       *down down         0%     0%          0          0
+GigabitEthernet1/0/27       *down down         0%     0%          0          0
+GigabitEthernet1/0/28       *down down         0%     0%          0          0
+GigabitEthernet1/0/29       *down down         0%     0%          0          0
+GigabitEthernet1/0/30       *down down         0%     0%          0          0
+GigabitEthernet1/0/31       *down down         0%     0%          0          0
+GigabitEthernet1/0/32       *down down         0%     0%          0          0
+GigabitEthernet1/0/33       *down down         0%     0%          0          0
+GigabitEthernet1/0/34       *down down         0%     0%          0          0
+GigabitEthernet1/0/35       *down down         0%     0%          0          0
+GigabitEthernet1/0/36       *down down         0%     0%          0          0
+GigabitEthernet1/0/37       *down down         0%     0%          0          0
+GigabitEthernet1/0/38       *down down         0%     0%          0          0
+GigabitEthernet1/0/39       *down down         0%     0%          0          0
+GigabitEthernet1/0/40       *down down         0%     0%          0          0
+GigabitEthernet1/0/41       *down down         0%     0%          0          0
+GigabitEthernet1/0/42       *down down         0%     0%          0          0
+GigabitEthernet1/0/43       *down down         0%     0%          0          0
+GigabitEthernet1/0/44       *down down         0%     0%          0          0
+GigabitEthernet1/0/45       *down down         0%     0%          0          0
+GigabitEthernet1/0/46       *down down         0%     0%          0          0
+GigabitEthernet1/0/47       *down down         0%     0%          0          0
+GigabitEthernet2/0/0        *down down         0%     0%          0          0
+GigabitEthernet2/0/1        *down down         0%     0%          0          0
+GigabitEthernet2/0/2        *down down         0%     0%         24          0
+GigabitEthernet2/0/3        *down down         0%     0%          0          0
+GigabitEthernet2/0/4        *down down         0%     0%          0          0
+GigabitEthernet2/0/5        *down down         0%     0%          0          0
+GigabitEthernet2/0/6        *down down         0%     0%          0          0
+GigabitEthernet2/0/7        *down down         0%     0%          0          0
+GigabitEthernet2/0/8        *down down         0%     0%          0          0
+GigabitEthernet2/0/9        *down down         0%     0%          0          0
+GigabitEthernet2/0/10       *down down         0%     0%          0          0
+GigabitEthernet2/0/11       *down down         0%     0%          0          0
+GigabitEthernet2/0/12       *down down         0%     0%          0          0
+GigabitEthernet2/0/13       *down down         0%     0%          0          0
+GigabitEthernet2/0/14       *down down         0%     0%          0          0
+GigabitEthernet2/0/15       *down down         0%     0%          0          0
+GigabitEthernet2/0/16       *down down         0%     0%          0          0
+GigabitEthernet2/0/17       *down down         0%     0%          0          0
+GigabitEthernet2/0/18       *down down         0%     0%          0          0
+GigabitEthernet2/0/19       *down down         0%     0%          0          0
+GigabitEthernet2/0/20       *down down         0%     0%          0          0
+GigabitEthernet2/0/21       *down down         0%     0%          0          0
+GigabitEthernet2/0/22       *down down         0%     0%          0          0
+GigabitEthernet2/0/23       *down down         0%     0%          0          0
+GigabitEthernet2/0/24       *down down         0%     0%          0          0
+GigabitEthernet2/0/25       *down down         0%     0%          0          0
+GigabitEthernet2/0/26       *down down         0%     0%          0          0
+GigabitEthernet2/0/27       *down down         0%     0%          0          0
+GigabitEthernet2/0/28       *down down         0%     0%          0          0
+GigabitEthernet2/0/29       *down down         0%     0%          0          0
+GigabitEthernet2/0/30       *down down         0%     0%          0          0
+GigabitEthernet2/0/31       *down down         0%     0%          0          0
+GigabitEthernet2/0/32       *down down         0%     0%          0          0
+GigabitEthernet2/0/33       *down down         0%     0%          0          0
+GigabitEthernet2/0/34       *down down         0%     0%          0          0
+GigabitEthernet2/0/35       *down down         0%     0%          0          0
+GigabitEthernet2/0/36       *down down         0%     0%          0          0
+GigabitEthernet2/0/37       *down down         0%     0%          0          0
+GigabitEthernet2/0/38       *down down         0%     0%          0          0
+GigabitEthernet2/0/39       *down down         0%     0%          0          0
+GigabitEthernet2/0/40       *down down         0%     0%          0          0
+GigabitEthernet2/0/41       *down down         0%     0%          0          0
+GigabitEthernet2/0/42       *down down         0%     0%          0          0
+GigabitEthernet2/0/43       *down down         0%     0%          0          0
+GigabitEthernet2/0/44       *down down         0%     0%          0          0
+GigabitEthernet2/0/45       *down down         0%     0%          0          0
+GigabitEthernet2/0/46       *down down         0%     0%          0          0
+GigabitEthernet2/0/47       *down down         0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Vlanif20                    up    up           --     --          0          0
+Vlanif1023                  up    up           --     --          0          0
+XGigabitEthernet3/0/0       up    up        0.90%  0.01%          0          0
+XGigabitEthernet3/0/1       up    up       29.94%  0.14%        301          0
+XGigabitEthernet3/0/2       up    up        0.92%  0.01%          0          0
+XGigabitEthernet3/0/3       *down down         0%     0%          0          0
+XGigabitEthernet3/0/4       up    up           0%     0%          0          0
+XGigabitEthernet3/0/5       *down down         0%     0%          0          0
+XGigabitEthernet3/0/6       *down down         0%     0%          0          0
+XGigabitEthernet3/0/7       *down down         0%     0%          0          0
+XGigabitEthernet3/0/8       up    up        0.91%  0.01%          0          0
+XGigabitEthernet3/0/9       *down down         0%     0%          0          0
+XGigabitEthernet3/0/10      up    up           0%     0%          0          0
+XGigabitEthernet3/0/11      *down down         0%     0%          0          0
+XGigabitEthernet3/0/12      *down down         0%     0%        435          0
+XGigabitEthernet3/0/13      *down down         0%     0%          0          0
+XGigabitEthernet3/0/14      up    up        0.09%  2.93%          0          0
+XGigabitEthernet3/0/15      *down down         0%     0%          0          0
+XGigabitEthernet3/0/16      up    up        8.85%  7.40%          0          0
+XGigabitEthernet3/0/17      *down down         0%     0%          0          0
+XGigabitEthernet3/0/18      up    up        2.05%  4.10%          0          0
+XGigabitEthernet3/0/19      *down down         0%     0%          0          0
+XGigabitEthernet3/0/20      up    up        8.03%  4.65%          0          0
+XGigabitEthernet3/0/21      *down down         0%     0%          0          0
+XGigabitEthernet3/0/22      up    up        1.35%  0.02%          0          0
+XGigabitEthernet3/0/23      *down down         0%     0%          0          0
+XGigabitEthernet3/0/24      up    up        0.91%  0.01%          0          0
+XGigabitEthernet3/0/25      *down down         0%     0%          0          0
+XGigabitEthernet3/0/26      up    up           0%     0%          0          0
+XGigabitEthernet3/0/27      up    up           0%     0%          4          0
+XGigabitEthernet3/0/28      up    up           0%     0%          0          0
+XGigabitEthernet3/0/29      *down down         0%     0%          0          0
+XGigabitEthernet3/0/30      up    up       12.83% 49.60%       5210          0
+XGigabitEthernet3/0/31      up    up        2.69%  0.05%        117          0
+<Quidway>display ip interface brief
+*down: administratively down
+!down: FIB overload down
+^down: standby
+(l): loopback
+(s): spoofing
+(d): Dampening Suppressed
+(E): E-Trunk down
+The number of interface that is UP in Physical is 3
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 3
+The number of interface that is DOWN in Protocol is 1
+
+Interface                         IP Address/Mask      Physical   Protocol  
+Ethernet0/0/0                     unassigned           *down      down      
+NULL0                             unassigned           up         up(s)     
+Vlanif20                          10.233.138.215/24    up         up        
+Vlanif1023                        172.18.0.1/30        up         up        
+
+<Quidway>display current-configuration
+!Software Version V200R010C00SPC600
+#
+sysname Quidway
+#
+ftp secure-server ssl-policy tls
+#
+info-center loghost 10.237.35.254 local-time
+#
+vlan batch 20 1023
+#
+authentication-profile name default_authen_profile
+authentication-profile name dot1x_authen_profile
+authentication-profile name mac_authen_profile
+authentication-profile name portal_authen_profile
+authentication-profile name dot1xmac_authen_profile
+authentication-profile name multi_authen_profile
+#
+telnet server enable
+#
+lldp enable
+#
+undo http server enable
+http secure-server ssl-policy tls
+#
+clock timezone UTC add 00:00:00
+#
+diffserv domain default
+#
+radius-server template default
+#
+acl number 2000  
+ rule 20 permit source 10.241.93.0 0.0.0.255 logging 
+ rule 21 permit source 10.237.35.0 0.0.0.255 logging 
+ rule 22 permit source 10.233.138.0 0.0.0.255 logging 
+ rule 25 permit source 10.237.100.0 0.0.0.255 logging 
+acl number 2001  
+ rule 5 permit source 10.237.99.123 0 
+ rule 10 permit source 10.237.99.233 0 
+ rule 15 permit source 10.233.205.244 0 
+#
+acl number 3000  
+ rule 5 deny tcp destination-port eq 445 
+ rule 10 deny tcp destination-port eq 5800 
+ rule 15 deny tcp destination-port eq 5900 
+ rule 20 deny udp destination-port eq 1434 
+ rule 25 deny udp destination-port eq tftp 
+ rule 30 deny tcp destination-port eq 135 
+ rule 35 deny udp destination-port eq netbios-ns 
+ rule 40 deny udp destination-port eq netbios-dgm 
+ rule 45 deny tcp destination-port eq 139 
+ rule 50 deny udp destination-port eq netbios-ssn 
+ rule 55 deny tcp destination-port eq 539 
+ rule 60 deny udp destination-port eq 539 
+ rule 65 deny tcp destination-port eq 593 
+ rule 70 deny tcp destination-port eq 4786 
+ rule 75 permit ip 
+#
+free-rule-template name default_free_rule
+#
+portal-access-profile name portal_access_profile
+#
+drop-profile default
+#
+aaa
+ authentication-scheme default
+ authentication-scheme radius
+  authentication-mode radius
+ authorization-scheme default
+ accounting-scheme default
+ domain default
+  authentication-scheme radius
+  radius-server default
+ domain default_admin
+  authentication-scheme default
+ local-user admin password irreversible-cipher $1a$\IU.VSl6-I$^Y$}2p#mS1}cu`P#.Zr-Af/SN#wATPKao#4xG(7R$
+ local-user admin privilege level 15
+ local-user admin service-type terminal http
+ local-user jtcjxz password irreversible-cipher $1a$qJXwGywnC:$YM;TCw<Gx9ZOu9!9P1I(G7kQ*lmM8S|lD";@=Qy2$
+ local-user jtcjxz privilege level 3
+ local-user jtcjxz service-type ssh
+ local-user aaa@huawei password irreversible-cipher $1a$#Rr7YESzvL$mV<^6f_fx:G|k+PSe{P~wt._T6g=U/Q_OqN:$Al6$
+ local-user aaa@huawei privilege level 15
+ local-user aaa@huawei service-type telnet
+ local-user xz4a_admin password irreversible-cipher $1a$3W7*PsreMI$!83P<EFF=L[jDh$`19ABc9ftAm6+.0wV{RJy9<~F$
+ local-user xz4a_admin privilege level 15
+ local-user xz4a_admin service-type telnet ssh
+ local-user langjiewangdui password irreversible-cipher $1a$0K$PFZS8e,$Z^P*U{rg';6q~XPVv}iS2C7iPMatT0~AkcHI\N=,$
+ local-user langjiewangdui privilege level 15
+ local-user langjiewangdui service-type ssh
+#
+ntp-service server disable
+ntp-service ipv6 server disable
+ntp-service authentication enable
+ntp-service authentication-keyid 10 authentication-mode md5 cipher %^%#toqHTf"fd=A.UnVLbXYGNdZjC0|(fRB_lrJo]]1%%^%#
+ntp-service reliable authentication-keyid 10
+ntp-service unicast-server 10.233.138.254 authentication-keyid 10
+#
+interface Vlanif20
+ ip address 10.233.138.215 255.255.255.0
+#
+interface Vlanif1023
+ ip address 172.18.0.1 255.255.255.252
+#
+interface Ethernet0/0/0
+ shutdown
+#
+interface GigabitEthernet1/0/0
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/1
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/2
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/3
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/4
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/5
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/6
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/7
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/8
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/9
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/10
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/11
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/12
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/13
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/14
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/15
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/16
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/17
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/18
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/19
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/20
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/21
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/22
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/23
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/24
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/25
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/26
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/27
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/28
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/29
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/30
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/31
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/32
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/33
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/34
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/35
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/36
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/37
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/38
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/39
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/40
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/41
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/42
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/43
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/44
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/45
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/46
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet1/0/47
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/0
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/1
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/2
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/3
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/4
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/5
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/6
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/7
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/8
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/9
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/10
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/11
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/12
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/13
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/14
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/15
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/16
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/17
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/18
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/19
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/20
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/21
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/22
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/23
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/24
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/25
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/26
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/27
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/28
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/29
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/30
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/31
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/32
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/33
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/34
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/35
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/36
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/37
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/38
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/39
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/40
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/41
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/42
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/43
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/44
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/45
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/46
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface GigabitEthernet2/0/47
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/0
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/1
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/2
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/3
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/4
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/5
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/6
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/7
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/8
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/9
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/10
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/11
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/12
+ shutdown
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/13
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/14
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/15
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/16
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/17
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/18
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/19
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/20
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/21
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/22
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/23
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/24
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/25
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/26
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/27
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/28
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/29
+ shutdown
+ port hybrid tagged vlan 1023
+#
+interface XGigabitEthernet3/0/30
+ description B13_H3C_S7603
+ port link-type access
+ port default vlan 20
+#
+interface XGigabitEthernet3/0/31
+ description K2_S9306_xg3/0/30
+ port link-type access
+ port default vlan 20
+#
+interface NULL0
+#
+ip route-static 10.233.205.244 255.255.255.255 10.233.138.254
+ip route-static 10.237.35.0 255.255.255.0 10.233.138.254
+ip route-static 10.237.99.0 255.255.255.0 10.233.138.254
+ip route-static 10.237.100.0 255.255.255.0 10.233.138.254
+#
+snmp-agent
+snmp-agent local-engineid 800007DB0360F18A5A5850
+snmp-agent community read cipher %^%#JVCY5t$(A~S}hUSny;LJ4hdE)h=!7K3c299KTbILxQES:[sn(<6:v:.V;0`Sw-Z=4ps"95w2#{!oG[8Z%^%# acl 2001
+snmp-agent sys-info version v2c v3
+#
+stelnet server enable
+ssh user jtcjxz
+ssh user jtcjxz authentication-type password
+ssh user jtcjxz service-type stelnet
+ssh user xz4a_admin
+ssh user xz4a_admin authentication-type password
+ssh user xz4a_admin service-type all
+ssh server cipher aes256_ctr aes128_ctr
+ssh server key-exchange dh_group_exchange_sha1
+#
+user-interface maximum-vty 15
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$U"~`"K%0"<$9/'kP%9Zy"{Ghu7kMYWCVm,n$ZbBr;_0<p%2soW6$
+ idle-timeout 0 0
+ screen-length 0
+user-interface vty 0 14
+ acl 2000 inbound
+ authentication-mode aaa
+ user privilege level 3
+ idle-timeout 2 15
+ screen-length 0
+ protocol inbound all
+user-interface vty 16 20
+#
+port-group duanko1
+ group-member GigabitEthernet2/0/0
+ group-member GigabitEthernet2/0/1
+ group-member GigabitEthernet2/0/2
+ group-member GigabitEthernet2/0/3
+ group-member GigabitEthernet2/0/4
+ group-member GigabitEthernet2/0/5
+ group-member GigabitEthernet2/0/6
+ group-member GigabitEthernet2/0/7
+ group-member GigabitEthernet2/0/8
+ group-member GigabitEthernet2/0/9
+ group-member GigabitEthernet2/0/10
+ group-member GigabitEthernet2/0/11
+ group-member GigabitEthernet2/0/12
+ group-member GigabitEthernet2/0/13
+ group-member GigabitEthernet2/0/14
+ group-member GigabitEthernet2/0/15
+ group-member GigabitEthernet2/0/16
+ group-member GigabitEthernet2/0/17
+ group-member GigabitEthernet2/0/18
+ group-member GigabitEthernet2/0/19
+ group-member GigabitEthernet2/0/20
+ group-member GigabitEthernet2/0/21
+ group-member GigabitEthernet2/0/22
+ group-member GigabitEthernet2/0/23
+ group-member GigabitEthernet2/0/24
+ group-member GigabitEthernet2/0/25
+ group-member GigabitEthernet2/0/26
+ group-member GigabitEthernet2/0/27
+ group-member GigabitEthernet2/0/28
+ group-member GigabitEthernet2/0/29
+ group-member GigabitEthernet2/0/30
+ group-member GigabitEthernet2/0/31
+ group-member GigabitEthernet2/0/32
+ group-member GigabitEthernet2/0/33
+ group-member GigabitEthernet2/0/34
+ group-member GigabitEthernet2/0/35
+ group-member GigabitEthernet2/0/36
+ group-member GigabitEthernet2/0/37
+ group-member GigabitEthernet2/0/38
+ group-member GigabitEthernet2/0/39
+ group-member GigabitEthernet2/0/40
+ group-member GigabitEthernet2/0/41
+ group-member GigabitEthernet2/0/42
+ group-member GigabitEthernet2/0/43
+ group-member GigabitEthernet2/0/44
+ group-member GigabitEthernet2/0/45
+ group-member GigabitEthernet2/0/46
+ group-member GigabitEthernet2/0/47
+#
+port-group duankou
+ group-member GigabitEthernet1/0/3
+ group-member GigabitEthernet1/0/4
+ group-member GigabitEthernet1/0/5
+ group-member GigabitEthernet1/0/6
+ group-member GigabitEthernet1/0/7
+ group-member GigabitEthernet1/0/8
+ group-member GigabitEthernet1/0/9
+ group-member GigabitEthernet1/0/10
+ group-member GigabitEthernet1/0/11
+ group-member GigabitEthernet1/0/12
+ group-member GigabitEthernet1/0/13
+ group-member GigabitEthernet1/0/14
+ group-member GigabitEthernet1/0/15
+ group-member GigabitEthernet1/0/16
+ group-member GigabitEthernet1/0/17
+ group-member GigabitEthernet1/0/18
+ group-member GigabitEthernet1/0/19
+ group-member GigabitEthernet1/0/20
+ group-member GigabitEthernet1/0/21
+ group-member GigabitEthernet1/0/22
+ group-member GigabitEthernet1/0/23
+ group-member GigabitEthernet1/0/24
+ group-member GigabitEthernet1/0/25
+ group-member GigabitEthernet1/0/26
+ group-member GigabitEthernet1/0/27
+ group-member GigabitEthernet1/0/28
+ group-member GigabitEthernet1/0/29
+ group-member GigabitEthernet1/0/30
+ group-member GigabitEthernet1/0/31
+ group-member GigabitEthernet1/0/32
+ group-member GigabitEthernet1/0/33
+ group-member GigabitEthernet1/0/34
+ group-member GigabitEthernet1/0/35
+ group-member GigabitEthernet1/0/36
+ group-member GigabitEthernet1/0/37
+ group-member GigabitEthernet1/0/38
+ group-member GigabitEthernet1/0/39
+ group-member GigabitEthernet1/0/40
+ group-member GigabitEthernet1/0/41
+ group-member GigabitEthernet1/0/42
+ group-member GigabitEthernet1/0/43
+ group-member GigabitEthernet1/0/44
+ group-member GigabitEthernet1/0/45
+ group-member GigabitEthernet1/0/46
+ group-member GigabitEthernet1/0/47
+#
+ssl cipher-suite-list tls
+ set cipher-suite tls1_ck_dhe_rsa_with_aes_256_sha
+ set cipher-suite tls1_ck_dhe_dss_with_aes_256_sha
+ set cipher-suite tls1_ck_dhe_rsa_with_aes_128_sha
+ set cipher-suite tls1_ck_dhe_dss_with_aes_128_sha
+#
+ssl policy tls
+ ssl minimum version tls1.2
+ binding cipher-suite-customization tls
+#
+dot1x-access-profile name dot1x_access_profile
+#
+mac-access-profile name mac_access_profile
+#
+return
+<Quidway>display ip routing-table
+Route Flags: R - relay, D - download to fib
+------------------------------------------------------------------------------
+Routing Tables: Public
+         Destinations : 10       Routes : 10       
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+   10.233.138.0/24  Direct  0    0           D   10.233.138.215  Vlanif20
+ 10.233.138.215/32  Direct  0    0           D   127.0.0.1       Vlanif20
+ 10.233.205.244/32  Static  60   0          RD   10.233.138.254  Vlanif20
+    10.237.35.0/24  Static  60   0          RD   10.233.138.254  Vlanif20
+    10.237.99.0/24  Static  60   0          RD   10.233.138.254  Vlanif20
+   10.237.100.0/24  Static  60   0          RD   10.233.138.254  Vlanif20
+      127.0.0.0/8   Direct  0    0           D   127.0.0.1       InLoopBack0
+      127.0.0.1/32  Direct  0    0           D   127.0.0.1       InLoopBack0
+     172.18.0.0/30  Direct  0    0           D   172.18.0.1      Vlanif1023
+     172.18.0.1/32  Direct  0    0           D   127.0.0.1       Vlanif1023
+
+<Quidway>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 1024
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 98424
+Current messages : 512
+
+Mar 13 2026 11:01:38 Quidway %%01QOS/4/CONGESTIONRISK(l)[0]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 13 2026 10:28:56 Quidway %%01QOS/4/CONGESTIONRISK(l)[1]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 13 2026 10:20:43 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[2]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289638869, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888383171868, PortQueueDropped=3289638869, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791957, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 10:17:25 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[3]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289638423, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888376582412, PortQueueDropped=3289638423, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791909, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 10:12:25 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[4]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289638231, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888366686769, PortQueueDropped=3289638231, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791824, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 10:04:41 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[5]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289637824, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888351504058, PortQueueDropped=3289637824, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791705, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 09:59:42 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[6]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289637712, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888341809510, PortQueueDropped=3289637712, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791627, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 09:54:48 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[7]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289637394, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888332360242, PortQueueDropped=3289637394, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791555, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 09:52:31 Quidway %%01QOS/4/CONGESTIONRISK(l)[8]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 13 2026 09:49:48 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[9]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289637334, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888322851025, PortQueueDropped=3289637334, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791470, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 09:42:27 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[10]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289636906, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888309083832, PortQueueDropped=3289636906, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791359, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 09:37:27 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[11]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289636654, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12888299772085, PortQueueDropped=3289636654, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51791282, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 13 2026 09:11:05 Quidway %%01QOS/4/CONGESTIONRISK(l)[12]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 13 2026 08:39:23 Quidway %%01QOS/4/CONGESTIONRISK(l)[13]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 13 2026 08:08:23 Quidway %%01QOS/4/CONGESTIONRISK(l)[14]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 13 2026 07:34:32 Quidway %%01INFO/4/SUPPRESS_LOG(l)[15]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 13 2026 06:19:25 Quidway %%01QOS/4/CONGESTIONRISK(l)[16]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 13 2026 05:05:57 Quidway %%01QOS/4/CONGESTIONRISK(l)[17]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 13 2026 05:05:22 Quidway %%01INFO/4/SUPPRESS_LOG(l)[18]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 13 2026 04:13:55 Quidway %%01INFO/4/SUPPRESS_LOG(l)[19]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 13 2026 03:13:55 Quidway %%01INFO/4/SUPPRESS_LOG(l)[20]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 13 2026 01:38:57 Quidway %%01INFO/4/SUPPRESS_LOG(l)[21]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 13 2026 00:27:34 Quidway %%01QOS/4/CONGESTIONRISK(l)[22]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 23:28:38 Quidway %%01QOS/4/CONGESTIONRISK(l)[23]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 23:27:28 Quidway %%01QOS/4/CONGESTIONRISK(l)[24]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 23:13:08 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[25]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3289635792, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12887690167430, PortQueueDropped=3289635792, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51781476, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 12 2026 22:31:09 Quidway %%01NTP/4/STRATUM_CHANGE(l)[26]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 12 2026 22:31:09 Quidway %%01NTP/4/LEAP_CHANGE(l)[27]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 22:31:09 Quidway %%01NTP/4/PEER_SELE(l)[28]:The peer selected by the system is 10.233.138.254.
+Mar 12 2026 22:30:06 Quidway %%01NTP/4/SOURCE_LOST(l)[29]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar 12 2026 22:18:11 Quidway %%01QOS/4/CONGESTIONRISK(l)[30]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 22:18:01 Quidway %%01QOS/4/CONGESTIONRISK(l)[31]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 21:00:04 Quidway %%01QOS/4/CONGESTIONRISK(l)[32]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 20:59:29 Quidway %%01INFO/4/SUPPRESS_LOG(l)[33]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 12 2026 19:53:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[34]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 19:53:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[35]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 18:47:25 Quidway %%01QOS/4/CONGESTIONRISK(l)[36]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 18:10:54 Quidway %%01QOS/4/CONGESTIONRISK(l)[37]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 17:39:07 Quidway %%01QOS/4/CONGESTIONRISK(l)[38]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar 12 2026 17:36:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[39]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 17:06:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[40]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 16:26:16 Quidway %%01QOS/4/CONGESTIONRISK(l)[41]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 15:48:50 Quidway %%01QOS/4/CONGESTIONRISK(l)[42]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 15:12:19 Quidway %%01QOS/4/CONGESTIONRISK(l)[43]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 14:57:48 Quidway %%01NTP/4/STRATUM_CHANGE(l)[44]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 12 2026 14:57:48 Quidway %%01NTP/4/LEAP_CHANGE(l)[45]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 14:57:48 Quidway %%01NTP/4/PEER_SELE(l)[46]:The peer selected by the system is 10.233.138.254.
+Mar 12 2026 14:56:44 Quidway %%01NTP/4/SOURCE_LOST(l)[47]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar 12 2026 14:34:33 Quidway %%01QOS/4/CONGESTIONRISK(l)[48]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar 12 2026 14:33:38 Quidway %%01QOS/4/CONGESTIONRISK(l)[49]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 13:56:07 Quidway %%01QOS/4/CONGESTIONRISK(l)[50]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 13:20:41 Quidway %%01QOS/4/CONGESTIONRISK(l)[51]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 13:00:18 Quidway %%01SECE/4/SPECIFY_SIP_ATTACK(l)[52]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=365 packets per second)
+Mar 12 2026 12:47:15 Quidway %%01QOS/4/CONGESTIONRISK(l)[53]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 12:16:14 Quidway %%01QOS/4/CONGESTIONRISK(l)[54]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 12:01:28 Quidway %%01NTP/4/STRATUM_CHANGE(l)[55]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 12 2026 12:01:28 Quidway %%01NTP/4/LEAP_CHANGE(l)[56]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 12:01:27 Quidway %%01NTP/4/PEER_SELE(l)[57]:The peer selected by the system is 10.233.138.254.
+Mar 12 2026 12:00:21 Quidway %%01NTP/4/SOURCE_LOST(l)[58]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar 12 2026 11:47:13 Quidway %%01QOS/4/CONGESTIONRISK(l)[59]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 11:14:17 Quidway %%01QOS/4/CONGESTIONRISK(l)[60]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 11:09:25 Quidway %%01SECE/4/SPECIFY_SIP_ATTACK(l)[61]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=330 packets per second)
+Mar 12 2026 11:04:06 Quidway %%01SECE/4/SPECIFY_SIP_ATTACK(l)[62]:The specified source IP address attack occurred.(Slot=LPU3, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=300 packets per second)
+Mar 12 2026 11:01:05 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[63]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3288738605, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12886051600018, PortQueueDropped=3288738605, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51769996, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 12 2026 10:59:08 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[64]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3288738107, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12886047545087, PortQueueDropped=3288738107, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51769962, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 12 2026 10:46:33 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[65]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3288736502, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12886021939033, PortQueueDropped=3288736502, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51769768, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 12 2026 10:38:26 Quidway %%01QOS/4/CONGESTIONRISK(l)[66]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 10:00:40 Quidway %%01QOS/4/CONGESTIONRISK(l)[67]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 09:35:51 Quidway %%01NTP/4/STRATUM_CHANGE(l)[68]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 12 2026 09:35:51 Quidway %%01NTP/4/LEAP_CHANGE(l)[69]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 09:35:50 Quidway %%01NTP/4/PEER_SELE(l)[70]:The peer selected by the system is 10.233.138.254.
+Mar 12 2026 09:34:47 Quidway %%01NTP/4/SOURCE_LOST(l)[71]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar 12 2026 09:24:09 Quidway %%01QOS/4/CONGESTIONRISK(l)[72]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 08:57:18 Quidway %%01QOS/4/CONGESTIONRISK(l)[73]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 08:23:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[74]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 07:56:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[75]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 07:23:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[76]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 06:56:04 Quidway %%01NTP/4/STRATUM_CHANGE(l)[77]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 12 2026 06:56:04 Quidway %%01NTP/4/LEAP_CHANGE(l)[78]:System leap changes from 3 to 0 after clock update.
+Mar 12 2026 06:56:04 Quidway %%01NTP/4/PEER_SELE(l)[79]:The peer selected by the system is 10.233.138.254.
+Mar 12 2026 06:55:00 Quidway %%01NTP/4/SOURCE_LOST(l)[80]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar 12 2026 06:43:51 Quidway %%01INFO/4/SUPPRESS_LOG(l)[81]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 12 2026 05:08:37 Quidway %%01INFO/4/SUPPRESS_LOG(l)[82]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 12 2026 03:26:13 Quidway %%01INFO/4/SUPPRESS_LOG(l)[83]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 12 2026 01:31:00 Quidway %%01QOS/4/CONGESTIONRISK(l)[84]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 12 2026 00:22:09 Quidway %%01QOS/4/CONGESTIONRISK(l)[85]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 12 2026 00:21:19 Quidway %%01QOS/4/CONGESTIONRISK(l)[86]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 23:12:57 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[87]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3288734715, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12885286357426, PortQueueDropped=3288734715, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51758885, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 23:08:21 Quidway %%01QOS/4/CONGESTIONRISK(l)[88]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 22:31:06 Quidway %%01QOS/4/CONGESTIONRISK(l)[89]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 21:59:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[90]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 21:27:53 Quidway %%01QOS/4/CONGESTIONRISK(l)[91]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 20:53:33 Quidway %%01QOS/4/CONGESTIONRISK(l)[92]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 20:17:37 Quidway %%01QOS/4/CONGESTIONRISK(l)[93]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 19:39:15 Quidway %%01QOS/4/CONGESTIONRISK(l)[94]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 19:04:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[95]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 18:34:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[96]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 17:59:27 Quidway %%01QOS/4/CONGESTIONRISK(l)[97]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 17:23:01 Quidway %%01QOS/4/CONGESTIONRISK(l)[98]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 16:45:05 Quidway %%01QOS/4/CONGESTIONRISK(l)[99]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 16:10:29 Quidway %%01QOS/4/CONGESTIONRISK(l)[100]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 15:40:34 Quidway %%01QOS/4/CONGESTIONRISK(l)[101]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 15:02:57 Quidway %%01QOS/4/CONGESTIONRISK(l)[102]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar 11 2026 15:02:27 Quidway %%01QOS/4/CONGESTIONRISK(l)[103]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 14:49:54 Quidway %%01NTP/4/STRATUM_CHANGE(l)[104]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 11 2026 14:49:54 Quidway %%01NTP/4/LEAP_CHANGE(l)[105]:System leap changes from 3 to 0 after clock update.
+Mar 11 2026 14:49:53 Quidway %%01NTP/4/PEER_SELE(l)[106]:The peer selected by the system is 10.233.138.254.
+Mar 11 2026 14:48:49 Quidway %%01NTP/4/SOURCE_LOST(l)[107]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar 11 2026 14:27:02 Quidway %%01QOS/4/CONGESTIONRISK(l)[108]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 13:51:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[109]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 13:25:05 Quidway %%01NTP/4/STRATUM_CHANGE(l)[110]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 11 2026 13:25:05 Quidway %%01NTP/4/LEAP_CHANGE(l)[111]:System leap changes from 3 to 0 after clock update.
+Mar 11 2026 13:25:05 Quidway %%01NTP/4/PEER_SELE(l)[112]:The peer selected by the system is 10.233.138.254.
+Mar 11 2026 13:23:59 Quidway %%01NTP/4/SOURCE_LOST(l)[113]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar 11 2026 13:16:14 Quidway %%01QOS/4/CONGESTIONRISK(l)[114]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 12:43:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[115]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 12:08:48 Quidway %%01QOS/4/CONGESTIONRISK(l)[116]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 11:34:01 Quidway %%01QOS/4/CONGESTIONRISK(l)[117]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 11:10:35 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[118]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287942156, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12883679923692, PortQueueDropped=3287942156, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51747540, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 11:08:29 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[119]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287941784, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12883675605260, PortQueueDropped=3287941784, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51747510, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 10:58:41 Quidway %%01QOS/4/CONGESTIONRISK(l)[120]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 10:42:17 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[121]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287938369, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12883622492774, PortQueueDropped=3287938369, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51747102, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 10:24:25 Quidway %%01QOS/4/CONGESTIONRISK(l)[122]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 10:15:00 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[123]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287937134, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12883569606184, PortQueueDropped=3287937134, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51746675, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 10:09:59 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[124]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287937114, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12883560076847, PortQueueDropped=3287937114, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51746590, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 10:09:26 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[125]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287936809, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12883559052755, PortQueueDropped=3287936809, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51746582, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 10:04:26 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[126]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287936554, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12883549591070, PortQueueDropped=3287936554, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51746509, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 11 2026 09:12:23 Quidway %%01QOS/4/CONGESTIONRISK(l)[127]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 09:12:13 Quidway %%01QOS/4/CONGESTIONRISK(l)[128]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 08:16:57 Quidway %%01NTP/4/STRATUM_CHANGE(l)[129]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 11 2026 08:16:57 Quidway %%01NTP/4/LEAP_CHANGE(l)[130]:System leap changes from 3 to 0 after clock update.
+Mar 11 2026 08:16:57 Quidway %%01NTP/4/PEER_SELE(l)[131]:The peer selected by the system is 10.233.138.254.
+Mar 11 2026 08:15:54 Quidway %%01NTP/4/SOURCE_LOST(l)[132]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar 11 2026 08:01:15 Quidway %%01QOS/4/CONGESTIONRISK(l)[133]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 08:01:15 Quidway %%01QOS/4/CONGESTIONRISK(l)[134]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 07:13:53 Quidway %%01INFO/4/SUPPRESS_LOG(l)[135]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 11 2026 05:35:51 Quidway %%01QOS/4/CONGESTIONRISK(l)[136]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 04:43:07 Quidway %%01NTP/4/STRATUM_CHANGE(l)[137]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 11 2026 04:43:07 Quidway %%01NTP/4/LEAP_CHANGE(l)[138]:System leap changes from 3 to 0 after clock update.
+Mar 11 2026 04:43:08 Quidway %%01NTP/4/PEER_SELE(l)[139]:The peer selected by the system is 10.233.138.254.
+Mar 11 2026 04:42:04 Quidway %%01NTP/4/SOURCE_LOST(l)[140]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar 11 2026 04:29:10 Quidway %%01INFO/4/SUPPRESS_LOG(l)[141]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 11 2026 03:09:48 Quidway %%01INFO/4/SUPPRESS_LOG(l)[142]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 11 2026 02:00:26 Quidway %%01QOS/4/CONGESTIONRISK(l)[143]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 11 2026 00:45:43 Quidway %%01QOS/4/CONGESTIONRISK(l)[144]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 11 2026 00:12:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[145]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 23:15:57 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[146]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287935594, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12882910485870, PortQueueDropped=3287935594, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51736329, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 22:58:21 Quidway %%01QOS/4/CONGESTIONRISK(l)[147]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 22:22:35 Quidway %%01QOS/4/CONGESTIONRISK(l)[148]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 21:46:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[149]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 21:11:58 Quidway %%01QOS/4/CONGESTIONRISK(l)[150]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 20:37:07 Quidway %%01QOS/4/CONGESTIONRISK(l)[151]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 19:56:27 Quidway %%01QOS/4/CONGESTIONRISK(l)[152]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 19:26:05 Quidway %%01INFO/4/SUPPRESS_LOG(l)[153]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 10 2026 18:25:53 Quidway %%01QOS/4/CONGESTIONRISK(l)[154]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 18:25:53 Quidway %%01QOS/4/CONGESTIONRISK(l)[155]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 17:24:58 Quidway %%01NTP/4/STRATUM_CHANGE(l)[156]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 10 2026 17:24:58 Quidway %%01NTP/4/LEAP_CHANGE(l)[157]:System leap changes from 3 to 0 after clock update.
+Mar 10 2026 17:24:57 Quidway %%01NTP/4/PEER_SELE(l)[158]:The peer selected by the system is 10.233.138.254.
+Mar 10 2026 17:23:54 Quidway %%01NTP/4/SOURCE_LOST(l)[159]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar 10 2026 17:19:01 Quidway %%01QOS/4/CONGESTIONRISK(l)[160]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 17:19:01 Quidway %%01QOS/4/CONGESTIONRISK(l)[161]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 16:10:09 Quidway %%01QOS/4/CONGESTIONRISK(l)[162]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 16:10:09 Quidway %%01QOS/4/CONGESTIONRISK(l)[163]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 15:00:32 Quidway %%01QOS/4/CONGESTIONRISK(l)[164]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 15:00:32 Quidway %%01QOS/4/CONGESTIONRISK(l)[165]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 14:20:17 Quidway %%01QOS/4/CONGESTIONRISK(l)[166]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar 10 2026 13:44:31 Quidway %%01QOS/4/CONGESTIONRISK(l)[167]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 13:44:26 Quidway %%01QOS/4/CONGESTIONRISK(l)[168]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 12:31:08 Quidway %%01QOS/4/CONGESTIONRISK(l)[169]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 12:31:03 Quidway %%01QOS/4/CONGESTIONRISK(l)[170]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 11:35:41 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[171]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287222336, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881366075931, PortQueueDropped=3287222336, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51725340, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 11:35:01 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[172]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287221990, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881364704341, PortQueueDropped=3287221990, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51725329, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 11:26:57 Quidway %%01QOS/4/CONGESTIONRISK(l)[173]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 11:26:52 Quidway %%01QOS/4/CONGESTIONRISK(l)[174]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 11:11:48 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[175]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287219606, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881317453235, PortQueueDropped=3287219606, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724969, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 11:11:35 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[176]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287219182, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881317047046, PortQueueDropped=3287219182, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724965, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:57:43 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[177]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287217515, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881289310640, PortQueueDropped=3287217515, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724746, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:57:30 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[178]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287217203, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881288878379, PortQueueDropped=3287217203, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724740, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:49:11 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[179]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287216505, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881272408436, PortQueueDropped=3287216505, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724604, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:45:34 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[180]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287216069, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881265296893, PortQueueDropped=3287216069, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724551, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:40:34 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[181]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287215782, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881255558887, PortQueueDropped=3287215782, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724475, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:32:07 Quidway %%01SECE/4/SPECIFY_SIP_ATTACK(l)[182]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=205 packets per second)
+Mar 10 2026 10:32:04 Quidway %%01SECE/4/SPECIFY_SIP_ATTACK(l)[183]:The specified source IP address attack occurred.(Slot=LPU3, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=260 packets per second)
+Mar 10 2026 10:28:30 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[184]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287214864, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881232310364, PortQueueDropped=3287214864, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724280, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:23:30 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[185]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287214820, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12881222891535, PortQueueDropped=3287214820, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51724207, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar 10 2026 10:11:54 Quidway %%01QOS/4/CONGESTIONRISK(l)[186]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 10:11:24 Quidway %%01QOS/4/CONGESTIONRISK(l)[187]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 09:03:27 Quidway %%01QOS/4/CONGESTIONRISK(l)[188]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 09:02:37 Quidway %%01INFO/4/SUPPRESS_LOG(l)[189]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 10 2026 07:51:15 Quidway %%01QOS/4/CONGESTIONRISK(l)[190]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 07:51:15 Quidway %%01QOS/4/CONGESTIONRISK(l)[191]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 07:24:49 Quidway %%01NTP/4/STRATUM_CHANGE(l)[192]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar 10 2026 07:24:49 Quidway %%01NTP/4/LEAP_CHANGE(l)[193]:System leap changes from 3 to 0 after clock update.
+Mar 10 2026 07:24:50 Quidway %%01NTP/4/PEER_SELE(l)[194]:The peer selected by the system is 10.233.138.254.
+Mar 10 2026 07:23:44 Quidway %%01NTP/4/SOURCE_LOST(l)[195]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar 10 2026 06:32:59 Quidway %%01INFO/4/SUPPRESS_LOG(l)[196]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 10 2026 05:43:52 Quidway %%01INFO/4/SUPPRESS_LOG(l)[197]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 10 2026 04:43:52 Quidway %%01INFO/4/SUPPRESS_LOG(l)[198]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 10 2026 03:06:27 Quidway %%01INFO/4/SUPPRESS_LOG(l)[199]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar 10 2026 01:48:20 Quidway %%01QOS/4/CONGESTIONRISK(l)[200]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar 10 2026 01:13:55 Quidway %%01QOS/4/CONGESTIONRISK(l)[201]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar 10 2026 00:38:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[202]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 23:22:13 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[203]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287214192, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12880567453428, PortQueueDropped=3287214192, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51713831, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 23:20:36 Quidway %%01QOS/4/CONGESTIONRISK(l)[204]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 23:20:36 Quidway %%01QOS/4/CONGESTIONRISK(l)[205]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 23:17:13 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[206]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287214174, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12880558709185, PortQueueDropped=3287214174, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51713752, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 23:14:01 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[207]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3287213841, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12880552895836, PortQueueDropped=3287213841, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51713699, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 22:06:14 Quidway %%01QOS/4/CONGESTIONRISK(l)[208]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 22:05:59 Quidway %%01INFO/4/SUPPRESS_LOG(l)[209]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 21:00:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[210]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 21:00:12 Quidway %%01INFO/4/SUPPRESS_LOG(l)[211]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 19:49:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[212]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 19:49:10 Quidway %%01INFO/4/SUPPRESS_LOG(l)[213]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 18:48:54 Quidway %%01QOS/4/CONGESTIONRISK(l)[214]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 18:48:54 Quidway %%01QOS/4/CONGESTIONRISK(l)[215]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 17:36:51 Quidway %%01QOS/4/CONGESTIONRISK(l)[216]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar  9 2026 17:35:26 Quidway %%01QOS/4/CONGESTIONRISK(l)[217]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 17:34:51 Quidway %%01QOS/4/CONGESTIONRISK(l)[218]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 16:58:29 Quidway %%01NTP/4/STRATUM_CHANGE(l)[219]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  9 2026 16:58:29 Quidway %%01NTP/4/LEAP_CHANGE(l)[220]:System leap changes from 3 to 0 after clock update.
+Mar  9 2026 16:58:29 Quidway %%01NTP/4/PEER_SELE(l)[221]:The peer selected by the system is 10.233.138.254.
+Mar  9 2026 16:57:25 Quidway %%01NTP/4/SOURCE_LOST(l)[222]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar  9 2026 16:32:42 Quidway %%01SECE/4/SPECIFY_SIP_ATTACK(l)[223]:The specified source IP address attack occurred.(Slot=MPU, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=380 packets per second)
+Mar  9 2026 16:32:42 Quidway %%01SECE/4/SPECIFY_SIP_ATTACK(l)[224]:The specified source IP address attack occurred.(Slot=LPU3, SourceAttackIP=10.237.35.254, AttackProtocol=TCP, AttackPackets=370 packets per second)
+Mar  9 2026 16:24:24 Quidway %%01QOS/4/CONGESTIONRISK(l)[225]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 16:24:24 Quidway %%01QOS/4/CONGESTIONRISK(l)[226]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 15:12:08 Quidway %%01QOS/4/CONGESTIONRISK(l)[227]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 15:12:08 Quidway %%01INFO/4/SUPPRESS_LOG(l)[228]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 13:56:50 Quidway %%01QOS/4/CONGESTIONRISK(l)[229]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 13:56:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[230]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 12:38:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[231]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 12:38:04 Quidway %%01INFO/4/SUPPRESS_LOG(l)[232]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 11:33:47 Quidway %%01QOS/4/CONGESTIONRISK(l)[233]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 11:09:31 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[234]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3286536817, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12878973613263, PortQueueDropped=3286536817, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51702333, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 11:06:11 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[235]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3286536377, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12878966942741, PortQueueDropped=3286536377, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51702274, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 11:05:36 Quidway %%01QOS/4/CONGESTIONRISK(l)[236]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 10:56:17 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[237]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3286534998, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12878947142346, PortQueueDropped=3286534998, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51702123, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 10:52:56 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[238]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3286534604, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12878940461620, PortQueueDropped=3286534604, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51702070, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 10:39:31 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[239]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3286533638, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12878914072366, PortQueueDropped=3286533638, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51701859, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  9 2026 10:31:00 Quidway %%01QOS/4/CONGESTIONRISK(l)[240]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 09:56:39 Quidway %%01QOS/4/CONGESTIONRISK(l)[241]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 09:13:52 Quidway %%01QOS/4/CONGESTIONRISK(l)[242]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 08:43:42 Quidway %%01QOS/4/CONGESTIONRISK(l)[243]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 08:08:46 Quidway %%01INFO/4/SUPPRESS_LOG(l)[244]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 06:56:09 Quidway %%01QOS/4/CONGESTIONRISK(l)[245]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 06:28:07 Quidway %%01NTP/4/STRATUM_CHANGE(l)[246]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  9 2026 06:28:07 Quidway %%01NTP/4/LEAP_CHANGE(l)[247]:System leap changes from 3 to 0 after clock update.
+Mar  9 2026 06:28:06 Quidway %%01NTP/4/PEER_SELE(l)[248]:The peer selected by the system is 10.233.138.254.
+Mar  9 2026 06:27:01 Quidway %%01NTP/4/SOURCE_LOST(l)[249]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  9 2026 06:13:44 Quidway %%01INFO/4/SUPPRESS_LOG(l)[250]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 04:24:55 Quidway %%01INFO/4/SUPPRESS_LOG(l)[251]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  9 2026 03:14:28 Quidway %%01QOS/4/CONGESTIONRISK(l)[252]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 01:51:51 Quidway %%01QOS/4/CONGESTIONRISK(l)[253]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  9 2026 01:50:56 Quidway %%01QOS/4/CONGESTIONRISK(l)[254]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  9 2026 01:42:52 Quidway %%01NTP/4/STRATUM_CHANGE(l)[255]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  9 2026 01:42:52 Quidway %%01NTP/4/LEAP_CHANGE(l)[256]:System leap changes from 3 to 0 after clock update.
+Mar  9 2026 01:42:53 Quidway %%01NTP/4/PEER_SELE(l)[257]:The peer selected by the system is 10.233.138.254.
+Mar  9 2026 01:41:48 Quidway %%01NTP/4/SOURCE_LOST(l)[258]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  9 2026 00:11:58 Quidway %%01QOS/4/CONGESTIONRISK(l)[259]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 23:38:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[260]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 23:24:26 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[261]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3286532446, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12878205580736, PortQueueDropped=3286532446, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51691262, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  8 2026 23:04:41 Quidway %%01QOS/4/CONGESTIONRISK(l)[262]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 22:26:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[263]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 21:50:14 Quidway %%01QOS/4/CONGESTIONRISK(l)[264]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 21:11:43 Quidway %%01QOS/4/CONGESTIONRISK(l)[265]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 20:33:58 Quidway %%01QOS/4/CONGESTIONRISK(l)[266]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 19:56:17 Quidway %%01QOS/4/CONGESTIONRISK(l)[267]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 19:25:31 Quidway %%01QOS/4/CONGESTIONRISK(l)[268]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 18:47:55 Quidway %%01QOS/4/CONGESTIONRISK(l)[269]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 18:11:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[270]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 17:39:42 Quidway %%01QOS/4/CONGESTIONRISK(l)[271]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 17:21:55 Quidway %%01NTP/4/STRATUM_CHANGE(l)[272]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  8 2026 17:21:55 Quidway %%01NTP/4/LEAP_CHANGE(l)[273]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 17:21:55 Quidway %%01NTP/4/PEER_SELE(l)[274]:The peer selected by the system is 10.233.138.254.
+Mar  8 2026 17:19:48 Quidway %%01NTP/4/SOURCE_LOST(l)[275]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar  8 2026 17:08:46 Quidway %%01QOS/4/CONGESTIONRISK(l)[276]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 16:33:21 Quidway %%01QOS/4/CONGESTIONRISK(l)[277]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar  8 2026 16:32:11 Quidway %%01QOS/4/CONGESTIONRISK(l)[278]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 15:55:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[279]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 15:17:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[280]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 14:45:02 Quidway %%01QOS/4/CONGESTIONRISK(l)[281]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 14:08:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[282]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 13:23:05 Quidway %%01QOS/4/CONGESTIONRISK(l)[283]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 12:48:34 Quidway %%01QOS/4/CONGESTIONRISK(l)[284]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 12:45:31 Quidway %%01NTP/4/STRATUM_CHANGE(l)[285]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  8 2026 12:45:31 Quidway %%01NTP/4/LEAP_CHANGE(l)[286]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 12:45:32 Quidway %%01NTP/4/PEER_SELE(l)[287]:The peer selected by the system is 10.233.138.254.
+Mar  8 2026 12:44:27 Quidway %%01NTP/4/SOURCE_LOST(l)[288]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  8 2026 12:16:04 Quidway %%01QOS/4/CONGESTIONRISK(l)[289]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 11:37:27 Quidway %%01QOS/4/CONGESTIONRISK(l)[290]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 10:59:37 Quidway %%01QOS/4/CONGESTIONRISK(l)[291]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 10:52:35 Quidway %%01NTP/4/STRATUM_CHANGE(l)[292]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  8 2026 10:52:35 Quidway %%01NTP/4/LEAP_CHANGE(l)[293]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 10:52:34 Quidway %%01NTP/4/PEER_SELE(l)[294]:The peer selected by the system is 10.233.138.254.
+Mar  8 2026 10:51:31 Quidway %%01NTP/4/SOURCE_LOST(l)[295]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  8 2026 10:26:11 Quidway %%01QOS/4/CONGESTIONRISK(l)[296]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 09:49:09 Quidway %%01QOS/4/CONGESTIONRISK(l)[297]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 09:38:12 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[298]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3284929960, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12876312904929, PortQueueDropped=3284929960, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51678299, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  8 2026 09:16:09 Quidway %%01QOS/4/CONGESTIONRISK(l)[299]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 08:45:18 Quidway %%01QOS/4/CONGESTIONRISK(l)[300]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 08:07:37 Quidway %%01QOS/4/CONGESTIONRISK(l)[301]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  8 2026 07:28:41 Quidway %%01INFO/4/SUPPRESS_LOG(l)[302]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  8 2026 06:43:40 Quidway %%01INFO/4/SUPPRESS_LOG(l)[303]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  8 2026 03:55:15 Quidway %%01INFO/4/SUPPRESS_LOG(l)[304]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  8 2026 02:43:28 Quidway %%01INFO/4/SUPPRESS_LOG(l)[305]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  8 2026 01:30:01 Quidway %%01QOS/4/CONGESTIONRISK(l)[306]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  8 2026 00:30:46 Quidway %%01NTP/4/STRATUM_CHANGE(l)[307]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  8 2026 00:30:46 Quidway %%01NTP/4/LEAP_CHANGE(l)[308]:System leap changes from 3 to 0 after clock update.
+Mar  8 2026 00:30:45 Quidway %%01NTP/4/PEER_SELE(l)[309]:The peer selected by the system is 10.233.138.254.
+Mar  8 2026 00:29:39 Quidway %%01NTP/4/SOURCE_LOST(l)[310]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  8 2026 00:23:19 Quidway %%01QOS/4/CONGESTIONRISK(l)[311]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 23:42:38 Quidway %%01QOS/4/CONGESTIONRISK(l)[312]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 23:41:28 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[313]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3284928783, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12875717294841, PortQueueDropped=3284928783, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51668932, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  7 2026 22:59:07 Quidway %%01QOS/4/CONGESTIONRISK(l)[314]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 22:30:11 Quidway %%01QOS/4/CONGESTIONRISK(l)[315]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 21:53:40 Quidway %%01QOS/4/CONGESTIONRISK(l)[316]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 21:19:54 Quidway %%01QOS/4/CONGESTIONRISK(l)[317]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 20:42:53 Quidway %%01QOS/4/CONGESTIONRISK(l)[318]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 20:10:42 Quidway %%01QOS/4/CONGESTIONRISK(l)[319]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 19:36:31 Quidway %%01QOS/4/CONGESTIONRISK(l)[320]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 18:55:20 Quidway %%01QOS/4/CONGESTIONRISK(l)[321]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 18:16:54 Quidway %%01QOS/4/CONGESTIONRISK(l)[322]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 17:39:48 Quidway %%01QOS/4/CONGESTIONRISK(l)[323]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 17:01:47 Quidway %%01QOS/4/CONGESTIONRISK(l)[324]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 16:26:32 Quidway %%01QOS/4/CONGESTIONRISK(l)[325]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 15:47:20 Quidway %%01QOS/4/CONGESTIONRISK(l)[326]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 15:14:14 Quidway %%01QOS/4/CONGESTIONRISK(l)[327]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 14:40:18 Quidway %%01QOS/4/CONGESTIONRISK(l)[328]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 13:57:43 Quidway %%01QOS/4/CONGESTIONRISK(l)[329]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 13:22:01 Quidway %%01QOS/4/CONGESTIONRISK(l)[330]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 12:50:35 Quidway %%01QOS/4/CONGESTIONRISK(l)[331]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 12:15:49 Quidway %%01QOS/4/CONGESTIONRISK(l)[332]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 11:43:58 Quidway %%01QOS/4/CONGESTIONRISK(l)[333]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 11:07:11 Quidway %%01NTP/4/STRATUM_CHANGE(l)[334]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  7 2026 11:07:11 Quidway %%01NTP/4/LEAP_CHANGE(l)[335]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 11:07:10 Quidway %%01NTP/4/PEER_SELE(l)[336]:The peer selected by the system is 10.233.138.254.
+Mar  7 2026 11:06:06 Quidway %%01QOS/4/CONGESTIONRISK(l)[337]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 11:05:01 Quidway %%01NTP/4/SOURCE_LOST(l)[338]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar  7 2026 10:42:30 Quidway %%01NTP/4/STRATUM_CHANGE(l)[339]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  7 2026 10:42:30 Quidway %%01NTP/4/LEAP_CHANGE(l)[340]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 10:42:30 Quidway %%01NTP/4/PEER_SELE(l)[341]:The peer selected by the system is 10.233.138.254.
+Mar  7 2026 10:41:26 Quidway %%01NTP/4/SOURCE_LOST(l)[342]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar  7 2026 10:01:10 Quidway %%01QOS/4/CONGESTIONRISK(l)[343]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 10:00:35 Quidway %%01QOS/4/CONGESTIONRISK(l)[344]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 09:43:28 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[345]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3283011312, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12873724869609, PortQueueDropped=3283011312, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51655780, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  7 2026 09:43:24 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[346]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3283010973, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12873724709372, PortQueueDropped=3283010973, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51655779, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  7 2026 09:34:54 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[347]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3283010445, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12873707643394, PortQueueDropped=3283010445, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51655649, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  7 2026 08:59:53 Quidway %%01QOS/4/CONGESTIONRISK(l)[348]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  7 2026 08:59:48 Quidway %%01INFO/4/SUPPRESS_LOG(l)[349]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  7 2026 08:13:38 Quidway %%01INFO/4/SUPPRESS_LOG(l)[350]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  7 2026 06:36:50 Quidway %%01INFO/4/SUPPRESS_LOG(l)[351]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  7 2026 05:25:57 Quidway %%01INFO/4/SUPPRESS_LOG(l)[352]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  7 2026 04:15:20 Quidway %%01QOS/4/CONGESTIONRISK(l)[353]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 04:02:39 Quidway %%01NTP/4/STRATUM_CHANGE(l)[354]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  7 2026 04:02:39 Quidway %%01NTP/4/LEAP_CHANGE(l)[355]:System leap changes from 3 to 0 after clock update.
+Mar  7 2026 04:02:38 Quidway %%01NTP/4/PEER_SELE(l)[356]:The peer selected by the system is 10.233.138.254.
+Mar  7 2026 04:01:33 Quidway %%01NTP/4/SOURCE_LOST(l)[357]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  7 2026 03:08:08 Quidway %%01INFO/4/SUPPRESS_LOG(l)[358]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  7 2026 02:07:21 Quidway %%01INFO/4/SUPPRESS_LOG(l)[359]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  7 2026 00:49:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[360]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  7 2026 00:12:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[361]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 23:43:48 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[362]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3283009027, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12873117002679, PortQueueDropped=3283009027, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51646368, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  6 2026 23:39:52 Quidway %%01QOS/4/CONGESTIONRISK(l)[363]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 23:05:46 Quidway %%01QOS/4/CONGESTIONRISK(l)[364]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 22:34:05 Quidway %%01QOS/4/CONGESTIONRISK(l)[365]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 22:01:30 Quidway %%01QOS/4/CONGESTIONRISK(l)[366]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 21:31:39 Quidway %%01QOS/4/CONGESTIONRISK(l)[367]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 20:55:07 Quidway %%01QOS/4/CONGESTIONRISK(l)[368]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 20:14:06 Quidway %%01QOS/4/CONGESTIONRISK(l)[369]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 19:37:25 Quidway %%01QOS/4/CONGESTIONRISK(l)[370]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 19:03:30 Quidway %%01QOS/4/CONGESTIONRISK(l)[371]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 18:30:18 Quidway %%01QOS/4/CONGESTIONRISK(l)[372]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 17:52:58 Quidway %%01QOS/4/CONGESTIONRISK(l)[373]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 17:16:26 Quidway %%01QOS/4/CONGESTIONRISK(l)[374]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 17:03:10 Quidway %%01NTP/4/STRATUM_CHANGE(l)[375]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  6 2026 17:03:10 Quidway %%01NTP/4/LEAP_CHANGE(l)[376]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 17:03:11 Quidway %%01NTP/4/PEER_SELE(l)[377]:The peer selected by the system is 10.233.138.254.
+Mar  6 2026 17:02:08 Quidway %%01NTP/4/SOURCE_LOST(l)[378]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  6 2026 16:38:15 Quidway %%01QOS/4/CONGESTIONRISK(l)[379]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 15:57:40 Quidway %%01QOS/4/CONGESTIONRISK(l)[380]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar  6 2026 15:56:45 Quidway %%01QOS/4/CONGESTIONRISK(l)[381]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 15:21:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[382]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 14:44:13 Quidway %%01QOS/4/CONGESTIONRISK(l)[383]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 14:11:32 Quidway %%01QOS/4/CONGESTIONRISK(l)[384]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 13:39:00 Quidway %%01QOS/4/CONGESTIONRISK(l)[385]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar  6 2026 13:37:50 Quidway %%01QOS/4/CONGESTIONRISK(l)[386]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 13:36:36 Quidway %%01NTP/4/STRATUM_CHANGE(l)[387]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  6 2026 13:36:36 Quidway %%01NTP/4/LEAP_CHANGE(l)[388]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 13:36:36 Quidway %%01NTP/4/PEER_SELE(l)[389]:The peer selected by the system is 10.233.138.254.
+Mar  6 2026 13:35:33 Quidway %%01NTP/4/SOURCE_LOST(l)[390]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Peer clock unsynchronized/unselectable)
+Mar  6 2026 13:03:55 Quidway %%01QOS/4/CONGESTIONRISK(l)[391]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 12:28:34 Quidway %%01QOS/4/CONGESTIONRISK(l)[392]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 11:55:58 Quidway %%01QOS/4/CONGESTIONRISK(l)[393]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 11:18:32 Quidway %%01QOS/4/CONGESTIONRISK(l)[394]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 10:33:31 Quidway %%01QOS/4/CONGESTIONRISK(l)[395]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 10:12:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[396]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 10:12:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[397]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar  6 2026 10:01:24 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[398]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3281236955, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12871168327228, PortQueueDropped=3281236955, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51633485, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  6 2026 09:56:40 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[399]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3281236615, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12871159149498, PortQueueDropped=3281236615, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51633416, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  6 2026 09:51:40 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[400]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3281236457, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12871149508059, PortQueueDropped=3281236457, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51633337, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  6 2026 09:49:11 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[401]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3281236149, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12871144707669, PortQueueDropped=3281236149, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51633296, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  6 2026 09:39:40 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[402]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3281235521, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12871126640339, PortQueueDropped=3281235521, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51633146, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  6 2026 09:32:50 Quidway %%01QOS/4/CONGESTIONRISK(l)[403]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 09:08:32 Quidway %%01NTP/4/STRATUM_CHANGE(l)[404]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  6 2026 09:08:32 Quidway %%01NTP/4/LEAP_CHANGE(l)[405]:System leap changes from 3 to 0 after clock update.
+Mar  6 2026 09:08:32 Quidway %%01NTP/4/PEER_SELE(l)[406]:The peer selected by the system is 10.233.138.254.
+Mar  6 2026 09:07:27 Quidway %%01NTP/4/SOURCE_LOST(l)[407]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  6 2026 08:53:18 Quidway %%01QOS/4/CONGESTIONRISK(l)[408]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 08:43:36 Quidway %%01INFO/4/SUPPRESS_LOG(l)[409]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  6 2026 07:09:25 Quidway %%01INFO/4/SUPPRESS_LOG(l)[410]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  6 2026 05:43:37 Quidway %%01INFO/4/SUPPRESS_LOG(l)[411]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  6 2026 04:05:56 Quidway %%01INFO/4/SUPPRESS_LOG(l)[412]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  6 2026 02:59:13 Quidway %%01QOS/4/CONGESTIONRISK(l)[413]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  6 2026 01:48:25 Quidway %%01QOS/4/CONGESTIONRISK(l)[414]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  6 2026 01:48:25 Quidway %%01INFO/4/SUPPRESS_LOG(l)[415]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  6 2026 00:35:44 Quidway %%01QOS/4/CONGESTIONRISK(l)[416]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 23:37:25 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[417]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3281234876, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12870532457173, PortQueueDropped=3281234876, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51623727, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  5 2026 23:27:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[418]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 23:27:02 Quidway %%01INFO/4/SUPPRESS_LOG(l)[419]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 22:16:40 Quidway %%01QOS/4/CONGESTIONRISK(l)[420]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 22:16:40 Quidway %%01INFO/4/SUPPRESS_LOG(l)[421]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 21:11:33 Quidway %%01QOS/4/CONGESTIONRISK(l)[422]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 20:46:17 Quidway %%01QOS/4/CONGESTIONRISK(l)[423]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 20:08:56 Quidway %%01QOS/4/CONGESTIONRISK(l)[424]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 19:42:55 Quidway %%01QOS/4/CONGESTIONRISK(l)[425]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 18:44:13 Quidway %%01QOS/4/CONGESTIONRISK(l)[426]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 18:42:53 Quidway %%01INFO/4/SUPPRESS_LOG(l)[427]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 17:37:56 Quidway %%01QOS/4/CONGESTIONRISK(l)[428]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 17:37:56 Quidway %%01QOS/4/CONGESTIONRISK(l)[429]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 16:25:24 Quidway %%01QOS/4/CONGESTIONRISK(l)[430]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 16:25:24 Quidway %%01QOS/4/CONGESTIONRISK(l)[431]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 15:50:08 Quidway %%01QOS/4/CONGESTIONRISK(l)[432]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/14.
+Mar  5 2026 15:13:48 Quidway %%01QOS/4/CONGESTIONRISK(l)[433]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 15:13:48 Quidway %%01QOS/4/CONGESTIONRISK(l)[434]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 14:09:36 Quidway %%01QOS/4/CONGESTIONRISK(l)[435]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 14:09:36 Quidway %%01QOS/4/CONGESTIONRISK(l)[436]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 12:49:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[437]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 12:49:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[438]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 11:46:46 Quidway %%01QOS/4/CONGESTIONRISK(l)[439]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 11:46:46 Quidway %%01INFO/4/SUPPRESS_LOG(l)[440]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 10:38:04 Quidway %%01QOS/4/CONGESTIONRISK(l)[441]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 10:37:59 Quidway %%01QOS/4/CONGESTIONRISK(l)[442]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 10:01:27 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[443]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3279093846, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12868562822234, PortQueueDropped=3279093846, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51610958, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  5 2026 09:58:58 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[444]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3279093508, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12868557722582, PortQueueDropped=3279093508, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51610924, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  5 2026 09:52:08 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[445]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3279092805, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12868544035220, PortQueueDropped=3279092805, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51610818, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  5 2026 09:42:15 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[446]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3279092159, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12868524651329, PortQueueDropped=3279092159, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51610666, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  5 2026 09:37:15 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[447]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3279092011, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12868515023668, PortQueueDropped=3279092011, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51610585, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  5 2026 09:30:37 Quidway %%01QOS/4/CONGESTIONRISK(l)[448]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 09:30:37 Quidway %%01QOS/4/CONGESTIONRISK(l)[449]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 08:47:02 Quidway %%01NTP/4/STRATUM_CHANGE(l)[450]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  5 2026 08:47:02 Quidway %%01NTP/4/LEAP_CHANGE(l)[451]:System leap changes from 3 to 0 after clock update.
+Mar  5 2026 08:47:01 Quidway %%01NTP/4/PEER_SELE(l)[452]:The peer selected by the system is 10.233.138.254.
+Mar  5 2026 08:45:57 Quidway %%01NTP/4/SOURCE_LOST(l)[453]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  5 2026 08:20:02 Quidway %%01NTP/4/STRATUM_CHANGE(l)[454]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  5 2026 08:20:02 Quidway %%01NTP/4/LEAP_CHANGE(l)[455]:System leap changes from 3 to 0 after clock update.
+Mar  5 2026 08:20:01 Quidway %%01NTP/4/PEER_SELE(l)[456]:The peer selected by the system is 10.233.138.254.
+Mar  5 2026 08:19:20 Quidway %%01QOS/4/CONGESTIONRISK(l)[457]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  5 2026 08:19:00 Quidway %%01QOS/4/CONGESTIONRISK(l)[458]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 08:18:57 Quidway %%01NTP/4/SOURCE_LOST(l)[459]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  5 2026 07:09:14 Quidway %%01INFO/4/SUPPRESS_LOG(l)[460]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 05:57:47 Quidway %%01INFO/4/SUPPRESS_LOG(l)[461]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 04:41:40 Quidway %%01INFO/4/SUPPRESS_LOG(l)[462]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 03:32:58 Quidway %%01INFO/4/SUPPRESS_LOG(l)[463]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 02:43:30 Quidway %%01INFO/4/SUPPRESS_LOG(l)[464]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  5 2026 01:12:34 Quidway %%01QOS/4/CONGESTIONRISK(l)[465]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  5 2026 00:36:48 Quidway %%01QOS/4/CONGESTIONRISK(l)[466]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 23:58:32 Quidway %%01QOS/4/CONGESTIONRISK(l)[467]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 23:32:12 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[468]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3279091341, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12867925632413, PortQueueDropped=3279091341, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51601119, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  4 2026 23:14:04 Quidway %%01NTP/4/STRATUM_CHANGE(l)[469]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  4 2026 23:14:04 Quidway %%01NTP/4/LEAP_CHANGE(l)[470]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 23:14:03 Quidway %%01NTP/4/PEER_SELE(l)[471]:The peer selected by the system is 10.233.138.254.
+Mar  4 2026 23:12:58 Quidway %%01NTP/4/SOURCE_LOST(l)[472]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  4 2026 22:48:00 Quidway %%01QOS/4/CONGESTIONRISK(l)[473]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 22:47:40 Quidway %%01QOS/4/CONGESTIONRISK(l)[474]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 21:37:53 Quidway %%01QOS/4/CONGESTIONRISK(l)[475]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 21:37:48 Quidway %%01QOS/4/CONGESTIONRISK(l)[476]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 20:33:26 Quidway %%01QOS/4/CONGESTIONRISK(l)[477]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 20:33:16 Quidway %%01QOS/4/CONGESTIONRISK(l)[478]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 19:22:38 Quidway %%01QOS/4/CONGESTIONRISK(l)[479]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 19:22:28 Quidway %%01QOS/4/CONGESTIONRISK(l)[480]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 18:07:16 Quidway %%01QOS/4/CONGESTIONRISK(l)[481]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 18:07:06 Quidway %%01QOS/4/CONGESTIONRISK(l)[482]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 17:34:07 Quidway %%01NTP/4/STRATUM_CHANGE(l)[483]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  4 2026 17:34:07 Quidway %%01NTP/4/LEAP_CHANGE(l)[484]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 17:34:06 Quidway %%01NTP/4/PEER_SELE(l)[485]:The peer selected by the system is 10.233.138.254.
+Mar  4 2026 17:33:03 Quidway %%01NTP/4/SOURCE_LOST(l)[486]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  4 2026 16:57:30 Quidway %%01QOS/4/CONGESTIONRISK(l)[487]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 16:56:55 Quidway %%01QOS/4/CONGESTIONRISK(l)[488]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 15:47:43 Quidway %%01QOS/4/CONGESTIONRISK(l)[489]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 15:47:43 Quidway %%01INFO/4/SUPPRESS_LOG(l)[490]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  4 2026 14:37:26 Quidway %%01QOS/4/CONGESTIONRISK(l)[491]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 14:09:05 Quidway %%01QOS/4/CONGESTIONRISK(l)[492]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 13:36:53 Quidway %%01QOS/4/CONGESTIONRISK(l)[493]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 13:31:55 Quidway %%01NTP/4/STRATUM_CHANGE(l)[494]:System stratum changes from 16 to 3. (SourceAddress=10.233.138.254)
+
+Mar  4 2026 13:31:55 Quidway %%01NTP/4/LEAP_CHANGE(l)[495]:System leap changes from 3 to 0 after clock update.
+Mar  4 2026 13:31:56 Quidway %%01NTP/4/PEER_SELE(l)[496]:The peer selected by the system is 10.233.138.254.
+Mar  4 2026 13:30:51 Quidway %%01NTP/4/SOURCE_LOST(l)[497]:System synchronization source lost. (SourceAddress=10.233.138.254, Reason=Clock selection failed - No selectable clock)
+Mar  4 2026 13:05:43 Quidway %%01QOS/4/CONGESTIONRISK(l)[498]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 12:28:52 Quidway %%01QOS/4/CONGESTIONRISK(l)[499]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 11:55:57 Quidway %%01QOS/4/CONGESTIONRISK(l)[500]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 11:23:21 Quidway %%01QOS/4/CONGESTIONRISK(l)[501]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 10:46:19 Quidway %%01QOS/4/CONGESTIONRISK(l)[502]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 10:14:16 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[503]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3277377469, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12866085386677, PortQueueDropped=3277377469, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51588634, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  4 2026 10:12:00 Quidway %%01IFPDT/4/PKT_OUTDISCARD_NL(l)[504]:Slot=3;Interface output discard restored to the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3277377100, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12866080926787, PortQueueDropped=3277377100, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51588597, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  4 2026 10:07:00 Quidway %%01IFPDT/4/PKT_OUTDISCARD_ABNL(l)[505]:Slot=3;Interface output discard exceeded the log threshold. (Interface=XGigabitEthernet3/0/18, Statistics=3277376964, LogThreshold=300, LogInterval=300(s),PortQueueNumber=0, PortQueuePassed=12866071161040, PortQueueDropped=3277376964, PortQueueNumber=1, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=2, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=3, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=4, PortQueuePassed=0, PortQueueDropped=0, PortQueueNumber=5, PortQueuePassed=0, PortQueueDropped=0,PortQueueNumber=6, PortQueuePassed=51588516, PortQueueDropped=0, PortQueueNumber=7, PortQueuePassed=0, PortQueueDropped=0)
+Mar  4 2026 10:02:47 Quidway %%01QOS/4/CONGESTIONRISK(l)[506]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 09:26:12 Quidway %%01QOS/4/CONGESTIONRISK(l)[507]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 08:44:06 Quidway %%01QOS/4/CONGESTIONRISK(l)[508]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/30.
+Mar  4 2026 08:06:40 Quidway %%01QOS/4/CONGESTIONRISK(l)[509]:Slot=3;There is a congestion risk on port XGigabitEthernet3/0/18.
+Mar  4 2026 07:28:49 Quidway %%01INFO/4/SUPPRESS_LOG(l)[510]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)
+Mar  4 2026 06:43:31 Quidway %%01INFO/4/SUPPRESS_LOG(l)[511]:Last message repeated 1 times.(InfoID=4281143296, ModuleName=QOS, InfoAlias=CONGESTIONRISK)

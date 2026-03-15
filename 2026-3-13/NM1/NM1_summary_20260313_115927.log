@@ -1,0 +1,252 @@
+NetMgmt-1 daily check started: 2026/3/13 11:59:27
+Log directory: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1
+========================================================================
+[2026/3/13 11:59:27] Start tab: 5G-DPI-JZ305-A10-SWCE6881-01-HW detected prompt: <5G-DPI-JZ305-A10-SWCE6881-01>
+[2026/3/13 11:59:27] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display version
+[2026/3/13 11:59:27] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display device
+[2026/3/13 11:59:27] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display startup
+[2026/3/13 11:59:27] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display cpu-usage
+[2026/3/13 11:59:27] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display memory-usage
+[2026/3/13 11:59:27] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display interface brief
+[2026/3/13 11:59:28] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display ip interface brief
+[2026/3/13 11:59:28] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display current-configuration
+[2026/3/13 11:59:28] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display ip routing-table
+[2026/3/13 11:59:28] 5G-DPI-JZ305-A10-SWCE6881-01-HW run command: display logbuffer
+[2026/3/13 11:59:30] Tab finished: 5G-DPI-JZ305-A10-SWCE6881-01-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_5G-DPI-JZ305-A10-SWCE6881-01-HW_20260313_115927.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:30] Start tab: 5G-DPI-JZ305-A11-SWCE6881-02-HW detected prompt: <5G-DPI-JZ305-A11-SWCE6881-02>
+[2026/3/13 11:59:30] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display version
+[2026/3/13 11:59:30] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display device
+[2026/3/13 11:59:30] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display startup
+[2026/3/13 11:59:31] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display cpu-usage
+[2026/3/13 11:59:31] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display memory-usage
+[2026/3/13 11:59:31] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display interface brief
+[2026/3/13 11:59:31] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display ip interface brief
+[2026/3/13 11:59:31] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display current-configuration
+[2026/3/13 11:59:31] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display ip routing-table
+[2026/3/13 11:59:32] 5G-DPI-JZ305-A11-SWCE6881-02-HW run command: display logbuffer
+[2026/3/13 11:59:33] Tab finished: 5G-DPI-JZ305-A11-SWCE6881-02-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_5G-DPI-JZ305-A11-SWCE6881-02-HW_20260313_115930.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:33] Start tab: 5G-DPI-JZ305-B12-SWCE6881-03-HW detected prompt: <5G-DPI-JZ305-B12-SWCE6881-03>
+[2026/3/13 11:59:33] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display version
+[2026/3/13 11:59:33] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display device
+[2026/3/13 11:59:33] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display startup
+[2026/3/13 11:59:33] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display cpu-usage
+[2026/3/13 11:59:34] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display memory-usage
+[2026/3/13 11:59:34] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display interface brief
+[2026/3/13 11:59:34] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display ip interface brief
+[2026/3/13 11:59:34] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display current-configuration
+[2026/3/13 11:59:34] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display ip routing-table
+[2026/3/13 11:59:34] 5G-DPI-JZ305-B12-SWCE6881-03-HW run command: display logbuffer
+[2026/3/13 11:59:36] Tab finished: 5G-DPI-JZ305-B12-SWCE6881-03-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_5G-DPI-JZ305-B12-SWCE6881-03-HW_20260313_115933.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:36] Start tab: 5G-DPI-JZ305-B13-SWCE6881-04-HW detected prompt: <5G-DPI-JZ305-B13-SWCE6881-04>
+[2026/3/13 11:59:36] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display version
+[2026/3/13 11:59:36] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display device
+[2026/3/13 11:59:36] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display startup
+[2026/3/13 11:59:36] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display cpu-usage
+[2026/3/13 11:59:36] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display memory-usage
+[2026/3/13 11:59:36] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display interface brief
+[2026/3/13 11:59:37] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display ip interface brief
+[2026/3/13 11:59:37] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display current-configuration
+[2026/3/13 11:59:37] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display ip routing-table
+[2026/3/13 11:59:37] 5G-DPI-JZ305-B13-SWCE6881-04-HW run command: display logbuffer
+[2026/3/13 11:59:38] Tab finished: 5G-DPI-JZ305-B13-SWCE6881-04-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_5G-DPI-JZ305-B13-SWCE6881-04-HW_20260313_115936.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:38] Start tab: 307-D16-SW01-HW detected prompt: <307-D16-Sw01>
+[2026/3/13 11:59:38] 307-D16-SW01-HW run command: display version
+[2026/3/13 11:59:39] 307-D16-SW01-HW run command: display device
+[2026/3/13 11:59:39] 307-D16-SW01-HW run command: display startup
+[2026/3/13 11:59:39] 307-D16-SW01-HW run command: display cpu-usage
+[2026/3/13 11:59:39] 307-D16-SW01-HW run command: display memory-usage
+[2026/3/13 11:59:39] 307-D16-SW01-HW run command: display interface brief
+[2026/3/13 11:59:40] 307-D16-SW01-HW run command: display ip interface brief
+[2026/3/13 11:59:40] 307-D16-SW01-HW run command: display current-configuration
+[2026/3/13 11:59:40] 307-D16-SW01-HW run command: display ip routing-table
+[2026/3/13 11:59:40] 307-D16-SW01-HW run command: display logbuffer
+[2026/3/13 11:59:41] Tab finished: 307-D16-SW01-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_307-D16-SW01-HW_20260313_115938.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:41] Start tab: 307-D16-SW02-HW detected prompt: <307-D16-SW02>
+[2026/3/13 11:59:41] 307-D16-SW02-HW run command: display version
+[2026/3/13 11:59:41] 307-D16-SW02-HW run command: display device
+[2026/3/13 11:59:42] 307-D16-SW02-HW run command: display startup
+[2026/3/13 11:59:42] 307-D16-SW02-HW run command: display cpu-usage
+[2026/3/13 11:59:42] 307-D16-SW02-HW run command: display memory-usage
+[2026/3/13 11:59:42] 307-D16-SW02-HW run command: display interface brief
+[2026/3/13 11:59:42] 307-D16-SW02-HW run command: display ip interface brief
+[2026/3/13 11:59:42] 307-D16-SW02-HW run command: display current-configuration
+[2026/3/13 11:59:43] 307-D16-SW02-HW run command: display ip routing-table
+[2026/3/13 11:59:43] 307-D16-SW02-HW run command: display logbuffer
+[2026/3/13 11:59:44] Tab finished: 307-D16-SW02-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_307-D16-SW02-HW_20260313_115941.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:44] Start tab: B17-DW-HW detected prompt: <B17-DW>
+[2026/3/13 11:59:44] B17-DW-HW run command: display version
+[2026/3/13 11:59:44] B17-DW-HW run command: display device
+[2026/3/13 11:59:44] B17-DW-HW run command: display startup
+[2026/3/13 11:59:44] B17-DW-HW run command: display cpu-usage
+[2026/3/13 11:59:44] B17-DW-HW run command: display memory-usage
+[2026/3/13 11:59:44] B17-DW-HW run command: display interface brief
+[2026/3/13 11:59:45] B17-DW-HW run command: display ip interface brief
+[2026/3/13 11:59:45] B17-DW-HW run command: display current-configuration
+[2026/3/13 11:59:45] B17-DW-HW run command: display ip routing-table
+[2026/3/13 11:59:45] B17-DW-HW run command: display logbuffer
+[2026/3/13 11:59:46] Tab finished: B17-DW-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_B17-DW-HW_20260313_115944.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:47] Start tab: B17-HW detected prompt: <B17>
+[2026/3/13 11:59:47] B17-HW run command: display version
+[2026/3/13 11:59:47] B17-HW run command: display device
+[2026/3/13 11:59:47] B17-HW run command: display startup
+[2026/3/13 11:59:47] B17-HW run command: display cpu-usage
+[2026/3/13 11:59:47] B17-HW run command: display memory-usage
+[2026/3/13 11:59:47] B17-HW run command: display interface brief
+[2026/3/13 11:59:48] B17-HW run command: display ip interface brief
+[2026/3/13 11:59:48] B17-HW run command: display current-configuration
+[2026/3/13 11:59:48] B17-HW run command: display ip routing-table
+[2026/3/13 11:59:48] B17-HW run command: display logbuffer
+[2026/3/13 11:59:50] Tab finished: B17-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_B17-HW_20260313_115947.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:50] Start tab: B18-HW detected prompt: <B18>
+[2026/3/13 11:59:50] B18-HW run command: display version
+[2026/3/13 11:59:50] B18-HW run command: display device
+[2026/3/13 11:59:50] B18-HW run command: display startup
+[2026/3/13 11:59:50] B18-HW run command: display cpu-usage
+[2026/3/13 11:59:50] B18-HW run command: display memory-usage
+[2026/3/13 11:59:50] B18-HW run command: display interface brief
+[2026/3/13 11:59:51] B18-HW run command: display ip interface brief
+[2026/3/13 11:59:51] B18-HW run command: display current-configuration
+[2026/3/13 11:59:51] B18-HW run command: display ip routing-table
+[2026/3/13 11:59:51] B18-HW run command: display logbuffer
+[2026/3/13 11:59:52] Tab finished: B18-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_B18-HW_20260313_115950.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:53] Start tab: H3C_1 detected prompt: <H3C>
+[2026/3/13 11:59:53] H3C_1 run command: display version
+[2026/3/13 11:59:53] H3C_1 run command: display device
+[2026/3/13 11:59:53] H3C_1 run command: display startup
+[2026/3/13 11:59:53] H3C_1 run command: display cpu-usage
+[2026/3/13 11:59:53] H3C_1 run command: display memory-usage
+[2026/3/13 11:59:53] H3C_1 run command: display interface brief
+[2026/3/13 11:59:54] H3C_1 run command: display ip interface brief
+[2026/3/13 11:59:54] H3C_1 run command: display current-configuration
+[2026/3/13 11:59:55] H3C_1 run command: display ip routing-table
+[2026/3/13 11:59:55] H3C_1 run command: display logbuffer
+[2026/3/13 11:59:56] Tab finished: H3C_1, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_H3C_1_20260313_115953.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:56] Start tab: H3C_2 detected prompt: <H3C>
+[2026/3/13 11:59:56] H3C_2 run command: display version
+[2026/3/13 11:59:56] H3C_2 run command: display device
+[2026/3/13 11:59:56] H3C_2 run command: display startup
+[2026/3/13 11:59:56] H3C_2 run command: display cpu-usage
+[2026/3/13 11:59:56] H3C_2 run command: display memory-usage
+[2026/3/13 11:59:56] H3C_2 run command: display interface brief
+[2026/3/13 11:59:57] H3C_2 run command: display ip interface brief
+[2026/3/13 11:59:57] H3C_2 run command: display current-configuration
+[2026/3/13 11:59:58] H3C_2 run command: display ip routing-table
+[2026/3/13 11:59:58] H3C_2 run command: display logbuffer
+[2026/3/13 11:59:59] Tab finished: H3C_2, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_H3C_2_20260313_115956.log
+------------------------------------------------------------------------
+[2026/3/13 11:59:59] Start tab: HUAWEI_1 detected prompt: <HUAWEI>
+[2026/3/13 11:59:59] HUAWEI_1 run command: display version
+[2026/3/13 11:59:59] HUAWEI_1 run command: display device
+[2026/3/13 11:59:59] HUAWEI_1 run command: display startup
+[2026/3/13 12:00:00] HUAWEI_1 run command: display cpu-usage
+[2026/3/13 12:00:00] HUAWEI_1 run command: display memory-usage
+[2026/3/13 12:00:00] HUAWEI_1 run command: display interface brief
+[2026/3/13 12:00:00] HUAWEI_1 run command: display ip interface brief
+[2026/3/13 12:00:00] HUAWEI_1 run command: display current-configuration
+[2026/3/13 12:00:01] HUAWEI_1 run command: display ip routing-table
+[2026/3/13 12:00:01] HUAWEI_1 run command: display logbuffer
+[2026/3/13 12:00:02] Tab finished: HUAWEI_1, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_HUAWEI_1_20260313_115959.log
+------------------------------------------------------------------------
+[2026/3/13 12:00:02] Start tab: HUAWEI_2 detected prompt: <HUAWEI>
+[2026/3/13 12:00:02] HUAWEI_2 run command: display version
+[2026/3/13 12:00:02] HUAWEI_2 run command: display device
+[2026/3/13 12:00:02] HUAWEI_2 run command: display startup
+[2026/3/13 12:00:02] HUAWEI_2 run command: display cpu-usage
+[2026/3/13 12:00:02] HUAWEI_2 run command: display memory-usage
+[2026/3/13 12:00:03] HUAWEI_2 run command: display interface brief
+[2026/3/13 12:00:03] HUAWEI_2 run command: display ip interface brief
+[2026/3/13 12:00:03] HUAWEI_2 run command: display current-configuration
+[2026/3/13 12:00:03] HUAWEI_2 run command: display ip routing-table
+[2026/3/13 12:00:03] HUAWEI_2 run command: display logbuffer
+[2026/3/13 12:00:04] Tab finished: HUAWEI_2, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_HUAWEI_2_20260313_120002.log
+------------------------------------------------------------------------
+[2026/3/13 12:00:05] Start tab: HUAWEI_3 detected prompt: <HUAWEI>
+[2026/3/13 12:00:05] HUAWEI_3 run command: display version
+[2026/3/13 12:00:05] HUAWEI_3 run command: display device
+[2026/3/13 12:00:05] HUAWEI_3 run command: display startup
+[2026/3/13 12:00:05] HUAWEI_3 run command: display cpu-usage
+[2026/3/13 12:00:05] HUAWEI_3 run command: display memory-usage
+[2026/3/13 12:00:05] HUAWEI_3 run command: display interface brief
+[2026/3/13 12:00:06] HUAWEI_3 run command: display ip interface brief
+[2026/3/13 12:00:06] HUAWEI_3 run command: display current-configuration
+[2026/3/13 12:00:06] HUAWEI_3 run command: display ip routing-table
+[2026/3/13 12:00:06] HUAWEI_3 run command: display logbuffer
+[2026/3/13 12:00:07] Tab finished: HUAWEI_3, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_HUAWEI_3_20260313_120005.log
+------------------------------------------------------------------------
+[2026/3/13 12:00:07] Start tab: JZ406-B15-CE16800-HW detected prompt: <JZ406-B15-CE16800>
+[2026/3/13 12:00:07] JZ406-B15-CE16800-HW run command: display version
+[2026/3/13 12:00:07] JZ406-B15-CE16800-HW run command: display device
+[2026/3/13 12:00:07] JZ406-B15-CE16800-HW run command: display startup
+[2026/3/13 12:00:08] JZ406-B15-CE16800-HW run command: display cpu-usage
+[2026/3/13 12:00:08] JZ406-B15-CE16800-HW run command: display memory-usage
+[2026/3/13 12:00:08] JZ406-B15-CE16800-HW run command: display interface brief
+[2026/3/13 12:00:08] JZ406-B15-CE16800-HW run command: display ip interface brief
+[2026/3/13 12:00:08] JZ406-B15-CE16800-HW run command: display current-configuration
+[2026/3/13 12:00:08] JZ406-B15-CE16800-HW run command: display ip routing-table
+[2026/3/13 12:00:08] JZ406-B15-CE16800-HW run command: display logbuffer
+[2026/3/13 12:00:09] Tab finished: JZ406-B15-CE16800-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_JZ406-B15-CE16800-HW_20260313_120007.log
+------------------------------------------------------------------------
+[2026/3/13 12:00:09] Start tab: JZ406-B16-CE6865-1-HW detected prompt: <JZ406-B16-CE6865-1>
+[2026/3/13 12:00:10] JZ406-B16-CE6865-1-HW run command: display version
+[2026/3/13 12:00:10] JZ406-B16-CE6865-1-HW run command: display device
+[2026/3/13 12:00:10] JZ406-B16-CE6865-1-HW run command: display startup
+[2026/3/13 12:00:10] JZ406-B16-CE6865-1-HW run command: display cpu-usage
+[2026/3/13 12:00:10] JZ406-B16-CE6865-1-HW run command: display memory-usage
+[2026/3/13 12:00:10] JZ406-B16-CE6865-1-HW run command: display interface brief
+[2026/3/13 12:00:11] JZ406-B16-CE6865-1-HW run command: display ip interface brief
+[2026/3/13 12:00:11] JZ406-B16-CE6865-1-HW run command: display current-configuration
+[2026/3/13 12:00:11] JZ406-B16-CE6865-1-HW run command: display ip routing-table
+[2026/3/13 12:00:11] JZ406-B16-CE6865-1-HW run command: display logbuffer
+[2026/3/13 12:00:12] Tab finished: JZ406-B16-CE6865-1-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_JZ406-B16-CE6865-1-HW_20260313_120009.log
+------------------------------------------------------------------------
+[2026/3/13 12:00:12] Start tab: JZ406-B16-CE6865-2-HW detected prompt: <JZ406-B16-CE6865-2>
+[2026/3/13 12:00:12] JZ406-B16-CE6865-2-HW run command: display version
+[2026/3/13 12:00:12] JZ406-B16-CE6865-2-HW run command: display device
+[2026/3/13 12:00:13] JZ406-B16-CE6865-2-HW run command: display startup
+[2026/3/13 12:00:13] JZ406-B16-CE6865-2-HW run command: display cpu-usage
+[2026/3/13 12:00:13] JZ406-B16-CE6865-2-HW run command: display memory-usage
+[2026/3/13 12:00:13] JZ406-B16-CE6865-2-HW run command: display interface brief
+[2026/3/13 12:00:14] JZ406-B16-CE6865-2-HW run command: display ip interface brief
+[2026/3/13 12:00:14] JZ406-B16-CE6865-2-HW run command: display current-configuration
+[2026/3/13 12:00:14] JZ406-B16-CE6865-2-HW run command: display ip routing-table
+[2026/3/13 12:00:14] JZ406-B16-CE6865-2-HW run command: display logbuffer
+[2026/3/13 12:00:15] Tab finished: JZ406-B16-CE6865-2-HW, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_JZ406-B16-CE6865-2-HW_20260313_120012.log
+------------------------------------------------------------------------
+[2026/3/13 12:00:15] Start tab: LS-NMS-HJ-INSIDE-SW-01-H3C detected prompt: <LS-NMS-HJ-INSIDE-SW-01>
+[2026/3/13 12:00:15] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display version
+[2026/3/13 12:00:16] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display device
+[2026/3/13 12:00:16] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display startup
+[2026/3/13 12:00:16] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display cpu-usage
+[2026/3/13 12:00:16] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display memory-usage
+[2026/3/13 12:00:16] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display interface brief
+[2026/3/13 12:00:17] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display ip interface brief
+[2026/3/13 12:00:17] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display current-configuration
+[2026/3/13 12:00:19] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display ip routing-table
+[2026/3/13 12:00:23] LS-NMS-HJ-INSIDE-SW-01-H3C run command: display logbuffer
+[2026/3/13 12:00:24] Tab finished: LS-NMS-HJ-INSIDE-SW-01-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_LS-NMS-HJ-INSIDE-SW-01-H3C_20260313_120015.log
+------------------------------------------------------------------------
+[2026/3/13 12:00:24] Start tab: LS-NMS-HJ-INSIDE-SW-02-H3C detected prompt: <LS-NMS-HJ-INSIDE-SW-02>
+[2026/3/13 12:00:24] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display version
+[2026/3/13 12:00:24] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display device
+[2026/3/13 12:00:24] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display startup
+[2026/3/13 12:00:24] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display cpu-usage
+[2026/3/13 12:00:24] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display memory-usage
+[2026/3/13 12:00:24] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display interface brief
+[2026/3/13 12:00:25] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display ip interface brief
+[2026/3/13 12:00:25] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display current-configuration
+[2026/3/13 12:00:27] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display ip routing-table
+[2026/3/13 12:00:31] LS-NMS-HJ-INSIDE-SW-02-H3C run command: display logbuffer
+[2026/3/13 12:00:32] Tab finished: LS-NMS-HJ-INSIDE-SW-02-H3C, log: C:\Users\dukang\Desktop\VBS_跳板机专用\logs\2026-3-13\NM1\NM1_LS-NMS-HJ-INSIDE-SW-02-H3C_20260313_120024.log
+------------------------------------------------------------------------
+========================================================================
+NetMgmt-1 daily check finished: 2026/3/13 12:00:32

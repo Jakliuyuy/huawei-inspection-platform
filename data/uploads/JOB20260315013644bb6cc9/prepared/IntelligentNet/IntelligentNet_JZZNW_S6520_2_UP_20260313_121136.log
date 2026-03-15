@@ -1,0 +1,1172 @@
+﻿<jzznw_s6520_2_up>screen-length 0 temporary
+                                ^
+ % Unrecognized command found at '^' position.
+<jzznw_s6520_2_up>display version
+H3C Comware Software, Version 7.1.070, Release 6628P35
+Copyright (c) 2004-2023 New H3C Technologies Co., Ltd. All rights reserved.
+H3C S6520X-54QC-EI uptime is 140 weeks, 2 days, 10 hours, 12 minutes
+Last reboot reason : User reboot
+
+Boot image: flash:/s6520x-cmw710-boot-r6628p35.bin
+Boot image version: 7.1.070, Release 6628P35
+  Compiled Mar 24 2023 11:00:00
+System image: flash:/s6520x-cmw710-system-r6628p35.bin
+System image version: 7.1.070, Release 6628P35
+  Compiled Mar 24 2023 11:00:00
+Feature image(s) list:
+  flash:/s6520x-cmw710-freeradius-r6628p35.bin, version: 7.1.070, Release 6628P35
+    Compiled Mar 24 2023 11:00:00
+  flash:/s6520x-cmw710-escan-r6628p35.bin, version: 7.1.070, Release 6628P35
+    Compiled Mar 24 2023 11:00:00
+
+
+Slot 1:
+Uptime is 140 weeks,2 days,10 hours,12 minutes
+S6520X-54QC-EI with 2 Processors
+BOARD TYPE:         S6520X-54QC-EI
+DRAM:               2048M bytes
+FLASH:              1024M bytes
+PCB 1 Version:      VER.A
+Bootrom Version:    118
+CPLD 1 Version:     001
+CPLD 2 Version:     003
+Release Version:    H3C S6520X-54QC-EI-6628P35
+Patch Version  :    None
+Reboot Cause  :     UserReboot
+[SubSlot 0] 48SFP Plus + 2QSFP Plus
+[SubSlot 1] 4*SFP Plus
+<jzznw_s6520_2_up>display device
+Slot Type              State    Subslot  Soft Ver             Patch Ver
+1    S6520X-54QC-EI    Master   1        S6520X-6628P35       None      
+<jzznw_s6520_2_up>display startup
+MainBoard:
+ Current startup saved-configuration file: flash:/startup.cfg 
+ Next main startup saved-configuration file: flash:/startup.cfg
+ Next backup startup saved-configuration file: NULL
+<jzznw_s6520_2_up>display cpu-usage
+Slot 1 CPU 0 CPU usage:
+       6% in last 5 seconds
+       7% in last 1 minute
+       6% in last 5 minutes
+
+<jzznw_s6520_2_up>display memory-usage
+                          ^
+ % Unrecognized command found at '^' position.
+<jzznw_s6520_2_up>display memory
+Memory statistics are measured in KB:
+Slot 1: 
+             Total      Used      Free    Shared   Buffers    Cached   FreeRatio
+Mem:       2036132   1063504    972628         0      1448    258840       48.4%
+-/+ Buffers/Cache:    803216   1232916
+Swap:            0         0         0
+LowMem:    1520036    682700    837336        --        --        --       55.1%
+HighMem:    516096    380804    135292        --        --        --       26.2%
+
+<jzznw_s6520_2_up>display ip interface brief
+*down: administratively down
+(s): spoofing  (l): loopback
+Interface          Physical Protocol IP address/Mask    VPN instance Description
+Loop0              up       up(s)    192.168.1.205/32   --           --         
+MGE0/0/0           down     down     192.168.0.1/24     --           --         
+Vlan1              down     down     --                 --           --         
+Vlan4              up       up       10.233.121.205/25  --           --         
+<jzznw_s6520_2_up>display interface brief
+Brief information on interfaces in route mode:
+Link: ADM - administratively down; Stby - standby
+Protocol: (s) - spoofing
+Interface            Link Protocol Primary IP        Description              
+InLoop0              UP   UP(s)    --                
+Loop0                UP   UP(s)    192.168.1.205     
+MGE0/0/0             DOWN DOWN     192.168.0.1       
+NULL0                UP   UP(s)    --                
+REG0                 UP   --       --                
+Vlan1                DOWN DOWN     --                
+Vlan4                UP   UP       10.233.121.205    
+
+Brief information on interfaces in bridge mode:
+Link: ADM - administratively down; Stby - standby
+Speed: (a) - auto
+Duplex: (a)/A - auto; H - half; F - full
+Type: A - access; T - trunk; H - hybrid
+Interface            Link Speed     Duplex Type PVID Description              
+BAGG1                UP   2G(a)     F(a)   T    1    "Switch connected with ea
+FGE1/0/49            DOWN auto      A      A    1    
+FGE1/0/50            DOWN auto      A      A    1    
+XGE1/0/1             UP   1G(a)     F(a)   T    1    "ATAE-slot8-FABBIC-GE-LAN
+XGE1/0/2             UP   1G(a)     F(a)   A    4    "F02-USAU6600-SLOT3-LAN1"
+XGE1/0/3             UP   1G(a)     F(a)   A    4    "F02-USAU6600-SLOT4-LAN2"
+XGE1/0/4             UP   1G(a)     F(a)   A    4    "F02-USAU6600-SlOt5-LAN1"
+XGE1/0/5             UP   1G(a)     F(a)   A    4    "F02-USAU6600-SlOt6-LAN2"
+XGE1/0/6             ADM  auto      A      A    1    
+XGE1/0/7             ADM  auto      A      A    4    "F03-USP6600-SOLT3-LAN2"
+XGE1/0/8             ADM  auto      A      A    4    "F04-UAP6600--SLOT4-LAN2"
+XGE1/0/9             ADM  auto      A      A    4    "F04-UAP6600-SLOT5-LAN2"
+XGE1/0/10            ADM  auto      A      A    4    "F04-UAP6600-SLOT6-LAN2"
+XGE1/0/11            ADM  auto      A      A    4    
+XGE1/0/12            UP   1G(a)     F(a)   A    4    
+XGE1/0/13            DOWN auto      A      A    4    
+XGE1/0/14            ADM  auto      A      A    4    
+XGE1/0/15            ADM  auto      A      A    1    
+XGE1/0/16            ADM  auto      A      A    1    
+XGE1/0/17            ADM  auto      A      A    1    
+XGE1/0/18            DOWN auto      A      A    4    TO_NEWS3900_SMP21
+XGE1/0/19            UP   1G(a)     F(a)   A    4    "F02-USAU6600-SLOT1-OMU-B
+XGE1/0/20            DOWN auto      A      A    4    "S3900-1-A-lan0"
+XGE1/0/21            DOWN auto      A      A    4    "S3900-2-A-lan0"
+XGE1/0/22            DOWN auto      A      A    4    "S3900-3-A-lan0"
+XGE1/0/23            UP   1G(a)     F(a)   T    1    "to_jzznw_s3300_1_down_e0
+XGE1/0/24            UP   1G(a)     F(a)   T    1    "to_jzznw_s3300_1_down_e0
+XGE1/0/25            DOWN auto      A      A    1    
+XGE1/0/26            DOWN auto      A      A    1    
+XGE1/0/27            DOWN auto      A      A    1    
+XGE1/0/28            DOWN auto      A      A    1    
+XGE1/0/29            DOWN auto      A      A    1    
+XGE1/0/30            DOWN auto      A      A    1    
+XGE1/0/31            DOWN auto      A      A    1    
+XGE1/0/32            DOWN auto      A      A    1    
+XGE1/0/33            DOWN auto      A      A    1    
+XGE1/0/34            DOWN auto      A      A    1    
+XGE1/0/35            DOWN auto      A      A    1    
+XGE1/0/36            DOWN auto      A      A    1    
+XGE1/0/37            DOWN auto      A      A    1    
+XGE1/0/38            DOWN auto      A      A    1    
+XGE1/0/39            DOWN auto      A      A    1    
+XGE1/0/40            DOWN auto      A      A    1    
+XGE1/0/41            DOWN auto      A      A    1    
+XGE1/0/42            DOWN auto      A      A    1    
+XGE1/0/43            DOWN auto      A      A    1    
+XGE1/0/44            DOWN auto      A      A    1    
+XGE1/0/45            DOWN auto      A      A    1    
+XGE1/0/46            DOWN auto      A      A    1    
+XGE1/0/47            DOWN auto      A      A    1    
+XGE1/0/48            UP   1G        F      T    1    "to_liuwu_swith_left_GE0/
+XGE1/1/1             DOWN auto      A      A    1    
+XGE1/1/2             DOWN auto      A      A    1    
+XGE1/1/3             DOWN auto      A      A    1    
+XGE1/1/4             DOWN auto      A      A    1    
+
+<jzznw_s6520_2_up>display ip routing-table
+
+Destinations : 17       Routes : 17
+
+Destination/Mask   Proto   Pre Cost        NextHop         Interface
+0.0.0.0/32         Direct  0   0           127.0.0.1       InLoop0
+10.233.121.128/25  Direct  0   0           10.233.121.205  Vlan4
+10.233.121.128/32  Direct  0   0           10.233.121.205  Vlan4
+10.233.121.205/32  Direct  0   0           127.0.0.1       InLoop0
+10.233.121.255/32  Direct  0   0           10.233.121.205  Vlan4
+10.237.35.0/24     Static  60  0           10.233.121.213  Vlan4
+10.237.95.0/24     Static  60  0           10.233.121.213  Vlan4
+10.237.99.0/24     Static  60  0           10.233.121.213  Vlan4
+10.237.100.0/24    Static  60  0           10.233.121.213  Vlan4
+127.0.0.0/8        Direct  0   0           127.0.0.1       InLoop0
+127.0.0.0/32       Direct  0   0           127.0.0.1       InLoop0
+127.0.0.1/32       Direct  0   0           127.0.0.1       InLoop0
+127.255.255.255/32 Direct  0   0           127.0.0.1       InLoop0
+192.168.1.205/32   Direct  0   0           127.0.0.1       InLoop0
+224.0.0.0/4        Direct  0   0           0.0.0.0         NULL0
+224.0.0.0/24       Direct  0   0           0.0.0.0         NULL0
+255.255.255.255/32 Direct  0   0           127.0.0.1       InLoop0
+<jzznw_s6520_2_up>display logbuffer
+Log buffer: Enabled
+Max buffer size: 1024
+Actual buffer size: 512
+Dropped messages: 0
+Overwritten messages: 402094
+Current messages: 512
+%Mar 13 06:03:00:660 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:07:55:866 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:07:58:649 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:08:00:898 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:08:03:649 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:32:56:114 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:32:58:608 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:32:58:859 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:33:01:589 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:37:56:858 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:37:59:584 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:38:01:836 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 06:38:04:578 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:02:57:158 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:02:59:520 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:02:59:778 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:03:02:519 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:07:57:842 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:08:00:508 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:08:00:761 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:08:03:508 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:32:58:164 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:33:00:467 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:33:00:720 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:33:03:449 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:37:58:971 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:38:01:436 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:38:01:690 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 07:38:04:436 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:02:58:132 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:03:00:378 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:03:00:642 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:03:03:380 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:07:58:971 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:08:01:366 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:08:01:623 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:08:04:366 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:32:59:204 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:33:01:307 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:33:01:565 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:33:04:307 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:37:59:992 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:38:02:295 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:38:02:550 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 08:38:05:295 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:03:00:225 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:03:02:237 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:03:02:498 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:03:05:236 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:08:00:983 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:08:03:226 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:08:03:485 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:08:06:224 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:33:01:247 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:33:04:165 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:33:06:422 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:33:09:166 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:38:02:024 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:38:04:153 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:38:04:421 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 09:38:07:153 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:03:02:285 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:03:05:111 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:03:07:361 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:03:10:094 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:08:02:946 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:08:05:083 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:08:05:345 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:08:08:088 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:33:03:264 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:33:06:031 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:33:08:300 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:33:11:023 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:38:04:076 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 10:38:07:038 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:03:04:356 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:03:06:954 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:03:07:222 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:03:09:953 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:08:04:088 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:08:06:942 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:08:09:221 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:08:11:941 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:33:05:335 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:33:07:883 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:33:08:147 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:33:10:882 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:38:04:111 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:38:06:871 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:38:09:156 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 11:38:11:870 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:03:06:300 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:03:08:813 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:03:09:076 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:03:11:811 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:08:04:095 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:08:06:801 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:08:09:081 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:08:11:800 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:33:06:370 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:33:08:742 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:33:09:010 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:33:11:742 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:38:07:171 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:38:09:732 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:38:09:996 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 12:38:12:730 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:03:07:366 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:03:09:671 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:03:09:938 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:03:12:671 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:08:08:202 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:08:10:660 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:08:10:926 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:08:13:659 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:33:08:402 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:33:10:602 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:33:10:875 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:33:13:635 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:33:13:873 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:33:16:601 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:38:09:245 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:38:11:589 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:38:11:856 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 13:38:14:589 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:03:09:459 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:03:11:564 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:03:11:802 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:03:14:530 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:08:10:144 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:08:12:563 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:08:12:804 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:08:15:518 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:23:27:448 2026 jzznw_s6520_2_up SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 57997 passed password authentication.
+%Mar 13 14:23:27:560 2026 jzznw_s6520_2_up SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 13 14:23:27:981 2026 jzznw_s6520_2_up SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 13 14:23:47:133 2026 jzznw_s6520_2_up SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 13 14:23:47:160 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 13 14:23:47:273 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 13 14:23:47:326 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 13 14:23:47:402 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 13 14:23:47:475 2026 jzznw_s6520_2_up SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 13 14:24:04:454 2026 jzznw_s6520_2_up SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 13 14:24:04:481 2026 jzznw_s6520_2_up SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 57997.
+%Mar 13 14:24:04:481 2026 jzznw_s6520_2_up SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 13 14:24:13:843 2026 jzznw_s6520_2_up SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 58166 passed password authentication.
+%Mar 13 14:24:13:922 2026 jzznw_s6520_2_up SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 13 14:24:14:186 2026 jzznw_s6520_2_up SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 13 14:24:25:767 2026 jzznw_s6520_2_up SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 13 14:24:25:780 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 13 14:24:25:890 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 13 14:24:25:953 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 13 14:24:25:998 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 13 14:24:26:088 2026 jzznw_s6520_2_up SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 13 14:24:26:102 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 13 14:24:26:167 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 13 14:24:26:240 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 13 14:24:26:490 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+%Mar 13 14:24:26:574 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display logbuffer
+%Mar 13 14:24:27:227 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display current-configuration
+%Mar 13 14:28:49:784 2026 jzznw_s6520_2_up SHELL/5/SHELL_LOGOUT: xz4a_admin logged out from 10.237.35.254.
+%Mar 13 14:28:49:811 2026 jzznw_s6520_2_up SSHS/6/SSHS_LOG: User xz4a_admin logged out from 10.237.35.254 port 58166.
+%Mar 13 14:28:49:811 2026 jzznw_s6520_2_up SSHS/6/SSHS_DISCONNECT: SSH user xz4a_admin (IP: 10.237.35.254) disconnected from the server.
+%Mar 13 14:33:10:461 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:33:12:462 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:33:12:751 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:33:15:461 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:33:15:742 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:33:18:460 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:38:10:266 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:38:12:508 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:38:12:718 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 14:38:15:448 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:03:11:502 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:03:14:391 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:03:16:678 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:03:19:390 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:08:10:247 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:08:12:379 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:08:12:651 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:08:15:378 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:33:12:568 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:33:15:320 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:33:15:334 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:33:18:320 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:38:10:277 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:38:12:313 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:38:12:584 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 15:38:15:308 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:03:13:515 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:03:16:270 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:03:18:528 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:03:21:249 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:08:10:324 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:08:13:249 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:08:15:513 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:08:18:238 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:33:13:589 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:33:16:179 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:33:16:472 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:33:19:188 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:38:11:300 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:38:14:183 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:38:16:442 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 16:38:19:168 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:03:14:534 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:03:17:110 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:03:17:389 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:03:20:109 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:08:12:315 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:08:15:099 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:08:15:117 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:08:18:098 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:33:15:563 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:33:18:039 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:33:18:316 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:33:21:038 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:38:12:409 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:38:15:029 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:38:15:306 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 17:38:18:027 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:03:15:568 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:03:17:969 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:03:18:253 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:03:20:969 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:08:12:399 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:08:14:959 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:08:15:236 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:08:17:957 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:33:16:544 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:33:18:899 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:33:19:195 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:33:21:899 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:38:12:416 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:38:14:894 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:38:15:170 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 18:38:17:888 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:03:17:672 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:03:19:829 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:03:20:118 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:03:22:828 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:08:13:517 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:08:15:819 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:08:16:106 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:08:18:817 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:33:18:562 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:33:20:760 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:33:21:053 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:33:23:758 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:38:13:507 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:38:15:757 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:38:16:029 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 19:38:18:747 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:03:19:661 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:03:21:689 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:03:21:975 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:03:24:688 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:08:13:557 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:08:15:678 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:08:15:960 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:08:18:677 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:33:19:671 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:33:21:618 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:33:21:929 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:33:24:669 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:38:13:521 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:38:15:607 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:38:15:906 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 20:38:18:605 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:03:20:669 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:03:23:547 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:03:23:593 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:03:26:548 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:08:13:575 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:08:16:536 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:33:21:660 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:33:24:477 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:33:24:514 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:33:27:476 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:38:13:580 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:38:16:465 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:38:16:536 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 21:38:19:465 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:03:22:724 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:03:25:406 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:03:25:428 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:03:28:406 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:08:13:638 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:08:16:395 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:08:16:527 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:08:19:395 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:33:23:728 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:33:26:336 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:33:26:629 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:33:29:336 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:38:13:715 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:38:16:358 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:38:16:386 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 22:38:19:325 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:03:24:792 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:03:27:266 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:03:27:568 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:03:30:269 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:08:24:610 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:08:27:254 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:08:27:557 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:08:30:254 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:33:24:764 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:33:27:196 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:33:27:496 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:33:30:196 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:38:24:708 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:38:27:184 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:38:27:484 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 13 23:38:30:184 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:03:25:780 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:03:28:126 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:03:28:422 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:03:31:126 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:08:25:688 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:08:28:114 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:08:28:417 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:08:31:115 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:33:26:848 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:33:29:056 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:33:29:354 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:33:32:056 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:38:25:661 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:38:28:044 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:38:28:341 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 00:38:31:044 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:03:27:859 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:03:29:985 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:03:30:291 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:03:32:985 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:08:25:679 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:08:27:974 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:08:28:290 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:08:30:974 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:33:28:868 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:33:30:916 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:33:31:216 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:33:33:915 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:38:25:784 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:38:27:907 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:38:28:204 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 01:38:30:905 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:03:29:907 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:03:32:847 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:08:25:818 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:08:27:834 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:08:28:137 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:08:30:834 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:33:29:859 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:33:32:775 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:38:25:841 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:38:27:764 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:38:28:075 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 02:38:30:764 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:03:30:948 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:03:33:705 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:03:33:741 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:03:36:705 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:08:25:802 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:08:28:694 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:08:28:805 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:08:31:693 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:33:31:867 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:33:34:635 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:33:34:674 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:33:37:635 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:38:25:940 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:38:28:624 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:38:28:729 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 03:38:31:623 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:03:33:001 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:03:35:566 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:03:35:608 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:03:38:565 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:08:32:818 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:08:35:554 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:08:35:605 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:08:38:554 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:33:33:935 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:33:36:506 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:33:36:808 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:33:39:495 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:38:32:808 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:38:35:483 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:38:35:798 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 04:38:38:483 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:03:34:016 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:03:36:424 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:03:36:739 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:03:39:424 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:08:32:952 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:08:35:413 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:08:35:725 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:08:38:412 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:33:35:056 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:33:37:354 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:33:37:667 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:33:40:355 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:38:32:932 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:38:35:343 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:38:35:661 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 05:38:38:343 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:03:36:068 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:03:38:284 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:03:38:598 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:03:41:284 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:08:33:967 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:08:36:272 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:08:36:586 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:08:39:272 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:33:37:057 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:33:39:213 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:33:39:536 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:33:42:225 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:38:37:018 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:38:39:202 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:38:39:522 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 06:38:42:202 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:03:38:093 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:03:40:190 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:03:40:459 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:03:43:144 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:08:39:004 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:08:41:132 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:08:41:446 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:08:44:131 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:33:38:187 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:33:41:073 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:38:38:954 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:38:41:061 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:38:41:386 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 07:38:44:062 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:03:39:045 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:03:42:003 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:08:38:991 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:08:40:991 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:08:41:309 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:08:43:991 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:33:40:067 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:33:42:933 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:33:42:995 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:33:45:933 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:38:39:077 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:38:41:921 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:38:41:976 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 08:38:44:921 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:03:41:065 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:03:43:862 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:03:43:974 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:03:46:862 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:08:42:094 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:08:44:851 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:08:44:947 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:08:47:851 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:33:42:111 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:33:44:792 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:33:44:922 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:33:47:791 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:38:42:108 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:38:44:781 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:38:44:948 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 09:38:47:780 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:03:43:159 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:03:45:721 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:03:46:044 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:03:48:721 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:08:42:164 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:08:44:711 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:08:45:035 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:08:47:710 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:33:43:188 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:33:45:651 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:33:45:982 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:33:48:657 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:38:44:157 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:38:46:639 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:38:46:994 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 10:38:49:640 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:03:44:166 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:03:46:580 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:03:46:913 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:03:49:582 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:08:45:254 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:08:47:570 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:08:47:899 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:08:50:569 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:33:45:151 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:33:47:511 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:33:47:837 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:33:50:511 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:38:46:253 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:38:48:501 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:38:48:823 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:38:51:498 2026 jzznw_s6520_2_up STP/6/STP_NOTIFIED_TC: Instance 0's port Ten-GigabitEthernet1/0/48 was notified a topology change.
+%Mar 14 11:48:15:361 2026 jzznw_s6520_2_up SSHS/6/SSHS_AUTH_SUCCESS: SSH user xz4a_admin from 10.237.35.254 port 51128 passed password authentication.
+%Mar 14 11:48:15:485 2026 jzznw_s6520_2_up SSHS/6/SSHS_CONNECT: SSH user xz4a_admin (IP: 10.237.35.254) connected to the server successfully.
+%Mar 14 11:48:15:693 2026 jzznw_s6520_2_up SHELL/5/SHELL_LOGIN: xz4a_admin logged in from 10.237.35.254.
+%Mar 14 11:48:32:344 2026 jzznw_s6520_2_up SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command screen-length 0 temporary in view shell failed to be matched.
+%Mar 14 11:48:32:359 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display version
+%Mar 14 11:48:32:479 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display device
+%Mar 14 11:48:32:520 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display startup
+%Mar 14 11:48:32:633 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display cpu-usage
+%Mar 14 11:48:32:739 2026 jzznw_s6520_2_up SHELL/4/SHELL_CMD_MATCHFAIL: -User=xz4a_admin-IPAddr=10.237.35.254; Command display memory-usage in view shell failed to be matched.
+%Mar 14 11:48:32:757 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display memory
+%Mar 14 11:48:32:928 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip interface brief
+%Mar 14 11:48:32:999 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display interface brief
+%Mar 14 11:48:33:237 2026 jzznw_s6520_2_up SHELL/6/SHELL_CMD: -Line=vty0-IPAddr=10.237.35.254-User=xz4a_admin; Command is display ip routing-table
+<jzznw_s6520_2_up>display current-configuration
+#
+ version 7.1.070, Release 6628P35
+#
+ sysname jzznw_s6520_2_up
+#
+ clock timezone BJ add 08:00:00
+ clock protocol none
+#
+ telnet server enable
+#
+ irf mac-address persistent timer
+ irf auto-update enable
+ undo irf link-delay
+ irf member 1 priority 1
+#
+ lldp global enable
+#
+ password-recovery enable
+#
+vlan 1
+#
+vlan 4
+#
+traffic classifier dd operator and
+#
+traffic behavior dd
+#
+qos policy 3666
+#
+qos policy dd
+#
+ stp bpdu-protection
+ stp tc-protection threshold 1
+ stp global enable
+#
+interface Bridge-Aggregation1
+ description "Switch connected with each other"
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 3 to 4
+ stp instance 0 cost 1000
+#
+interface NULL0
+#
+interface LoopBack0
+ ip address 192.168.1.205 255.255.255.255
+#
+interface Vlan-interface1
+ ip address dhcp-alloc
+ dhcp client identifier ascii 7c7a3c5df7f0-VLAN0001
+#
+interface Vlan-interface4
+ ip address 10.233.121.205 255.255.255.128
+#
+interface FortyGigE1/0/49
+ port link-mode bridge
+#
+interface FortyGigE1/0/50
+ port link-mode bridge
+#
+interface M-GigabitEthernet0/0/0
+ ip address 192.168.0.1 255.255.255.0
+#
+interface Ten-GigabitEthernet1/0/1
+ port link-mode bridge
+ description "ATAE-slot8-FABBIC-GE-LAN0"
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 4
+#
+interface Ten-GigabitEthernet1/0/2
+ port link-mode bridge
+ description "F02-USAU6600-SLOT3-LAN1"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/3
+ port link-mode bridge
+ description "F02-USAU6600-SLOT4-LAN2"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/4
+ port link-mode bridge
+ description "F02-USAU6600-SlOt5-LAN1"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/5
+ port link-mode bridge
+ description "F02-USAU6600-SlOt6-LAN2"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/6
+ port link-mode bridge
+ shutdown
+ packet-filter 3666 inbound
+#
+interface Ten-GigabitEthernet1/0/7
+ port link-mode bridge
+ description "F03-USP6600-SOLT3-LAN2"
+ port access vlan 4
+ shutdown
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/8
+ port link-mode bridge
+ description "F04-UAP6600--SLOT4-LAN2"
+ port access vlan 4
+ shutdown
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/9
+ port link-mode bridge
+ description "F04-UAP6600-SLOT5-LAN2"
+ port access vlan 4
+ shutdown
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/10
+ port link-mode bridge
+ description "F04-UAP6600-SLOT6-LAN2"
+ port access vlan 4
+ shutdown
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/11
+ port link-mode bridge
+ port access vlan 4
+ shutdown
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/12
+ port link-mode bridge
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/13
+ port link-mode bridge
+ port access vlan 4
+#
+interface Ten-GigabitEthernet1/0/14
+ port link-mode bridge
+ port access vlan 4
+ shutdown
+#
+interface Ten-GigabitEthernet1/0/15
+ port link-mode bridge
+ shutdown
+#
+interface Ten-GigabitEthernet1/0/16
+ port link-mode bridge
+ shutdown
+#
+interface Ten-GigabitEthernet1/0/17
+ port link-mode bridge
+ shutdown
+#
+interface Ten-GigabitEthernet1/0/18
+ port link-mode bridge
+ description TO_NEWS3900_SMP21
+ port access vlan 4
+#
+interface Ten-GigabitEthernet1/0/19
+ port link-mode bridge
+ description "F02-USAU6600-SLOT1-OMU-BASE1"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/20
+ port link-mode bridge
+ description "S3900-1-A-lan0"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/21
+ port link-mode bridge
+ description "S3900-2-A-lan0"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/22
+ port link-mode bridge
+ description "S3900-3-A-lan0"
+ port access vlan 4
+ stp edged-port
+#
+interface Ten-GigabitEthernet1/0/23
+ port link-mode bridge
+ description "to_jzznw_s3300_1_down_e0/0/23"
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 3 to 4
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/24
+ port link-mode bridge
+ description "to_jzznw_s3300_1_down_e0/0/24"
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 3 to 4
+ port link-aggregation group 1
+#
+interface Ten-GigabitEthernet1/0/25
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/26
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/27
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/28
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/29
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/30
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/31
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/32
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/33
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/34
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/35
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/36
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/37
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/38
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/39
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/40
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/41
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/42
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/43
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/44
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/45
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/46
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/47
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/0/48
+ port link-mode bridge
+ description "to_liuwu_swith_left_GE0/0/1"
+ port link-type trunk
+ undo port trunk permit vlan 1
+ port trunk permit vlan 3 to 4
+ speed 1000 
+ duplex full
+ stp loop-protection
+#
+interface Ten-GigabitEthernet1/1/1
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/1/2
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/1/3
+ port link-mode bridge
+#
+interface Ten-GigabitEthernet1/1/4
+ port link-mode bridge
+#
+route-policy dd permit node 0
+#
+ scheduler logfile size 16
+#
+line class aux
+ user-role network-admin
+#
+line class usb
+ user-role network-admin
+#
+line class vty
+ user-role network-operator
+#
+line aux 0
+ user-role network-admin
+#
+line vty 0 4
+ authentication-mode scheme
+ user-role level-15
+ user-role network-operator
+ idle-timeout 11 0
+ screen-length 0
+#
+line vty 5 63
+ user-role network-operator
+#
+ ip route-static 10.237.35.0 24 10.233.121.213
+ ip route-static 10.237.95.0 24 10.233.121.213
+ ip route-static 10.237.99.0 24 10.233.121.213
+ ip route-static 10.237.100.0 24 10.233.121.213
+#
+ info-center loghost 10.237.35.249 facility local4
+ info-center loghost 10.237.99.80
+#
+ snmp-agent
+ snmp-agent local-engineid 800063A2807C7A3C5DF7F400000001
+ snmp-agent community read LCjcGPRS
+ snmp-agent community read XZYD_smjk-2018 acl 2000
+ snmp-agent sys-info version v2c v3 
+ snmp-agent target-host trap address udp-domain 10.237.95.23 params securityname LCjcGPRS v2c
+ snmp-agent trap enable arp 
+ snmp-agent trap enable radius 
+ snmp-agent trap enable stp 
+ snmp-agent trap enable syslog 
+#
+ ssh server enable
+ ssh user cszdxj service-type stelnet authentication-type password
+ ssh user dinghaibo service-type stelnet authentication-type password
+ ssh user jtcjxz service-type stelnet authentication-type password
+ ssh user xz4a_admin service-type stelnet authentication-type password
+ ssh user xzyd_zhuoma service-type stelnet authentication-type password
+ ssh server acl 2000
+#
+ ssh2 algorithm cipher aes128-ctr aes256-ctr
+#
+ ntp-service authentication enable
+ ntp-service unicast-server 10.237.35.249
+#
+acl basic 2000
+ rule 5 permit source 10.237.35.0 0.0.0.255
+ rule 10 permit source 10.237.99.0 0.0.0.255
+ rule 15 permit source 10.237.100.0 0.0.0.255
+ rule 20 permit source 10.233.121.206 0
+#
+acl basic 2666
+#
+acl advanced 3000
+ rule 0 deny udp destination-port eq tftp
+ rule 1 deny tcp destination-port eq 445
+ rule 2 deny udp destination-port eq 445
+ rule 3 deny tcp destination-port eq 539
+ rule 4 deny udp destination-port eq 539
+ rule 5 deny udp destination-port eq 593
+ rule 6 deny tcp destination-port eq 593
+ rule 7 deny udp destination-port eq 1434
+ rule 8 deny tcp destination-port eq 4444
+ rule 9 deny tcp destination-port eq 9996
+ rule 10 deny tcp destination-port eq 5554
+ rule 11 deny udp destination-port eq 9996
+ rule 12 deny udp destination-port eq 5554
+ rule 13 deny tcp destination-port eq 137
+ rule 14 deny tcp destination-port eq 1025
+ rule 15 deny udp destination-port eq 1025
+ rule 16 deny tcp destination-port eq 9995
+ rule 17 deny udp destination-port eq 9995
+ rule 18 deny tcp destination-port eq 1068
+ rule 19 deny udp destination-port eq 1068
+ rule 20 deny tcp destination-port eq 1023
+ rule 21 deny udp destination-port eq 1023
+ rule 22 deny tcp destination-port eq 135
+ rule 23 deny udp destination-port eq 135
+ rule 24 deny tcp destination-port eq 69
+ rule 25 deny tcp destination-port eq 139
+ rule 26 deny udp destination-port eq netbios-ssn
+ rule 27 deny udp destination-port eq netbios-ns
+ rule 28 deny udp destination-port eq netbios-dgm
+#
+acl advanced 3666
+ rule 10 permit tcp source 1.1.1.1 0 destination 2.2.2.2 0 source-port eq ftp-data destination-port eq 30
+#
+ super password role level-15 hash $h$6$GhmOK/lmyCY+zjfX$CyXwNOv/xfDpk1350K0z7ioWf/tNJJhI4lWjV/XinIRfJqfDKbuXrgB/LDtxt3rjfvFdjHk27inyOhAxROyu9A==
+#
+radius scheme system
+ user-name-format without-domain
+#
+domain system
+#
+ domain default enable system
+#
+role name level-0
+ description Predefined level-0 role
+#
+role name level-1
+ description Predefined level-1 role
+#
+role name level-2
+ description Predefined level-2 role
+#
+role name level-3
+ description Predefined level-3 role
+#
+role name level-4
+ description Predefined level-4 role
+#
+role name level-5
+ description Predefined level-5 role
+#
+role name level-6
+ description Predefined level-6 role
+#
+role name level-7
+ description Predefined level-7 role
+#
+role name level-8
+ description Predefined level-8 role
+#
+role name level-9
+ description Predefined level-9 role
+#
+role name level-10
+ description Predefined level-10 role
+#
+role name level-11
+ description Predefined level-11 role
+#
+role name level-12
+ description Predefined level-12 role
+#
+role name level-13
+ description Predefined level-13 role
+#
+role name level-14
+ description Predefined level-14 role
+#
+user-group system
+#
+local-user cszdxj class manage
+ password hash $h$6$a8/jtVVK54L/jAMq$C7C5gX+VTeMEJ6FLl1pFw0WtCwIwG2d8p+9rqYpGvXDUPyw4OnOksNpYlPV4MUPOKFNw2xmQ5FdrPq0bC18Yug==
+ service-type telnet ssh
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user dinghaibo class manage
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user jtcjxz class manage
+ password hash $h$6$NuIn9y+pn8XLjawZ$5j6j/HVBEkLlc/zomeeFb0q1G5XBDpJ+GLZdXxfkNsYSVx9ufWQCz0E0vY4ZmjDpD/2CUr51I8kBxZmI7PVC2g==
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-1
+ authorization-attribute user-role network-operator
+#
+local-user xz4a_admin class manage
+ password hash $h$6$cYKa916NHpls1aO6$fitSmNOgnZ77nDLekGXhOEVNzW8BCmzNJQn7K7sn1aCNLlRmig77fZZiDU/4LfBucPbmhcaIyucKisxP/CNMmQ==
+ service-type telnet ssh
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+local-user xzyd_zhuoma class manage
+ password hash $h$6$5CH5XhYe38TxY73M$vUzOh4is9PmlR14WB1NJweq8gJ16CyJ5xipHQIqo2dsC1hu5E+OZXlsrBaFWGFrst2YiNqhnCiZhROnWN4tlvw==
+ service-type telnet ssh terminal
+ authorization-attribute user-role level-15
+ authorization-attribute user-role network-operator
+#
+ security-enhanced level 1
+#
+return

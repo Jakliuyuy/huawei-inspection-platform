@@ -1,0 +1,1460 @@
+﻿<LSLWSN_RN01_BG02-HWNE40E>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<LSLWSN_RN01_BG02-HWNE40E>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.210 (NE40E V800R011C10SPC900)
+Copyright (C) 2012-2021 Huawei Technologies Co., Ltd.
+HUAWEI NE40E-X16A uptime is 1337 days, 17 hours, 15 minutes 
+Patch Version: V800R011SPH075
+
+NE40E-X16A version information:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BKP  version information:
+  PCB         Version : CR56BKP16G REV B
+  MPU  Slot  Quantity : 2
+  SRU  Slot  Quantity : 0
+  SFU  Slot  Quantity : 4
+  LPU  Slot  Quantity : 16
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+MPU version information:
+
+MPU (Master) 17 : uptime is 1337 days, 17 hours, 14 minutes
+  StartupTime 2022/07/14   18:46:31
+  SDRAM Memory Size   : 32768 M bytes
+  FLASH Memory Size   : 64 M bytes
+  CFCARD Memory Size  : 7681 M bytes
+  MPU CR5D0MPUB870 version information
+  PCB         Version : CR57RPUG REV A
+  EPLD        Version : 107
+  EPLD2       Version : 107
+  FPGA        Version : 105
+  FPGA2       Version : 105
+  MADD version information
+  PCB         Version : CR57MADD REV B
+  FPGA        Version : 112
+  BootROM     Version : 04.74
+  MonitorBUS version information:
+  Software    Version : 38.8
+
+MPU (Slave) 18 : uptime is 1337 days, 17 hours, 11 minutes
+  StartupTime 2022/07/14   18:49:15
+  SDRAM Memory Size   : 32768 M bytes
+  FLASH Memory Size   : 64 M bytes
+  CFCARD Memory Size  : 7681 M bytes
+  MPU CR5D0MPUB870 version information
+  PCB         Version : CR57RPUG REV A
+  EPLD        Version : 107
+  EPLD2       Version : 107
+  FPGA        Version : 105
+  FPGA2       Version : 105
+  MADD version information
+  PCB         Version : CR57MADD REV B
+  FPGA        Version : 112
+  BootROM     Version : 04.74
+  MonitorBUS version information:
+  Software    Version : 38.8
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+LPU/SPU version information:
+
+LPU 1 : uptime is 1337 days, 17 hours, 12 minutes
+  StartupTime 2022/07/14   18:48:03
+  Host processor :
+  SDRAM Memory Size   : 16384 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5D0E2NBA71 version information:
+  PCB Version         : CR57LPU200X REV A
+  EPLD Version        : 107
+  FPGA Version        : 105
+  FPGA2 Version       : 105
+  NP Version          : 100
+  TM Version          : 100
+  BootROM Version     : 03.42
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR57E4NBC1 version information
+  StartupTime         : 2022/07/14    18:48:34
+  PCB Version         : CR57E4NBC REV A
+  FPGA Version        : 106
+  FPGA2 Version       : 106
+  CHIP Version        : 100
+  CHIP2 Version       : 100
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 2 : uptime is 1337 days, 17 hours, 12 minutes
+  StartupTime 2022/07/14   18:48:05
+  Host processor :
+  SDRAM Memory Size   : 16384 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5D0EEXFA71 version information:
+  PCB Version         : CR57LPU240X REV A
+  EPLD Version        : 107
+  FPGA Version        : 105
+  FPGA2 Version       : 105
+  NP Version          : 100
+  TM Version          : 100
+  BootROM Version     : 03.42
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR57LFXFF1 version information
+  StartupTime         : 2022/07/14    18:48:45
+  PCB Version         : CR57LFXFF REV A
+  FPGA Version        : 106
+  FPGA2 Version       : 106
+  CHIP Version        : 100
+  CHIP2 Version       : 100
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 8 : uptime is 1337 days, 17 hours, 12 minutes
+  StartupTime 2022/07/14   18:48:05
+  Host processor :
+  SDRAM Memory Size   : 16384 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5D0E2NBA71 version information:
+  PCB Version         : CR57LPU200X REV A
+  EPLD Version        : 107
+  FPGA Version        : 105
+  FPGA2 Version       : 105
+  NP Version          : 100
+  TM Version          : 100
+  BootROM Version     : 03.42
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR57E4NBC1 version information
+  StartupTime         : 2022/07/14    18:48:42
+  PCB Version         : CR57E4NBC REV A
+  FPGA Version        : 106
+  FPGA2 Version       : 106
+  CHIP Version        : 100
+  CHIP2 Version       : 100
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+
+LPU 9 : uptime is 1337 days, 17 hours, 12 minutes
+  StartupTime 2022/07/14   18:48:04
+  Host processor :
+  SDRAM Memory Size   : 16384 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5D0EEXFA71 version information:
+  PCB Version         : CR57LPU240X REV A
+  EPLD Version        : 107
+  FPGA Version        : 105
+  FPGA2 Version       : 105
+  NP Version          : 100
+  TM Version          : 100
+  BootROM Version     : 03.42
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR57LFXFF1 version information
+  StartupTime         : 2022/07/14    18:48:46
+  PCB Version         : CR57LFXFF REV A
+  FPGA Version        : 106
+  FPGA2 Version       : 106
+  CHIP Version        : 100
+  CHIP2 Version       : 100
+  MonitorBUS version information:
+  Software Version : 40.21
+  Configure license items:
+  NULL
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+SFU version information:
+
+SFU 19 : uptime is 1337 days, 17 hours, 13 minutes
+  StartupTime 2022/07/14   18:47:14
+  SDRAM Memory Size   : 2048 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIT071 version information:
+  PCB         Version : CR57SFU1TXE REV C
+  EPLD        Version : 013
+  BootROM     Version : 01.57
+  MonitorBUS version information:
+  Software Version : 40.21
+
+SFU 20 : uptime is 1337 days, 17 hours, 13 minutes
+  StartupTime 2022/07/14   18:47:15
+  SDRAM Memory Size   : 2048 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIT071 version information:
+  PCB         Version : CR57SFU1TXE REV C
+  EPLD        Version : 013
+  BootROM     Version : 01.57
+  MonitorBUS version information:
+  Software Version : 40.21
+
+SFU 21 : uptime is 1337 days, 17 hours, 13 minutes
+  StartupTime 2022/07/14   18:47:15
+  SDRAM Memory Size   : 2048 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIT071 version information:
+  PCB         Version : CR57SFU1TXE REV C
+  EPLD        Version : 013
+  BootROM     Version : 01.57
+  MonitorBUS version information:
+  Software Version : 40.21
+
+SFU 22 : uptime is 1337 days, 17 hours, 13 minutes
+  StartupTime 2022/07/14   18:47:16
+  SDRAM Memory Size   : 2048 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIT071 version information:
+  PCB         Version : CR57SFU1TXE REV C
+  EPLD        Version : 013
+  BootROM     Version : 01.57
+  MonitorBUS version information:
+  Software Version : 40.21
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CLK version information:
+
+CLK 23 : uptime is 1337 days, 17 hours, 14 minutes
+  StartupTime 2022/07/14   18:46:31
+  FPGA     Version : 165
+  DSP      Version : 17110008
+
+CLK 24 : uptime is 1337 days, 17 hours, 11 minutes
+  StartupTime 2022/07/14   18:49:15
+  FPGA     Version : 165
+  DSP      Version : 17110008
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Power version information: 
+
+POWER 25 MonitorBUS version information:
+  PM 1 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 2 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 3 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 4 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 5 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 6 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 7 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 8 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 9 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+  PM 12 version information:
+  PCB      Version : PDC-2200WC REV B
+  Software Version : 3.24
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+FAN version information: 
+
+FAN 27 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 5.12
+
+FAN 28 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 5.12
+
+FAN 29 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 5.12
+
+FAN 30 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 5.12
+
+FAN 31 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 5.12
+
+FAN 32 MonitorBUS version information:
+  PCB      Version : CR56FCBJ REV D
+  Software Version : 5.12
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+PMU version information: 
+
+PMU 33 MonitorBUS version information:
+  PCB      Version : CR56PMUB REV C
+  Software Version : 31.3
+
+PMU 34 MonitorBUS version information:
+  PCB      Version : CR56PMUB REV C
+  Software Version : 31.3
+
+<LSLWSN_RN01_BG02-HWNE40E>display device
+NE40E-X16A's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        LPU     Present    Registered   Normal     LC     0      NA           
+2        LPU     Present    Registered   Normal     LC     0      NA           
+8        LPU     Present    Registered   Normal     LC     0      NA           
+9        LPU     Present    Registered   Normal     LC     0      NA           
+17       MPU     Present    Registered   Normal     MMB    0      Master       
+18       MPU     Present    Registered   Normal     MMB    0      Slave        
+19       SFU     Present    Registered   Normal     OTHER  0      NA           
+20       SFU     Present    Registered   Normal     OTHER  0      NA           
+21       SFU     Present    Registered   Normal     OTHER  0      NA           
+22       SFU     Present    Registered   Normal     OTHER  0      NA           
+23       CLK     Present    Registered   Normal     OTHER  0      Master       
+24       CLK     Present    Registered   Normal     OTHER  0      Slave        
+25       PWR     Present    Registered   Abnormal   OTHER  0      NA           
+27       FAN     Present    Registered   Normal     OTHER  0      NA           
+28       FAN     Present    Registered   Normal     OTHER  0      NA           
+29       FAN     Present    Registered   Normal     OTHER  0      NA           
+30       FAN     Present    Registered   Normal     OTHER  0      NA           
+31       FAN     Present    Registered   Normal     OTHER  0      NA           
+32       FAN     Present    Registered   Normal     OTHER  0      NA           
+33       PMU     Present    Registered   Normal     OTHER  0      Slave        
+34       PMU     Present    Registered   Normal     OTHER  0      Master       
+-------------------------------------------------------------------------------
+<LSLWSN_RN01_BG02-HWNE40E>display alarm active
+1:Critical  2:Major  3:Minor  4:Warning
+--------------------------------------------------------------------------------
+Sequence   AlarmId    Level Date Time  Description                              
+--------------------------------------------------------------------------------
+664212     0xF102CE   2     2024-08-21 The BFD session went Down. (Index=16387, 
+                             00:15:47  SessName=dyn_16387, LocalDiscriminator=16
+                                       387, Diagnosis=1, BindIfName=Eth-Trunk3.2
+                                       954, Description=, FeNodeID=2164391936, P
+                                       eerIp=FE80::6E14:6EFF:FEC9:3CF3, LinkType
+                                       =D_IP_IF, BindVpnName=ChinaMobile_Gn, Tun
+                                       nelName=-, DownReason=DetectDown)        
+664204     0xF102CE   2     2024-08-21 The BFD session went Down. (Index=16389, 
+                             00:10:39  SessName=dyn_16389, LocalDiscriminator=16
+                                       389, Diagnosis=1, BindIfName=Eth-Trunk4.2
+                                       954, Description=, FeNodeID=2164391936, P
+                                       eerIp=FE80::6E14:6EFF:FEC9:3D0A, LinkType
+                                       =D_IP_IF, BindVpnName=ChinaMobile_Gn, Tun
+                                       nelName=-, DownReason=DetectDown)        
+70144      0x8130055  1     2022-10-03 Physical entity failed. (BaseTrapSeverity
+                             18:46:27  =4, BaseTrapProbableCause=67995, BaseTrap
+                                       EventType=5, EntityPhysicalIndex=16777216
+                                       , EntPhysicalContainedIn=16777216, EntPhy
+                                       sicalName=X16A frame, RelativeResource=NA
+                                       , ReasonDescription=The air filter inside
+                                        the chassis was not cleaned.)           
+67115      0x8520004  2     2022-09-30 The IPv6 status changes. (ifName=LoopBack
+                             06:44:42  1, AdminStatus=UP, OperStatus=DOWN, Reaso
+                                       n=The IPv6 address is unavailable.)      
+63765      0x813007C  1     2022-09-26 Loss of signal alarm. (hwPhysicalPortIfIn
+                             10:40:08  dex=16912643,BoardID=2,CardID=0,PortID=2,
+                                       InterfaceName=GigabitEthernet2/0/2,AlarmN
+                                       ame=ETH_LOS)                             
+63764      0x81300A8  1     2022-09-26 The status of the physical interface is D
+                             10:40:05  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912643,EntPhysicalName=Gi
+                                       gabitEthernet2/0/2, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+63763      0x8520003  2     2022-09-26 The interface status changes. (ifName=Gig
+                             10:40:05  abitEthernet2/0/2, AdminStatus=UP, OperSt
+                                       atus=DOWN, Reason=Interface physical link
+                                        is down, mainIfname=GigabitEthernet2/0/2
+                                       )                                        
+18406      0xF1001D   3     2022-08-04 NTP synchronization state changed. (State
+                             23:09:37   = unsynchronized, SynchronizationSourceA
+                                       ddress = none)                           
+15442      0x8130098  1     2022-08-01 Physical entity is removed.(BaseTrapSever
+                             13:21:23  ity=4, BaseTrapProbableCause=65541, BaseT
+                                       rapEventType=5, EntityPhysicalIndex=16912
+                                       651, EntPhysicalContainedIn=16912640, Ent
+                                       PhysicalName=GigabitEthernet2/0/10, Reaso
+                                       n=The optical module was removed from an 
+                                       interface of the subcard.)               
+15441      0x8130098  1     2022-08-01 Physical entity is removed.(BaseTrapSever
+                             13:21:11  ity=4, BaseTrapProbableCause=65541, BaseT
+                                       rapEventType=5, EntityPhysicalIndex=16912
+                                       652, EntPhysicalContainedIn=16912640, Ent
+                                       PhysicalName=GigabitEthernet2/0/11, Reaso
+                                       n=The optical module was removed from an 
+                                       interface of the subcard.)               
+85         0xF10466   2     2022-07-14 With the development of cryptographic tec
+                             18:56:31  hnologies and the improvement of computin
+                                       g capabilities, some cryptographic algori
+                                       thm and protocols are deprecated. Please 
+                                       use more secure algorithms and protocols.
+                                        (Type=insecure protocol)                
+84         0xF10466   2     2022-07-14 With the development of cryptographic tec
+                             18:56:31  hnologies and the improvement of computin
+                                       g capabilities, some cryptographic algori
+                                       thm and protocols are deprecated. Please 
+                                       use more secure algorithms and protocols.
+                                        (Type=insecure algorithm)               
+80         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912664,EntPhysicalName=Gi
+                                       gabitEthernet2/0/23, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+79         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912663,EntPhysicalName=Gi
+                                       gabitEthernet2/0/22, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+78         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912662,EntPhysicalName=Gi
+                                       gabitEthernet2/0/21, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+77         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912661,EntPhysicalName=Gi
+                                       gabitEthernet2/0/20, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+76         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912660,EntPhysicalName=Gi
+                                       gabitEthernet2/0/19, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+75         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912659,EntPhysicalName=Gi
+                                       gabitEthernet2/0/18, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+74         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912658,EntPhysicalName=Gi
+                                       gabitEthernet2/0/17, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+73         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912657,EntPhysicalName=Gi
+                                       gabitEthernet2/0/16, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+72         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912656,EntPhysicalName=Gi
+                                       gabitEthernet2/0/15, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+71         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912655,EntPhysicalName=Gi
+                                       gabitEthernet2/0/14, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+70         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912654,EntPhysicalName=Gi
+                                       gabitEthernet2/0/13, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+69         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912653,EntPhysicalName=Gi
+                                       gabitEthernet2/0/12, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+68         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912652,EntPhysicalName=Gi
+                                       gabitEthernet2/0/11, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+67         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912651,EntPhysicalName=Gi
+                                       gabitEthernet2/0/10, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+66         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912650,EntPhysicalName=Gi
+                                       gabitEthernet2/0/9, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+65         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:18  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16912649,EntPhysicalName=Gi
+                                       gabitEthernet2/0/8, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+56         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371416,EntPhysicalName=Gi
+                                       gabitEthernet9/0/23, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+55         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371415,EntPhysicalName=Gi
+                                       gabitEthernet9/0/22, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+54         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371414,EntPhysicalName=Gi
+                                       gabitEthernet9/0/21, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+53         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371413,EntPhysicalName=Gi
+                                       gabitEthernet9/0/20, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+52         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371412,EntPhysicalName=Gi
+                                       gabitEthernet9/0/19, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+51         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371411,EntPhysicalName=Gi
+                                       gabitEthernet9/0/18, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+50         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371410,EntPhysicalName=Gi
+                                       gabitEthernet9/0/17, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+49         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371409,EntPhysicalName=Gi
+                                       gabitEthernet9/0/16, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+48         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371408,EntPhysicalName=Gi
+                                       gabitEthernet9/0/15, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+47         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371407,EntPhysicalName=Gi
+                                       gabitEthernet9/0/14, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+46         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371406,EntPhysicalName=Gi
+                                       gabitEthernet9/0/13, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+45         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371405,EntPhysicalName=Gi
+                                       gabitEthernet9/0/12, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+44         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371404,EntPhysicalName=Gi
+                                       gabitEthernet9/0/11, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+43         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371403,EntPhysicalName=Gi
+                                       gabitEthernet9/0/10, ReasonDescription=Th
+                                       e status of the physical interface is Dow
+                                       n.)                                      
+42         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371402,EntPhysicalName=Gi
+                                       gabitEthernet9/0/9, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+41         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371401,EntPhysicalName=Gi
+                                       gabitEthernet9/0/8, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+40         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371400,EntPhysicalName=Gi
+                                       gabitEthernet9/0/7, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+39         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371399,EntPhysicalName=Gi
+                                       gabitEthernet9/0/6, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+38         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371398,EntPhysicalName=Gi
+                                       gabitEthernet9/0/5, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+37         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371397,EntPhysicalName=Gi
+                                       gabitEthernet9/0/4, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+36         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371396,EntPhysicalName=Gi
+                                       gabitEthernet9/0/3, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+35         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371395,EntPhysicalName=Gi
+                                       gabitEthernet9/0/2, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+34         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371394,EntPhysicalName=Gi
+                                       gabitEthernet9/0/1, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+33         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=17371393,EntPhysicalName=Gi
+                                       gabitEthernet9/0/0, ReasonDescription=The
+                                        status of the physical interface is Down
+                                       .)                                       
+32         0x81300A8  1     2022-07-14 The status of the physical interface is D
+                             18:49:17  own. (BaseTrapSeverity=3, BaseTrapProbabl
+                                       eCause=74752, BaseTrapEventType=5, Entity
+                                       PhysicalIndex=16847107,EntPhysicalName=50
+                                       |100GE1/0/2, ReasonDescription=The status
+                                        of the physical interface is Down.)     
+28         0x8130055  1     2022-07-14 Physical entity failed. (BaseTrapSeverity
+                             18:48:47  =4, BaseTrapProbableCause=68095, BaseTrap
+                                       EventType=5, EntityPhysicalIndex=16847107
+                                       , EntPhysicalContainedIn=4294967295, EntP
+                                       hysicalName=50|100GE1/0/2, RelativeResour
+                                       ce=Optical Module, ReasonDescription=The 
+                                       optical module did not match the interfac
+                                       e)                                       
+18         0x8130055  1     2022-07-14 Physical entity failed. (BaseTrapSeverity
+                             18:47:39  =4, BaseTrapProbableCause=67638, BaseTrap
+                                       EventType=6, EntityPhysicalIndex=18415617
+                                       , EntPhysicalContainedIn=18415617, EntPhy
+                                       sicalName=PM12 POWER 25, RelativeResource
+                                       =Power, ReasonDescription=PM12 POWER 25 i
+                                       s failed, the power module was installed 
+                                       but not powered on)                      
+17         0x8130055  1     2022-07-14 Physical entity failed. (BaseTrapSeverity
+                             18:47:39  =4, BaseTrapProbableCause=67638, BaseTrap
+                                       EventType=6, EntityPhysicalIndex=18415617
+                                       , EntPhysicalContainedIn=18415617, EntPhy
+                                       sicalName=PM9 POWER 25, RelativeResource=
+                                       Power, ReasonDescription=PM9 POWER 25 is 
+                                       failed, the power module was installed bu
+                                       t not powered on)                        
+16         0x8130055  1     2022-07-14 Physical entity failed. (BaseTrapSeverity
+                             18:47:39  =4, BaseTrapProbableCause=67638, BaseTrap
+                                       EventType=6, EntityPhysicalIndex=18415617
+                                       , EntPhysicalContainedIn=18415617, EntPhy
+                                       sicalName=PM8 POWER 25, RelativeResource=
+                                       Power, ReasonDescription=PM8 POWER 25 is 
+                                       failed, the power module was installed bu
+                                       t not powered on)                        
+15         0x8130055  1     2022-07-14 Physical entity failed. (BaseTrapSeverity
+                             18:47:39  =4, BaseTrapProbableCause=67638, BaseTrap
+                                       EventType=6, EntityPhysicalIndex=18415617
+                                       , EntPhysicalContainedIn=18415617, EntPhy
+                                       sicalName=PM7 POWER 25, RelativeResource=
+                                       Power, ReasonDescription=PM7 POWER 25 is 
+                                       failed, the power module was installed bu
+                                       t not powered on)                        
+8          0x9360001  2     2022-07-14 Link bandwidth lost totally. (TrunkIndex=
+                             18:46:46  0, TrunkIfIndex=192, TrunkId=1, TrunkName
+                                       =Eth-Trunk1, Reason=No link is selected.)
+--------------------------------------------------------------------------------
+<LSLWSN_RN01_BG02-HWNE40E>dis cpu-usage
+Cpu utilization statistics at 2026-03-13 12:01:04 613 ms
+System cpu use rate is : 3%
+Cpu utilization for five seconds: 2% ;  one minute: 2% ;  five minutes: 2%.
+Max CPU Usage : 21%
+Max CPU Usage Stat. Time : 2022-07-14 18:46:50 480 ms
+---------------------------
+ServiceName  UseRate
+---------------------------
+SYSTEM            3%
+AAA               0%
+ARP               0%
+BGP               0%
+BRAS              0%
+CMF               0%
+DEVICE            0%
+DHCP              0%
+ETRUNK            0%
+EUM               0%
+FEA               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+LDT               0%
+LINK              0%
+LOCAL PKT         0%
+MFLP              0%
+MSTP              0%
+ND                0%
+NETSTREAM         0%
+OAM               0%
+OSPF              0%
+PKI               0%
+PNP               0%
+PTPA              0%
+RBS               0%
+RGM               0%
+RM                0%
+SLA               0%
+SMLK              0%
+SVRO              0%
+TNLM              0%
+TUNNEL            0%
+VLAN              0%
+---------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0         3%       3%       3%       3%  19% 2022-07-14 18:46:56
+cpu1         3%       2%       3%       3%  37% 2025-09-12 00:03:29
+cpu2         3%       2%       2%       3%  62% 2025-06-04 18:29:48
+cpu3         3%       2%       2%       2%  27% 2025-04-21 10:47:58
+cpu4         3%       1%       1%       2%  21% 2022-07-14 18:47:06
+cpu5         3%       2%       1%       1%  28% 2022-09-30 03:27:09
+cpu6         3%       2%       2%       1%  47% 2025-06-04 18:30:28
+cpu7         3%       2%       2%       1%  33% 2025-10-23 09:59:18
+cpu8         3%       1%       2%       5%  26% 2025-05-14 17:43:29
+cpu9         2%       2%       2%       3%  32% 2025-01-03 17:40:00
+cpu10        2%       2%       1%       1%  55% 2022-07-14 18:46:47
+cpu11        2%       1%       1%       1%  40% 2025-01-03 17:32:00
+cpu12        6%       4%       4%       2%  63% 2025-04-21 10:56:28
+cpu13        5%       3%       3%       2%  38% 2025-10-23 09:58:58
+cpu14        3%       2%       2%       1%  54% 2025-10-23 10:00:08
+cpu15        1%       1%       1%       1%  18% 2022-07-14 18:46:56
+----------------------------------------------------------------
+<LSLWSN_RN01_BG02-HWNE40E>dis memory
+Memory utilization statistics at 2026-03-13 12:01:04 830 ms
+System Total Memory Is: 31286136 Kbytes
+Total Memory Used Is: 4244036 Kbytes
+Memory Using Percentage Is: 13%
+----------------------------------------
+Process memory information in the slot:
+----------------------------------------
+ProcessId  ProcessName      Used(Kbytes)
+----------------------------------------
+3          CFG                   1130439
+1035       PROTO4                 134908
+1008       PSM1                   121483
+1010       FESMB                   90555
+9          LM                      68267
+1086       IFM                     58635
+1009       RESP                    59414
+2          SM                      49761
+1031       BGP                     40300
+1006       CFG_COMMON              38491
+1007       LOGSERVER               36442
+1012       OPS                     37468
+1088       OSPF                    33629
+10007      RM                      33159
+1011       SSH                     31321
+1074       ARP                     27733
+1058       STK                     27222
+1078       PNP                     22621
+1080       UM                      23898
+1004       PROTO5                  24148
+1066       LLP                     22611
+1002       PSM2                    24148
+1076       OAM                     22611
+1068       SYSMNT                  21075
+1060       CLOCK                   19538
+1082       LLDP                    20562
+1072       NSM                     20562
+1056       TNL6                    22099
+1005       DHCP                    20049
+1003       PKI                     23635
+1084       LLC                     16980
+1070       TELEMETRY               22099
+1000       LICENSE                 24147
+1033       BGPSERVICE              19026
+1054       EWM                     23122
+1061       TMC                     19104
+1062       TTY                     16465
+0          system                1796309
+----------------------------------------
+<LSLWSN_RN01_BG02-HWNE40E>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(B): Bit-error-detection down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(ld): loop-detect trigger down
+(mf): mac-flapping blocked
+(c): CFM down
+(sd): STP instance discarding
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+50GE1/0/3                   down  down         0%     0%          0          0
+50GE8/0/1                   down  down         0%     0%          0          0
+50GE8/0/3                   down  down         0%     0%          0          0
+50|100GE1/0/2(50G)          down  down         0%     0%          0          0
+50|100GE8/0/0(50G)          down  down         0%     0%          0          0
+50|100GE8/0/2(50G)          down  down         0%     0%          0          0
+Eth-Trunk1                  down  down         0%     0%          0          0
+Eth-Trunk1.2956             down  down         0%     0%          0          0
+Eth-Trunk2                  up    down      0.01%  0.01%          0          0
+  GigabitEthernet2/0/3(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk2.2957             up    up           0%     0%          0          0
+Eth-Trunk3                  up    down      6.66% 33.75%          0          0
+  GigabitEthernet2/0/4(10G) up    up        6.18% 32.22%          0          0
+  GigabitEthernet2/0/7(10G) up    up        7.13% 35.27%          0          0
+Eth-Trunk3.2954             up    up           0%     0%          0          0
+Eth-Trunk4                  up    down      6.11% 34.13%          0          0
+  GigabitEthernet2/0/5(10G) up    up        6.11% 36.28%          0          0
+  GigabitEthernet2/0/6(10G) up    up        6.12% 31.98%          0          0
+Eth-Trunk4.2954             up    up           0%     0%          0          0
+Eth-Trunk5                  up    down     13.58%  2.55%          1          0
+  50|100GE1/0/0(100G)       up    up       13.58%  2.55%          1          0
+Eth-Trunk5.2900             up    down         0%     0%          0          0
+Eth-Trunk6                  up    down      0.01%  0.01%          0          0
+  GigabitEthernet2/0/0(10G) up    up        0.01%  0.01%          0          0
+  GigabitEthernet2/0/1(10G) up    up        0.01%  0.01%          0          0
+Eth-Trunk6.2954             up    down         0%     0%          0          0
+GigabitEthernet0/0/0        down  down         0%     0%          0          0
+GigabitEthernet2/0/2(10G)   down  down         0%     0%          0          0
+GigabitEthernet2/0/8(10G)   down  down         0%     0%          0          0
+GigabitEthernet2/0/9(10G)   down  down         0%     0%          0          0
+GigabitEthernet2/0/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/12       down  down         0%     0%          0          0
+GigabitEthernet2/0/13       down  down         0%     0%          0          0
+GigabitEthernet2/0/14       down  down         0%     0%          0          0
+GigabitEthernet2/0/15       down  down         0%     0%          0          0
+GigabitEthernet2/0/16(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/17(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/18(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/19(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/20(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/21(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/22(10G)  down  down         0%     0%          0          0
+GigabitEthernet2/0/23(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/0(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/1(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/2(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/3(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/4(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/5(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/6(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/7(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/8(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/9(10G)   down  down         0%     0%          0          0
+GigabitEthernet9/0/10(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/11(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/12(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/13(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/14(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/15(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/16(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/17(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/18(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/19(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/20(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/21(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/22(10G)  down  down         0%     0%          0          0
+GigabitEthernet9/0/23(10G)  down  down         0%     0%          0          0
+LoopBack0                   up    up(s)        0%     0%          0          0
+LoopBack1                   up    up(s)        0%     0%          0          0
+LoopBack100                 up    up(s)        0%     0%          0          0
+LoopBack101                 up    up(s)        0%     0%          0          0
+LoopBack2147483647          up    up(s)        0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Virtual-Template0           up    up(s)        0%     0%          0          0
+<LSLWSN_RN01_BG02-HWNE40E>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 512
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 12077
+Current messages : 512
+
+Mar 13 2026 06:20:14 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251028181323.log.zip)
+Mar 13 2026 06:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308144432.pads.zip)
+Mar 13 2026 00:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308084646.pads.zip)
+Mar 13 2026 00:01:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251028112024.log.zip)
+Mar 12 2026 18:25:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260308025451.pads.zip)
+Mar 12 2026 17:29:35 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251028050139.log.zip)
+Mar 12 2026 12:34:34 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307210416.pads.zip)
+Mar 12 2026 10:55:35 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251027224309.log.zip)
+Mar 12 2026 06:44:33 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307151417.pads.zip)
+Mar 12 2026 04:49:31 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251027155800.log.zip)
+Mar 12 2026 00:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307091646.pads.zip)
+Mar 11 2026 22:10:07 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251027091304.log.zip)
+Mar 11 2026 18:54:53 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260307032451.pads.zip)
+Mar 11 2026 15:27:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251027030731.log.zip)
+Mar 11 2026 13:00:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306213003.pads.zip)
+Mar 11 2026 08:50:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251026203312.log.zip)
+Mar 11 2026 07:07:17 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306153431.pads.zip)
+Mar 11 2026 02:36:12 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251026135054.log.zip)
+Mar 11 2026 01:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306094404.pads.zip)
+Mar 10 2026 19:58:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251026071000.log.zip)
+Mar 10 2026 19:24:53 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260306034646.pads.zip)
+Mar 10 2026 13:28:41 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305215602.pads.zip)
+Mar 10 2026 13:12:30 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251026005723.log.zip)
+Mar 10 2026 07:38:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305160431.pads.zip)
+Mar 10 2026 06:43:12 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251025181821.log.zip)
+Mar 10 2026 01:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305101431.pads.zip)
+Mar 10 2026 00:26:50 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251025112936.log.zip)
+Mar  9 2026 19:54:57 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260305041646.pads.zip)
+Mar  9 2026 18:04:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251025050229.log.zip)
+Mar  9 2026 14:00:15 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304222643.pads.zip)
+Mar  9 2026 11:18:34 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251024223509.log.zip)
+Mar  9 2026 08:07:10 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304163430.pads.zip)
+Mar  9 2026 05:13:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251024155627.log.zip)
+Mar  9 2026 02:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304104430.pads.zip)
+Mar  8 2026 22:31:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251024091223.log.zip)
+Mar  8 2026 20:20:02 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260304044554.pads.zip)
+Mar  8 2026 15:51:43 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251024030849.log.zip)
+Mar  8 2026 14:30:14 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303224956.pads.zip)
+Mar  8 2026 09:12:16 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251023204354.log.zip)
+Mar  8 2026 08:34:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303165902.pads.zip)
+Mar  8 2026 03:01:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251023140137.log.zip)
+Mar  8 2026 02:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303110752.pads.zip)
+Mar  7 2026 20:48:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260303051550.pads.zip)
+Mar  7 2026 20:18:42 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251023083710.log.zip)
+Mar  7 2026 14:59:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302232338.pads.zip)
+Mar  7 2026 13:34:10 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251023022441.log.zip)
+Mar  7 2026 09:04:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302173010.pads.zip)
+Mar  7 2026 06:56:55 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251022195108.log.zip)
+Mar  7 2026 03:13:55 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302113549.pads.zip)
+Mar  7 2026 00:45:34 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251022125936.log.zip)
+Mar  6 2026 21:14:17 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260302053948.pads.zip)
+Mar  6 2026 18:13:56 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251022061521.log.zip)
+Mar  6 2026 15:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301234631.pads.zip)
+Mar  6 2026 11:31:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251022000145.log.zip)
+Mar  6 2026 09:29:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301175544.pads.zip)
+Mar  6 2026 05:31:01 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251021172533.log.zip)
+Mar  6 2026 03:34:31 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301120008.pads.zip)
+Mar  6 2026 03:15:31 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpStateDown_clear(l):CID=0x804805da-alarmID=0x09362015-clearType=service_resume;The LACP status of the member port changes to up. (TrunkIndex=669,PortIfIndex=50,TrunkId=4,TrunkName=Eth-Trunk4,PortName=GigabitEthernet2/0/6,Reason=LACP negotiation succeeds.)
+Mar  6 2026 03:15:31 LSLWSN_RN01_BG02-HWNE40E %%01PIC/1/hwPortPhysicalDown_clear(l):CID=0x80fc0547-alarmID=0x081300a8-clearType=service_resume;The status of the physical interface is Up.(BaseTrapSeverity=3, BaseTrapProbableCause=74752, BaseTrapEventType=5,EntityPhysicalIndex=16912647, EntPhysicalName=GigabitEthernet2/0/6, ReasonDescription=The status of the physical interface is Up.)
+Mar  6 2026 03:15:31 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpNegotiateFailed_clear(l):CID=0x807a042b-alarmID=0x09360000-clearType=service_resume;Link negotiation failure is resumed. (TrunkIndex=4, PortIfIndex=50, TrunkId=4, TrunkName=Eth-Trunk4, PortName=GigabitEthernet2/0/6, Reason=The link fault was rectified and negotiation information was synchronized.)
+Mar  6 2026 03:15:30 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_clear(l):CID=0x807a042b-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet2/0/6, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk4)
+Mar  6 2026 03:15:30 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/1/hwRemoteFaultAlarm_clear(l):CID=0x80fc0547-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=50, IfName=GigabitEthernet2/0/6)
+Mar  6 2026 03:09:40 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/1/hwRemoteFaultAlarm_active(l):CID=0x80fc0547-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=50, IfName=GigabitEthernet2/0/6)
+Mar  6 2026 03:09:37 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc0547-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume. (hwPhysicalPortIfIndex=16912647,BoardID=2,CardID=0,PortID=6,InterfaceName=GigabitEthernet2/0/6,AlarmName=ETH_LOS)
+Mar  6 2026 00:22:49 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/4/hwIfMonitorOutputRateRising_clear(l):CID=0x80fc0547-alarmID=0x081300af-clearType=service_resume;Interface output flow bandwidth usage was restored to the trap threshold. (Interface=49, BandWidthUsage=80, TrapThreshold=80, InterfaceName=GigabitEthernet2/0/5)
+Mar  5 2026 22:56:43 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251021110125.log.zip)
+Mar  5 2026 21:44:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301060641.pads.zip)
+Mar  5 2026 20:43:39 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/4/hwIfMonitorOutputRateRising_active(l):CID=0x80fc0547-alarmID=0x081300af;Interface output flow bandwidth usage exceeded the trap threshold. (Interface=49, BandWidthUsage=91, TrapThreshold=90, InterfaceName=GigabitEthernet2/0/5)
+Mar  5 2026 17:57:48 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/4/hwIfMonitorOutputRateRising_clear(l):CID=0x80fc0547-alarmID=0x081300af-clearType=service_resume;Interface output flow bandwidth usage was restored to the trap threshold. (Interface=49, BandWidthUsage=80, TrapThreshold=80, InterfaceName=GigabitEthernet2/0/5)
+Mar  5 2026 17:26:08 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/4/hwIfMonitorOutputRateRising_active(l):CID=0x80fc0547-alarmID=0x081300af;Interface output flow bandwidth usage exceeded the trap threshold. (Interface=49, BandWidthUsage=91, TrapThreshold=90, InterfaceName=GigabitEthernet2/0/5)
+Mar  5 2026 16:13:31 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251021044459.log.zip)
+Mar  5 2026 15:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260301001608.pads.zip)
+Mar  5 2026 09:55:59 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228181646.pads.zip)
+Mar  5 2026 09:36:42 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251020221616.log.zip)
+Mar  5 2026 04:04:31 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228122624.pads.zip)
+Mar  5 2026 03:18:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251020153859.log.zip)
+Mar  5 2026 00:21:04 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/4/hwIfMonitorOutputRateRising_clear(l):CID=0x80fc0547-alarmID=0x081300af-clearType=service_resume;Interface output flow bandwidth usage was restored to the trap threshold. (Interface=49, BandWidthUsage=80, TrapThreshold=80, InterfaceName=GigabitEthernet2/0/5)
+Mar  4 2026 22:14:16 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228063519.pads.zip)
+Mar  4 2026 21:16:54 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/4/hwIfMonitorOutputRateRising_active(l):CID=0x80fc0547-alarmID=0x081300af;Interface output flow bandwidth usage exceeded the trap threshold. (Interface=49, BandWidthUsage=91, TrapThreshold=90, InterfaceName=GigabitEthernet2/0/5)
+Mar  4 2026 20:41:20 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251020085948.log.zip)
+Mar  4 2026 16:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260228004448.pads.zip)
+Mar  4 2026 13:58:04 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251020024803.log.zip)
+Mar  4 2026 10:24:50 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227184638.pads.zip)
+Mar  4 2026 08:48:53 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc0547-alarmID=0x0813007c;Loss of signal alarm. (hwPhysicalPortIfIndex=16912647,BoardID=2,CardID=0,PortID=6,InterfaceName=GigabitEthernet2/0/6,AlarmName=ETH_LOS)
+Mar  4 2026 08:48:52 LSLWSN_RN01_BG02-HWNE40E %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=2;CR57LFXFF 2/0/6 was Down, and the optical power information was:Port6, RxPower:Rx Power: -40.00dBm, TxPower:Tx Power:  -3.23dBm.
+Mar  4 2026 08:48:51 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpStateDown_active(l):CID=0x804805da-alarmID=0x09362015;The LACP status of the member port changes to down. (TrunkIndex=669,PortIfIndex=50,TrunkId=4,TrunkName=Eth-Trunk4,PortName=GigabitEthernet2/0/6,Reason=LACP negotiation fails.)
+Mar  4 2026 08:48:51 LSLWSN_RN01_BG02-HWNE40E %%01LACP/4/LACP_STATE_DOWN(l):CID=0x804805da-Slot=2;The LACP state is down. (PortName=GigabitEthernet2/0/6, TrunkName=Eth-Trunk4, LastReceivePacketTime=[2026-03-04 08:48:50:937], Reason=The interface went down physically or flapped to down. Please check the interface's status, duplex mode, bandwidth, and so on.)
+Mar  4 2026 08:48:51 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpNegotiateFailed_active(l):CID=0x807a042b-alarmID=0x09360000;The member of LAG can neither receive PDUs nor send PDUs. (TrunkIndex=4, PortIfIndex=50, TrunkId=4, TrunkName=Eth-Trunk4, PortName=GigabitEthernet2/0/6, Reason=A link fault occurred or negotiation information synchronization failed.)
+Mar  4 2026 08:48:51 LSLWSN_RN01_BG02-HWNE40E %%01PIC/1/hwPortPhysicalDown_active(l):CID=0x80fc0547-alarmID=0x081300a8;The status of the physical interface is Down. (BaseTrapSeverity=3, BaseTrapProbableCause=74752, BaseTrapEventType=5, EntityPhysicalIndex=16912647,EntPhysicalName=GigabitEthernet2/0/6, ReasonDescription=The status of the physical interface is Down.)
+Mar  4 2026 08:48:51 LSLWSN_RN01_BG02-HWNE40E %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc0547-Slot=2;The physical status of the Port6 on Card0 in slot 2 changed to Down. The possible cause is: LOCAL_FAULT 
+Mar  4 2026 08:48:50 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_active(l):CID=0x807a042b-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet2/0/6, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=Eth-Trunk4)
+Mar  4 2026 07:19:16 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251019200726.log.zip)
+Mar  4 2026 04:29:56 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227125244.pads.zip)
+Mar  4 2026 01:09:44 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251019131250.log.zip)
+Mar  3 2026 22:38:19 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227065944.pads.zip)
+Mar  3 2026 18:41:11 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251019062658.log.zip)
+Mar  3 2026 16:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260227010448.pads.zip)
+Mar  3 2026 11:58:02 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251019001216.log.zip)
+Mar  3 2026 10:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226190945.pads.zip)
+Mar  3 2026 05:48:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251018174041.log.zip)
+Mar  3 2026 04:55:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226131445.pads.zip)
+Mar  2 2026 23:12:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251018110024.log.zip)
+Mar  2 2026 23:04:30 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226071646.pads.zip)
+Mar  2 2026 17:14:16 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260226012738.pads.zip)
+Mar  2 2026 16:30:43 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251018044945.log.zip)
+Mar  2 2026 11:14:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225193445.pads.zip)
+Mar  2 2026 09:56:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251017222053.log.zip)
+Mar  2 2026 05:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225134446.pads.zip)
+Mar  2 2026 03:44:19 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251017154923.log.zip)
+Mar  2 2026 02:15:41 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  2 2026 02:15:41 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  1 2026 23:34:49 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225074646.pads.zip)
+Mar  1 2026 22:17:19 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  1 2026 22:17:19 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  1 2026 21:05:26 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251017090727.log.zip)
+Mar  1 2026 20:03:16 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  1 2026 20:03:16 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  1 2026 19:07:50 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Mar  1 2026 19:07:50 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Mar  1 2026 17:34:49 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260225015609.pads.zip)
+Mar  1 2026 14:15:01 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251017025659.log.zip)
+Mar  1 2026 11:44:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224200427.pads.zip)
+Mar  1 2026 07:31:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251016201540.log.zip)
+Mar  1 2026 05:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224140937.pads.zip)
+Mar  1 2026 01:15:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251016132410.log.zip)
+Feb 28 2026 23:54:49 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224081606.pads.zip)
+Feb 28 2026 18:52:07 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251016064222.log.zip)
+Feb 28 2026 18:04:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260224022427.pads.zip)
+Feb 28 2026 12:10:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251016003004.log.zip)
+Feb 28 2026 12:08:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223203112.pads.zip)
+Feb 28 2026 06:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223143531.pads.zip)
+Feb 28 2026 05:53:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251015180313.log.zip)
+Feb 28 2026 00:24:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223084445.pads.zip)
+Feb 27 2026 23:19:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251015111432.log.zip)
+Feb 27 2026 18:31:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260223024646.pads.zip)
+Feb 27 2026 16:38:24 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251015045945.log.zip)
+Feb 27 2026 12:35:44 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222205614.pads.zip)
+Feb 27 2026 09:56:45 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251014223829.log.zip)
+Feb 27 2026 06:39:44 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222150445.pads.zip)
+Feb 27 2026 03:39:38 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251014160305.log.zip)
+Feb 27 2026 00:44:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222091427.pads.zip)
+Feb 26 2026 21:00:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251014092519.log.zip)
+Feb 26 2026 18:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260222031609.pads.zip)
+Feb 26 2026 14:11:30 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251014031513.log.zip)
+Feb 26 2026 12:57:40 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221212427.pads.zip)
+Feb 26 2026 07:25:17 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251013203619.log.zip)
+Feb 26 2026 07:00:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221153103.pads.zip)
+Feb 26 2026 01:11:00 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251013134717.log.zip)
+Feb 26 2026 01:09:44 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221093908.pads.zip)
+Feb 25 2026 19:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260221034605.pads.zip)
+Feb 25 2026 18:45:57 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251013070503.log.zip)
+Feb 25 2026 13:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220215604.pads.zip)
+Feb 25 2026 12:03:06 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251013005115.log.zip)
+Feb 25 2026 07:30:52 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220160445.pads.zip)
+Feb 25 2026 05:50:41 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251012181735.log.zip)
+Feb 25 2026 01:38:11 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220101426.pads.zip)
+Feb 24 2026 23:13:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251012112722.log.zip)
+Feb 24 2026 19:44:27 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260220041646.pads.zip)
+Feb 24 2026 16:31:14 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251012050645.log.zip)
+Feb 24 2026 13:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219222720.pads.zip)
+Feb 24 2026 09:50:06 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251011225244.log.zip)
+Feb 24 2026 07:56:06 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219163445.pads.zip)
+Feb 24 2026 03:37:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251011161415.log.zip)
+Feb 24 2026 02:00:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219103920.pads.zip)
+Feb 23 2026 20:54:47 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251011093108.log.zip)
+Feb 23 2026 20:08:38 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260219044426.pads.zip)
+Feb 23 2026 14:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218224646.pads.zip)
+Feb 23 2026 14:08:02 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251011032037.log.zip)
+Feb 23 2026 08:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218165553.pads.zip)
+Feb 23 2026 07:20:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251010204239.log.zip)
+Feb 23 2026 02:31:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218110444.pads.zip)
+Feb 23 2026 01:08:06 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251010135604.log.zip)
+Feb 22 2026 20:39:33 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260218050747.pads.zip)
+Feb 22 2026 18:44:17 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251010070726.log.zip)
+Feb 22 2026 14:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217231425.pads.zip)
+Feb 22 2026 12:01:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251010005653.log.zip)
+Feb 22 2026 08:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217171552.pads.zip)
+Feb 22 2026 05:49:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251009182321.log.zip)
+Feb 22 2026 02:52:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217112425.pads.zip)
+Feb 21 2026 23:24:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251009113512.log.zip)
+Feb 21 2026 21:00:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260217052706.pads.zip)
+Feb 21 2026 16:46:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251009050730.log.zip)
+Feb 21 2026 15:08:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216233022.pads.zip)
+Feb 21 2026 09:58:26 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251008225759.log.zip)
+Feb 21 2026 09:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216173509.pads.zip)
+Feb 21 2026 03:48:17 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251008162228.log.zip)
+Feb 21 2026 03:30:52 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216114001.pads.zip)
+Feb 20 2026 21:34:57 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260216054424.pads.zip)
+Feb 20 2026 21:06:45 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251008094300.log.zip)
+Feb 20 2026 15:44:26 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215234548.pads.zip)
+Feb 20 2026 14:13:06 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251008033304.log.zip)
+Feb 20 2026 09:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215175151.pads.zip)
+Feb 20 2026 07:28:47 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251007205850.log.zip)
+Feb 20 2026 03:59:58 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215115542.pads.zip)
+Feb 20 2026 01:12:27 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251007140859.log.zip)
+Feb 19 2026 22:04:45 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215055946.pads.zip)
+Feb 19 2026 18:41:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251007072435.log.zip)
+Feb 19 2026 16:14:26 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260215000442.pads.zip)
+Feb 19 2026 12:08:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251007011016.log.zip)
+Feb 19 2026 10:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214180738.pads.zip)
+Feb 19 2026 05:52:02 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251006184154.log.zip)
+Feb 19 2026 04:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214121425.pads.zip)
+Feb 18 2026 23:27:01 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251006115202.log.zip)
+Feb 18 2026 22:35:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214061548.pads.zip)
+Feb 18 2026 16:49:45 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251006052043.log.zip)
+Feb 18 2026 16:35:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260214002424.pads.zip)
+Feb 18 2026 10:44:44 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213182650.pads.zip)
+Feb 18 2026 10:04:42 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251005231528.log.zip)
+Feb 18 2026 04:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213123008.pads.zip)
+Feb 18 2026 03:58:47 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251005164109.log.zip)
+Feb 17 2026 22:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213063456.pads.zip)
+Feb 17 2026 22:13:35 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb 17 2026 22:13:35 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb 17 2026 21:17:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251005095454.log.zip)
+Feb 17 2026 18:17:41 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb 17 2026 18:17:41 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb 17 2026 16:59:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260213003857.pads.zip)
+Feb 17 2026 16:05:01 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb 17 2026 16:05:01 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb 17 2026 15:09:52 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb 17 2026 15:09:52 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb 17 2026 14:31:20 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251005034558.log.zip)
+Feb 17 2026 10:59:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212184438.pads.zip)
+Feb 17 2026 07:47:27 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251004210632.log.zip)
+Feb 17 2026 05:04:43 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212124644.pads.zip)
+Feb 17 2026 01:31:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251004141552.log.zip)
+Feb 16 2026 23:08:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212065420.pads.zip)
+Feb 16 2026 18:55:16 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251004072854.log.zip)
+Feb 16 2026 17:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260212005642.pads.zip)
+Feb 16 2026 12:18:04 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251004011546.log.zip)
+Feb 16 2026 11:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211185951.pads.zip)
+Feb 16 2026 06:01:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251003184429.log.zip)
+Feb 16 2026 05:24:19 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211130852.pads.zip)
+Feb 15 2026 23:44:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251003115826.log.zip)
+Feb 15 2026 23:30:19 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211071425.pads.zip)
+Feb 15 2026 17:35:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260211011616.pads.zip)
+Feb 15 2026 17:08:50 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251003051647.log.zip)
+Feb 15 2026 11:35:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210192425.pads.zip)
+Feb 15 2026 10:20:00 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251002230619.log.zip)
+Feb 15 2026 05:39:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210132700.pads.zip)
+Feb 15 2026 04:14:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251002163905.log.zip)
+Feb 14 2026 23:44:42 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210073130.pads.zip)
+Feb 14 2026 21:31:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251002095432.log.zip)
+Feb 14 2026 17:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260210013445.pads.zip)
+Feb 14 2026 14:44:58 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251002034818.log.zip)
+Feb 14 2026 11:59:45 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209193934.pads.zip)
+Feb 14 2026 08:04:40 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251001210717.log.zip)
+Feb 14 2026 06:00:07 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209134437.pads.zip)
+Feb 14 2026 01:48:07 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251001141730.log.zip)
+Feb 14 2026 00:04:42 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209074616.pads.zip)
+Feb 13 2026 19:09:56 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251001073145.log.zip)
+Feb 13 2026 18:08:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260209015420.pads.zip)
+Feb 13 2026 12:38:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20251001011932.log.zip)
+Feb 13 2026 12:14:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208195544.pads.zip)
+Feb 13 2026 06:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208135931.pads.zip)
+Feb 13 2026 06:12:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250930184046.log.zip)
+Feb 13 2026 00:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208080440.pads.zip)
+Feb 12 2026 23:56:56 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250930115028.log.zip)
+Feb 12 2026 18:31:30 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260208021009.pads.zip)
+Feb 12 2026 17:16:47 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250930051514.log.zip)
+Feb 12 2026 12:30:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260207201425.pads.zip)
+Feb 12 2026 10:26:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250929225554.log.zip)
+Feb 12 2026 06:35:12 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260207141544.pads.zip)
+Feb 12 2026 04:16:49 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250929162743.log.zip)
+Feb 12 2026 00:38:53 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260207082437.pads.zip)
+Feb 11 2026 21:34:55 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250929094451.log.zip)
+Feb 11 2026 18:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260207022703.pads.zip)
+Feb 11 2026 14:41:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250929033745.log.zip)
+Feb 11 2026 12:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260206203137.pads.zip)
+Feb 11 2026 07:56:58 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250928205748.log.zip)
+Feb 11 2026 06:59:45 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260206143447.pads.zip)
+Feb 11 2026 01:44:04 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250928140956.log.zip)
+Feb 11 2026 01:00:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260206083927.pads.zip)
+Feb 10 2026 19:05:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250928072201.log.zip)
+Feb 10 2026 19:04:41 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260206024425.pads.zip)
+Feb 10 2026 13:08:47 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260205205302.pads.zip)
+Feb 10 2026 12:26:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250928010850.log.zip)
+Feb 10 2026 07:14:40 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260205145515.pads.zip)
+Feb 10 2026 06:08:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250927183809.log.zip)
+Feb 10 2026 01:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260205085921.pads.zip)
+Feb  9 2026 23:47:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250927115046.log.zip)
+Feb  9 2026 19:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260205030937.pads.zip)
+Feb  9 2026 17:14:06 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250927051318.log.zip)
+Feb  9 2026 13:24:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260204211425.pads.zip)
+Feb  9 2026 10:31:11 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250926225826.log.zip)
+Feb  9 2026 07:31:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260204151646.pads.zip)
+Feb  9 2026 04:22:44 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250926163005.log.zip)
+Feb  9 2026 01:31:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260204092706.pads.zip)
+Feb  8 2026 21:41:15 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250926094647.log.zip)
+Feb  8 2026 19:35:26 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260204032705.pads.zip)
+Feb  8 2026 14:51:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250926034259.log.zip)
+Feb  8 2026 13:40:15 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260203213047.pads.zip)
+Feb  8 2026 08:07:16 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250925210629.log.zip)
+Feb  8 2026 07:44:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260203153438.pads.zip)
+Feb  8 2026 01:55:06 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250925141703.log.zip)
+Feb  8 2026 01:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260203094039.pads.zip)
+Feb  7 2026 19:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260203034423.pads.zip)
+Feb  7 2026 19:11:16 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250925073145.log.zip)
+Feb  7 2026 13:54:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260202214646.pads.zip)
+Feb  7 2026 12:31:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250925011423.log.zip)
+Feb  7 2026 08:00:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260202155306.pads.zip)
+Feb  7 2026 06:12:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250924184403.log.zip)
+Feb  7 2026 02:04:40 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260202095502.pads.zip)
+Feb  6 2026 23:58:41 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250924115917.log.zip)
+Feb  6 2026 20:08:27 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260202035901.pads.zip)
+Feb  6 2026 17:22:30 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250924051810.log.zip)
+Feb  6 2026 16:44:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250923230627.log.zip)
+Feb  6 2026 14:08:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260201220439.pads.zip)
+Feb  6 2026 10:01:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250923163858.log.zip)
+Feb  6 2026 08:14:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260201161011.pads.zip)
+Feb  6 2026 02:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260201101421.pads.zip)
+Feb  5 2026 21:50:12 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250923095416.log.zip)
+Feb  5 2026 21:10:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250923035305.log.zip)
+Feb  5 2026 20:31:01 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260201041615.pads.zip)
+Feb  5 2026 18:11:19 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb  5 2026 18:11:19 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb  5 2026 14:30:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260131222423.pads.zip)
+Feb  5 2026 14:21:47 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250922210850.log.zip)
+Feb  5 2026 14:18:00 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb  5 2026 14:18:00 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb  5 2026 12:06:29 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb  5 2026 12:06:29 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb  5 2026 11:12:07 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Feb  5 2026 11:12:07 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Feb  5 2026 08:34:41 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260131162651.pads.zip)
+Feb  5 2026 07:48:20 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250922141703.log.zip)
+Feb  5 2026 02:44:24 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260131103058.pads.zip)
+Feb  5 2026 01:29:55 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250922073145.log.zip)
+Feb  4 2026 20:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260131043423.pads.zip)
+Feb  4 2026 14:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260130223911.pads.zip)
+Feb  4 2026 12:48:34 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250922012100.log.zip)
+Feb  4 2026 12:08:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250921184703.log.zip)
+Feb  4 2026 08:59:15 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260130164423.pads.zip)
+Feb  4 2026 02:59:51 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260130105220.pads.zip)
+Feb  4 2026 00:14:43 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250921120315.log.zip)
+Feb  3 2026 21:00:50 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260130045843.pads.zip)
+Feb  3 2026 17:46:20 LSLWSN_RN01_BG02-HWNE40E %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x80930448;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=VRF_OM, BlockCount=1)
+Feb  3 2026 17:42:58 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250921052530.log.zip)
+Feb  3 2026 16:51:28 LSLWSN_RN01_BG02-HWNE40E %%01SSH/4/IP_UNLOCKED(s):CID=0x80930448;IP was unlocked. (IpAddress=10.237.100.196, VpnName=VRF_OM)
+Feb  3 2026 16:46:50 LSLWSN_RN01_BG02-HWNE40E %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50421;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=VRF_OM)
+Feb  3 2026 16:46:34 LSLWSN_RN01_BG02-HWNE40E %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50421;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=VRF_OM)
+Feb  3 2026 16:46:34 LSLWSN_RN01_BG02-HWNE40E %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50421;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=VRF_OM, RequestID=9366339, PduType=GetBulk, Reason=Community is incorrect)
+Feb  3 2026 16:46:28 LSLWSN_RN01_BG02-HWNE40E %%01SSH/4/IP_LOCKED(s):CID=0x80930448;IP was locked. (IpAddress=10.237.100.196, VpnName=VRF_OM, Period=5 minutes)
+Feb  3 2026 16:45:33 LSLWSN_RN01_BG02-HWNE40E %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50421;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=VRF_OM)
+Feb  3 2026 16:45:24 LSLWSN_RN01_BG02-HWNE40E %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50421;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=VRF_OM)
+Feb  3 2026 16:45:24 LSLWSN_RN01_BG02-HWNE40E %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50421;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=VRF_OM, RequestID=7258520, PduType=Set, Reason=Community is incorrect)
+Feb  3 2026 15:04:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260129230437.pads.zip)
+Feb  3 2026 10:59:13 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250920231538.log.zip)
+Feb  3 2026 10:16:09 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250920164444.log.zip)
+Feb  3 2026 09:08:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260129170910.pads.zip)
+Feb  3 2026 03:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260129111422.pads.zip)
+Feb  2 2026 22:10:17 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250920100624.log.zip)
+Feb  2 2026 21:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260129051538.pads.zip)
+Feb  2 2026 15:28:33 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250920035823.log.zip)
+Feb  2 2026 15:24:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260128231646.pads.zip)
+Feb  2 2026 09:31:40 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260128172646.pads.zip)
+Feb  2 2026 08:46:40 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250919211656.log.zip)
+Feb  2 2026 08:08:14 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250919143030.log.zip)
+Feb  2 2026 03:32:01 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260128113438.pads.zip)
+Feb  2 2026 01:56:52 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250919075724.log.zip)
+Feb  1 2026 21:34:59 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260128054105.pads.zip)
+Feb  1 2026 19:17:07 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250919014229.log.zip)
+Feb  1 2026 15:40:57 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260127234422.pads.zip)
+Feb  1 2026 12:40:19 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250918190437.log.zip)
+Feb  1 2026 09:44:20 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260127174605.pads.zip)
+Feb  1 2026 06:12:01 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250918121334.log.zip)
+Feb  1 2026 03:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260127115358.pads.zip)
+Feb  1 2026 00:01:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250918054042.log.zip)
+Jan 31 2026 21:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260127055535.pads.zip)
+Jan 31 2026 17:24:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250917233103.log.zip)
+Jan 31 2026 15:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260126235904.pads.zip)
+Jan 31 2026 10:41:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250917165826.log.zip)
+Jan 31 2026 10:00:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260126180436.pads.zip)
+Jan 31 2026 03:58:49 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260126121022.pads.zip)
+Jan 30 2026 22:29:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250917101612.log.zip)
+Jan 30 2026 22:04:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260126061421.pads.zip)
+Jan 30 2026 16:07:59 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260126001545.pads.zip)
+Jan 30 2026 15:39:28 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250917040845.log.zip)
+Jan 30 2026 10:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260125182421.pads.zip)
+Jan 30 2026 08:55:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250916213114.log.zip)
+Jan 30 2026 04:24:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260125122548.pads.zip)
+Jan 30 2026 02:42:10 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250916144953.log.zip)
+Jan 29 2026 22:29:10 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260125063348.pads.zip)
+Jan 29 2026 20:08:38 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250916080825.log.zip)
+Jan 29 2026 13:20:38 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250916020047.log.zip)
+Jan 29 2026 12:42:18 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250915192450.log.zip)
+Jan 29 2026 11:14:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260125003518.pads.zip)
+Jan 29 2026 10:34:43 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260124184041.pads.zip)
+Jan 29 2026 06:10:26 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250915123942.log.zip)
+Jan 29 2026 00:06:11 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250915055759.log.zip)
+Jan 28 2026 23:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260124124614.pads.zip)
+Jan 28 2026 22:44:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260124065420.pads.zip)
+Jan 28 2026 17:31:31 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250914235416.log.zip)
+Jan 28 2026 11:34:38 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260124005604.pads.zip)
+Jan 28 2026 10:53:20 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250914171830.log.zip)
+Jan 28 2026 05:41:05 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260123190125.pads.zip)
+Jan 28 2026 04:49:29 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250914103904.log.zip)
+Jan 27 2026 23:44:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260123130435.pads.zip)
+Jan 27 2026 23:04:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260123071034.pads.zip)
+Jan 27 2026 22:10:52 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250914042110.log.zip)
+Jan 27 2026 15:17:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250913214835.log.zip)
+Jan 27 2026 11:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260123011421.pads.zip)
+Jan 27 2026 11:14:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260122191615.pads.zip)
+Jan 27 2026 08:37:35 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250913150657.log.zip)
+Jan 27 2026 02:22:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250913081816.log.zip)
+Jan 26 2026 23:59:04 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260122132350.pads.zip)
+Jan 26 2026 19:49:37 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250913021110.log.zip)
+Jan 26 2026 18:04:36 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260122072609.pads.zip)
+Jan 26 2026 13:09:58 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250912193835.log.zip)
+Jan 26 2026 12:10:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260122013337.pads.zip)
+Jan 26 2026 06:34:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250912125419.log.zip)
+Jan 26 2026 06:14:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260121193542.pads.zip)
+Jan 26 2026 05:35:31 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260121134014.pads.zip)
+Jan 26 2026 00:16:40 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250912061056.log.zip)
+Jan 25 2026 18:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260121074421.pads.zip)
+Jan 25 2026 17:50:25 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250912000538.log.zip)
+Jan 25 2026 17:44:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260121015347.pads.zip)
+Jan 25 2026 11:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260120195558.pads.zip)
+Jan 25 2026 11:08:22 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250911174526.log.zip)
+Jan 25 2026 05:59:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260120135857.pads.zip)
+Jan 25 2026 04:58:08 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250911110523.log.zip)
+Jan 24 2026 23:59:52 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260120080435.pads.zip)
+Jan 24 2026 22:13:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250911044225.log.zip)
+Jan 24 2026 18:04:35 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260120021039.pads.zip)
+Jan 24 2026 15:28:32 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250910221540.log.zip)
+Jan 24 2026 14:08:57 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Jan 24 2026 14:08:57 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=2;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Jan 24 2026 12:13:54 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260119201412.pads.zip)
+Jan 24 2026 10:18:05 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Jan 24 2026 10:18:05 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=9;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Jan 24 2026 08:43:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250910153449.log.zip)
+Jan 24 2026 08:07:58 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Jan 24 2026 08:07:58 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=8;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Jan 24 2026 07:14:16 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy continuity self-test,TestResult=sucessed)
+Jan 24 2026 07:14:16 LSLWSN_RN01_BG02-HWNE40E %%01SYSTEM/2/CRYPTO_DRBG_SELFTEST(s):CID=0x0-Slot=1;Crypto DRBG self-test result. (TestType=entropy,TestResult=succeed)
+Jan 24 2026 06:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260119141542.pads.zip)
+Jan 24 2026 02:31:24 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250910085106.log.zip)
+Jan 24 2026 00:16:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260119082419.pads.zip)
+Jan 24 2026 00:03:12 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_clear(l):CID=0x80740436-alarmID=0x00f102ce-clearType=service_resume;The BFD session Down alarm was cleared. (Index=16414, SessName=dyn_16414, LocalDiscriminator=16414, Diagnosis=0, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=2164326400, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=No Diagnostic)
+Jan 24 2026 00:03:12 LSLWSN_RN01_BG02-HWNE40E %%01BFD/4/STACHG_TOUP(l):CID=0x80740436;BFD session changed to Up. (SlotNumber=1, Discriminator=16414, FormerStatus=Down, Applications=BGP6, BindInterfaceName=Eth-Trunk5.2900, ProcessPST=False, TunnelName=-, PeerIp=240A:4021:8934:86F1:302::)
+Jan 24 2026 00:03:03 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_active(l):CID=0x80740436-alarmID=0x00f102ce;The BFD session went Down. (Index=16414, SessName=dyn_16414, LocalDiscriminator=16414, Diagnosis=0, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=2164326400, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=No Diagnostic)
+Jan 24 2026 00:03:00 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_clear(l):CID=0x80740436-alarmID=0x00f102ce-clearType=service_resume;The BFD session Down alarm was cleared. (Index=16413, SessName=dyn_16413, LocalDiscriminator=16413, Diagnosis=1, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=4294967295, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=DetectDown)
+Jan 24 2026 00:02:58 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/hwBgpBackwardTransition_clear(l):CID=0x80130658-alarmID=0x00f1039c-clearType=service_resume;The BGP FSM enters the Established state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, InstanceId=3, BgpPeerLastError=66, BgpPeerState=6, LocalIfName=Eth-Trunk5.2900, Reason=Alarm clear, Description=TO-GDBG01) 
+
+Jan 24 2026 00:02:58 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/bgpBackwardTransition_clear(l):CID=0x80130658-alarmID=0x0879000f-clearType=service_resume;The BGP FSM enters the Established state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, BgpPeerLastError=66, BgpPeerState=6, LocalIfName=Eth-Trunk5.2900, Reason=Alarm clear, Description=TO-GDBG01)
+Jan 24 2026 00:02:51 LSLWSN_RN01_BG02-HWNE40E %%01IPV6/2/ipv6IfStateChange_clear(l):CID=0x807a042b-alarmID=0x08520004-clearType=service_resume;The IPv6 status changes. (ifName=Eth-Trunk5.2900, AdminStatus=UP, OperStatus=UP, Reason=The IPv6 address is available)
+Jan 24 2026 00:02:51 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpTotalLinkLoss_clear(l):CID=0x807a042b-alarmID=0x09360001-clearType=service_resume;Link bandwidth lost totally is resumed. (TrunkIndex=3, TrunkIfIndex=666, TrunkId=5, TrunkName=Eth-Trunk5, Reason=Link is selected.)
+Jan 24 2026 00:02:51 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpStateDown_clear(l):CID=0x80480657-alarmID=0x09362015-clearType=service_resume;The LACP status of the member port changes to up. (TrunkIndex=666,PortIfIndex=8,TrunkId=5,TrunkName=Eth-Trunk5,PortName=50|100GE1/0/0,Reason=LACP negotiation succeeds.)
+Jan 24 2026 00:02:50 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_clear(l):CID=0x807a042b-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk5.2900, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:02:50 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpPDUChange_clear(l):CID=0x807a042b-alarmID=0x09360003-clearType=service_resume;The LACP member interface's status changed from unselected to selected. (TrunkIndex=3, PortIfIndex=8, TrunkId=5, TrunkName=Eth-Trunk5, PortName=50|100GE1/0/0)
+Jan 24 2026 00:02:50 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_clear(l):CID=0x807a042b-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk5, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:02:48 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpTotalLinkLoss_active(l):CID=0x807a042b-alarmID=0x09360001;Link bandwidth lost totally. (TrunkIndex=3, TrunkIfIndex=666, TrunkId=5, TrunkName=Eth-Trunk5, Reason=No link is selected.)
+Jan 24 2026 00:02:48 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpStateDown_active(l):CID=0x80480657-alarmID=0x09362015;The LACP status of the member port changes to down. (TrunkIndex=666,PortIfIndex=8,TrunkId=5,TrunkName=Eth-Trunk5,PortName=50|100GE1/0/0,Reason=LACP negotiation fails.)
+Jan 24 2026 00:02:48 LSLWSN_RN01_BG02-HWNE40E %%01LACP/4/LACP_STATE_DOWN(l):CID=0x80480657-Slot=1;The LACP state is down. (PortName=50|100GE1/0/0, TrunkName=Eth-Trunk5, LastReceivePacketTime=[2026-01-24 00:02:47:740], Reason=The remote interface was not selected. Please check the remote interface's status and configurations.)
+Jan 24 2026 00:02:47 LSLWSN_RN01_BG02-HWNE40E %%01LACP/2/hwLacpPDUChange_active(l):CID=0x807a042b-alarmID=0x09360003;The LACP member interface's status changed from selected to unselected due to the PDU change. (TrunkIndex=3, PortIfIndex=8, TrunkId=5, TrunkName=Eth-Trunk5, PortName=50|100GE1/0/0, OldPduInfo=b1Synchronization:1, NewPduInfo=b1Synchronization:0, ReasonCode=Actor state's synchronization bit changed in the received PDU)
+Jan 24 2026 00:02:47 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_active(l):CID=0x80740436-alarmID=0x00f102ce;The BFD session went Down. (Index=16413, SessName=dyn_16413, LocalDiscriminator=16413, Diagnosis=1, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=2164326400, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=DetectDown)
+Jan 24 2026 00:02:47 LSLWSN_RN01_BG02-HWNE40E %%01BFD/4/STACHG_TODWN(l):CID=0x80740436;BFD session changed to Down. (SlotNumber=1, Discriminator=16413, Diagnostic=DetectDown, Applications=BGP6, ProcessPST=False, BindInterfaceName=Eth-Trunk5.2900, InterfacePhysicalState=Up, InterfaceProtocolState=Down, TunnelName=-, DownReason=FEI Notify, NpDownTime=2026-1-24,0:2:47.468, PeerIp=240A:4021:8934:86F1:302::)
+Jan 24 2026 00:02:46 LSLWSN_RN01_BG02-HWNE40E %%01LACP/4/LACP_STATE_DOWN(l):CID=0x80480657-Slot=1;The LACP state is down. (PortName=50|100GE1/0/0, TrunkName=Eth-Trunk5, LastReceivePacketTime=[2026-01-24 00:02:45:201], Reason=No LACPDUs were received when the timer expired. Please check link connections or remote interface's status.)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_clear(l):CID=0x807a042b-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=50|100GE1/0/0, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/hwBgpBackwardTransition_active(l):CID=0x80130658-alarmID=0x00f1039c;The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, InstanceId=3, BgpPeerLastError=66, BgpPeerState=1, LocalIfName=Eth-Trunk5.2900, Reason=BGP direct connect-interface down, Description=TO-GDBG01)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/bgpBackwardTransition_active(l):CID=0x80130658-alarmID=0x0879000f;The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, BgpPeerLastError=66, BgpPeerState=1, LocalIfName=Eth-Trunk5.2900, Reason=BGP direct connect-interface down, Description=TO-GDBG01)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01IPV6/2/ipv6IfStateChange_active(l):CID=0x807a042b-alarmID=0x08520004;The IPv6 status changes. (ifName=Eth-Trunk5.2900, AdminStatus=UP, OperStatus=DOWN, Reason=The interface is Down.)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_active(l):CID=0x807a042b-alarmID=0x08520003;The interface status changes. (ifName=Eth-Trunk5.2900, AdminStatus=UP, OperStatus=DOWN, Reason=The main interface is down, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_active(l):CID=0x807a042b-alarmID=0x08520003;The interface status changes. (ifName=50|100GE1/0/0, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_active(l):CID=0x807a042b-alarmID=0x08520003;The interface status changes. (ifName=Eth-Trunk5, AdminStatus=UP, OperStatus=DOWN, Reason=The conditions for the activation of the interface are not met, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:02:45 LSLWSN_RN01_BG02-HWNE40E %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc053f-Slot=1;The physical status of the Port0 on Card0 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Jan 24 2026 00:01:21 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_clear(l):CID=0x80740436-alarmID=0x00f102ce-clearType=service_resume;The BFD session Down alarm was cleared. (Index=16413, SessName=dyn_16413, LocalDiscriminator=16413, Diagnosis=0, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=2164326400, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=No Diagnostic)
+Jan 24 2026 00:01:21 LSLWSN_RN01_BG02-HWNE40E %%01BFD/4/STACHG_TOUP(l):CID=0x80740436;BFD session changed to Up. (SlotNumber=1, Discriminator=16413, FormerStatus=Down, Applications=BGP6, BindInterfaceName=Eth-Trunk5.2900, ProcessPST=False, TunnelName=-, PeerIp=240A:4021:8934:86F1:302::)
+Jan 24 2026 00:01:10 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_active(l):CID=0x80740436-alarmID=0x00f102ce;The BFD session went Down. (Index=16413, SessName=dyn_16413, LocalDiscriminator=16413, Diagnosis=0, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=2164326400, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=No Diagnostic)
+Jan 24 2026 00:01:07 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_clear(l):CID=0x80740436-alarmID=0x00f102ce-clearType=service_resume;The BFD session Down alarm was cleared. (Index=16412, SessName=dyn_16412, LocalDiscriminator=16412, Diagnosis=1, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=4294967295, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=DetectDown)
+Jan 24 2026 00:01:05 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/hwBgpBackwardTransition_clear(l):CID=0x80130658-alarmID=0x00f1039c-clearType=service_resume;The BGP FSM enters the Established state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, InstanceId=3, BgpPeerLastError=66, BgpPeerState=6, LocalIfName=Eth-Trunk5.2900, Reason=Alarm clear, Description=TO-GDBG01) 
+
+Jan 24 2026 00:01:05 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/bgpBackwardTransition_clear(l):CID=0x80130658-alarmID=0x0879000f-clearType=service_resume;The BGP FSM enters the Established state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, BgpPeerLastError=66, BgpPeerState=6, LocalIfName=Eth-Trunk5.2900, Reason=Alarm clear, Description=TO-GDBG01)
+Jan 24 2026 00:00:59 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_clear(l):CID=0x807a042b-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk5.2900, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:00:59 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_clear(l):CID=0x807a042b-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk5, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:00:58 LSLWSN_RN01_BG02-HWNE40E %%01LACP/4/LACP_STATE_DOWN(l):CID=0x80480657-Slot=1;The LACP state is down. (PortName=50|100GE1/0/0, TrunkName=Eth-Trunk5, LastReceivePacketTime=[2026-01-24 00:00:57:963], Reason=The remote interface was not selected. Please check the remote interface's status and configurations.)
+Jan 24 2026 00:00:56 LSLWSN_RN01_BG02-HWNE40E %%01BFD/2/hwBfdSessFaultDown_active(l):CID=0x80740436-alarmID=0x00f102ce;The BFD session went Down. (Index=16412, SessName=dyn_16412, LocalDiscriminator=16412, Diagnosis=1, BindIfName=Eth-Trunk5.2900, Description=, FeNodeID=2164326400, PeerIp=240A:4021:8934:86F1:302::, LinkType=D_IP_IF, BindVpnName=ChinaMobile_Gn, TunnelName=-, DownReason=DetectDown)
+Jan 24 2026 00:00:56 LSLWSN_RN01_BG02-HWNE40E %%01BFD/4/STACHG_TODWN(l):CID=0x80740436;BFD session changed to Down. (SlotNumber=1, Discriminator=16412, Diagnostic=DetectDown, Applications=BGP6, ProcessPST=False, BindInterfaceName=Eth-Trunk5.2900, InterfacePhysicalState=Up, InterfaceProtocolState=Down, TunnelName=-, DownReason=FEI Notify, NpDownTime=2026-1-24,0:0:56.453, PeerIp=240A:4021:8934:86F1:302::)
+Jan 24 2026 00:00:55 LSLWSN_RN01_BG02-HWNE40E %%01LACP/4/LACP_STATE_DOWN(l):CID=0x80480657-Slot=1;The LACP state is down. (PortName=50|100GE1/0/0, TrunkName=Eth-Trunk5, LastReceivePacketTime=[2026-01-24 00:00:54:197], Reason=No LACPDUs were received when the timer expired. Please check link connections or remote interface's status.)
+Jan 24 2026 00:00:54 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_clear(l):CID=0x807a042b-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=50|100GE1/0/0, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:00:54 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/hwBgpBackwardTransition_active(l):CID=0x80130658-alarmID=0x00f1039c;The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, InstanceId=3, BgpPeerLastError=66, BgpPeerState=1, LocalIfName=Eth-Trunk5.2900, Reason=BGP direct connect-interface down, Description=TO-GDBG01)
+Jan 24 2026 00:00:54 LSLWSN_RN01_BG02-HWNE40E %%01BGP/2/bgpBackwardTransition_active(l):CID=0x80130658-alarmID=0x0879000f;The BGP FSM moves from a higher numbered state to a lower numbered state. (BgpPeerRemoteAddr=240A:4021:8934:86F1:302::, BgpPeerLastError=66, BgpPeerState=1, LocalIfName=Eth-Trunk5.2900, Reason=BGP direct connect-interface down, Description=TO-GDBG01)
+Jan 24 2026 00:00:54 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_active(l):CID=0x807a042b-alarmID=0x08520003;The interface status changes. (ifName=Eth-Trunk5.2900, AdminStatus=UP, OperStatus=DOWN, Reason=The main interface is down, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:00:54 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_active(l):CID=0x807a042b-alarmID=0x08520003;The interface status changes. (ifName=50|100GE1/0/0, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:00:54 LSLWSN_RN01_BG02-HWNE40E %%01IFNET/2/linkDown_active(l):CID=0x807a042b-alarmID=0x08520003;The interface status changes. (ifName=Eth-Trunk5, AdminStatus=UP, OperStatus=DOWN, Reason=The conditions for the activation of the interface are not met, mainIfname=Eth-Trunk5)
+Jan 24 2026 00:00:54 LSLWSN_RN01_BG02-HWNE40E %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc053f-Slot=1;The physical status of the Port0 on Card0 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Jan 23 2026 20:01:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250910023001.log.zip)
+Jan 23 2026 13:18:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250909194455.log.zip)
+Jan 23 2026 13:04:35 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260119022549.pads.zip)
+Jan 23 2026 12:32:14 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260118203321.pads.zip)
+Jan 23 2026 06:41:34 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250909125808.log.zip)
+Jan 23 2026 06:34:35 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260118143435.pads.zip)
+Jan 23 2026 00:34:39 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260118084419.pads.zip)
+Jan 23 2026 00:25:26 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250909061315.log.zip)
+Jan 22 2026 18:44:21 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260118024613.pads.zip)
+Jan 22 2026 18:03:47 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250909000427.log.zip)
+Jan 22 2026 12:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260117205337.pads.zip)
+Jan 22 2026 11:19:54 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250908173747.log.zip)
+Jan 22 2026 06:46:46 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260117145528.pads.zip)
+Jan 22 2026 05:11:17 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250908105958.log.zip)
+Jan 22 2026 00:59:23 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260117085945.pads.zip)
+Jan 21 2026 22:34:20 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250908044433.log.zip)
+Jan 21 2026 18:59:24 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260117030957.pads.zip)
+Jan 21 2026 15:52:02 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250907221432.log.zip)
+Jan 21 2026 13:04:35 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/pads/pads_17_20260116211418.pads.zip)
+Jan 21 2026 09:19:42 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc0547-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=45, hwPhysicalPortName=GigabitEthernet2/0/1)
+Jan 21 2026 09:19:39 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthRxFlowFallAlarm_clear(l):CID=0x80fc0547-alarmID=0x08012279-clearType=service_resume;Traffic fall clear alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=44, hwPhysicalPortName=GigabitEthernet2/0/0)
+Jan 21 2026 09:19:29 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc0547-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=44, hwPhysicalPortName=GigabitEthernet2/0/0)
+Jan 21 2026 09:19:13 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthTxFlowFallAlarm_clear(l):CID=0x80fc0547-alarmID=0x0801227a-clearType=service_resume;Traffic fall clear alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=45, hwPhysicalPortName=GigabitEthernet2/0/1)
+Jan 21 2026 09:17:41 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc0547-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=45, hwPhysicalPortName=GigabitEthernet2/0/1)
+Jan 21 2026 09:17:38 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthRxFlowFallAlarm_active(l):CID=0x80fc0547-alarmID=0x08012279;Traffic fall alarm in the receive direction of an Ethernet interface.(hwPhysicalPortIfIndex=44, hwPhysicalPortName=GigabitEthernet2/0/0)
+Jan 21 2026 09:17:28 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc0547-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=44, hwPhysicalPortName=GigabitEthernet2/0/0)
+Jan 21 2026 09:17:12 LSLWSN_RN01_BG02-HWNE40E %%01DEVM/2/hwEthTxFlowFallAlarm_active(l):CID=0x80fc0547-alarmID=0x0801227a;Traffic fall alarm in the transmit direction of an Ethernet interface.(hwPhysicalPortIfIndex=45, hwPhysicalPortName=GigabitEthernet2/0/1)
+Jan 21 2026 09:09:54 LSLWSN_RN01_BG02-HWNE40E %%01INFO/4/IM_LOGFILE_AGING_DELETE(s):CID=0x8060041c;One log file was deleted due to aging.(LogFileName=17#cfcard:/logfile/diaglog_17_20250907152924.log.zip)

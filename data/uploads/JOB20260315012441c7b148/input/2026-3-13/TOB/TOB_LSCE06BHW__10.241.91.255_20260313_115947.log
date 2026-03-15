@@ -1,0 +1,1229 @@
+﻿<LSCE06BHW>screen-length 0 temporary
+Info: The configuration takes effect on the current user terminal interface only.
+<LSCE06BHW>display version
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.180 (NE40E V800R010C10SPC500)
+Copyright (C) 2012-2018 Huawei Technologies Co., Ltd.
+HUAWEI NE40E-X8 uptime is 1780 days, 1 hour, 14 minutes 
+Patch Version: V800R010SPH075
+
+NE40E-X8 version information:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+BKP  version information:
+  PCB         Version : CR56BKP08B REV C
+  MPU  Slot  Quantity : 0
+  SRU  Slot  Quantity : 2
+  SFU  Slot  Quantity : 1
+  LPU  Slot  Quantity : 8
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+MPU version information:
+
+MPU (Master) 9 : uptime is 1780 days, 1 hour, 10 minutes
+  StartupTime 2021/04/28   18:49:27
+  SDRAM Memory Size   : 4096 M bytes
+  FLASH Memory Size   : 32 M bytes
+  NVRAM Memory Size   : 4096 K bytes
+  CFCARD Memory Size  : 1921 M bytes
+  CFCARD2 Memory Size : 1921 M bytes
+  RPUA CR5D0SRUA570 version information
+  PCB         Version : CR56RPUA REV C
+  EPLD        Version : 104
+  FPGA        Version : 002
+  FRA version information
+  PCB         Version : CR57FRA200A REV C
+  FPGA        Version : 108
+  BootROM     Version : 06.14
+  BootLoad    Version : 06.14
+  MonitorBUS version information:
+  Software    Version : 8.103
+
+MPU (Slave) 10 : uptime is 1780 days, 1 hour, 8 minutes
+  StartupTime 2021/04/28   18:51:14
+  SDRAM Memory Size   : 4096 M bytes
+  FLASH Memory Size   : 32 M bytes
+  NVRAM Memory Size   : 4096 K bytes
+  CFCARD Memory Size  : 1921 M bytes
+  CFCARD2 Memory Size : 1921 M bytes
+  RPUA CR5D0SRUA570 version information
+  PCB         Version : CR56RPUA REV C
+  EPLD        Version : 104
+  FPGA        Version : 002
+  FRA version information
+  PCB         Version : CR57FRA200A REV C
+  FPGA        Version : 108
+  BootROM     Version : 06.14
+  BootLoad    Version : 06.14
+  MonitorBUS version information:
+  Software    Version : 8.103
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+LPU/SPU version information:
+
+LPU 1 : uptime is 1780 days, 1 hour, 5 minutes
+  StartupTime 2021/04/28   18:54:43
+  Host processor :
+  SDRAM Memory Size   : 4096 M bytes
+  Flash Memory Size   : 128 M bytes
+  LPU CR5DLPUFA07J version information:
+  PCB Version         : CR57LPUF120A REV C
+  EPLD Version        : 101
+  FPGA Version        : 101
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.14
+  BootLoad Version    : 06.14
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D0EFGFA71 version information 
+  StartupTime         : 2021/04/28    18:55:06 
+  PCB Version         : CR57EFGFB REV A
+  FPGA Version        : 105
+  CHIP Version        : 110
+  BOM Version         : 000
+  PIC1:CR5D0L5XFA72 version information 
+  StartupTime         : 2021/04/28    18:55:16 
+  PCB Version         : CR57L5XFB REV B
+  FPGA Version        : 104
+  CHIP Version        : 110
+  BOM Version         : 001
+  MonitorBUS version information:
+  Software Version : 10.86
+  Configure license items:
+  NULL
+
+VSU 8 : uptime is 1780 days, 1 hour, 5 minutes
+  StartupTime 2021/04/28   18:54:08
+  Host processor :
+  SDRAM Memory Size   : 4096 M bytes
+  Flash Memory Size   : 128 M bytes
+  VSU CR5DVSUF8010 version information:
+  PCB Version         : CR57VSUF80 REV C
+  EPLD Version        : 111
+  EPLD2 Version       : 106
+  EPLD3 Version       : 102
+  NP Version          : 100
+  TM  Version         : 110
+  BootROM Version     : 06.14
+  BootLoad Version    : 06.14
+  NSE version information:
+  PCB Version         : NSE REV A
+  PIC0:CR5D00SP8010 version information 
+  StartupTime         : 2021/04/28    18:54:18 
+  PCB Version         : CR57DVSU REV B
+  EPLD Version        : 107
+  MonitorBUS version information:
+  Software Version : 10.86
+  Configure license items:
+  NULL
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+SFU version information:
+
+SFU 11 : uptime is 157 days, 4 hours, 54 minutes
+  StartupTime 2025/10/07   06:41:49
+  SDRAM Memory Size   : 256 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5DSFUIE07C version information:
+  PCB         Version : CR57SFU200C REV B
+  EPLD        Version : 101
+  BootROM     Version : 06.14
+  BootLoad    Version : 06.14
+  MonitorBUS version information:
+  Software Version : 6.61
+
+SFU 12 : uptime is 1780 days, 1 hour, 9 minutes
+  StartupTime 2021/04/28   18:50:08
+  SDRAM Memory Size   : 256 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5D0SRUA570 version information:
+  PCB         Version : CR57FRA200A REV C
+  EPLD        Version : 101
+  BootROM     Version : 06.14
+  BootLoad    Version : 06.14
+  MonitorBUS version information:
+  Software Version : 8.103
+
+SFU 13 : uptime is 1780 days, 1 hour, 9 minutes
+  StartupTime 2021/04/28   18:50:09
+  SDRAM Memory Size   : 256 M bytes
+  Flash Memory Size   : 64 M bytes
+  SFU CR5D0SRUA570 version information:
+  PCB         Version : CR57FRA200A REV C
+  EPLD        Version : 101
+  BootROM     Version : 06.14
+  BootLoad    Version : 06.14
+  MonitorBUS version information:
+  Software Version : 8.103
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CLK version information:
+
+CLK 14 : uptime is 1780 days, 1 hour, 10 minutes
+  StartupTime 2021/04/28   18:49:50
+  FPGA     Version : 012
+  DSP      Version : 10205005
+
+CLK 15 : uptime is 1780 days, 1 hour, 8 minutes
+  StartupTime 2021/04/28   18:51:44
+  FPGA     Version : 012
+  DSP      Version : 10205005
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+FAN version information: 
+
+FAN 18 MonitorBUS version information:
+  PCB      Version : CR52FCBH REV B
+  Software Version : 1.16
+
+FAN 19 MonitorBUS version information:
+  PCB      Version : CR52FCBH REV B
+  Software Version : 1.16
+
+<LSCE06BHW>display device
+NE40E-X8's Device status:
+-------------------------------------------------------------------------------
+Slot #   Type    Online     Register     Status     Role   LsId   Primary      
+-------------------------------------------------------------------------------
+1        LPU     Present    Registered   Normal     LC     0      NA           
+8        VSU     Present    Registered   Normal     LC     0      NA           
+9        MPU     Present    Registered   Normal     MMB    0      Master       
+10       MPU     Present    Registered   Normal     MMB    0      Slave        
+11       SFU     Present    Registered   Normal     OTHER  0      NA           
+12       SFU     Present    Registered   Normal     OTHER  0      NA           
+13       SFU     Present    Registered   Normal     OTHER  0      NA           
+14       CLK     Present    Registered   Normal     OTHER  0      Master       
+15       CLK     Present    Registered   Normal     OTHER  0      Slave        
+16       PWR     Present    Registered   Normal     OTHER  0      NA           
+17       PWR     Present    Registered   Normal     OTHER  0      NA           
+18       FAN     Present    Registered   Normal     OTHER  0      NA           
+19       FAN     Present    Registered   Normal     OTHER  0      NA           
+-------------------------------------------------------------------------------
+<LSCE06BHW>display cpu-usage
+Cpu utilization statistics at 2026-03-13 11:35:24 422 ms
+System cpu use rate is : 9%
+Cpu utilization for five seconds: 9% ;  one minute: 11% ;  five minutes: 9%.
+Max CPU Usage : 98%
+Max CPU Usage Stat. Time : 2021-04-28 18:48:29 962 ms
+---------------------------
+ServiceName  UseRate   
+---------------------------
+SYSTEM            7%
+BRAS              2%
+AAA               0%
+ARP               0%
+CMF               0%
+DEVICE            0%
+DHCP              0%
+ETRUNK            0%
+EUM               0%
+FEA               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+LDT               0%
+LINK              0%
+LOCAL PKT         0%
+MFLP              0%
+MSTP              0%
+ND                0%
+NETSTREAM         0%
+OAM               0%
+OSPF              0%
+PKI               0%
+PNP               0%
+PTPA              0%
+RBS               0%
+RGM               0%
+RM                0%
+SLA               0%
+SMLK              0%
+SVRO              0%
+TNLM              0%
+TUNNEL            0%
+VLAN              0%
+---------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0         8%       8%      10%       9%  99% 2021-04-28 18:48:30
+cpu1        10%      10%      12%      10%  97% 2021-04-28 18:48:20
+----------------------------------------------------------------
+<LSCE06BHW>display memory-usage
+Memory utilization statistics at 2026-03-13 11:35:26 733 ms
+System Total Memory Is: 4093596 Kbytes
+Total Memory Used Is: 927416 Kbytes
+Memory Using Percentage Is: 22%
+----------------------------------------
+Process memory information in the slot:
+----------------------------------------
+ProcessId  ProcessName      Used(Kbytes)
+----------------------------------------
+2          SM                     178352
+3          CFG                    478908
+1001       PROTO1                  33605
+1000       FESMB                   52151
+4          LM                      35187
+0          system                 149213
+----------------------------------------
+<LSCE06BHW>display memory all
+                          ^
+Error: Too many parameters found at '^' position.
+<LSCE06BHW>display interface brief
+PHY: Physical
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+(E): E-Trunk down
+(b): BFD down
+(B): Bit-error-detection down
+(e): ETHOAM down
+(d): Dampening Suppressed
+(p): port alarm down
+(ld): loop-detect trigger down
+(mf): mac-flapping blocked
+InUti/OutUti: input utility/output utility
+Interface                   PHY   Protocol  InUti OutUti   inErrors  outErrors
+Eth-Trunk0                  up    up        0.59%  0.01%          0          0
+  GigabitEthernet1/0/0      up    up        0.59%  0.01%          0          0
+Eth-Trunk1                  up    up        0.02%  1.13%          0          0
+  GigabitEthernet1/0/1      up    up        0.02%  1.13%          0          0
+Eth-Trunk1.10               up    up           0%     0%          0          0
+Eth-Trunk1.20               up    up           0%     0%          0          0
+Eth-Trunk1.30               up    up           0%     0%          0          0
+GigabitEthernet0/0/0        down  down         0%     0%          0          0
+GigabitEthernet1/0/2        down  down         0%     0%          0          0
+GigabitEthernet1/0/3        down  down         0%     0%          0          0
+GigabitEthernet1/0/4        down  down         0%     0%          0          0
+GigabitEthernet1/0/5        down  down         0%     0%          0          0
+GigabitEthernet1/0/6        down  down         0%     0%          0          0
+GigabitEthernet1/0/7        down  down         0%     0%          0          0
+GigabitEthernet1/0/8        down  down         0%     0%          0          0
+GigabitEthernet1/0/9        down  down         0%     0%          0          0
+GigabitEthernet1/0/10       down  down         0%     0%          0          0
+GigabitEthernet1/0/11       down  down         0%     0%          0          0
+GigabitEthernet1/0/12       down  down         0%     0%          0          0
+GigabitEthernet1/0/13       down  down         0%     0%          0          0
+GigabitEthernet1/0/14       down  down         0%     0%          0          0
+GigabitEthernet1/0/15       down  down         0%     0%          0          0
+GigabitEthernet1/0/16       down  down         0%     0%          0          0
+GigabitEthernet1/0/17       down  down         0%     0%          0          0
+GigabitEthernet1/0/18       down  down         0%     0%          0          0
+GigabitEthernet1/0/19       down  down         0%     0%          0          0
+GigabitEthernet1/0/20       down  down         0%     0%          0          0
+GigabitEthernet1/0/21       down  down         0%     0%          0          0
+GigabitEthernet1/0/22       down  down         0%     0%          0          0
+GigabitEthernet1/0/23       down  down         0%     0%          0          0
+GigabitEthernet1/1/0(10G)   up    up        0.05%  0.01%          0          0
+GigabitEthernet1/1/0.32(10G) up    up           0%     0%          0          0
+GigabitEthernet1/1/0.33(10G) up    up           0%     0%          0          0
+GigabitEthernet1/1/0.34(10G) up    down         0%     0%          0          0
+GigabitEthernet1/1/1(10G)   down  down         0%     0%          0          0
+GigabitEthernet1/1/2(10G)   up    up        0.01%  0.01%          0          0
+GigabitEthernet1/1/3(10G)   down  down         0%     0%          0          0
+GigabitEthernet1/1/4(10G)   down  down         0%     0%          0          0
+LoopBack0                   up    up(s)        0%     0%          0          0
+NULL0                       up    up(s)        0%     0%          0          0
+Virtual-Template0           up    up(s)        0%     0%          0          0
+<LSCE06BHW>display logbuffer
+Logging buffer configuration and contents : enabled
+Allowed max buffer size : 10240
+Actual buffer size : 1024
+Channel number : 4 , Channel name : logbuffer
+Dropped messages : 0
+Overwritten messages : 0
+Current messages : 448
+
+Dec 25 2025 15:40:14+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc04c9-alarmID=0x0813005a;The optical module was removed. (EntityPhysicalIndex=16847108, EntPhysicalIndex=16847108, EntPhysicalName=GigabitEthernet1/0/3, EntityTrapFaultID=135680, Reason=The optical module was removed.)
+Dec  5 2025 23:02:14+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Dec  5 2025 22:04:17+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Dec  5 2025 22:04:12+08:00 LSCE06BHW %%01INFO/3/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/SNMP_AUTHEN_FAILED is suppressed 1 in last 60 seconds.
+Dec  5 2025 22:04:12+08:00 LSCE06BHW %%01INFO/4/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/AUTHENTICATIONFAILURE is suppressed 1 in last 60 seconds.
+Dec  5 2025 22:03:44+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Dec  5 2025 22:03:36+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Dec  5 2025 22:03:19+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Dec  5 2025 22:03:19+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=8510034, PduType=GetBulk, Reason=Community is incorrect)
+Dec  5 2025 22:01:32+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Dec  5 2025 22:01:24+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Dec  5 2025 22:01:24+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=9043565, PduType=Get, Reason=Community is incorrect)
+Nov 24 2025 22:24:04+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Nov 24 2025 21:23:17+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 24 2025 21:22:44+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 24 2025 21:22:44+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=15830431, PduType=Get, Reason=Community is incorrect)
+Nov 24 2025 21:21:55+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 24 2025 21:21:42+08:00 LSCE06BHW %%01INFO/3/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/SNMP_AUTHEN_FAILED is suppressed 1 in last 60 seconds.
+Nov 24 2025 21:21:42+08:00 LSCE06BHW %%01INFO/4/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/AUTHENTICATIONFAILURE is suppressed 1 in last 60 seconds.
+Nov 24 2025 21:21:38+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 24 2025 21:20:50+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 24 2025 21:20:42+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 24 2025 21:20:42+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=1904895, PduType=Get, Reason=Community is incorrect)
+Nov 23 2025 13:26:59+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 23 2025 13:26:31+08:00 LSCE06BHW %%01INFO/3/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/SNMP_AUTHEN_FAILED is suppressed 2 in last 60 seconds.
+Nov 23 2025 13:26:31+08:00 LSCE06BHW %%01INFO/4/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/AUTHENTICATIONFAILURE is suppressed 2 in last 60 seconds.
+Nov 23 2025 13:26:27+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 23 2025 13:26:25+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 23 2025 13:26:09+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 23 2025 13:25:44+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 23 2025 13:25:36+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Nov 23 2025 13:25:36+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=11195550, PduType=Get, Reason=Community is incorrect)
+Nov  2 2025 00:22:48+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/2, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/2)
+Nov  2 2025 00:22:48+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847363, EntPhysicalIndex=16847363, EntPhysicalName=GigabitEthernet1/1/2, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Nov  2 2025 00:22:47+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847363,BoardID=1,CardID=1,PortID=2,InterfaceName=GigabitEthernet1/1/2,AlarmName=ETH_LOS)
+Nov  2 2025 00:22:47+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port2 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Nov  2 2025 00:13:57+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/2 was Down, and the optical power information was:Rx Power: -40.00dBm, Tx Power:  -3.38dBm.
+Nov  2 2025 00:13:57+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847363,BoardID=1,CardID=1,PortID=2,InterfaceName=GigabitEthernet1/1/2,AlarmName=ETH_LOS)
+Nov  2 2025 00:13:56+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847363, EntPhysicalIndex=16847363, EntPhysicalName=GigabitEthernet1/1/2, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Nov  2 2025 00:13:56+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/2, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/2)
+Nov  2 2025 00:13:56+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port2 on Card1 in slot 1 changed to Down. The possible cause is: LOCAL_FAULT 
+Oct 29 2025 16:07:58+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Oct 29 2025 15:06:09+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.191, VPN=_public_)
+Oct 29 2025 15:06:01+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN=_public_)
+Oct 29 2025 15:06:01+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.191, VpnName=_public_, RequestID=1, PduType=GetNext, Reason=Community is incorrect)
+Oct 14 2025 08:40:11+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Oct 14 2025 08:39:55+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Oct 14 2025 08:39:55+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=9632659, PduType=GetBulk, Reason=Community is incorrect)
+Oct 14 2025 08:39:10+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Oct 14 2025 08:39:02+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Oct 14 2025 08:39:02+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=15579646, PduType=Get, Reason=Community is incorrect)
+Oct 10 2025 12:46:08+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.188, VpnName=_public_, BlockCount=1).
+Oct  7 2025 06:41:49+08:00 LSCE06BHW %%01DEVM/1/hwChassisFail_clear(l):CID=0x80fa0003-alarmID=0x081300b4-clearType=service_resume;The chassis resumed from partial failure. (EntityPhysicalIndex=16777216, EntPhysicalIndex=16777216, EntPhysicalName=chassis, EntityTrapFaultID=131354, Reason=SFU in the chassis is not full.)
+Oct  7 2025 06:41:49+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fa0003-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17498112, EntPhysicalIndex=17498112, EntPhysicalName=SFU slot 11, EntityType=7, EntityTrapFaultID=132628, Reason=The board reset because of the exception.)
+Oct  7 2025 06:41:49+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fa0003-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17498112, EntPhysicalIndex=17498112, EntPhysicalName=SFU slot 11, EntityType=2, EntityTrapFaultID=132609, Reason=The board reset because of the heart beat loss.)
+Oct  7 2025 06:41:48+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc046c-Slot=11;Slot 11 SFU registered successfully.
+Oct  7 2025 06:41:48+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc046c-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17498113, EntPhysicalIndex=17498113, EntPhysicalName=CR57SFU200C0 11, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Oct  7 2025 06:41:47+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:MMB Reset,reset times:4.
+Oct  7 2025 06:41:47+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:Cold Reset,reset times:3.
+Oct  7 2025 06:41:46+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:Cold Reset,reset times:2.
+Oct  7 2025 06:41:46+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:Cold Reset,reset times:1.
+Oct  7 2025 06:41:03+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_active(l):CID=0x80fa0003-alarmID=0x0813002e;The board totally failed. (EntityPhysicalIndex=17498112, EntPhysicalIndex=17498112, EntPhysicalName=SFU slot 11, EntityType=7, EntityTrapFaultID=132628, Reason=The board reset because of the exception.)
+Oct  7 2025 06:40:52+08:00 LSCE06BHW %%01DEVM/1/hwChassisFail_active(l):CID=0x80fa0003-alarmID=0x081300b4;The chassis failed partially. (EntityPhysicalIndex=16777216, EntPhysicalIndex=16777216, EntPhysicalName=chassis, EntityTrapFaultID=131354, Reason=SFU in the chassis is not full.)
+Oct  7 2025 06:40:52+08:00 LSCE06BHW %%01DEVM/1/hwCommunicateError_clear(l):CID=0x804b03e9-alarmID=0x08130011-clearType=service_resume;The communication channel resumed.(EntityPhysicalIndex=66047, EntPhysicalIndex=66047, EntPhysicalName=11-9, EntityTrapEntType=1, EntityTrapFaultID=140310, EntityCommunicateType=4, Reason=The control channel of the board is abnormal.)
+Oct  7 2025 06:40:52+08:00 LSCE06BHW %%01DEVM/1/hwCommunicateError_clear(l):CID=0x804b04b4-alarmID=0x08130011-clearType=service_resume;The communication channel resumed.(EntityPhysicalIndex=66047, EntPhysicalIndex=66047, EntPhysicalName=11-10, EntityTrapEntType=1, EntityTrapFaultID=140310, EntityCommunicateType=4, Reason=The control channel of the board is abnormal.)
+Oct  7 2025 06:40:51+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_active(l):CID=0x80fa0003-alarmID=0x0813002e;The board totally failed. (EntityPhysicalIndex=17498112, EntPhysicalIndex=17498112, EntPhysicalName=SFU slot 11, EntityType=2, EntityTrapFaultID=132609, Reason=The board reset because of the heart beat loss.)
+Oct  7 2025 06:40:31+08:00 LSCE06BHW %%01LCM/2/HWChannelFault(l):CID=0x804b04b4-Slot=10;The channel between 10:eth3 and 11:eth0 is faulty.
+Oct  7 2025 06:40:31+08:00 LSCE06BHW %%01LCM/2/HWChannelFault(l):CID=0x804b03e9;The channel between 9:eth3 and 11:eth1 is faulty.
+Oct  7 2025 06:40:31+08:00 LSCE06BHW %%01DEVM/1/hwCommunicateError_active(l):CID=0x804b03e9-alarmID=0x08130011;The communication channel failed.(EntityPhysicalIndex=66047, EntPhysicalIndex=66047, EntPhysicalName=11-9, EntityTrapEntType=1, EntityTrapFaultID=140310, EntityCommunicateType=4, Reason=The control channel of the board is abnormal.)
+Oct  7 2025 06:40:31+08:00 LSCE06BHW %%01LCM/2/HWChannelFault(l):CID=0x804b03e9;The channel between 9:eth1 and 11:eth0 is faulty.
+Oct  7 2025 06:40:30+08:00 LSCE06BHW %%01DEVM/1/hwCommunicateError_active(l):CID=0x804b04b4-alarmID=0x08130011;The communication channel failed.(EntityPhysicalIndex=66047, EntPhysicalIndex=66047, EntPhysicalName=11-10, EntityTrapEntType=1, EntityTrapFaultID=140310, EntityCommunicateType=4, Reason=The control channel of the board is abnormal.)
+Oct  7 2025 06:40:30+08:00 LSCE06BHW %%01LCM/2/HWChannelFault(l):CID=0x804b04b4-Slot=10;The channel between 10:eth1 and 11:eth1 is faulty.
+Sep 24 2025 12:25:17+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Sep 24 2025 11:23:48+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 24 2025 11:23:40+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 24 2025 11:23:40+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.191, VpnName=_public_, RequestID=1, PduType=GetNext, Reason=Community is incorrect)
+Sep 22 2025 18:50:48+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Sep 22 2025 17:52:14+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 22 2025 17:51:57+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 22 2025 17:51:57+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.191, VpnName=_public_, RequestID=0, PduType=Get, Reason=Community is incorrect)
+Sep 22 2025 17:50:01+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 22 2025 17:49:53+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 22 2025 17:49:53+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.191, VpnName=_public_, RequestID=1, PduType=GetNext, Reason=Community is incorrect)
+Sep 11 2025 22:08:28+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Sep 11 2025 21:09:49+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 11 2025 21:09:33+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 11 2025 21:09:33+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.191, VpnName=_public_, RequestID=0, PduType=Get, Reason=Community is incorrect)
+Sep 11 2025 21:06:20+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 11 2025 21:06:12+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN=_public_)
+Sep 11 2025 21:06:12+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.191, VpnName=_public_, RequestID=1, PduType=GetNext, Reason=Community is incorrect)
+Sep 10 2025 13:06:14+08:00 LSCE06BHW %%01INFO/3/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/SNMP_AUTHEN_FAILED is suppressed 1 in last 60 seconds.
+Sep 10 2025 13:06:14+08:00 LSCE06BHW %%01INFO/4/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/AUTHENTICATIONFAILURE is suppressed 1 in last 60 seconds.
+Sep 10 2025 13:05:58+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.192, VPN=_public_)
+Sep 10 2025 13:05:41+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN=_public_)
+Sep 10 2025 13:05:27+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.192, VPN=_public_)
+Sep 10 2025 13:05:19+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.192, VPN=_public_)
+Sep 10 2025 13:05:19+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.192, VpnName=_public_, RequestID=10928930, PduType=Get, Reason=Community is incorrect)
+Sep 10 2025 00:12:02+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Sep  9 2025 23:12:41+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Sep  9 2025 23:12:09+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Sep  9 2025 23:12:09+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=3063101, PduType=GetBulk, Reason=Community is incorrect)
+Sep  9 2025 23:11:13+08:00 LSCE06BHW %%01INFO/3/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/SNMP_AUTHEN_FAILED is suppressed 1 in last 60 seconds.
+Sep  9 2025 23:11:13+08:00 LSCE06BHW %%01INFO/4/SUPPRESS_LOGINFO(l):CID=0x80600410;Log SNMP/AUTHENTICATIONFAILURE is suppressed 1 in last 60 seconds.
+Sep  9 2025 23:11:12+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Sep  9 2025 23:10:55+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Sep  9 2025 23:10:28+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Sep  9 2025 23:10:20+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Sep  9 2025 23:10:20+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=6691747, PduType=Get, Reason=Community is incorrect)
+Aug 12 2025 17:17:23+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/0.34, AdminStatus=UP, OperStatus=DOWN, Reason=The link protocol is down, mainIfname=GigabitEthernet1/1/0)
+Aug 12 2025 17:12:27+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/0.34, AdminStatus=UP, OperStatus=UP, Reason=The link protocol is up, mainIfname=GigabitEthernet1/1/0)
+Aug  6 2025 04:03:44+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1.30, Nexthop=10.241.91.93, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 04:03:44+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=GigabitEthernet1/1/0.33, Nexthop=10.241.91.89, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 04:03:29+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=GigabitEthernet1/1/0.33, Nexthop=10.241.91.89, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 04:03:29+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1.30, Nexthop=10.241.91.93, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 04:03:28+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1.30, Nexthop=10.241.91.93, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 04:03:28+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=GigabitEthernet1/1/0.33, Nexthop=10.241.91.89, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 04:02:34+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=GigabitEthernet1/1/0.33, Nexthop=10.241.91.89, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 04:02:34+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1.30, Nexthop=10.241.91.93, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 03:18:01+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1.30, Nexthop=10.241.91.93, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 03:18:01+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=GigabitEthernet1/1/0.33, Nexthop=10.241.91.89, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 03:16:47+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=ChuanShuZhuanXian, ProcessID=2974, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1.30, Nexthop=10.241.91.93, Neighbour=0.0.0.0, Preference=150, Metric=1)
+Aug  6 2025 02:32:45+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=8899, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 02:17:45+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=8099, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 02:02:44+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=7199, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 01:47:44+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=6299, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 01:32:44+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=5399, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 01:17:44+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=4499, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 01:02:44+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=3599, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 00:47:45+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=2700, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 00:32:45+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=1800, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 00:17:45+08:00 LSCE06BHW %%01OSPF/3/RCV_ERR_PACKET(l):CID=0x80820474;OSPFv2 received error packet and dropped it.(ProcessId=2974, PktType=1, ErrPktCnt=900, LocalComp=0x80820474, PeerComp=0x80650473, IfName=Eth-Trunk1.30, AreaId=0.0.0.0, ErrPktReason=The hello/dead interval of the packet is different from that on the interface)
+Aug  6 2025 00:02:16+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk1.30, AdminStatus=UP, OperStatus=UP, Reason=The link protocol is up, mainIfname=Eth-Trunk1)
+Aug  6 2025 00:01:15+08:00 LSCE06BHW %%01L3VPN/2/L3V_TRAP_VRF_DOWN_clear(l):CID=0x806f2713-alarmID=0x09110000-clearType=service_resume;The interface bound to the VPN instance went Up. (VpnInstanceName=ChuanShuZhuanXian, IfName=GigabitEthernet1/1/0.33, IfCurRowStatus=1, VRFOperationStatus=1)
+Aug  6 2025 00:01:15+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/0.33, AdminStatus=UP, OperStatus=UP, Reason=The link protocol is up, mainIfname=GigabitEthernet1/1/0)
+Aug  5 2025 00:40:47+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1, Nexthop=10.241.91.21, Neighbour=0.0.0.0, Preference=150, Metric=1020)
+Aug  5 2025 00:40:47+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk0, Nexthop=10.241.91.17, Neighbour=0.0.0.0, Preference=150, Metric=1010)
+Aug  4 2025 16:40:59+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Aug  4 2025 15:41:54+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Aug  4 2025 15:41:21+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Aug  4 2025 15:41:21+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=1830921, PduType=GetBulk, Reason=Community is incorrect)
+Aug  4 2025 15:39:57+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Aug  4 2025 15:39:40+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Aug  4 2025 15:39:40+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=6424570, PduType=Get, Reason=Community is incorrect)
+Aug  4 2025 15:38:30+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.196, VPN=_public_)
+Aug  4 2025 15:38:22+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.196, VPN=_public_)
+Aug  4 2025 15:38:22+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.196, VpnName=_public_, RequestID=3538133, PduType=Get, Reason=Community is incorrect)
+Jul 25 2025 02:51:57+08:00 LSCE06BHW %%01NTP/4/NTP_PEER_SELE(l):CID=0x80260400;The peer selected by the system is 10.241.91.252.
+Jul 25 2025 02:45:30+08:00 LSCE06BHW %%01NTP/4/NTP_STRATUM_CHANGE(l):CID=0x80260400;System stratum changes from 16 to 3 after clock update.
+Jul 25 2025 02:45:30+08:00 LSCE06BHW %%01NTP/4/NTP_LEAP_CHANGE(l):CID=0x80260400;System leap changes from 3 to 0 after clock update.
+Jul 25 2025 02:42:40+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk0, Nexthop=10.241.91.17, Neighbour=0.0.0.0, Preference=150, Metric=1015)
+Jul 25 2025 02:42:40+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1, Nexthop=10.241.91.21, Neighbour=0.0.0.0, Preference=150, Metric=1020)
+Jun 23 2025 17:38:07+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Jun 23 2025 16:39:40+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPUNLOCK(s):CID=0x80d50412;The source IP was unlocked.(SourceIP=10.237.100.191, VPN=_public_)
+Jun 23 2025 16:39:32+08:00 LSCE06BHW %%01SNMP/4/SNMP_IPLOCK(s):CID=0x80d50412;The source IP was locked because of the failure of login through SNMP.(SourceIP=10.237.100.191, VPN=_public_)
+Jun 23 2025 16:39:32+08:00 LSCE06BHW %%01SNMP/3/SNMP_AUTHEN_FAILED(s):CID=0x80d50412;Failed to login through SNMP. (Version=v2c, UserName=**, Ip=10.237.100.191, VpnName=_public_, RequestID=0, PduType=Get, Reason=Community is incorrect)
+Jun  4 2025 21:00:37+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Jun  4 2025 19:56:05+08:00 LSCE06BHW %%01DEFEND/4/hwBaseSecurityTcpIpAttackDiscardedRateRising_clear(l):CID=0x807f04fc-Slot=1-alarmID=0x0c150008-clearType=service_resume;Security TCP-IP drop packets alarm cleared. (ChassisID=1, SlotID=1, Type=3, CurrentRateLow=171576, CurrentRateHigh=0, NotifyEnabled=2, RateThreshold=30000, RateInterval=600, ProtocolDescription=TCPSYN, Reason=TCPIP related traffic's discarded rate exceeded alarm threshold.)
+Jun  4 2025 19:52:05+08:00 LSCE06BHW %%01DEFEND/4/hwBaseSecurityTcpIpAttackDiscardedRateRising_active(l):CID=0x807f04fc-Slot=1-alarmID=0x0c150008;Security TCP-IP drop packets alarmed. (ChassisID=1, SlotID=1, Type=3, CurrentRateLow=171576, CurrentRateHigh=0, NotifyEnabled=1, RateThreshold=30000, RateInterval=600, ProtocolDescription=TCPSYN, Reason=TCPIP related traffic's discarded rate exceeded alarm threshold.)
+Jun  3 2025 11:42:35+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.254, VpnName=_public_, BlockCount=1).
+May 29 2025 16:06:29+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+May 22 2025 14:28:44+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+May 19 2025 18:19:36+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk1.20, AdminStatus=UP, OperStatus=UP, Reason=The link protocol is up, mainIfname=Eth-Trunk1)
+May 17 2025 15:25:03+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk1.10, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk1)
+May 17 2025 15:02:28+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=Eth-Trunk1.10, AdminStatus=DOWN, OperStatus=DOWN, Reason=The interface is shut down, mainIfname=Eth-Trunk1)
+May 17 2025 14:50:38+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk1.10, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=Eth-Trunk1)
+May 17 2025 12:20:38+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=object_delete;The interface status changes. (ifName=GigabitEthernet1/1/2.1006, AdminStatus=DOWN, OperStatus=DOWN, Reason=The interface is deleted, mainIfname=GigabitEthernet1/1/2)
+May 17 2025 12:17:51+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/2.1006, AdminStatus=DOWN, OperStatus=DOWN, Reason=The interface is shut down, mainIfname=GigabitEthernet1/1/2)
+May 17 2025 11:41:51+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/2.1006, AdminStatus=UP, OperStatus=UP, Reason=The link protocol is up, mainIfname=GigabitEthernet1/1/2)
+May 17 2025 11:16:51+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=Eth-Trunk1.10, AdminStatus=DOWN, OperStatus=DOWN, Reason=The interface is shut down, mainIfname=Eth-Trunk1)
+May 17 2025 10:40:54+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=Eth-Trunk1.10, AdminStatus=UP, OperStatus=UP, Reason=The link protocol is up, mainIfname=Eth-Trunk1)
+May 16 2025 00:25:38+08:00 LSCE06BHW %%01L3VPN/2/L3V_TRAP_VRF_DOWN_clear(l):CID=0x806f2713-alarmID=0x09110000-clearType=service_resume;The interface bound to the VPN instance went Up. (VpnInstanceName=CMIOT5GXZZZQJXT.XZ, IfName=GigabitEthernet1/1/0.32, IfCurRowStatus=1, VRFOperationStatus=1)
+May 16 2025 00:25:38+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/0.32, AdminStatus=UP, OperStatus=UP, Reason=The link protocol is up, mainIfname=GigabitEthernet1/1/0)
+May 14 2025 01:02:54+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+May 12 2025 19:44:03+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+May 12 2025 17:34:33+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/2, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/2)
+May  8 2025 16:27:49+08:00 LSCE06BHW %%01PIC/1/hwOpticalFail_active(l):CID=0x80fc04c9-alarmID=0x08130058;The optical module failed partially. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135936, ReasonDescription=GigabitEthernet1/0/2 is failed, the optical module on card is not matched)
+May  8 2025 16:27:47+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+May  8 2025 16:27:33+08:00 LSCE06BHW %%01PIC/1/hwOpticalFail_clear(l):CID=0x80fc04c9-alarmID=0x08130058-clearType=service_resume;The optical module resumed from partial failure. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135936, ReasonDescription =GigabitEthernet1/0/2 is failed, the optical module on card is not matched)
+May  8 2025 16:27:33+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc04c9-alarmID=0x0813005a;The optical module was removed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was removed.)
+May  7 2025 11:15:52+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.254, VpnName=_public_, BlockCount=1).
+May  1 2025 07:51:08+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Apr 29 2025 17:44:35+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.254, VpnName=_public_, BlockCount=1).
+Apr 23 2025 20:34:09+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Apr  1 2025 15:50:40+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Mar 26 2025 00:31:47+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847361,BoardID=1,CardID=1,PortID=0,InterfaceName=GigabitEthernet1/1/0,AlarmName=ETH_LOS)
+Mar 26 2025 00:31:46+08:00 LSCE06BHW %%01L3VPN/2/L3V_TRAP_VRF_DOWN_clear(l):CID=0x806f2713-alarmID=0x09110000-clearType=service_resume;The interface bound to the VPN instance went Up. (VpnInstanceName=CMIOT5GXZZZQRMYY.XZ, IfName=GigabitEthernet1/1/0, IfCurRowStatus=1, VRFOperationStatus=1)
+Mar 26 2025 00:31:46+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/0, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/0)
+Mar 26 2025 00:31:46+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847361, EntPhysicalIndex=16847361, EntPhysicalName=GigabitEthernet1/1/0, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Mar 24 2025 18:48:48+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Mar 19 2025 00:27:56+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1, Nexthop=10.241.91.21, Neighbour=0.0.0.0, Preference=150, Metric=1020)
+Mar 19 2025 00:27:56+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk0, Nexthop=10.241.91.17, Neighbour=0.0.0.0, Preference=150, Metric=1015)
+Mar 19 2025 00:27:52+08:00 LSCE06BHW %%01RM/4/RM_DELETE_DEFAULTRT(l):CID=0x80712717;The default route is deleted.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk0, Nexthop=10.241.91.17, Neighbour=0.0.0.0, Preference=150, Metric=65510)
+Mar 19 2025 00:27:52+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk1, Nexthop=10.241.91.21, Neighbour=0.0.0.0, Preference=150, Metric=1020)
+Mar 14 2025 14:17:38+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Mar  7 2025 17:04:36+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.35.254, VpnName=_public_, BlockCount=1).
+Mar  6 2025 02:40:52+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Feb  7 2025 02:24:38+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Jan 24 2025 14:26:36+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Jan 23 2025 10:23:09+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Jan 23 2025 09:10:44+08:00 LSCE06BHW %%01DEFEND/4/hwBaseSecurityTcpIpAttackDiscardedRateRising_clear(l):CID=0x807f04fc-Slot=1-alarmID=0x0c150008-clearType=service_resume;Security TCP-IP drop packets alarm cleared. (ChassisID=1, SlotID=1, Type=3, CurrentRateLow=70643, CurrentRateHigh=0, NotifyEnabled=2, RateThreshold=30000, RateInterval=600, ProtocolDescription=TCPSYN, Reason=TCPIP related traffic's discarded rate exceeded alarm threshold.)
+Jan 23 2025 09:02:44+08:00 LSCE06BHW %%01DEFEND/4/hwBaseSecurityTcpIpAttackDiscardedRateRising_active(l):CID=0x807f04fc-Slot=1-alarmID=0x0c150008;Security TCP-IP drop packets alarmed. (ChassisID=1, SlotID=1, Type=3, CurrentRateLow=70643, CurrentRateHigh=0, NotifyEnabled=1, RateThreshold=30000, RateInterval=600, ProtocolDescription=TCPSYN, Reason=TCPIP related traffic's discarded rate exceeded alarm threshold.)
+Jan 13 2025 19:33:13+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847364, EntPhysicalIndex=16847364, EntPhysicalName=GigabitEthernet1/1/3, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Jan 13 2025 19:32:45+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc04c9-alarmID=0x0813005a;The optical module was removed. (EntityPhysicalIndex=16847364, EntPhysicalIndex=16847364, EntPhysicalName=GigabitEthernet1/1/3, EntityTrapFaultID=135680, Reason=The optical module was removed.)
+Jan 13 2025 19:21:33+08:00 LSCE06BHW %%01PIC/1/hwOpticalFail_active(l):CID=0x80fc04c9-alarmID=0x08130058;The optical module failed partially. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135936, ReasonDescription=GigabitEthernet1/0/2 is failed, the optical module on card is not matched)
+Jan 13 2025 19:21:31+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Jan 13 2025 19:20:29+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc04c9-alarmID=0x0813005a;The optical module was removed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was removed.)
+Jan 10 2025 14:19:08+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847365, EntPhysicalIndex=16847365, EntPhysicalName=GigabitEthernet1/1/4, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Jan 10 2025 14:19:02+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847364, EntPhysicalIndex=16847364, EntPhysicalName=GigabitEthernet1/1/3, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Jan 10 2025 14:18:57+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847363, EntPhysicalIndex=16847363, EntPhysicalName=GigabitEthernet1/1/2, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Dec 31 2024 04:11:20+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Nov  4 2024 21:41:36+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Oct  8 2024 22:04:14+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Sep  2 2024 21:58:08+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+Jul  2 2024 23:46:39+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.192, VpnName=_public_, BlockCount=1).
+Jul  2 2024 19:19:35+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.192, VpnName=_public_, BlockCount=1).
+Jun 16 2024 07:41:38+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.196, VpnName=_public_, BlockCount=1).
+May  8 2024 14:13:02+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+May  8 2024 14:13:02+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.3, VpnName=_public_, BlockCount=1).
+May  8 2024 13:13:02+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.3, VpnName=_public_, BlockCount=2).
+May  8 2024 13:13:02+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.188, VpnName=_public_, BlockCount=1).
+May  8 2024 11:06:29+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847361,BoardID=1,CardID=1,PortID=0,InterfaceName=GigabitEthernet1/1/0,AlarmName=ETH_LOS)
+May  8 2024 11:06:22+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/0 was Down, and the optical power information was:Rx Power: -40.00dBm, Tx Power:  -3.31dBm.
+May  8 2024 11:06:21+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847361, EntPhysicalIndex=16847361, EntPhysicalName=GigabitEthernet1/1/0, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+May  8 2024 11:06:21+08:00 LSCE06BHW %%01L3VPN/2/L3V_TRAP_VRF_DOWN_active(l):CID=0x806f2713-alarmID=0x09110000;The interface bound to the VPN instance went Down. (VpnInstanceName=CMIOT5GXZZZQRMYY.XZ, IfName=GigabitEthernet1/1/0, IfCurRowStatus=2, VRFOperationStatus=2)
+May  8 2024 11:06:21+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/0, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/0)
+May  8 2024 11:06:21+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port0 on Card1 in slot 1 changed to Down. The possible cause is: LOCAL_FAULT 
+Apr 28 2024 18:13:24+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Apr 23 2024 17:31:32+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:31:28+08:00 LSCE06BHW %%01DEVM/3/hwLocalFaultAlarm_clear(l):CID=0x80fc04c9-alarmID=0x081320c6-clearType=service_resume;The local fault alarm has resumed.(IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 17:30:32+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:30:22+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:29:22+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:29:12+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:28:52+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:28:42+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:26:42+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:26:32+08:00 LSCE06BHW %%01DEVM/3/hwLocalFaultAlarm_active(l):CID=0x80fc04c9-alarmID=0x081320c6;The local fault alarm has occurred. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 17:23:02+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 17:23:01+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc04c9-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 17:21:17+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/1 was Down, and the optical power information was:Rx Power:  -6.48dBm, Tx Power:  -2.93dBm.
+Apr 23 2024 17:21:16+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc04c9-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 17:21:16+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 23 2024 17:21:16+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/1)
+Apr 23 2024 17:21:16+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Apr 23 2024 13:19:21+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/1)
+Apr 23 2024 13:19:21+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Apr 23 2024 13:19:21+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc04c9-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 13:16:11+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/1 was Down, and the optical power information was:Rx Power:  -6.72dBm, Tx Power:  -2.94dBm.
+Apr 23 2024 13:16:10+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc04c9-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 13:16:10+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 23 2024 13:16:10+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/1)
+Apr 23 2024 13:16:10+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Apr 23 2024 13:12:36+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc04c9-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 13:12:36+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/1)
+Apr 23 2024 13:12:36+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Apr 23 2024 13:12:36+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/1 was Down, and the optical power information was:Rx Power:  -6.68dBm, Tx Power:  -2.94dBm.
+Apr 23 2024 13:12:34+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Apr 23 2024 13:12:31+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 13:12:25+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc04c9-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 23 2024 13:12:11+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 23 2024 13:12:08+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/1 was Down, and the optical power information was:Rx Power:  -6.45dBm, Tx Power:  -2.93dBm.
+Apr 23 2024 13:12:07+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 23 2024 13:12:07+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/1)
+Apr 23 2024 13:12:07+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Apr 23 2024 10:52:06+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=object_delete;The interface status changes. (ifName=Eth-Trunk2, AdminStatus=UP, OperStatus=DOWN, Reason=The interface is deleted, mainIfname=Eth-Trunk2)
+Apr 23 2024 10:51:54+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=Eth-Trunk2, AdminStatus=UP, OperStatus=DOWN, Reason=The conditions for the activation of the interface are not met, mainIfname=Eth-Trunk2)
+Apr 20 2024 01:00:13+08:00 LSCE06BHW %%01BFD/4/STACHG_TOUP(l):CID=0x8074042f;BFD session changed to Up. (SlotNumber=1, Discriminator=16385, FormerStatus=Down, Applications=AUTO | STATICRT, BindInterfaceName=Eth-Trunk2, ProcessPST=False, TunnelName=-)
+Apr 19 2024 10:36:58+08:00 LSCE06BHW %%01L3VPN/2/L3V_TRAP_VRF_DOWN_clear(l):CID=0x806f2713-alarmID=0x09110000-clearType=service_resume;The interface bound to the VPN instance went Up. (VpnInstanceName=CMIOT5GXZZZQRMYY.XZ, IfName=Eth-Trunk2, IfCurRowStatus=1, VRFOperationStatus=1)
+Apr 18 2024 13:34:18+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 18 2024 13:34:17+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/1)
+Apr 18 2024 13:34:17+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Apr 18 2024 13:34:17+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc04c9-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 18 2024 13:34:08+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc04c9-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 18 2024 12:35:58+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 18 2024 12:35:55+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_clear(l):CID=0x80fc04c9-alarmID=0x081320c7-clearType=service_resume;The remote fault alarm has resumed. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 18 2024 12:35:48+08:00 LSCE06BHW %%01DEVM/1/hwOpticalInvalid_clear(l):CID=0x80fc04c9-alarmID=0x08130059-clearType=service_resume;The optical module resumed from total failure. (EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=136195,ReasonDescription=GigabitEthernet1/1/1 is failed, the optical module receive power is too high)
+Apr 18 2024 12:35:43+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/1 was Down, and the optical power information was:Rx Power:   0.84dBm, Tx Power:  -2.93dBm.
+Apr 18 2024 12:35:42+08:00 LSCE06BHW %%01DEVM/3/hwRemoteFaultAlarm_active(l):CID=0x80fc04c9-alarmID=0x081320c7;The remote fault alarm has occurred. (IfIndex=31, IfName=GigabitEthernet1/1/1)
+Apr 18 2024 12:35:42+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 18 2024 12:35:42+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/1)
+Apr 18 2024 12:35:42+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Apr 17 2024 00:10:25+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM1 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 17 2024 00:10:25+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM0 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 17 2024 00:10:25+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM1 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 17 2024 00:10:25+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM0 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 17 2024 00:07:18+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM1 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 17 2024 00:07:16+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM1 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 17 2024 00:07:11+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM0 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 17 2024 00:07:04+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM0 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Apr 15 2024 18:38:32+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/0, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/0)
+Apr 15 2024 18:38:32+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847361, EntPhysicalIndex=16847361, EntPhysicalName=GigabitEthernet1/1/0, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Apr 15 2024 18:38:25+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/0 was Down, and the optical power information was:Rx Power: -40.00dBm, Tx Power:  -3.25dBm.
+Apr 15 2024 18:38:23+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847361, EntPhysicalIndex=16847361, EntPhysicalName=GigabitEthernet1/1/0, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 15 2024 18:38:23+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/0, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/0)
+Apr 15 2024 18:38:23+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port0 on Card1 in slot 1 changed to Down. The possible cause is: LOCAL_FAULT 
+Apr 12 2024 10:50:12+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Apr 10 2024 10:36:31+08:00 LSCE06BHW %%01DEVM/1/hwOpticalInvalid_active(l):CID=0x80fc04c9-alarmID=0x08130059;The optical module failed completely. (EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=136195, ReasonDescription=GigabitEthernet1/1/1 is failed, the optical module receive power is too high)
+Apr 10 2024 10:36:11+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 10 2024 10:36:03+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/1)
+Apr 10 2024 10:36:03+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Apr 10 2024 10:36:02+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Apr 10 2024 10:28:21+08:00 LSCE06BHW %%01DEVM/1/hwOpticalInvalid_clear(l):CID=0x80fc04c9-alarmID=0x08130059-clearType=service_resume;The optical module resumed from total failure. (EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=136195,ReasonDescription=GigabitEthernet1/1/1 is failed, the optical module receive power is too high)
+Apr 10 2024 10:28:21+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847362,BoardID=1,CardID=1,PortID=1,InterfaceName=GigabitEthernet1/1/1,AlarmName=ETH_LOS)
+Apr 10 2024 10:28:14+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/1 was Down, and the optical power information was:Rx Power: -40.00dBm, Tx Power:  -2.93dBm.
+Apr 10 2024 10:28:13+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 10 2024 10:28:13+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/1)
+Apr 10 2024 10:28:13+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: LOCAL_FAULT 
+Apr  2 2024 15:54:06+08:00 LSCE06BHW %%01DEVM/1/hwOpticalInvalid_active(l):CID=0x80fc04c9-alarmID=0x08130059;The optical module failed completely. (EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=136195, ReasonDescription=GigabitEthernet1/1/1 is failed, the optical module receive power is too high)
+Apr  2 2024 15:53:38+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/1)
+Apr  2 2024 15:53:37+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/1)
+Apr  2 2024 15:53:37+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port1 on Card1 in slot 1 changed to Down. The possible cause is: REMOTE_FAULT 
+Apr  2 2024 15:53:37+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/1, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/1)
+Apr  2 2024 13:14:25+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847362, EntPhysicalIndex=16847362, EntPhysicalName=GigabitEthernet1/1/1, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Apr  2 2024 11:49:56+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_clear(l):CID=0x80fc04c9-alarmID=0x0813007c-clearType=service_resume;Loss of signal alarm resume.(hwPhysicalPortIfIndex=16847361,BoardID=1,CardID=1,PortID=0,InterfaceName=GigabitEthernet1/1/0,AlarmName=ETH_LOS)
+Apr  2 2024 11:49:54+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/0, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/0)
+Apr  2 2024 11:49:54+08:00 LSCE06BHW %%01PIC/1/hwPortDown_clear(l):CID=0x80fc04c9-alarmID=0x0813005b-clearType=service_resume;The status of the physical interface is Up.(EntityPhysicalIndex=16847361, EntPhysicalIndex=16847361, EntPhysicalName=GigabitEthernet1/1/0, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Up.)
+Apr  2 2024 11:49:46+08:00 LSCE06BHW %%01DEVM/1/hwLosAlarm_active(l):CID=0x80fc04c9-alarmID=0x0813007c;Loss of signal alarm.(hwPhysicalPortIfIndex=16847361,BoardID=1,CardID=1,PortID=0,InterfaceName=GigabitEthernet1/1/0,AlarmName=ETH_LOS)
+Apr  2 2024 11:49:40+08:00 LSCE06BHW %%01DRIVER/4/CARDOPTICALINFO(l):CID=0x80fc040a-Slot=1;CR57L5XFB 1/1/0 was Down, and the optical power information was:Rx Power: -40.00dBm, Tx Power:  -3.25dBm.
+Apr  2 2024 11:49:39+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847361, EntPhysicalIndex=16847361, EntPhysicalName=GigabitEthernet1/1/0, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr  2 2024 11:49:39+08:00 LSCE06BHW %%01DRIVER/3/HWPORTDOWNREASON(l):CID=0x80fc04c9-Slot=1;The physical status of the Port0 on Card1 in slot 1 changed to Down. The possible cause is: LOCAL_FAULT 
+Apr  2 2024 11:49:39+08:00 LSCE06BHW %%01IFNET/2/linkDown_active(l):CID=0x807a041c-alarmID=0x08520003;The interface status changes. (ifName=GigabitEthernet1/1/0, AdminStatus=UP, OperStatus=DOWN, Reason=Interface physical link is down, mainIfname=GigabitEthernet1/1/0)
+Apr  2 2024 11:26:57+08:00 LSCE06BHW %%01IFNET/2/linkDown_clear(l):CID=0x807a041c-alarmID=0x08520003-clearType=service_resume;The interface status changes. (ifName=GigabitEthernet1/1/0, AdminStatus=UP, OperStatus=UP, Reason=Interface physical link is up, mainIfname=GigabitEthernet1/1/0)
+Apr  2 2024 11:11:46+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847361, EntPhysicalIndex=16847361, EntPhysicalName=GigabitEthernet1/1/0, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Mar 18 2024 11:36:51+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Mar  4 2024 20:46:37+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Jan 10 2024 16:49:47+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Jan 10 2024 16:49:31+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc04c9-alarmID=0x0813005a;The optical module was removed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was removed.)
+Jan 10 2024 16:21:11+08:00 LSCE06BHW %%01TTY/4/TTY_LOGINFAILED(s):CID=0x809003ea;Failed to login. (Ip=**, UserName=**, Times=1, AccessType=CON, VpnName=)
+Jan 10 2024 16:20:21+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847117, EntPhysicalIndex=16847117, EntPhysicalName=GigabitEthernet1/0/12, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Jan 10 2024 16:20:10+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc04c9-alarmID=0x0813005a;The optical module was removed. (EntityPhysicalIndex=16847117, EntPhysicalIndex=16847117, EntPhysicalName=GigabitEthernet1/0/12, EntityTrapFaultID=135680, Reason=The optical module was removed.)
+Dec 12 2023 10:47:42+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Sep 27 2023 10:35:25+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Sep 19 2023 10:41:22+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Sep 15 2023 10:37:54+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Sep  8 2023 11:55:14+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Aug 29 2023 11:47:59+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Jun  7 2023 17:00:31+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.233.81.141, VpnName=_public_, BlockCount=1).
+Jun  6 2023 18:16:48+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+Jun  2 2023 11:22:14+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.254, VpnName=_public_, BlockCount=1).
+May 23 2023 10:57:52+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+May 19 2023 10:59:26+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+May  8 2023 10:42:24+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=1).
+May  5 2023 18:51:17+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.254, VpnName=_public_, BlockCount=1).
+May  5 2023 18:51:17+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.21, VpnName=_public_, BlockCount=2).
+Dec 16 2022 17:23:23+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.254, VpnName=_public_, BlockCount=1).
+Nov 18 2022 22:47:44+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.241.91.254, VpnName=_public_, BlockCount=1).
+Nov 17 2022 19:39:46+08:00 LSCE06BHW %%01NTP/2/NTP_SYNCHRONIZE_STATUS(l):CID=0x80260400;NTP state changed from synchronized to unsynchronized. (SynchronizationSourceAddress = 10.241.91.252 , VpnInstance = _public_, Reason = Peer reachability lost)
+Nov 17 2022 06:16:16+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.191, VpnName=_public_, BlockCount=1).
+Jun 22 2022 18:06:39+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.99.75, VpnName=_public_, BlockCount=1).
+Apr 24 2022 18:59:36+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_clear(l):CID=0x80fc04c9-alarmID=0x0813005a-clearType=service_resume;The optical module was installed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was installed.)
+Apr 24 2022 18:59:26+08:00 LSCE06BHW %%01DEVM/1/hwOpticalRemove_active(l):CID=0x80fc04c9-alarmID=0x0813005a;The optical module was removed. (EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=135680, Reason=The optical module was removed.)
+Apr 11 2022 22:15:37+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.233.81.145, VpnName=_public_, BlockCount=1).
+Mar 30 2022 21:10:41+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM1 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:10:41+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM0 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:10:41+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM1 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:10:41+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM0 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:10:06+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM1 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:10:05+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17825793, EntPhysicalIndex=17825793, EntPhysicalName=PEM0 POWER 16, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:10:02+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM0 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:10:01+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM1 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:09:19+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813001b-clearType=service_resume;The power module resumed from total failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM1 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Mar 30 2022 21:09:12+08:00 LSCE06BHW %%01DEVM/4/hwPowerInvalid_active(l):CID=0x80fc0012-alarmID=0x0813001b;The power module experienced a complete failure.(EntityPhysicalIndex=17891329, EntPhysicalIndex=17891329, EntPhysicalName=PEM1 POWER 17, EntityTrapFaultID=136963, Reason=Under-input-voltage occurred on the power module.)
+Jan 17 2022 17:38:05+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.190, VpnName=_public_, BlockCount=2).
+Jan 17 2022 16:38:05+08:00 LSCE06BHW %%01SSH/4/SSHS_IP_BLOCK_CLIENT(s):CID=0x8093044d;SSH client IP blocked due to authentication failure in last 1 hour. (IpAddress=10.237.100.190, VpnName=_public_, BlockCount=9).
+Apr 28 2021 18:56:09+08:00 LSCE06BHW %%01NTP/4/NTP_PEER_SELE(l):CID=0x80260400;The peer selected by the system is 10.241.91.252.
+Apr 28 2021 18:55:18+08:00 LSCE06BHW %%01RM/4/RM_ADD_DEFAULTRT(l):CID=0x80712717;The default route is added.(AddrFamily=IPv4, InstanceID=_public_, ProcessID=1, ProtocolID=OSPF, SubProtocolID=O_ASE, ExitIf=Eth-Trunk0, Nexthop=10.241.91.17, Neighbour=0.0.0.0, Preference=150, Metric=1010)
+Apr 28 2021 18:55:17+08:00 LSCE06BHW %%01LACP/2/hwLacpTotalLinkLoss_clear(l):CID=0x807a041c-alarmID=0x09360001-clearType=service_resume;Link bandwidth lost totally is resumed. (TrunkIndex=1, TrunkIfIndex=64, TrunkId=0, TrunkName=Eth-Trunk0, Reason=Link is selected.)
+Apr 28 2021 18:55:17+08:00 LSCE06BHW %%01LACP/2/hwLacpTotalLinkLoss_clear(l):CID=0x807a041c-alarmID=0x09360001-clearType=service_resume;Link bandwidth lost totally is resumed. (TrunkIndex=0, TrunkIfIndex=63, TrunkId=1, TrunkName=Eth-Trunk1, Reason=Link is selected.)
+Apr 28 2021 18:55:17+08:00 LSCE06BHW %%01TRUNK/3/hwExtAllMemberDownNotify_clear(l):CID=0x807a041c-alarmID=0x08532008-clearType=service_resume;The first member interface link status changes to up.(TrunkIfIndex=63, TrunkName=Eth-Trunk1)
+Apr 28 2021 18:55:17+08:00 LSCE06BHW %%01TRUNK/3/hwExtAllMemberDownNotify_clear(l):CID=0x807a041c-alarmID=0x08532008-clearType=service_resume;The first member interface link status changes to up.(TrunkIfIndex=64, TrunkName=Eth-Trunk0)
+Apr 28 2021 18:55:16+08:00 LSCE06BHW %%01PIC/1/hwCardInvalid_clear(l):CID=0x80fc04c9-alarmID=0x08130057-clearType=service_resume;The card resumed from total failure. (EntityPhysicalIndex=16847360, EntPhysicalIndex=16847360,EntPhysicalName=CR57L5XFB1 1/1, EntityType=4, EntityTrapFaultID=135432, ReasonDescription=The Subcard register succeeded)
+Apr 28 2021 18:55:16+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847122, EntPhysicalIndex=16847122, EntPhysicalName=GigabitEthernet1/0/17, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 28 2021 18:55:16+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847120, EntPhysicalIndex=16847120, EntPhysicalName=GigabitEthernet1/0/15, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 28 2021 18:55:16+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847119, EntPhysicalIndex=16847119, EntPhysicalName=GigabitEthernet1/0/14, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 28 2021 18:55:16+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847118, EntPhysicalIndex=16847118, EntPhysicalName=GigabitEthernet1/0/13, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 28 2021 18:55:16+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847117, EntPhysicalIndex=16847117, EntPhysicalName=GigabitEthernet1/0/12, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 28 2021 18:55:15+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847108, EntPhysicalIndex=16847108, EntPhysicalName=GigabitEthernet1/0/3, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 28 2021 18:55:15+08:00 LSCE06BHW %%01PIC/1/hwPortDown_active(l):CID=0x80fc04c9-alarmID=0x0813005b;The status of the physical interface is Down.(EntityPhysicalIndex=16847107, EntPhysicalIndex=16847107, EntPhysicalName=GigabitEthernet1/0/2, EntityTrapFaultID=144384, ReasonDescription=The status of the physical interface is Down.)
+Apr 28 2021 18:55:06+08:00 LSCE06BHW %%01PIC/1/hwCardInvalid_clear(l):CID=0x80fc04c9-alarmID=0x08130057-clearType=service_resume;The card resumed from total failure. (EntityPhysicalIndex=16847104, EntPhysicalIndex=16847104,EntPhysicalName=CR57EFGFB1 1/0, EntityType=4, EntityTrapFaultID=135432, ReasonDescription=The Subcard register succeeded)
+Apr 28 2021 18:54:43+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc04c9-Slot=1;Slot 1 LPU registered successfully.
+Apr 28 2021 18:54:43+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc04c9-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=16842753, EntPhysicalIndex=16842753, EntPhysicalName=CR57LPUF102A00 1, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:54:23+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c9-Slot=1;Board 1 reset, the reason is:Cold Reset,reset times:4.
+Apr 28 2021 18:54:23+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c9-Slot=1;Board 1 reset, the reason is:Cold Reset,reset times:3.
+Apr 28 2021 18:54:23+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c9-Slot=1;Board 1 reset, the reason is:Cold Reset,reset times:2.
+Apr 28 2021 18:54:23+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c9-Slot=1;Board 1 reset, the reason is:Cold Reset,reset times:1.
+Apr 28 2021 18:54:18+08:00 LSCE06BHW %%01PIC/1/hwCardInvalid_clear(l):CID=0x80fc04c1-alarmID=0x08130057-clearType=service_resume;The card resumed from total failure. (EntityPhysicalIndex=17305856, EntPhysicalIndex=17305856,EntPhysicalName=CR57DVSU0 8/0, EntityType=4, EntityTrapFaultID=135432, ReasonDescription=The Subcard register succeeded)
+Apr 28 2021 18:54:08+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc04c1-Slot=8;Slot 8 LPU registered successfully.
+Apr 28 2021 18:54:08+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc04c1-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17301505, EntPhysicalIndex=17301505, EntPhysicalName=CR57VSUF8000 8, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:54:00+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c1-Slot=8;Board 8 reset, the reason is:Cold Reset,reset times:4.
+Apr 28 2021 18:54:00+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c1-Slot=8;Board 8 reset, the reason is:Cold Reset,reset times:3.
+Apr 28 2021 18:54:00+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c1-Slot=8;Board 8 reset, the reason is:Cold Reset,reset times:2.
+Apr 28 2021 18:54:00+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04c1-Slot=8;Board 8 reset, the reason is:Cold Reset,reset times:1.
+Apr 28 2021 18:51:58+08:00 LSCE06BHW %%01DEVM/1/hwChassisFail_clear(l):CID=0x80fa0003-alarmID=0x081300b4-clearType=service_resume;The chassis resumed from partial failure. (EntityPhysicalIndex=16777216, EntPhysicalIndex=16777216, EntPhysicalName=chassis, EntityTrapFaultID=131330, Reason=MPU in the chassis is not full.)
+Apr 28 2021 18:51:44+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0025-Slot=10;Slot 15 CLK registered successfully.
+Apr 28 2021 18:51:44+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc0025-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17760257, EntPhysicalIndex=17760257, EntPhysicalName=CLK 15, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:51:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc046c-Slot=11;Slot 11 SFU registered successfully.
+Apr 28 2021 18:51:22+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc046c-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17498113, EntPhysicalIndex=17498113, EntPhysicalName=CR57SFU200C0 11, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:51:19+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:Cold Reset,reset times:4.
+Apr 28 2021 18:51:19+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:Cold Reset,reset times:3.
+Apr 28 2021 18:51:19+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:Cold Reset,reset times:2.
+Apr 28 2021 18:51:19+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc046c-Slot=11;Board 11 reset, the reason is:Cold Reset,reset times:1.
+Apr 28 2021 18:51:14+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0025-Slot=10;Slot 10 MPU registered successfully.
+Apr 28 2021 18:51:14+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc0025-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17432577, EntPhysicalIndex=17432577, EntPhysicalName=CR57SRU200A5 10, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:51:08+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0025-Slot=10;Slot 10 MPU changed to slave MPU.
+Apr 28 2021 18:50:18+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0025-Slot=10;Board 10 reset, the reason is:Request Software Reset,reset times:4.
+Apr 28 2021 18:50:17+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0025-Slot=10;Board 10 reset, the reason is:Cold Reset,reset times:3.
+Apr 28 2021 18:50:17+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0025-Slot=10;Board 10 reset, the reason is:Cold Reset,reset times:2.
+Apr 28 2021 18:50:17+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0025-Slot=10;Board 10 reset, the reason is:Cold Reset,reset times:1.
+Apr 28 2021 18:50:13+08:00 LSCE06BHW %%01DEVM/1/hwChassisFail_active(l):CID=0x80fa0003-alarmID=0x081300b4;The chassis failed partially. (EntityPhysicalIndex=16777216, EntPhysicalIndex=16777216, EntPhysicalName=chassis, EntityTrapFaultID=131330, Reason=MPU in the chassis is not full.)
+Apr 28 2021 18:50:09+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc04bb-Slot=13;Slot 13 SFU registered successfully.
+Apr 28 2021 18:50:09+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc04bb-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17629185, EntPhysicalIndex=17629185, EntPhysicalName=CR57FRA200A 13, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:50:08+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0466-Slot=12;Slot 12 SFU registered successfully.
+Apr 28 2021 18:50:08+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc0466-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17563649, EntPhysicalIndex=17563649, EntPhysicalName=CR57FRA200A 12, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:50:06+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04bb-Slot=13;Board 13 reset, the reason is:MMB Reset,reset times:4.
+Apr 28 2021 18:50:06+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04bb-Slot=13;Board 13 reset, the reason is:Cold Reset,reset times:3.
+Apr 28 2021 18:50:06+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04bb-Slot=13;Board 13 reset, the reason is:Cold Reset,reset times:2.
+Apr 28 2021 18:50:06+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc04bb-Slot=13;Board 13 reset, the reason is:Cold Reset,reset times:1.
+Apr 28 2021 18:50:05+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0466-Slot=12;Board 12 reset, the reason is:MMB Reset,reset times:4.
+Apr 28 2021 18:50:05+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0466-Slot=12;Board 12 reset, the reason is:Cold Reset,reset times:3.
+Apr 28 2021 18:50:05+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0466-Slot=12;Board 12 reset, the reason is:Cold Reset,reset times:2.
+Apr 28 2021 18:50:05+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0466-Slot=12;Board 12 reset, the reason is:Cold Reset,reset times:1.
+Apr 28 2021 18:49:55+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0012;Slot 1 LPU power on.
+Apr 28 2021 18:49:54+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0012;Slot 8 LPU power on.
+Apr 28 2021 18:49:50+08:00 LSCE06BHW %%01LACP/2/hwLacpTotalLinkLoss_active(l):CID=0x807a041c-alarmID=0x09360001;Link bandwidth lost totally. (TrunkIndex=1, TrunkIfIndex=64, TrunkId=0, TrunkName=Eth-Trunk0, Reason=No link is selected.)
+Apr 28 2021 18:49:50+08:00 LSCE06BHW %%01LACP/2/hwLacpTotalLinkLoss_active(l):CID=0x807a041c-alarmID=0x09360001;Link bandwidth lost totally. (TrunkIndex=0, TrunkIfIndex=63, TrunkId=1, TrunkName=Eth-Trunk1, Reason=No link is selected.)
+Apr 28 2021 18:49:50+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0012;Slot 14 CLK registered successfully.
+Apr 28 2021 18:49:50+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17694721, EntPhysicalIndex=17694721, EntPhysicalName=CLK 14, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:49:46+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0012;Slot 11 SFU power on.
+Apr 28 2021 18:49:44+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0012;Slot 10 MPU power on.
+Apr 28 2021 18:49:40+08:00 LSCE06BHW %%01TRUNK/3/hwExtAllMemberDownNotify_active(l):CID=0x807a041c-alarmID=0x08532008;The last member interface link status changes to down. (TrunkIfIndex=63, TrunkName=Eth-Trunk1)
+Apr 28 2021 18:49:40+08:00 LSCE06BHW %%01TRUNK/3/hwExtAllMemberDownNotify_active(l):CID=0x807a041c-alarmID=0x08532008;The last member interface link status changes to down. (TrunkIfIndex=64, TrunkName=Eth-Trunk0)
+Apr 28 2021 18:49:33+08:00 LSCE06BHW %%01DEVM/1/hwChassisFail_active(l):CID=0x80fa0003-alarmID=0x081300b4;The chassis failed partially. (EntityPhysicalIndex=16777216, EntPhysicalIndex=16777216, EntPhysicalName=chassis, EntityTrapFaultID=131328, Reason=The dustproof not cleaned.)
+Apr 28 2021 18:49:29+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0012;Slot 9 MPU power on.
+Apr 28 2021 18:49:26+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fc0012;Slot 9 MPU registered successfully.
+Apr 28 2021 18:49:26+08:00 LSCE06BHW %%01DEVM/1/hwBoardInvalid_clear(l):CID=0x80fc0012-alarmID=0x0813002e-clearType=service_resume;The board resumed from total failure. (EntityPhysicalIndex=17367041, EntPhysicalIndex=17367041, EntPhysicalName=CR57SRU200A5 9, EntityType=7, EntityTrapFaultID=132627, Reason=The board is register.)
+Apr 28 2021 18:49:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fa0003;Slot 13 SFU is plugged in.
+Apr 28 2021 18:49:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fa0003;Slot 12 SFU is plugged in.
+Apr 28 2021 18:49:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fa0003;Slot 11 SFU is plugged in.
+Apr 28 2021 18:49:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fa0003;Slot 10 MPU is plugged in.
+Apr 28 2021 18:49:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fa0003;Slot 9 MPU is plugged in.
+Apr 28 2021 18:49:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fa0003;Slot 8 LPU is plugged in.
+Apr 28 2021 18:49:22+08:00 LSCE06BHW %%01DRIVER/4/WBoardStsChanged(l):CID=0x80fa0003;Slot 1 LPU is plugged in.
+Apr 28 2021 18:47:54+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0012;Board 9 reset, the reason is:Request Software Reset,reset times:4.
+Apr 28 2021 18:47:54+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0012;Board 9 reset, the reason is:Cold Reset,reset times:3.
+Apr 28 2021 18:47:54+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0012;Board 9 reset, the reason is:Cold Reset,reset times:2.
+Apr 28 2021 18:47:54+08:00 LSCE06BHW %%01DEVM/4/BOARDINFO(l):CID=0x80fc0012;Board 9 reset, the reason is:Cold Reset,reset times:1.
+Apr 28 2021 10:42:46+08:00 LSCE06BHW %%01NTP/4/NTP_STRATUM_CHANGE(l):CID=0x80260400;System stratum changes from 16 to 3 after clock update.
+Apr 28 2021 10:42:46+08:00 LSCE06BHW %%01NTP/4/NTP_LEAP_CHANGE(l):CID=0x80260400;System leap changes from 3 to 0 after clock update.
+<LSCE06BHW>display current-configuration
+!Software Version V800R010C10SPC500
+!Last configuration was updated at 2025-12-17 15:44:18+08:00 by feizeqing
+!Last configuration was saved at 2026-02-11 15:37:08+08:00 by xz4a_admin
+#
+undo icmp-reply fast
+#
+clock timezone BJ add 08:00:00
+#
+sysname LSCE06BHW
+#
+set neid 62fb05
+#
+info-center source default channel 1 log level error
+info-center source default channel 3 trap level error
+info-center loghost source LoopBack0
+info-center loghost 10.237.35.55
+info-center loghost 10.237.35.249
+info-center loghost 10.237.99.80
+info-center loghost 10.237.100.71
+info-center loghost 10.237.100.228
+info-center loghost 10.241.91.252
+info-center loghost 10.241.92.255 facility local4
+info-center logbuffer size 1024
+#
+fan speed auto
+#
+undo user-security-policy enable
+#
+service-template template-default0
+#
+service-template template-default1
+#
+service-template template-default2
+#
+service-template template-default3
+#
+service-template template-default4
+#
+snmp-agent trap type entity-trap
+#
+ntp-service server disable
+ntp-service ipv6 server disable
+ntp-service unicast-server 10.241.91.252
+#
+ecc peer-public-key 10.241.91.254
+ public-key-code begin
+  0400A9C1 899F86CB DCD1344C 70006170 7CE1B1EE 464C55C6 39BAE8B8 44FAE74A
+  9F2302D9 B75F48A5 E1F2796E B68FD5B8 7DB2B2D3 CC4BA191 2C5337CD A0DD4105
+  4E595C00 C7F744A6 400E65A0 A48E8E64 288584D4 4CBE691C 88F46263 77FE93DE
+  5BAF1918 6CF293D3 16ABDD39 25B5E361 D9F52B0C AC3130F9 4422106C F12F10D5
+  434ED82B D6
+ public-key-code end
+ peer-public-key end
+#
+dot1x-template 1
+#
+multicastbandwidth
+#
+undo telnet server enable
+undo telnet ipv6 server enable
+#
+diffserv domain default
+#
+diffserv domain 5p3d
+#
+diffserv domain 5p3dbas
+#
+soc
+#
+ip vpn-instance CMIOT5GXZZZQJXT.XZ
+ ipv4-family
+  route-distinguisher 400:400
+ ipv6-family
+  route-distinguisher 400:400
+#
+ip vpn-instance CMIOT5GXZZZQRMYY.XZ
+ ipv4-family
+  route-distinguisher 200:200
+#
+ip vpn-instance ChuanShuZhuanXian
+ ipv4-family
+  route-distinguisher 500:500
+ ipv6-family
+  route-distinguisher 500:500
+#
+bfd
+#
+acl number 2000
+ description SSH-in
+ rule 5 name 1 permit
+#
+acl number 2002
+ description HeGuiSaoMiao
+ rule 5 permit
+#
+acl number 3000
+ description anti-virus
+ rule 1 deny tcp destination-port eq 4444
+ rule 2 deny udp destination-port eq tftp
+ rule 3 deny tcp destination-port eq 135
+ rule 4 deny udp destination-port eq 135
+ rule 5 deny tcp destination-port eq 139
+ rule 6 deny udp destination-port eq netbios-ssn
+ rule 7 deny tcp destination-port eq 445
+ rule 8 deny udp destination-port eq 445
+ rule 9 deny tcp destination-port eq 593
+ rule 10 deny udp destination-port eq 593
+ rule 11 deny udp destination-port eq 1434
+ rule 12 deny tcp destination-port eq 5554
+ rule 13 deny tcp destination-port eq 9995
+ rule 14 deny tcp destination-port eq 9996
+ rule 15 deny udp destination-port eq netbios-ns
+ rule 16 deny udp destination-port eq netbios-dgm
+#
+traffic classifier anti-virus operator or
+ if-match acl 3000
+#
+traffic behavior anti-virus
+ deny
+#
+traffic policy anti-virus
+ share-mode
+ classifier anti-virus behavior anti-virus precedence 1
+#
+aaa
+ local-user jtcjxz password irreversible-cipher $1c$[mY=8N}GO:${iJ9(|oTN1yR)+J%#$(A*%s{<[RL8SZj;*R6*T<+$
+ local-user jtcjxz service-type ssh
+ local-user jtcjxz level 3
+ local-user jtcjxz state active
+ local-user xazccj password irreversible-cipher $1c$GSmA5]9)'9$,*:!Of+3wNMr<0(!LOx<.*S_F_[KBEqQ+gOT_GET$
+ local-user xazccj service-type ssh
+ local-user xazccj level 1
+ local-user xazccj state block fail-times 3 interval 5
+ local-user xz4a_admin password irreversible-cipher $1c$yvO"Lc3gh@$oFhH+jO~tKs4Ka@gj^p1Uq[:4fmP1QU_~L!g_JN6$
+ local-user xz4a_admin service-type terminal ssh
+ local-user xz4a_admin level 3
+ local-user xz4a_admin state block fail-times 3 interval 5
+ local-user feizeqing password irreversible-cipher $1c$,-Xx'`QsXX${]]{97HMH5&*Q0N6_8O<TilLD%ykN-mTU`%bj[R-$
+ local-user feizeqing service-type ssh
+ local-user feizeqing level 3
+ local-user feizeqing state block fail-times 3 interval 5
+ local-user licheng password irreversible-cipher $1c${U(0Sb6|\J$Y5X.4jI6$1QZ]P2bMZm/"u|A*c6lV*.y:_0K_Jp~$
+ local-user licheng service-type ssh
+ local-user licheng level 3
+ local-user licheng state block fail-times 3 interval 5
+ local-user cszdxj password irreversible-cipher $1c$AoAJ5,tEqA$CuOjKhTV$5[>eKCsfNP3TbGdH*H{g<7-6OVn|AO/$
+ local-user cszdxj service-type telnet ssh
+ local-user cszdxj level 3
+ local-user cszdxj state block fail-times 3 interval 5
+ #
+ authentication-scheme default0
+  authentication-mode none
+ #
+ authentication-scheme default1
+ #
+ authentication-scheme default
+  authentication-mode local radius
+ #
+ authorization-scheme default
+ #
+ accounting-scheme default0
+ #
+ accounting-scheme default1
+ #
+ domain default0
+ #
+ domain default1
+ #
+ domain default_admin
+#
+license
+#
+interface Eth-Trunk0
+ description E1000E-FW04
+ ip address 10.241.91.18 255.255.255.252
+ ospf cost 10
+ ospf network-type p2p
+ mode lacp-static
+#
+interface Eth-Trunk1
+ description NE40E-1
+ ip address 10.241.91.22 255.255.255.252
+ ospf cost 10
+ mode lacp-static
+#
+interface Eth-Trunk1.10
+ vlan-type dot1q 30
+ description TO_NE40-1_JXT
+ ip binding vpn-instance CMIOT5GXZZZQJXT.XZ
+ ip address 10.241.91.78 255.255.255.252
+#
+interface Eth-Trunk1.20
+ vlan-type dot1q 20
+ description YY_SN_hulian
+ ip binding vpn-instance CMIOT5GXZZZQRMYY.XZ
+ ip address 10.241.91.82 255.255.255.252
+#
+interface Eth-Trunk1.30
+ vlan-type dot1q 10
+ description To-EPC-2-ChuanShuZhuanXian
+ ip binding vpn-instance ChuanShuZhuanXian
+ ip address 10.241.91.94 255.255.255.252
+ ospf authentication-mode md5 1 cipher %^%#MggpTHagZ.s~bR6q(j2Y-Cdo>nqgy6O/KoRCKk<M%^%#
+ ospf network-type p2p
+ ospf timer hello 1
+#
+interface Virtual-Template0
+ ppp authentication-mode auto
+#
+interface GigabitEthernet0/0/0
+ speed auto
+ duplex auto
+ undo shutdown
+ ip address 192.168.10.1 255.255.255.252
+#
+interface GigabitEthernet1/0/0
+ undo shutdown
+ eth-trunk 0
+ undo dcn
+#
+interface GigabitEthernet1/0/1
+ undo shutdown
+ eth-trunk 1
+ undo dcn
+#
+interface GigabitEthernet1/0/2
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/0/3
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/0/4
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/0/5
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/0/6
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/0/7
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/0/8
+ undo shutdown
+#
+interface GigabitEthernet1/0/9
+ undo shutdown
+#
+interface GigabitEthernet1/0/10
+ undo shutdown
+#
+interface GigabitEthernet1/0/11
+ undo shutdown
+#
+interface GigabitEthernet1/0/12
+ undo shutdown
+#
+interface GigabitEthernet1/0/13
+ undo shutdown
+#
+interface GigabitEthernet1/0/14
+ undo shutdown
+#
+interface GigabitEthernet1/0/15
+ undo shutdown
+#
+interface GigabitEthernet1/0/16
+ undo shutdown
+#
+interface GigabitEthernet1/0/17
+ undo shutdown
+#
+interface GigabitEthernet1/0/18
+ undo shutdown
+#
+interface GigabitEthernet1/0/19
+ undo shutdown
+#
+interface GigabitEthernet1/0/20
+ undo shutdown
+#
+interface GigabitEthernet1/0/21
+ undo shutdown
+#
+interface GigabitEthernet1/0/22
+ undo shutdown
+#
+interface GigabitEthernet1/0/23
+ undo shutdown
+ traffic-policy anti-virus inbound 
+ ip urpf strict 
+#
+interface GigabitEthernet1/1/0
+ description E1000E _wulianzhuangwang
+ undo shutdown
+ ip binding vpn-instance CMIOT5GXZZZQRMYY.XZ
+ ip address 10.241.91.54 255.255.255.252
+ undo dcn
+#
+interface GigabitEthernet1/1/0.32
+ vlan-type dot1q 32
+ description E1000E _wulianzhuangwang-JXTdianzizhengwu
+ ip binding vpn-instance CMIOT5GXZZZQJXT.XZ
+ ip address 10.241.91.74 255.255.255.252
+#
+interface GigabitEthernet1/1/0.33
+ vlan-type dot1q 33
+ description TO-E1000E _wulianzhuangwang-ChuanShuZhuanXian
+ ip binding vpn-instance ChuanShuZhuanXian
+ ip address 10.241.91.90 255.255.255.252
+ ospf authentication-mode md5 1 cipher %^%#HP^C!B%9lTU13>ZQh)S&TXq+4+`Cx$$v|L81!7/9%^%#
+ ospf network-type p2p
+#
+interface GigabitEthernet1/1/0.34
+#
+interface GigabitEthernet1/1/1
+ description spn_2
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/1/2
+ portswitch
+ description TO_chuanshu_PTN
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/1/3
+ undo shutdown
+ undo dcn
+#
+interface GigabitEthernet1/1/4
+ description shengan_spn
+ undo shutdown
+#
+interface LoopBack0
+ ip address 10.241.91.255 255.255.255.255
+#
+interface NULL0
+#
+ospf 1 router-id 10.241.91.255
+ area 0.0.0.0
+  authentication-mode md5 1 cipher %^%#_uobO~g*%PskJ9"In.yOt_]"5Z4vtJ&O#S!DfT!2%^%#
+  filter route-policy dd import
+  network 10.241.91.16 0.0.0.3
+  network 10.241.91.20 0.0.0.3
+  network 10.241.91.255 0.0.0.0
+#
+ospf 2974 vpn-instance ChuanShuZhuanXian
+ import-route direct
+ spf-schedule-interval millisecond 100
+ lsa-originate-interval 0
+ lsa-arrival-interval 0
+ vpn-instance-capability simple
+ frr
+  loop-free-alternate
+ area 0.0.0.2
+  network 10.241.91.88 0.0.0.3
+  network 10.241.91.92 0.0.0.3
+#
+undo dcn
+#
+route-policy dd permit node 0
+ if-match acl 2002
+#
+ip route-static 10.237.35.254 255.255.255.255 10.241.91.17
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.50.127.254 255.255.255.255 10.241.91.53
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.50.127.254 255.255.255.255 10.241.91.81 preference 80
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.70.255.254 255.255.255.255 10.241.91.53
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.70.255.254 255.255.255.255 10.241.91.81 preference 80
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.183.0.5 255.255.255.255 10.241.91.81
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.183.0.6 255.255.255.255 10.241.91.81
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.241.91.56 255.255.255.252 10.241.91.81
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.242.0.0 255.255.255.0 10.241.91.53 description upf
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 10.242.1.0 255.255.255.0 10.241.91.53 description upf
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 192.168.70.1 255.255.255.255 10.241.91.81
+ip route-static vpn-instance CMIOT5GXZZZQRMYY.XZ 192.168.70.2 255.255.255.255 10.241.91.81
+ip route-static vpn-instance CMIOT5GXZZZQJXT.XZ 10.50.127.254 255.255.255.255 10.241.91.73
+ip route-static vpn-instance CMIOT5GXZZZQJXT.XZ 10.68.255.254 255.255.255.255 10.241.91.73
+ip route-static vpn-instance CMIOT5GXZZZQJXT.XZ 10.70.255.254 255.255.255.255 10.241.91.73
+ip route-static vpn-instance CMIOT5GXZZZQJXT.XZ 10.196.255.254 255.255.255.255 10.241.91.73
+ip route-static vpn-instance CMIOT5GXZZZQJXT.XZ 172.16.1.0 255.255.255.252 10.241.91.77
+#
+snmp-agent
+snmp-agent local-engineid 800007DB03043389048B3B
+snmp-agent community read cipher %^%#nrf"LO$A!4HaxmS*_7~F#2Oq9*~n_Qb82N/`'K$!;=P$1+i:T<DUT02FTv"9eJw"$(uo2>bt76,{,a))%^%# acl 2000
+snmp-agent community read cipher %^%#}H1<3|F(BXSIO+/@Uo[JI7R!WL+V4V+kbdI;b=U8^5q<U`{P[N_pm`<J,R/CB@(=8ndh(O<KL5)p^7n"%^%#
+#
+snmp-agent sys-info version v2c v3
+#
+lldp enable
+#
+stelnet server enable
+ssh user cszdxj
+ssh user cszdxj authentication-type password
+ssh user cszdxj service-type stelnet
+ssh user feizeqing
+ssh user feizeqing authentication-type password
+ssh user feizeqing service-type stelnet
+ssh user jtcjxz
+ssh user jtcjxz authentication-type all
+ssh user jtcjxz service-type stelnet
+ssh user licheng
+ssh user licheng authentication-type password
+ssh user licheng service-type stelnet
+ssh user tangjin
+ssh user tangjin authentication-type password
+ssh user tangjin service-type stelnet
+ssh user xz4a_admin
+ssh user xz4a_admin authentication-type password
+ssh user xz4a_admin service-type stelnet
+ssh authorization-type default aaa
+#
+ssh server cipher aes256_ctr aes128_ctr
+#
+ssh client first-time enable
+ssh client 10.241.91.254 assign ecc-key 10.241.91.254
+#
+user-interface maximum-vty 21
+#
+user-interface con 0
+ authentication-mode password
+ set authentication password cipher $1c$GAf/G&J]sP$LuMA.P"},3ji^'Vly"DY*uI9@[,|,:-QXBW`m*^;$
+#
+user-interface aux 0
+ authentication-mode aaa
+#
+user-interface vty 0 4
+ acl 2000 inbound
+ authentication-mode aaa
+#
+local-aaa-server
+#
+l2tp-group default-lac
+ tunnel name B
+#
+l2tp-group default-lns
+ tunnel name B
+#
+return

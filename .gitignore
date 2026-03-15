@@ -6,6 +6,7 @@ __pycache__/
 data/
 storage/backups/
 samples/
+release/
 
 certs/*.pem
 

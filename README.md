@@ -39,9 +39,14 @@
 │       └── lib/           # API、类型、格式化工具
 ├── nginx/                 # Nginx 配置
 ├── data/                  # 运行数据、上传文件、生成报告
+├── overrides/             # 企业可选覆盖模板与配置
+├── scripts/               # 镜像导入导出脚本
+├── release/               # 企业交付导出目录
 ├── samples/               # 示例日志目录
 ├── storage/backups/       # 手工备份文件
 ├── docker-compose.yml     # Docker 编排
+├── docker-compose.override-config.yml     # 可选覆盖报告配置
+├── docker-compose.override-templates.yml  # 可选覆盖 Word 模板
 ├── Dockerfile             # 应用镜像
 └── DEPLOY.md              # 简要部署说明
 ```
@@ -75,6 +80,47 @@ docker compose up -d --build
 https://<你的域名或IP>/app/login
 ```
 
+## 企业标准版交付
+
+默认企业部署使用两个镜像：
+
+- `huawei-inspection-backend`
+- `huawei-inspection-gateway`
+
+构建镜像：
+
+```bash
+docker compose build
+```
+
+导出交付包：
+
+```bash
+bash scripts/export_images.sh
+```
+
+交付目录会生成到 `release/`，包含：
+
+- `backend-image.tar`
+- `gateway-image.tar`
+- `docker-compose.yml`
+- `docker-compose.override-config.yml`
+- `docker-compose.override-templates.yml`
+- `.env.example`
+
+企业侧导入镜像：
+
+```bash
+bash scripts/load_images.sh
+```
+
+企业如果要覆盖模板或报告配置，使用：
+
+```bash
+docker compose -f docker-compose.yml -f docker-compose.override-config.yml up -d
+docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up -d
+```
+
 ## 默认运行目录
 
 - `data/runtime/app.db`：SQLite 数据库
@@ -87,13 +133,15 @@ https://<你的域名或IP>/app/login
 
 ## 当前部署结构
 
-- `app` 容器运行 FastAPI
-- `nginx` 容器构建并托管 React 静态资源，同时反向代理 `/api/*`
+- `app` 镜像运行 FastAPI
+- `nginx` 镜像构建并托管 React 静态资源，同时反向代理 `/api/*`
 - 80 端口强制跳转到 443
 - 443 端口提供正式访问
 - `/app/*` 为前端路由入口
 - `/api/*` 为后端接口入口
 - `/`、`/dashboard`、`/upload`、`/admin` 等旧路径会自动跳转到新 SPA 页面
+- 默认模板与默认 `config/report.json` 已内置进后端镜像
+- `data/`、`certs/`、`storage/` 始终外置，不进入镜像
 
 ## 管理能力
 

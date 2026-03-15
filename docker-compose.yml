@@ -1,5 +1,6 @@
 services:
   app:
+    image: ${APP_IMAGE:-huawei-inspection-backend:latest}
     build: .
     container_name: huawei-inspection-app
     restart: unless-stopped
@@ -15,6 +16,7 @@ services:
       - "8080"
 
   nginx:
+    image: ${GATEWAY_IMAGE:-huawei-inspection-gateway:latest}
     build:
       context: .
       dockerfile: nginx/Dockerfile

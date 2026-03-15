@@ -12,7 +12,7 @@ export function DashboardPage({ user }: { user: User }) {
   const [jobs, setJobs] = useState<Job[]>([])
   const [announcement, setAnnouncement] = useState('')
   const [loading, setLoading] = useState(true)
-  const { message } = AntApp.useApp()
+  const { message, modal } = AntApp.useApp()
   const navigate = useNavigate()
 
   const loadJobs = async () => {
@@ -32,6 +32,25 @@ export function DashboardPage({ user }: { user: User }) {
 
   const hasActive = jobs.some((job) => job.status === 'queued' || job.status === 'running')
   usePolling(loadJobs, hasActive || loading, 5000)
+
+  const deleteJob = (jobId: string) => {
+    modal.confirm({
+      title: '删除任务',
+      content: `确认删除任务 ${jobId} 吗？删除后不可恢复。`,
+      okText: '确认删除',
+      cancelText: '取消',
+      centered: true,
+      onOk: async () => {
+        try {
+          await request<{ ok: boolean }>(`/admin/jobs/${jobId}`, { method: 'DELETE' })
+          message.success('任务已删除')
+          await loadJobs()
+        } catch (error) {
+          message.error(error instanceof Error ? error.message : '删除任务失败')
+        }
+      },
+    })
+  }
 
   const stats = useMemo(
     () => ({
@@ -84,6 +103,14 @@ export function DashboardPage({ user }: { user: User }) {
         <Space wrap>
           <Button onClick={() => navigate(`/tasks/${record.id}`)}>详情</Button>
           {record.bundle_available && <Button href={record.bundle_download_url || undefined}>下载</Button>}
+          {user.is_admin && (
+            <Button
+              disabled={['queued', 'running'].includes(record.status)}
+              onClick={() => deleteJob(record.id)}
+            >
+              删除
+            </Button>
+          )}
         </Space>
       ),
     },

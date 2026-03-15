@@ -1,5 +1,5 @@
 import { UploadOutlined } from '@ant-design/icons'
-import { Alert, App as AntApp, Button, Card, List, Segmented, Space, Typography } from 'antd'
+import { Alert, App as AntApp, Button, Card, List, Segmented, Space, Tag, Typography } from 'antd'
 import { useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { request } from '../lib/api'
@@ -12,6 +12,7 @@ export function NewTaskPage() {
   const [selectedNames, setSelectedNames] = useState<string[]>([])
   const { message } = AntApp.useApp()
   const navigate = useNavigate()
+  const activeInputRef = mode === 'zip' ? filesRef : folderRef
 
   const syncNames = () => {
     const files = [
@@ -82,16 +83,39 @@ export function NewTaskPage() {
               multiple
               accept=".zip,.log,application/zip,application/x-zip-compressed"
               onChange={syncNames}
-              style={{ display: mode === 'zip' ? 'block' : 'none' }}
+              className="upload-input-hidden"
             />
             <input
               ref={folderRef}
               type="file"
               multiple
               onChange={syncNames}
-              style={{ display: mode === 'folder' ? 'block' : 'none' }}
+              className="upload-input-hidden"
               {...({ webkitdirectory: 'true', directory: 'true' } as Record<string, string>)}
             />
+            <button
+              type="button"
+              className="upload-panel"
+              onClick={() => activeInputRef.current?.click()}
+            >
+              <span className="upload-panel-icon">
+                <UploadOutlined />
+              </span>
+              <div className="upload-panel-copy">
+                <strong>{mode === 'zip' ? '点击选择 ZIP 或日志文件' : '点击选择整个日志目录'}</strong>
+                <span>
+                  {mode === 'zip'
+                    ? '支持 ZIP、多日志文件混合上传，保留原始文件名'
+                    : '选择目录后会自动保留原始层级结构并上传'}
+                </span>
+              </div>
+              <div className="upload-panel-actions">
+                <Button type="default">{mode === 'zip' ? '选择文件' : '选择目录'}</Button>
+                <Tag color={selectedNames.length ? 'success' : 'default'}>
+                  {selectedNames.length ? `已选 ${selectedNames.length} 项` : '尚未选择'}
+                </Tag>
+              </div>
+            </button>
           </div>
           <Button type="primary" icon={<UploadOutlined />} loading={uploading} onClick={() => void submit()}>
             提交任务

@@ -17,3 +17,5 @@ core/__pycache__/
 
 *.log
 *.zip
+web/node_modules/
+web/dist/

@@ -1,5 +1,11 @@
 __pycache__
 *.pyc
+.git
+.venv
+backups
+2026-3-13
 data
 certs/*.pem
 .env
+web/node_modules
+web/dist

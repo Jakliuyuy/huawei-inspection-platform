@@ -11,12 +11,13 @@ import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
+from math import ceil
 from pathlib import Path
 from typing import Any
 
 import uvicorn
-from fastapi import FastAPI, File, Form, HTTPException, Request, Response, UploadFile
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
+from fastapi import FastAPI, File, HTTPException, Request, Response, UploadFile
+from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 
 try:
     from dotenv import load_dotenv
@@ -24,15 +25,6 @@ except ImportError:
     load_dotenv = None
 
 from core.report_service import ReportPaths, generate_reports
-from frontend.views import (
-    render_admin_page,
-    render_dashboard_page,
-    render_error_page,
-    render_home_page,
-    render_job_detail_page,
-    render_progress,
-    render_upload_page,
-)
 
 if load_dotenv is not None:
     load_dotenv(Path(__file__).resolve().parent / ".env")
@@ -94,6 +86,7 @@ app = FastAPI(title=APP_TITLE)
 config = build_config()
 job_executor = ThreadPoolExecutor(max_workers=config.max_job_workers)
 login_attempts: dict[str, list[float]] = {}
+API_PREFIX = "/api"
 STATUS_LABELS = {
     "queued": "排队中",
     "running": "处理中",
@@ -331,11 +324,102 @@ def clear_login_failures(ip: str) -> None:
     login_attempts.pop(ip, None)
 
 
+def issue_session_response(target: Response, token: str) -> Response:
+    target.set_cookie(
+        SESSION_COOKIE,
+        token,
+        httponly=True,
+        samesite="lax",
+        max_age=config.session_hours * 3600,
+        secure=config.secure_cookies,
+    )
+    return target
+
+
+def clear_session_response(target: Response) -> Response:
+    target.delete_cookie(SESSION_COOKIE)
+    return target
+
+
 def announcement_text() -> str:
     conn = db_connect()
     row = conn.execute("SELECT content FROM announcements WHERE id = 1").fetchone()
     conn.close()
     return row["content"] if row else ""
+
+
+def timeline_steps(job: sqlite3.Row) -> list[dict[str, Any]]:
+    steps = [
+        ("任务已创建", "已进入任务队列", bool(job["created_at"])),
+        ("开始处理", "工作线程已接管任务", bool(job["started_at"])),
+        ("日志识别", "识别日志根目录和上传结构", job["status"] in {"running", "completed", "failed"}),
+        ("报告生成", job["status_detail"] or "等待生成报告", clamp_progress(job["progress"]) >= 10),
+        ("结果打包", "生成压缩包供下载", clamp_progress(job["progress"]) >= 95 or bool(job["bundle_path"])),
+        ("任务完成", "可以下载报告结果", job["status"] == "completed"),
+    ]
+    if job["status"] == "failed":
+        steps[-1] = ("任务失败", job["error_message"] or "处理过程中发生错误", True)
+    return [
+        {
+            "step": index,
+            "title": title,
+            "description": desc,
+            "active": active,
+        }
+        for index, (title, desc, active) in enumerate(steps, 1)
+    ]
+
+
+def serialize_job(row: sqlite3.Row) -> dict[str, Any]:
+    generated_files = json.loads(row["generated_files"]) if row["generated_files"] else []
+    generated_entries = []
+    for file_path in generated_files:
+        path = Path(file_path)
+        generated_entries.append(
+            {
+                "name": path.name,
+                "download_url": f"{API_PREFIX}/jobs/{row['id']}/files/{path.name}",
+            }
+        )
+    return {
+        "id": row["id"],
+        "status": row["status"],
+        "status_label": status_label(row["status"]),
+        "progress": clamp_progress(row["progress"]),
+        "status_detail": row["status_detail"] or "",
+        "created_at": row["created_at"],
+        "started_at": row["started_at"],
+        "finished_at": row["finished_at"],
+        "username": row["username"],
+        "log_root": row["log_root"],
+        "error_message": row["error_message"],
+        "bundle_available": bool(row["bundle_path"]),
+        "bundle_download_url": f"{API_PREFIX}/jobs/{row['id']}/download" if row["bundle_path"] else None,
+        "generated_files": generated_entries,
+        "timeline": timeline_steps(row),
+    }
+
+
+def serialize_user(row: sqlite3.Row) -> dict[str, Any]:
+    return {
+        "id": row["id"],
+        "username": row["username"],
+        "is_admin": bool(row["is_admin"]),
+        "role_label": "管理员" if row["is_admin"] else "普通用户",
+        "created_at": row["created_at"],
+        "last_login_at": row["last_login_at"],
+    }
+
+
+def serialize_audit(row: sqlite3.Row) -> dict[str, Any]:
+    return {
+        "id": row["id"],
+        "created_at": row["created_at"],
+        "username": row["username"] or "匿名",
+        "action": row["action"],
+        "detail": row["detail"],
+        "ip_address": row["ip_address"],
+    }
 
 
 def list_jobs(user: sqlite3.Row) -> list[sqlite3.Row]:
@@ -389,27 +473,6 @@ def format_file_size(size_bytes: int) -> str:
             return f"{size:.1f}{unit}" if unit != "B" else f"{int(size)}B"
         size /= 1024
     return f"{size_bytes}B"
-
-
-def list_generated_reports() -> list[dict[str, str]]:
-    reports: list[dict[str, str]] = []
-    if not config.report_dir.exists():
-        return reports
-    for path in sorted(config.report_dir.rglob("*.docx"), key=lambda item: item.stat().st_mtime, reverse=True):
-        relative = path.relative_to(config.report_dir)
-        parts = relative.parts
-        job_id = parts[0] if parts else ""
-        stat = path.stat()
-        reports.append(
-            {
-                "job_id": job_id,
-                "name": path.name,
-                "relative_path": str(relative),
-                "size": format_file_size(stat.st_size),
-                "modified_at": datetime.fromtimestamp(stat.st_mtime, tz=LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S"),
-            }
-        )
-    return reports
 
 
 def list_report_records() -> list[dict[str, str]]:
@@ -545,47 +608,10 @@ def status_label(status: str) -> str:
     return STATUS_LABELS.get(status, status)
 
 
-def status_tag_class(status: str) -> str:
-    if status == "completed":
-        return "done"
-    if status == "failed":
-        return "fail"
-    return "wait"
-
-
 def clamp_progress(value: int | None) -> int:
     if value is None:
         return 0
     return max(0, min(100, int(value)))
-
-
-def build_job_timeline(job: sqlite3.Row) -> str:
-    steps = [
-        ("任务已创建", "已进入任务队列", bool(job["created_at"])),
-        ("开始处理", "工作线程已接管任务", bool(job["started_at"])),
-        ("日志识别", "识别日志根目录和上传结构", job["status"] in {"running", "completed", "failed"}),
-        ("报告生成", job["status_detail"] or "等待生成报告", clamp_progress(job["progress"]) >= 10),
-        ("结果打包", "生成压缩包供下载", clamp_progress(job["progress"]) >= 95 or bool(job["bundle_path"])),
-        ("任务完成", "可以下载报告结果", job["status"] == "completed"),
-    ]
-    if job["status"] == "failed":
-        steps[-1] = ("任务失败", job["error_message"] or "处理过程中发生错误", True)
-
-    items: list[str] = []
-    for index, (title, desc, active) in enumerate(steps, 1):
-        state_class = "done" if active else "wait"
-        items.append(
-            f"""
-            <li class="timeline-item {state_class}">
-                <span class="timeline-dot">{index}</span>
-                <div>
-                    <strong>{title}</strong>
-                    <p>{desc}</p>
-                </div>
-            </li>
-            """
-        )
-    return f'<ol class="timeline">{"".join(items)}</ol>'
 
 
 def update_job(job_id: str, **fields: Any) -> None:
@@ -713,22 +739,50 @@ def save_uploads(job_dir: Path, files: list[UploadFile]) -> Path:
     raise HTTPException(status_code=400, detail="未发现可处理的日志文件")
 
 
-@app.on_event("startup")
-def startup_event() -> None:
-    initialize_database()
-    cleanup_expired_data()
+def list_admin_users() -> list[sqlite3.Row]:
+    conn = db_connect()
+    rows = conn.execute("SELECT id, username, is_admin, created_at, last_login_at FROM users ORDER BY created_at").fetchall()
+    conn.close()
+    return rows
 
 
-@app.get("/", response_class=HTMLResponse)
-async def home(request: Request) -> HTMLResponse:
-    user = get_user_by_session(request.cookies.get(SESSION_COOKIE))
-    if user:
-        return RedirectResponse("/dashboard", status_code=302)
-    return render_home_page(APP_TITLE, announcement_text())
+def list_admin_jobs(limit: int = 100) -> list[sqlite3.Row]:
+    conn = db_connect()
+    rows = conn.execute(
+        """
+        SELECT jobs.*, users.username
+        FROM jobs JOIN users ON users.id = jobs.user_id
+        ORDER BY jobs.created_at DESC
+        LIMIT ?
+        """,
+        (limit,),
+    ).fetchall()
+    conn.close()
+    return rows
 
 
-@app.post("/login")
-async def login(request: Request, username: str = Form(...), password: str = Form(...)) -> Response:
+def list_audits_page(page: int, page_size: int) -> tuple[list[sqlite3.Row], int]:
+    offset = (page - 1) * page_size
+    conn = db_connect()
+    audits = conn.execute(
+        """
+        SELECT audit_logs.*, users.username
+        FROM audit_logs LEFT JOIN users ON users.id = audit_logs.user_id
+        ORDER BY audit_logs.created_at DESC
+        LIMIT ? OFFSET ?
+        """,
+        (page_size, offset),
+    ).fetchall()
+    total = conn.execute("SELECT COUNT(*) FROM audit_logs").fetchone()[0]
+    conn.close()
+    return audits, total
+
+
+@app.post(f"{API_PREFIX}/auth/login")
+async def api_login(request: Request) -> JSONResponse:
+    payload = await request.json()
+    username = str(payload.get("username", "")).strip()
+    password = str(payload.get("password", ""))
     ip = request.client.host if request.client else "unknown"
     if should_rate_limit(ip):
         raise HTTPException(status_code=429, detail="登录失败次数过多，请稍后再试")
@@ -740,81 +794,41 @@ async def login(request: Request, username: str = Form(...), password: str = For
     clear_login_failures(ip)
     token = create_session(user["id"])
     record_audit(user["id"], "login", "用户登录成功", request)
-    response = RedirectResponse("/dashboard", status_code=302)
-    response.set_cookie(
-        SESSION_COOKIE,
-        token,
-        httponly=True,
-        samesite="lax",
-        max_age=config.session_hours * 3600,
-        secure=config.secure_cookies,
-    )
-    return response
+    response = JSONResponse({"ok": True, "user": serialize_user(user)})
+    return issue_session_response(response, token)
 
 
-@app.post("/logout")
-async def logout(request: Request) -> Response:
+@app.post(f"{API_PREFIX}/auth/logout")
+async def api_logout(request: Request) -> JSONResponse:
     token = request.cookies.get(SESSION_COOKIE)
     user = get_user_by_session(token)
     if user:
         record_audit(user["id"], "logout", "用户退出登录", request)
     clear_session(token)
-    response = RedirectResponse("/", status_code=302)
-    response.delete_cookie(SESSION_COOKIE)
-    return response
+    response = JSONResponse({"ok": True})
+    return clear_session_response(response)
 
 
-@app.get("/dashboard", response_class=HTMLResponse)
-async def dashboard(request: Request) -> HTMLResponse:
+@app.get(f"{API_PREFIX}/auth/me")
+async def api_me(request: Request) -> JSONResponse:
     user = require_user(request)
-    jobs = list_jobs(user)
-    active_jobs = [job for job in jobs if job["status"] in {"queued", "running"}]
-    completed_jobs = sum(1 for job in jobs if job["status"] == "completed")
-    failed_jobs = sum(1 for job in jobs if job["status"] == "failed")
-    rows = []
-    for job in jobs:
-        actions = [f'<a class="button secondary" href="/jobs/{job["id"]}">详情</a>']
-        if user["is_admin"]:
-            if job["status"] in {"completed", "failed"}:
-                actions.append(
-                    f'<form action="/admin/jobs/{job["id"]}/delete" method="post" onsubmit="return confirm(\'确认删除任务 {job["id"]} 吗？\');">'
-                    f'<button type="submit" class="danger">删除</button>'
-                    f"</form>"
-                )
-            else:
-                actions.append('<span class="muted">处理中任务不可删除</span>')
-        rows.append(
-            f"""
-            <tr>
-                <td><a href="/jobs/{job['id']}">{job['id']}</a></td>
-                <td>{job['username']}</td>
-                <td><span class="tag {status_tag_class(job['status'])}">{status_label(job['status'])}</span></td>
-                <td>{render_progress(job['progress'], job['status_detail'])}</td>
-                <td>{job['created_at']}</td>
-                <td>{job['finished_at'] or '-'}</td>
-                <td><div class="inline-actions">{''.join(actions)}</div></td>
-            </tr>
-            """
-        )
-    return render_dashboard_page(
-        user=user,
-        rows_html="".join(rows),
-        total_jobs=len(jobs),
-        active_jobs=len(active_jobs),
-        completed_jobs=completed_jobs,
-        failed_jobs=failed_jobs,
-        announcement=announcement_text(),
-    )
+    return JSONResponse(serialize_user(user))
 
 
-@app.get("/upload", response_class=HTMLResponse)
-async def upload_page(request: Request) -> HTMLResponse:
+@app.get(f"{API_PREFIX}/announcements")
+async def api_announcements() -> JSONResponse:
+    return JSONResponse({"content": announcement_text()})
+
+
+@app.get(f"{API_PREFIX}/jobs")
+async def api_jobs(request: Request) -> JSONResponse:
     user = require_user(request)
-    return render_upload_page(user)
+    rows = list_jobs(user)
+    return JSONResponse([serialize_job(row) for row in rows])
 
 
-@app.post("/jobs")
-async def create_job(request: Request, files: list[UploadFile] = File(...)) -> Response:
+@app.post(f"{API_PREFIX}/jobs")
+async def api_create_job(request: Request, files: list[UploadFile] = File(...)) -> JSONResponse:
     user = require_user(request)
     cleanup_expired_data()
     if not files:
@@ -835,61 +849,18 @@ async def create_job(request: Request, files: list[UploadFile] = File(...)) -> R
     conn.close()
     record_audit(user["id"], "job_created", f"创建任务 {job_id}", request)
     enqueue_job(job_id, user["id"])
-    return RedirectResponse(f"/jobs/{job_id}", status_code=302)
+    return JSONResponse({"ok": True, "job_id": job_id})
 
 
-@app.get("/jobs", response_class=JSONResponse)
-async def jobs_api(request: Request) -> JSONResponse:
-    user = require_user(request)
-    rows = list_jobs(user)
-    return JSONResponse(
-        [
-            {
-                "id": row["id"],
-                "status": row["status"],
-                "status_label": status_label(row["status"]),
-                "progress": clamp_progress(row["progress"]),
-                "status_detail": row["status_detail"] or "",
-                "created_at": row["created_at"],
-                "finished_at": row["finished_at"],
-                "username": row["username"],
-            }
-            for row in rows
-        ]
-    )
-
-
-@app.get("/jobs/{job_id}", response_class=HTMLResponse)
-async def job_detail(request: Request, job_id: str) -> HTMLResponse:
+@app.get(f"{API_PREFIX}/jobs/{{job_id}}")
+async def api_job_detail(request: Request, job_id: str) -> JSONResponse:
     user = require_user(request)
     job = ensure_job_access(get_job(job_id), user)
-    generated_files = json.loads(job["generated_files"]) if job["generated_files"] else []
-    file_links = []
-    for file_path in generated_files:
-        name = Path(file_path).name
-        file_links.append(f'<li><a href="/jobs/{job_id}/files/{name}">{name}</a></li>')
-    download = f'<a class="button" href="/jobs/{job_id}/download">下载任务结果</a>' if job["bundle_path"] else ""
-    timeline = build_job_timeline(job)
-    status_html = f'<span class="tag {status_tag_class(job["status"])}">{status_label(job["status"])}</span>'
-    return render_job_detail_page(
-        user=user,
-        job_id=job["id"],
-        username=job["username"],
-        status_html=status_html,
-        progress_html=render_progress(job["progress"], job["status_detail"]),
-        created_at=job["created_at"],
-        finished_at=job["finished_at"] or "-",
-        log_root=job["log_root"] or "-",
-        download_html=download,
-        file_links_html="".join(file_links),
-        error_message=job["error_message"] or "无",
-        timeline_html=timeline,
-        auto_refresh=job["status"] in {"queued", "running"},
-    )
+    return JSONResponse(serialize_job(job))
 
 
-@app.get("/jobs/{job_id}/download")
-async def download_job(request: Request, job_id: str) -> FileResponse:
+@app.get(f"{API_PREFIX}/jobs/{{job_id}}/download")
+async def api_download_job(request: Request, job_id: str) -> FileResponse:
     user = require_user(request)
     job = ensure_job_access(get_job(job_id), user)
     if not job["bundle_path"]:
@@ -901,8 +872,8 @@ async def download_job(request: Request, job_id: str) -> FileResponse:
     return FileResponse(path, filename=path.name)
 
 
-@app.get("/jobs/{job_id}/files/{file_name}")
-async def download_job_file(request: Request, job_id: str, file_name: str) -> FileResponse:
+@app.get(f"{API_PREFIX}/jobs/{{job_id}}/files/{{file_name}}")
+async def api_download_job_file(request: Request, job_id: str, file_name: str) -> FileResponse:
     user = require_user(request)
     job = ensure_job_access(get_job(job_id), user)
     if not job["output_path"]:
@@ -914,315 +885,41 @@ async def download_job_file(request: Request, job_id: str, file_name: str) -> Fi
     return FileResponse(path, filename=file_name)
 
 
-@app.get("/admin", response_class=HTMLResponse)
-async def admin_page(request: Request) -> HTMLResponse:
-    user = require_admin(request)
-    admin_section = request.query_params.get("section", "users")
-    if admin_section not in {"users", "jobs", "reports", "audits"}:
-        admin_section = "users"
-    selected_report_date = request.query_params.get("report_date", "").strip()
-    selected_report_user = request.query_params.get("report_user", "").strip()
-    audit_page_size = 20
-    try:
-        audit_page = max(1, int(request.query_params.get("audit_page", "1")))
-    except ValueError:
-        audit_page = 1
-    audit_offset = (audit_page - 1) * audit_page_size
-    conn = db_connect()
-    users = conn.execute("SELECT id, username, is_admin, created_at, last_login_at FROM users ORDER BY created_at").fetchall()
-    jobs = conn.execute(
-        """
-        SELECT jobs.*, users.username
-        FROM jobs JOIN users ON users.id = jobs.user_id
-        ORDER BY jobs.created_at DESC
-        LIMIT 100
-        """
-    ).fetchall()
-    audits = conn.execute(
-        """
-        SELECT audit_logs.*, users.username
-        FROM audit_logs LEFT JOIN users ON users.id = audit_logs.user_id
-        ORDER BY audit_logs.created_at DESC
-        LIMIT ? OFFSET ?
-        """
-        ,
-        (audit_page_size, audit_offset),
-    ).fetchall()
-    audit_total = conn.execute("SELECT COUNT(*) FROM audit_logs").fetchone()[0]
-    conn.close()
-    report_records = list_report_records()
-    report_dates = sorted({item["report_date"] for item in report_records}, reverse=True)
-    report_users = sorted({item["username"] for item in report_records if item["report_date"] == selected_report_date})
-    filtered_reports = [
-        item
-        for item in report_records
-        if item["report_date"] == selected_report_date and item["username"] == selected_report_user
-    ]
-    report_date_rows = "".join(
-        f'<tr><td>{date}</td><td>{sum(1 for item in report_records if item["report_date"] == date)}</td><td><a class="button secondary" href="/admin?section=reports&report_date={date}">查看用户</a></td></tr>'
-        for date in report_dates
-    )
-    report_user_rows = "".join(
-        f'<tr><td>{name}</td><td>{sum(1 for item in report_records if item["report_date"] == selected_report_date and item["username"] == name)}</td><td><a class="button secondary" href="/admin?section=reports&report_date={selected_report_date}&report_user={name}">查看文档</a></td></tr>'
-        for name in report_users
-    )
-    report_doc_rows = "".join(
-        (
-            f"<tr>"
-            f"<td>{item['job_id']}</td>"
-            f"<td>{item['name']}</td>"
-            f"<td>{item['size']}</td>"
-            f"<td>{item['modified_at']}</td>"
-            f"<td><div class=\"inline-actions\">"
-            f"<a class=\"button secondary\" href=\"/admin/reports/{item['job_id']}/{item['name']}/download\">下载</a>"
-            f"<form action=\"/admin/reports/{item['job_id']}/{item['name']}/delete\" method=\"post\" onsubmit=\"return confirm('确认删除 {item['name']} 吗？');\">"
-            f"<button type=\"submit\" class=\"danger\">删除</button>"
-            f"</form>"
-            f"</div></td>"
-            f"</tr>"
-        )
-        for item in filtered_reports
-    )
-    report_breadcrumb_parts = ['<a href="/admin?section=reports">报告管理</a>']
-    if selected_report_date:
-        report_breadcrumb_parts.append(
-            f'<a href="/admin?section=reports&report_date={selected_report_date}">{selected_report_date}</a>'
-        )
-    if selected_report_user:
-        report_breadcrumb_parts.append(
-            f'<span>{selected_report_user}</span>'
-        )
-    report_breadcrumb = f'<div class="crumbs">{" / ".join(report_breadcrumb_parts)}</div>'
-    job_rows = "".join(
-        (
-            f"<tr>"
-            f"<td>{item['id']}</td>"
-            f"<td>{item['username']}</td>"
-            f"<td>{status_label(item['status'])}</td>"
-            f"<td>{item['created_at']}</td>"
-            f"<td>{item['finished_at'] or '-'}</td>"
-            f"<td><div class=\"inline-actions\">"
-            f"<a class=\"button secondary\" href=\"/jobs/{item['id']}\">查看</a>"
-            + (
-                f"<form action=\"/admin/jobs/{item['id']}/delete\" method=\"post\" onsubmit=\"return confirm('确认删除任务 {item['id']} 吗？');\">"
-                f"<button type=\"submit\" class=\"danger\">删除</button>"
-                f"</form>"
-                if item["status"] in {"completed", "failed"}
-                else "<span class=\"muted\">处理中任务不可删除</span>"
-            )
-            + "</div></td></tr>"
-        )
-        for item in jobs
-    )
-    user_rows = "".join(
-        (
-            f"<tr>"
-            f"<td>{item['username']}</td>"
-            f"<td>{'管理员' if item['is_admin'] else '普通用户'}</td>"
-            f"<td>{item['created_at']}</td>"
-            f"<td>{item['last_login_at'] or '-'}</td>"
-            f"<td><button type=\"button\" onclick=\"openModal('resetPasswordModal-{item['id']}')\">重置密码</button>"
-            f"<div id=\"resetPasswordModal-{item['id']}\" class=\"modal\" onclick=\"closeModalOnBackdrop(event, 'resetPasswordModal-{item['id']}')\">"
-            f"<div class=\"modal-panel\">"
-            f"<div class=\"toolbar\"><div class=\"panel-title\"><h2>重置密码</h2><span class=\"eyebrow\">Password</span></div>"
-            f"<button type=\"button\" class=\"modal-close\" onclick=\"closeModal('resetPasswordModal-{item['id']}')\">关闭</button></div>"
-            f"<form action=\"/admin/users/{item['id']}/password\" method=\"post\">"
-            f"<p>为用户 <strong>{item['username']}</strong> 设置新密码</p>"
-            f"<label>新密码</label>"
-            f"<input name=\"new_password\" type=\"password\" placeholder=\"输入新密码\" required>"
-            f"<button type=\"submit\">确认重置</button>"
-            f"</form></div></div></td>"
-            f"</tr>"
-        )
-        for item in users
-    )
-    audit_rows = "".join(
-        f"<tr><td>{item['created_at']}</td><td>{item['username'] or '匿名'}</td><td>{item['action']}</td><td>{item['detail']}</td></tr>"
-        for item in audits
-    )
-    audit_total_pages = max(1, (audit_total + audit_page_size - 1) // audit_page_size)
-    pagination_links: list[str] = []
-    if audit_page > 1:
-        pagination_links.append(f'<a class="button secondary" href="/admin?section=audits&audit_page={audit_page - 1}">上一页</a>')
-    pagination_links.append(f'<span class="muted">第 {audit_page} / {audit_total_pages} 页，共 {audit_total} 条</span>')
-    if audit_page < audit_total_pages:
-        pagination_links.append(f'<a class="button secondary" href="/admin?section=audits&audit_page={audit_page + 1}">下一页</a>')
-    audit_pagination = f'<div class="inline-actions">{"".join(pagination_links)}</div>'
-    section_nav = """
-    <div class="subnav">
-        <a href="/admin?section=users" class="{users_class}">用户管理</a>
-        <a href="/admin?section=jobs" class="{jobs_class}">任务管理</a>
-        <a href="/admin?section=reports" class="{reports_class}">Word 报告</a>
-        <a href="/admin?section=audits" class="{audits_class}">审计日志</a>
-    </div>
-    """.format(
-        users_class="active" if admin_section == "users" else "",
-        jobs_class="active" if admin_section == "jobs" else "",
-        reports_class="active" if admin_section == "reports" else "",
-        audits_class="active" if admin_section == "audits" else "",
-    )
-
-    users_section = f"""
-    <div class="card">
-        <div class="toolbar">
-            <div class="panel-title">
-                <h2>用户管理</h2>
-                <span class="eyebrow">Accounts</span>
-            </div>
-            <button type="button" onclick="openModal('createUserModal')">新增用户</button>
-        </div>
-        <div class="table-wrap">
-            <table><thead><tr><th>用户名</th><th>角色</th><th>创建时间</th><th>最后登录</th><th>密码管理</th></tr></thead><tbody>{user_rows}</tbody></table>
-        </div>
-    </div>
-    <div class="card">
-        <div class="panel-title">
-            <h2>更新公告</h2>
-            <span class="eyebrow">Notice</span>
-        </div>
-        <form action="/admin/announcement" method="post">
-            <textarea name="content" rows="5" required>{announcement_text()}</textarea>
-            <button type="submit">保存公告</button>
-        </form>
-    </div>
-    <div id="createUserModal" class="modal" onclick="closeModalOnBackdrop(event, 'createUserModal')">
-        <div class="modal-panel">
-            <div class="toolbar">
-                <div class="panel-title">
-                    <h2>新增用户</h2>
-                    <span class="eyebrow">Users</span>
-                </div>
-                <button type="button" class="modal-close" onclick="closeModal('createUserModal')">关闭</button>
-            </div>
-            <form action="/admin/users" method="post">
-                <label>用户名</label>
-                <input name="username" required>
-                <label>密码</label>
-                <input name="password" type="password" required>
-                <label>角色</label>
-                <select name="is_admin">
-                    <option value="0">普通用户</option>
-                    <option value="1">管理员</option>
-                </select>
-                <button type="submit">创建用户</button>
-            </form>
-        </div>
-    </div>
-    """
-
-    jobs_section = f"""
-    <div class="card">
-        <div class="panel-title">
-            <h2>任务管理</h2>
-            <span class="eyebrow">Jobs</span>
-        </div>
-        <div class="table-wrap">
-            <table><thead><tr><th>任务ID</th><th>提交人</th><th>状态</th><th>创建时间</th><th>完成时间</th><th>操作</th></tr></thead><tbody>{job_rows or '<tr><td colspan="6">暂无任务</td></tr>'}</tbody></table>
-        </div>
-    </div>
-    """
-
-    reports_section = f"""
-    <div class="stack">
-        <div class="card">
-            <div class="panel-title">
-                <h2>服务器累计 Word 报告</h2>
-                <span class="eyebrow">Word Files</span>
-            </div>
-            {report_breadcrumb}
-            <div class="table-wrap">
-                <table><thead><tr><th>日期</th><th>文档数</th><th>操作</th></tr></thead><tbody>{report_date_rows or '<tr><td colspan="3">暂无 Word 报告</td></tr>'}</tbody></table>
-            </div>
-        </div>
-        <div class="card">
-            <div class="panel-title">
-                <h2>日期下的用户</h2>
-                <span class="eyebrow">{selected_report_date or '请选择日期'}</span>
-            </div>
-            <div class="table-wrap">
-                <table><thead><tr><th>用户</th><th>文档数</th><th>操作</th></tr></thead><tbody>{report_user_rows or '<tr><td colspan="3">请选择日期后查看用户</td></tr>'}</tbody></table>
-            </div>
-        </div>
-        <div class="card">
-            <div class="panel-title">
-                <h2>用户生成的文档</h2>
-                <span class="eyebrow">{selected_report_user or '请选择用户'}</span>
-            </div>
-            <div class="table-wrap">
-                <table><thead><tr><th>任务ID</th><th>文件名</th><th>大小</th><th>更新时间</th><th>操作</th></tr></thead><tbody>{report_doc_rows or '<tr><td colspan="5">请选择日期和用户后查看文档</td></tr>'}</tbody></table>
-            </div>
-        </div>
-    </div>
-    """
-
-    audits_section = f"""
-    <div class="card">
-        <div class="panel-title">
-            <h2>最近审计日志</h2>
-            <span class="eyebrow">Audit</span>
-        </div>
-        {audit_pagination}
-        <div class="table-wrap">
-            <table><thead><tr><th>时间</th><th>用户</th><th>动作</th><th>详情</th></tr></thead><tbody>{audit_rows or '<tr><td colspan="4">暂无审计日志</td></tr>'}</tbody></table>
-        </div>
-    </div>
-    """
-
-    section_body = {
-        "users": users_section,
-        "jobs": jobs_section,
-        "reports": reports_section,
-        "audits": audits_section,
-    }[admin_section]
-    return render_admin_page(user, section_nav, section_body)
+@app.get(f"{API_PREFIX}/admin/users")
+async def api_admin_users(request: Request) -> JSONResponse:
+    require_admin(request)
+    return JSONResponse([serialize_user(row) for row in list_admin_users()])
 
 
-@app.post("/admin/announcement")
-async def update_announcement(request: Request, content: str = Form(...)) -> Response:
-    user = require_admin(request)
-    conn = db_connect()
-    with conn:
-        conn.execute(
-            "UPDATE announcements SET content = ?, updated_at = ?, updated_by = ? WHERE id = 1",
-            (content, now_local().isoformat(), user["username"]),
-        )
-    conn.close()
-    record_audit(user["id"], "announcement_updated", "更新系统公告", request)
-    return RedirectResponse("/admin", status_code=302)
-
-
-@app.post("/admin/users")
-async def create_user(
-    request: Request,
-    username: str = Form(...),
-    password: str = Form(...),
-    is_admin: int = Form(0),
-) -> Response:
-    user = require_admin(request)
+@app.post(f"{API_PREFIX}/admin/users")
+async def api_admin_create_user(request: Request) -> JSONResponse:
+    admin = require_admin(request)
+    payload = await request.json()
+    username = str(payload.get("username", "")).strip()
+    password = str(payload.get("password", ""))
+    is_admin = int(bool(payload.get("is_admin", False)))
+    if not username or not password:
+        raise HTTPException(status_code=400, detail="用户名和密码不能为空")
     if get_user_by_username(username):
         raise HTTPException(status_code=400, detail="用户名已存在")
     conn = db_connect()
     with conn:
         conn.execute(
             "INSERT INTO users (username, password_hash, is_admin, created_at) VALUES (?, ?, ?, ?)",
-            (username, hash_password(password), int(bool(is_admin)), now_local().isoformat()),
+            (username, hash_password(password), is_admin, now_local().isoformat()),
         )
     conn.close()
-    record_audit(user["id"], "user_created", f"创建用户 {username}", request)
-    return RedirectResponse("/admin", status_code=302)
+    record_audit(admin["id"], "user_created", f"创建用户 {username}", request)
+    return JSONResponse({"ok": True})
 
 
-@app.post("/admin/users/{target_user_id}/password")
-async def reset_user_password(
-    request: Request,
-    target_user_id: int,
-    new_password: str = Form(...),
-) -> Response:
+@app.put(f"{API_PREFIX}/admin/users/{{target_user_id}}/password")
+async def api_admin_reset_password(request: Request, target_user_id: int) -> JSONResponse:
     admin = require_admin(request)
-    new_password = new_password.strip()
+    payload = await request.json()
+    new_password = str(payload.get("new_password", "")).strip()
     if len(new_password) < 8:
         raise HTTPException(status_code=400, detail="新密码长度不能少于 8 位")
-
     conn = db_connect()
     target_user = conn.execute("SELECT id, username FROM users WHERE id = ?", (target_user_id,)).fetchone()
     if not target_user:
@@ -1231,14 +928,37 @@ async def reset_user_password(
     with conn:
         conn.execute("UPDATE users SET password_hash = ? WHERE id = ?", (hash_password(new_password), target_user_id))
     conn.close()
-
     clear_user_sessions(target_user_id)
     record_audit(admin["id"], "password_reset", f"管理员重置用户 {target_user['username']} 的密码", request)
-    return RedirectResponse("/admin", status_code=302)
+    return JSONResponse({"ok": True})
 
 
-@app.post("/admin/jobs/{job_id}/delete")
-async def admin_delete_job(request: Request, job_id: str) -> Response:
+@app.put(f"{API_PREFIX}/admin/announcement")
+async def api_update_announcement(request: Request) -> JSONResponse:
+    user = require_admin(request)
+    payload = await request.json()
+    content = str(payload.get("content", "")).strip()
+    if not content:
+        raise HTTPException(status_code=400, detail="公告内容不能为空")
+    conn = db_connect()
+    with conn:
+        conn.execute(
+            "UPDATE announcements SET content = ?, updated_at = ?, updated_by = ? WHERE id = 1",
+            (content, now_local().isoformat(), user["username"]),
+        )
+    conn.close()
+    record_audit(user["id"], "announcement_updated", "更新系统公告", request)
+    return JSONResponse({"ok": True, "content": content})
+
+
+@app.get(f"{API_PREFIX}/admin/jobs")
+async def api_admin_jobs(request: Request) -> JSONResponse:
+    require_admin(request)
+    return JSONResponse([serialize_job(row) for row in list_admin_jobs()])
+
+
+@app.delete(f"{API_PREFIX}/admin/jobs/{{job_id}}")
+async def api_admin_delete_job(request: Request, job_id: str) -> JSONResponse:
     admin = require_admin(request)
     conn = db_connect()
     job = conn.execute("SELECT * FROM jobs WHERE id = ?", (job_id,)).fetchone()
@@ -1253,20 +973,58 @@ async def admin_delete_job(request: Request, job_id: str) -> Response:
     conn.close()
     delete_job_storage(job)
     record_audit(admin["id"], "job_deleted", f"管理员删除任务 {job_id}", request)
-    return RedirectResponse(request.headers.get("referer") or "/admin", status_code=302)
+    return JSONResponse({"ok": True})
 
 
-def resolve_admin_report_path(job_id: str, file_name: str) -> Path:
-    path = (config.report_dir / job_id / Path(file_name).name).resolve()
-    if config.report_dir not in path.parents:
-        raise HTTPException(status_code=400, detail="非法文件路径")
-    if path.suffix.lower() != ".docx":
-        raise HTTPException(status_code=400, detail="仅允许管理 Word 报告")
-    return path
+@app.get(f"{API_PREFIX}/admin/reports/dates")
+async def api_report_dates(request: Request) -> JSONResponse:
+    require_admin(request)
+    report_records = list_report_records()
+    dates = sorted({item["report_date"] for item in report_records}, reverse=True)
+    items = [
+        {
+            "report_date": date,
+            "count": sum(1 for item in report_records if item["report_date"] == date),
+        }
+        for date in dates
+    ]
+    return JSONResponse(items)
 
 
-@app.get("/admin/reports/{job_id}/{file_name}/download")
-async def admin_download_report(request: Request, job_id: str, file_name: str) -> FileResponse:
+@app.get(f"{API_PREFIX}/admin/reports/users")
+async def api_report_users(request: Request, date: str) -> JSONResponse:
+    require_admin(request)
+    report_records = list_report_records()
+    users = sorted({item["username"] for item in report_records if item["report_date"] == date})
+    items = [
+        {
+            "username": username,
+            "count": sum(
+                1 for item in report_records if item["report_date"] == date and item["username"] == username
+            ),
+        }
+        for username in users
+    ]
+    return JSONResponse(items)
+
+
+@app.get(f"{API_PREFIX}/admin/reports/files")
+async def api_report_files(request: Request, date: str, user: str) -> JSONResponse:
+    require_admin(request)
+    report_records = list_report_records()
+    items = [
+        {
+            **item,
+            "download_url": f"{API_PREFIX}/admin/reports/{item['job_id']}/{item['name']}/download",
+        }
+        for item in report_records
+        if item["report_date"] == date and item["username"] == user
+    ]
+    return JSONResponse(items)
+
+
+@app.get(f"{API_PREFIX}/admin/reports/{{job_id}}/{{file_name}}/download")
+async def api_admin_download_report(request: Request, job_id: str, file_name: str) -> FileResponse:
     admin = require_admin(request)
     path = resolve_admin_report_path(job_id, file_name)
     if not path.exists():
@@ -1275,8 +1033,8 @@ async def admin_download_report(request: Request, job_id: str, file_name: str) -
     return FileResponse(path, filename=path.name)
 
 
-@app.post("/admin/reports/{job_id}/{file_name}/delete")
-async def admin_delete_report(request: Request, job_id: str, file_name: str) -> Response:
+@app.delete(f"{API_PREFIX}/admin/reports/{{job_id}}/{{file_name}}")
+async def api_admin_delete_report(request: Request, job_id: str, file_name: str) -> JSONResponse:
     admin = require_admin(request)
     path = resolve_admin_report_path(job_id, file_name)
     if not path.exists():
@@ -1297,31 +1055,105 @@ async def admin_delete_report(request: Request, job_id: str, file_name: str) -> 
     if parent.exists() and not any(parent.iterdir()):
         parent.rmdir()
     record_audit(admin["id"], "report_deleted", f"管理员删除报告 {path.name}", request)
-    return RedirectResponse("/admin", status_code=302)
+    return JSONResponse({"ok": True})
 
 
-@app.get("/me")
-async def me(request: Request) -> JSONResponse:
-    user = require_user(request)
-    return JSONResponse({"id": user["id"], "username": user["username"], "is_admin": bool(user["is_admin"])})
+@app.get(f"{API_PREFIX}/admin/audits")
+async def api_admin_audits(request: Request, page: int = 1, page_size: int = 20) -> JSONResponse:
+    require_admin(request)
+    safe_page = max(1, page)
+    safe_page_size = max(1, min(100, page_size))
+    audits, total = list_audits_page(safe_page, safe_page_size)
+    total_pages = max(1, ceil(total / safe_page_size))
+    return JSONResponse(
+        {
+            "items": [serialize_audit(item) for item in audits],
+            "page": safe_page,
+            "page_size": safe_page_size,
+            "total": total,
+            "total_pages": total_pages,
+        }
+    )
 
 
-@app.get("/announcements")
-async def announcements() -> JSONResponse:
-    return JSONResponse({"content": announcement_text()})
-
-
-@app.get("/health")
-async def health() -> JSONResponse:
+@app.get(f"{API_PREFIX}/health")
+async def api_health() -> JSONResponse:
     return JSONResponse({"status": "ok", "time": now_local().isoformat()})
 
 
+@app.on_event("startup")
+def startup_event() -> None:
+    initialize_database()
+    cleanup_expired_data()
+
+
+def spa_redirect(path: str) -> RedirectResponse:
+    return RedirectResponse(path, status_code=302)
+
+
+@app.get("/")
+async def home(request: Request) -> RedirectResponse:
+    user = get_user_by_session(request.cookies.get(SESSION_COOKIE))
+    return spa_redirect("/app/dashboard" if user else "/app/login")
+
+
+@app.get("/login")
+async def login_page() -> RedirectResponse:
+    return spa_redirect("/app/login")
+
+
+@app.post("/login")
+async def legacy_login_redirect() -> RedirectResponse:
+    return spa_redirect("/app/login")
+
+
+@app.get("/logout")
+async def logout_page() -> RedirectResponse:
+    return spa_redirect("/app/login")
+
+
+@app.post("/logout")
+async def legacy_logout_redirect(request: Request) -> Response:
+    token = request.cookies.get(SESSION_COOKIE)
+    user = get_user_by_session(token)
+    if user:
+        record_audit(user["id"], "logout", "用户退出登录", request)
+    clear_session(token)
+    return clear_session_response(spa_redirect("/app/login"))
+
+
+@app.get("/dashboard")
+async def dashboard_redirect() -> RedirectResponse:
+    return spa_redirect("/app/dashboard")
+
+
+@app.get("/upload")
+async def upload_redirect() -> RedirectResponse:
+    return spa_redirect("/app/tasks/new")
+
+
+@app.get("/jobs/{job_id}")
+async def job_detail_redirect(job_id: str) -> RedirectResponse:
+    return spa_redirect(f"/app/tasks/{job_id}")
+
+
+@app.get("/admin")
+async def admin_redirect() -> RedirectResponse:
+    return spa_redirect("/app/admin")
+
+
+def resolve_admin_report_path(job_id: str, file_name: str) -> Path:
+    path = (config.report_dir / job_id / Path(file_name).name).resolve()
+    if config.report_dir not in path.parents:
+        raise HTTPException(status_code=400, detail="非法文件路径")
+    if path.suffix.lower() != ".docx":
+        raise HTTPException(status_code=400, detail="仅允许管理 Word 报告")
+    return path
+
+
 @app.exception_handler(HTTPException)
-async def http_exception_handler(request: Request, exc: HTTPException) -> HTMLResponse | JSONResponse:
-    wants_json = request.headers.get("accept", "").startswith("application/json") or request.url.path in {"/jobs", "/me", "/announcements", "/health"}
-    if wants_json:
-        return JSONResponse({"detail": exc.detail}, status_code=exc.status_code)
-    return render_error_page(str(exc.detail))
+async def http_exception_handler(request: Request, exc: HTTPException) -> JSONResponse:
+    return JSONResponse({"detail": exc.detail}, status_code=exc.status_code)
 
 
 if __name__ == "__main__":

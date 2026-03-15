@@ -8,13 +8,16 @@
 - 自动识别日志目录结构并生成 Word 报告
 - 任务进度可视化，状态中文显示
 - 支持任务详情、结果下载、报告打包下载
+- 任务 ID 使用 `YYYYMMDD-序号` 规则生成
 - 管理员可管理用户、重置密码、删除任务
 - 管理员可按日期和用户查看服务器累计生成的 Word 报告
 - 支持审计日志查看和分页
+- 前端已拆分为独立 React SPA，管理页采用模块化结构
 
 ## 技术栈
 
 - Backend: FastAPI
+- Frontend: React + Vite + Ant Design
 - Report Engine: python-docx
 - Database: SQLite
 - Reverse Proxy: Nginx
@@ -24,9 +27,14 @@
 
 ```text
 .
-├── server.py              # 主服务入口
+├── server.py              # FastAPI API 服务
 ├── core/                  # 报告生成核心逻辑
-├── frontend/              # 当前服务端渲染前端模块
+├── web/                   # 独立 React 前端项目
+│   └── src/
+│       ├── pages/         # 页面级组件
+│       ├── components/    # 复用 UI 组件
+│       ├── hooks/         # 业务 hooks
+│       └── lib/           # API、类型、格式化工具
 ├── nginx/                 # Nginx 配置
 ├── Word_模板库/           # Word 模板库
 ├── data/                  # 运行数据、上传文件、生成报告
@@ -61,7 +69,7 @@ docker compose up -d --build
 访问：
 
 ```text
-https://<你的域名或IP>/
+https://<你的域名或IP>/app/login
 ```
 
 ## 默认运行目录
@@ -73,9 +81,12 @@ https://<你的域名或IP>/
 ## 当前部署结构
 
 - `app` 容器运行 FastAPI
-- `nginx` 容器提供 HTTPS 和反向代理
+- `nginx` 容器构建并托管 React 静态资源，同时反向代理 `/api/*`
 - 80 端口强制跳转到 443
 - 443 端口提供正式访问
+- `/app/*` 为前端路由入口
+- `/api/*` 为后端接口入口
+- `/`、`/dashboard`、`/upload`、`/admin` 等旧路径会自动跳转到新 SPA 页面
 
 ## 管理能力
 
@@ -90,12 +101,15 @@ https://<你的域名或IP>/
 
 ## 开发说明
 
-当前项目仍处于后端主导阶段，页面渲染逻辑已从 `server.py` 抽离到 `frontend/views.py`，后续计划继续升级为独立前端项目。
+当前项目已经拆分为独立前后端：
+
+- `server.py` 提供 `/api/*` 接口
+- `web/` 提供 React SPA，统一挂载在 `/app/*`
+- 根路径和旧页面路径会自动跳转到对应 SPA 页面
+- 管理后台已拆为用户、任务、Word 报告、审计四个独立模块
 
 ## 注意事项
 
-- 当前仓库已经包含运行数据和样例日志，仓库体积较大
-- 当前仓库也包含 `.env` 和本地虚拟环境 `.venv`，如果要公开仓库，建议后续清理并重写 `.gitignore`
 - 上传文件总大小受 `MAX_UPLOAD_BYTES` 控制，默认 200 MB
 
 ## 首次登录

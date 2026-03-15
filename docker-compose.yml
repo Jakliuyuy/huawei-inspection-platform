@@ -15,7 +15,9 @@ services:
       - "8080"
 
   nginx:
-    image: nginx:1.27-alpine
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
     container_name: huawei-inspection-nginx
     restart: unless-stopped
     depends_on:

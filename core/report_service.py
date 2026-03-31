@@ -14,6 +14,51 @@ from core import docx_engine as engine
 
 RE_IP = re.compile(r"(\d+\.\d+\.\d+\.[1-9]\d*)")
 RE_DATE = re.compile(r"\d{4}[-]?\d{2}[-]?\d{2}|\d{2}月\d{2}日")
+ROOM_ENV_LABEL = "机房电源、空调、温湿度检查"
+ROOM_ENV_ALARM_KEYWORDS = (
+    "power",
+    "pwr",
+    "fan",
+    "temperature",
+    "humid",
+    "humidity",
+    "environment",
+    "电源",
+    "风扇",
+    "温度",
+    "湿度",
+    "环境",
+)
+ROOM_ENV_EN_PATTERNS = tuple(
+    re.compile(pattern, re.I)
+    for pattern in (
+        r"\bpower\b",
+        r"\bpwr\d*\b",
+        r"\bfan\d*\b",
+        r"\btemperature\b",
+        r"\bhumid(?:ity)?\b",
+        r"\benvironment\b",
+    )
+)
+ROOM_ENV_BAD_KEYWORDS = (
+    "critical",
+    "major",
+    "minor",
+    "fault",
+    "abnormal",
+    "absent",
+    "unregistered",
+    "shutdown",
+    "failed",
+    "failure",
+    "off",
+    "not present",
+    "lost",
+    "异常",
+    "故障",
+    "关闭",
+    "离线",
+)
 
 
 @dataclass
@@ -90,6 +135,58 @@ def find_latest_log_dir(logs_base: Path) -> Path:
     if not date_dirs:
         raise FileNotFoundError(f"未在 {logs_base} 发现日期目录")
     return date_dirs[-1]
+
+
+def find_section_output(sections: dict[str, str], cache: dict[str, str], *keywords: str) -> str:
+    for command, output in sections.items():
+        normalized = cache.get(engine.normalize(command), command)
+        target = engine.normalize(normalized)
+        if all(engine.normalize(keyword) in target for keyword in keywords):
+            return output
+    return ""
+
+
+def resolve_room_environment_status(log: LogObject) -> str:
+    device_output = find_section_output(log.sections, log.norm_cache, "device")
+    logbuffer_output = find_section_output(log.sections, log.norm_cache, "logbuffer")
+    device_text = device_output.lower()
+    logbuffer_text = logbuffer_output.lower()
+
+    if not device_output and not logbuffer_output:
+        return "正常。"
+
+    device_has_good_signal = False
+    if device_output:
+        if "alarm" in device_text:
+            device_has_good_signal = "normal" in device_text and not any(
+                bad in device_text for bad in ("critical", "major", "minor", "abnormal", "fault")
+            )
+        else:
+            lines = [line.strip().lower() for line in device_output.splitlines() if line.strip()]
+            device_has_good_signal = bool(lines) and all(
+                not any(bad in line for bad in ("fault", "abnormal", "absent", "unregistered"))
+                for line in lines
+                if line[:1].isdigit()
+            )
+
+    abnormal_hits: list[str] = []
+    for line in logbuffer_output.splitlines():
+        normalized_line = line.lower()
+        has_env_keyword = any(keyword in normalized_line for keyword in ROOM_ENV_ALARM_KEYWORDS) or any(
+            pattern.search(line) for pattern in ROOM_ENV_EN_PATTERNS
+        )
+        if not has_env_keyword:
+            continue
+        if any(bad in normalized_line for bad in ROOM_ENV_BAD_KEYWORDS):
+            abnormal_hits.append(line.strip())
+            if len(abnormal_hits) >= 2:
+                break
+
+    if abnormal_hits:
+        return "；".join(abnormal_hits)
+    if device_has_good_signal:
+        return "正常。"
+    return "正常。"
 
 
 def safe_update_paragraph(paragraph, new_text: str) -> None:
@@ -196,12 +293,15 @@ def process_system(
                         engine.set_cell_text(cell, target_date.replace("-", ""))
             elif row_index == 2:
                 for cell in cells[1:]:
-                    if not cell.text.strip() or cell.text in ["杜康", "刘关雷"]:
-                        engine.set_cell_text(cell, "杜康")
+                    if not cell.text.strip() or cell.text in ["杜康", "刘关雷", "苗向"]:
+                        engine.set_cell_text(cell, "苗向")
             elif row_index >= 4 and len(cells) >= 3:
                 wanted = cells[1].text.strip()
                 if wanted:
-                    engine.set_cell_text(cells[2], engine.select_command_output(log.sections, wanted, log.norm_cache))
+                    if ROOM_ENV_LABEL in wanted:
+                        engine.set_cell_text(cells[2], resolve_room_environment_status(log))
+                    else:
+                        engine.set_cell_text(cells[2], engine.select_command_output(log.sections, wanted, log.norm_cache))
 
     file_name = f"{(sys_key if sys_info.get('is_english_name') else sys_info['display_name'])}{target_date}日巡检报告.docx"
     output_path = output_dir / file_name

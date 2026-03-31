@@ -18,6 +18,55 @@ def normalize(text: str) -> str:
     """极速归一化"""
     return "".join(filter(str.isalnum, text.lower()))
 
+
+CPU_COMMAND_PATTERNS = (
+    ("displaycpu", 0),
+    ("discpu", 0),
+    ("showcpu", 0),
+    ("displaycpuusage", 1),
+    ("discpuusage", 1),
+    ("showcpuusage", 1),
+)
+
+MEMORY_COMMAND_PATTERNS = (
+    ("displaymemory", 0),
+    ("dismemory", 0),
+    ("showmemory", 0),
+    ("displaymemoryusage", 1),
+    ("dismemoryusage", 1),
+    ("showmemoryusage", 1),
+    ("displaymemoryall", 2),
+    ("dismemoryall", 2),
+    ("showmemoryall", 2),
+)
+
+
+def _get_command_family(wanted_normalized: str) -> str | None:
+    if "cpu" in wanted_normalized:
+        return "cpu"
+    if "memory" in wanted_normalized:
+        return "memory"
+    return None
+
+
+def _collect_family_outputs(sections: dict[str, str], family: str) -> list[str]:
+    patterns = CPU_COMMAND_PATTERNS if family == "cpu" else MEMORY_COMMAND_PATTERNS
+    collected: list[tuple[int, str, str]] = []
+    seen: set[str] = set()
+
+    for command, output in sections.items():
+        normalized = normalize(command)
+        for prefix, order in patterns:
+            if normalized.startswith(prefix):
+                if normalized in seen:
+                    break
+                seen.add(normalized)
+                collected.append((order, normalized, f"{command}\n{output}" if output else command))
+                break
+
+    collected.sort(key=lambda item: (item[0], item[1]))
+    return [item[2] for item in collected]
+
 def parse_sections(text: str) -> dict[str, str]:
     """高性能分段"""
     sections: dict[str, str] = {}
@@ -57,6 +106,12 @@ def set_cell_text(cell, text):
 def select_command_output(sections: dict[str, str], wanted: str, cache: dict) -> str:
     """使用预计算缓存的秒级匹配"""
     wn = normalize(wanted)
+    family = _get_command_family(wn)
+    if family:
+        family_outputs = _collect_family_outputs(sections, family)
+        if family_outputs:
+            return "\n\n".join(family_outputs)
+
     if wn in cache:
         cmd = cache[wn]
         return f"{cmd}\n{sections[cmd]}" if sections.get(cmd) else cmd

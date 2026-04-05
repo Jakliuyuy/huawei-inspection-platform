@@ -4,7 +4,7 @@ import { request } from '../../lib/api'
 import { formatTime } from '../../lib/format'
 import type { User } from '../../lib/types'
 
-export function buildUserColumns(onResetPassword: (user: User) => void): ColumnsType<User> {
+function buildUserColumns(onResetPassword: (user: User) => void): ColumnsType<User> {
   return [
     { title: '用户名', dataIndex: 'username' },
     { title: '角色', dataIndex: 'role_label' },

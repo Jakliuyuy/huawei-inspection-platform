@@ -18,6 +18,9 @@ export function AdminPage() {
   const {
     users,
     jobs,
+    jobPage,
+    jobTotal,
+    jobStats,
     auditPage,
     announcement,
     reportDates,
@@ -83,7 +86,16 @@ export function AdminPage() {
           {
             key: 'jobs',
             label: '任务管理',
-            children: <JobManagementSection jobs={jobs} onDeleteJob={deleteJob} />,
+            children: (
+              <JobManagementSection
+                jobs={jobs}
+                page={jobPage}
+                total={jobTotal}
+                stats={jobStats}
+                onPageChange={(nextPage) => void loadJobsSection(nextPage)}
+                onDeleteJob={deleteJob}
+              />
+            ),
           },
           {
             key: 'reports',

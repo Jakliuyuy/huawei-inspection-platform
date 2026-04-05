@@ -36,6 +36,22 @@ export type Job = {
   timeline: JobTimeline[]
 }
 
+export type JobStats = {
+  total: number
+  active: number
+  completed: number
+  failed: number
+}
+
+export type JobPage = {
+  items: Job[]
+  page: number
+  page_size: number
+  total: number
+  total_pages: number
+  stats: JobStats
+}
+
 export type AuditRecord = {
   id: number
   created_at: string

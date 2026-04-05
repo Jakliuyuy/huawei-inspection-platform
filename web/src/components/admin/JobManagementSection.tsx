@@ -5,9 +5,17 @@ import type { Job } from '../../lib/types'
 
 export function JobManagementSection({
   jobs,
+  page,
+  total,
+  stats,
+  onPageChange,
   onDeleteJob,
 }: {
   jobs: Job[]
+  page: number
+  total: number
+  stats: { total: number; active: number; completed: number; failed: number }
+  onPageChange: (page: number) => void
   onDeleteJob: (jobId: string) => void | Promise<void>
 }) {
   const columns: ColumnsType<Job> = [
@@ -31,7 +39,20 @@ export function JobManagementSection({
 
   return (
     <Card className="compact-card">
-      <Table<Job> rowKey="id" columns={columns} dataSource={jobs} size="middle" />
+      <Table<Job>
+        rowKey="id"
+        columns={columns}
+        dataSource={jobs}
+        size="middle"
+        title={() => `总任务 ${stats.total}，处理中 ${stats.active}，已完成 ${stats.completed}，失败 ${stats.failed}`}
+        pagination={{
+          current: page,
+          pageSize: 20,
+          total,
+          showSizeChanger: false,
+          onChange: onPageChange,
+        }}
+      />
     </Card>
   )
 }

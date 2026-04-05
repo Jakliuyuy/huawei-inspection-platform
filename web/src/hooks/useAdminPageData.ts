@@ -1,13 +1,16 @@
 import { App as AntApp } from 'antd'
-import { useEffect, useState } from 'react'
+import { useEffect, useEffectEvent, useState } from 'react'
 import { request } from '../lib/api'
-import type { Announcement, AuditPage, Job, ReportDate, ReportFile, ReportUser, User } from '../lib/types'
+import type { Announcement, AuditPage, Job, JobPage, JobStats, ReportDate, ReportFile, ReportUser, User } from '../lib/types'
 
 export type AdminTabKey = 'users' | 'jobs' | 'reports' | 'audits'
 
 export function useAdminPageData(activeTab: AdminTabKey) {
   const [users, setUsers] = useState<User[]>([])
   const [jobs, setJobs] = useState<Job[]>([])
+  const [jobPage, setJobPage] = useState(1)
+  const [jobTotal, setJobTotal] = useState(0)
+  const [jobStats, setJobStats] = useState<JobStats>({ total: 0, active: 0, completed: 0, failed: 0 })
   const [auditPage, setAuditPage] = useState<AuditPage | null>(null)
   const [announcement, setAnnouncement] = useState('')
   const [reportDates, setReportDates] = useState<ReportDate[]>([])
@@ -33,9 +36,13 @@ export function useAdminPageData(activeTab: AdminTabKey) {
     }
   }
 
-  const loadJobsSection = async () => {
+  const loadJobsSection = async (page = 1) => {
     try {
-      setJobs(await request<Job[]>('/admin/jobs'))
+      const data = await request<JobPage>(`/admin/jobs?page=${page}&page_size=20`)
+      setJobs(data.items)
+      setJobPage(data.page)
+      setJobTotal(data.total)
+      setJobStats(data.stats)
     } catch (error) {
       message.error(error instanceof Error ? error.message : '加载任务数据失败')
     } finally {
@@ -96,8 +103,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
     }
   }
 
-  useEffect(() => {
-    setLoading(true)
+  const loadActiveTab = useEffectEvent(() => {
     if (activeTab === 'users') {
       void loadUsersSection()
       return
@@ -111,6 +117,19 @@ export function useAdminPageData(activeTab: AdminTabKey) {
       return
     }
     void loadAuditsSection()
+  })
+
+  const loadUsersForDate = useEffectEvent((date: string) => {
+    void loadReportUsers(date)
+  })
+
+  const loadFilesForSelection = useEffectEvent((date: string, user: string) => {
+    void loadReportFiles(date, user)
+  })
+
+  useEffect(() => {
+    setLoading(true)
+    loadActiveTab()
   }, [activeTab])
 
   useEffect(() => {
@@ -120,7 +139,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
       setSelectedUser(null)
       return
     }
-    void loadReportUsers(selectedDate)
+    loadUsersForDate(selectedDate)
   }, [selectedDate])
 
   useEffect(() => {
@@ -128,12 +147,15 @@ export function useAdminPageData(activeTab: AdminTabKey) {
       setReportFiles([])
       return
     }
-    void loadReportFiles(selectedDate, selectedUser)
+    loadFilesForSelection(selectedDate, selectedUser)
   }, [selectedDate, selectedUser])
 
   return {
     users,
     jobs,
+    jobPage,
+    jobTotal,
+    jobStats,
     auditPage,
     announcement,
     reportDates,

@@ -1,12 +1,16 @@
-import { useEffect } from 'react'
+import { useEffect, useEffectEvent } from 'react'
 
 export function usePolling(callback: () => void | Promise<void>, enabled: boolean, delay: number): void {
+  const onPoll = useEffectEvent(() => {
+    void callback()
+  })
+
   useEffect(() => {
     if (!enabled) return
-    void callback()
+    onPoll()
     const timer = window.setInterval(() => {
-      void callback()
+      onPoll()
     }, delay)
     return () => window.clearInterval(timer)
-  }, [callback, delay, enabled])
+  }, [delay, enabled])
 }

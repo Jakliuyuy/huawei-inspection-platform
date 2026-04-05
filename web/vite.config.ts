@@ -39,6 +39,47 @@ export default defineConfig({
           ) {
             return 'antd-form'
           }
+          if (
+            id.includes('/antd/es/app') ||
+            id.includes('/antd/es/message') ||
+            id.includes('/antd/es/notification') ||
+            id.includes('/antd/es/modal') ||
+            id.includes('/antd/es/result') ||
+            id.includes('/antd/es/alert') ||
+            id.includes('/antd/es/progress') ||
+            id.includes('/antd/es/spin') ||
+            id.includes('/antd/es/tag') ||
+            id.includes('/antd/es/popconfirm') ||
+            id.includes('/rc-notification') ||
+            id.includes('/rc-dialog') ||
+            id.includes('/rc-progress')
+          ) {
+            return 'antd-feedback'
+          }
+          if (
+            id.includes('/antd/es/layout') ||
+            id.includes('/antd/es/menu') ||
+            id.includes('/antd/es/tabs') ||
+            id.includes('/antd/es/breadcrumb') ||
+            id.includes('/rc-menu') ||
+            id.includes('/rc-dropdown') ||
+            id.includes('/rc-tabs')
+          ) {
+            return 'antd-layout'
+          }
+          if (
+            id.includes('/antd/es/button') ||
+            id.includes('/antd/es/card') ||
+            id.includes('/antd/es/space') ||
+            id.includes('/antd/es/typography') ||
+            id.includes('/antd/es/list') ||
+            id.includes('/antd/es/descriptions') ||
+            id.includes('/antd/es/statistic') ||
+            id.includes('/antd/es/upload') ||
+            id.includes('/antd/es/divider')
+          ) {
+            return 'antd-basic'
+          }
           if (id.includes('antd')) return 'antd-core'
           if (id.includes('@ant-design')) return 'ant-icons'
           if (id.includes('react-router')) return 'router'

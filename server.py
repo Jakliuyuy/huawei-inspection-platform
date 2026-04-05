@@ -19,6 +19,21 @@ import uvicorn
 from fastapi import FastAPI, File, HTTPException, Request, Response, UploadFile
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
 
+from backend.persistence import (
+    cleanup_expired_data as cleanup_expired_data_impl,
+    list_admin_users as list_admin_users_impl,
+    list_audits_page as list_audits_page_impl,
+    list_jobs_page as list_jobs_page_impl,
+    recover_incomplete_jobs as recover_incomplete_jobs_impl,
+)
+from backend.reports import (
+    list_report_date_stats as list_report_date_stats_impl,
+    list_report_files_for_user as list_report_files_for_user_impl,
+    list_report_user_stats as list_report_user_stats_impl,
+    rebuild_report_file_index as rebuild_report_file_index_impl,
+    sync_job_report_files,
+)
+
 try:
     from dotenv import load_dotenv
 except ImportError:
@@ -33,6 +48,8 @@ APP_TITLE = "华为巡检云平台"
 SESSION_COOKIE = "inspection_session"
 LOCAL_TZ = timezone(timedelta(hours=8))
 MAX_UPLOAD_BYTES = int(os.getenv("MAX_UPLOAD_BYTES", str(200 * 1024 * 1024)))
+MAX_EXTRACTED_BYTES = int(os.getenv("MAX_EXTRACTED_BYTES", str(1024 * 1024 * 1024)))
+MAX_EXTRACTED_FILES = int(os.getenv("MAX_EXTRACTED_FILES", "5000"))
 LOGIN_WINDOW_SECONDS = 300
 LOGIN_MAX_FAILURES = 5
 
@@ -107,6 +124,9 @@ def ensure_dirs() -> None:
 def db_connect() -> sqlite3.Connection:
     conn = sqlite3.connect(config.database_path, check_same_thread=False)
     conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA journal_mode=WAL")
+    conn.execute("PRAGMA busy_timeout = 5000")
+    conn.execute("PRAGMA foreign_keys = ON")
     return conn
 
 
@@ -184,6 +204,32 @@ def initialize_database() -> None:
                 created_at TEXT NOT NULL,
                 FOREIGN KEY (user_id) REFERENCES users (id)
             );
+
+            CREATE TABLE IF NOT EXISTS report_files (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                job_id TEXT NOT NULL,
+                user_id INTEGER NOT NULL,
+                username TEXT NOT NULL,
+                report_date TEXT NOT NULL,
+                file_name TEXT NOT NULL,
+                file_path TEXT NOT NULL UNIQUE,
+                file_size INTEGER NOT NULL,
+                modified_at TEXT NOT NULL,
+                created_at TEXT NOT NULL,
+                FOREIGN KEY (job_id) REFERENCES jobs (id) ON DELETE CASCADE,
+                FOREIGN KEY (user_id) REFERENCES users (id)
+            );
+
+            CREATE INDEX IF NOT EXISTS idx_sessions_token_hash ON sessions (token_hash);
+            CREATE INDEX IF NOT EXISTS idx_sessions_expires_at ON sessions (expires_at);
+            CREATE INDEX IF NOT EXISTS idx_jobs_created_at ON jobs (created_at DESC);
+            CREATE INDEX IF NOT EXISTS idx_jobs_user_id_created_at ON jobs (user_id, created_at DESC);
+            CREATE INDEX IF NOT EXISTS idx_jobs_finished_at ON jobs (finished_at);
+            CREATE INDEX IF NOT EXISTS idx_audit_logs_created_at ON audit_logs (created_at DESC);
+            CREATE INDEX IF NOT EXISTS idx_audit_logs_user_id_created_at ON audit_logs (user_id, created_at DESC);
+            CREATE INDEX IF NOT EXISTS idx_report_files_report_date ON report_files (report_date DESC);
+            CREATE INDEX IF NOT EXISTS idx_report_files_report_date_username ON report_files (report_date, username);
+            CREATE INDEX IF NOT EXISTS idx_report_files_job_id ON report_files (job_id);
             """
         )
         job_columns = {row["name"] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
@@ -206,29 +252,11 @@ def initialize_database() -> None:
 
 
 def cleanup_expired_data() -> None:
-    cutoff = now_local() - timedelta(days=config.retention_days)
-    conn = db_connect()
-    with conn:
-        conn.execute("DELETE FROM sessions WHERE expires_at < ?", (now_local().isoformat(),))
-        jobs = conn.execute(
-            "SELECT id, input_path, output_path, bundle_path, finished_at FROM jobs WHERE finished_at IS NOT NULL"
-        ).fetchall()
-        for job in jobs:
-            finished_at = datetime.fromisoformat(job["finished_at"])
-            if finished_at >= cutoff:
-                continue
-            for field in ("input_path", "output_path", "bundle_path"):
-                value = job[field]
-                if not value:
-                    continue
-                path = Path(value)
-                if path.is_file():
-                    path.unlink(missing_ok=True)
-                elif path.is_dir():
-                    shutil.rmtree(path, ignore_errors=True)
-            conn.execute("DELETE FROM jobs WHERE id = ?", (job["id"],))
-        conn.execute("DELETE FROM audit_logs WHERE created_at < ?", (cutoff.isoformat(),))
-    conn.close()
+    cleanup_expired_data_impl(db_connect=db_connect, now_local=now_local, retention_days=config.retention_days)
+
+
+def recover_incomplete_jobs() -> None:
+    recover_incomplete_jobs_impl(db_connect=db_connect, now_local=now_local)
 
 
 def record_audit(user_id: int | None, action: str, detail: str, request: Request | None = None) -> None:
@@ -422,33 +450,12 @@ def serialize_audit(row: sqlite3.Row) -> dict[str, Any]:
     }
 
 
-def list_jobs(user: sqlite3.Row) -> list[sqlite3.Row]:
-    conn = db_connect()
-    if user["is_admin"]:
-        rows = conn.execute(
-            """
-            SELECT jobs.*, users.username
-            FROM jobs JOIN users ON users.id = jobs.user_id
-            ORDER BY jobs.created_at DESC
-            """
-        ).fetchall()
-    else:
-        rows = conn.execute(
-            """
-            SELECT jobs.*, users.username
-            FROM jobs JOIN users ON users.id = jobs.user_id
-            WHERE jobs.user_id = ?
-            ORDER BY jobs.created_at DESC
-            """,
-            (user["id"],),
-        ).fetchall()
-    conn.close()
-    return rows
+def list_jobs_page(user: sqlite3.Row, page: int, page_size: int) -> tuple[list[sqlite3.Row], int, dict[str, int]]:
+    return list_jobs_page_impl(db_connect=db_connect, user=user, page=page, page_size=page_size)
 
 
-def generate_job_id() -> str:
+def generate_job_id(conn: sqlite3.Connection) -> str:
     date_prefix = now_local().strftime("%Y%m%d")
-    conn = db_connect()
     row = conn.execute(
         """
         SELECT id FROM jobs
@@ -458,7 +465,6 @@ def generate_job_id() -> str:
         """,
         (f"{date_prefix}-%",),
     ).fetchone()
-    conn.close()
     if not row:
         return f"{date_prefix}-001"
     _, _, suffix = row["id"].partition("-")
@@ -466,48 +472,20 @@ def generate_job_id() -> str:
     return f"{date_prefix}-{sequence:03d}"
 
 
-def format_file_size(size_bytes: int) -> str:
-    size = float(size_bytes)
-    for unit in ("B", "KB", "MB", "GB"):
-        if size < 1024 or unit == "GB":
-            return f"{size:.1f}{unit}" if unit != "B" else f"{int(size)}B"
-        size /= 1024
-    return f"{size_bytes}B"
+def rebuild_report_file_index() -> None:
+    rebuild_report_file_index_impl(db_connect=db_connect, local_tz=LOCAL_TZ)
 
 
-def list_report_records() -> list[dict[str, str]]:
-    conn = db_connect()
-    rows = conn.execute(
-        """
-        SELECT jobs.id, jobs.created_at, jobs.generated_files, users.username
-        FROM jobs JOIN users ON users.id = jobs.user_id
-        WHERE jobs.generated_files IS NOT NULL AND jobs.generated_files != '[]'
-        ORDER BY jobs.created_at DESC
-        """
-    ).fetchall()
-    conn.close()
+def list_report_date_stats() -> list[dict[str, Any]]:
+    return list_report_date_stats_impl(db_connect=db_connect)
 
-    records: list[dict[str, str]] = []
-    for row in rows:
-        created_at = datetime.fromisoformat(row["created_at"])
-        report_date = created_at.strftime("%Y-%m-%d")
-        generated_files = json.loads(row["generated_files"]) if row["generated_files"] else []
-        for file_path in generated_files:
-            path = Path(file_path)
-            if path.suffix.lower() != ".docx" or not path.exists():
-                continue
-            stat = path.stat()
-            records.append(
-                {
-                    "job_id": row["id"],
-                    "username": row["username"],
-                    "report_date": report_date,
-                    "name": path.name,
-                    "size": format_file_size(stat.st_size),
-                    "modified_at": datetime.fromtimestamp(stat.st_mtime, tz=LOCAL_TZ).strftime("%Y-%m-%d %H:%M:%S"),
-                }
-            )
-    return records
+
+def list_report_user_stats(report_date: str) -> list[dict[str, Any]]:
+    return list_report_user_stats_impl(db_connect=db_connect, report_date=report_date)
+
+
+def list_report_files_for_user(report_date: str, username: str) -> list[dict[str, str]]:
+    return list_report_files_for_user_impl(db_connect=db_connect, report_date=report_date, username=username)
 
 
 def delete_job_storage(job: sqlite3.Row) -> None:
@@ -548,14 +526,25 @@ def sanitize_member_name(name: str) -> str:
 
 
 def extract_zip_safe(zip_path: Path, target_dir: Path) -> None:
+    extracted_files = 0
+    extracted_bytes = 0
     with zipfile.ZipFile(zip_path) as archive:
         for member in archive.infolist():
             member_name = sanitize_member_name(member.filename)
-            destination = target_dir / member_name
-            destination.parent.mkdir(parents=True, exist_ok=True)
+            if not member_name:
+                continue
             if member.is_dir():
+                destination = target_dir / member_name
                 destination.mkdir(parents=True, exist_ok=True)
                 continue
+            extracted_files += 1
+            if extracted_files > MAX_EXTRACTED_FILES:
+                raise HTTPException(status_code=400, detail="压缩包解压后的文件数量超出限制")
+            extracted_bytes += member.file_size
+            if extracted_bytes > MAX_EXTRACTED_BYTES:
+                raise HTTPException(status_code=400, detail="压缩包解压后的总大小超出限制")
+            destination = target_dir / member_name
+            destination.parent.mkdir(parents=True, exist_ok=True)
             with archive.open(member) as source, destination.open("wb") as handle:
                 shutil.copyfileobj(source, handle)
 
@@ -629,7 +618,14 @@ def process_job(job_id: str, user_id: int) -> None:
     try:
         cleanup_expired_data()
         conn = db_connect()
-        job = conn.execute("SELECT * FROM jobs WHERE id = ?", (job_id,)).fetchone()
+        job = conn.execute(
+            """
+            SELECT jobs.*, users.username
+            FROM jobs JOIN users ON users.id = jobs.user_id
+            WHERE jobs.id = ?
+            """,
+            (job_id,),
+        ).fetchone()
         conn.close()
         if not job:
             return
@@ -687,6 +683,21 @@ def process_job(job_id: str, user_id: int) -> None:
             generated_files=json.dumps(summary.generated_files, ensure_ascii=False),
             error_message=None,
         )
+        conn = db_connect()
+        try:
+            with conn:
+                sync_job_report_files(
+                    conn,
+                    job_id=job_id,
+                    user_id=user_id,
+                    username=job["username"],
+                    report_date=now_local().strftime("%Y-%m-%d"),
+                    generated_files=summary.generated_files,
+                    created_at=job["created_at"],
+                    local_tz=LOCAL_TZ,
+                )
+        finally:
+            conn.close()
         record_audit(user_id, "job_completed", f"任务 {job_id} 完成，生成 {len(summary.generated_files)} 个文件")
     except Exception as exc:
         update_job(
@@ -740,42 +751,11 @@ def save_uploads(job_dir: Path, files: list[UploadFile]) -> Path:
 
 
 def list_admin_users() -> list[sqlite3.Row]:
-    conn = db_connect()
-    rows = conn.execute("SELECT id, username, is_admin, created_at, last_login_at FROM users ORDER BY created_at").fetchall()
-    conn.close()
-    return rows
-
-
-def list_admin_jobs(limit: int = 100) -> list[sqlite3.Row]:
-    conn = db_connect()
-    rows = conn.execute(
-        """
-        SELECT jobs.*, users.username
-        FROM jobs JOIN users ON users.id = jobs.user_id
-        ORDER BY jobs.created_at DESC
-        LIMIT ?
-        """,
-        (limit,),
-    ).fetchall()
-    conn.close()
-    return rows
+    return list_admin_users_impl(db_connect=db_connect)
 
 
 def list_audits_page(page: int, page_size: int) -> tuple[list[sqlite3.Row], int]:
-    offset = (page - 1) * page_size
-    conn = db_connect()
-    audits = conn.execute(
-        """
-        SELECT audit_logs.*, users.username
-        FROM audit_logs LEFT JOIN users ON users.id = audit_logs.user_id
-        ORDER BY audit_logs.created_at DESC
-        LIMIT ? OFFSET ?
-        """,
-        (page_size, offset),
-    ).fetchall()
-    total = conn.execute("SELECT COUNT(*) FROM audit_logs").fetchone()[0]
-    conn.close()
-    return audits, total
+    return list_audits_page_impl(db_connect=db_connect, page=page, page_size=page_size)
 
 
 @app.post(f"{API_PREFIX}/auth/login")
@@ -821,10 +801,22 @@ async def api_announcements() -> JSONResponse:
 
 
 @app.get(f"{API_PREFIX}/jobs")
-async def api_jobs(request: Request) -> JSONResponse:
+async def api_jobs(request: Request, page: int = 1, page_size: int = 12) -> JSONResponse:
     user = require_user(request)
-    rows = list_jobs(user)
-    return JSONResponse([serialize_job(row) for row in rows])
+    safe_page = max(1, page)
+    safe_page_size = max(1, min(100, page_size))
+    rows, total, stats = list_jobs_page(user, safe_page, safe_page_size)
+    total_pages = max(1, ceil(total / safe_page_size))
+    return JSONResponse(
+        {
+            "items": [serialize_job(row) for row in rows],
+            "page": safe_page,
+            "page_size": safe_page_size,
+            "total": total,
+            "total_pages": total_pages,
+            "stats": stats,
+        }
+    )
 
 
 @app.post(f"{API_PREFIX}/jobs")
@@ -833,20 +825,36 @@ async def api_create_job(request: Request, files: list[UploadFile] = File(...)) 
     cleanup_expired_data()
     if not files:
         raise HTTPException(status_code=400, detail="至少上传一个文件")
-    job_id = generate_job_id()
-    job_dir = config.upload_dir / job_id
-    job_dir.mkdir(parents=True, exist_ok=True)
-    input_path = save_uploads(job_dir, files)
     conn = db_connect()
-    with conn:
+    try:
+        conn.execute("BEGIN IMMEDIATE")
+        job_id = generate_job_id(conn)
+        job_dir = config.upload_dir / job_id
+        if job_dir.exists():
+            raise HTTPException(status_code=503, detail="当前任务创建繁忙，请稍后重试")
+        job_dir.mkdir(parents=True, exist_ok=False)
         conn.execute(
             """
             INSERT INTO jobs (id, user_id, status, progress, status_detail, input_path, created_at, generated_files)
             VALUES (?, ?, 'queued', 0, '等待工作线程处理', ?, ?, '[]')
             """,
-            (job_id, user["id"], str(input_path), now_local().isoformat()),
+            (job_id, user["id"], "", now_local().isoformat()),
         )
-    conn.close()
+        conn.commit()
+    finally:
+        conn.close()
+    try:
+        input_path = save_uploads(job_dir, files)
+    except Exception:
+        conn = db_connect()
+        try:
+            with conn:
+                conn.execute("DELETE FROM jobs WHERE id = ?", (job_id,))
+        finally:
+            conn.close()
+        shutil.rmtree(job_dir, ignore_errors=True)
+        raise
+    update_job(job_id, input_path=str(input_path))
     record_audit(user["id"], "job_created", f"创建任务 {job_id}", request)
     enqueue_job(job_id, user["id"])
     return JSONResponse({"ok": True, "job_id": job_id})
@@ -952,9 +960,22 @@ async def api_update_announcement(request: Request) -> JSONResponse:
 
 
 @app.get(f"{API_PREFIX}/admin/jobs")
-async def api_admin_jobs(request: Request) -> JSONResponse:
-    require_admin(request)
-    return JSONResponse([serialize_job(row) for row in list_admin_jobs()])
+async def api_admin_jobs(request: Request, page: int = 1, page_size: int = 20) -> JSONResponse:
+    admin = require_admin(request)
+    safe_page = max(1, page)
+    safe_page_size = max(1, min(100, page_size))
+    rows, total, stats = list_jobs_page(admin, safe_page, safe_page_size)
+    total_pages = max(1, ceil(total / safe_page_size))
+    return JSONResponse(
+        {
+            "items": [serialize_job(row) for row in rows],
+            "page": safe_page,
+            "page_size": safe_page_size,
+            "total": total,
+            "total_pages": total_pages,
+            "stats": stats,
+        }
+    )
 
 
 @app.delete(f"{API_PREFIX}/admin/jobs/{{job_id}}")
@@ -969,6 +990,7 @@ async def api_admin_delete_job(request: Request, job_id: str) -> JSONResponse:
         conn.close()
         raise HTTPException(status_code=400, detail="处理中任务不可删除")
     with conn:
+        conn.execute("DELETE FROM report_files WHERE job_id = ?", (job_id,))
         conn.execute("DELETE FROM jobs WHERE id = ?", (job_id,))
     conn.close()
     delete_job_storage(job)
@@ -979,46 +1001,24 @@ async def api_admin_delete_job(request: Request, job_id: str) -> JSONResponse:
 @app.get(f"{API_PREFIX}/admin/reports/dates")
 async def api_report_dates(request: Request) -> JSONResponse:
     require_admin(request)
-    report_records = list_report_records()
-    dates = sorted({item["report_date"] for item in report_records}, reverse=True)
-    items = [
-        {
-            "report_date": date,
-            "count": sum(1 for item in report_records if item["report_date"] == date),
-        }
-        for date in dates
-    ]
-    return JSONResponse(items)
+    return JSONResponse(list_report_date_stats())
 
 
 @app.get(f"{API_PREFIX}/admin/reports/users")
 async def api_report_users(request: Request, date: str) -> JSONResponse:
     require_admin(request)
-    report_records = list_report_records()
-    users = sorted({item["username"] for item in report_records if item["report_date"] == date})
-    items = [
-        {
-            "username": username,
-            "count": sum(
-                1 for item in report_records if item["report_date"] == date and item["username"] == username
-            ),
-        }
-        for username in users
-    ]
-    return JSONResponse(items)
+    return JSONResponse(list_report_user_stats(date))
 
 
 @app.get(f"{API_PREFIX}/admin/reports/files")
 async def api_report_files(request: Request, date: str, user: str) -> JSONResponse:
     require_admin(request)
-    report_records = list_report_records()
     items = [
         {
             **item,
             "download_url": f"{API_PREFIX}/admin/reports/{item['job_id']}/{item['name']}/download",
         }
-        for item in report_records
-        if item["report_date"] == date and item["username"] == user
+        for item in list_report_files_for_user(date, user)
     ]
     return JSONResponse(items)
 
@@ -1050,6 +1050,7 @@ async def api_admin_delete_report(request: Request, job_id: str, file_name: str)
                 "UPDATE jobs SET generated_files = ? WHERE id = ?",
                 (json.dumps(filtered_files, ensure_ascii=False), job_id),
             )
+            conn.execute("DELETE FROM report_files WHERE job_id = ? AND file_name = ?", (job_id, path.name))
     conn.close()
     parent = path.parent
     if parent.exists() and not any(parent.iterdir()):
@@ -1078,12 +1079,19 @@ async def api_admin_audits(request: Request, page: int = 1, page_size: int = 20)
 
 @app.get(f"{API_PREFIX}/health")
 async def api_health() -> JSONResponse:
+    conn = db_connect()
+    try:
+        conn.execute("SELECT 1").fetchone()
+    finally:
+        conn.close()
     return JSONResponse({"status": "ok", "time": now_local().isoformat()})
 
 
 @app.on_event("startup")
 def startup_event() -> None:
     initialize_database()
+    rebuild_report_file_index()
+    recover_incomplete_jobs()
     cleanup_expired_data()
 
 

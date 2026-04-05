@@ -1,27 +1,33 @@
 import { ReloadOutlined, UploadOutlined } from '@ant-design/icons'
 import { Alert, App as AntApp, Button, Card, Progress, Space, Statistic, Table, Tag, Typography } from 'antd'
 import type { ColumnsType } from 'antd/es/table'
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { usePolling } from '../hooks/usePolling'
 import { request } from '../lib/api'
 import { formatTime, statusColor } from '../lib/format'
-import type { Announcement, Job, User } from '../lib/types'
+import type { Announcement, Job, JobPage, JobStats, User } from '../lib/types'
 
 export function DashboardPage({ user }: { user: User }) {
   const [jobs, setJobs] = useState<Job[]>([])
+  const [jobStats, setJobStats] = useState<JobStats>({ total: 0, active: 0, completed: 0, failed: 0 })
+  const [page, setPage] = useState(1)
+  const [total, setTotal] = useState(0)
   const [announcement, setAnnouncement] = useState('')
   const [loading, setLoading] = useState(true)
   const { message, modal } = AntApp.useApp()
   const navigate = useNavigate()
 
-  const loadJobs = async () => {
+  const loadJobs = async (nextPage = page) => {
     try {
       const [jobsData, announcementData] = await Promise.all([
-        request<Job[]>('/jobs'),
+        request<JobPage>(`/jobs?page=${nextPage}&page_size=12`),
         request<Announcement>('/announcements'),
       ])
-      setJobs(jobsData)
+      setJobs(jobsData.items)
+      setJobStats(jobsData.stats)
+      setPage(jobsData.page)
+      setTotal(jobsData.total)
       setAnnouncement(announcementData.content)
     } catch (error) {
       message.error(error instanceof Error ? error.message : '加载任务失败')
@@ -30,7 +36,7 @@ export function DashboardPage({ user }: { user: User }) {
     }
   }
 
-  const hasActive = jobs.some((job) => job.status === 'queued' || job.status === 'running')
+  const hasActive = jobStats.active > 0
   usePolling(loadJobs, hasActive || loading, 5000)
 
   const deleteJob = (jobId: string) => {
@@ -44,23 +50,13 @@ export function DashboardPage({ user }: { user: User }) {
         try {
           await request<{ ok: boolean }>(`/admin/jobs/${jobId}`, { method: 'DELETE' })
           message.success('任务已删除')
-          await loadJobs()
+          await loadJobs(page)
         } catch (error) {
           message.error(error instanceof Error ? error.message : '删除任务失败')
         }
       },
     })
   }
-
-  const stats = useMemo(
-    () => ({
-      total: jobs.length,
-      active: jobs.filter((job) => ['queued', 'running'].includes(job.status)).length,
-      completed: jobs.filter((job) => job.status === 'completed').length,
-      failed: jobs.filter((job) => job.status === 'failed').length,
-    }),
-    [jobs],
-  )
 
   const columns: ColumnsType<Job> = [
     {
@@ -120,16 +116,16 @@ export function DashboardPage({ user }: { user: User }) {
     <Space direction="vertical" size={16} style={{ width: '100%' }}>
       <div className="stat-grid">
         <Card>
-          <Statistic title="总任务数" value={stats.total} />
+          <Statistic title="总任务数" value={jobStats.total} />
         </Card>
         <Card>
-          <Statistic title="处理中" value={stats.active} />
+          <Statistic title="处理中" value={jobStats.active} />
         </Card>
         <Card>
-          <Statistic title="已完成" value={stats.completed} />
+          <Statistic title="已完成" value={jobStats.completed} />
         </Card>
         <Card>
-          <Statistic title="失败" value={stats.failed} />
+          <Statistic title="失败" value={jobStats.failed} />
         </Card>
       </div>
       <Card className="compact-card">
@@ -161,7 +157,13 @@ export function DashboardPage({ user }: { user: User }) {
           loading={loading}
           columns={columns}
           dataSource={jobs}
-          pagination={{ pageSize: 12, showSizeChanger: false }}
+          pagination={{
+            current: page,
+            pageSize: 12,
+            total,
+            showSizeChanger: false,
+            onChange: (nextPage) => void loadJobs(nextPage),
+          }}
           size="middle"
         />
       </Card>

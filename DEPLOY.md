@@ -10,7 +10,7 @@ mkdir -p certs
 ```
 
 - 修改 `.env` 中的默认管理员账号密码
-- 当前默认 `docker-compose.yml` 只启动后端服务，`certs/` 目录仅为可选 Nginx 网关预留
+- 当前默认 `docker-compose.yml` 只启动后端服务
 
 ## 2. 当前默认启动方式
 
@@ -95,21 +95,21 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 
 运行期数据和备份不进入镜像。
 
-## 6. 可选 Nginx 网关
+## 6. 系统网关
 
-仓库中的 `nginx/` 目录保留为可选网关交付物，不包含在当前默认 `docker-compose.yml` 中。
+仓库内不再维护 Nginx 配置文件。
 
-如果需要前端静态资源托管、反向代理和 HTTPS：
+如果需要前端静态资源托管、反向代理和 HTTPS，请直接维护系统级配置：
 
-- 使用 `nginx/Dockerfile` 构建前端静态资源镜像
-- 使用 `nginx/conf.d/hw.conf` 作为网关配置基础
-- 将证书放入 `certs/fullchain.pem` 与 `certs/privkey.pem`
+- `/etc/nginx/conf.d`
+- `/etc/nginx/nginx.conf`
+- 证书文件路径由你当前主机的 Nginx 配置自行决定
 
-当前 Nginx 配置已包含：
+建议至少包含：
 
-- `/api/*` 反向代理
-- `/app/assets/*` 长缓存
-- `/app/index.html` 的 `no-store`
+- `/api/*` 反向代理到 `127.0.0.1:8080`
+- 静态资源缓存策略
+- HTTPS 证书与跳转规则
 
 ## 7. 当前已完成的部署相关优化
 
@@ -118,6 +118,7 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 - 后端镜像已改为非 root 用户运行
 - 镜像内已增加 `HEALTHCHECK`
 - 服务启动时会自动恢复异常中断任务，并重建报告索引
+- 仓库内 Nginx 交付物已移除，避免与系统 `/etc/nginx/conf.d` 出现双份配置
 
 ## 8. 验证命令
 

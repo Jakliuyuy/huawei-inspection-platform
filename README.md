@@ -20,7 +20,7 @@
 - Frontend: React + Vite + Ant Design
 - Report Engine: python-docx
 - Database: SQLite
-- Reverse Proxy: Nginx
+- Reverse Proxy: External Nginx or other gateway
 - Deployment: Docker Compose
 
 ## 项目结构
@@ -38,7 +38,6 @@
 │       ├── components/    # 复用 UI 组件
 │       ├── hooks/         # 业务 hooks
 │       └── lib/           # API、类型、格式化工具
-├── nginx/                 # Nginx 配置
 ├── data/                  # 运行数据、上传文件、生成报告
 ├── overrides/             # 企业可选覆盖模板与配置
 ├── scripts/               # 镜像导入导出脚本
@@ -129,7 +128,7 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 
 - `app` 镜像运行 FastAPI
 - 当前 `docker-compose.yml` 仅编排后端容器，默认监听 `127.0.0.1:8080`
-- `web/` 与 `nginx/` 目录保留为独立前端和可选网关交付物
+- 仓库不再维护 Nginx 配置文件，网关统一由系统 `/etc/nginx/conf.d` 管理
 - `/api/*` 为后端接口入口
 - `/`、`/dashboard`、`/upload`、`/admin` 等旧路径会自动跳转到新 SPA 页面
 - 默认模板与默认 `config/report.json` 已内置进后端镜像
@@ -190,7 +189,7 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 - 镜像内增加 `HEALTHCHECK`
 - `docker-compose.yml` 增加容器健康检查
 - `.env.example` 已补充新的 ZIP 解压限制参数，并修正了 `SECURE_COOKIES` 默认值拼写错误
-- Nginx 可选网关配置增加了静态资源长缓存与 `index.html` 的 `no-store`
+- 仓库内不再维护 Nginx 交付物，网关配置统一转移到系统 `/etc/nginx/conf.d`
 
 ## 管理能力
 
@@ -229,7 +228,7 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 - 上传文件总大小受 `MAX_UPLOAD_BYTES` 控制，默认 200 MB
 - ZIP 解压后的总大小受 `MAX_EXTRACTED_BYTES` 控制，默认 1 GB
 - ZIP 解压后的文件数受 `MAX_EXTRACTED_FILES` 控制，默认 5000
-- 当前默认 `docker-compose.yml` 只启动后端服务；如果需要前端静态资源与 HTTPS 网关，请额外使用 `nginx/` 目录中的可选交付物
+- 当前默认 `docker-compose.yml` 只启动后端服务；如需反向代理与 HTTPS，请直接维护系统 `/etc/nginx/conf.d`
 
 ## 验证记录
 

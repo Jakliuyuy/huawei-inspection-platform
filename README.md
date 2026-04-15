@@ -75,6 +75,99 @@ docker compose up -d --build
 http://127.0.0.1:8080
 ```
 
+## 在另一台机器部署
+
+如果你要在另一台新机器直接从 Git 仓库部署，按下面步骤即可。
+
+### 1. 克隆仓库
+
+```bash
+git clone https://github.com/Jakliuyuy/huawei-inspection-platform.git
+cd huawei-inspection-platform
+```
+
+### 2. 准备运行目录和环境变量
+
+```bash
+cp .env.example .env
+mkdir -p data/runtime data/uploads data/reports
+mkdir -p storage/backups
+mkdir -p certs
+```
+
+至少建议修改 `.env` 中这些参数：
+
+- `DEFAULT_ADMIN_USERNAME`
+- `DEFAULT_ADMIN_PASSWORD`
+- `SECURE_COOKIES`
+- `SESSION_HOURS`
+- `RETENTION_DAYS`
+
+### 3. 启动后端
+
+```bash
+docker compose up -d --build
+docker compose ps
+curl http://127.0.0.1:8080/api/health
+```
+
+默认后端仅监听：
+
+```text
+127.0.0.1:8080
+```
+
+### 4. 如果需要网页访问
+
+当前仓库默认 `docker-compose.yml` 只启动后端服务。
+
+如果你需要完整网页访问能力，还需要单独处理前端和网关：
+
+1. 构建前端
+
+```bash
+cd web
+npm install
+npm run build
+```
+
+2. 配置系统级 Nginx 或其他网关
+
+建议至少包含：
+
+- `/api/` 反向代理到 `127.0.0.1:8080`
+- `/app/` 指向前端打包后的静态文件目录
+- `/_protected-reports/` 映射到 `data/reports/`，用于报告下载
+
+### 5. 如果需要迁移旧机器数据
+
+把老机器这些目录或文件同步到新机器即可：
+
+- `data/runtime/app.db`
+- `data/uploads/`
+- `data/reports/`
+
+如果你还有自定义模板或报告配置，再同步：
+
+- `assets/templates/`
+- `config/report.json`
+
+### 6. 端口说明
+
+当前 `docker-compose.yml` 使用：
+
+```yaml
+ports:
+  - "127.0.0.1:8080:8080"
+```
+
+这意味着默认只能本机访问。
+
+如果你需要局域网或公网直接访问，有两种常见方式：
+
+- 改成 `0.0.0.0:8080:8080`
+- 保持 `127.0.0.1:8080`，再由 Nginx 反向代理对外提供服务
+
 ## 企业标准版交付
 
 默认当前仓库交付以单后端镜像为主：

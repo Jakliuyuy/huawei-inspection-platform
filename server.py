@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import hmac
 import json
+import mimetypes
 import os
 import secrets
 import shutil
@@ -14,6 +15,7 @@ from datetime import datetime, timedelta, timezone
 from math import ceil
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 import uvicorn
 from fastapi import FastAPI, File, HTTPException, Request, Response, UploadFile
@@ -603,6 +605,30 @@ def clamp_progress(value: int | None) -> int:
     return max(0, min(100, int(value)))
 
 
+def build_download_response(request: Request, path: Path, download_name: str) -> Response:
+    if not path.exists():
+        raise HTTPException(status_code=404, detail="文件不存在")
+
+    # 直连应用时仍保留原有行为；经过 Nginx 反向代理时，交给 Nginx 直接发送文件。
+    if not request.headers.get("x-forwarded-for"):
+        return FileResponse(path, filename=download_name)
+
+    try:
+        relative_path = path.resolve().relative_to(config.report_dir.resolve())
+    except ValueError:
+        return FileResponse(path, filename=download_name)
+
+    quoted_segments = [quote(part) for part in relative_path.parts]
+    accel_path = "/_protected-reports/" + "/".join(quoted_segments)
+    response = Response()
+    response.headers["X-Accel-Redirect"] = accel_path
+    response.headers["Content-Disposition"] = f"attachment; filename*=UTF-8''{quote(download_name)}"
+    media_type = mimetypes.guess_type(download_name)[0] or "application/octet-stream"
+    response.headers["Content-Type"] = media_type
+    response.headers["Content-Length"] = str(path.stat().st_size)
+    return response
+
+
 def update_job(job_id: str, **fields: Any) -> None:
     if not fields:
         return
@@ -868,7 +894,7 @@ async def api_job_detail(request: Request, job_id: str) -> JSONResponse:
 
 
 @app.get(f"{API_PREFIX}/jobs/{{job_id}}/download")
-async def api_download_job(request: Request, job_id: str) -> FileResponse:
+async def api_download_job(request: Request, job_id: str) -> Response:
     user = require_user(request)
     job = ensure_job_access(get_job(job_id), user)
     if not job["bundle_path"]:
@@ -877,11 +903,11 @@ async def api_download_job(request: Request, job_id: str) -> FileResponse:
     if not path.exists():
         raise HTTPException(status_code=404, detail="结果文件不存在")
     record_audit(user["id"], "download_bundle", f"下载任务 {job_id} 结果", request)
-    return FileResponse(path, filename=path.name)
+    return build_download_response(request, path, path.name)
 
 
 @app.get(f"{API_PREFIX}/jobs/{{job_id}}/files/{{file_name}}")
-async def api_download_job_file(request: Request, job_id: str, file_name: str) -> FileResponse:
+async def api_download_job_file(request: Request, job_id: str, file_name: str) -> Response:
     user = require_user(request)
     job = ensure_job_access(get_job(job_id), user)
     if not job["output_path"]:
@@ -890,7 +916,7 @@ async def api_download_job_file(request: Request, job_id: str, file_name: str) -
     if not path.exists():
         raise HTTPException(status_code=404, detail="文件不存在")
     record_audit(user["id"], "download_file", f"下载任务 {job_id} 文件 {file_name}", request)
-    return FileResponse(path, filename=file_name)
+    return build_download_response(request, path, file_name)
 
 
 @app.get(f"{API_PREFIX}/admin/users")
@@ -1024,13 +1050,13 @@ async def api_report_files(request: Request, date: str, user: str) -> JSONRespon
 
 
 @app.get(f"{API_PREFIX}/admin/reports/{{job_id}}/{{file_name}}/download")
-async def api_admin_download_report(request: Request, job_id: str, file_name: str) -> FileResponse:
+async def api_admin_download_report(request: Request, job_id: str, file_name: str) -> Response:
     admin = require_admin(request)
     path = resolve_admin_report_path(job_id, file_name)
     if not path.exists():
         raise HTTPException(status_code=404, detail="报告文件不存在")
     record_audit(admin["id"], "report_download", f"管理员下载报告 {path.name}", request)
-    return FileResponse(path, filename=path.name)
+    return build_download_response(request, path, path.name)
 
 
 @app.delete(f"{API_PREFIX}/admin/reports/{{job_id}}/{{file_name}}")

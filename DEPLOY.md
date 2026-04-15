@@ -108,6 +108,7 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 建议至少包含：
 
 - `/api/*` 反向代理到 `127.0.0.1:8080`
+- `/_protected-reports/*` 配置为 `internal`，并映射到 `data/reports/`，用于大文件下载走 Nginx `X-Accel-Redirect`
 - 静态资源缓存策略
 - HTTPS 证书与跳转规则
 

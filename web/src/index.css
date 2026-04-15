@@ -204,6 +204,10 @@ a {
   min-height: 54px;
 }
 
+.compact-card .ant-table-wrapper {
+  overflow-x: auto;
+}
+
 .task-create-grid {
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(320px, 0.75fr);
@@ -248,6 +252,15 @@ a {
   transform: translateY(-1px);
   border-color: rgba(15, 118, 110, 0.58);
   box-shadow: 0 18px 36px rgba(15, 118, 110, 0.08);
+}
+
+.upload-panel.dragging {
+  transform: translateY(-1px) scale(1.01);
+  border-color: rgba(14, 165, 233, 0.7);
+  box-shadow: 0 22px 44px rgba(14, 165, 233, 0.14);
+  background:
+    radial-gradient(circle at top right, rgba(14, 165, 233, 0.16), transparent 28%),
+    linear-gradient(180deg, rgba(236, 254, 255, 0.98), rgba(240, 253, 250, 0.94));
 }
 
 .upload-panel-icon {
@@ -386,10 +399,34 @@ a {
   }
 
   .app-sider {
+    padding: 14px 12px;
     width: 100% !important;
     max-width: none !important;
     border-right: 0;
     border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  }
+
+  .brand-block {
+    margin-bottom: 14px;
+    padding: 14px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
+  }
+
+  .nav-item {
+    flex: 0 0 auto;
+    min-width: max-content;
+    white-space: nowrap;
+  }
+
+  .logout-btn {
+    margin-top: 14px;
   }
 
   .app-header,
@@ -398,7 +435,77 @@ a {
     padding-right: 16px !important;
   }
 
+  .app-header {
+    gap: 12px;
+  }
+
   .stat-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .auth-shell {
+    padding: 12px;
+    gap: 16px;
+  }
+
+  .auth-hero,
+  .auth-card {
+    border-radius: 24px;
+  }
+
+  .auth-hero {
+    padding: 24px 20px;
+  }
+
+  .app-header {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+
+  .app-content {
+    padding: 0 12px 16px;
+  }
+
+  .compact-card {
+    border-radius: 18px;
+  }
+
+  .compact-card .ant-card-head,
+  .compact-card .ant-card-body {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .task-create-grid,
+  .detail-grid,
+  .timeline-grid,
+  .report-grid {
+    gap: 12px;
+  }
+
+  .stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .upload-panel {
+    padding: 16px;
+    border-radius: 18px;
+    gap: 12px;
+  }
+
+  .upload-panel-copy strong {
+    font-size: 15px;
+  }
+
+  .upload-panel-copy span {
+    font-size: 13px;
+  }
+
+  .select-list {
+    max-height: 220px;
   }
 }

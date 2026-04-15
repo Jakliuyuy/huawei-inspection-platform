@@ -59,6 +59,20 @@ ROOM_ENV_BAD_KEYWORDS = (
     "关闭",
     "离线",
 )
+GPRS_CONTACT_LINES = (
+    "维护人员 :苗向-18338289920",
+    "负责人员-对接人员:费泽庆",
+    "李诚-13648914080",
+)
+GPRS_CONTACT_MARKERS = {
+    "维护人员",
+    "维护人员 :苗向-18338289920",
+    "杜康-19713769776",
+    "负责人员-对接人员",
+    "负责人员-对接人员:费泽庆",
+    "费泽庆",
+    "李诚-13648914080",
+}
 
 
 @dataclass
@@ -198,6 +212,73 @@ def safe_update_paragraph(paragraph, new_text: str) -> None:
         run.text = ""
 
 
+def remove_paragraph(paragraph) -> None:
+    element = paragraph._element
+    parent = element.getparent()
+    if parent is not None:
+        parent.remove(element)
+
+
+def ensure_gprs_contacts(doc: Document) -> None:
+    paragraphs = list(doc.paragraphs)
+    anchor_index = next((index for index, p in enumerate(paragraphs) if p.text.strip() == "维护人员"), None)
+
+    if anchor_index is None:
+        return
+
+    safe_update_paragraph(paragraphs[anchor_index], GPRS_CONTACT_LINES[0])
+
+    current_index = anchor_index + 1
+    for line in GPRS_CONTACT_LINES[1:]:
+        while current_index < len(paragraphs) and not paragraphs[current_index].text.strip():
+            current_index += 1
+        if current_index < len(paragraphs):
+            safe_update_paragraph(paragraphs[current_index], line)
+            current_index += 1
+        else:
+            doc.add_paragraph(line)
+
+    removable: list = []
+    while current_index < len(paragraphs):
+        text = paragraphs[current_index].text.strip()
+        if not text:
+            break
+        if text not in GPRS_CONTACT_MARKERS:
+            break
+        removable.append(paragraphs[current_index])
+        current_index += 1
+
+    for paragraph in removable:
+        remove_paragraph(paragraph)
+
+
+def fill_gprs_contact_rows(table) -> None:
+    for row in table.rows:
+        cells = row.cells
+        if not cells:
+            continue
+        labels = [cell.text.strip() for cell in cells]
+        for index, label in enumerate(labels):
+            if "维护人员" in label:
+                target_index = min(index + 1, len(cells) - 1)
+                engine.set_cell_text(cells[target_index], "苗向-18338289920")
+                break
+            if "负责人员-对接人员" in label or ("负责人员" in label and "对接人员" in label):
+                target_index = min(index + 1, len(cells) - 1)
+                engine.set_cell_text(cells[target_index], "费泽庆\n李诚-13648914080")
+                break
+
+
+def is_gprs_contact_row(cells) -> bool:
+    for cell in cells:
+        text = cell.text.strip()
+        if "维护人员" in text:
+            return True
+        if "负责人员-对接人员" in text or ("负责人员" in text and "对接人员" in text):
+            return True
+    return False
+
+
 def find_match(log_pool: list[LogObject], target_ip: str, template_host: str, config_host: str) -> tuple[LogObject | None, str]:
     template_host = template_host.lower()
     config_host = config_host.lower()
@@ -263,6 +344,9 @@ def process_system(
             safe_update_paragraph(paragraph, RE_DATE.sub(target_date, text))
 
     for index, table in enumerate(doc.tables, 1):
+        if sys_key == "GPRS":
+            fill_gprs_contact_rows(table)
+
         target_ip = ""
         template_host = ""
         for row in table.rows[:2]:
@@ -283,6 +367,9 @@ def process_system(
         audit_lines.append(f"√ [{index:02d}] 命中 {log.filename} via {reason}")
         for row_index, row in enumerate(table.rows):
             cells = row.cells
+            if sys_key == "GPRS" and is_gprs_contact_row(cells):
+                fill_gprs_contact_rows(table)
+                continue
             if row_index == 1:
                 for cell in cells:
                     if "IP" in cell.text.upper():
@@ -301,7 +388,23 @@ def process_system(
                     if ROOM_ENV_LABEL in wanted:
                         engine.set_cell_text(cells[2], resolve_room_environment_status(log))
                     else:
-                        engine.set_cell_text(cells[2], engine.select_command_output(log.sections, wanted, log.norm_cache))
+                        engine.set_cell_text(
+                            cells[2],
+                            engine.select_command_output(
+                                log.sections,
+                                wanted,
+                                log.norm_cache,
+                                system_key=sys_key,
+                                template_host=template_host or config_host,
+                                target_ip=target_ip,
+                            ),
+                        )
+
+        if sys_key == "GPRS":
+            fill_gprs_contact_rows(table)
+
+    if sys_key == "GPRS":
+        ensure_gprs_contacts(doc)
 
     file_name = f"{(sys_key if sys_info.get('is_english_name') else sys_info['display_name'])}{target_date}日巡检报告.docx"
     output_path = output_dir / file_name

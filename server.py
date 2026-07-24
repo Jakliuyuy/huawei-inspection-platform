@@ -28,6 +28,11 @@ from backend.persistence import (
     list_jobs_page as list_jobs_page_impl,
     recover_incomplete_jobs as recover_incomplete_jobs_impl,
 )
+from backend.email_service import (
+    get_email_recipient_config,
+    get_system_recipients_for_file,
+    send_email,
+)
 from backend.reports import (
     list_report_date_stats as list_report_date_stats_impl,
     list_report_files_for_user as list_report_files_for_user_impl,
@@ -52,6 +57,11 @@ LOCAL_TZ = timezone(timedelta(hours=8))
 MAX_UPLOAD_BYTES = int(os.getenv("MAX_UPLOAD_BYTES", str(200 * 1024 * 1024)))
 MAX_EXTRACTED_BYTES = int(os.getenv("MAX_EXTRACTED_BYTES", str(1024 * 1024 * 1024)))
 MAX_EXTRACTED_FILES = int(os.getenv("MAX_EXTRACTED_FILES", "5000"))
+SMTP_HOST = os.getenv("SMTP_HOST", "smtp.139.com")
+SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
+SMTP_USERNAME = os.getenv("SMTP_USERNAME", "")
+SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
+SMTP_FROM_NAME = os.getenv("SMTP_FROM_NAME", "华为巡检云平台")
 LOGIN_WINDOW_SECONDS = 300
 LOGIN_MAX_FAILURES = 5
 
@@ -112,6 +122,9 @@ STATUS_LABELS = {
     "completed": "已完成",
     "failed": "失败",
 }
+SYSTEM_DIR_NAMES = ("TOC", "TOB", "NM1", "NM2", "NM3", "Softswitch", "SMS", "GPRS", "IntelligentNet")
+RECENT_UPLOAD_LOG_KEEP_COUNT = 10
+RECENT_UPLOAD_LOG_DIRNAME = "_recent_logs"
 
 
 def now_local() -> datetime:
@@ -121,6 +134,7 @@ def now_local() -> datetime:
 def ensure_dirs() -> None:
     for path in (config.data_root, config.runtime_dir, config.upload_dir, config.report_dir):
         path.mkdir(parents=True, exist_ok=True)
+    recent_upload_logs_root().mkdir(parents=True, exist_ok=True)
 
 
 def db_connect() -> sqlite3.Connection:
@@ -502,6 +516,51 @@ def delete_job_storage(job: sqlite3.Row) -> None:
             shutil.rmtree(path, ignore_errors=True)
 
 
+def recent_upload_logs_root() -> Path:
+    return config.upload_dir / RECENT_UPLOAD_LOG_DIRNAME
+
+
+def prune_recent_upload_logs() -> None:
+    root = recent_upload_logs_root()
+    if not root.exists():
+        return
+    cache_dirs = sorted((path for path in root.iterdir() if path.is_dir()), key=lambda path: path.name, reverse=True)
+    for path in cache_dirs[RECENT_UPLOAD_LOG_KEEP_COUNT:]:
+        shutil.rmtree(path, ignore_errors=True)
+
+
+def cache_recent_upload_logs(job_id: str, prepared_dir: Path) -> None:
+    root = recent_upload_logs_root()
+    root.mkdir(parents=True, exist_ok=True)
+    target_dir = root / job_id
+    if target_dir.exists():
+        shutil.rmtree(target_dir, ignore_errors=True)
+    shutil.copytree(prepared_dir, target_dir)
+    prune_recent_upload_logs()
+
+
+def sync_recent_upload_logs_from_existing() -> None:
+    root = recent_upload_logs_root()
+    root.mkdir(parents=True, exist_ok=True)
+    job_dirs = sorted(
+        (
+            path for path in config.upload_dir.iterdir()
+            if path.is_dir() and path.name != RECENT_UPLOAD_LOG_DIRNAME
+        ),
+        key=lambda path: path.name,
+        reverse=True,
+    )
+    for job_dir in job_dirs[:RECENT_UPLOAD_LOG_KEEP_COUNT]:
+        prepared_dir = job_dir / "prepared"
+        if not prepared_dir.exists():
+            continue
+        target_dir = root / job_dir.name
+        if target_dir.exists():
+            continue
+        shutil.copytree(prepared_dir, target_dir)
+    prune_recent_upload_logs()
+
+
 def get_job(job_id: str) -> sqlite3.Row | None:
     conn = db_connect()
     row = conn.execute(
@@ -555,6 +614,14 @@ def is_supported_upload(path: Path) -> bool:
     return path.suffix.lower() in {".zip", ".log"}
 
 
+def infer_system_dir_from_log_name(path: Path) -> str:
+    stem_upper = path.stem.upper()
+    for system_name in SYSTEM_DIR_NAMES:
+        if stem_upper.startswith(system_name.upper() + "_"):
+            return system_name
+    return ""
+
+
 def copy_uploaded_logs(saved_files: list[Path], target_dir: Path) -> bool:
     log_files = [path for path in saved_files if path.suffix.lower() == ".log"]
     if not log_files:
@@ -572,7 +639,10 @@ def copy_uploaded_logs(saved_files: list[Path], target_dir: Path) -> bool:
     date_dir = target_dir / now_local().strftime("%Y-%m-%d")
     date_dir.mkdir(parents=True, exist_ok=True)
     for log_file in log_files:
-        shutil.copy2(log_file, date_dir / log_file.name)
+        system_dir = infer_system_dir_from_log_name(log_file)
+        destination_dir = date_dir / system_dir if system_dir else date_dir
+        destination_dir.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(log_file, destination_dir / log_file.name)
     return True
 
 
@@ -580,7 +650,7 @@ def detect_log_root(path: Path) -> Path:
     candidates = [path]
     candidates.extend(child for child in path.iterdir() if child.is_dir())
     for candidate in candidates:
-        if any((candidate / name).exists() for name in ["TOC", "TOB", "NM1", "NM2", "NM3", "Softswitch", "SMS", "GPRS", "IntelligentNet"]):
+        if any((candidate / name).exists() for name in SYSTEM_DIR_NAMES):
             return candidate
     date_dirs = sorted(child for child in path.rglob("*") if child.is_dir() and "-" in child.name)
     if date_dirs:
@@ -772,6 +842,7 @@ def save_uploads(job_dir: Path, files: list[UploadFile]) -> Path:
         extract_zip_safe(zip_file, prepared_dir)
 
     if zip_files or copied_logs:
+        cache_recent_upload_logs(job_dir.name, prepared_dir)
         return prepared_dir
     raise HTTPException(status_code=400, detail="未发现可处理的日志文件")
 
@@ -917,6 +988,140 @@ async def api_download_job_file(request: Request, job_id: str, file_name: str) -
         raise HTTPException(status_code=404, detail="文件不存在")
     record_audit(user["id"], "download_file", f"下载任务 {job_id} 文件 {file_name}", request)
     return build_download_response(request, path, file_name)
+
+
+@app.get(f"{API_PREFIX}/email-config")
+async def api_email_config(request: Request) -> JSONResponse:
+    require_user(request)
+    recipients = get_email_recipient_config(config.config_path)
+    return JSONResponse(recipients)
+
+
+def _extract_date_str(file_name: str) -> tuple[str, str]:
+    import re
+    m = re.search(r"(\d{4})(\d{2})(\d{2})", file_name)
+    if m:
+        month = str(int(m.group(2)))
+        day = str(int(m.group(3)))
+        return m.group(0), f"{month}月{day}日"
+    return "", ""
+
+
+def _extract_system_short(file_name: str) -> str:
+    if file_name.startswith("TOC"):
+        return "TOC"
+    if file_name.startswith("TOB"):
+        return "TOB"
+    if file_name.startswith("GPRS"):
+        return "GPRS"
+    if "短信" in file_name:
+        return "短信"
+    if "软交换" in file_name:
+        return "软交换"
+    if "智能网" in file_name:
+        return "智能网"
+    if "网管1" in file_name:
+        return "网管1"
+    if "网管2" in file_name:
+        return "网管2"
+    if "网管3" in file_name:
+        return "网管3"
+    return ""
+
+
+def _build_email_subject(file_names: list[str]) -> str:
+    stem = file_names[0].replace(".docx", "").replace(".doc", "")
+    if len(file_names) == 1:
+        return stem
+
+    shorts = [_extract_system_short(name) for name in file_names]
+    shorts = [s for s in shorts if s]
+    _, date_str = _extract_date_str(file_names[0])
+
+    if shorts:
+        joined = "/".join(shorts)
+        return f"{joined}网设备巡检报告_{date_str}" if date_str else f"{joined}网设备巡检报告"
+
+    return f"巡检报告 - {'/'.join(file_names)}"
+
+
+@app.post(f"{API_PREFIX}/jobs/{{job_id}}/send-email")
+async def api_send_email(request: Request, job_id: str) -> JSONResponse:
+    user = require_user(request)
+    job = ensure_job_access(get_job(job_id), user)
+    if not job["output_path"]:
+        raise HTTPException(status_code=400, detail="任务尚未生成报告文件")
+    if not SMTP_USERNAME or not SMTP_PASSWORD:
+        raise HTTPException(status_code=400, detail="邮件服务未配置，请联系管理员设置 SMTP_USERNAME 和 SMTP_PASSWORD")
+
+    payload = await request.json()
+    files_to_send: list[dict] = payload.get("files", [])
+    if not files_to_send:
+        raise HTTPException(status_code=400, detail="没有指定要发送的文件")
+
+    output_dir = Path(job["output_path"])
+    groups: dict[str, dict] = {}
+
+    for entry in files_to_send:
+        file_name = entry.get("name", "")
+        recipients = entry.get("recipients", [])
+        if not file_name or not recipients:
+            continue
+        key = ",".join(sorted(recipients))
+        if key not in groups:
+            groups[key] = {"recipients": recipients, "files": []}
+        groups[key]["files"].append(file_name)
+
+    results: list[dict] = []
+    errors: list[dict] = []
+
+    for group in groups.values():
+        recipients = group["recipients"]
+        file_names = group["files"]
+
+        try:
+            all_attachments: list[tuple[str, bytes]] = []
+            for file_name in file_names:
+                file_path = output_dir / file_name
+                if not file_path.exists():
+                    errors.append({"name": file_name, "error": "文件不存在"})
+                    continue
+                with open(file_path, "rb") as f:
+                    all_attachments.append((file_name, f.read()))
+
+            if not all_attachments:
+                continue
+
+            subject = _build_email_subject(file_names)
+            body = f"您好，\n\n附件为本次生成的巡检报告，共 {len(all_attachments)} 个文件。\n\n此邮件由华为巡检云平台自动发送。"
+
+            send_email(
+                smtp_host=SMTP_HOST,
+                smtp_port=SMTP_PORT,
+                username=SMTP_USERNAME,
+                password=SMTP_PASSWORD,
+                from_name=SMTP_FROM_NAME,
+                to_addrs=recipients,
+                subject=subject,
+                body=body,
+                attachments=all_attachments,
+            )
+            results.append({"files": file_names, "recipients": recipients})
+        except Exception as exc:
+            errors.append({"name": "/".join(file_names), "error": str(exc)})
+
+    record_audit(
+        user["id"],
+        "send_email",
+        f"任务 {job_id} 发送邮件: 成功 {len(results)} 封，失败 {len(errors)} 个",
+        request,
+    )
+
+    if errors and not results:
+        error_detail = "; ".join(f"{e['name']}: {e['error']}" for e in errors)
+        raise HTTPException(status_code=500, detail=error_detail)
+
+    return JSONResponse({"ok": True, "sent": results, "errors": errors})
 
 
 @app.get(f"{API_PREFIX}/admin/users")
@@ -1119,6 +1324,8 @@ def startup_event() -> None:
     rebuild_report_file_index()
     recover_incomplete_jobs()
     cleanup_expired_data()
+    sync_recent_upload_logs_from_existing()
+    prune_recent_upload_logs()
 
 
 def spa_redirect(path: str) -> RedirectResponse:

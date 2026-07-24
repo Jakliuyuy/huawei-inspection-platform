@@ -1,6 +1,7 @@
 import { Alert, App as AntApp, Button, Card, Descriptions, List, Progress, Result, Space, Spin, Tag, Typography } from 'antd'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { SendEmailModal } from '../components/SendEmailModal'
 import { usePolling } from '../hooks/usePolling'
 import { request } from '../lib/api'
 import { formatTime, statusColor } from '../lib/format'
@@ -10,6 +11,7 @@ export function TaskDetailPage() {
   const { jobId = '' } = useParams()
   const [job, setJob] = useState<Job | null>(null)
   const [loading, setLoading] = useState(true)
+  const [emailModalOpen, setEmailModalOpen] = useState(false)
   const { message } = AntApp.useApp()
 
   const load = async () => {
@@ -47,8 +49,20 @@ export function TaskDetailPage() {
             <Descriptions.Item label="日志根目录">{job.log_root || '-'}</Descriptions.Item>
           </Descriptions>
           {job.bundle_available && (
-            <Button type="primary" href={job.bundle_download_url || undefined}>
-              下载任务结果
+            <Space>
+              <Button type="primary" href={job.bundle_download_url || undefined}>
+                下载任务结果
+              </Button>
+              {job.status === 'completed' && job.generated_files.length > 0 && (
+                <Button onClick={() => setEmailModalOpen(true)}>
+                  发送邮件
+                </Button>
+              )}
+            </Space>
+          )}
+          {!job.bundle_available && job.status === 'completed' && job.generated_files.length > 0 && (
+            <Button onClick={() => setEmailModalOpen(true)}>
+              发送邮件
             </Button>
           )}
         </Card>
@@ -86,6 +100,12 @@ export function TaskDetailPage() {
           ))}
         </div>
       </Card>
+      <SendEmailModal
+        open={emailModalOpen}
+        jobId={job.id}
+        files={job.generated_files}
+        onCancel={() => setEmailModalOpen(false)}
+      />
     </Space>
   )
 }

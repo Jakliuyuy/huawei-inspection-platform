@@ -3,6 +3,7 @@
     "display_name": "TOC系统网络设备",
     "template": "TOC_Template.docx",
     "is_english_name": true,
+    "recipients": ["feizeqing@xz.chinamobile.com", "licheng1@xz.chinamobile.com"],
     "hosts": {
       "1": "JZ-TOC-EOR01BHW",
       "2": "JZ-TOC-EOR02BHW",
@@ -27,24 +28,26 @@
   "GPRS": {
     "display_name": "GPRS系统网络设备",
     "template": "GPRS_Template.docx",
+    "recipients": ["feizeqing@xz.chinamobile.com", "licheng1@xz.chinamobile.com"],
     "hosts": {
       "1": "LSNE20E01BHW",
       "2": "LSNE20E02BHW",
-      "3": "LSSW01BHW",
-      "4": "LSSW02BHW",
-      "5": "LSSW03BHW",
-      "6": "LSSW04BHW",
-      "7": "LSCE01BHW",
-      "8": "LSCE02BHW",
-      "9": "LSCE03BHW",
-      "10": "LSCE04BHW",
-      "11": "LSCE05BHW",
+      "3": "LSCE01BHW",
+      "4": "LSCE02BHW",
+      "5": "LSSW01BHW",
+      "6": "LSSW02BHW",
+      "7": "LSSW03BHW",
+      "8": "LSSW04BHW",
+      "9": "LSCE04BHW",
+      "10": "LSCE05BHW",
+      "11": "LSCE03BHW",
       "12": "LSCE06BHW"
     }
   },
   "Softswitch": {
     "display_name": "软交换网络设备",
     "template": "Softswitch_Template.docx",
+    "recipients": ["xiangkun@xz.chinamobile.com", "pbzx2@xz.chinamobile.com"],
     "hosts": {
       "1": "XZ_AL_WG_S5536F",
       "2": "XZ_LS_JF_S5554-EI-D_1",
@@ -66,6 +69,7 @@
   "SMS": {
     "display_name": "短信系统网络设备",
     "template": "SMS_Template.docx",
+    "recipients": ["dinghb@xz.chinamobile.com"],
     "hosts": {
       "1": "LSJZ-YD-HTWG-NE8000-M8-1",
       "2": "LSJZ-YD-HTWG-NE8000-M8-2",
@@ -81,6 +85,7 @@
     "display_name": "TOB网络设备",
     "template": "TOB_Template.docx",
     "is_english_name": true,
+    "recipients": ["xiangkun@xz.chinamobile.com", "tangjin@xz.chinamobile.com"],
     "hosts": {
       "1": "CDFW101BHW",
       "2": "CDFW102BHW",
@@ -107,6 +112,7 @@
   "IntelligentNet": {
     "display_name": "智能网络设备",
     "template": "IntelligentNet_Template.docx",
+    "recipients": ["dinghb@xz.chinamobile.com"],
     "hosts": {
       "1": "jzznw_S6520_1_down",
       "2": "jzznw_s6520_2_up",
@@ -121,16 +127,19 @@
   "NM1": {
     "display_name": "网管1系统网络设备",
     "template": "NetMgmt1_Template.docx",
-    "is_dual_title": true
+    "is_dual_title": true,
+    "recipients": ["awls2@xz.chinamobile.com"]
   },
   "NM2": {
     "display_name": "网管2系统网络设备",
     "template": "NetMgmt2_Template.docx",
-    "is_dual_title": true
+    "is_dual_title": true,
+    "recipients": ["awls2@xz.chinamobile.com"]
   },
   "NM3": {
     "display_name": "网管3系统网络设备",
     "template": "NetMgmt3_Template.docx",
-    "is_dual_title": true
+    "is_dual_title": true,
+    "recipients": ["awls2@xz.chinamobile.com"]
   }
 }

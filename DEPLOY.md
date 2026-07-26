@@ -105,12 +105,31 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 - `/etc/nginx/nginx.conf`
 - 证书文件路径由你当前主机的 Nginx 配置自行决定
 
-建议至少包含：
+### 6.1 后端隐含依赖的 Nginx 约定（必读）
 
-- `/api/*` 反向代理到 `127.0.0.1:8080`
-- `/_protected-reports/*` 配置为 `internal`，并映射到 `data/reports/`，用于大文件下载走 Nginx `X-Accel-Redirect`
-- 静态资源缓存策略
-- HTTPS 证书与跳转规则
+以下几条不在仓库里，但后端代码直接依赖它们。改动任何一条都会让线上出问题，
+而**本地开发全部测不出来**，因为本地走的是另一条代码分支。
+
+| 约定 | 依赖它的代码 | 配错的后果 |
+|---|---|---|
+| `/api/*` 反代到 `127.0.0.1:8080` | 全部接口 | 整站不可用 |
+| `/_protected-reports/*` 必须是 `internal`，alias 到 `data/reports/` | `backend/downloads.py` | **漏了 `internal` 时该路径就是免鉴权的公开下载入口**，而 job_id 形如 `20260727-001` 极易枚举 |
+| `/app/` 指向前端产物目录，且带 `try_files ... /app/index.html` | 前端路由 | 刷新 `/app/tasks/xxx` 深链 404 |
+| `proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;` | `backend/security.py:client_ip` | 登录限流退化为全站共用一个桶（任何人错 5 次全站锁 5 分钟），审计 IP 全部相同 |
+| `client_max_body_size` ≥ `MAX_UPLOAD_BYTES`（默认 200M） | 上传接口 | 大包上传被 Nginx 直接拒绝 |
+| `proxy_read_timeout` 足够长 | 上传 + 9 个系统生成 | 长任务被中断 |
+
+`X-Accel-Redirect` 分支的触发条件是**请求里有没有 `X-Forwarded-For` 头**
+（`backend/downloads.py`）。也就是说下载在本地和线上走的是完全不同的两段代码，
+本地永远走 `FileResponse`。改动 `data/reports/` 的目录布局前务必意识到这一点。
+
+上线后建议核对一次：
+
+```bash
+nginx -T | grep -A5 _protected-reports   # 确认有 internal
+```
+
+其余：静态资源缓存策略、HTTPS 证书与跳转规则按需配置。
 
 ## 7. 当前已完成的部署相关优化
 
@@ -126,13 +145,16 @@ docker compose -f docker-compose.yml -f docker-compose.override-templates.yml up
 建议部署后执行：
 
 ```bash
-python3 -m py_compile server.py backend/*.py core/*.py
+python3 -m pytest                      # 报告黄金基线 + API 冒烟 + 本地模式
 docker compose config
 docker build -t huawei-inspection-backend:test .
-cd web && npm run lint
-cd web && npm run build
+cd web && npm run lint && npm run lint:css && npm run build
 curl http://127.0.0.1:8080/api/health
 ```
+
+其中 `pytest` 里的黄金基线会用真实日志跑一遍报告生成并逐字比对文本指纹，
+是判断"改动有没有影响报告内容"的唯一可靠手段。基线数据在 `tests/golden/`，
+**只有在人工确认差异符合预期后**才用 `python tests/make_golden.py` 刷新。
 
 ## 9. 首次登录
 

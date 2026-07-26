@@ -16,6 +16,7 @@ from backend.downloads import build_download_response
 from backend.jobs import enqueue_job, update_job
 from backend.pagination import build as build_page
 from backend.pagination import normalize as normalize_page
+from backend.paths import resolve_within
 from backend.queries import ensure_job_access, generate_job_id, get_job, list_jobs_page
 from backend.serializers import serialize_job
 from backend.uploads import save_uploads
@@ -106,7 +107,9 @@ async def api_download_job_file(request: Request, job_id: str, file_name: str) -
     job = ensure_job_access(get_job(job_id), user)
     if not job["output_path"]:
         raise HTTPException(status_code=404, detail="任务结果尚未生成")
-    path = Path(job["output_path"]) / file_name
+    path = resolve_within(Path(job["output_path"]), file_name)
+    if path is None:
+        raise HTTPException(status_code=400, detail="非法文件路径")
     if not path.exists():
         raise HTTPException(status_code=404, detail="文件不存在")
     record_audit(user["id"], "download_file", f"下载任务 {job_id} 文件 {file_name}", request)

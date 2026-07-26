@@ -15,6 +15,21 @@ from fastapi import HTTPException
 from backend.config import config
 
 
+def resolve_within(base: Path, file_name: str) -> Path | None:
+    """把 file_name 当作 base 下的单个文件名解析，越界返回 None。
+
+    先取 basename 抹掉任何目录成分，再 resolve 后确认仍在 base 内。
+    """
+    safe_name = Path(str(file_name).replace("\\", "/")).name
+    if not safe_name:
+        return None
+    base = base.resolve()
+    path = (base / safe_name).resolve()
+    if base not in path.parents:
+        return None
+    return path
+
+
 def job_report_names(job: sqlite3.Row) -> list[str]:
     generated_files = json.loads(job["generated_files"]) if job["generated_files"] else []
     return [Path(item).name for item in generated_files]

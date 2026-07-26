@@ -258,6 +258,29 @@ def test_report_path_resolution_rejects_traversal(app_module, payload):
     assert exc.value.status_code in (400, 403)
 
 
+@pytest.mark.parametrize(
+    "payload,expected",
+    [
+        ("../../runtime/app.db", "app.db"),  # 目录成分被剥掉，落回 base 内
+        ("/etc/passwd", "passwd"),
+        ("a/../../../x", "x"),
+        ("report.docx", "report.docx"),
+    ],
+)
+def test_resolve_within_strips_directory_components(payload, expected):
+    from backend.paths import resolve_within
+
+    got = resolve_within(Path("data/reports/20260727-001"), payload)
+    assert got is not None and got.name == expected
+
+
+@pytest.mark.parametrize("payload", ["..", "", "."])
+def test_resolve_within_rejects_non_files(payload):
+    from backend.paths import resolve_within
+
+    assert resolve_within(Path("data/reports/20260727-001"), payload) is None
+
+
 def test_report_path_resolution_accepts_whitelisted_name(app_module):
     import json as _json
 

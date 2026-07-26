@@ -37,6 +37,11 @@ cd web && npm ci && npm run build && cd ..
 
 启动：
 
+**Windows —— 双击 `start-local.bat`**（会自动打开浏览器；停止用 `stop-local.bat`，
+或直接关掉那个黑窗口 / 按 Ctrl+C）。
+
+命令行方式：
+
 ```bash
 # Linux / macOS
 LOCAL_MODE=true python server.py
@@ -169,6 +174,8 @@ config/report.json      设备清单与收件人（如有改动）
 │   └── lib/               # API、类型、文件处理
 ├── assets/templates/      # Word 模板库
 ├── config/report.json     # 设备清单 + 收件人白名单（单一真相）
+├── start-local.bat        # Windows 本地启动（双击即用）
+├── stop-local.bat         # Windows 本地停止
 ├── data/                  # 运行数据，始终外置，不进镜像
 └── DEPLOY.md              # 部署细节与 Nginx 约定
 ```

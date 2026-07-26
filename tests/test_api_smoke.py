@@ -247,21 +247,25 @@ def test_report_path_resolution_rejects_traversal(app_module, payload):
 
     from fastapi import HTTPException
 
+    from backend.paths import resolve_job_report_path
+
     job = {
         "output_path": str(REPO_ROOT / "data" / "reports" / "20260727-001"),
         "generated_files": _json.dumps(["TOC2026-07-24日巡检报告.docx"]),
     }
     with pytest.raises(HTTPException) as exc:
-        app_module.resolve_job_report_path(job, payload)
+        resolve_job_report_path(job, payload)
     assert exc.value.status_code in (400, 403)
 
 
 def test_report_path_resolution_accepts_whitelisted_name(app_module):
     import json as _json
 
+    from backend.paths import resolve_job_report_path
+
     name = "TOC2026-07-24日巡检报告.docx"
     job = {
         "output_path": str(REPO_ROOT / "data" / "reports" / "20260727-001"),
         "generated_files": _json.dumps([name]),
     }
-    assert app_module.resolve_job_report_path(job, name).name == name
+    assert resolve_job_report_path(job, name).name == name

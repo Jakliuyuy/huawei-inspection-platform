@@ -1,16 +1,13 @@
 from __future__ import annotations
 
 import json
-import mimetypes
 import os
 import shutil
 import sqlite3
-import zipfile
 from concurrent.futures import ThreadPoolExecutor
 from math import ceil
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote
 
 import uvicorn
 from fastapi import FastAPI, File, HTTPException, Request, Response, UploadFile
@@ -73,6 +70,33 @@ from backend.auth import (
     require_user,
     should_rate_limit,
 )
+from backend.downloads import build_download_response
+from backend.queries import (
+    announcement_text,
+    ensure_job_access,
+    generate_job_id,
+    get_job,
+    list_jobs_page,
+    list_report_date_stats,
+    list_report_files_for_user,
+    list_report_user_stats,
+    rebuild_report_file_index,
+)
+from backend.serializers import (
+    serialize_audit,
+    serialize_job,
+    serialize_user,
+)
+from backend.storage import (
+    create_bundle,
+    delete_job_storage,
+    prune_recent_upload_logs,
+    sync_recent_upload_logs_from_existing,
+)
+from backend.uploads import (
+    detect_log_root,
+    save_uploads,
+)
 from backend.db import (
     cleanup_expired_data,
     db_connect,
@@ -92,328 +116,6 @@ job_executor = ThreadPoolExecutor(max_workers=config.max_job_workers)
 
 
 
-
-
-def announcement_text() -> str:
-    conn = db_connect()
-    row = conn.execute("SELECT content FROM announcements WHERE id = 1").fetchone()
-    conn.close()
-    return row["content"] if row else ""
-
-
-def timeline_steps(job: sqlite3.Row) -> list[dict[str, Any]]:
-    steps = [
-        ("任务已创建", "已进入任务队列", bool(job["created_at"])),
-        ("开始处理", "工作线程已接管任务", bool(job["started_at"])),
-        ("日志识别", "识别日志根目录和上传结构", job["status"] in {"running", "completed", "failed"}),
-        ("报告生成", job["status_detail"] or "等待生成报告", clamp_progress(job["progress"]) >= 10),
-        ("结果打包", "生成压缩包供下载", clamp_progress(job["progress"]) >= 95 or bool(job["bundle_path"])),
-        ("任务完成", "可以下载报告结果", job["status"] == "completed"),
-    ]
-    if job["status"] == "failed":
-        steps[-1] = ("任务失败", job["error_message"] or "处理过程中发生错误", True)
-    return [
-        {
-            "step": index,
-            "title": title,
-            "description": desc,
-            "active": active,
-        }
-        for index, (title, desc, active) in enumerate(steps, 1)
-    ]
-
-
-def serialize_job(row: sqlite3.Row) -> dict[str, Any]:
-    generated_files = json.loads(row["generated_files"]) if row["generated_files"] else []
-    generated_entries = []
-    for file_path in generated_files:
-        path = Path(file_path)
-        generated_entries.append(
-            {
-                "name": path.name,
-                "download_url": f"{API_PREFIX}/jobs/{row['id']}/files/{path.name}",
-            }
-        )
-    return {
-        "id": row["id"],
-        "status": row["status"],
-        "status_label": status_label(row["status"]),
-        "progress": clamp_progress(row["progress"]),
-        "status_detail": row["status_detail"] or "",
-        "created_at": row["created_at"],
-        "started_at": row["started_at"],
-        "finished_at": row["finished_at"],
-        "username": row["username"],
-        "log_root": row["log_root"],
-        "error_message": row["error_message"],
-        "bundle_available": bool(row["bundle_path"]),
-        "bundle_download_url": f"{API_PREFIX}/jobs/{row['id']}/download" if row["bundle_path"] else None,
-        "generated_files": generated_entries,
-        "timeline": timeline_steps(row),
-    }
-
-
-def serialize_user(row: sqlite3.Row) -> dict[str, Any]:
-    return {
-        "id": row["id"],
-        "username": row["username"],
-        "is_admin": bool(row["is_admin"]),
-        "role_label": "管理员" if row["is_admin"] else "普通用户",
-        "created_at": row["created_at"],
-        "last_login_at": row["last_login_at"],
-    }
-
-
-def serialize_audit(row: sqlite3.Row) -> dict[str, Any]:
-    return {
-        "id": row["id"],
-        "created_at": row["created_at"],
-        "username": row["username"] or "匿名",
-        "action": row["action"],
-        "detail": row["detail"],
-        "ip_address": row["ip_address"],
-    }
-
-
-def list_jobs_page(user: sqlite3.Row, page: int, page_size: int) -> tuple[list[sqlite3.Row], int, dict[str, int]]:
-    return list_jobs_page_impl(db_connect=db_connect, user=user, page=page, page_size=page_size)
-
-
-def generate_job_id(conn: sqlite3.Connection) -> str:
-    date_prefix = now_local().strftime("%Y%m%d")
-    row = conn.execute(
-        """
-        SELECT id FROM jobs
-        WHERE id LIKE ?
-        ORDER BY id DESC
-        LIMIT 1
-        """,
-        (f"{date_prefix}-%",),
-    ).fetchone()
-    if not row:
-        return f"{date_prefix}-001"
-    _, _, suffix = row["id"].partition("-")
-    sequence = int(suffix) + 1 if suffix.isdigit() else 1
-    return f"{date_prefix}-{sequence:03d}"
-
-
-def rebuild_report_file_index() -> None:
-    rebuild_report_file_index_impl(db_connect=db_connect, local_tz=LOCAL_TZ)
-
-
-def list_report_date_stats() -> list[dict[str, Any]]:
-    return list_report_date_stats_impl(db_connect=db_connect)
-
-
-def list_report_user_stats(report_date: str) -> list[dict[str, Any]]:
-    return list_report_user_stats_impl(db_connect=db_connect, report_date=report_date)
-
-
-def list_report_files_for_user(report_date: str, username: str) -> list[dict[str, str]]:
-    return list_report_files_for_user_impl(db_connect=db_connect, report_date=report_date, username=username)
-
-
-def delete_job_storage(job: sqlite3.Row) -> None:
-    for field in ("input_path", "output_path", "bundle_path"):
-        value = job[field]
-        if not value:
-            continue
-        path = Path(value)
-        if path.is_file():
-            path.unlink(missing_ok=True)
-        elif path.is_dir():
-            shutil.rmtree(path, ignore_errors=True)
-    # input_path 在准备阶段被改写成 prepared 子目录，需回溯到 uploads/<job_id> 整体清理
-    input_value = job["input_path"]
-    if input_value:
-        input_path = Path(input_value)
-        for candidate in (input_path, *input_path.parents):
-            if candidate.name == job["id"] and candidate.parent == config.upload_dir:
-                shutil.rmtree(candidate, ignore_errors=True)
-                break
-
-
-def recent_upload_logs_root() -> Path:
-    return config.upload_dir / RECENT_UPLOAD_LOG_DIRNAME
-
-
-def prune_recent_upload_logs() -> None:
-    root = recent_upload_logs_root()
-    if not root.exists():
-        return
-    cache_dirs = sorted((path for path in root.iterdir() if path.is_dir()), key=lambda path: path.name, reverse=True)
-    for path in cache_dirs[RECENT_UPLOAD_LOG_KEEP_COUNT:]:
-        shutil.rmtree(path, ignore_errors=True)
-
-
-def cache_recent_upload_logs(job_id: str, prepared_dir: Path) -> None:
-    root = recent_upload_logs_root()
-    root.mkdir(parents=True, exist_ok=True)
-    target_dir = root / job_id
-    if target_dir.exists():
-        shutil.rmtree(target_dir, ignore_errors=True)
-    shutil.copytree(prepared_dir, target_dir)
-    prune_recent_upload_logs()
-
-
-def sync_recent_upload_logs_from_existing() -> None:
-    root = recent_upload_logs_root()
-    root.mkdir(parents=True, exist_ok=True)
-    job_dirs = sorted(
-        (
-            path for path in config.upload_dir.iterdir()
-            if path.is_dir() and path.name != RECENT_UPLOAD_LOG_DIRNAME
-        ),
-        key=lambda path: path.name,
-        reverse=True,
-    )
-    for job_dir in job_dirs[:RECENT_UPLOAD_LOG_KEEP_COUNT]:
-        prepared_dir = job_dir / "prepared"
-        if not prepared_dir.exists():
-            continue
-        target_dir = root / job_dir.name
-        if target_dir.exists():
-            continue
-        shutil.copytree(prepared_dir, target_dir)
-    prune_recent_upload_logs()
-
-
-def get_job(job_id: str) -> sqlite3.Row | None:
-    conn = db_connect()
-    row = conn.execute(
-        "SELECT jobs.*, users.username FROM jobs JOIN users ON users.id = jobs.user_id WHERE jobs.id = ?",
-        (job_id,),
-    ).fetchone()
-    conn.close()
-    return row
-
-
-def ensure_job_access(job: sqlite3.Row | None, user: sqlite3.Row) -> sqlite3.Row:
-    if not job:
-        raise HTTPException(status_code=404, detail="任务不存在")
-    if not user["is_admin"] and job["user_id"] != user["id"]:
-        raise HTTPException(status_code=403, detail="无权访问该任务")
-    return job
-
-
-def sanitize_member_name(name: str) -> str:
-    normalized = Path(name.replace("\\", "/"))
-    if normalized.is_absolute() or ".." in normalized.parts:
-        raise HTTPException(status_code=400, detail="压缩包中包含非法路径")
-    return str(normalized)
-
-
-def extract_zip_safe(zip_path: Path, target_dir: Path) -> None:
-    extracted_files = 0
-    extracted_bytes = 0
-    with zipfile.ZipFile(zip_path) as archive:
-        for member in archive.infolist():
-            member_name = sanitize_member_name(member.filename)
-            if not member_name:
-                continue
-            if member.is_dir():
-                destination = target_dir / member_name
-                destination.mkdir(parents=True, exist_ok=True)
-                continue
-            extracted_files += 1
-            if extracted_files > MAX_EXTRACTED_FILES:
-                raise HTTPException(status_code=400, detail="压缩包解压后的文件数量超出限制")
-            extracted_bytes += member.file_size
-            if extracted_bytes > MAX_EXTRACTED_BYTES:
-                raise HTTPException(status_code=400, detail="压缩包解压后的总大小超出限制")
-            destination = target_dir / member_name
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            with archive.open(member) as source, destination.open("wb") as handle:
-                shutil.copyfileobj(source, handle)
-
-
-def is_supported_upload(path: Path) -> bool:
-    return path.suffix.lower() in {".zip", ".log"}
-
-
-def infer_system_dir_from_log_name(path: Path) -> str:
-    stem_upper = path.stem.upper()
-    for system_name in SYSTEM_DIR_NAMES:
-        if stem_upper.startswith(system_name.upper() + "_"):
-            return system_name
-    return ""
-
-
-def copy_uploaded_logs(saved_files: list[Path], target_dir: Path) -> bool:
-    log_files = [path for path in saved_files if path.suffix.lower() == ".log"]
-    if not log_files:
-        return False
-
-    has_nested_layout = any(len(path.relative_to(target_dir.parent / "input").parts) > 1 for path in log_files)
-    if has_nested_layout:
-        for log_file in log_files:
-            relative_path = log_file.relative_to(target_dir.parent / "input")
-            destination = target_dir / relative_path
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            shutil.copy2(log_file, destination)
-        return True
-
-    date_dir = target_dir / now_local().strftime("%Y-%m-%d")
-    date_dir.mkdir(parents=True, exist_ok=True)
-    for log_file in log_files:
-        system_dir = infer_system_dir_from_log_name(log_file)
-        destination_dir = date_dir / system_dir if system_dir else date_dir
-        destination_dir.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(log_file, destination_dir / log_file.name)
-    return True
-
-
-def detect_log_root(path: Path) -> Path:
-    candidates = [path]
-    candidates.extend(child for child in path.iterdir() if child.is_dir())
-    for candidate in candidates:
-        if any((candidate / name).exists() for name in SYSTEM_DIR_NAMES):
-            return candidate
-    date_dirs = sorted(child for child in path.rglob("*") if child.is_dir() and "-" in child.name)
-    if date_dirs:
-        return date_dirs[0]
-    raise HTTPException(status_code=400, detail="无法识别日志目录结构")
-
-
-def create_bundle(output_dir: Path, bundle_path: Path) -> None:
-    with zipfile.ZipFile(bundle_path, "w", compression=zipfile.ZIP_DEFLATED) as archive:
-        for file in output_dir.rglob("*"):
-            if file.is_file() and file != bundle_path:
-                archive.write(file, arcname=file.relative_to(output_dir))
-
-
-def status_label(status: str) -> str:
-    return STATUS_LABELS.get(status, status)
-
-
-def clamp_progress(value: int | None) -> int:
-    if value is None:
-        return 0
-    return max(0, min(100, int(value)))
-
-
-def build_download_response(request: Request, path: Path, download_name: str) -> Response:
-    if not path.exists():
-        raise HTTPException(status_code=404, detail="文件不存在")
-
-    # 直连应用时仍保留原有行为；经过 Nginx 反向代理时，交给 Nginx 直接发送文件。
-    if not request.headers.get("x-forwarded-for"):
-        return FileResponse(path, filename=download_name)
-
-    try:
-        relative_path = path.resolve().relative_to(config.report_dir.resolve())
-    except ValueError:
-        return FileResponse(path, filename=download_name)
-
-    quoted_segments = [quote(part) for part in relative_path.parts]
-    accel_path = "/_protected-reports/" + "/".join(quoted_segments)
-    response = Response()
-    response.headers["X-Accel-Redirect"] = accel_path
-    response.headers["Content-Disposition"] = f"attachment; filename*=UTF-8''{quote(download_name)}"
-    media_type = mimetypes.guess_type(download_name)[0] or "application/octet-stream"
-    response.headers["Content-Type"] = media_type
-    response.headers["Content-Length"] = str(path.stat().st_size)
-    return response
 
 
 def update_job(job_id: str, **fields: Any) -> None:
@@ -526,42 +228,6 @@ def process_job(job_id: str, user_id: int) -> None:
 
 def enqueue_job(job_id: str, user_id: int) -> None:
     job_executor.submit(process_job, job_id, user_id)
-
-
-def save_uploads(job_dir: Path, files: list[UploadFile]) -> Path:
-    input_dir = job_dir / "input"
-    input_dir.mkdir(parents=True, exist_ok=True)
-    total_size = 0
-    saved_files: list[Path] = []
-    for upload in files:
-        if not upload.filename:
-            continue
-        relative_name = sanitize_member_name(upload.filename)
-        relative_path = Path(relative_name)
-        if not is_supported_upload(relative_path):
-            raise HTTPException(status_code=400, detail=f"不支持的文件类型: {upload.filename}")
-        target = input_dir / relative_path
-        target.parent.mkdir(parents=True, exist_ok=True)
-        with target.open("wb") as handle:
-            while chunk := upload.file.read(1024 * 1024):
-                total_size += len(chunk)
-                if total_size > MAX_UPLOAD_BYTES:
-                    raise HTTPException(status_code=400, detail="上传文件总大小超出限制")
-                handle.write(chunk)
-        saved_files.append(target)
-
-    prepared_dir = job_dir / "prepared"
-    prepared_dir.mkdir(parents=True, exist_ok=True)
-
-    zip_files = [path for path in saved_files if path.suffix.lower() == ".zip"]
-    copied_logs = copy_uploaded_logs(saved_files, prepared_dir)
-    for zip_file in zip_files:
-        extract_zip_safe(zip_file, prepared_dir)
-
-    if zip_files or copied_logs:
-        cache_recent_upload_logs(job_dir.name, prepared_dir)
-        return prepared_dir
-    raise HTTPException(status_code=400, detail="未发现可处理的日志文件")
 
 
 def list_admin_users() -> list[sqlite3.Row]:

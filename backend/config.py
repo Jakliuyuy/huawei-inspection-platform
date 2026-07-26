@@ -50,6 +50,10 @@ STATUS_LABELS = {
 SYSTEM_DIR_NAMES = ("TOC", "TOB", "NM1", "NM2", "NM3", "Softswitch", "SMS", "GPRS", "IntelligentNet")
 
 
+LOCAL_MODE = os.getenv("LOCAL_MODE", "false").lower() == "true"
+LOCAL_USERNAME = os.getenv("LOCAL_USERNAME", "local")
+
+
 @dataclass
 class AppConfig:
     app_root: Path
@@ -66,6 +70,8 @@ class AppConfig:
     default_admin_password: str
     max_job_workers: int
     secure_cookies: bool
+    local_mode: bool
+    frontend_dir: Path
 
 
 def build_config() -> AppConfig:
@@ -91,7 +97,15 @@ def build_config() -> AppConfig:
         default_admin_username=os.getenv("DEFAULT_ADMIN_USERNAME", "admin"),
         default_admin_password=os.getenv("DEFAULT_ADMIN_PASSWORD", "ChangeMe123!"),
         max_job_workers=max(1, int(os.getenv("MAX_JOB_WORKERS", "2"))),
-        secure_cookies=os.getenv("SECURE_COOKIES", "true").lower() == "true",
+        # 本地走 http，Secure Cookie 会被部分浏览器直接丢弃，表现为
+        # 「登录成功但下一个请求就 401」。显式设置优先，否则由是否本地模式决定。
+        secure_cookies=(
+            os.getenv("SECURE_COOKIES").lower() == "true"
+            if os.getenv("SECURE_COOKIES") is not None
+            else not LOCAL_MODE
+        ),
+        local_mode=LOCAL_MODE,
+        frontend_dir=Path(os.getenv("FRONTEND_DIR") or app_root / "web" / "dist").resolve(),
     )
 
 

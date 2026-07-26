@@ -8,6 +8,7 @@ from datetime import timedelta
 from fastapi import HTTPException, Request, Response
 
 from backend.config import (
+    LOCAL_USERNAME,
     LOGIN_MAX_FAILURES,
     LOGIN_WINDOW_SECONDS,
     SESSION_COOKIE,
@@ -74,7 +75,23 @@ def clear_user_sessions(user_id: int) -> None:
     conn.close()
 
 
+def local_user() -> sqlite3.Row | None:
+    """本地模式的固定用户。启动时已 upsert，这里只查。
+
+    必须是真实存在的行：jobs.user_id 有外键约束且 PRAGMA foreign_keys=ON，
+    伪造一个 id 会让建任务直接插入失败。
+    """
+    return get_user_by_username(LOCAL_USERNAME)
+
+
 def require_user(request: Request) -> sqlite3.Row:
+    # LOCAL_MODE 在整个代码库里只有这一处分支。其余地方（包括 require_admin）
+    # 都走同一个返回值，不需要各自判断。
+    if config.local_mode:
+        user = local_user()
+        if user is None:
+            raise HTTPException(status_code=500, detail="本地模式用户未初始化")
+        return user
     user = get_user_by_session(request.cookies.get(SESSION_COOKIE))
     if not user:
         raise HTTPException(status_code=401, detail="未登录或会话已失效")
@@ -116,5 +133,7 @@ def issue_session_response(target: Response, token: str) -> Response:
 
 
 def clear_session_response(target: Response) -> Response:
-    target.delete_cookie(SESSION_COOKIE)
+    # 属性必须与 issue_session_response 写入时一致，否则部分浏览器不会删除，
+    # 表现为「登出后刷新仍是登录态」直到会话自然过期。
+    target.delete_cookie(SESSION_COOKIE, path="/", samesite="lax", secure=config.secure_cookies)
     return target

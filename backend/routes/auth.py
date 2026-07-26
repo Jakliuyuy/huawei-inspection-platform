@@ -18,7 +18,7 @@ from backend.auth import (
     require_user,
     should_rate_limit,
 )
-from backend.config import API_PREFIX, SESSION_COOKIE
+from backend.config import API_PREFIX, SESSION_COOKIE, config
 from backend.security import client_ip, verify_password
 from backend.serializers import serialize_user
 
@@ -28,6 +28,9 @@ from backend.payloads import read_json
 
 @router.post("/auth/login")
 async def api_login(request: Request) -> JSONResponse:
+    if config.local_mode:
+        # 本地模式无需登录，老书签打到这里时返回当前用户即可
+        return JSONResponse({"ok": True, "user": serialize_user(require_user(request))})
     payload = await read_json(request)
     username = str(payload.get("username", "")).strip()
     password = str(payload.get("password", ""))
@@ -48,6 +51,8 @@ async def api_login(request: Request) -> JSONResponse:
 
 @router.post("/auth/logout")
 async def api_logout(request: Request) -> JSONResponse:
+    if config.local_mode:
+        return JSONResponse({"ok": True})
     token = request.cookies.get(SESSION_COOKIE)
     user = get_user_by_session(token)
     if user:
@@ -60,4 +65,5 @@ async def api_logout(request: Request) -> JSONResponse:
 @router.get("/auth/me")
 async def api_me(request: Request) -> JSONResponse:
     user = require_user(request)
-    return JSONResponse(serialize_user(user))
+    # 前端据此隐藏登录/登出入口
+    return JSONResponse({**serialize_user(user), "auth_mode": "local" if config.local_mode else "session"})

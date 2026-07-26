@@ -2,9 +2,10 @@
 
 from __future__ import annotations
 
+import secrets
 import sqlite3
 
-from backend.config import config, now_local
+from backend.config import LOCAL_USERNAME, config, now_local
 from backend.persistence import cleanup_expired_data as cleanup_expired_data_impl
 from backend.persistence import recover_incomplete_jobs as recover_incomplete_jobs_impl
 from backend.security import hash_password
@@ -147,6 +148,14 @@ def initialize_database() -> None:
             conn.execute(
                 "INSERT INTO users (username, password_hash, is_admin, created_at) VALUES (?, ?, 1, ?)",
                 (config.default_admin_username, hash_password(config.default_admin_password), now_local().isoformat()),
+            )
+        if config.local_mode and conn.execute(
+            "SELECT id FROM users WHERE username = ?", (LOCAL_USERNAME,)
+        ).fetchone() is None:
+            # 本地模式免登录，但仍需一行真实用户承接 jobs.user_id 的外键
+            conn.execute(
+                "INSERT INTO users (username, password_hash, is_admin, created_at) VALUES (?, ?, 1, ?)",
+                (LOCAL_USERNAME, hash_password(secrets.token_urlsafe(32)), now_local().isoformat()),
             )
         if conn.execute("SELECT id FROM announcements WHERE id = 1").fetchone() is None:
             conn.execute(

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import sqlite3
 
-from backend.config import RECENT_UPLOAD_LOG_DIRNAME, config, now_local
+from backend.config import config, now_local
 from backend.persistence import cleanup_expired_data as cleanup_expired_data_impl
 from backend.persistence import recover_incomplete_jobs as recover_incomplete_jobs_impl
 from backend.security import hash_password
@@ -125,7 +125,6 @@ def _add_missing_columns(conn: sqlite3.Connection) -> None:
 def ensure_dirs() -> None:
     for path in (config.data_root, config.runtime_dir, config.upload_dir, config.report_dir):
         path.mkdir(parents=True, exist_ok=True)
-    (config.upload_dir / RECENT_UPLOAD_LOG_DIRNAME).mkdir(parents=True, exist_ok=True)
 
 
 def db_connect() -> sqlite3.Connection:

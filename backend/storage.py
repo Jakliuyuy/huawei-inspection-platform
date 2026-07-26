@@ -7,7 +7,7 @@ import sqlite3
 import zipfile
 from pathlib import Path
 
-from backend.config import RECENT_UPLOAD_LOG_DIRNAME, RECENT_UPLOAD_LOG_KEEP_COUNT, config
+from backend.config import config
 
 
 def delete_job_storage(job: sqlite3.Row) -> None:
@@ -30,49 +30,18 @@ def delete_job_storage(job: sqlite3.Row) -> None:
                 break
 
 
-def recent_upload_logs_root() -> Path:
-    return config.upload_dir / RECENT_UPLOAD_LOG_DIRNAME
+LEGACY_RECENT_LOGS_DIRNAME = "_recent_logs"
 
 
-def prune_recent_upload_logs() -> None:
-    root = recent_upload_logs_root()
-    if not root.exists():
-        return
-    cache_dirs = sorted((path for path in root.iterdir() if path.is_dir()), key=lambda path: path.name, reverse=True)
-    for path in cache_dirs[RECENT_UPLOAD_LOG_KEEP_COUNT:]:
-        shutil.rmtree(path, ignore_errors=True)
+def remove_legacy_recent_logs_cache() -> None:
+    """删掉早期版本留下的 _recent_logs 缓存。
 
-
-def cache_recent_upload_logs(job_id: str, prepared_dir: Path) -> None:
-    root = recent_upload_logs_root()
-    root.mkdir(parents=True, exist_ok=True)
-    target_dir = root / job_id
-    if target_dir.exists():
-        shutil.rmtree(target_dir, ignore_errors=True)
-    shutil.copytree(prepared_dir, target_dir)
-    prune_recent_upload_logs()
-
-
-def sync_recent_upload_logs_from_existing() -> None:
-    root = recent_upload_logs_root()
-    root.mkdir(parents=True, exist_ok=True)
-    job_dirs = sorted(
-        (
-            path for path in config.upload_dir.iterdir()
-            if path.is_dir() and path.name != RECENT_UPLOAD_LOG_DIRNAME
-        ),
-        key=lambda path: path.name,
-        reverse=True,
-    )
-    for job_dir in job_dirs[:RECENT_UPLOAD_LOG_KEEP_COUNT]:
-        prepared_dir = job_dir / "prepared"
-        if not prepared_dir.exists():
-            continue
-        target_dir = root / job_dir.name
-        if target_dir.exists():
-            continue
-        shutil.copytree(prepared_dir, target_dir)
-    prune_recent_upload_logs()
+    那份缓存每次上传都把 prepared/ 整棵复制一遍，却没有任何读取方，
+    等于让磁盘占用翻倍。目录内容全部可从 uploads/<job_id>/prepared 还原。
+    """
+    legacy = config.upload_dir / LEGACY_RECENT_LOGS_DIRNAME
+    if legacy.is_dir():
+        shutil.rmtree(legacy, ignore_errors=True)
 
 
 def create_bundle(output_dir: Path, bundle_path: Path) -> None:

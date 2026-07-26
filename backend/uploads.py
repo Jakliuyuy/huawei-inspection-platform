@@ -15,7 +15,6 @@ from backend.config import (
     SYSTEM_DIR_NAMES,
     now_local,
 )
-from backend.storage import cache_recent_upload_logs
 
 
 def sanitize_member_name(name: str) -> str:
@@ -128,6 +127,5 @@ def save_uploads(job_dir: Path, files: list[UploadFile]) -> Path:
         extract_zip_safe(zip_file, prepared_dir)
 
     if zip_files or copied_logs:
-        cache_recent_upload_logs(job_dir.name, prepared_dir)
         return prepared_dir
     raise HTTPException(status_code=400, detail="未发现可处理的日志文件")

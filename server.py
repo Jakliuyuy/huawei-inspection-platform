@@ -23,7 +23,7 @@ from backend.config import APP_TITLE
 from backend.db import cleanup_expired_data, initialize_database, recover_incomplete_jobs
 from backend.queries import rebuild_report_file_index
 from backend.routes import admin, auth, email, jobs, legacy, meta, uploads
-from backend.storage import prune_recent_upload_logs, sync_recent_upload_logs_from_existing
+from backend.storage import remove_legacy_recent_logs_cache
 
 
 @asynccontextmanager
@@ -32,8 +32,7 @@ async def lifespan(_: FastAPI):
     rebuild_report_file_index()
     recover_incomplete_jobs()
     cleanup_expired_data()
-    sync_recent_upload_logs_from_existing()
-    prune_recent_upload_logs()
+    remove_legacy_recent_logs_cache()
     yield
 
 

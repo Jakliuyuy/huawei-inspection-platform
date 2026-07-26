@@ -48,8 +48,6 @@ STATUS_LABELS = {
     "failed": "失败",
 }
 SYSTEM_DIR_NAMES = ("TOC", "TOB", "NM1", "NM2", "NM3", "Softswitch", "SMS", "GPRS", "IntelligentNet")
-RECENT_UPLOAD_LOG_KEEP_COUNT = 10
-RECENT_UPLOAD_LOG_DIRNAME = "_recent_logs"
 
 
 @dataclass

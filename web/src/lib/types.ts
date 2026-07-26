@@ -31,11 +31,42 @@ export type Job = {
   finished_at: string | null
   username: string
   log_root: string | null
+  report_date: string | null
+  /** 空数组表示全部系统 */
+  selected_systems: string[]
   error_message: string | null
   bundle_available: boolean
   bundle_download_url: string | null
   generated_files: JobFile[]
   timeline: JobTimeline[]
+}
+
+export type SystemInfo = {
+  key: string
+  display_name: string
+  template: string
+  host_count: number
+  /** 含 {date} 占位符，由前端替换；命名规则的真相在后端 */
+  output_name_template: string
+}
+
+export type SystemStat = {
+  key: string
+  display_name: string
+  expected: number
+  actual: number
+  missing: number
+  has_logs: boolean
+  output_name_template: string
+}
+
+export type UploadPreview = {
+  upload_id: string
+  log_root_label: string
+  detected: boolean
+  log_file_count: number
+  suggested_report_date: string
+  systems: SystemStat[]
 }
 
 export type JobStats = {

@@ -1,0 +1,64 @@
+/* 全局样式仅限于 reset 之外的少数几项。上限 60 行 ——
+   组件外观走 theme/components.ts 的 token，自定义容器走 *.module.css。 */
+
+:root {
+  color-scheme: light;
+  --app-bg-layout: #f1f3f7;
+  --app-bg-container: #ffffff;
+  --app-text: #1b2430;
+  --app-border: #d7dde6;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --app-bg-layout: #0f1318;
+  --app-bg-container: #171c23;
+  --app-text: #e3e8ef;
+  --app-border: #2c343e;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--app-bg-layout);
+  color: var(--app-text);
+  /* 表格里的数字要能按位对齐 */
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: var(--app-primary, #2f6fb5);
+  color: #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--app-border);
+  border: 2px solid transparent;
+  background-clip: content-box;
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--app-text-4, #aeb7c4);
+  background-clip: content-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

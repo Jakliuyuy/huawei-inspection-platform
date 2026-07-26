@@ -1,0 +1,189 @@
+/* 只允许 var(--app-*) 与固定间距数值，禁止 hex 与 .ant-* 穿透（stylelint 会拦） */
+
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.pageHeaderTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--app-text);
+}
+
+.pageDescription {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--app-text-2);
+}
+
+.pageExtra {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.mono {
+  font-family: var(--app-font-code);
+  font-variant-numeric: tabular-nums;
+}
+
+.metric {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 84px;
+  justify-content: center;
+}
+
+.metricTitle {
+  font-size: 13px;
+  color: var(--app-text-2);
+}
+
+.metricValue {
+  font-family: var(--app-font-code);
+  font-variant-numeric: tabular-nums;
+  font-size: 24px;
+  line-height: 1.15;
+  color: var(--app-text);
+}
+
+.metricValueWarning {
+  color: var(--app-warning);
+}
+
+.metricValueError {
+  color: var(--app-error);
+}
+
+.metricHint {
+  font-size: 12px;
+  color: var(--app-text-3);
+}
+
+.pulse {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--app-primary);
+  margin-right: 6px;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.live {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  color: var(--app-text-3);
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 28px 16px;
+  text-align: center;
+  color: var(--app-text-3);
+}
+
+.emptyTitle {
+  font-size: 14px;
+  color: var(--app-text-2);
+}
+
+.emptyDescription {
+  font-size: 12px;
+  max-width: 40ch;
+}
+
+.completeness {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.completenessCount {
+  font-family: var(--app-font-code);
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  color: var(--app-text-3);
+}
+
+.completenessActual {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.actualOk {
+  color: var(--app-success);
+}
+
+.actualWarn {
+  color: var(--app-warning);
+}
+
+.actualNone {
+  color: var(--app-text-3);
+}
+
+.selectableList {
+  display: flex;
+  flex-direction: column;
+  max-height: 420px;
+  overflow-y: auto;
+}
+
+.selectRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 0;
+  border-left: 2px solid transparent;
+  background: transparent;
+  color: var(--app-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.selectRow:hover {
+  background: var(--app-fill-tertiary);
+}
+
+.selectRow:focus-visible {
+  outline: 2px solid var(--app-primary);
+  outline-offset: -2px;
+}
+
+.selectRowActive {
+  border-left-color: var(--app-primary);
+  background: var(--app-primary-bg);
+}

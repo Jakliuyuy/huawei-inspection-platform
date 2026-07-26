@@ -18,6 +18,9 @@ mkdir -p certs
 docker compose up -d --build
 ```
 
+镜像是多阶段构建，**前端在镜像里一起构建**，宿主机不需要装 Node。
+容器只监听 `127.0.0.1:8080`，对外由系统 Nginx 反代。
+
 默认服务监听：
 
 ```text
@@ -44,9 +47,13 @@ curl http://127.0.0.1:8080/api/health
 - `MAX_UPLOAD_BYTES`：上传总大小限制，默认 `209715200`
 - `MAX_EXTRACTED_BYTES`：ZIP 解压总大小限制，默认 `1073741824`
 - `MAX_EXTRACTED_FILES`：ZIP 解压文件数限制，默认 `5000`
-- `SECURE_COOKIES`：是否仅通过 HTTPS 发送 Cookie，默认 `false`
+- `MAX_EMAIL_FILES` / `MAX_EMAIL_RECIPIENTS`：单次发信的文件数与收件人数上限，各默认 `20`
+- `SECURE_COOKIES`：不设置时按 `LOCAL_MODE` 自动取值（线上 `true` / 本地 `false`），一般无需配置
+- `LOCAL_MODE`：免登录单用户模式，只监听 `127.0.0.1`。**线上务必保持 `false`**
+- `FRONTEND_DIR`：前端产物目录，默认 `web/dist`；目录不存在则跳过静态托管
 - `DEFAULT_ADMIN_USERNAME`：默认管理员用户名
-- `DEFAULT_ADMIN_PASSWORD`：默认管理员密码
+- `DEFAULT_ADMIN_PASSWORD`：默认管理员密码。**留空会用代码兜底值，务必设成 ≥12 位随机字符**
+- `SMTP_USERNAME` / `SMTP_PASSWORD`：留空则发信端点直接返回 400（测试环境正是靠这个保证不会误发）
 
 ## 4. 企业交付
 
@@ -131,14 +138,16 @@ nginx -T | grep -A5 _protected-reports   # 确认有 internal
 
 其余：静态资源缓存策略、HTTPS 证书与跳转规则按需配置。
 
-## 7. 当前已完成的部署相关优化
+## 7. 部署形态要点
 
-- `docker-compose.yml` 已增加健康检查
-- 后端镜像已改为仅复制运行必需文件，不再 `COPY . .`
-- 后端镜像已改为非 root 用户运行
-- 镜像内已增加 `HEALTHCHECK`
-- 服务启动时会自动恢复异常中断任务，并重建报告索引
-- 仓库内 Nginx 交付物已移除，避免与系统 `/etc/nginx/conf.d` 出现双份配置
+- 镜像多阶段构建：node 阶段产出 `web/dist`，运行阶段只带运行必需文件，非 root 用户
+- 镜像自带一份前端产物。Nginx 配了 `/app/` 就走 Nginx，没配则后端接管；
+  两者共存，镜像那份同时是前端的第二个回滚源
+- 容器与镜像内均有 `HEALTHCHECK`
+- 启动时自动：建表/增量加列 → 重建报告索引 → 恢复异常中断任务 → 清理过期数据与暂存
+- **数据库只追加可空列与新表**，新旧镜像互相兼容 —— 回滚镜像时数据库不必一起回退
+- `data/` 始终外置，不进镜像
+- Nginx 配置由系统 `/etc/nginx/conf.d` 统一管理，仓库不再维护
 
 ## 8. 验证命令
 

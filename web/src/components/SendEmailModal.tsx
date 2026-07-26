@@ -8,8 +8,10 @@ const EMAIL_PATTERN = /^[^\s@,;，；]+@[^\s@,;，；]+\.[^\s@,;，；]+$/
 type FileEntry = {
   key: string
   name: string
+  allowed: string[]
   recipients: string[]
   invalidRecipients: string[]
+  disallowedRecipients: string[]
   recipientInput: string
 }
 
@@ -46,13 +48,15 @@ export function SendEmailModal({
     const buildEntries = (suggestions: EmailSuggestion[]): FileEntry[] => {
       const byName = new Map(suggestions.map((item) => [item.name, item.recipients || []]))
       return files.map((file) => {
-        const recipients = byName.get(file.name) || []
+        const allowed = byName.get(file.name) || []
         return {
           key: file.name,
           name: file.name,
-          recipients,
+          allowed,
+          recipients: allowed,
           invalidRecipients: [],
-          recipientInput: recipients.join(', '),
+          disallowedRecipients: [],
+          recipientInput: allowed.join(', '),
         }
       })
     }
@@ -82,12 +86,25 @@ export function SendEmailModal({
 
   const updateRecipients = (key: string, input: string) => {
     setEntries((prev) =>
-      prev.map((e) => (e.key === key ? { ...e, recipientInput: input, ...parseRecipients(input) } : e)),
+      prev.map((e) => {
+        if (e.key !== key) return e
+        const { recipients, invalidRecipients } = parseRecipients(input)
+        const allowedSet = new Set(e.allowed)
+        return {
+          ...e,
+          recipientInput: input,
+          // 服务端只接受配置内收件人的子集，这里同步过滤以免提交后被 403 拒绝。
+          recipients: recipients.filter((addr) => allowedSet.has(addr)),
+          invalidRecipients,
+          disallowedRecipients: recipients.filter((addr) => !allowedSet.has(addr)),
+        }
+      }),
     )
   }
 
-  const missingEntries = entries.filter((e) => e.recipients.length === 0 && e.invalidRecipients.length === 0)
+  const missingEntries = entries.filter((e) => e.allowed.length === 0)
   const invalidEntries = entries.filter((e) => e.invalidRecipients.length > 0)
+  const disallowedEntries = entries.filter((e) => e.disallowedRecipients.length > 0)
 
   const handleSend = async () => {
     const payload = entries
@@ -149,7 +166,7 @@ export function SendEmailModal({
       key: 'recipientInput',
       render: (_: string, record: FileEntry) => (
         <Input
-          placeholder="多个收件人用逗号分隔"
+          placeholder="可删减收件人，多个用逗号分隔"
           value={record.recipientInput}
           status={record.invalidRecipients.length > 0 ? 'error' : undefined}
           onChange={(e) => updateRecipients(record.key, e.target.value)}
@@ -164,8 +181,14 @@ export function SendEmailModal({
         if (record.invalidRecipients.length > 0) {
           return <Tag color="red">邮箱格式有误</Tag>
         }
+        if (record.disallowedRecipients.length > 0) {
+          return <Tag color="red">超出允许范围</Tag>
+        }
+        if (record.allowed.length === 0) {
+          return <Tag color="orange">未配置收件人</Tag>
+        }
         if (record.recipients.length === 0) {
-          return <Tag color="orange">请手动填写</Tag>
+          return <Tag color="orange">未选择</Tag>
         }
         return <Tag color="green">{record.recipients.length}个</Tag>
       },
@@ -186,17 +209,25 @@ export function SendEmailModal({
     >
       <Space direction="vertical" size={12} style={{ width: '100%' }}>
         <Typography.Text type="secondary">
-          为每个报告文件指定收件人邮箱，多个收件人请用逗号或分号分隔。
+          收件人由服务端按系统配置自动填入。可以删减收件人，但不能添加配置之外的地址。
         </Typography.Text>
         {suggestionFailed && (
-          <Alert type="warning" showIcon message="未能获取建议收件人，请手动填写各文件的收件人邮箱" />
+          <Alert type="warning" showIcon message="未能获取收件人配置，请关闭弹窗后重试；若仍然失败请联系管理员" />
         )}
         {missingEntries.length > 0 && (
           <Alert
             type="warning"
             showIcon
-            message="以下文件未解析到收件人，请手动填写，否则发送时会被跳过"
+            message="以下文件在系统配置中没有收件人，发送时会被跳过，请联系管理员补充配置"
             description={missingEntries.map((e) => e.name).join('、')}
+          />
+        )}
+        {disallowedEntries.length > 0 && (
+          <Alert
+            type="error"
+            showIcon
+            message="以下收件人不在该文件的允许范围内，请删除后再发送"
+            description={disallowedEntries.map((e) => e.disallowedRecipients.join('、')).join('；')}
           />
         )}
         {invalidEntries.length > 0 && (
@@ -227,7 +258,7 @@ export function SendEmailModal({
           <Button
             type="primary"
             loading={sending}
-            disabled={loading || invalidEntries.length > 0}
+            disabled={loading || invalidEntries.length > 0 || disallowedEntries.length > 0}
             onClick={() => void handleSend()}
           >
             发送

@@ -78,6 +78,17 @@ CREATE TABLE IF NOT EXISTS report_files (
     FOREIGN KEY (user_id) REFERENCES users (id)
 );
 
+CREATE TABLE IF NOT EXISTS upload_sessions (
+    id TEXT PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    root_path TEXT NOT NULL,
+    preview_json TEXT NOT NULL,
+    created_at TEXT NOT NULL,
+    expires_at TEXT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users (id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_upload_sessions_expires_at ON upload_sessions (expires_at);
 CREATE INDEX IF NOT EXISTS idx_sessions_token_hash ON sessions (token_hash);
 CREATE INDEX IF NOT EXISTS idx_sessions_expires_at ON sessions (expires_at);
 CREATE INDEX IF NOT EXISTS idx_jobs_created_at ON jobs (created_at DESC);
@@ -89,6 +100,26 @@ CREATE INDEX IF NOT EXISTS idx_report_files_report_date ON report_files (report_
 CREATE INDEX IF NOT EXISTS idx_report_files_report_date_username ON report_files (report_date, username);
 CREATE INDEX IF NOT EXISTS idx_report_files_job_id ON report_files (job_id);
 """
+
+
+# 表名 -> [(列名, 列定义)]。只允许追加**可空**列，这样新镜像能读旧库、
+# 旧镜像也能读新库（多出来的列被忽略），回滚时数据库不必一起回滚。
+ADDED_COLUMNS: dict[str, list[tuple[str, str]]] = {
+    "jobs": [
+        ("progress", "INTEGER NOT NULL DEFAULT 0"),
+        ("status_detail", "TEXT"),
+        ("report_date", "TEXT"),
+        ("selected_systems", "TEXT"),
+    ],
+}
+
+
+def _add_missing_columns(conn: sqlite3.Connection) -> None:
+    for table, columns in ADDED_COLUMNS.items():
+        existing = {row["name"] for row in conn.execute(f"PRAGMA table_info({table})").fetchall()}
+        for name, definition in columns:
+            if name not in existing:
+                conn.execute(f"ALTER TABLE {table} ADD COLUMN {name} {definition}")
 
 
 def ensure_dirs() -> None:
@@ -111,11 +142,7 @@ def initialize_database() -> None:
     conn = db_connect()
     with conn:
         conn.executescript(SCHEMA)
-        job_columns = {row["name"] for row in conn.execute("PRAGMA table_info(jobs)").fetchall()}
-        if "progress" not in job_columns:
-            conn.execute("ALTER TABLE jobs ADD COLUMN progress INTEGER NOT NULL DEFAULT 0")
-        if "status_detail" not in job_columns:
-            conn.execute("ALTER TABLE jobs ADD COLUMN status_detail TEXT")
+        _add_missing_columns(conn)
         user_count = conn.execute("SELECT COUNT(*) FROM users").fetchone()[0]
         if user_count == 0:
             conn.execute(

@@ -22,7 +22,7 @@ from fastapi.responses import JSONResponse
 from backend.config import APP_TITLE
 from backend.db import cleanup_expired_data, initialize_database, recover_incomplete_jobs
 from backend.queries import rebuild_report_file_index
-from backend.routes import admin, auth, email, jobs, legacy, meta
+from backend.routes import admin, auth, email, jobs, legacy, meta, uploads
 from backend.storage import prune_recent_upload_logs, sync_recent_upload_logs_from_existing
 
 
@@ -41,6 +41,7 @@ app = FastAPI(title=APP_TITLE, lifespan=lifespan)
 
 app.include_router(auth.router)
 app.include_router(meta.router)
+app.include_router(uploads.router)
 app.include_router(jobs.router)
 app.include_router(email.router)
 app.include_router(admin.router)

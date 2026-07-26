@@ -64,6 +64,8 @@ def serialize_job(row: sqlite3.Row) -> dict[str, Any]:
         "finished_at": row["finished_at"],
         "username": row["username"],
         "log_root": row["log_root"],
+        "report_date": row["report_date"],
+        "selected_systems": json.loads(row["selected_systems"]) if row["selected_systems"] else [],
         "error_message": row["error_message"],
         "bundle_available": bool(row["bundle_path"]),
         "bundle_download_url": f"{API_PREFIX}/jobs/{row['id']}/download" if row["bundle_path"] else None,

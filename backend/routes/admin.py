@@ -12,6 +12,7 @@ from fastapi.responses import JSONResponse
 from backend.audit import record_audit
 from backend.auth import clear_user_sessions, get_user_by_username, require_admin
 from backend.config import API_PREFIX, now_local
+from backend.payloads import read_json
 from backend.db import db_connect
 from backend.downloads import build_download_response
 from backend.pagination import build as build_page
@@ -49,7 +50,7 @@ async def api_admin_users(request: Request) -> JSONResponse:
 @router.post("/admin/users")
 async def api_admin_create_user(request: Request) -> JSONResponse:
     admin = require_admin(request)
-    payload = await request.json()
+    payload = await read_json(request)
     username = str(payload.get("username", "")).strip()
     password = str(payload.get("password", ""))
     is_admin = int(bool(payload.get("is_admin", False)))
@@ -71,7 +72,7 @@ async def api_admin_create_user(request: Request) -> JSONResponse:
 @router.put("/admin/users/{target_user_id}/password")
 async def api_admin_reset_password(request: Request, target_user_id: int) -> JSONResponse:
     admin = require_admin(request)
-    payload = await request.json()
+    payload = await read_json(request)
     new_password = str(payload.get("new_password", "")).strip()
     if len(new_password) < 8:
         raise HTTPException(status_code=400, detail="新密码长度不能少于 8 位")
@@ -91,7 +92,7 @@ async def api_admin_reset_password(request: Request, target_user_id: int) -> JSO
 @router.put("/admin/announcement")
 async def api_update_announcement(request: Request) -> JSONResponse:
     user = require_admin(request)
-    payload = await request.json()
+    payload = await read_json(request)
     content = str(payload.get("content", "")).strip()
     if not content:
         raise HTTPException(status_code=400, detail="公告内容不能为空")

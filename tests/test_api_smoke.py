@@ -157,15 +157,116 @@ def test_admin_listing_contracts(admin):
 
 
 @pytest.fixture(scope="module")
+def plain_user(admin, client):
+    """一个非管理员账号，登录后的独立 client。"""
+    admin.post(
+        "/api/admin/users",
+        json={"username": "plain-user", "password": "plain-password-1", "is_admin": False},
+    )  # 已存在时返回 400，无妨
+    other = type(client)(client.app)
+    assert other.post(
+        "/api/auth/login", json={"username": "plain-user", "password": "plain-password-1"}
+    ).status_code == 200
+    return other
+
+
+def _make_upload(cli) -> dict:
+    r = cli.post("/api/uploads", files={"files": ("logs.zip", _tiny_log_zip(), "application/zip")})
+    assert r.status_code == 200, r.text
+    return r.json()
+
+
+@pytest.fixture(scope="module")
+def upload_preview(admin) -> dict:
+    """给只读用例共用的一份上传；不要用它建任务（建任务会消费掉它）。"""
+    return _make_upload(admin)
+
+
+@pytest.fixture
+def fresh_upload(admin) -> dict:
+    """每个用例独享一份，供会消费 upload_id 的校验用例使用。"""
+    return _make_upload(admin)
+
+
+def test_upload_preview_contract(upload_preview):
+    assert set(upload_preview) >= {
+        "upload_id", "log_root_label", "detected", "log_file_count",
+        "suggested_report_date", "systems",
+    }
+    by_key = {s["key"]: s for s in upload_preview["systems"]}
+    assert set(by_key) == {"TOC", "TOB", "GPRS", "Softswitch", "SMS", "IntelligentNet", "NM1", "NM2", "NM3"}
+    assert set(by_key["TOC"]) >= {
+        "key", "display_name", "expected", "actual", "missing", "has_logs", "output_name_template",
+    }
+    # zip 里只放了一个 TOC 日志
+    assert by_key["TOC"]["actual"] == 1 and by_key["TOC"]["has_logs"] is True
+    assert by_key["GPRS"]["actual"] == 0 and by_key["GPRS"]["has_logs"] is False
+
+
+def test_upload_preview_is_refetchable(admin, upload_preview):
+    r = admin.get(f"/api/uploads/{upload_preview['upload_id']}")
+    assert r.status_code == 200
+    assert r.json()["upload_id"] == upload_preview["upload_id"]
+
+
+def test_upload_is_owner_scoped(plain_user, upload_preview):
+    assert plain_user.get(f"/api/uploads/{upload_preview['upload_id']}").status_code == 404
+
+
+def test_systems_listing(admin):
+    body = admin.get("/api/systems").json()
+    assert len(body["systems"]) == 9
+    assert set(body["systems"][0]) >= {"key", "display_name", "host_count", "output_name_template"}
+
+
+@pytest.fixture(scope="module")
 def created_job(admin) -> str:
+    own = _make_upload(admin)
     r = admin.post(
         "/api/jobs",
-        files={"files": ("logs.zip", _tiny_log_zip(), "application/zip")},
+        json={
+            "upload_id": own["upload_id"],
+            "systems": ["TOC"],
+            "report_date": "2026-07-24",
+        },
     )
     assert r.status_code == 200, r.text
     job_id = r.json()["job_id"]
     assert job_id
     return job_id
+
+
+def test_create_job_records_scope_and_date(admin, created_job):
+    body = admin.get(f"/api/jobs/{created_job}").json()
+    assert body["report_date"] == "2026-07-24"
+    assert body["selected_systems"] == ["TOC"]
+
+
+def test_create_job_rejects_unknown_system(admin, fresh_upload):
+    r = admin.post(
+        "/api/jobs",
+        json={"upload_id": fresh_upload["upload_id"], "systems": ["NoSuchSystem"]},
+    )
+    assert r.status_code == 400 and "NoSuchSystem" in r.json()["detail"]
+
+
+def test_create_job_rejects_bad_date(admin, fresh_upload):
+    r = admin.post(
+        "/api/jobs",
+        json={"upload_id": fresh_upload["upload_id"], "report_date": "2026/07/24"},
+    )
+    assert r.status_code == 400
+
+
+def test_create_job_rejects_unknown_upload(admin):
+    r = admin.post("/api/jobs", json={"upload_id": "u-does-not-exist"})
+    assert r.status_code == 404
+
+
+def test_json_endpoints_reject_malformed_body(admin):
+    """非法请求体应得到 400，而不是未捕获异常导致的 500。"""
+    r = admin.post("/api/jobs", content=b"\xfb\xfc not json", headers={"content-type": "application/json"})
+    assert r.status_code == 400
 
 
 def test_job_detail_contract(admin, created_job):
@@ -190,26 +291,13 @@ def test_unknown_job_is_404(admin):
 # ---------------------------------------------------------------- 越权
 
 
-def test_non_admin_cannot_reach_admin_endpoints(admin, client):
-    r = admin.post(
-        "/api/admin/users",
-        json={"username": "plain-user", "password": "plain-password-1", "is_admin": False},
-    )
-    assert r.status_code == 200, r.text
-
-    other = type(client)(client.app)
-    assert other.post(
-        "/api/auth/login", json={"username": "plain-user", "password": "plain-password-1"}
-    ).status_code == 200
-
+def test_non_admin_cannot_reach_admin_endpoints(plain_user):
     for path in ("/api/admin/users", "/api/admin/jobs", "/api/admin/audits"):
-        assert other.get(path).status_code == 403, f"{path} 未拦截非管理员"
+        assert plain_user.get(path).status_code == 403, f"{path} 未拦截非管理员"
 
 
-def test_non_owner_cannot_read_others_job(client, created_job):
-    other = type(client)(client.app)
-    other.post("/api/auth/login", json={"username": "plain-user", "password": "plain-password-1"})
-    assert other.get(f"/api/jobs/{created_job}").status_code == 403
+def test_non_owner_cannot_read_others_job(plain_user, created_job):
+    assert plain_user.get(f"/api/jobs/{created_job}").status_code == 403
 
 
 # ---------------------------------------------------------------- 发信安全

@@ -23,11 +23,12 @@ from backend.security import client_ip, verify_password
 from backend.serializers import serialize_user
 
 router = APIRouter(prefix=API_PREFIX)
+from backend.payloads import read_json
 
 
 @router.post("/auth/login")
 async def api_login(request: Request) -> JSONResponse:
-    payload = await request.json()
+    payload = await read_json(request)
     username = str(payload.get("username", "")).strip()
     password = str(payload.get("password", ""))
     attempt_key = (client_ip(request) or "unknown", username)

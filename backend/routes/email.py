@@ -25,6 +25,7 @@ from backend.config import (
     SMTP_PORT,
     SMTP_USERNAME,
 )
+from backend.payloads import read_json
 from backend.email_service import is_valid_email, send_emails
 from backend.mail import build_email_subject, suggested_recipients_for_file
 from backend.paths import job_report_names, resolve_job_report_path
@@ -53,7 +54,7 @@ async def api_send_email(request: Request, job_id: str) -> JSONResponse:
     if not SMTP_USERNAME or not SMTP_PASSWORD:
         raise HTTPException(status_code=400, detail="邮件服务未配置，请联系管理员设置 SMTP_USERNAME 和 SMTP_PASSWORD")
 
-    payload = await request.json()
+    payload = await read_json(request)
     files_to_send = payload.get("files", [])
     if not isinstance(files_to_send, list) or not files_to_send:
         raise HTTPException(status_code=400, detail="没有指定要发送的文件")

@@ -68,6 +68,10 @@ def process_job(job_id: str, user_id: int) -> None:
                 status_detail=f"正在生成 {sys_info['display_name']}（{completed_count}/{total_count}）",
             )
 
+        # 用户在预览界面选定的范围与日期；旧任务这两列为 NULL，回落到原行为
+        report_date = job["report_date"] or now_local().strftime("%Y-%m-%d")
+        selected_systems = json.loads(job["selected_systems"]) if job["selected_systems"] else []
+
         update_job(job_id, progress=10, status_detail="已识别日志目录，开始生成报告")
         summary = generate_reports(
             paths=ReportPaths(
@@ -79,8 +83,9 @@ def process_job(job_id: str, user_id: int) -> None:
             ),
             log_root=log_root,
             output_dir=output_dir,
-            target_date=now_local().strftime("%Y-%m-%d"),
+            target_date=report_date,
             max_workers=max(1, config.max_job_workers),
+            only_systems=selected_systems or None,
             progress_callback=report_progress,
         )
         update_job(job_id, progress=95, status_detail="正在打包结果文件")
@@ -106,7 +111,7 @@ def process_job(job_id: str, user_id: int) -> None:
                     job_id=job_id,
                     user_id=user_id,
                     username=job["username"],
-                    report_date=now_local().strftime("%Y-%m-%d"),
+                    report_date=report_date,
                     generated_files=summary.generated_files,
                     created_at=job["created_at"],
                     local_tz=LOCAL_TZ,

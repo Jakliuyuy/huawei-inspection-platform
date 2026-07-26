@@ -11,6 +11,8 @@ export type Announcement = { content: string }
 
 export type JobFile = { name: string; download_url: string }
 
+export type EmailSuggestion = { name: string; recipients: string[] }
+
 export type JobTimeline = {
   step: number
   title: string

@@ -20,6 +20,7 @@ from urllib.parse import quote
 import uvicorn
 from fastapi import FastAPI, File, HTTPException, Request, Response, UploadFile
 from fastapi.responses import FileResponse, JSONResponse, RedirectResponse
+from starlette.concurrency import run_in_threadpool
 
 from backend.persistence import (
     cleanup_expired_data as cleanup_expired_data_impl,
@@ -31,7 +32,8 @@ from backend.persistence import (
 from backend.email_service import (
     get_email_recipient_config,
     get_system_recipients_for_file,
-    send_email,
+    is_valid_email,
+    send_emails,
 )
 from backend.reports import (
     list_report_date_stats as list_report_date_stats_impl,
@@ -64,6 +66,8 @@ SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
 SMTP_FROM_NAME = os.getenv("SMTP_FROM_NAME", "华为巡检云平台")
 LOGIN_WINDOW_SECONDS = 300
 LOGIN_MAX_FAILURES = 5
+MAX_EMAIL_FILES = int(os.getenv("MAX_EMAIL_FILES", "20"))
+MAX_EMAIL_RECIPIENTS = int(os.getenv("MAX_EMAIL_RECIPIENTS", "20"))
 
 
 @dataclass
@@ -1050,7 +1054,7 @@ def _extract_system_short(file_name: str) -> str:
 
 
 def _build_email_subject(file_names: list[str]) -> str:
-    stem = file_names[0].replace(".docx", "").replace(".doc", "")
+    stem = Path(file_names[0]).stem
     if len(file_names) == 1:
         return stem
 
@@ -1065,6 +1069,40 @@ def _build_email_subject(file_names: list[str]) -> str:
     return f"巡检报告 - {'/'.join(file_names)}"
 
 
+def job_report_names(job: sqlite3.Row) -> list[str]:
+    generated_files = json.loads(job["generated_files"]) if job["generated_files"] else []
+    return [Path(item).name for item in generated_files]
+
+
+def resolve_job_report_path(job: sqlite3.Row, file_name: str) -> Path:
+    safe_name = Path(str(file_name).replace("\\", "/")).name
+    if not safe_name or safe_name not in job_report_names(job):
+        raise HTTPException(status_code=400, detail=f"文件 {file_name} 不属于该任务")
+    output_dir = Path(job["output_path"]).resolve()
+    path = (output_dir / safe_name).resolve()
+    if output_dir not in path.parents:
+        raise HTTPException(status_code=400, detail="非法文件路径")
+    if path.suffix.lower() != ".docx":
+        raise HTTPException(status_code=400, detail="仅允许发送 Word 报告")
+    return path
+
+
+def suggested_recipients_for_file(file_name: str) -> list[str]:
+    recipients = get_system_recipients_for_file(config.config_path, file_name)
+    return [addr for addr in recipients if is_valid_email(addr)]
+
+
+@app.get(f"{API_PREFIX}/jobs/{{job_id}}/email-suggestions")
+async def api_job_email_suggestions(request: Request, job_id: str) -> JSONResponse:
+    user = require_user(request)
+    job = ensure_job_access(get_job(job_id), user)
+    suggestions = [
+        {"name": name, "recipients": suggested_recipients_for_file(name)}
+        for name in job_report_names(job)
+    ]
+    return JSONResponse({"suggestions": suggestions})
+
+
 @app.post(f"{API_PREFIX}/jobs/{{job_id}}/send-email")
 async def api_send_email(request: Request, job_id: str) -> JSONResponse:
     user = require_user(request)
@@ -1075,65 +1113,100 @@ async def api_send_email(request: Request, job_id: str) -> JSONResponse:
         raise HTTPException(status_code=400, detail="邮件服务未配置，请联系管理员设置 SMTP_USERNAME 和 SMTP_PASSWORD")
 
     payload = await request.json()
-    files_to_send: list[dict] = payload.get("files", [])
-    if not files_to_send:
+    files_to_send = payload.get("files", [])
+    if not isinstance(files_to_send, list) or not files_to_send:
         raise HTTPException(status_code=400, detail="没有指定要发送的文件")
+    if len(files_to_send) > MAX_EMAIL_FILES:
+        raise HTTPException(status_code=400, detail=f"单次最多发送 {MAX_EMAIL_FILES} 个文件")
 
-    output_dir = Path(job["output_path"])
     groups: dict[str, dict] = {}
 
     for entry in files_to_send:
-        file_name = entry.get("name", "")
-        recipients = entry.get("recipients", [])
-        if not file_name or not recipients:
+        if not isinstance(entry, dict):
             continue
+        file_name = str(entry.get("name", ""))
+        raw_recipients = entry.get("recipients", [])
+        if not file_name or not isinstance(raw_recipients, list) or not raw_recipients:
+            continue
+        path = resolve_job_report_path(job, file_name)
+        recipients = list(dict.fromkeys(str(addr).strip() for addr in raw_recipients))
+        if len(recipients) > MAX_EMAIL_RECIPIENTS:
+            raise HTTPException(status_code=400, detail=f"单个文件最多指定 {MAX_EMAIL_RECIPIENTS} 个收件人")
+        allowed = set(suggested_recipients_for_file(path.name))
+        for addr in recipients:
+            if not is_valid_email(addr):
+                raise HTTPException(status_code=400, detail=f"收件人地址 {addr} 格式不合法")
+            if addr not in allowed:
+                raise HTTPException(status_code=403, detail=f"收件人 {addr} 不在 {path.name} 的允许范围内")
         key = ",".join(sorted(recipients))
         if key not in groups:
-            groups[key] = {"recipients": recipients, "files": []}
-        groups[key]["files"].append(file_name)
+            groups[key] = {"recipients": recipients, "paths": []}
+        groups[key]["paths"].append(path)
 
     results: list[dict] = []
     errors: list[dict] = []
 
-    for group in groups.values():
-        recipients = group["recipients"]
-        file_names = group["files"]
-
-        try:
+    def deliver() -> None:
+        messages: list[dict[str, Any]] = []
+        for group in groups.values():
             all_attachments: list[tuple[str, bytes]] = []
-            for file_name in file_names:
-                file_path = output_dir / file_name
+            attached_names: list[str] = []
+            for file_path in group["paths"]:
                 if not file_path.exists():
-                    errors.append({"name": file_name, "error": "文件不存在"})
+                    errors.append({"name": file_path.name, "error": "文件不存在"})
                     continue
                 with open(file_path, "rb") as f:
-                    all_attachments.append((file_name, f.read()))
+                    all_attachments.append((file_path.name, f.read()))
+                attached_names.append(file_path.name)
 
             if not all_attachments:
                 continue
 
-            subject = _build_email_subject(file_names)
-            body = f"您好，\n\n附件为本次生成的巡检报告，共 {len(all_attachments)} 个文件。\n\n此邮件由华为巡检云平台自动发送。"
+            messages.append(
+                {
+                    "to_addrs": group["recipients"],
+                    "subject": _build_email_subject(attached_names),
+                    "body": f"您好，\n\n附件为本次生成的巡检报告，共 {len(all_attachments)} 个文件。\n\n此邮件由华为巡检云平台自动发送。",
+                    "attachments": all_attachments,
+                    "names": attached_names,
+                }
+            )
 
-            send_email(
+        if not messages:
+            return
+
+        try:
+            outcomes = send_emails(
                 smtp_host=SMTP_HOST,
                 smtp_port=SMTP_PORT,
                 username=SMTP_USERNAME,
                 password=SMTP_PASSWORD,
                 from_name=SMTP_FROM_NAME,
-                to_addrs=recipients,
-                subject=subject,
-                body=body,
-                attachments=all_attachments,
+                messages=messages,
             )
-            results.append({"files": file_names, "recipients": recipients})
         except Exception as exc:
-            errors.append({"name": "/".join(file_names), "error": str(exc)})
+            for message in messages:
+                errors.append({"name": "/".join(message["names"]), "error": str(exc)})
+            return
 
+        for message, outcome in zip(messages, outcomes):
+            if outcome.get("ok"):
+                results.append({"files": message["names"], "recipients": message["to_addrs"]})
+                continue
+            refused = outcome.get("refused") or []
+            detail = outcome.get("error") or f"收件人被拒收: {', '.join(refused)}"
+            errors.append({"name": "/".join(message["names"]), "error": detail})
+
+    await run_in_threadpool(deliver)
+
+    sent_detail = "; ".join(
+        f"{'/'.join(item['files'])} -> {', '.join(item['recipients'])}" for item in results
+    ) or "无"
+    failed_detail = "; ".join(f"{item['name']}: {item['error']}" for item in errors) or "无"
     record_audit(
         user["id"],
         "send_email",
-        f"任务 {job_id} 发送邮件: 成功 {len(results)} 封，失败 {len(errors)} 个",
+        f"任务 {job_id} 发送邮件: 成功 {len(results)} 封，失败 {len(errors)} 个；成功明细 {sent_detail}；失败明细 {failed_detail}",
         request,
     )
 
@@ -1141,7 +1214,7 @@ async def api_send_email(request: Request, job_id: str) -> JSONResponse:
         error_detail = "; ".join(f"{e['name']}: {e['error']}" for e in errors)
         raise HTTPException(status_code=500, detail=error_detail)
 
-    return JSONResponse({"ok": True, "sent": results, "errors": errors})
+    return JSONResponse({"ok": len(errors) == 0, "sent": results, "errors": errors})
 
 
 @app.get(f"{API_PREFIX}/admin/users")

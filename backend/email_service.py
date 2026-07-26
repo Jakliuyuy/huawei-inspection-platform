@@ -92,25 +92,6 @@ def _build_message(
     return msg
 
 
-def send_email(
-    smtp_host: str,
-    smtp_port: int,
-    username: str,
-    password: str,
-    from_name: str,
-    to_addrs: list[str],
-    subject: str,
-    body: str,
-    attachments: Optional[list[tuple[str, bytes]]] = None,
-) -> dict:
-    """返回被服务器拒绝的收件人字典，全部投递成功时为空字典。"""
-    msg = _build_message(username, from_name, to_addrs, subject, body, attachments)
-    context = ssl.create_default_context()
-    with smtplib.SMTP_SSL(smtp_host, smtp_port, context=context, timeout=SMTP_TIMEOUT_SECONDS) as server:
-        server.login(username, password)
-        return server.sendmail(username, to_addrs, msg.as_string())
-
-
 def send_emails(
     smtp_host: str,
     smtp_port: int,

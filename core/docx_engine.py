@@ -1,11 +1,8 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
-from pathlib import Path
 
 # 预编译核心正则，提升万次匹配速度
-IP_RE = re.compile(r"(\d+\.\d+\.\d+\.[1-9]\d*)")
 CMD_RE = re.compile(r"[>\]#]\s*((?:display|dis|show)\s+\S+.*?)\s*$", re.I)
 CLI_ERROR_PATTERNS = (
     re.compile(r"^\s*\^\s*$", re.M),
@@ -17,12 +14,6 @@ CLI_ERROR_PATTERNS = (
     re.compile(r"ambiguous command", re.I),
     re.compile(r"too many parameters", re.I),
 )
-
-@dataclass
-class DeviceReport:
-    host: str
-    ip: str
-    sections: dict[str, str]
 
 def normalize(text: str) -> str:
     """极速归一化"""

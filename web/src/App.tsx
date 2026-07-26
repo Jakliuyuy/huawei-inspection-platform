@@ -1,9 +1,12 @@
-import { App as AntApp, ConfigProvider, Result, Spin } from 'antd'
+import { App as AntApp, Result, Spin } from 'antd'
 import type { JSX } from 'react'
-import { Suspense, lazy, useEffect, useRef, useState } from 'react'
+import { Suspense, lazy, useCallback, useEffect, useRef, useState } from 'react'
 import { BrowserRouter, Navigate, Route, Routes, useNavigate } from 'react-router-dom'
+
 import { request, setUnauthorizedHandler } from './lib/api'
 import type { User } from './lib/types'
+import { ThemeProvider } from './theme/ThemeProvider'
+import './styles/global.css'
 
 const AppShell = lazy(async () => import('./components/AppShell').then((module) => ({ default: module.AppShell })))
 const AdminPage = lazy(async () => import('./pages/AdminPage').then((module) => ({ default: module.AdminPage })))
@@ -16,43 +19,38 @@ const TaskDetailPage = lazy(async () =>
   import('./pages/TaskDetailPage').then((module) => ({ default: module.TaskDetailPage })),
 )
 
-function RouteLoading(): JSX.Element {
+/** 本地模式下后端在 /auth/me 上带回 auth_mode=local，前端据此隐藏登录/登出 */
+type MeResponse = User & { auth_mode?: 'local' | 'session' }
+
+function CenteredSpin(): JSX.Element {
   return (
-    <div className="route-loading">
+    <div style={{ display: 'grid', placeItems: 'center', minHeight: '60vh' }}>
       <Spin size="large" />
     </div>
   )
 }
 
-function ProtectedRoute({ user, children }: { user: User | null; children: JSX.Element }): JSX.Element {
-  if (!user) {
-    return <Navigate to="/login" replace />
-  }
-  return children
-}
-
-function AdminRoute({ user, children }: { user: User | null; children: JSX.Element }): JSX.Element {
-  if (!user) return <Navigate to="/login" replace />
-  if (!user.is_admin) return <Result status="403" title="无权限访问管理后台" />
-  return children
-}
-
 function RouterApp(): JSX.Element {
   const [user, setUser] = useState<User | null>(null)
+  const [localMode, setLocalMode] = useState(false)
   const [booting, setBooting] = useState(true)
   const { message } = AntApp.useApp()
   const navigate = useNavigate()
   const expiredNotified = useRef(false)
 
   useEffect(() => {
-    void request<User>('/auth/me')
-      .then((data) => setUser(data))
+    void request<MeResponse>('/auth/me')
+      .then((data) => {
+        setUser(data)
+        setLocalMode(data.auth_mode === 'local')
+      })
       .catch(() => setUser(null))
       .finally(() => setBooting(false))
   }, [])
 
   useEffect(() => {
     setUnauthorizedHandler(() => {
+      // 只提示一次，否则两个页面的轮询会连环弹窗
       if (expiredNotified.current) return
       expiredNotified.current = true
       setUser(null)
@@ -67,7 +65,7 @@ function RouterApp(): JSX.Element {
     setUser(nextUser)
   }
 
-  const logout = async () => {
+  const logout = useCallback(async () => {
     try {
       await request<{ ok: boolean }>('/auth/logout', { method: 'POST' })
     } finally {
@@ -75,61 +73,40 @@ function RouterApp(): JSX.Element {
       navigate('/login', { replace: true })
       message.success('已退出登录')
     }
-  }
+  }, [message, navigate])
 
-  if (booting) {
-    return (
-      <div className="boot-screen">
-        <Spin size="large" />
-      </div>
-    )
+  if (booting) return <CenteredSpin />
+
+  const authed = localMode || !!user
+  const isAdmin = localMode || !!user?.is_admin
+
+  const shell = (children: JSX.Element) => (
+    <AppShell user={user} localMode={localMode} onLogout={logout}>
+      {children}
+    </AppShell>
+  )
+
+  const guard = (children: JSX.Element, adminOnly = false) => {
+    if (!authed) return <Navigate to="/login" replace />
+    if (adminOnly && !isAdmin) return <Result status="403" title="无权限访问管理后台" />
+    return shell(children)
   }
 
   return (
-    <Suspense fallback={<RouteLoading />}>
+    <Suspense fallback={<CenteredSpin />}>
       <Routes>
-        <Route path="/" element={<Navigate to={user ? '/dashboard' : '/login'} replace />} />
-        <Route path="/login" element={<LoginPage onLogin={handleLogin} user={user} />} />
+        <Route path="/" element={<Navigate to={authed ? '/dashboard' : '/login'} replace />} />
         <Route
-          path="/dashboard"
+          path="/login"
           element={
-            <ProtectedRoute user={user}>
-              <AppShell user={user!} onLogout={logout}>
-                <DashboardPage user={user!} />
-              </AppShell>
-            </ProtectedRoute>
+            // 本地模式没有登录页，老书签直接落到看板
+            localMode ? <Navigate to="/dashboard" replace /> : <LoginPage onLogin={handleLogin} user={user} />
           }
         />
-        <Route
-          path="/tasks/new"
-          element={
-            <ProtectedRoute user={user}>
-              <AppShell user={user!} onLogout={logout}>
-                <NewTaskPage />
-              </AppShell>
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/tasks/:jobId"
-          element={
-            <ProtectedRoute user={user}>
-              <AppShell user={user!} onLogout={logout}>
-                <TaskDetailPage />
-              </AppShell>
-            </ProtectedRoute>
-          }
-        />
-        <Route
-          path="/admin"
-          element={
-            <AdminRoute user={user}>
-              <AppShell user={user!} onLogout={logout}>
-                <AdminPage />
-              </AppShell>
-            </AdminRoute>
-          }
-        />
+        <Route path="/dashboard" element={guard(<DashboardPage user={user} localMode={localMode} />)} />
+        <Route path="/tasks/new" element={guard(<NewTaskPage />)} />
+        <Route path="/tasks/:jobId" element={guard(<TaskDetailPage />)} />
+        <Route path="/admin" element={guard(<AdminPage localMode={localMode} />, true)} />
         <Route path="*" element={<Result status="404" title="页面不存在" />} />
       </Routes>
     </Suspense>
@@ -138,21 +115,11 @@ function RouterApp(): JSX.Element {
 
 export default function App(): JSX.Element {
   return (
-    <ConfigProvider
-      theme={{
-        token: {
-          colorPrimary: '#0f766e',
-          borderRadius: 14,
-          colorBgBase: '#f3f6fb',
-          fontFamily: '"PingFang SC","Noto Sans SC","Microsoft YaHei",sans-serif',
-        },
-      }}
-    >
-      <AntApp>
-        <BrowserRouter basename="/app">
-          <RouterApp />
-        </BrowserRouter>
-      </AntApp>
-    </ConfigProvider>
+    <ThemeProvider>
+      {/* base 与 basename 单一来源，改 vite base 时不会失配 */}
+      <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '') || '/'}>
+        <RouterApp />
+      </BrowserRouter>
+    </ThemeProvider>
   )
 }

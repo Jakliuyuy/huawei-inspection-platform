@@ -22,12 +22,15 @@ export function CreateUserModal({
   }
 
   return (
-    <Modal title="新增用户" open={open} footer={null} onCancel={onCancel} destroyOnClose>
+    <Modal title="新增用户" open={open} footer={null} onCancel={onCancel} destroyOnHidden>
       <Form layout="vertical" onFinish={(values) => void handleFinish(values)}>
         <Form.Item name="username" label="用户名" rules={[{ required: true, message: '请输入用户名' }]}>
           <Input />
         </Form.Item>
-        <Form.Item name="password" label="密码" rules={[{ required: true, message: '请输入密码' }]}>
+        <Form.Item name="password" label="密码" rules={[
+            { required: true, message: '请输入密码' },
+            { min: 8, message: '密码长度不能少于 8 位' },
+          ]}>
           <Input.Password />
         </Form.Item>
         <Form.Item name="is_admin" label="角色" initialValue={false}>

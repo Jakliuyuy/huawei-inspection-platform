@@ -1,75 +1,163 @@
-import { DashboardOutlined, LogoutOutlined, SafetyCertificateOutlined, UploadOutlined } from '@ant-design/icons'
-import { Button, Layout, Tag, Typography } from 'antd'
+import {
+  DashboardOutlined,
+  DownOutlined,
+  LogoutOutlined,
+  MenuOutlined,
+  SafetyCertificateOutlined,
+  UploadOutlined,
+} from '@ant-design/icons'
+import { Button, Drawer, Dropdown, Grid, Layout, Menu, Tag } from 'antd'
 import type { ReactNode } from 'react'
-import { useMemo } from 'react'
+import { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
+
+import { ThemeToggle } from './common'
+import { resolveNavKey } from '../lib/job'
 import type { User } from '../lib/types'
+import styles from './AppShell.module.css'
+
+const SIDER_STORAGE_KEY = 'inspection.sider'
+
+const NAV_ITEMS = [
+  { key: '/dashboard', icon: <DashboardOutlined />, label: '任务中心', adminOnly: false },
+  { key: '/tasks/new', icon: <UploadOutlined />, label: '新建任务', adminOnly: false },
+  { key: '/admin', icon: <SafetyCertificateOutlined />, label: '系统管理', adminOnly: true },
+]
 
 export function AppShell({
   user,
+  localMode,
   onLogout,
   children,
 }: {
-  user: User
+  user: User | null
+  localMode: boolean
   onLogout: () => Promise<void>
   children: ReactNode
 }) {
-  const navigate = useNavigate()
   const location = useLocation()
+  const navigate = useNavigate()
+  const screens = Grid.useBreakpoint()
+  const isNarrow = !screens.lg
+  const [drawerOpen, setDrawerOpen] = useState(false)
+  const [collapsed, setCollapsed] = useState(() => {
+    try {
+      return localStorage.getItem(SIDER_STORAGE_KEY) === '1'
+    } catch {
+      return false
+    }
+  })
 
-  const menu = useMemo(
-    () => [
-      { key: '/dashboard', label: '任务中心', icon: <DashboardOutlined /> },
-      { key: '/tasks/new', label: '新建任务', icon: <UploadOutlined /> },
-      ...(user.is_admin ? [{ key: '/admin', label: '系统管理', icon: <SafetyCertificateOutlined /> }] : []),
-    ],
-    [user.is_admin],
+  useEffect(() => {
+    try {
+      localStorage.setItem(SIDER_STORAGE_KEY, collapsed ? '1' : '0')
+    } catch {
+      /* 忽略写入失败 */
+    }
+  }, [collapsed])
+
+  // 本地模式没有账号体系，管理端直接可用
+  const isAdmin = localMode || !!user?.is_admin
+  const items = NAV_ITEMS.filter((item) => !item.adminOnly || isAdmin).map(({ key, icon, label }) => ({
+    key,
+    icon,
+    label,
+  }))
+
+  const go = (key: string) => {
+    navigate(key)
+    setDrawerOpen(false)
+  }
+
+  const nav = (
+    <Menu
+      mode="inline"
+      selectedKeys={[resolveNavKey(location.pathname)]}
+      items={items}
+      onClick={({ key }) => go(key)}
+      style={{ borderInlineEnd: 'none' }}
+    />
   )
 
-  const title = location.pathname.startsWith('/dashboard')
-    ? '任务中心'
-    : location.pathname.startsWith('/tasks/new')
-      ? '新建任务'
-      : location.pathname.startsWith('/tasks/')
-        ? '任务详情'
-        : '系统管理'
-
   return (
-    <Layout className="app-layout">
-      <Layout.Sider width={232} theme="light" className="app-sider">
-        <div className="brand-block">
-          <span className="brand-kicker">Inspection Cloud</span>
-          <strong>华为巡检云平台</strong>
-          <span>{user.username}</span>
-        </div>
-        <div className="nav-list">
-          {menu.map((item) => (
-            <button
-              key={item.key}
-              type="button"
-              className={`nav-item${location.pathname.startsWith(item.key) ? ' active' : ''}`}
-              onClick={() => navigate(item.key)}
-            >
-              {item.icon}
-              <span>{item.label}</span>
-            </button>
-          ))}
-        </div>
-        <Button icon={<LogoutOutlined />} className="logout-btn" onClick={() => void onLogout()}>
-          退出登录
-        </Button>
-      </Layout.Sider>
-      <Layout>
-        <Layout.Header className="app-header">
-          <div>
-            <Typography.Title level={4} style={{ margin: 0 }}>
-              {title}
-            </Typography.Title>
-            <Typography.Text type="secondary">{user.is_admin ? '管理员视图' : '用户视图'}</Typography.Text>
+    <Layout className={styles.layout}>
+      {!isNarrow && (
+        <Layout.Sider
+          className={styles.sider}
+          theme="light"
+          width={224}
+          collapsedWidth={56}
+          collapsible
+          collapsed={collapsed}
+          onCollapse={setCollapsed}
+        >
+          <div className={styles.brand}>
+            <span className={styles.brandMark} />
+            {!collapsed && <span className={styles.brandName}>巡检报告平台</span>}
           </div>
-          <Tag color="geekblue">{user.role_label}</Tag>
+          <div className={styles.nav}>{nav}</div>
+          {!collapsed && (
+            <div className={styles.siderFooter}>
+              <span>{localMode ? '本地模式' : (user?.role_label ?? '')}</span>
+            </div>
+          )}
+        </Layout.Sider>
+      )}
+
+      <Drawer
+        placement="left"
+        open={drawerOpen}
+        onClose={() => setDrawerOpen(false)}
+        width={240}
+        styles={{ body: { padding: 0 } }}
+        title="巡检报告平台"
+      >
+        {nav}
+      </Drawer>
+
+      <Layout>
+        <Layout.Header className={styles.header}>
+          {isNarrow ? (
+            <Button
+              type="text"
+              icon={<MenuOutlined />}
+              onClick={() => setDrawerOpen(true)}
+              aria-label="打开导航"
+              className={styles.mobileTrigger}
+            />
+          ) : (
+            <span />
+          )}
+          <div className={styles.headerRight}>
+            <ThemeToggle />
+            {localMode ? (
+              <Tag bordered={false}>本地模式</Tag>
+            ) : (
+              user && (
+                <Dropdown
+                  menu={{
+                    items: [
+                      { key: 'role', label: user.role_label, disabled: true },
+                      { type: 'divider' },
+                      { key: 'logout', icon: <LogoutOutlined />, label: '退出登录' },
+                    ],
+                    onClick: ({ key }) => {
+                      if (key === 'logout') void onLogout()
+                    },
+                  }}
+                >
+                  <button type="button" className={styles.userButton}>
+                    {user.username}
+                    <DownOutlined style={{ fontSize: 10 }} />
+                  </button>
+                </Dropdown>
+              )
+            )}
+          </div>
         </Layout.Header>
-        <Layout.Content className="app-content">{children}</Layout.Content>
+        <Layout.Content>
+          <div className={styles.content}>{children}</div>
+        </Layout.Content>
       </Layout>
     </Layout>
   )

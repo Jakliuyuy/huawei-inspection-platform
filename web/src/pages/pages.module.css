@@ -1,0 +1,226 @@
+/* 页面级布局网格。断点统一 1200 / 900 / 640。 */
+
+.statGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 16px;
+}
+
+.reportGrid {
+  display: grid;
+  grid-template-columns: 240px 240px minmax(0, 1fr);
+  gap: 12px;
+}
+
+.createGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 16px;
+  align-items: start;
+}
+
+.sticky {
+  position: sticky;
+  top: 16px;
+}
+
+/* 上传区：1px 虚线 + 纯色底，hover 只改边框色。
+   刻意不做 transform —— scale 会让指针跨越元素边界，触发假的 dragleave。 */
+.dropzone {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  min-height: 160px;
+  padding: 20px;
+  border: 1px dashed var(--app-border);
+  border-radius: var(--app-radius-lg);
+  background: var(--app-fill-tertiary);
+  color: var(--app-text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.16s, background 0.16s;
+}
+
+.dropzone:hover {
+  border-color: var(--app-primary);
+  background: var(--app-primary-bg);
+}
+
+.dropzone:focus-visible {
+  outline: 2px solid var(--app-primary);
+  outline-offset: 2px;
+}
+
+.dropzoneActive {
+  border: 1px solid var(--app-primary);
+  box-shadow: inset 0 0 0 1px var(--app-primary);
+  background: var(--app-primary-bg);
+}
+
+.dropzoneIcon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--app-radius);
+  background: var(--app-primary-bg);
+  color: var(--app-primary);
+  font-size: 18px;
+}
+
+.dropzoneCopy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dropzoneTitle {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dropzoneHint {
+  font-size: 12.5px;
+  color: var(--app-text-2);
+}
+
+.hiddenInput {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.progressPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 160px;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid var(--app-border);
+  border-radius: var(--app-radius-lg);
+  background: var(--app-bg-container);
+}
+
+.progressMeta {
+  font-family: var(--app-font-code);
+  font-size: 12.5px;
+  color: var(--app-text-2);
+}
+
+.summaryRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 24px;
+  align-items: center;
+  font-size: 13px;
+  color: var(--app-text-2);
+}
+
+.summaryValue {
+  color: var(--app-text);
+  font-family: var(--app-font-code);
+}
+
+.outputList {
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.outputItem {
+  font-family: var(--app-font-code);
+  font-size: 12px;
+  color: var(--app-text-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.rowMuted {
+  opacity: 0.55;
+}
+
+.tableToolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.toolbarActions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.progressCell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.progressDetail {
+  font-size: 12px;
+  color: var(--app-text-3);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 1200px) {
+  .detailGrid,
+  .createGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .reportGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .sticky {
+    position: static;
+  }
+}
+
+@media (max-width: 900px) {
+  .statGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .statGrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

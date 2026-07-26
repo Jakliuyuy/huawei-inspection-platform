@@ -1,8 +1,12 @@
-import { Button, Card, List, Space, Table, Tag } from 'antd'
+import { Button, Card, Space, Table, Tag } from 'antd'
 import type { ColumnsType } from 'antd/es/table'
+
+import { MonoText, SelectableList } from '../common'
 import type { ReportDate, ReportFile, ReportUser } from '../../lib/types'
+import styles from '../../pages/pages.module.css'
 
 export function ReportManagementSection({
+  loading,
   reportDates,
   reportUsers,
   reportFiles,
@@ -12,6 +16,7 @@ export function ReportManagementSection({
   onSelectUser,
   onDeleteReport,
 }: {
+  loading: boolean
   reportDates: ReportDate[]
   reportUsers: ReportUser[]
   reportFiles: ReportFile[]
@@ -22,59 +27,61 @@ export function ReportManagementSection({
   onDeleteReport: (jobId: string, fileName: string) => void | Promise<void>
 }) {
   const columns: ColumnsType<ReportFile> = [
-    { title: '任务ID', dataIndex: 'job_id' },
-    { title: '文件名', dataIndex: 'name' },
-    { title: '大小', dataIndex: 'size' },
-    { title: '更新时间', dataIndex: 'modified_at' },
+    { title: '任务 ID', dataIndex: 'job_id', width: 170, render: (v: string) => <MonoText>{v}</MonoText> },
+    { title: '文件名', dataIndex: 'name', ellipsis: true },
+    { title: '大小', dataIndex: 'size', width: 90, render: (v: string) => <MonoText>{v}</MonoText> },
+    { title: '更新时间', dataIndex: 'modified_at', width: 165, render: (v: string) => <MonoText>{v}</MonoText> },
     {
       title: '操作',
+      width: 120,
       render: (_, record) => (
-        <Space>
-          <Button href={record.download_url}>下载</Button>
-          <Button onClick={() => void onDeleteReport(record.job_id, record.name)}>删除</Button>
+        <Space size={2}>
+          <Button type="link" size="small" href={record.download_url}>
+            下载
+          </Button>
+          <Button type="link" size="small" danger onClick={() => void onDeleteReport(record.job_id, record.name)}>
+            删除
+          </Button>
         </Space>
       ),
     },
   ]
 
   return (
-    <div className="report-grid">
-      <Card className="compact-card" title="日期">
-        <List
-          dataSource={reportDates}
-          renderItem={(item) => (
-            <List.Item
-              className={selectedDate === item.report_date ? 'select-row active' : 'select-row'}
-              onClick={() => onSelectDate(item.report_date)}
-            >
-              <span>{item.report_date}</span>
-              <Tag>{item.count}</Tag>
-            </List.Item>
-          )}
+    <div className={styles.reportGrid}>
+      <Card size="small" title="日期" loading={loading}>
+        <SelectableList
+          items={reportDates}
+          selectedKey={selectedDate}
+          getKey={(item) => item.report_date}
+          renderLabel={(item) => <MonoText>{item.report_date}</MonoText>}
+          renderExtra={(item) => <Tag bordered={false}>{item.count}</Tag>}
+          onSelect={onSelectDate}
+          emptyText="暂无归档报告"
         />
       </Card>
-      <Card className="compact-card" title={selectedDate ? `${selectedDate} 的用户` : '请选择日期'}>
-        <List
-          dataSource={reportUsers}
-          locale={{ emptyText: '请选择日期后查看用户' }}
-          renderItem={(item) => (
-            <List.Item
-              className={selectedUser === item.username ? 'select-row active' : 'select-row'}
-              onClick={() => onSelectUser(item.username)}
-            >
-              <span>{item.username}</span>
-              <Tag>{item.count}</Tag>
-            </List.Item>
-          )}
+
+      <Card size="small" title={selectedDate ? `${selectedDate} 的用户` : '用户'}>
+        <SelectableList
+          items={reportUsers}
+          selectedKey={selectedUser}
+          getKey={(item) => item.username}
+          renderLabel={(item) => item.username}
+          renderExtra={(item) => <Tag bordered={false}>{item.count}</Tag>}
+          onSelect={onSelectUser}
+          emptyText="请先选择日期"
         />
       </Card>
-      <Card className="compact-card" title={selectedUser ? `${selectedUser} 的文档` : '请选择用户'}>
+
+      <Card size="small" title={selectedUser ? `${selectedUser} 的文档` : '文档'}>
         <Table<ReportFile>
           rowKey={(record) => `${record.job_id}-${record.name}`}
+          size="small"
           columns={columns}
           dataSource={reportFiles}
           pagination={false}
-          size="small"
+          scroll={{ x: 'max-content' }}
+          locale={{ emptyText: '请先选择用户' }}
         />
       </Card>
     </div>

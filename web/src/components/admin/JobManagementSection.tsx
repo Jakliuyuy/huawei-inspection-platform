@@ -1,10 +1,13 @@
-import { Button, Card, Space, Table, Tag } from 'antd'
+import { Button, Card, Space, Table } from 'antd'
 import type { ColumnsType } from 'antd/es/table'
-import { formatTime, statusColor } from '../../lib/format'
+
+import { MonoText, StatusTag, TimeText } from '../common'
+import { canDeleteJob } from '../../lib/job'
 import type { Job } from '../../lib/types'
 
 export function JobManagementSection({
   jobs,
+  loading,
   page,
   total,
   stats,
@@ -12,6 +15,7 @@ export function JobManagementSection({
   onDeleteJob,
 }: {
   jobs: Job[]
+  loading: boolean
   page: number
   total: number
   stats: { total: number; active: number; completed: number; failed: number }
@@ -19,17 +23,31 @@ export function JobManagementSection({
   onDeleteJob: (jobId: string) => void | Promise<void>
 }) {
   const columns: ColumnsType<Job> = [
-    { title: '任务ID', dataIndex: 'id' },
-    { title: '提交人', dataIndex: 'username' },
-    { title: '状态', render: (_, record) => <Tag color={statusColor(record.status)}>{record.status_label}</Tag> },
-    { title: '创建时间', render: (_, record) => formatTime(record.created_at) },
-    { title: '完成时间', render: (_, record) => formatTime(record.finished_at) },
+    { title: '任务 ID', dataIndex: 'id', width: 190, render: (v: string) => <MonoText>{v}</MonoText> },
+    { title: '提交人', dataIndex: 'username', width: 120 },
+    {
+      title: '状态',
+      width: 100,
+      render: (_, record) => <StatusTag status={record.status} label={record.status_label} />,
+    },
+    { title: '创建时间', width: 165, render: (_, record) => <TimeText value={record.created_at} /> },
+    { title: '完成时间', width: 165, render: (_, record) => <TimeText value={record.finished_at} /> },
     {
       title: '操作',
       render: (_, record) => (
-        <Space>
-          {record.bundle_available && <Button href={record.bundle_download_url || undefined}>下载</Button>}
-          <Button disabled={['queued', 'running'].includes(record.status)} onClick={() => void onDeleteJob(record.id)}>
+        <Space size={2}>
+          {record.bundle_available && record.bundle_download_url && (
+            <Button type="link" size="small" href={record.bundle_download_url}>
+              下载
+            </Button>
+          )}
+          <Button
+            type="link"
+            size="small"
+            danger
+            disabled={!canDeleteJob(record)}
+            onClick={() => void onDeleteJob(record.id)}
+          >
             删除
           </Button>
         </Space>
@@ -38,13 +56,18 @@ export function JobManagementSection({
   ]
 
   return (
-    <Card className="compact-card">
+    <Card
+      size="small"
+      title={`总任务 ${stats.total} · 处理中 ${stats.active} · 已完成 ${stats.completed} · 失败 ${stats.failed}`}
+    >
       <Table<Job>
         rowKey="id"
+        size="small"
         columns={columns}
         dataSource={jobs}
-        size="middle"
-        title={() => `总任务 ${stats.total}，处理中 ${stats.active}，已完成 ${stats.completed}，失败 ${stats.failed}`}
+        loading={loading}
+        sticky
+        scroll={{ x: 'max-content' }}
         pagination={{
           current: page,
           pageSize: 20,

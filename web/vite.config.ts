@@ -1,92 +1,35 @@
-import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/app/',
+  // 与 App.tsx 的 BrowserRouter basename 单一来源（那边读 import.meta.env.BASE_URL）。
+  // 不要改成 './' —— 相对 base 在深层路由刷新时会把资源解析到 /app/tasks/assets/…
+  base: process.env.VITE_BASE ?? '/app/',
   plugins: [react()],
-  build: {
-    chunkSizeWarningLimit: 800,
-    rollupOptions: {
-      output: {
-        manualChunks(id) {
-          if (!id.includes('node_modules')) return
-          if (
-            id.includes('/antd/es/table') ||
-            id.includes('/antd/es/tabs') ||
-            id.includes('/antd/es/list') ||
-            id.includes('/antd/es/descriptions') ||
-            id.includes('/antd/es/pagination') ||
-            id.includes('/antd/es/progress') ||
-            id.includes('/antd/es/statistic') ||
-            id.includes('/rc-table') ||
-            id.includes('/rc-tabs') ||
-            id.includes('/rc-pagination') ||
-            id.includes('/rc-virtual-list')
-          ) {
-            return 'antd-data'
-          }
-          if (
-            id.includes('/antd/es/form') ||
-            id.includes('/antd/es/input') ||
-            id.includes('/antd/es/modal') ||
-            id.includes('/antd/es/segmented') ||
-            id.includes('/rc-field-form') ||
-            id.includes('/rc-input') ||
-            id.includes('/rc-textarea') ||
-            id.includes('/rc-dialog') ||
-            id.includes('/rc-segmented')
-          ) {
-            return 'antd-form'
-          }
-          if (
-            id.includes('/antd/es/app') ||
-            id.includes('/antd/es/message') ||
-            id.includes('/antd/es/notification') ||
-            id.includes('/antd/es/modal') ||
-            id.includes('/antd/es/result') ||
-            id.includes('/antd/es/alert') ||
-            id.includes('/antd/es/progress') ||
-            id.includes('/antd/es/spin') ||
-            id.includes('/antd/es/tag') ||
-            id.includes('/antd/es/popconfirm') ||
-            id.includes('/rc-notification') ||
-            id.includes('/rc-dialog') ||
-            id.includes('/rc-progress')
-          ) {
-            return 'antd-feedback'
-          }
-          if (
-            id.includes('/antd/es/layout') ||
-            id.includes('/antd/es/menu') ||
-            id.includes('/antd/es/tabs') ||
-            id.includes('/antd/es/breadcrumb') ||
-            id.includes('/rc-menu') ||
-            id.includes('/rc-dropdown') ||
-            id.includes('/rc-tabs')
-          ) {
-            return 'antd-layout'
-          }
-          if (
-            id.includes('/antd/es/button') ||
-            id.includes('/antd/es/card') ||
-            id.includes('/antd/es/space') ||
-            id.includes('/antd/es/typography') ||
-            id.includes('/antd/es/list') ||
-            id.includes('/antd/es/descriptions') ||
-            id.includes('/antd/es/statistic') ||
-            id.includes('/antd/es/upload') ||
-            id.includes('/antd/es/divider')
-          ) {
-            return 'antd-basic'
-          }
-          if (id.includes('antd')) return 'antd-core'
-          if (id.includes('@ant-design')) return 'ant-icons'
-          if (id.includes('react-router')) return 'router'
-          if (id.includes('dayjs')) return 'dayjs'
-          if (id.includes('react') || id.includes('scheduler')) return 'react-vendor'
+  server: {
+    port: 5173,
+    proxy: {
+      '/api': {
+        target: process.env.VITE_API_TARGET ?? 'http://127.0.0.1:8080',
+        changeOrigin: false,
+        configure(proxy) {
+          // 本地 dev 走 http，后端若给会话 Cookie 打了 Secure，浏览器会直接丢弃，
+          // 表现为「登录成功但下一个请求就 401」。这里剥掉该属性。
+          proxy.on('proxyRes', (res) => {
+            const cookies = res.headers['set-cookie']
+            if (cookies) {
+              res.headers['set-cookie'] = cookies.map((cookie) => cookie.replace(/;\s*Secure/gi, ''))
+            }
+          })
         },
       },
     },
+  },
+  build: {
+    // 六个路由与 AppShell 都是 React.lazy，构建器沿动态 import 边界自然分包。
+    // 之前手写的 manualChunks 按 antd 子路径分组，规则本身已不自洽
+    // （modal/progress/tabs 在多个分支重复，先匹配先赢），且每次增删组件都要同步维护。
+    chunkSizeWarningLimit: 900,
   },
 })

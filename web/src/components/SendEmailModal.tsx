@@ -167,6 +167,7 @@ export function SendEmailModal({
       render: (_: string, record: FileEntry) => (
         <Input
           placeholder="可删减收件人，多个用逗号分隔"
+          allowClear
           value={record.recipientInput}
           status={record.invalidRecipients.length > 0 ? 'error' : undefined}
           onChange={(e) => updateRecipients(record.key, e.target.value)}
@@ -201,8 +202,8 @@ export function SendEmailModal({
       open={open}
       onCancel={onCancel}
       footer={null}
-      width={700}
-      destroyOnClose
+      width={760}
+      destroyOnHidden
       closable={!sending}
       maskClosable={false}
       keyboard={!sending}

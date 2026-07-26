@@ -17,9 +17,8 @@
   --app-border: #2c343e;
 }
 
-html,
-body,
-#root {
+/* stylelint-disable-next-line selector-max-specificity -- SPA 根节点必须按 id 选中 */
+html, body, #root {
   height: 100%;
 }
 
@@ -27,6 +26,7 @@ body {
   margin: 0;
   background: var(--app-bg-layout);
   color: var(--app-text);
+
   /* 表格里的数字要能按位对齐 */
   font-variant-numeric: tabular-nums;
 }
@@ -53,6 +53,8 @@ body {
   background-clip: content-box;
 }
 
+/* 尊重系统的"减少动效"偏好；这里必须用 !important 才能压过组件库的内联动画 */
+/* stylelint-disable declaration-no-important */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -62,3 +64,4 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+/* stylelint-enable declaration-no-important */

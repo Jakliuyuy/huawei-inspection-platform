@@ -1,10 +1,25 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f1f3f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1318" media="(prefers-color-scheme: dark)" />
     <title>华为巡检云平台</title>
+    <script>
+      // 在任何 CSS/JS 之前定好主题，否则暗色用户每次刷新都会闪一帧浅色，
+      // 且首屏 Spin 阶段 ConfigProvider 还没决定主题
+      try {
+        var m = localStorage.getItem('inspection.theme') || 'system'
+        var d = m === 'dark' || (m === 'system' && matchMedia('(prefers-color-scheme: dark)').matches)
+        var r = document.documentElement
+        r.dataset.theme = d ? 'dark' : 'light'
+        r.style.colorScheme = d ? 'dark' : 'light'
+        r.style.backgroundColor = d ? '#0F1318' : '#F1F3F7'
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="root"></div>

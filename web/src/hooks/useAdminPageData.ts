@@ -18,7 +18,15 @@ export function useAdminPageData(activeTab: AdminTabKey) {
   const [reportFiles, setReportFiles] = useState<ReportFile[]>([])
   const [selectedDate, setSelectedDate] = useState<string | null>(null)
   const [selectedUser, setSelectedUser] = useState<string | null>(null)
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState<Record<AdminTabKey, boolean>>({
+    users: true,
+    jobs: true,
+    reports: true,
+    audits: true,
+  })
+
+  const markLoading = (tab: AdminTabKey, value: boolean) =>
+    setLoading((prev) => ({ ...prev, [tab]: value }))
   const { message } = AntApp.useApp()
 
   const loadUsersSection = async () => {
@@ -32,7 +40,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
     } catch (error) {
       message.error(error instanceof Error ? error.message : '加载用户数据失败')
     } finally {
-      setLoading(false)
+      markLoading('users', false)
     }
   }
 
@@ -46,7 +54,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
     } catch (error) {
       message.error(error instanceof Error ? error.message : '加载任务数据失败')
     } finally {
-      setLoading(false)
+      markLoading('jobs', false)
     }
   }
 
@@ -56,7 +64,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
     } catch (error) {
       message.error(error instanceof Error ? error.message : '加载报告数据失败')
     } finally {
-      setLoading(false)
+      markLoading('reports', false)
     }
   }
 
@@ -89,7 +97,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
     } catch (error) {
       message.error(error instanceof Error ? error.message : '加载审计日志失败')
     } finally {
-      setLoading(false)
+      markLoading('audits', false)
     }
   }
 
@@ -128,7 +136,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
   })
 
   useEffect(() => {
-    setLoading(true)
+    markLoading(activeTab, true)
     loadActiveTab()
   }, [activeTab])
 

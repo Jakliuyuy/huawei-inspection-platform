@@ -10,8 +10,7 @@ import shutil
 import sqlite3
 import zipfile
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import timedelta
 from math import ceil
 from pathlib import Path
 from typing import Any
@@ -43,96 +42,35 @@ from backend.reports import (
     sync_job_report_files,
 )
 
-try:
-    from dotenv import load_dotenv
-except ImportError:
-    load_dotenv = None
-
+from backend.config import (
+    API_PREFIX,
+    APP_TITLE,
+    LOCAL_TZ,
+    LOGIN_MAX_FAILURES,
+    LOGIN_WINDOW_SECONDS,
+    MAX_EMAIL_FILES,
+    MAX_EMAIL_RECIPIENTS,
+    MAX_EXTRACTED_BYTES,
+    MAX_EXTRACTED_FILES,
+    MAX_UPLOAD_BYTES,
+    RECENT_UPLOAD_LOG_DIRNAME,
+    RECENT_UPLOAD_LOG_KEEP_COUNT,
+    SESSION_COOKIE,
+    SMTP_FROM_NAME,
+    SMTP_HOST,
+    SMTP_PASSWORD,
+    SMTP_PORT,
+    SMTP_USERNAME,
+    STATUS_LABELS,
+    SYSTEM_DIR_NAMES,
+    config,
+    now_local,
+)
 from core.report_service import ReportPaths, generate_reports
 
-if load_dotenv is not None:
-    load_dotenv(Path(__file__).resolve().parent / ".env")
-
-APP_TITLE = "华为巡检云平台"
-SESSION_COOKIE = "inspection_session"
-LOCAL_TZ = timezone(timedelta(hours=8))
-MAX_UPLOAD_BYTES = int(os.getenv("MAX_UPLOAD_BYTES", str(200 * 1024 * 1024)))
-MAX_EXTRACTED_BYTES = int(os.getenv("MAX_EXTRACTED_BYTES", str(1024 * 1024 * 1024)))
-MAX_EXTRACTED_FILES = int(os.getenv("MAX_EXTRACTED_FILES", "5000"))
-SMTP_HOST = os.getenv("SMTP_HOST", "smtp.139.com")
-SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
-SMTP_USERNAME = os.getenv("SMTP_USERNAME", "")
-SMTP_PASSWORD = os.getenv("SMTP_PASSWORD", "")
-SMTP_FROM_NAME = os.getenv("SMTP_FROM_NAME", "华为巡检云平台")
-LOGIN_WINDOW_SECONDS = 300
-LOGIN_MAX_FAILURES = 5
-MAX_EMAIL_FILES = int(os.getenv("MAX_EMAIL_FILES", "20"))
-MAX_EMAIL_RECIPIENTS = int(os.getenv("MAX_EMAIL_RECIPIENTS", "20"))
-
-
-@dataclass
-class AppConfig:
-    app_root: Path
-    data_root: Path
-    runtime_dir: Path
-    upload_dir: Path
-    report_dir: Path
-    template_dir: Path
-    config_path: Path
-    database_path: Path
-    session_hours: int
-    retention_days: int
-    default_admin_username: str
-    default_admin_password: str
-    max_job_workers: int
-    secure_cookies: bool
-
-
-def build_config() -> AppConfig:
-    app_root = Path(__file__).resolve().parent
-    data_root = Path(os.getenv("DATA_ROOT", app_root / "data")).resolve()
-    runtime_dir = data_root / "runtime"
-    upload_dir = data_root / "uploads"
-    report_dir = data_root / "reports"
-    template_dir = Path(os.getenv("TEMPLATE_DIR", app_root / "assets" / "templates")).resolve()
-    config_path = Path(os.getenv("REPORT_CONFIG_PATH", app_root / "config" / "report.json")).resolve()
-    database_path = runtime_dir / "app.db"
-    return AppConfig(
-        app_root=app_root,
-        data_root=data_root,
-        runtime_dir=runtime_dir,
-        upload_dir=upload_dir,
-        report_dir=report_dir,
-        template_dir=template_dir,
-        config_path=config_path,
-        database_path=database_path,
-        session_hours=int(os.getenv("SESSION_HOURS", "12")),
-        retention_days=int(os.getenv("RETENTION_DAYS", "30")),
-        default_admin_username=os.getenv("DEFAULT_ADMIN_USERNAME", "admin"),
-        default_admin_password=os.getenv("DEFAULT_ADMIN_PASSWORD", "ChangeMe123!"),
-        max_job_workers=max(1, int(os.getenv("MAX_JOB_WORKERS", "2"))),
-        secure_cookies=os.getenv("SECURE_COOKIES", "true").lower() == "true",
-    )
-
-
 app = FastAPI(title=APP_TITLE)
-config = build_config()
 job_executor = ThreadPoolExecutor(max_workers=config.max_job_workers)
 login_attempts: dict[tuple[str, str], list[float]] = {}
-API_PREFIX = "/api"
-STATUS_LABELS = {
-    "queued": "排队中",
-    "running": "处理中",
-    "completed": "已完成",
-    "failed": "失败",
-}
-SYSTEM_DIR_NAMES = ("TOC", "TOB", "NM1", "NM2", "NM3", "Softswitch", "SMS", "GPRS", "IntelligentNet")
-RECENT_UPLOAD_LOG_KEEP_COUNT = 10
-RECENT_UPLOAD_LOG_DIRNAME = "_recent_logs"
-
-
-def now_local() -> datetime:
-    return datetime.now(tz=LOCAL_TZ)
 
 
 def ensure_dirs() -> None:

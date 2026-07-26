@@ -9,7 +9,7 @@ from concurrent.futures.process import BrokenProcessPool
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
-from typing import Callable
+from typing import Callable, Sequence
 
 from docx import Document
 
@@ -457,6 +457,7 @@ def generate_reports(
     target_date: str | None = None,
     output_dir: Path | None = None,
     max_workers: int | None = None,
+    only_systems: Sequence[str] | None = None,
     progress_callback: Callable[[int, int, str, dict], None] | None = None,
 ) -> GenerationSummary:
     configs = load_config(paths.config_path)
@@ -465,12 +466,24 @@ def generate_reports(
     output_dir = output_dir or (paths.output_base / target_date)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    # 只收窄"要生成哪些系统"，all_configs 始终传全量：configs 会一路传到
+    # LogObject.__init__，参与解析日志文件名（见下方 is_sys_prefix），
+    # 传子集会改变匹配结果。回归测试 test_selective_generation_matches_full_run
+    # 锁死了这一点。
+    if only_systems:
+        unknown = sorted(set(only_systems) - set(configs))
+        if unknown:
+            raise ValueError(f"未知的系统: {', '.join(unknown)}")
+        selected = {key: value for key, value in configs.items() if key in set(only_systems)}
+    else:
+        selected = configs
+
     all_audit: list[str] = []
     generated_files: list[str] = []
-    total_systems = len(configs)
-    worker_count = max_workers or min(4, max(1, len(configs)))
+    total_systems = len(selected)
+    worker_count = max_workers or min(4, max(1, len(selected)))
     if worker_count <= 1:
-        for completed_count, (key, value) in enumerate(configs.items(), 1):
+        for completed_count, (key, value) in enumerate(selected.items(), 1):
             audit_lines, files = process_system(key, value, log_root, output_dir, target_date, configs, paths.templates_dir)
             all_audit.extend(audit_lines)
             generated_files.extend(files)
@@ -483,7 +496,7 @@ def generate_reports(
             with ProcessPoolExecutor(max_workers=worker_count) as executor:
                 futures = {
                     executor.submit(process_system, key, value, log_root, output_dir, target_date, configs, paths.templates_dir): key
-                    for key, value in configs.items()
+                    for key, value in selected.items()
                 }
                 for future in as_completed(futures):
                     key = futures[future]
@@ -498,11 +511,11 @@ def generate_reports(
                         generated_files.extend(files)
                     handled_keys.add(key)
                     if progress_callback is not None:
-                        progress_callback(len(handled_keys), total_systems, key, configs[key])
+                        progress_callback(len(handled_keys), total_systems, key, selected[key])
         except (OSError, BrokenProcessPool, pickle.PickleError) as error:
             all_audit.append(f"× 进程池不可用，转为串行生成 ({error})")
 
-        for key, value in configs.items():
+        for key, value in selected.items():
             if key in handled_keys:
                 continue
             try:

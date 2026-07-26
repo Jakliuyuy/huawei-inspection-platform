@@ -14,6 +14,7 @@ from typing import Callable, Sequence
 from docx import Document
 
 from core import docx_engine as engine
+from core.log_layout import iter_system_logs, resolve_system_log_dir
 
 RE_IP = re.compile(r"(\d+\.\d+\.\d+\.[1-9]\d*)")
 RE_DATE = re.compile(r"\d{4}[-]?\d{2}[-]?\d{2}|\d{2}月\d{2}日")
@@ -343,16 +344,12 @@ def process_system(
 ) -> tuple[list[str], list[str]]:
     audit_lines = [f"\n=== {sys_info['display_name']} ==="]
     generated_files: list[str] = []
-    log_dir = log_root / sys_key
-    if not log_dir.exists():
-        log_dir = log_root / sys_key.replace("NM", "NetMgmt")
-        if not log_dir.exists():
-            return audit_lines, generated_files
+    log_dir = resolve_system_log_dir(log_root, sys_key)
+    if log_dir is None:
+        return audit_lines, generated_files
 
     log_pool: list[LogObject] = []
-    for path in log_dir.glob("*.log"):
-        if "summary" in path.name:
-            continue
+    for path in iter_system_logs(log_dir):
         try:
             log_object = LogObject(path, all_configs)
         except Exception as error:

@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 import json
+import pickle
 import re
+from collections import Counter
 from concurrent.futures import ProcessPoolExecutor, as_completed
+from concurrent.futures.process import BrokenProcessPool
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -14,6 +17,8 @@ from core import docx_engine as engine
 
 RE_IP = re.compile(r"(\d+\.\d+\.\d+\.[1-9]\d*)")
 RE_DATE = re.compile(r"\d{4}[-]?\d{2}[-]?\d{2}|\d{2}月\d{2}日")
+# 只认行首的提示符形态，避免抓到正文里的 <...> 垃圾串
+RE_PROMPT_HOST = re.compile(r"^(?:HRP_[MS])?<([^<>\s]+)>", re.M)
 ROOM_ENV_LABEL = "机房电源、空调、温湿度检查"
 ROOM_ENV_ALARM_KEYWORDS = (
     "power",
@@ -96,13 +101,13 @@ class GenerationSummary:
 class LogObject:
     def __init__(self, path: Path, all_config: dict):
         self.filename = path.name
+        self.read_error = ""
         self.text = self._read_safe(path)
         self.sections = engine.parse_sections(self.text)
         self.norm_cache = {engine.normalize(cmd): cmd for cmd in self.sections}
 
-        match = re.search(r"<([^>\n\s]+)>", self.text)
-        host = match.group(1).strip() if match else ""
-        self.real_hostname = host.split("<")[1] if host.startswith(("HRP_M<", "HRP_S<")) else host
+        prompts = [name.strip() for name in RE_PROMPT_HOST.findall(self.text) if name.strip()]
+        self.real_hostname = Counter(prompts).most_common(1)[0][0] if prompts else ""
 
         ips_in_name = RE_IP.findall(self.filename)
         self.filename_ip = next(
@@ -114,17 +119,23 @@ class LogObject:
         stem = path.stem
         parts = stem.split("_")
         prefix = parts[0].upper() if parts else ""
-        is_sys_prefix = any(key in prefix for key in list(all_config.keys()) + ["NETMGMT", "NM", "SMS", "GPRS"])
+        is_sys_prefix = any(key.upper() in prefix for key in list(all_config.keys()) + ["NETMGMT", "NM", "SMS", "GPRS"])
         self.file_subject = (parts[1] if len(parts) >= 2 and is_sys_prefix else parts[0]).lower()
 
-    @staticmethod
-    def _read_safe(path: Path) -> str:
+    def _read_safe(self, path: Path) -> str:
         for encoding in ("utf-8", "gbk", "gb18030"):
             try:
                 return path.read_text(encoding=encoding)
             except UnicodeDecodeError:
                 continue
-        return path.read_text(encoding="utf-8", errors="ignore")
+            except OSError as error:
+                self.read_error = str(error)
+                return ""
+        try:
+            return path.read_text(encoding="utf-8", errors="ignore")
+        except OSError as error:
+            self.read_error = str(error)
+            return ""
 
 
 def default_paths(root: Path | None = None) -> ReportPaths:
@@ -167,21 +178,29 @@ def resolve_room_environment_status(log: LogObject) -> str:
     logbuffer_text = logbuffer_output.lower()
 
     if not device_output and not logbuffer_output:
-        return "正常。"
+        return "未采集到相关日志，请人工核查。"
 
     device_has_good_signal = False
+    device_bad_lines: list[str] = []
     if device_output:
         if "alarm" in device_text:
-            device_has_good_signal = "normal" in device_text and not any(
-                bad in device_text for bad in ("critical", "major", "minor", "abnormal", "fault")
-            )
+            bad_words = ("critical", "major", "minor", "abnormal", "fault")
+            device_has_good_signal = "normal" in device_text and not any(bad in device_text for bad in bad_words)
         else:
+            bad_words = ("fault", "abnormal", "absent", "unregistered")
             lines = [line.strip().lower() for line in device_output.splitlines() if line.strip()]
             device_has_good_signal = bool(lines) and all(
-                not any(bad in line for bad in ("fault", "abnormal", "absent", "unregistered"))
+                not any(bad in line for bad in bad_words)
                 for line in lines
                 if line[:1].isdigit()
             )
+        if not device_has_good_signal:
+            for line in device_output.splitlines():
+                if not any(bad in line.lower() for bad in bad_words):
+                    continue
+                device_bad_lines.append(re.sub(r"\s+", " ", line.strip()))
+                if len(device_bad_lines) >= 2:
+                    break
 
     abnormal_hits: list[str] = []
     for line in logbuffer_output.splitlines():
@@ -198,8 +217,10 @@ def resolve_room_environment_status(log: LogObject) -> str:
 
     if abnormal_hits:
         return "；".join(abnormal_hits)
-    if device_has_good_signal:
-        return "正常。"
+    if device_output and not device_has_good_signal:
+        if device_bad_lines:
+            return "设备状态异常：" + "；".join(device_bad_lines) + "，请人工核查。"
+        return "设备状态异常，请人工核查。"
     return "正常。"
 
 
@@ -328,7 +349,19 @@ def process_system(
         if not log_dir.exists():
             return audit_lines, generated_files
 
-    log_pool = [LogObject(path, all_configs) for path in log_dir.glob("*.log") if "summary" not in path.name]
+    log_pool: list[LogObject] = []
+    for path in log_dir.glob("*.log"):
+        if "summary" in path.name:
+            continue
+        try:
+            log_object = LogObject(path, all_configs)
+        except Exception as error:
+            audit_lines.append(f"× 日志解析失败 {path.name}: {error}")
+            continue
+        if log_object.read_error:
+            audit_lines.append(f"× 日志读取失败 {path.name}: {log_object.read_error}")
+        log_pool.append(log_object)
+
     template_file = templates_dir / sys_info["template"]
     if not template_file.exists():
         return [f"× {sys_key}: 找不到模板 {template_file.name}"], generated_files
@@ -408,7 +441,11 @@ def process_system(
 
     file_name = f"{(sys_key if sys_info.get('is_english_name') else sys_info['display_name'])}{target_date}日巡检报告.docx"
     output_path = output_dir / file_name
-    doc.save(output_path)
+    try:
+        doc.save(output_path)
+    except OSError as error:
+        audit_lines.append(f"× {sys_key}: 报告保存失败 {file_name} ({error})")
+        return audit_lines, generated_files
     generated_files.append(str(output_path))
     return audit_lines, generated_files
 
@@ -440,28 +477,49 @@ def generate_reports(
             if progress_callback is not None:
                 progress_callback(completed_count, total_systems, key, value)
     else:
+        # 单个系统的失败由 per-future 兜底，这里只处理进程池本身不可用的情况
+        handled_keys: set[str] = set()
         try:
             with ProcessPoolExecutor(max_workers=worker_count) as executor:
                 futures = {
                     executor.submit(process_system, key, value, log_root, output_dir, target_date, configs, paths.templates_dir): key
                     for key, value in configs.items()
                 }
-                for completed_count, future in enumerate(as_completed(futures), 1):
+                for future in as_completed(futures):
                     key = futures[future]
-                    audit_lines, files = future.result()
-                    all_audit.extend(audit_lines)
-                    generated_files.extend(files)
+                    try:
+                        audit_lines, files = future.result()
+                    except BrokenProcessPool:
+                        continue
+                    except Exception as error:
+                        all_audit.append(f"× {key}: 生成失败 ({error})")
+                    else:
+                        all_audit.extend(audit_lines)
+                        generated_files.extend(files)
+                    handled_keys.add(key)
                     if progress_callback is not None:
-                        progress_callback(completed_count, total_systems, key, configs[key])
-        except PermissionError:
-            for completed_count, (key, value) in enumerate(configs.items(), 1):
+                        progress_callback(len(handled_keys), total_systems, key, configs[key])
+        except (OSError, BrokenProcessPool, pickle.PickleError) as error:
+            all_audit.append(f"× 进程池不可用，转为串行生成 ({error})")
+
+        for key, value in configs.items():
+            if key in handled_keys:
+                continue
+            try:
                 audit_lines, files = process_system(key, value, log_root, output_dir, target_date, configs, paths.templates_dir)
+            except Exception as error:
+                all_audit.append(f"× {key}: 生成失败 ({error})")
+            else:
                 all_audit.extend(audit_lines)
                 generated_files.extend(files)
-                if progress_callback is not None:
-                    progress_callback(completed_count, total_systems, key, value)
+            handled_keys.add(key)
+            if progress_callback is not None:
+                progress_callback(len(handled_keys), total_systems, key, value)
 
-    (output_dir / "audit_matching_result.txt").write_text("\n".join(all_audit), encoding="utf-8")
+    try:
+        (output_dir / "audit_matching_result.txt").write_text("\n".join(all_audit), encoding="utf-8")
+    except OSError:
+        pass
     return GenerationSummary(
         target_date=target_date,
         log_root=str(log_root),

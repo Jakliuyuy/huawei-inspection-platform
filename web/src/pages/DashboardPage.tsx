@@ -4,7 +4,7 @@ import type { ColumnsType } from 'antd/es/table'
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { usePolling } from '../hooks/usePolling'
-import { request } from '../lib/api'
+import { isUnauthorized, request } from '../lib/api'
 import { formatTime, statusColor } from '../lib/format'
 import type { Announcement, Job, JobPage, JobStats, User } from '../lib/types'
 
@@ -30,7 +30,9 @@ export function DashboardPage({ user }: { user: User }) {
       setTotal(jobsData.total)
       setAnnouncement(announcementData.content)
     } catch (error) {
-      message.error(error instanceof Error ? error.message : '加载任务失败')
+      if (!isUnauthorized(error)) {
+        message.error(error instanceof Error ? error.message : '加载任务失败')
+      }
     } finally {
       setLoading(false)
     }

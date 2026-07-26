@@ -4,11 +4,27 @@ import shutil
 import sqlite3
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Callable
+from typing import Callable, Iterable
 
 
 type DbConnect = Callable[[], sqlite3.Connection]
 type NowLocal = Callable[[], datetime]
+
+
+def remove_job_paths(job_id: str, paths: Iterable[str | None]) -> None:
+    for value in paths:
+        if not value:
+            continue
+        path = Path(value)
+        parent = path.parent
+        # 上传/报告目录形如 <root>/<job_id>/<子目录>，父目录名与 job_id 相符时才整体删除
+        if parent.name == job_id and parent.is_dir():
+            shutil.rmtree(parent, ignore_errors=True)
+            continue
+        if path.is_file():
+            path.unlink(missing_ok=True)
+        elif path.is_dir():
+            shutil.rmtree(path, ignore_errors=True)
 
 
 def cleanup_expired_data(
@@ -19,6 +35,8 @@ def cleanup_expired_data(
 ) -> None:
     cutoff = now_local() - timedelta(days=retention_days)
     conn = db_connect()
+    expired: list[tuple[str, list[str | None]]] = []
+    # 磁盘删除放到事务外，避免长时间持有写锁导致运行中的任务写进度失败
     with conn:
         conn.execute("DELETE FROM sessions WHERE expires_at < ?", (now_local().isoformat(),))
         jobs = conn.execute(
@@ -28,18 +46,14 @@ def cleanup_expired_data(
             finished_at = datetime.fromisoformat(job["finished_at"])
             if finished_at >= cutoff:
                 continue
-            for field in ("input_path", "output_path", "bundle_path"):
-                value = job[field]
-                if not value:
-                    continue
-                path = Path(value)
-                if path.is_file():
-                    path.unlink(missing_ok=True)
-                elif path.is_dir():
-                    shutil.rmtree(path, ignore_errors=True)
+            expired.append(
+                (job["id"], [job["input_path"], job["output_path"], job["bundle_path"]])
+            )
             conn.execute("DELETE FROM jobs WHERE id = ?", (job["id"],))
         conn.execute("DELETE FROM audit_logs WHERE created_at < ?", (cutoff.isoformat(),))
     conn.close()
+    for job_id, paths in expired:
+        remove_job_paths(job_id, paths)
 
 
 def recover_incomplete_jobs(*, db_connect: DbConnect, now_local: NowLocal) -> None:

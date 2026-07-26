@@ -42,7 +42,7 @@ export function AdminPage() {
     try {
       await request<{ ok: boolean }>(`/admin/jobs/${jobId}`, { method: 'DELETE' })
       message.success('任务已删除')
-      await loadJobsSection()
+      await loadJobsSection(jobPage)
     } catch (error) {
       message.error(error instanceof Error ? error.message : '删除任务失败')
     }

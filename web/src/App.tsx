@@ -1,8 +1,8 @@
 import { App as AntApp, ConfigProvider, Result, Spin } from 'antd'
 import type { JSX } from 'react'
-import { Suspense, lazy, useEffect, useState } from 'react'
+import { Suspense, lazy, useEffect, useRef, useState } from 'react'
 import { BrowserRouter, Navigate, Route, Routes, useNavigate } from 'react-router-dom'
-import { request } from './lib/api'
+import { request, setUnauthorizedHandler } from './lib/api'
 import type { User } from './lib/types'
 
 const AppShell = lazy(async () => import('./components/AppShell').then((module) => ({ default: module.AppShell })))
@@ -42,6 +42,7 @@ function RouterApp(): JSX.Element {
   const [booting, setBooting] = useState(true)
   const { message } = AntApp.useApp()
   const navigate = useNavigate()
+  const expiredNotified = useRef(false)
 
   useEffect(() => {
     void request<User>('/auth/me')
@@ -49,6 +50,22 @@ function RouterApp(): JSX.Element {
       .catch(() => setUser(null))
       .finally(() => setBooting(false))
   }, [])
+
+  useEffect(() => {
+    setUnauthorizedHandler(() => {
+      if (expiredNotified.current) return
+      expiredNotified.current = true
+      setUser(null)
+      navigate('/login', { replace: true })
+      message.warning('登录状态已失效，请重新登录')
+    })
+    return () => setUnauthorizedHandler(null)
+  }, [message, navigate])
+
+  const handleLogin = (nextUser: User) => {
+    expiredNotified.current = false
+    setUser(nextUser)
+  }
 
   const logout = async () => {
     try {
@@ -71,8 +88,8 @@ function RouterApp(): JSX.Element {
   return (
     <Suspense fallback={<RouteLoading />}>
       <Routes>
-        <Route path="/" element={<Navigate to="/login" replace />} />
-        <Route path="/login" element={<LoginPage onLogin={setUser} user={user} />} />
+        <Route path="/" element={<Navigate to={user ? '/dashboard' : '/login'} replace />} />
+        <Route path="/login" element={<LoginPage onLogin={handleLogin} user={user} />} />
         <Route
           path="/dashboard"
           element={

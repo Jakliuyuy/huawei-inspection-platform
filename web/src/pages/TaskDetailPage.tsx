@@ -1,9 +1,9 @@
 import { Alert, App as AntApp, Button, Card, Descriptions, List, Progress, Result, Space, Spin, Tag, Typography } from 'antd'
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { SendEmailModal } from '../components/SendEmailModal'
 import { usePolling } from '../hooks/usePolling'
-import { request } from '../lib/api'
+import { ApiError, isUnauthorized, request } from '../lib/api'
 import { formatTime, statusColor } from '../lib/format'
 import type { Job } from '../lib/types'
 
@@ -12,20 +12,39 @@ export function TaskDetailPage() {
   const [job, setJob] = useState<Job | null>(null)
   const [loading, setLoading] = useState(true)
   const [emailModalOpen, setEmailModalOpen] = useState(false)
+  const [loadStopped, setLoadStopped] = useState(false)
+  const failureCount = useRef(0)
+  const errorNotified = useRef(false)
   const { message } = AntApp.useApp()
 
   const load = async () => {
     try {
       const data = await request<Job>(`/jobs/${jobId}`)
+      failureCount.current = 0
+      errorNotified.current = false
       setJob(data)
+      setLoadStopped(false)
     } catch (error) {
-      message.error(error instanceof Error ? error.message : '加载任务详情失败')
+      if (isUnauthorized(error)) {
+        setLoadStopped(true)
+        return
+      }
+      failureCount.current += 1
+      // 404/403 是终态，连续失败 3 次同样停止轮询，避免定时器长期空转。
+      const terminal = error instanceof ApiError && [403, 404].includes(error.status)
+      if (terminal || failureCount.current >= 3) {
+        setLoadStopped(true)
+      }
+      if (!errorNotified.current) {
+        errorNotified.current = true
+        message.error(error instanceof Error ? error.message : '加载任务详情失败')
+      }
     } finally {
       setLoading(false)
     }
   }
 
-  usePolling(load, !job || ['queued', 'running'].includes(job.status), 3000)
+  usePolling(load, !loadStopped && (!job || ['queued', 'running'].includes(job.status)), 3000)
 
   if (loading && !job) return <Spin size="large" />
   if (!job) return <Result status="404" title="任务不存在" />

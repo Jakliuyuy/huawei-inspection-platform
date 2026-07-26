@@ -1,5 +1,6 @@
-import { Button, Card, Form, Input, Space, Table } from 'antd'
+import { App as AntApp, Button, Card, Form, Input, Space, Table } from 'antd'
 import type { ColumnsType } from 'antd/es/table'
+import { useState } from 'react'
 import { request } from '../../lib/api'
 import { formatTime } from '../../lib/format'
 import type { User } from '../../lib/types'
@@ -30,6 +31,9 @@ export function UserManagementSection({
   onOpenResetPassword: (user: User) => void
   onAnnouncementSaved: (content: string) => void
 }) {
+  const { message } = AntApp.useApp()
+  const [savingAnnouncement, setSavingAnnouncement] = useState(false)
+
   return (
     <Space direction="vertical" size={16} style={{ width: '100%' }}>
       <Card className="compact-card" extra={<Button onClick={onOpenCreateUser}>新增用户</Button>}>
@@ -47,17 +51,24 @@ export function UserManagementSection({
           key={announcement}
           initialValues={{ content: announcement }}
           onFinish={async (values: { content: string }) => {
-            const result = await request<{ ok: boolean; content: string }>('/admin/announcement', {
-              method: 'PUT',
-              body: JSON.stringify(values),
-            })
-            onAnnouncementSaved(result.content)
+            setSavingAnnouncement(true)
+            try {
+              const result = await request<{ ok: boolean; content: string }>('/admin/announcement', {
+                method: 'PUT',
+                body: JSON.stringify(values),
+              })
+              onAnnouncementSaved(result.content)
+            } catch (error) {
+              message.error(error instanceof Error ? error.message : '保存公告失败')
+            } finally {
+              setSavingAnnouncement(false)
+            }
           }}
         >
           <Form.Item name="content" rules={[{ required: true, message: '请输入公告内容' }]}>
             <Input.TextArea rows={5} />
           </Form.Item>
-          <Button htmlType="submit" type="primary">
+          <Button htmlType="submit" type="primary" loading={savingAnnouncement}>
             保存公告
           </Button>
         </Form>

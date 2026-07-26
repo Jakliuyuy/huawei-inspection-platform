@@ -114,7 +114,7 @@ def build_config() -> AppConfig:
 app = FastAPI(title=APP_TITLE)
 config = build_config()
 job_executor = ThreadPoolExecutor(max_workers=config.max_job_workers)
-login_attempts: dict[str, list[float]] = {}
+login_attempts: dict[tuple[str, str], list[float]] = {}
 API_PREFIX = "/api"
 STATUS_LABELS = {
     "queued": "排队中",
@@ -275,8 +275,19 @@ def recover_incomplete_jobs() -> None:
     recover_incomplete_jobs_impl(db_connect=db_connect, now_local=now_local)
 
 
+def client_ip(request: Request | None) -> str:
+    if request is None:
+        return ""
+    forwarded = request.headers.get("x-forwarded-for", "")
+    if forwarded:
+        first = forwarded.split(",")[0].strip()
+        if first:
+            return first
+    return request.client.host if request.client else ""
+
+
 def record_audit(user_id: int | None, action: str, detail: str, request: Request | None = None) -> None:
-    ip = request.client.host if request and request.client else ""
+    ip = client_ip(request)
     conn = db_connect()
     with conn:
         conn.execute(
@@ -353,19 +364,19 @@ def require_admin(request: Request) -> sqlite3.Row:
     return user
 
 
-def should_rate_limit(ip: str) -> bool:
+def should_rate_limit(key: tuple[str, str]) -> bool:
     now_ts = now_local().timestamp()
-    attempts = [ts for ts in login_attempts.get(ip, []) if now_ts - ts < LOGIN_WINDOW_SECONDS]
-    login_attempts[ip] = attempts
+    attempts = [ts for ts in login_attempts.get(key, []) if now_ts - ts < LOGIN_WINDOW_SECONDS]
+    login_attempts[key] = attempts
     return len(attempts) >= LOGIN_MAX_FAILURES
 
 
-def note_login_failure(ip: str) -> None:
-    login_attempts.setdefault(ip, []).append(now_local().timestamp())
+def note_login_failure(key: tuple[str, str]) -> None:
+    login_attempts.setdefault(key, []).append(now_local().timestamp())
 
 
-def clear_login_failures(ip: str) -> None:
-    login_attempts.pop(ip, None)
+def clear_login_failures(key: tuple[str, str]) -> None:
+    login_attempts.pop(key, None)
 
 
 def issue_session_response(target: Response, token: str) -> Response:
@@ -514,6 +525,14 @@ def delete_job_storage(job: sqlite3.Row) -> None:
             path.unlink(missing_ok=True)
         elif path.is_dir():
             shutil.rmtree(path, ignore_errors=True)
+    # input_path 在准备阶段被改写成 prepared 子目录，需回溯到 uploads/<job_id> 整体清理
+    input_value = job["input_path"]
+    if input_value:
+        input_path = Path(input_value)
+        for candidate in (input_path, *input_path.parents):
+            if candidate.name == job["id"] and candidate.parent == config.upload_dir:
+                shutil.rmtree(candidate, ignore_errors=True)
+                break
 
 
 def recent_upload_logs_root() -> Path:
@@ -860,15 +879,15 @@ async def api_login(request: Request) -> JSONResponse:
     payload = await request.json()
     username = str(payload.get("username", "")).strip()
     password = str(payload.get("password", ""))
-    ip = request.client.host if request.client else "unknown"
-    if should_rate_limit(ip):
+    attempt_key = (client_ip(request) or "unknown", username)
+    if should_rate_limit(attempt_key):
         raise HTTPException(status_code=429, detail="登录失败次数过多，请稍后再试")
     user = get_user_by_username(username)
     if not user or not verify_password(password, user["password_hash"]):
-        note_login_failure(ip)
+        note_login_failure(attempt_key)
         record_audit(None, "login_failed", f"用户名 {username} 登录失败", request)
         raise HTTPException(status_code=401, detail="用户名或密码错误")
-    clear_login_failures(ip)
+    clear_login_failures(attempt_key)
     token = create_session(user["id"])
     record_audit(user["id"], "login", "用户登录成功", request)
     response = JSONResponse({"ok": True, "user": serialize_user(user)})
@@ -893,7 +912,8 @@ async def api_me(request: Request) -> JSONResponse:
 
 
 @app.get(f"{API_PREFIX}/announcements")
-async def api_announcements() -> JSONResponse:
+async def api_announcements(request: Request) -> JSONResponse:
+    require_user(request)
     return JSONResponse({"content": announcement_text()})
 
 

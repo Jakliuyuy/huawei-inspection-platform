@@ -1,4 +1,5 @@
 import { Button, Form, Input, Modal, Segmented } from 'antd'
+import { useState } from 'react'
 
 export function CreateUserModal({
   open,
@@ -9,9 +10,20 @@ export function CreateUserModal({
   onCancel: () => void
   onSubmit: (values: { username: string; password: string; is_admin: boolean }) => void | Promise<void>
 }) {
+  const [submitting, setSubmitting] = useState(false)
+
+  const handleFinish = async (values: { username: string; password: string; is_admin: boolean }) => {
+    setSubmitting(true)
+    try {
+      await onSubmit(values)
+    } finally {
+      setSubmitting(false)
+    }
+  }
+
   return (
     <Modal title="新增用户" open={open} footer={null} onCancel={onCancel} destroyOnClose>
-      <Form layout="vertical" onFinish={(values) => void onSubmit(values)}>
+      <Form layout="vertical" onFinish={(values) => void handleFinish(values)}>
         <Form.Item name="username" label="用户名" rules={[{ required: true, message: '请输入用户名' }]}>
           <Input />
         </Form.Item>
@@ -26,7 +38,7 @@ export function CreateUserModal({
             ]}
           />
         </Form.Item>
-        <Button htmlType="submit" type="primary" block>
+        <Button htmlType="submit" type="primary" block loading={submitting}>
           创建用户
         </Button>
       </Form>

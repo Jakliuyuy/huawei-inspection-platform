@@ -24,7 +24,8 @@ from fastapi.responses import JSONResponse
 from backend.config import APP_TITLE, config
 from backend.db import cleanup_expired_data, initialize_database, recover_incomplete_jobs
 from backend.queries import rebuild_report_file_index
-from backend.routes import admin, auth, email, jobs, legacy, meta, uploads
+from backend.routes import admin, auth, email, inspection, jobs, legacy, meta, uploads
+from backend.inspection_systems import bootstrap_from_legacy
 from backend.static_files import mount_frontend
 from backend.storage import remove_legacy_recent_logs_cache
 from backend.upload_sessions import collect_garbage
@@ -36,6 +37,7 @@ logger = logging.getLogger(__name__)
 @asynccontextmanager
 async def lifespan(_: FastAPI):
     initialize_database()
+    bootstrap_from_legacy()
     rebuild_report_file_index()
     recover_incomplete_jobs()
     cleanup_expired_data()
@@ -52,6 +54,7 @@ app.include_router(uploads.router)
 app.include_router(jobs.router)
 app.include_router(email.router)
 app.include_router(admin.router)
+app.include_router(inspection.router)
 app.include_router(legacy.router)
 
 # 必须在 /api 路由之后：mount 会接管 /app 前缀下的所有请求

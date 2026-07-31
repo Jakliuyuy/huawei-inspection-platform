@@ -17,6 +17,8 @@ web/dist/
 
 .pytest_cache/
 .mypy_cache/
+graphify-out/cache/
+graphify-out/converted/
 
 *.log
 *.zip

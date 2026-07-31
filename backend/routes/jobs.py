@@ -55,6 +55,9 @@ async def api_create_job(request: Request) -> JSONResponse:
     cleanup_expired_data()
 
     payload = await read_json(request)
+    raw_batch_ids = payload.get("log_batch_ids") or ([payload.get("log_batch_id")] if payload.get("log_batch_id") else [])
+    if raw_batch_ids:
+        return await _create_versioned_job(request, user, payload, [str(item) for item in raw_batch_ids])
     upload_id = str(payload.get("upload_id", "")).strip()
     if not upload_id:
         raise HTTPException(status_code=400, detail="缺少 upload_id")
@@ -125,6 +128,63 @@ async def api_create_job(request: Request) -> JSONResponse:
     record_audit(user["id"], "job_created", f"创建任务 {job_id}（{report_date}，{scope}）", request)
     enqueue_job(job_id, user["id"])
     return JSONResponse({"ok": True, "job_id": job_id})
+
+
+async def _create_versioned_job(request: Request, user, payload: dict, batch_ids: list[str]) -> JSONResponse:
+    """由一个或多个已验证日志批次创建锁定版本的任务。"""
+    if len(batch_ids) > 50 or len(set(batch_ids)) != len(batch_ids):
+        raise HTTPException(status_code=400, detail="日志批次数量超限或存在重复")
+    report_date = str(payload.get("report_date", "")).strip() or now_local().strftime("%Y-%m-%d")
+    try:
+        datetime.strptime(report_date, "%Y-%m-%d")
+    except ValueError:
+        raise HTTPException(status_code=400, detail="报告日期格式应为 YYYY-MM-DD") from None
+    conn = db_connect()
+    placeholders = ",".join("?" for _ in batch_ids)
+    rows = conn.execute(
+        f"""SELECT b.*, v.version, v.config_json, v.recipients_json, v.template_path,
+                   v.vbs_sha256, s.system_key, s.display_name
+            FROM log_batches b
+            JOIN inspection_system_versions v ON v.id=b.system_version_id
+            JOIN inspection_systems s ON s.id=v.system_id
+            WHERE b.id IN ({placeholders})""",
+        batch_ids,
+    ).fetchall()
+    if len(rows) != len(batch_ids):
+        conn.close(); raise HTTPException(status_code=404, detail="部分日志批次不存在")
+    if any(row["user_id"] != user["id"] and not user["is_admin"] for row in rows):
+        conn.close(); raise HTTPException(status_code=403, detail="无权使用其他用户的日志批次")
+    if any(row["status"] != "validated" for row in rows):
+        conn.close(); raise HTTPException(status_code=409, detail="全部日志批次通过严格校验后才能生成报告")
+    keys = [row["system_key"] for row in rows]
+    if len(set(keys)) != len(keys):
+        conn.close(); raise HTTPException(status_code=409, detail="同一任务不能包含同一系统的多个版本")
+    locked = [
+        {"batch_id": row["id"], "version_id": row["system_version_id"], "version": row["version"],
+         "system_key": row["system_key"], "display_name": row["display_name"],
+         "config": json.loads(row["config_json"]), "recipients": json.loads(row["recipients_json"] or "[]"),
+         "template_path": row["template_path"], "vbs_sha256": row["vbs_sha256"]}
+        for row in rows
+    ]
+    try:
+        conn.execute("BEGIN IMMEDIATE"); job_id = generate_job_id(conn)
+        job_root = config.upload_dir / job_id; prepared = job_root / "prepared"; prepared.mkdir(parents=True, exist_ok=False)
+        for row in rows:
+            destination = prepared / row["system_key"]; destination.mkdir()
+            for source in Path(row["root_path"]).rglob("*.log"):
+                shutil.copy2(source, destination / source.name)
+        conn.execute("""INSERT INTO jobs (id,user_id,status,progress,status_detail,input_path,created_at,generated_files,report_date,selected_systems,log_batch_id,locked_versions)
+            VALUES (?,?,'queued',0,'等待工作线程处理',?,?,'[]',?,?,?,?)""", (job_id,user["id"],str(prepared),now_local().isoformat(),report_date,json.dumps(keys,ensure_ascii=False),batch_ids[0] if len(batch_ids)==1 else None,json.dumps(locked,ensure_ascii=False)))
+        conn.commit()
+    except Exception:
+        conn.rollback()
+        if 'job_root' in locals(): shutil.rmtree(job_root,ignore_errors=True)
+        raise
+    finally:
+        conn.close()
+    record_audit(user["id"],"job_created",f"创建版本锁定任务 {job_id}（{report_date}，{'、'.join(keys)}）",request)
+    enqueue_job(job_id,user["id"])
+    return JSONResponse({"ok":True,"job_id":job_id,"locked_versions":locked})
 
 
 @router.get("/jobs/{job_id}")

@@ -30,8 +30,17 @@ from backend.email_service import is_valid_email, send_emails
 from backend.mail import build_email_subject, suggested_recipients_for_file
 from backend.paths import job_report_names, resolve_job_report_path
 from backend.queries import ensure_job_access, get_job
+import json
 
 router = APIRouter(prefix=API_PREFIX)
+
+
+def _job_recipients(job, file_name: str) -> list[str]:
+    locked = json.loads(job["locked_versions"]) if job["locked_versions"] else []
+    for item in locked:
+        if file_name.startswith(item["system_key"]) or file_name.startswith(item["display_name"]):
+            return [address for address in item.get("recipients", []) if is_valid_email(address)]
+    return suggested_recipients_for_file(file_name)
 
 
 @router.get("/jobs/{job_id}/email-suggestions")
@@ -39,7 +48,7 @@ async def api_job_email_suggestions(request: Request, job_id: str) -> JSONRespon
     user = require_user(request)
     job = ensure_job_access(get_job(job_id), user)
     suggestions = [
-        {"name": name, "recipients": suggested_recipients_for_file(name)}
+        {"name": name, "recipients": _job_recipients(job, name)}
         for name in job_report_names(job)
     ]
     return JSONResponse({"suggestions": suggestions})
@@ -74,7 +83,7 @@ async def api_send_email(request: Request, job_id: str) -> JSONResponse:
         recipients = list(dict.fromkeys(str(addr).strip() for addr in raw_recipients))
         if len(recipients) > MAX_EMAIL_RECIPIENTS:
             raise HTTPException(status_code=400, detail=f"单个文件最多指定 {MAX_EMAIL_RECIPIENTS} 个收件人")
-        allowed = set(suggested_recipients_for_file(path.name))
+        allowed = set(_job_recipients(job, path.name))
         for addr in recipients:
             if not is_valid_email(addr):
                 raise HTTPException(status_code=400, detail=f"收件人地址 {addr} 格式不合法")

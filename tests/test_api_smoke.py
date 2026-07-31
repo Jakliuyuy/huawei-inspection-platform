@@ -219,6 +219,26 @@ def test_systems_listing(admin):
     assert set(body["systems"][0]) >= {"key", "display_name", "host_count", "output_name_template"}
 
 
+def test_legacy_systems_bootstrap_as_drafts(admin):
+    body = admin.get("/api/admin/inspection-systems").json()
+    assert len(body["systems"]) == 9
+    assert {item["status"] for item in body["systems"]} == {"draft"}
+    system = body["systems"][0]
+    versions = admin.get(f"/api/admin/inspection-systems/{system['id']}/versions").json()["versions"]
+    assert versions[0]["version"] == 1 and versions[0]["is_current"] is False
+
+
+def test_build_generates_admin_only_vbs(admin, plain_user):
+    system = admin.get("/api/admin/inspection-systems").json()["systems"][0]
+    version = admin.get(f"/api/admin/inspection-systems/{system['id']}/versions").json()["versions"][0]
+    built = admin.post(f"/api/admin/system-drafts/{version['id']}/build")
+    assert built.status_code == 200 and built.json()["status"] == "built"
+    assert built.json()["vbs_sha256"]
+    assert admin.get(f"/api/admin/system-drafts/{version['id']}/files/vbs").status_code == 200
+    assert plain_user.get(f"/api/admin/system-drafts/{version['id']}/files/vbs").status_code == 403
+    assert admin.post(f"/api/admin/system-drafts/{version['id']}/publish").status_code == 409
+
+
 @pytest.fixture(scope="module")
 def created_job(admin) -> str:
     own = _make_upload(admin)

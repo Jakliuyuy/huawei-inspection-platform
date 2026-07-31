@@ -34,11 +34,64 @@ export type Job = {
   report_date: string | null
   /** 空数组表示全部系统 */
   selected_systems: string[]
+  log_batch_id: string | null
+  locked_versions: LockedSystemVersion[]
   error_message: string | null
   bundle_available: boolean
   bundle_download_url: string | null
   generated_files: JobFile[]
   timeline: JobTimeline[]
+}
+
+export type LockedSystemVersion = {
+  batch_id: string
+  version_id: number
+  version: number
+  system_key: string
+  display_name: string
+  recipients: string[]
+}
+
+export type InspectionSystem = {
+  id: number
+  system_key: string
+  display_name: string
+  current_version_id: number | null
+  version: number | null
+  status: string | null
+  validation_json: string | null
+}
+
+export type InspectionCommand = { command: string; timeout_seconds: number; result_cell: unknown }
+export type InspectionDevice = { order: number; name: string; ip: string; driver: 'huawei_vrp' | 'generic_show'; commands: InspectionCommand[]; table_index?: number }
+export type InspectionVersion = {
+  id: number
+  system_id: number
+  system_key: string
+  display_name: string
+  version: number
+  status: 'draft' | 'built' | 'validating' | 'validated' | 'published' | 'retired'
+  source_mode: string
+  config: { system_key: string; display_name: string; template: string; devices: InspectionDevice[]; non_command_rules: unknown[] }
+  recipients: string[]
+  template_sha256: string | null
+  vbs_sha256: string | null
+  validation: { valid?: boolean; issues?: string[] }
+  is_current: boolean
+  created_at: string
+  updated_at: string
+}
+
+export type AvailableInspectionSystem = { id: number; system_key: string; display_name: string; version_id: number; version: number }
+export type LogBatch = {
+  id: string
+  status: 'collecting' | 'invalid' | 'validated'
+  system_version_id: number | null
+  system_key: string
+  version: number | null
+  validation: { valid?: boolean; issues?: string[]; devices?: { name: string; expected_commands: number; actual_commands: number; complete: boolean }[] }
+  created_at: string
+  updated_at: string
 }
 
 export type SystemInfo = {

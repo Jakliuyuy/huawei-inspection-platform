@@ -89,6 +89,63 @@ CREATE TABLE IF NOT EXISTS upload_sessions (
     FOREIGN KEY (user_id) REFERENCES users (id)
 );
 
+CREATE TABLE IF NOT EXISTS inspection_systems (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    system_key TEXT NOT NULL UNIQUE,
+    display_name TEXT NOT NULL,
+    current_version_id INTEGER,
+    created_at TEXT NOT NULL,
+    updated_at TEXT NOT NULL,
+    FOREIGN KEY (current_version_id) REFERENCES inspection_system_versions (id)
+);
+
+CREATE TABLE IF NOT EXISTS inspection_system_versions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    system_id INTEGER NOT NULL,
+    version INTEGER NOT NULL,
+    status TEXT NOT NULL CHECK (status IN ('draft', 'built', 'validating', 'validated', 'published', 'retired')),
+    source_mode TEXT NOT NULL DEFAULT 'create',
+    config_json TEXT NOT NULL,
+    recipients_json TEXT NOT NULL DEFAULT '[]',
+    template_path TEXT NOT NULL,
+    template_sha256 TEXT,
+    vbs_path TEXT,
+    vbs_sha256 TEXT,
+    validation_json TEXT,
+    created_by INTEGER,
+    created_at TEXT NOT NULL,
+    updated_at TEXT NOT NULL,
+    UNIQUE (system_id, version),
+    FOREIGN KEY (system_id) REFERENCES inspection_systems (id),
+    FOREIGN KEY (created_by) REFERENCES users (id)
+);
+
+CREATE TABLE IF NOT EXISTS log_batches (
+    id TEXT PRIMARY KEY,
+    user_id INTEGER NOT NULL,
+    system_version_id INTEGER,
+    status TEXT NOT NULL CHECK (status IN ('collecting', 'invalid', 'validated')),
+    root_path TEXT NOT NULL,
+    manifest_json TEXT,
+    validation_json TEXT NOT NULL DEFAULT '{}',
+    created_at TEXT NOT NULL,
+    updated_at TEXT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users (id),
+    FOREIGN KEY (system_version_id) REFERENCES inspection_system_versions (id)
+);
+
+CREATE TABLE IF NOT EXISTS log_batch_files (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    batch_id TEXT NOT NULL,
+    file_name TEXT NOT NULL,
+    file_path TEXT NOT NULL,
+    file_size INTEGER NOT NULL,
+    sha256 TEXT NOT NULL,
+    created_at TEXT NOT NULL,
+    UNIQUE (batch_id, file_name),
+    FOREIGN KEY (batch_id) REFERENCES log_batches (id) ON DELETE CASCADE
+);
+
 CREATE INDEX IF NOT EXISTS idx_upload_sessions_expires_at ON upload_sessions (expires_at);
 CREATE INDEX IF NOT EXISTS idx_sessions_token_hash ON sessions (token_hash);
 CREATE INDEX IF NOT EXISTS idx_sessions_expires_at ON sessions (expires_at);
@@ -100,6 +157,9 @@ CREATE INDEX IF NOT EXISTS idx_audit_logs_user_id_created_at ON audit_logs (user
 CREATE INDEX IF NOT EXISTS idx_report_files_report_date ON report_files (report_date DESC);
 CREATE INDEX IF NOT EXISTS idx_report_files_report_date_username ON report_files (report_date, username);
 CREATE INDEX IF NOT EXISTS idx_report_files_job_id ON report_files (job_id);
+CREATE INDEX IF NOT EXISTS idx_system_versions_system_id ON inspection_system_versions (system_id, version DESC);
+CREATE INDEX IF NOT EXISTS idx_log_batches_user_id ON log_batches (user_id, created_at DESC);
+CREATE INDEX IF NOT EXISTS idx_log_batch_files_batch_id ON log_batch_files (batch_id);
 """
 
 
@@ -111,6 +171,8 @@ ADDED_COLUMNS: dict[str, list[tuple[str, str]]] = {
         ("status_detail", "TEXT"),
         ("report_date", "TEXT"),
         ("selected_systems", "TEXT"),
+        ("log_batch_id", "TEXT"),
+        ("locked_versions", "TEXT"),
     ],
 }
 
@@ -124,7 +186,14 @@ def _add_missing_columns(conn: sqlite3.Connection) -> None:
 
 
 def ensure_dirs() -> None:
-    for path in (config.data_root, config.runtime_dir, config.upload_dir, config.report_dir):
+    for path in (
+        config.data_root,
+        config.runtime_dir,
+        config.upload_dir,
+        config.report_dir,
+        config.system_artifact_dir,
+        config.log_batch_dir,
+    ):
         path.mkdir(parents=True, exist_ok=True)
 
 

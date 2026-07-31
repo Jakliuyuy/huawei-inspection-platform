@@ -3,7 +3,7 @@ import { useEffect, useEffectEvent, useState } from 'react'
 import { request } from '../lib/api'
 import type { Announcement, AuditPage, Job, JobPage, JobStats, ReportDate, ReportFile, ReportUser, User } from '../lib/types'
 
-export type AdminTabKey = 'users' | 'jobs' | 'reports' | 'audits'
+export type AdminTabKey = 'systems' | 'users' | 'jobs' | 'reports' | 'audits'
 
 export function useAdminPageData(activeTab: AdminTabKey) {
   const [users, setUsers] = useState<User[]>([])
@@ -23,6 +23,7 @@ export function useAdminPageData(activeTab: AdminTabKey) {
     jobs: true,
     reports: true,
     audits: true,
+    systems: false,
   })
 
   const markLoading = (tab: AdminTabKey, value: boolean) =>
@@ -112,6 +113,10 @@ export function useAdminPageData(activeTab: AdminTabKey) {
   }
 
   const loadActiveTab = useEffectEvent(() => {
+    if (activeTab === 'systems') {
+      markLoading('systems', false)
+      return
+    }
     if (activeTab === 'users') {
       void loadUsersSection()
       return

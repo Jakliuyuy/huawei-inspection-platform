@@ -15,7 +15,7 @@ import type { ReactNode } from 'react'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'
 
-import { useTheme } from '../../theme/ThemeProvider'
+import { useTheme } from '../../theme/ThemeContext'
 import type { ThemeMode } from '../../theme/tokens'
 import { formatTime } from '../../lib/format'
 import styles from './common.module.css'

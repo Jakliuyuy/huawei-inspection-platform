@@ -11,7 +11,7 @@ services:
       TEMPLATE_DIR: /app/assets/templates
       REPORT_CONFIG_PATH: /app/config/report.json
     volumes:
-      - ./data:/app/data
+      - ${DATA_HOST_PATH:-./data}:/app/data
     ports:
       - "127.0.0.1:8080:8080"
     healthcheck:

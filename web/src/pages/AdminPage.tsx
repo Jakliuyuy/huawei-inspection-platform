@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 
 import { AuditManagementSection } from '../components/admin/AuditManagementSection'
+import { InspectionSystemsSection } from '../components/admin/InspectionSystemsSection'
 import { CreateUserModal } from '../components/admin/CreateUserModal'
 import { JobManagementSection } from '../components/admin/JobManagementSection'
 import { ReportManagementSection } from '../components/admin/ReportManagementSection'
@@ -13,7 +14,7 @@ import { useAdminPageData, type AdminTabKey } from '../hooks/useAdminPageData'
 import { request } from '../lib/api'
 import type { User } from '../lib/types'
 
-const TAB_KEYS: AdminTabKey[] = ['users', 'jobs', 'reports', 'audits']
+const TAB_KEYS: AdminTabKey[] = ['systems', 'users', 'jobs', 'reports', 'audits']
 
 export function AdminPage({ localMode }: { localMode: boolean }) {
   const [params, setParams] = useSearchParams()
@@ -75,6 +76,11 @@ export function AdminPage({ localMode }: { localMode: boolean }) {
   }
 
   const allItems = [
+    {
+      key: 'systems',
+      label: '巡检系统',
+      children: <InspectionSystemsSection />,
+    },
     {
       key: 'users',
       label: '用户管理',

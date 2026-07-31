@@ -169,3 +169,83 @@ curl http://127.0.0.1:8080/api/health
 
 - 默认管理员账号密码来自 `.env`
 - 首次登录后建议立即修改管理员密码，并创建正式用户
+
+## 10. 生产 VPS 版本切换与回滚
+
+生产机使用独立发布目录，不在正在运行的源码目录执行 `git reset --hard`。下面变量仅作示例，执行前必须替换 `COMMIT`：
+
+```bash
+export COMMIT=<github-commit>
+export RELEASE=/opt/docker/huawei-releases/$COMMIT
+export DATA_HOST_PATH=/opt/docker/huawei/data
+export BACKUP=/opt/docker/huawei-backups/$(date +%Y%m%d-%H%M%S)
+```
+
+先完成不影响生产流量的构建和归档：
+
+```bash
+install -d -m 0750 "$RELEASE" "$BACKUP"
+git clone --no-local <github-repository-url> "$RELEASE"
+git -C "$RELEASE" checkout --detach "$COMMIT"
+git -C /opt/docker/huawei diff --binary > "$BACKUP/server-source.diff" || true
+tar --xattrs --acls -cpf "$BACKUP/server-untracked-and-config.tar" \
+  /opt/docker/huawei/.env /opt/docker/huawei/config /opt/docker/huawei/assets 2>/dev/null || true
+cd "$RELEASE"
+docker buildx build --platform linux/arm64 -t "huawei-inspection-backend:$COMMIT" --load .
+```
+
+用数据库副本在 `127.0.0.1:18080` 预演启动迁移。预演目录不得挂载生产数据卷：
+
+```bash
+install -d -m 0750 "$BACKUP/rehearsal/runtime"
+python3 - "$DATA_HOST_PATH/runtime/app.db" "$BACKUP/rehearsal/runtime/app.db" <<'PY'
+import sqlite3, sys
+source = sqlite3.connect(f"file:{sys.argv[1]}?mode=ro", uri=True)
+target = sqlite3.connect(sys.argv[2])
+source.backup(target)
+target.close(); source.close()
+PY
+docker run --rm -d --name huawei-inspection-rehearsal \
+  --env-file /opt/docker/huawei/.env -e DATA_ROOT=/app/data \
+  -v "$BACKUP/rehearsal:/app/data" -p 127.0.0.1:18080:8080 \
+  "huawei-inspection-backend:$COMMIT"
+curl --fail --retry 20 --retry-delay 1 http://127.0.0.1:18080/api/health
+docker rm -f huawei-inspection-rehearsal
+```
+
+维护窗口内执行一致性备份与切换：
+
+```bash
+OLD_IMAGE=$(docker inspect huawei-inspection-app --format '{{.Config.Image}}')
+ROLLBACK_TAG="huawei-inspection-backend:rollback-$(date +%Y%m%d-%H%M%S)"
+docker image tag "$OLD_IMAGE" "$ROLLBACK_TAG"
+cd /opt/docker/huawei
+docker compose stop app
+python3 - "$DATA_HOST_PATH/runtime/app.db" "$BACKUP/app.db" <<'PY'
+import sqlite3, sys
+source = sqlite3.connect(sys.argv[1])
+target = sqlite3.connect(sys.argv[2])
+source.backup(target)
+target.close(); source.close()
+PY
+tar --xattrs --acls --numeric-owner -cpf "$BACKUP/data.tar" -C /opt/docker/huawei data
+cd "$RELEASE"
+APP_IMAGE="huawei-inspection-backend:$COMMIT" DATA_HOST_PATH="$DATA_HOST_PATH" \
+  docker compose --env-file /opt/docker/huawei/.env up -d --no-build
+curl --fail --retry 30 --retry-delay 1 http://127.0.0.1:8080/api/health
+```
+
+切换后必须人工验证登录、历史任务、历史报告下载、严格日志批次、新建任务和巡检系统管理页。两个遗留 `root:root` 任务目录应按实际路径逐个确认后再执行 `chown -R`，禁止对整个数据卷盲目改属主。
+
+失败回滚时，先停新容器，再恢复维护窗口数据库副本并使用已记录的旧镜像；不要删除失败现场：
+
+```bash
+cd "$RELEASE"
+docker compose down
+cp --preserve=all "$BACKUP/app.db" "$DATA_HOST_PATH/runtime/app.db"
+cd /opt/docker/huawei
+APP_IMAGE="$ROLLBACK_TAG" DATA_HOST_PATH="$DATA_HOST_PATH" docker compose up -d --no-build
+curl --fail --retry 30 --retry-delay 1 http://127.0.0.1:8080/api/health
+```
+
+新迁移只新增表和旧任务可忽略的列，但回滚仍恢复数据库副本，以覆盖维护窗口内启动失败或误操作造成的任何变化。旧镜像、数据库备份和 `data.tar` 未经人工确认不得清理。

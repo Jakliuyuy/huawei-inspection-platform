@@ -1,0 +1,56 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.versionBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.versionSelect {
+  width: 220px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.meta code {
+  max-width: 360px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.validation {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.advanced {
+  margin-top: 16px;
+}
+
+@media (max-width: 720px) {
+  .toolbar,
+  .versionBar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .versionSelect {
+    width: 100%;
+  }
+}

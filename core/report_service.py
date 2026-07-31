@@ -433,6 +433,35 @@ def process_system(
         if sys_key == "GPRS":
             fill_gprs_contact_rows(table)
 
+        for rule in sys_info.get("non_command_rules", []):
+            mapping = rule.get("result_cell", {})
+            if mapping.get("table") != index - 1:
+                continue
+            row_number, column_number = mapping.get("row"), mapping.get("column")
+            if not isinstance(row_number, int) or not isinstance(column_number, int):
+                continue
+            if row_number >= len(table.rows) or column_number >= len(table.rows[row_number].cells):
+                continue
+            mode = rule.get("mode", "preserve")
+            target_cell = table.rows[row_number].cells[column_number]
+            if mode == "fixed":
+                engine.set_cell_text(target_cell, str(rule.get("value", "")))
+            elif mode == "manual":
+                engine.set_cell_text(target_cell, "待人工填写")
+            elif mode == "derived":
+                source_command = str(rule.get("source_command", ""))
+                engine.set_cell_text(
+                    target_cell,
+                    engine.select_command_output(
+                        log.sections,
+                        source_command,
+                        log.norm_cache,
+                        system_key=sys_key,
+                        template_host=template_host or config_host,
+                        target_ip=target_ip,
+                    ),
+                )
+
     if sys_key == "GPRS":
         ensure_gprs_contacts(doc)
 

@@ -1,4 +1,4 @@
-import { CalendarOutlined, InboxOutlined, ReloadOutlined } from '@ant-design/icons'
+import { CalendarOutlined, CheckCircleOutlined, InboxOutlined, ReloadOutlined } from '@ant-design/icons'
 import {
   Alert,
   App as AntApp,
@@ -8,15 +8,18 @@ import {
   List,
   Progress,
   Segmented,
+  Select,
   Space,
   Steps,
   Table,
   Tag,
   Typography,
+  Upload,
 } from 'antd'
+import type { UploadFile } from 'antd'
 import type { ColumnsType } from 'antd/es/table'
 import dayjs, { type Dayjs } from 'dayjs'
-import { useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 import {
@@ -37,7 +40,7 @@ import {
 } from '../lib/api'
 import { buildUploadForm, dedupeFiles, displayPath, filesFromDrop, type UploadMode } from '../lib/fileTree'
 import { fillOutputName } from '../lib/job'
-import type { SystemStat, UploadPreview } from '../lib/types'
+import type { AvailableInspectionSystem, LogBatch, SystemStat, UploadPreview } from '../lib/types'
 import styles from './pages.module.css'
 
 type Stage = 'idle' | 'uploading' | 'analyzing' | 'preview' | 'submitting'
@@ -49,6 +52,7 @@ export function NewTaskPage() {
   const navigate = useNavigate()
 
   const [stage, setStage] = useState<Stage>('idle')
+  const [workflow, setWorkflow] = useState<'verified' | 'legacy'>('verified')
   const [mode, setMode] = useState<UploadMode>('zip')
   const [dragging, setDragging] = useState(false)
   const [files, setFiles] = useState<File[]>([])
@@ -57,10 +61,23 @@ export function NewTaskPage() {
   const [selected, setSelected] = useState<string[]>([])
   const [reportDate, setReportDate] = useState<Dayjs | null>(null)
   const [filter, setFilter] = useState<'all' | 'with' | 'without'>('all')
+  const [availableSystems, setAvailableSystems] = useState<AvailableInspectionSystem[]>([])
+  const [versionId, setVersionId] = useState<number | null>(null)
+  const [batchFiles, setBatchFiles] = useState<UploadFile[]>([])
+  const [batch, setBatch] = useState<LogBatch | null>(null)
+  const [validatedBatches, setValidatedBatches] = useState<LogBatch[]>([])
+  const [batchBusy, setBatchBusy] = useState(false)
+  const [batchDate, setBatchDate] = useState<Dayjs>(dayjs().subtract(1, 'day'))
 
   const filesRef = useRef<HTMLInputElement>(null)
   const folderRef = useRef<HTMLInputElement>(null)
   const abortRef = useRef<(() => void) | null>(null)
+
+  useEffect(() => {
+    void request<{ systems: AvailableInspectionSystem[] }>('/inspection-systems')
+      .then((data) => setAvailableSystems(data.systems))
+      .catch((error) => message.error(error instanceof Error ? error.message : '加载系统版本失败'))
+  }, [message])
 
   const activeInputRef = mode === 'zip' ? filesRef : folderRef
 
@@ -232,23 +249,73 @@ export function NewTaskPage() {
 
   const stepIndex = stage === 'preview' || stage === 'submitting' ? 1 : 0
 
+  const uploadBatch = async () => {
+    if (!batchFiles.length) return
+    setBatchBusy(true)
+    try {
+      const created = await request<LogBatch>('/log-batches', { method: 'POST', body: JSON.stringify({ system_version_id: versionId ?? 0 }) })
+      const form = new FormData(); batchFiles.forEach((item) => item.originFileObj && form.append('files', item.originFileObj))
+      const result = await request<LogBatch>(`/log-batches/${created.id}/files`, { method: 'POST', body: form })
+      setBatch(result)
+      if (result.status === 'validated') {
+        if (validatedBatches.some((item) => item.system_key === result.system_key)) message.error('同一任务不能包含同一系统的多个版本')
+        else { setValidatedBatches((items) => [...items, result]); setBatchFiles([]); setVersionId(null); message.success('已加入任务，可继续上传其他系统') }
+      }
+      else message.error(result.validation.issues?.join('；') || '日志批次尚未完整')
+    } catch (error) { message.error(error instanceof Error ? error.message : '日志批次上传失败') }
+    finally { setBatchBusy(false) }
+  }
+
+  const submitBatch = async () => {
+    if (!validatedBatches.length) return
+    setBatchBusy(true)
+    try {
+      const result = await request<{ job_id: string }>('/jobs', { method: 'POST', body: JSON.stringify({ log_batch_ids: validatedBatches.map((item) => item.id), report_date: batchDate.format('YYYY-MM-DD') }) })
+      message.success(`任务 ${result.job_id} 已创建`); navigate(`/tasks/${result.job_id}`)
+    } catch (error) { message.error(error instanceof Error ? error.message : '创建任务失败') }
+    finally { setBatchBusy(false) }
+  }
+
   return (
     <>
-      <PageHeader title="新建巡检任务" description="上传日志后确认生成范围与报告日期">
+      <PageHeader title="新建巡检任务" description="上传本地 SecureCRT 采集结果并生成报告" extra={<Segmented value={workflow} onChange={(value) => setWorkflow(value as typeof workflow)} options={[{ label: '严格执行清单', value: 'verified' }, { label: '兼容旧版日志', value: 'legacy' }]} />}>
         <Steps
           size="small"
-          current={stepIndex}
-          items={[{ title: '选择日志' }, { title: '确认系统与日期' }, { title: '生成报告' }]}
+          current={workflow === 'verified' ? (validatedBatches.length ? 1 : 0) : stepIndex}
+          items={workflow === 'verified' ? [{ title: '上传并严格校验' }, { title: '确认日期' }, { title: '生成报告' }] : [{ title: '选择日志' }, { title: '确认系统与日期' }, { title: '生成报告' }]}
         />
       </PageHeader>
 
-      {stage === 'preview' || stage === 'submitting' ? (
+      {workflow === 'verified' ? <VerifiedBatchStep /> : stage === 'preview' || stage === 'submitting' ? (
         <PreviewStep />
       ) : (
         <UploadStep />
       )}
     </>
   )
+
+  function VerifiedBatchStep() {
+    return <div className={styles.createGrid}>
+      <Card size="small" title="SecureCRT 执行结果">
+        <Space direction="vertical" size={16} style={{ width: '100%' }}>
+          <Select className={styles.batchSystemSelect} allowClear placeholder="单 LOG 上传时选择系统版本；带清单 ZIP 可自动识别" value={versionId} onChange={setVersionId} options={availableSystems.map((item) => ({ value: item.version_id, label: `${item.system_key} · ${item.display_name} · v${item.version}` }))} />
+          <Upload.Dragger multiple accept=".zip,.log,.tsv" fileList={batchFiles} beforeUpload={() => false} onChange={({ fileList }) => { setBatchFiles(fileList); setBatch(null) }}>
+            <InboxOutlined /><p>选择 ZIP、LOG 或 inspection-manifest.tsv</p>
+          </Upload.Dragger>
+          <Button type="primary" loading={batchBusy} disabled={!batchFiles.length} onClick={() => void uploadBatch()}>上传并严格校验</Button>
+          {batch && <Alert type={batch.status === 'validated' ? 'success' : 'error'} showIcon message={batch.status === 'validated' ? `${batch.system_key} v${batch.version} 已通过全部校验` : '日志批次不完整'} description={batch.validation.issues?.join('；')} />}
+        </Space>
+      </Card>
+      <Card size="small" title="生成参数" className={styles.sticky}>
+        {validatedBatches.length ? <Space direction="vertical" size={16} style={{ width: '100%' }}>
+          <Typography.Text><CheckCircleOutlined /> {validatedBatches.length} 个系统、{validatedBatches.reduce((total, item) => total + (item.validation.devices?.length ?? 0), 0)} 台设备已就绪</Typography.Text>
+          <Space wrap>{validatedBatches.map((item) => <Tag key={item.id} closable onClose={() => setValidatedBatches((items) => items.filter((batchItem) => batchItem.id !== item.id))}>{item.system_key} v{item.version}</Tag>)}</Space>
+          <DatePicker value={batchDate} onChange={(value) => value && setBatchDate(value)} allowClear={false} format="YYYY-MM-DD" disabledDate={(date) => date.isAfter(dayjs(), 'day')} style={{ width: '100%' }} />
+          <Button type="primary" block loading={batchBusy} onClick={() => void submitBatch()}>开始生成报告</Button>
+        </Space> : <EmptyState title="等待严格校验通过" description="缺设备、缺命令、超时、CLI 错误或摘要不符都会阻断生成" />}
+      </Card>
+    </div>
+  }
 
   // ------------------------------------------------------------ 步骤一
 

@@ -66,7 +66,7 @@ def rebuild_report_file_index(*, db_connect: DbConnect, local_tz: timezone) -> N
     conn = db_connect()
     rows = conn.execute(
         """
-        SELECT jobs.id, jobs.user_id, jobs.created_at, jobs.generated_files, users.username
+        SELECT jobs.id, jobs.user_id, jobs.created_at, jobs.report_date, jobs.generated_files, users.username
         FROM jobs JOIN users ON users.id = jobs.user_id
         WHERE jobs.generated_files IS NOT NULL AND jobs.generated_files != '[]'
         ORDER BY jobs.created_at DESC
@@ -82,7 +82,7 @@ def rebuild_report_file_index(*, db_connect: DbConnect, local_tz: timezone) -> N
                 job_id=row["id"],
                 user_id=row["user_id"],
                 username=row["username"],
-                report_date=created_at.strftime("%Y-%m-%d"),
+                report_date=row["report_date"] or created_at.strftime("%Y-%m-%d"),
                 generated_files=generated_files,
                 created_at=row["created_at"],
                 local_tz=local_tz,

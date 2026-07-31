@@ -72,6 +72,8 @@ class AppConfig:
     secure_cookies: bool
     local_mode: bool
     frontend_dir: Path
+    system_artifact_dir: Path
+    log_batch_dir: Path
 
 
 def build_config() -> AppConfig:
@@ -83,6 +85,8 @@ def build_config() -> AppConfig:
     template_dir = Path(os.getenv("TEMPLATE_DIR", app_root / "assets" / "templates")).resolve()
     config_path = Path(os.getenv("REPORT_CONFIG_PATH", app_root / "config" / "report.json")).resolve()
     database_path = runtime_dir / "app.db"
+    system_artifact_dir = data_root / "inspection-systems"
+    log_batch_dir = data_root / "log-batches"
     return AppConfig(
         app_root=app_root,
         data_root=data_root,
@@ -106,6 +110,8 @@ def build_config() -> AppConfig:
         ),
         local_mode=LOCAL_MODE,
         frontend_dir=Path(os.getenv("FRONTEND_DIR") or app_root / "web" / "dist").resolve(),
+        system_artifact_dir=system_artifact_dir,
+        log_batch_dir=log_batch_dir,
     )
 
 

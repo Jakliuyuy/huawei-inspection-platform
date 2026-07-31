@@ -85,6 +85,7 @@ def process_job(job_id: str, user_id: int) -> None:
                         "template": "template.docx",
                         "recipients": locked.get("recipients", []),
                         "hosts": {str(item["order"]): item["name"] for item in snapshot["devices"]},
+                        "devices": snapshot["devices"],
                         "is_english_name": bool(snapshot.get("is_english_name", False)),
                         "non_command_rules": snapshot.get("non_command_rules", []),
                     }

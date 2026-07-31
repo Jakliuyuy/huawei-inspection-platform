@@ -139,3 +139,64 @@ def test_report_index_prefers_job_report_date(tmp_path: Path):
     rebuild_report_file_index(db_connect=connect, local_tz=timezone.utc)
     conn=connect(); indexed=conn.execute("SELECT report_date FROM report_files").fetchone()[0]; conn.close()
     assert indexed == "2026-07-24"
+
+
+def test_dynamic_report_uses_result_cells_and_skips_unmapped_tables(tmp_path: Path):
+    from core.report_service import process_system
+
+    templates = tmp_path / "templates"; templates.mkdir()
+    logs = tmp_path / "logs" / "TOB_"; logs.mkdir(parents=True)
+    output = tmp_path / "output"; output.mkdir()
+
+    template = Document()
+    inventory = template.add_table(rows=2, cols=2)
+    inventory.cell(0, 0).text = "设备清单"
+    inventory.cell(1, 0).text = "Router1"
+    for name, ip, old_days in (("Router1", "10.0.0.1", 100), ("Router2", "10.0.0.2", 200)):
+        table = template.add_table(rows=4, cols=4)
+        table.cell(0, 0).text = f"设备名称: {name}"
+        table.cell(0, 1).text = f"设备IP: {ip}"
+        table.cell(3, 2).text = "Display version"
+        table.cell(3, 3).text = f"uptime is {old_days} days"
+    template.save(templates / "template.docx")
+
+    (logs / "TOB__Router1.log").write_text(
+        "<Router1>Display version\nHUAWEI uptime is 2175 days\n<Router1>", encoding="utf-8"
+    )
+    (logs / "TOB__Router2.log").write_text(
+        "<Router2>Display version\nHUAWEI uptime is 3000 days\n<Router2>", encoding="utf-8"
+    )
+    devices = [
+        {
+            "order": order,
+            "name": name,
+            "ip": ip,
+            "table_index": order,
+            "commands": [
+                {
+                    "command": "Display version",
+                    "timeout_seconds": 120,
+                    "result_cell": {"table": order, "row": 3, "column": 3},
+                }
+            ],
+        }
+        for order, name, ip in ((1, "Router1", "10.0.0.1"), (2, "Router2", "10.0.0.2"))
+    ]
+    system = {
+        "display_name": "TOB月巡检",
+        "template": "template.docx",
+        "hosts": {"1": "Router1", "2": "Router2"},
+        "devices": devices,
+        "non_command_rules": [],
+    }
+
+    audit, generated = process_system(
+        "TOB_", system, tmp_path / "logs", output, "2026-08-01", {"TOB_": system}, templates
+    )
+
+    assert len(generated) == 1
+    report = Document(generated[0])
+    assert report.tables[0].cell(1, 0).text == "Router1"
+    assert "2175 days" in report.tables[1].cell(3, 3).text, audit
+    assert "3000 days" in report.tables[2].cell(3, 3).text
+    assert not any("匹配失败" in line for line in audit)

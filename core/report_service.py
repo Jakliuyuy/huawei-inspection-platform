@@ -373,62 +373,95 @@ def process_system(
         elif RE_DATE.search(text):
             safe_update_paragraph(paragraph, RE_DATE.sub(target_date, text))
 
+    dynamic_devices = {
+        device.get("table_index"): device
+        for device in sys_info.get("devices", [])
+        if isinstance(device.get("table_index"), int)
+    }
+
     for index, table in enumerate(doc.tables, 1):
+        dynamic_device = dynamic_devices.get(index - 1) if dynamic_devices else None
+        if dynamic_devices and dynamic_device is None:
+            continue
+
         if sys_key == "GPRS":
             fill_gprs_contact_rows(table)
 
-        target_ip = ""
-        template_host = ""
-        for row in table.rows[:2]:
-            for cell in row.cells:
-                match = RE_IP.search(cell.text)
-                if match:
-                    target_ip = match.group(1)
-                if any(keyword in cell.text for keyword in ["型号", "名称", "设备"]):
-                    parts = re.split(r"[:：]", cell.text)
-                    template_host = parts[1].strip() if len(parts) > 1 else ""
+        target_ip = str(dynamic_device.get("ip", "")) if dynamic_device else ""
+        template_host = str(dynamic_device.get("name", "")) if dynamic_device else ""
+        if not dynamic_device:
+            for row in table.rows[:2]:
+                for cell in row.cells:
+                    match = RE_IP.search(cell.text)
+                    if match:
+                        target_ip = match.group(1)
+                    if any(keyword in cell.text for keyword in ["型号", "名称", "设备"]):
+                        parts = re.split(r"[:：]", cell.text)
+                        template_host = parts[1].strip() if len(parts) > 1 else ""
 
-        config_host = sys_info.get("hosts", {}).get(str(index), "")
+        config_host = template_host if dynamic_device else sys_info.get("hosts", {}).get(str(index), "")
         log, reason = find_match(log_pool, target_ip, template_host, config_host)
         if not log:
             audit_lines.append(f"× [{index:02d}] 匹配失败 (IP:{target_ip}, Host:{template_host or config_host})")
             continue
 
         audit_lines.append(f"√ [{index:02d}] 命中 {log.filename} via {reason}")
-        for row_index, row in enumerate(table.rows):
-            cells = row.cells
-            if sys_key == "GPRS" and is_gprs_contact_row(cells):
-                fill_gprs_contact_rows(table)
-                continue
-            if row_index == 1:
-                for cell in cells:
-                    if "IP" in cell.text.upper():
-                        match = RE_IP.search(cell.text)
-                        resolved_ip = match.group(1) if match and not match.group(1).startswith("127.") else log.filename_ip
-                        engine.set_cell_text(cell, f"IP: {resolved_ip or '待补充'}")
-                    elif RE_DATE.search(cell.text) or cell.text.strip().isdigit():
-                        engine.set_cell_text(cell, target_date.replace("-", ""))
-            elif row_index == 2:
-                for cell in cells[1:]:
-                    if not cell.text.strip() or cell.text in ["杜康", "刘关雷", "苗向"]:
-                        engine.set_cell_text(cell, "苗向")
-            elif row_index >= 4 and len(cells) >= 3:
-                wanted = cells[1].text.strip()
-                if wanted:
-                    if ROOM_ENV_LABEL in wanted:
-                        engine.set_cell_text(cells[2], resolve_room_environment_status(log))
-                    else:
-                        engine.set_cell_text(
-                            cells[2],
-                            engine.select_command_output(
-                                log.sections,
-                                wanted,
-                                log.norm_cache,
-                                system_key=sys_key,
-                                template_host=template_host or config_host,
-                                target_ip=target_ip,
-                            ),
-                        )
+        if dynamic_device:
+            for command in dynamic_device.get("commands", []):
+                mapping = command.get("result_cell", {})
+                row_number, column_number = mapping.get("row"), mapping.get("column")
+                if mapping.get("table") != index - 1:
+                    continue
+                if not isinstance(row_number, int) or not isinstance(column_number, int):
+                    continue
+                if row_number >= len(table.rows) or column_number >= len(table.rows[row_number].cells):
+                    continue
+                engine.set_cell_text(
+                    table.rows[row_number].cells[column_number],
+                    engine.select_command_output(
+                        log.sections,
+                        str(command.get("command", "")),
+                        log.norm_cache,
+                        system_key=sys_key,
+                        template_host=template_host,
+                        target_ip=target_ip,
+                    ),
+                )
+        else:
+            for row_index, row in enumerate(table.rows):
+                cells = row.cells
+                if sys_key == "GPRS" and is_gprs_contact_row(cells):
+                    fill_gprs_contact_rows(table)
+                    continue
+                if row_index == 1:
+                    for cell in cells:
+                        if "IP" in cell.text.upper():
+                            match = RE_IP.search(cell.text)
+                            resolved_ip = match.group(1) if match and not match.group(1).startswith("127.") else log.filename_ip
+                            engine.set_cell_text(cell, f"IP: {resolved_ip or '待补充'}")
+                        elif RE_DATE.search(cell.text) or cell.text.strip().isdigit():
+                            engine.set_cell_text(cell, target_date.replace("-", ""))
+                elif row_index == 2:
+                    for cell in cells[1:]:
+                        if not cell.text.strip() or cell.text in ["杜康", "刘关雷", "苗向"]:
+                            engine.set_cell_text(cell, "苗向")
+                elif row_index >= 4 and len(cells) >= 3:
+                    wanted = cells[1].text.strip()
+                    if wanted:
+                        if ROOM_ENV_LABEL in wanted:
+                            engine.set_cell_text(cells[2], resolve_room_environment_status(log))
+                        else:
+                            engine.set_cell_text(
+                                cells[2],
+                                engine.select_command_output(
+                                    log.sections,
+                                    wanted,
+                                    log.norm_cache,
+                                    system_key=sys_key,
+                                    template_host=template_host or config_host,
+                                    target_ip=target_ip,
+                                ),
+                            )
 
         if sys_key == "GPRS":
             fill_gprs_contact_rows(table)

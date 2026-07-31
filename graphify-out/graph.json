@@ -9,7 +9,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\server.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_server_py",
-      "community": 2,
+      "community": 5,
       "norm_label": "server.py"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\server.py",
       "source_location": "L38",
       "id": "server_lifespan",
-      "community": 2,
+      "community": 5,
       "norm_label": "lifespan()"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\server.py",
       "source_location": "L65",
       "id": "server_http_exception_handler",
-      "community": 2,
+      "community": 5,
       "norm_label": "http_exception_handler()"
     },
     {
@@ -35,7 +35,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\server.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 5,
       "norm_label": "\u534e\u4e3a\u5de1\u68c0\u4e91\u5e73\u53f0 \u2014\u2014 \u5e94\u7528\u5165\u53e3\u3002  \u771f\u6b63\u7684\u5b9e\u73b0\u90fd\u5728 backend/ \u4e0b:   config / db / security / auth / audit",
       "id": "server_rationale_1"
     },
@@ -63,7 +63,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_auth_py",
-      "community": 0,
+      "community": 6,
       "norm_label": "auth.py"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L25",
       "id": "auth_get_user_by_username",
-      "community": 0,
+      "community": 6,
       "norm_label": "get_user_by_username()"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L32",
       "id": "auth_get_user_by_session",
-      "community": 10,
+      "community": 6,
       "norm_label": "get_user_by_session()"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L48",
       "id": "auth_create_session",
-      "community": 0,
+      "community": 6,
       "norm_label": "create_session()"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L62",
       "id": "auth_clear_session",
-      "community": 0,
+      "community": 6,
       "norm_label": "clear_session()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L78",
       "id": "auth_local_user",
-      "community": 0,
+      "community": 6,
       "norm_label": "local_user()"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L87",
       "id": "auth_require_user",
-      "community": 0,
+      "community": 2,
       "norm_label": "require_user()"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L108",
       "id": "auth_should_rate_limit",
-      "community": 0,
+      "community": 6,
       "norm_label": "should_rate_limit()"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L115",
       "id": "auth_note_login_failure",
-      "community": 0,
+      "community": 6,
       "norm_label": "note_login_failure()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L119",
       "id": "auth_clear_login_failures",
-      "community": 0,
+      "community": 6,
       "norm_label": "clear_login_failures()"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L123",
       "id": "auth_issue_session_response",
-      "community": 0,
+      "community": 6,
       "norm_label": "issue_session_response()"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L135",
       "id": "auth_clear_session_response",
-      "community": 0,
+      "community": 6,
       "norm_label": "clear_session_response()"
     },
     {
@@ -188,7 +188,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L1",
-      "community": 0,
+      "community": 6,
       "norm_label": "\u7528\u6237\u67e5\u8be2\u3001\u4f1a\u8bdd\u751f\u547d\u5468\u671f\u3001\u767b\u5f55\u9650\u6d41\u4e0e\u9274\u6743\u5b88\u536b\u3002",
       "id": "auth_rationale_1"
     },
@@ -197,7 +197,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\auth.py",
       "source_location": "L79",
-      "community": 0,
+      "community": 6,
       "norm_label": "\u672c\u5730\u6a21\u5f0f\u7684\u56fa\u5b9a\u7528\u6237\u3002\u542f\u52a8\u65f6\u5df2 upsert,\u8fd9\u91cc\u53ea\u67e5\u3002      \u5fc5\u987b\u662f\u771f\u5b9e\u5b58\u5728\u7684\u884c:jobs.user_id \u6709\u5916\u952e\u7ea6\u675f\u4e14 pragma foreign_",
       "id": "auth_rationale_79"
     },
@@ -234,7 +234,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\config.py",
       "source_location": "L121",
       "id": "config_now_local",
-      "community": 2,
+      "community": 0,
       "norm_label": "now_local()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\db.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_db_py",
-      "community": 2,
+      "community": 5,
       "norm_label": "db.py"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\db.py",
       "source_location": "L180",
       "id": "db_add_missing_columns",
-      "community": 2,
+      "community": 5,
       "norm_label": "_add_missing_columns()"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\db.py",
       "source_location": "L188",
       "id": "db_ensure_dirs",
-      "community": 2,
+      "community": 5,
       "norm_label": "ensure_dirs()"
     },
     {
@@ -279,7 +279,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\db.py",
       "source_location": "L200",
       "id": "db_db_connect",
-      "community": 2,
+      "community": 0,
       "norm_label": "db_connect()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\db.py",
       "source_location": "L209",
       "id": "db_initialize_database",
-      "community": 2,
+      "community": 5,
       "norm_label": "initialize_database()"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\db.py",
       "source_location": "L237",
       "id": "db_cleanup_expired_data",
-      "community": 2,
+      "community": 5,
       "norm_label": "cleanup_expired_data()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\db.py",
       "source_location": "L241",
       "id": "db_recover_incomplete_jobs",
-      "community": 2,
+      "community": 5,
       "norm_label": "recover_incomplete_jobs()"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\downloads.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_downloads_py",
-      "community": 7,
+      "community": 2,
       "norm_label": "downloads.py"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\downloads.py",
       "source_location": "L22",
       "id": "downloads_build_download_response",
-      "community": 7,
+      "community": 2,
       "norm_label": "build_download_response()"
     },
     {
@@ -332,7 +332,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\downloads.py",
       "source_location": "L1",
-      "community": 7,
+      "community": 2,
       "norm_label": "\u6587\u4ef6\u4e0b\u8f7d\u54cd\u5e94\u3002  \u26a0\ufe0f \u8fd9\u662f\u5bf9 nginx \u7684\u9690\u6027\u5951\u7ea6\u7684\u552f\u4e00\u627f\u8f7d\u70b9\u3002x-accel-redirect \u5206\u652f\u628a\u8def\u5f84 \u76f8\u5bf9 config.report_dir",
       "id": "downloads_rationale_1"
     },
@@ -342,7 +342,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_email_service_py",
-      "community": 6,
+      "community": 2,
       "norm_label": "email_service.py"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L20",
       "id": "email_service_is_valid_email",
-      "community": 6,
+      "community": 2,
       "norm_label": "is_valid_email()"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L28",
       "id": "email_service_load_config",
-      "community": 6,
+      "community": 2,
       "norm_label": "_load_config()"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L40",
       "id": "email_service_get_email_recipient_config",
-      "community": 6,
+      "community": 2,
       "norm_label": "get_email_recipient_config()"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L52",
       "id": "email_service_get_system_recipients_for_file",
-      "community": 6,
+      "community": 2,
       "norm_label": "get_system_recipients_for_file()"
     },
     {
@@ -387,7 +387,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L73",
       "id": "email_service_build_message",
-      "community": 6,
+      "community": 2,
       "norm_label": "_build_message()"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L95",
       "id": "email_service_send_emails",
-      "community": 6,
+      "community": 2,
       "norm_label": "send_emails()"
     },
     {
@@ -404,7 +404,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\email_service.py",
       "source_location": "L103",
-      "community": 6,
+      "community": 2,
       "norm_label": "\u4e00\u6b21\u5efa\u8fde\u5e76\u767b\u5f55\u540e\u8fde\u7eed\u6295\u9012\u591a\u5c01\u90ae\u4ef6,\u6309\u5165\u53c2\u987a\u5e8f\u8fd4\u56de\u6bcf\u5c01\u7684\u7ed3\u679c\u3002      messages \u4e2d\u6bcf\u9879\u9700\u5305\u542b to_addrs/subject/body,\u53ef\u9009 a",
       "id": "email_service_rationale_103"
     },
@@ -414,7 +414,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_inspection_systems_py",
-      "community": 2,
+      "community": 0,
       "norm_label": "inspection_systems.py"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L27",
       "id": "inspection_systems_sha256_file",
-      "community": 2,
+      "community": 0,
       "norm_label": "sha256_file()"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L34",
       "id": "inspection_systems_safe_key",
-      "community": 2,
+      "community": 0,
       "norm_label": "_safe_key()"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L40",
       "id": "inspection_systems_bootstrap_from_legacy",
-      "community": 2,
+      "community": 0,
       "norm_label": "bootstrap_from_legacy()"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L73",
       "id": "inspection_systems_legacy_snapshot",
-      "community": 2,
+      "community": 0,
       "norm_label": "_legacy_snapshot()"
     },
     {
@@ -459,7 +459,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L84",
       "id": "inspection_systems_list_systems",
-      "community": 2,
+      "community": 0,
       "norm_label": "list_systems()"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L96",
       "id": "inspection_systems_get_version",
-      "community": 2,
+      "community": 0,
       "norm_label": "get_version()"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L101",
       "id": "inspection_systems_serialize_version",
-      "community": 2,
+      "community": 0,
       "norm_label": "serialize_version()"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L112",
       "id": "inspection_systems_list_versions",
-      "community": 2,
+      "community": 0,
       "norm_label": "list_versions()"
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L118",
       "id": "inspection_systems_create_draft",
-      "community": 2,
+      "community": 0,
       "norm_label": "create_draft()"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L156",
       "id": "inspection_systems_update_draft",
-      "community": 2,
+      "community": 0,
       "norm_label": "update_draft()"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L166",
       "id": "inspection_systems_build_version",
-      "community": 2,
+      "community": 0,
       "norm_label": "build_version()"
     },
     {
@@ -522,7 +522,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L175",
       "id": "inspection_systems_delete_draft",
-      "community": 2,
+      "community": 0,
       "norm_label": "delete_draft()"
     },
     {
@@ -531,7 +531,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L187",
       "id": "inspection_systems_transition",
-      "community": 2,
+      "community": 0,
       "norm_label": "transition()"
     },
     {
@@ -540,7 +540,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L195",
       "id": "inspection_systems_publish",
-      "community": 2,
+      "community": 0,
       "norm_label": "publish()"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L205",
       "id": "inspection_systems_activate",
-      "community": 2,
+      "community": 0,
       "norm_label": "activate()"
     },
     {
@@ -557,7 +557,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\inspection_systems.py",
       "source_location": "L41",
-      "community": 2,
+      "community": 0,
       "norm_label": "\u9996\u6b21\u542f\u52a8\u628a\u56fa\u5b9a report.json \u5bfc\u5165\u4e3a\u8349\u7a3f,\u91cd\u590d\u542f\u52a8\u4e0d\u4f1a\u8986\u76d6\u7ba1\u7406\u5458\u4fee\u6539\u3002",
       "id": "inspection_systems_rationale_41"
     },
@@ -567,7 +567,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\jobs.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_jobs_py",
-      "community": 3,
+      "community": 5,
       "norm_label": "jobs.py"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\jobs.py",
       "source_location": "L21",
       "id": "jobs_update_job",
-      "community": 3,
+      "community": 5,
       "norm_label": "update_job()"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\jobs.py",
       "source_location": "L32",
       "id": "jobs_process_job",
-      "community": 3,
+      "community": 5,
       "norm_label": "process_job()"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\jobs.py",
       "source_location": "L174",
       "id": "jobs_enqueue_job",
-      "community": 7,
+      "community": 5,
       "norm_label": "enqueue_job()"
     },
     {
@@ -602,7 +602,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\jobs.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u4efb\u52a1\u6267\u884c:\u7ebf\u7a0b\u6c60\u3001\u8fdb\u5ea6\u56de\u5199\u4e0e\u62a5\u544a\u751f\u6210\u7f16\u6392\u3002",
       "id": "jobs_rationale_1"
     },
@@ -612,7 +612,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_log_batches_py",
-      "community": 2,
+      "community": 10,
       "norm_label": "log_batches.py"
     },
     {
@@ -621,7 +621,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L23",
       "id": "log_batches_sha",
-      "community": 2,
+      "community": 10,
       "norm_label": "_sha()"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L26",
       "id": "log_batches_create",
-      "community": 2,
+      "community": 0,
       "norm_label": "create()"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L34",
       "id": "log_batches_row",
-      "community": 2,
+      "community": 10,
       "norm_label": "_row()"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L39",
       "id": "log_batches_save_files",
-      "community": 2,
+      "community": 10,
       "norm_label": "save_files()"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L68",
       "id": "log_batches_index_files",
-      "community": 2,
+      "community": 10,
       "norm_label": "_index_files()"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L77",
       "id": "log_batches_read_text",
-      "community": 2,
+      "community": 10,
       "norm_label": "_read_text()"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L83",
       "id": "log_batches_infer_version",
-      "community": 2,
+      "community": 10,
       "norm_label": "_infer_version()"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L92",
       "id": "log_batches_validate",
-      "community": 2,
+      "community": 10,
       "norm_label": "validate()"
     },
     {
@@ -693,7 +693,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L124",
       "id": "log_batches_get",
-      "community": 2,
+      "community": 10,
       "norm_label": "get()"
     },
     {
@@ -701,7 +701,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\log_batches.py",
       "source_location": "L1",
-      "community": 2,
+      "community": 10,
       "norm_label": "\u65e5\u5fd7\u6279\u6b21\u843d\u76d8\u3001\u6267\u884c\u6e05\u5355\u89e3\u6790\u548c\u4e25\u683c\u5b8c\u6574\u5ea6\u6821\u9a8c\u3002",
       "id": "log_batches_rationale_1"
     },
@@ -711,7 +711,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\mail.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_mail_py",
-      "community": 6,
+      "community": 2,
       "norm_label": "mail.py"
     },
     {
@@ -720,7 +720,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\mail.py",
       "source_location": "L14",
       "id": "mail_extract_date_str",
-      "community": 6,
+      "community": 2,
       "norm_label": "_extract_date_str()"
     },
     {
@@ -729,7 +729,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\mail.py",
       "source_location": "L23",
       "id": "mail_extract_system_short",
-      "community": 6,
+      "community": 2,
       "norm_label": "_extract_system_short()"
     },
     {
@@ -738,7 +738,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\mail.py",
       "source_location": "L45",
       "id": "mail_build_email_subject",
-      "community": 6,
+      "community": 2,
       "norm_label": "build_email_subject()"
     },
     {
@@ -747,7 +747,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\mail.py",
       "source_location": "L61",
       "id": "mail_suggested_recipients_for_file",
-      "community": 6,
+      "community": 2,
       "norm_label": "suggested_recipients_for_file()"
     },
     {
@@ -755,7 +755,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\mail.py",
       "source_location": "L62",
-      "community": 6,
+      "community": 2,
       "norm_label": "\u8be5\u62a5\u544a\u5141\u8bb8\u7684\u6536\u4ef6\u4eba\u96c6\u5408\u3002      \u8fd9\u540c\u65f6\u662f\u53d1\u4fe1\u7aef\u70b9\u7684\u767d\u540d\u5355\u6765\u6e90:\u5ba2\u6237\u7aef\u63d0\u4ea4\u7684\u6536\u4ef6\u4eba\u5fc5\u987b\u662f\u5b83\u7684\u5b50\u96c6,     \u5426\u5219 403\u3002\u524d\u7aef\u7684\u5efa\u8bae\u503c\u4e5f\u6765\u81ea\u8fd9\u91cc,\u4e24\u4fa7\u5171",
       "id": "mail_rationale_62"
     },
@@ -801,7 +801,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\paths.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_paths_py",
-      "community": 6,
+      "community": 1,
       "norm_label": "paths.py"
     },
     {
@@ -819,7 +819,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\paths.py",
       "source_location": "L33",
       "id": "paths_job_report_names",
-      "community": 6,
+      "community": 1,
       "norm_label": "job_report_names()"
     },
     {
@@ -828,7 +828,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\paths.py",
       "source_location": "L38",
       "id": "paths_resolve_job_report_path",
-      "community": 6,
+      "community": 1,
       "norm_label": "resolve_job_report_path()"
     },
     {
@@ -845,7 +845,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\paths.py",
       "source_location": "L1",
-      "community": 6,
+      "community": 1,
       "norm_label": "\u62a5\u544a\u6587\u4ef6\u8def\u5f84\u89e3\u6790\u3002  \u4e24\u4e2a\u89e3\u6790\u5668\u5171\u7528\u540c\u4e00\u5957\u9632\u7ebf:\u53d6 basename \u5f52\u4e00\u5316 \u2192 resolve \u2192 \u6821\u9a8c\u4ecd\u5728\u5141\u8bb8\u7684 \u6839\u76ee\u5f55\u5185 \u2192 \u9650\u5b9a .docx \u540e\u7f00",
       "id": "paths_rationale_1"
     },
@@ -891,7 +891,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_persistence_py",
-      "community": 2,
+      "community": 5,
       "norm_label": "persistence.py"
     },
     {
@@ -900,7 +900,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L14",
       "id": "persistence_remove_job_paths",
-      "community": 2,
+      "community": 5,
       "norm_label": "remove_job_paths()"
     },
     {
@@ -909,7 +909,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L30",
       "id": "persistence_cleanup_expired_data",
-      "community": 2,
+      "community": 5,
       "norm_label": "cleanup_expired_data()"
     },
     {
@@ -918,7 +918,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L59",
       "id": "persistence_recover_incomplete_jobs",
-      "community": 2,
+      "community": 5,
       "norm_label": "recover_incomplete_jobs()"
     },
     {
@@ -927,7 +927,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L77",
       "id": "persistence_summarize_job_stats",
-      "community": 2,
+      "community": 5,
       "norm_label": "summarize_job_stats()"
     },
     {
@@ -936,7 +936,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L110",
       "id": "persistence_list_jobs_page",
-      "community": 2,
+      "community": 5,
       "norm_label": "list_jobs_page()"
     },
     {
@@ -945,7 +945,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L145",
       "id": "persistence_list_admin_users",
-      "community": 2,
+      "community": 5,
       "norm_label": "list_admin_users()"
     },
     {
@@ -954,7 +954,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\persistence.py",
       "source_location": "L152",
       "id": "persistence_list_audits_page",
-      "community": 2,
+      "community": 5,
       "norm_label": "list_audits_page()"
     },
     {
@@ -963,7 +963,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_queries_py",
-      "community": 7,
+      "community": 2,
       "norm_label": "queries.py"
     },
     {
@@ -972,7 +972,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L19",
       "id": "queries_announcement_text",
-      "community": 6,
+      "community": 2,
       "norm_label": "announcement_text()"
     },
     {
@@ -981,7 +981,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L26",
       "id": "queries_get_job",
-      "community": 7,
+      "community": 2,
       "norm_label": "get_job()"
     },
     {
@@ -990,7 +990,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L36",
       "id": "queries_ensure_job_access",
-      "community": 7,
+      "community": 2,
       "norm_label": "ensure_job_access()"
     },
     {
@@ -999,7 +999,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L44",
       "id": "queries_generate_job_id",
-      "community": 7,
+      "community": 5,
       "norm_label": "generate_job_id()"
     },
     {
@@ -1008,7 +1008,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L62",
       "id": "queries_list_jobs_page",
-      "community": 7,
+      "community": 2,
       "norm_label": "list_jobs_page()"
     },
     {
@@ -1017,7 +1017,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L66",
       "id": "queries_rebuild_report_file_index",
-      "community": 7,
+      "community": 2,
       "norm_label": "rebuild_report_file_index()"
     },
     {
@@ -1026,7 +1026,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L70",
       "id": "queries_list_report_date_stats",
-      "community": 7,
+      "community": 2,
       "norm_label": "list_report_date_stats()"
     },
     {
@@ -1035,7 +1035,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L74",
       "id": "queries_list_report_user_stats",
-      "community": 7,
+      "community": 2,
       "norm_label": "list_report_user_stats()"
     },
     {
@@ -1044,7 +1044,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L78",
       "id": "queries_list_report_files_for_user",
-      "community": 7,
+      "community": 2,
       "norm_label": "list_report_files_for_user()"
     },
     {
@@ -1052,7 +1052,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\queries.py",
       "source_location": "L1",
-      "community": 7,
+      "community": 2,
       "norm_label": "\u4efb\u52a1/\u516c\u544a/\u62a5\u544a\u7d22\u5f15\u7684\u76f4\u63a5\u67e5\u8be2\u4e0e\u8bbf\u95ee\u63a7\u5236\u3002",
       "id": "queries_rationale_1"
     },
@@ -1062,7 +1062,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\reports.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_reports_py",
-      "community": 4,
+      "community": 5,
       "norm_label": "reports.py"
     },
     {
@@ -1071,7 +1071,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\reports.py",
       "source_location": "L13",
       "id": "reports_format_file_size",
-      "community": 4,
+      "community": 5,
       "norm_label": "format_file_size()"
     },
     {
@@ -1080,7 +1080,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\reports.py",
       "source_location": "L22",
       "id": "reports_sync_job_report_files",
-      "community": 4,
+      "community": 5,
       "norm_label": "sync_job_report_files()"
     },
     {
@@ -1089,7 +1089,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\reports.py",
       "source_location": "L65",
       "id": "reports_rebuild_report_file_index",
-      "community": 4,
+      "community": 5,
       "norm_label": "rebuild_report_file_index()"
     },
     {
@@ -1098,7 +1098,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\reports.py",
       "source_location": "L93",
       "id": "reports_list_report_date_stats",
-      "community": 4,
+      "community": 0,
       "norm_label": "list_report_date_stats()"
     },
     {
@@ -1107,7 +1107,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\reports.py",
       "source_location": "L107",
       "id": "reports_list_report_user_stats",
-      "community": 4,
+      "community": 0,
       "norm_label": "list_report_user_stats()"
     },
     {
@@ -1116,7 +1116,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\reports.py",
       "source_location": "L123",
       "id": "reports_list_report_files_for_user",
-      "community": 4,
+      "community": 5,
       "norm_label": "list_report_files_for_user()"
     },
     {
@@ -1125,7 +1125,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\security.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_security_py",
-      "community": 0,
+      "community": 6,
       "norm_label": "security.py"
     },
     {
@@ -1134,7 +1134,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\security.py",
       "source_location": "L14",
       "id": "security_hash_password",
-      "community": 0,
+      "community": 6,
       "norm_label": "hash_password()"
     },
     {
@@ -1143,7 +1143,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\security.py",
       "source_location": "L20",
       "id": "security_verify_password",
-      "community": 0,
+      "community": 6,
       "norm_label": "verify_password()"
     },
     {
@@ -1152,7 +1152,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\security.py",
       "source_location": "L26",
       "id": "security_hash_token",
-      "community": 0,
+      "community": 6,
       "norm_label": "hash_token()"
     },
     {
@@ -1161,7 +1161,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\security.py",
       "source_location": "L30",
       "id": "security_new_session_token",
-      "community": 0,
+      "community": 6,
       "norm_label": "new_session_token()"
     },
     {
@@ -1170,7 +1170,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\security.py",
       "source_location": "L34",
       "id": "security_client_ip",
-      "community": 0,
+      "community": 6,
       "norm_label": "client_ip()"
     },
     {
@@ -1178,7 +1178,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\security.py",
       "source_location": "L35",
-      "community": 0,
+      "community": 6,
       "norm_label": "\u53d6\u771f\u5b9e\u5ba2\u6237\u7aef ip\u3002      \u5bb9\u5668\u524d\u9762\u662f nginx + docker-proxy,\u76f4\u8fde\u5bf9\u7aef\u662f\u7f51\u6865\u7f51\u5173,\u6240\u4ee5\u5fc5\u987b\u8bfb     x-forwarded-fo",
       "id": "security_rationale_35"
     },
@@ -1188,7 +1188,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\serializers.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_serializers_py",
-      "community": 7,
+      "community": 2,
       "norm_label": "serializers.py"
     },
     {
@@ -1197,7 +1197,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\serializers.py",
       "source_location": "L13",
       "id": "serializers_status_label",
-      "community": 7,
+      "community": 2,
       "norm_label": "status_label()"
     },
     {
@@ -1206,7 +1206,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\serializers.py",
       "source_location": "L17",
       "id": "serializers_clamp_progress",
-      "community": 7,
+      "community": 2,
       "norm_label": "clamp_progress()"
     },
     {
@@ -1215,7 +1215,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\serializers.py",
       "source_location": "L23",
       "id": "serializers_timeline_steps",
-      "community": 7,
+      "community": 2,
       "norm_label": "timeline_steps()"
     },
     {
@@ -1224,7 +1224,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\serializers.py",
       "source_location": "L45",
       "id": "serializers_serialize_job",
-      "community": 7,
+      "community": 2,
       "norm_label": "serialize_job()"
     },
     {
@@ -1233,7 +1233,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\serializers.py",
       "source_location": "L79",
       "id": "serializers_serialize_user",
-      "community": 0,
+      "community": 6,
       "norm_label": "serialize_user()"
     },
     {
@@ -1323,7 +1323,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\storage.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_storage_py",
-      "community": 3,
+      "community": 5,
       "norm_label": "storage.py"
     },
     {
@@ -1332,7 +1332,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\storage.py",
       "source_location": "L13",
       "id": "storage_delete_job_storage",
-      "community": 3,
+      "community": 5,
       "norm_label": "delete_job_storage()"
     },
     {
@@ -1341,7 +1341,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\storage.py",
       "source_location": "L36",
       "id": "storage_remove_legacy_recent_logs_cache",
-      "community": 3,
+      "community": 5,
       "norm_label": "remove_legacy_recent_logs_cache()"
     },
     {
@@ -1350,7 +1350,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\storage.py",
       "source_location": "L47",
       "id": "storage_create_bundle",
-      "community": 3,
+      "community": 5,
       "norm_label": "create_bundle()"
     },
     {
@@ -1358,7 +1358,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\storage.py",
       "source_location": "L37",
-      "community": 3,
+      "community": 5,
       "norm_label": "\u5220\u6389\u65e9\u671f\u7248\u672c\u7559\u4e0b\u7684 _recent_logs \u7f13\u5b58\u3002      \u90a3\u4efd\u7f13\u5b58\u6bcf\u6b21\u4e0a\u4f20\u90fd\u628a prepared/ \u6574\u68f5\u590d\u5236\u4e00\u904d,\u5374\u6ca1\u6709\u4efb\u4f55\u8bfb\u53d6\u65b9,     \u7b49\u4e8e\u8ba9",
       "id": "storage_rationale_37"
     },
@@ -1368,7 +1368,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_uploads_py",
-      "community": 11,
+      "community": 10,
       "norm_label": "uploads.py"
     },
     {
@@ -1377,7 +1377,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L20",
       "id": "uploads_sanitize_member_name",
-      "community": 11,
+      "community": 10,
       "norm_label": "sanitize_member_name()"
     },
     {
@@ -1386,7 +1386,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L27",
       "id": "uploads_extract_zip_safe",
-      "community": 11,
+      "community": 10,
       "norm_label": "extract_zip_safe()"
     },
     {
@@ -1395,7 +1395,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L51",
       "id": "uploads_is_supported_upload",
-      "community": 11,
+      "community": 10,
       "norm_label": "is_supported_upload()"
     },
     {
@@ -1404,7 +1404,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L55",
       "id": "uploads_infer_system_dir_from_log_name",
-      "community": 11,
+      "community": 10,
       "norm_label": "infer_system_dir_from_log_name()"
     },
     {
@@ -1413,7 +1413,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L63",
       "id": "uploads_copy_uploaded_logs",
-      "community": 11,
+      "community": 10,
       "norm_label": "copy_uploaded_logs()"
     },
     {
@@ -1422,7 +1422,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L87",
       "id": "uploads_detect_log_root",
-      "community": 11,
+      "community": 10,
       "norm_label": "detect_log_root()"
     },
     {
@@ -1431,7 +1431,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\uploads.py",
       "source_location": "L99",
       "id": "uploads_save_uploads",
-      "community": 11,
+      "community": 10,
       "norm_label": "save_uploads()"
     },
     {
@@ -1440,7 +1440,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_upload_sessions_py",
-      "community": 5,
+      "community": 4,
       "norm_label": "upload_sessions.py"
     },
     {
@@ -1449,7 +1449,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L32",
       "id": "upload_sessions_staging_root",
-      "community": 5,
+      "community": 4,
       "norm_label": "staging_root()"
     },
     {
@@ -1458,7 +1458,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L36",
       "id": "upload_sessions_new_upload_id",
-      "community": 5,
+      "community": 4,
       "norm_label": "new_upload_id()"
     },
     {
@@ -1467,7 +1467,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L41",
       "id": "upload_sessions_uploadpreview",
-      "community": 5,
+      "community": 4,
       "norm_label": "uploadpreview"
     },
     {
@@ -1476,7 +1476,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L49",
       "id": "upload_sessions_uploadpreview_to_payload",
-      "community": 5,
+      "community": 4,
       "norm_label": ".to_payload()"
     },
     {
@@ -1485,7 +1485,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L71",
       "id": "upload_sessions_output_name_template",
-      "community": 5,
+      "community": 4,
       "norm_label": "output_name_template()"
     },
     {
@@ -1494,7 +1494,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L81",
       "id": "upload_sessions_infer_report_date",
-      "community": 5,
+      "community": 4,
       "norm_label": "infer_report_date()"
     },
     {
@@ -1503,7 +1503,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L99",
       "id": "upload_sessions_analyze",
-      "community": 5,
+      "community": 4,
       "norm_label": "analyze()"
     },
     {
@@ -1512,7 +1512,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L115",
       "id": "upload_sessions_create",
-      "community": 5,
+      "community": 4,
       "norm_label": "create()"
     },
     {
@@ -1530,7 +1530,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L147",
       "id": "upload_sessions_is_expired",
-      "community": 5,
+      "community": 4,
       "norm_label": "is_expired()"
     },
     {
@@ -1539,7 +1539,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L151",
       "id": "upload_sessions_drop",
-      "community": 5,
+      "community": 4,
       "norm_label": "drop()"
     },
     {
@@ -1548,7 +1548,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L162",
       "id": "upload_sessions_remove_session_dir",
-      "community": 5,
+      "community": 4,
       "norm_label": "_remove_session_dir()"
     },
     {
@@ -1557,7 +1557,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L170",
       "id": "upload_sessions_promote",
-      "community": 5,
+      "community": 4,
       "norm_label": "promote()"
     },
     {
@@ -1566,7 +1566,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L186",
       "id": "upload_sessions_collect_garbage",
-      "community": 5,
+      "community": 4,
       "norm_label": "collect_garbage()"
     },
     {
@@ -1574,7 +1574,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L1",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u4e0a\u4f20\u6682\u5b58\u4f1a\u8bdd\u3002  \u4e0a\u4f20\u4e0e\u5efa\u4efb\u52a1\u5206\u6210\u4e24\u6b65:\u5148\u843d\u5230 staging \u76ee\u5f55\u5e76\u89e3\u6790\u51fa\u9010\u7cfb\u7edf\u5b8c\u6574\u5ea6,\u7528\u6237 \u786e\u8ba4\u8981\u751f\u6210\u54ea\u4e9b\u7cfb\u7edf\u3001\u62a5\u544a\u65e5\u671f\u662f\u54ea\u5929\u4e4b\u540e,\u518d\u5efa job\u3002",
       "id": "upload_sessions_rationale_1"
     },
@@ -1583,7 +1583,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L72",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u62a5\u544a\u6587\u4ef6\u540d\u6a21\u677f,{date} \u7531\u524d\u7aef\u66ff\u6362\u3002      \u547d\u540d\u89c4\u5219\u7684\u771f\u76f8\u5728 core/report_service.process_system;\u524d\u7aef\u4e0d\u8981\u590d\u523b,",
       "id": "upload_sessions_rationale_72"
     },
@@ -1592,7 +1592,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L82",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u4ece\u65e5\u5fd7\u76ee\u5f55\u540d\u63a8\u65ad\u62a5\u544a\u65e5\u671f\u3002      \u5de1\u68c0\u65e5\u5fd7\u7edd\u5927\u591a\u6570\u662f\u8dd1\u524d\u4e00\u65e5\u7684,\u6240\u4ee5\u63a8\u65ad\u4e0d\u51fa\u6765\u65f6\u9ed8\u8ba4\u6628\u5929\u800c\u4e0d\u662f\u4eca\u5929\u3002",
       "id": "upload_sessions_rationale_82"
     },
@@ -1601,7 +1601,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L163",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u56de\u6eaf\u5230 _staging/<upload_id> \u6574\u4f53\u5220\u9664,\u5e26\u53cc\u91cd\u6821\u9a8c\u907f\u514d\u8bef\u5220\u3002",
       "id": "upload_sessions_rationale_163"
     },
@@ -1610,7 +1610,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\upload_sessions.py",
       "source_location": "L171",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u628a staging \u76ee\u5f55\u8f6c\u6210\u4efb\u52a1\u76ee\u5f55\u3002      \u540c\u4e00\u4e2a\u6570\u636e\u5377\u5185 os.replace \u662f\u539f\u5b50 rename\u3001\u96f6\u62f7\u8d1d;\u8f6c\u6b63\u540e\u78c1\u76d8\u5e03\u5c40\u4e0e     \u76f4\u63a5\u4e0a\u4f20\u5b8c",
       "id": "upload_sessions_rationale_171"
     },
@@ -1764,7 +1764,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\auth.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_routes_auth_py",
-      "community": 0,
+      "community": 6,
       "norm_label": "auth.py"
     },
     {
@@ -1773,7 +1773,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\auth.py",
       "source_location": "L30",
       "id": "auth_api_login",
-      "community": 0,
+      "community": 6,
       "norm_label": "api_login()"
     },
     {
@@ -1782,7 +1782,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\auth.py",
       "source_location": "L53",
       "id": "auth_api_logout",
-      "community": 0,
+      "community": 6,
       "norm_label": "api_logout()"
     },
     {
@@ -1791,7 +1791,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\auth.py",
       "source_location": "L66",
       "id": "auth_api_me",
-      "community": 0,
+      "community": 6,
       "norm_label": "api_me()"
     },
     {
@@ -1800,7 +1800,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\email.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_routes_email_py",
-      "community": 6,
+      "community": 2,
       "norm_label": "email.py"
     },
     {
@@ -1809,7 +1809,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\email.py",
       "source_location": "L38",
       "id": "email_job_recipients",
-      "community": 6,
+      "community": 2,
       "norm_label": "_job_recipients()"
     },
     {
@@ -1818,7 +1818,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\email.py",
       "source_location": "L47",
       "id": "email_api_job_email_suggestions",
-      "community": 6,
+      "community": 2,
       "norm_label": "api_job_email_suggestions()"
     },
     {
@@ -1827,7 +1827,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\email.py",
       "source_location": "L58",
       "id": "email_api_send_email",
-      "community": 6,
+      "community": 2,
       "norm_label": "api_send_email()"
     },
     {
@@ -1835,7 +1835,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\email.py",
       "source_location": "L1",
-      "community": 6,
+      "community": 2,
       "norm_label": "\u62a5\u544a\u90ae\u4ef6\u53d1\u9001\u3002  \u4e24\u9053\u5b89\u5168\u7ea6\u675f\u5728\u8fd9\u91cc\u6c47\u5408,\u6539\u52a8\u65f6\u52a1\u5fc5\u4fdd\u7559:   1. \u9644\u4ef6\u8def\u5f84\u5fc5\u987b\u6765\u81ea generated_files \u767d\u540d\u5355(resolve_job_r",
       "id": "email_rationale_1"
     },
@@ -1881,7 +1881,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\inspection.py",
       "source_location": "L39",
       "id": "inspection_get_draft",
-      "community": 2,
+      "community": 0,
       "norm_label": "get_draft()"
     },
     {
@@ -1926,7 +1926,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\inspection.py",
       "source_location": "L77",
       "id": "inspection_validate_system_draft",
-      "community": 2,
+      "community": 0,
       "norm_label": "validate_system_draft()"
     },
     {
@@ -1935,7 +1935,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\inspection.py",
       "source_location": "L103",
       "id": "inspection_publish_system_draft",
-      "community": 2,
+      "community": 0,
       "norm_label": "publish_system_draft()"
     },
     {
@@ -1980,7 +1980,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\inspection.py",
       "source_location": "L125",
       "id": "inspection_get_log_batch",
-      "community": 0,
+      "community": 2,
       "norm_label": "get_log_batch()"
     },
     {
@@ -1989,7 +1989,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_routes_jobs_py",
-      "community": 7,
+      "community": 2,
       "norm_label": "jobs.py"
     },
     {
@@ -1998,7 +1998,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L32",
       "id": "jobs_api_jobs",
-      "community": 7,
+      "community": 2,
       "norm_label": "api_jobs()"
     },
     {
@@ -2007,7 +2007,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L48",
       "id": "jobs_api_create_job",
-      "community": 7,
+      "community": 5,
       "norm_label": "api_create_job()"
     },
     {
@@ -2016,7 +2016,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L133",
       "id": "jobs_create_versioned_job",
-      "community": 7,
+      "community": 5,
       "norm_label": "_create_versioned_job()"
     },
     {
@@ -2025,7 +2025,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L191",
       "id": "jobs_api_job_detail",
-      "community": 7,
+      "community": 2,
       "norm_label": "api_job_detail()"
     },
     {
@@ -2034,7 +2034,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L198",
       "id": "jobs_api_download_job",
-      "community": 7,
+      "community": 2,
       "norm_label": "api_download_job()"
     },
     {
@@ -2043,7 +2043,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L211",
       "id": "jobs_api_download_job_file",
-      "community": 7,
+      "community": 2,
       "norm_label": "api_download_job_file()"
     },
     {
@@ -2051,7 +2051,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L49",
-      "community": 7,
+      "community": 5,
       "norm_label": "\u7531\u4e00\u4e2a\u5df2\u89e3\u6790\u7684\u4e0a\u4f20\u4f1a\u8bdd\u521b\u5efa\u4efb\u52a1\u3002      \u4e0a\u4f20\u672c\u8eab\u8d70 post /uploads;\u8fd9\u91cc\u53ea\u6d88\u8d39 upload_id,\u5e76\u63a5\u53d7\u7528\u6237\u5728\u9884\u89c8\u754c\u9762     \u9009\u5b9a\u7684\u7cfb",
       "id": "jobs_rationale_49"
     },
@@ -2060,7 +2060,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\jobs.py",
       "source_location": "L134",
-      "community": 7,
+      "community": 5,
       "norm_label": "\u7531\u4e00\u4e2a\u6216\u591a\u4e2a\u5df2\u9a8c\u8bc1\u65e5\u5fd7\u6279\u6b21\u521b\u5efa\u9501\u5b9a\u7248\u672c\u7684\u4efb\u52a1\u3002",
       "id": "jobs_rationale_134"
     },
@@ -2070,7 +2070,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_routes_legacy_py",
-      "community": 10,
+      "community": 6,
       "norm_label": "legacy.py"
     },
     {
@@ -2079,7 +2079,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L19",
       "id": "legacy_spa_redirect",
-      "community": 10,
+      "community": 6,
       "norm_label": "spa_redirect()"
     },
     {
@@ -2088,7 +2088,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L24",
       "id": "legacy_home",
-      "community": 10,
+      "community": 6,
       "norm_label": "home()"
     },
     {
@@ -2097,7 +2097,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L30",
       "id": "legacy_login_page",
-      "community": 10,
+      "community": 6,
       "norm_label": "login_page()"
     },
     {
@@ -2106,7 +2106,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L35",
       "id": "legacy_legacy_login_redirect",
-      "community": 10,
+      "community": 6,
       "norm_label": "legacy_login_redirect()"
     },
     {
@@ -2115,7 +2115,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L40",
       "id": "legacy_logout_page",
-      "community": 10,
+      "community": 6,
       "norm_label": "logout_page()"
     },
     {
@@ -2124,7 +2124,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L45",
       "id": "legacy_legacy_logout_redirect",
-      "community": 10,
+      "community": 6,
       "norm_label": "legacy_logout_redirect()"
     },
     {
@@ -2133,7 +2133,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L55",
       "id": "legacy_dashboard_redirect",
-      "community": 10,
+      "community": 6,
       "norm_label": "dashboard_redirect()"
     },
     {
@@ -2142,7 +2142,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L60",
       "id": "legacy_upload_redirect",
-      "community": 10,
+      "community": 6,
       "norm_label": "upload_redirect()"
     },
     {
@@ -2151,7 +2151,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L65",
       "id": "legacy_job_detail_redirect",
-      "community": 10,
+      "community": 6,
       "norm_label": "job_detail_redirect()"
     },
     {
@@ -2160,7 +2160,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L70",
       "id": "legacy_admin_redirect",
-      "community": 10,
+      "community": 6,
       "norm_label": "admin_redirect()"
     },
     {
@@ -2168,7 +2168,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\legacy.py",
       "source_location": "L1",
-      "community": 10,
+      "community": 6,
       "norm_label": "spa \u4e4b\u524d\u7684\u65e7\u5165\u53e3,\u4ec5\u505a 302 \u8df3\u8f6c\u3002  \u524d\u7aef\u5df2\u662f\u6302\u5728 /app/ \u4e0b\u7684 spa,\u5168\u4ed3\u65e0\u4efb\u4f55\u4ee3\u7801\u5f15\u7528\u8fd9\u4e9b\u8def\u5f84,\u5b83\u4eec\u53ea\u4e3a \u8001\u4e66\u7b7e\u515c\u5e95\u3002phase 6 \u8ba1",
       "id": "legacy_rationale_1"
     },
@@ -2178,7 +2178,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\meta.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_routes_meta_py",
-      "community": 6,
+      "community": 2,
       "norm_label": "meta.py"
     },
     {
@@ -2187,7 +2187,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\meta.py",
       "source_location": "L20",
       "id": "meta_api_announcements",
-      "community": 6,
+      "community": 2,
       "norm_label": "api_announcements()"
     },
     {
@@ -2196,7 +2196,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\meta.py",
       "source_location": "L26",
       "id": "meta_api_email_config",
-      "community": 6,
+      "community": 2,
       "norm_label": "api_email_config()"
     },
     {
@@ -2205,7 +2205,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\meta.py",
       "source_location": "L33",
       "id": "meta_api_systems",
-      "community": 5,
+      "community": 4,
       "norm_label": "api_systems()"
     },
     {
@@ -2214,7 +2214,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\meta.py",
       "source_location": "L54",
       "id": "meta_api_health",
-      "community": 2,
+      "community": 0,
       "norm_label": "api_health()"
     },
     {
@@ -2222,7 +2222,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\meta.py",
       "source_location": "L34",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u53ef\u751f\u6210\u7684\u7cfb\u7edf\u6e05\u5355(\u5bf9\u5e94\u65e7 cli \u7684 --list)\u3002",
       "id": "meta_rationale_34"
     },
@@ -2232,7 +2232,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\uploads.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_backend_routes_uploads_py",
-      "community": 5,
+      "community": 4,
       "norm_label": "uploads.py"
     },
     {
@@ -2241,7 +2241,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\uploads.py",
       "source_location": "L19",
       "id": "uploads_api_create_upload",
-      "community": 5,
+      "community": 4,
       "norm_label": "api_create_upload()"
     },
     {
@@ -2250,7 +2250,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\uploads.py",
       "source_location": "L44",
       "id": "uploads_api_get_upload",
-      "community": 5,
+      "community": 4,
       "norm_label": "api_get_upload()"
     },
     {
@@ -2259,7 +2259,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\backend\\routes\\uploads.py",
       "source_location": "L57",
       "id": "uploads_api_delete_upload",
-      "community": 5,
+      "community": 4,
       "norm_label": "api_delete_upload()"
     },
     {
@@ -2277,7 +2277,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_core_docx_engine_py",
-      "community": 9,
+      "community": 7,
       "norm_label": "docx_engine.py"
     },
     {
@@ -2286,7 +2286,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L18",
       "id": "docx_engine_normalize",
-      "community": 9,
+      "community": 7,
       "norm_label": "normalize()"
     },
     {
@@ -2295,7 +2295,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L55",
       "id": "docx_engine_strip_command_prefix",
-      "community": 9,
+      "community": 7,
       "norm_label": "_strip_command_prefix()"
     },
     {
@@ -2304,7 +2304,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L62",
       "id": "docx_engine_get_command_family",
-      "community": 9,
+      "community": 7,
       "norm_label": "_get_command_family()"
     },
     {
@@ -2313,7 +2313,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L70",
       "id": "docx_engine_collect_family_outputs",
-      "community": 9,
+      "community": 7,
       "norm_label": "_collect_family_outputs()"
     },
     {
@@ -2322,7 +2322,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L91",
       "id": "docx_engine_pick_best_command",
-      "community": 9,
+      "community": 7,
       "norm_label": "_pick_best_command()"
     },
     {
@@ -2331,7 +2331,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L98",
       "id": "docx_engine_format_command_output",
-      "community": 9,
+      "community": 7,
       "norm_label": "_format_command_output()"
     },
     {
@@ -2340,7 +2340,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L103",
       "id": "docx_engine_find_keyword_match",
-      "community": 9,
+      "community": 7,
       "norm_label": "_find_keyword_match()"
     },
     {
@@ -2349,7 +2349,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L118",
       "id": "docx_engine_find_alias_match",
-      "community": 9,
+      "community": 7,
       "norm_label": "_find_alias_match()"
     },
     {
@@ -2358,7 +2358,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L135",
       "id": "docx_engine_is_intelligent_net_special_device",
-      "community": 9,
+      "community": 7,
       "norm_label": "_is_intelligent_net_special_device()"
     },
     {
@@ -2367,7 +2367,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L143",
       "id": "docx_engine_find_intelligent_net_special_match",
-      "community": 9,
+      "community": 7,
       "norm_label": "_find_intelligent_net_special_match()"
     },
     {
@@ -2376,7 +2376,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L190",
       "id": "docx_engine_is_command_output_valid",
-      "community": 9,
+      "community": 7,
       "norm_label": "_is_command_output_valid()"
     },
     {
@@ -2385,7 +2385,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L196",
       "id": "docx_engine_parse_sections",
-      "community": 9,
+      "community": 7,
       "norm_label": "parse_sections()"
     },
     {
@@ -2394,7 +2394,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L215",
       "id": "docx_engine_set_cell_text",
-      "community": 3,
+      "community": 7,
       "norm_label": "set_cell_text()"
     },
     {
@@ -2403,7 +2403,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L232",
       "id": "docx_engine_select_command_output",
-      "community": 9,
+      "community": 7,
       "norm_label": "select_command_output()"
     },
     {
@@ -2411,7 +2411,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\docx_engine.py",
       "source_location": "L216",
-      "community": 3,
+      "community": 7,
       "norm_label": "\u6781\u81f4\u586b\u5145:\u4fdd\u7559\u6837\u5f0f\u7684\u540c\u65f6\u6700\u5c0f\u5316 xml \u64cd\u4f5c",
       "id": "docx_engine_rationale_216"
     },
@@ -2421,7 +2421,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "inspection_docx.py"
     },
     {
@@ -2430,7 +2430,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
       "source_location": "L22",
       "id": "inspection_docx_inspect_docx_security",
-      "community": 4,
+      "community": 3,
       "norm_label": "inspect_docx_security()"
     },
     {
@@ -2439,7 +2439,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
       "source_location": "L40",
       "id": "inspection_docx_validate_read_only_command",
-      "community": 4,
+      "community": 3,
       "norm_label": "validate_read_only_command()"
     },
     {
@@ -2448,52 +2448,70 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
       "source_location": "L49",
       "id": "inspection_docx_parse_template",
-      "community": 4,
+      "community": 3,
       "norm_label": "parse_template()"
+    },
+    {
+      "label": "_find_command_columns()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L82",
+      "id": "inspection_docx_find_command_columns",
+      "community": 3,
+      "norm_label": "_find_command_columns()"
+    },
+    {
+      "label": "_extract_labeled_value()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L105",
+      "id": "inspection_docx_extract_labeled_value",
+      "community": 3,
+      "norm_label": "_extract_labeled_value()"
     },
     {
       "label": "_extract_name()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L73",
+      "source_location": "L115",
       "id": "inspection_docx_extract_name",
-      "community": 4,
+      "community": 3,
       "norm_label": "_extract_name()"
     },
     {
       "label": "_guess_driver()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L79",
+      "source_location": "L121",
       "id": "inspection_docx_guess_driver",
-      "community": 4,
+      "community": 3,
       "norm_label": "_guess_driver()"
     },
     {
       "label": "validate_snapshot()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L82",
+      "source_location": "L124",
       "id": "inspection_docx_validate_snapshot",
-      "community": 2,
+      "community": 0,
       "norm_label": "validate_snapshot()"
     },
     {
       "label": "merge_incremental_template()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L121",
+      "source_location": "L163",
       "id": "inspection_docx_merge_incremental_template",
-      "community": 4,
+      "community": 3,
       "norm_label": "merge_incremental_template()"
     },
     {
       "label": "shift_table_mappings()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L135",
+      "source_location": "L177",
       "id": "inspection_docx_shift_table_mappings",
-      "community": 4,
+      "community": 3,
       "norm_label": "shift_table_mappings()"
     },
     {
@@ -2501,18 +2519,27 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "\u5de1\u68c0 docx \u7684\u79bb\u7ebf\u7ed3\u6784\u63d0\u53d6\u4e0e\u5b89\u5168\u68c0\u67e5\u3002",
       "id": "inspection_docx_rationale_1"
+    },
+    {
+      "label": "\u8fd4\u56de\u547d\u4ee4\u8868\u5934\u884c\u53ca\u547d\u4ee4\u3001\u7ed3\u679c\u5217\uff0c\u517c\u5bb9\u4e0d\u540c\u6a21\u677f\u7684\u5217\u987a\u5e8f\u3002",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L83",
+      "id": "inspection_docx_rationale_83",
+      "community": 3,
+      "norm_label": "\u8fd4\u56de\u547d\u4ee4\u8868\u5934\u884c\u53ca\u547d\u4ee4\u3001\u7ed3\u679c\u5217,\u517c\u5bb9\u4e0d\u540c\u6a21\u677f\u7684\u5217\u987a\u5e8f\u3002"
     },
     {
       "label": "\u628a\u589e\u91cf\u6587\u6863\u4e2d\u7684\u8bbe\u5907\u8868\u683c\u8ffd\u52a0\u5230\u65e7\u6a21\u677f\uff0c\u4fdd\u7559\u539f\u8868\u683c OOXML \u4e0e\u6837\u5f0f\u3002",
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L122",
-      "community": 4,
-      "norm_label": "\u628a\u589e\u91cf\u6587\u6863\u4e2d\u7684\u8bbe\u5907\u8868\u683c\u8ffd\u52a0\u5230\u65e7\u6a21\u677f,\u4fdd\u7559\u539f\u8868\u683c ooxml \u4e0e\u6837\u5f0f\u3002",
-      "id": "inspection_docx_rationale_122"
+      "source_location": "L164",
+      "id": "inspection_docx_rationale_164",
+      "community": 3,
+      "norm_label": "\u628a\u589e\u91cf\u6587\u6863\u4e2d\u7684\u8bbe\u5907\u8868\u683c\u8ffd\u52a0\u5230\u65e7\u6a21\u677f,\u4fdd\u7559\u539f\u8868\u683c ooxml \u4e0e\u6837\u5f0f\u3002"
     },
     {
       "label": "log_layout.py",
@@ -2520,7 +2547,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_core_log_layout_py",
-      "community": 5,
+      "community": 4,
       "norm_label": "log_layout.py"
     },
     {
@@ -2529,7 +2556,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L14",
       "id": "log_layout_system_dir_candidates",
-      "community": 5,
+      "community": 4,
       "norm_label": "system_dir_candidates()"
     },
     {
@@ -2538,7 +2565,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L25",
       "id": "log_layout_resolve_system_log_dir",
-      "community": 5,
+      "community": 4,
       "norm_label": "resolve_system_log_dir()"
     },
     {
@@ -2547,7 +2574,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L33",
       "id": "log_layout_iter_system_logs",
-      "community": 5,
+      "community": 4,
       "norm_label": "iter_system_logs()"
     },
     {
@@ -2556,7 +2583,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L46",
       "id": "log_layout_systemstat",
-      "community": 5,
+      "community": 4,
       "norm_label": "systemstat"
     },
     {
@@ -2565,7 +2592,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L54",
       "id": "log_layout_missing",
-      "community": 5,
+      "community": 4,
       "norm_label": "missing()"
     },
     {
@@ -2574,7 +2601,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L58",
       "id": "log_layout_preview_system_stats",
-      "community": 5,
+      "community": 4,
       "norm_label": "preview_system_stats()"
     },
     {
@@ -2583,7 +2610,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L81",
       "id": "log_layout_detect_log_root",
-      "community": 5,
+      "community": 4,
       "norm_label": "detect_log_root()"
     },
     {
@@ -2591,7 +2618,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L1",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u65e5\u5fd7\u76ee\u5f55\u5e03\u5c40\u8bc6\u522b\u4e0e\u5b8c\u6574\u5ea6\u7edf\u8ba1\u3002  \u9884\u89c8\u4e0e\u751f\u6210**\u5fc5\u987b**\u5171\u7528\u8fd9\u91cc\u7684\u76ee\u5f55\u89e3\u6790\u548c\u65e5\u5fd7\u7b5b\u9009,\u5426\u5219\u9884\u89c8\u62a5\u51fa\u7684 \"gprs 12/15\" \u4e0e\u751f\u6210\u65f6\u5b9e\u9645\u8bfb\u5230\u7684\u6587\u4ef6\u4e0d\u662f",
       "id": "log_layout_rationale_1"
     },
@@ -2600,7 +2627,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L15",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u4e00\u4e2a\u7cfb\u7edf\u53ef\u80fd\u5bf9\u5e94\u7684\u76ee\u5f55\u540d\u3002      \u914d\u7f6e\u91cc\u952e\u662f nm1/nm2/nm3,\u800c\u73b0\u573a\u76ee\u5f55\u5e38\u5199\u6210 netmgmt1 \u7b49\u3002",
       "id": "log_layout_rationale_15"
     },
@@ -2609,7 +2636,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L34",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u8be5\u7cfb\u7edf\u76ee\u5f55\u4e0b\u53c2\u4e0e\u751f\u6210\u7684\u65e5\u5fd7\u6587\u4ef6\u3002      summary \u6587\u4ef6\u4e0d\u662f\u8bbe\u5907\u65e5\u5fd7,\u751f\u6210\u65f6\u4f1a\u8df3\u8fc7,\u7edf\u8ba1\u65f6\u4e5f\u5fc5\u987b\u8df3\u8fc7\u2014\u2014\u5426\u5219     \u9884\u89c8\u7684\"\u5b9e\u5230\"\u4f1a\u6bd4\u5b9e\u9645\u53c2\u4e0e\u5339",
       "id": "log_layout_rationale_34"
     },
@@ -2618,7 +2645,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L59",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u9010\u7cfb\u7edf\u7edf\u8ba1\u5b9e\u5230/\u5e94\u5230\u8bbe\u5907\u6570\u3002      expected \u53d6\u914d\u7f6e\u91cc\u7684 hosts \u6570\u91cf;nm1-3 \u6ca1\u6709 hosts \u6e05\u5355,\u6b64\u65f6\u56de\u843d\u4e3a     \u5b9e\u5230\u6570(\u5b8c",
       "id": "log_layout_rationale_59"
     },
@@ -2627,7 +2654,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\log_layout.py",
       "source_location": "L82",
-      "community": 5,
+      "community": 4,
       "norm_label": "\u5728\u4e0a\u4f20\u89e3\u538b\u540e\u7684\u76ee\u5f55\u91cc\u627e\u51fa\u771f\u6b63\u7684\u65e5\u5fd7\u6839\u3002      \u5148\u770b base \u81ea\u8eab\u4e0e\u5176\u76f4\u63a5\u5b50\u76ee\u5f55\u91cc\u662f\u5426\u542b\u7cfb\u7edf\u76ee\u5f55;\u90fd\u6ca1\u6709\u65f6\u56de\u9000\u5230\u5f62\u4f3c     \u65e5\u671f\u7684\u76ee\u5f55,\u53d6**\u6700\u65b0*",
       "id": "log_layout_rationale_82"
     },
@@ -2637,7 +2664,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_core_report_service_py",
-      "community": 3,
+      "community": 7,
       "norm_label": "report_service.py"
     },
     {
@@ -2646,7 +2673,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L85",
       "id": "report_service_reportpaths",
-      "community": 3,
+      "community": 9,
       "norm_label": "reportpaths"
     },
     {
@@ -2655,7 +2682,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L94",
       "id": "report_service_generationsummary",
-      "community": 3,
+      "community": 7,
       "norm_label": "generationsummary"
     },
     {
@@ -2664,7 +2691,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L102",
       "id": "report_service_logobject",
-      "community": 9,
+      "community": 7,
       "norm_label": "logobject"
     },
     {
@@ -2673,7 +2700,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L103",
       "id": "report_service_logobject_init",
-      "community": 9,
+      "community": 7,
       "norm_label": ".__init__()"
     },
     {
@@ -2682,7 +2709,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L126",
       "id": "report_service_logobject_read_safe",
-      "community": 9,
+      "community": 7,
       "norm_label": "._read_safe()"
     },
     {
@@ -2691,7 +2718,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L142",
       "id": "report_service_default_paths",
-      "community": 3,
+      "community": 9,
       "norm_label": "default_paths()"
     },
     {
@@ -2700,7 +2727,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L154",
       "id": "report_service_load_config",
-      "community": 5,
+      "community": 4,
       "norm_label": "load_config()"
     },
     {
@@ -2709,7 +2736,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L159",
       "id": "report_service_find_latest_log_dir",
-      "community": 3,
+      "community": 7,
       "norm_label": "find_latest_log_dir()"
     },
     {
@@ -2718,7 +2745,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L166",
       "id": "report_service_find_section_output",
-      "community": 3,
+      "community": 7,
       "norm_label": "find_section_output()"
     },
     {
@@ -2727,7 +2754,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L175",
       "id": "report_service_resolve_room_environment_status",
-      "community": 3,
+      "community": 7,
       "norm_label": "resolve_room_environment_status()"
     },
     {
@@ -2736,7 +2763,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L228",
       "id": "report_service_safe_update_paragraph",
-      "community": 3,
+      "community": 7,
       "norm_label": "safe_update_paragraph()"
     },
     {
@@ -2745,7 +2772,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L237",
       "id": "report_service_remove_paragraph",
-      "community": 3,
+      "community": 7,
       "norm_label": "remove_paragraph()"
     },
     {
@@ -2754,7 +2781,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L244",
       "id": "report_service_ensure_gprs_contacts",
-      "community": 3,
+      "community": 7,
       "norm_label": "ensure_gprs_contacts()"
     },
     {
@@ -2763,7 +2790,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L277",
       "id": "report_service_fill_gprs_contact_rows",
-      "community": 3,
+      "community": 7,
       "norm_label": "fill_gprs_contact_rows()"
     },
     {
@@ -2772,7 +2799,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L294",
       "id": "report_service_is_gprs_contact_row",
-      "community": 3,
+      "community": 7,
       "norm_label": "is_gprs_contact_row()"
     },
     {
@@ -2781,7 +2808,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L304",
       "id": "report_service_find_match",
-      "community": 3,
+      "community": 7,
       "norm_label": "find_match()"
     },
     {
@@ -2790,7 +2817,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L336",
       "id": "report_service_process_system",
-      "community": 3,
+      "community": 7,
       "norm_label": "process_system()"
     },
     {
@@ -2799,7 +2826,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\report_service.py",
       "source_location": "L479",
       "id": "report_service_generate_reports",
-      "community": 3,
+      "community": 7,
       "norm_label": "generate_reports()"
     },
     {
@@ -2808,7 +2835,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_core_vbs_generator_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "vbs_generator.py"
     },
     {
@@ -2817,7 +2844,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L9",
       "id": "vbs_generator_vb",
-      "community": 4,
+      "community": 3,
       "norm_label": "vb()"
     },
     {
@@ -2826,7 +2853,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L12",
       "id": "vbs_generator_canonical_digest",
-      "community": 4,
+      "community": 3,
       "norm_label": "canonical_digest()"
     },
     {
@@ -2835,7 +2862,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L16",
       "id": "vbs_generator_embedded_digest",
-      "community": 4,
+      "community": 3,
       "norm_label": "_embedded_digest()"
     },
     {
@@ -2844,7 +2871,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L23",
       "id": "vbs_generator_generate_vbs",
-      "community": 4,
+      "community": 3,
       "norm_label": "generate_vbs()"
     },
     {
@@ -2853,7 +2880,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L33",
       "id": "vbs_generator_header",
-      "community": 4,
+      "community": 3,
       "norm_label": "_header()"
     },
     {
@@ -2862,7 +2889,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L51",
       "id": "vbs_generator_body",
-      "community": 4,
+      "community": 3,
       "norm_label": "_body()"
     },
     {
@@ -2870,7 +2897,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\vbs_generator.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "\u751f\u6210\u4ec5\u6267\u884c\u53ea\u8bfb\u547d\u4ee4\u7684 securecrt vbscript\u3002",
       "id": "vbs_generator_rationale_1"
     },
@@ -2889,7 +2916,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\conftest.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_tests_conftest_py",
-      "community": 3,
+      "community": 9,
       "norm_label": "conftest.py"
     },
     {
@@ -2898,7 +2925,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\conftest.py",
       "source_location": "L30",
       "id": "conftest_docx_fingerprint",
-      "community": 3,
+      "community": 9,
       "norm_label": "docx_fingerprint()"
     },
     {
@@ -2907,7 +2934,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\conftest.py",
       "source_location": "L43",
       "id": "conftest_run_generation",
-      "community": 3,
+      "community": 9,
       "norm_label": "run_generation()"
     },
     {
@@ -2916,7 +2943,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\conftest.py",
       "source_location": "L70",
       "id": "conftest_fingerprints_of",
-      "community": 3,
+      "community": 9,
       "norm_label": "fingerprints_of()"
     },
     {
@@ -2924,7 +2951,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\conftest.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u5171\u4eab fixture \u4e0e\u5de5\u5177\u3002  \u9ec4\u91d1\u57fa\u7ebf\u7684\u6838\u5fc3\u7ea6\u675f:**\u4e0d\u80fd\u5bf9 .docx \u505a\u4e8c\u8fdb\u5236\u54c8\u5e0c**\u3002docx \u662f zip,\u5185\u90e8 docprops/core.x",
       "id": "conftest_rationale_1"
     },
@@ -2933,7 +2960,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\conftest.py",
       "source_location": "L31",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u6309\u5e8f\u63d0\u53d6 docx \u7684\u5168\u90e8\u53ef\u89c1\u6587\u672c\u5e76\u54c8\u5e0c\u3002",
       "id": "conftest_rationale_31"
     },
@@ -2942,7 +2969,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\conftest.py",
       "source_location": "L44",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u8dd1\u4e00\u6b21\u62a5\u544a\u751f\u6210\u3002      max_workers=1 \u5f3a\u5236\u4e32\u884c:\u8fdb\u7a0b\u6c60\u4e0b audit \u884c\u5e8f\u6309\u5b8c\u6210\u987a\u5e8f extend,     \u591a\u8fdb\u7a0b\u65f6\u884c\u5e8f\u4e0d\u786e\u5b9a,\u65e0\u6cd5\u7528",
       "id": "conftest_rationale_44"
     },
@@ -2952,7 +2979,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\make_golden.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_tests_make_golden_py",
-      "community": 3,
+      "community": 9,
       "norm_label": "make_golden.py"
     },
     {
@@ -2961,7 +2988,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\make_golden.py",
       "source_location": "L31",
       "id": "make_golden_main",
-      "community": 3,
+      "community": 9,
       "norm_label": "main()"
     },
     {
@@ -2969,7 +2996,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\make_golden.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u751f\u6210/\u5237\u65b0\u9ec4\u91d1\u57fa\u7ebf\u3002  \u7528\u6cd5:  py -3 tests/make_golden.py  \u53ea\u5728\u4e24\u79cd\u60c5\u51b5\u4e0b\u91cd\u8dd1:   1. \u9996\u6b21\u5efa\u7acb\u57fa\u7ebf(\u5e94\u5728 tag",
       "id": "make_golden_rationale_1"
     },
@@ -3294,7 +3321,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_api_smoke.py",
       "source_location": "L352",
       "id": "test_api_smoke_test_report_path_resolution_rejects_traversal",
-      "community": 6,
+      "community": 1,
       "norm_label": "test_report_path_resolution_rejects_traversal()"
     },
     {
@@ -3321,7 +3348,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_api_smoke.py",
       "source_location": "L392",
       "id": "test_api_smoke_test_report_path_resolution_accepts_whitelisted_name",
-      "community": 6,
+      "community": 1,
       "norm_label": "test_report_path_resolution_accepts_whitelisted_name()"
     },
     {
@@ -3392,7 +3419,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_api_smoke.py",
       "source_location": "L353",
-      "community": 6,
+      "community": 1,
       "norm_label": "\u9501\u4f4f\u5df2\u4fee\u590d\u7684\u4efb\u610f\u6587\u4ef6\u8bfb\u53d6\u6f0f\u6d1e(\u53d1\u90ae\u4ef6\u9644\u4ef6\u8def\u5f84)\u3002",
       "id": "test_api_smoke_rationale_353"
     },
@@ -3402,7 +3429,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_dynamic_inspection.py"
     },
     {
@@ -3411,7 +3438,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
       "source_location": "L16",
       "id": "test_dynamic_inspection_snapshot",
-      "community": 4,
+      "community": 3,
       "norm_label": "_snapshot()"
     },
     {
@@ -3420,70 +3447,79 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
       "source_location": "L26",
       "id": "test_dynamic_inspection_test_template_parser_extracts_device_commands_and_mapping",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_template_parser_extracts_device_commands_and_mapping()"
+    },
+    {
+      "label": "test_template_parser_uses_headers_and_skips_device_inventory()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
+      "source_location": "L36",
+      "id": "test_dynamic_inspection_test_template_parser_uses_headers_and_skips_device_inventory",
+      "community": 3,
+      "norm_label": "test_template_parser_uses_headers_and_skips_device_inventory()"
     },
     {
       "label": "test_dangerous_commands_are_blocked()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L37",
+      "source_location": "L62",
       "id": "test_dynamic_inspection_test_dangerous_commands_are_blocked",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_dangerous_commands_are_blocked()"
     },
     {
       "label": "test_snapshot_rejects_duplicate_name_and_ip()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L41",
+      "source_location": "L66",
       "id": "test_dynamic_inspection_test_snapshot_rejects_duplicate_name_and_ip",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_snapshot_rejects_duplicate_name_and_ip()"
     },
     {
       "label": "test_vbs_escapes_dynamic_values_and_has_stable_canonical_digest()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L47",
+      "source_location": "L72",
       "id": "test_dynamic_inspection_test_vbs_escapes_dynamic_values_and_has_stable_canonical_digest",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_vbs_escapes_dynamic_values_and_has_stable_canonical_digest()"
     },
     {
       "label": "_write_valid_batch()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L56",
+      "source_location": "L81",
       "id": "test_dynamic_inspection_write_valid_batch",
-      "community": 4,
+      "community": 3,
       "norm_label": "_write_valid_batch()"
     },
     {
       "label": "test_manifest_requires_every_command_and_digest()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L66",
+      "source_location": "L91",
       "id": "test_dynamic_inspection_test_manifest_requires_every_command_and_digest",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_manifest_requires_every_command_and_digest()"
     },
     {
       "label": "test_manifest_blocks_timeout_and_cli_error()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L79",
+      "source_location": "L104",
       "id": "test_dynamic_inspection_test_manifest_blocks_timeout_and_cli_error",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_manifest_blocks_timeout_and_cli_error()"
     },
     {
       "label": "test_report_index_prefers_job_report_date()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L91",
+      "source_location": "L116",
       "id": "test_dynamic_inspection_test_report_index_prefers_job_report_date",
-      "community": 4,
+      "community": 3,
       "norm_label": "test_report_index_prefers_job_report_date()"
     },
     {
@@ -3491,7 +3527,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
       "source_location": "L1",
-      "community": 4,
+      "community": 3,
       "norm_label": "\u52a8\u6001\u5de1\u68c0\u7248\u672c\u3001vbs \u4e0e\u4e25\u683c\u65e5\u5fd7\u6e05\u5355\u7684\u5173\u952e\u56de\u5f52\u3002",
       "id": "test_dynamic_inspection_rationale_1"
     },
@@ -3501,7 +3537,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_local_mode_py",
-      "community": 1,
+      "community": 11,
       "norm_label": "test_local_mode.py"
     },
     {
@@ -3510,7 +3546,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L23",
       "id": "test_local_mode_local_client",
-      "community": 1,
+      "community": 11,
       "norm_label": "local_client()"
     },
     {
@@ -3519,7 +3555,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L51",
       "id": "test_local_mode_test_no_login_required",
-      "community": 1,
+      "community": 11,
       "norm_label": "test_no_login_required()"
     },
     {
@@ -3528,7 +3564,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L58",
       "id": "test_local_mode_test_protected_endpoints_open_without_cookie",
-      "community": 1,
+      "community": 11,
       "norm_label": "test_protected_endpoints_open_without_cookie()"
     },
     {
@@ -3537,7 +3573,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L65",
       "id": "test_local_mode_test_secure_cookie_defaults_off_locally",
-      "community": 1,
+      "community": 11,
       "norm_label": "test_secure_cookie_defaults_off_locally()"
     },
     {
@@ -3546,7 +3582,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L72",
       "id": "test_local_mode_test_local_user_row_exists",
-      "community": 1,
+      "community": 11,
       "norm_label": "test_local_user_row_exists()"
     },
     {
@@ -3555,7 +3591,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L81",
       "id": "test_local_mode_test_upload_and_create_job_works_without_login",
-      "community": 1,
+      "community": 11,
       "norm_label": "test_upload_and_create_job_works_without_login()"
     },
     {
@@ -3563,7 +3599,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L1",
-      "community": 1,
+      "community": 11,
       "norm_label": "\u672c\u5730\u6a21\u5f0f:\u514d\u767b\u5f55\u3001\u5355\u7528\u6237\u3001\u9274\u6743\u5728\u552f\u4e00\u5206\u652f\u70b9\u4e0a\u653e\u884c\u3002  \u4e0e test_api_smoke \u5206\u5f00\u662f\u56e0\u4e3a server \u5728\u5bfc\u5165\u65f6\u8bfb\u73af\u5883\u53d8\u91cf,\u4e24\u79cd\u6a21\u5f0f \u5fc5\u987b\u5404\u81ea\u5bfc",
       "id": "test_local_mode_rationale_1"
     },
@@ -3572,7 +3608,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L66",
-      "community": 1,
+      "community": 11,
       "norm_label": "localhost \u8d70 http,secure cookie \u4f1a\u88ab\u4e22\u5f03,\u672c\u5730\u6a21\u5f0f\u5fc5\u987b\u9ed8\u8ba4\u5173\u95ed\u3002",
       "id": "test_local_mode_rationale_66"
     },
@@ -3581,7 +3617,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_local_mode.py",
       "source_location": "L73",
-      "community": 1,
+      "community": 11,
       "norm_label": "\u5fc5\u987b\u662f\u771f\u5b9e\u6570\u636e\u5e93\u884c \u2014\u2014 jobs.user_id \u6709\u5916\u952e\u7ea6\u675f\u3002",
       "id": "test_local_mode_rationale_73"
     },
@@ -3591,7 +3627,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_report_golden_py",
-      "community": 3,
+      "community": 9,
       "norm_label": "test_report_golden.py"
     },
     {
@@ -3600,7 +3636,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L28",
       "id": "test_report_golden_generated",
-      "community": 3,
+      "community": 9,
       "norm_label": "generated()"
     },
     {
@@ -3609,7 +3645,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L35",
       "id": "test_report_golden_golden_fingerprints",
-      "community": 3,
+      "community": 9,
       "norm_label": "_golden_fingerprints()"
     },
     {
@@ -3618,7 +3654,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L39",
       "id": "test_report_golden_test_report_set_unchanged",
-      "community": 3,
+      "community": 9,
       "norm_label": "test_report_set_unchanged()"
     },
     {
@@ -3627,7 +3663,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L44",
       "id": "test_report_golden_test_report_contents_unchanged",
-      "community": 3,
+      "community": 9,
       "norm_label": "test_report_contents_unchanged()"
     },
     {
@@ -3636,7 +3672,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L59",
       "id": "test_report_golden_test_audit_log_unchanged",
-      "community": 3,
+      "community": 9,
       "norm_label": "test_audit_log_unchanged()"
     },
     {
@@ -3645,7 +3681,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L69",
       "id": "test_report_golden_test_all_systems_generated",
-      "community": 3,
+      "community": 9,
       "norm_label": "test_all_systems_generated()"
     },
     {
@@ -3654,7 +3690,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L75",
       "id": "test_report_golden_test_selective_generation_matches_full_run",
-      "community": 3,
+      "community": 9,
       "norm_label": "test_selective_generation_matches_full_run()"
     },
     {
@@ -3662,7 +3698,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L1",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u62a5\u544a\u751f\u6210\u7684\u9ec4\u91d1\u57fa\u7ebf\u56de\u5f52\u3002  \u8fd9\u662f\u6574\u4e2a\u91cd\u6784\u671f\u95f4\u6700\u91cd\u8981\u7684\u4e00\u9053\u9632\u7ebf:phase 2 \u662f\u7eaf\u642c\u8fd0,\u6307\u7eb9**\u5fc5\u987b\u5b8c\u5168\u4e00\u81f4**, \u4efb\u4f55\u4e00\u5904\u4e0d\u540c\u90fd\u8bf4\u660e\u642c\u9519\u4e86\u3002\u6307\u7eb9\u5bf9\u4e0d\u4e0a\u4e14",
       "id": "test_report_golden_rationale_1"
     },
@@ -3671,7 +3707,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L29",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u6574\u4e2a\u6a21\u5757\u53ea\u8dd1\u4e00\u6b21\u751f\u6210(\u7ea6 1-2 \u5206\u949f)\u3002",
       "id": "test_report_golden_rationale_29"
     },
@@ -3680,7 +3716,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L60",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u5339\u914d\u5ba1\u8ba1\u9010\u884c\u4e00\u81f4\u2014\u2014\u6307\u7eb9\u53d8\u5316\u65f6\u9760\u5b83\u5b9a\u4f4d\u5230\u5177\u4f53\u7cfb\u7edf/\u8bbe\u5907\u3002",
       "id": "test_report_golden_rationale_60"
     },
@@ -3689,7 +3725,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L70",
-      "community": 3,
+      "community": 9,
       "norm_label": "9 \u4e2a\u7cfb\u7edf\u5168\u90e8\u4ea7\u51fa\u62a5\u544a\u2014\u2014\u9632\u6b62\u67d0\u4e2a\u7cfb\u7edf\u9759\u9ed8\u5931\u8d25\u3002",
       "id": "test_report_golden_rationale_70"
     },
@@ -3698,7 +3734,7 @@
       "file_type": "rationale",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_report_golden.py",
       "source_location": "L76",
-      "community": 3,
+      "community": 9,
       "norm_label": "\u9009\u62e9\u6027\u751f\u6210\u7684\u4ea7\u7269\u5fc5\u987b\u4e0e\u5168\u91cf\u8dd1\u51fa\u7684\u5bf9\u5e94\u62a5\u544a\u9010\u5b57\u8282\u4e00\u81f4\u3002      \u8fd9\u6761\u65ad\u8a00\u9501\u4f4f\u4e86\u4e00\u4e2a\u5177\u4f53\u9677\u9631:generate_reports \u4f1a\u628a\u6574\u4efd config \u4f5c\u4e3a",
       "id": "test_report_golden_rationale_76"
     },
@@ -3879,70 +3915,70 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
-      "community": 4,
+      "community": 3,
       "norm_label": "inspectionsystemssection.tsx"
     },
     {
       "label": "loadSystems()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L28",
+      "source_location": "L29",
       "id": "inspectionsystemssection_loadsystems",
-      "community": 4,
+      "community": 3,
       "norm_label": "loadsystems()"
     },
     {
       "label": "loadVersions()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L34",
+      "source_location": "L35",
       "id": "inspectionsystemssection_loadversions",
-      "community": 4,
+      "community": 3,
       "norm_label": "loadversions()"
     },
     {
       "label": "mutateDevice()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L43",
+      "source_location": "L44",
       "id": "inspectionsystemssection_mutatedevice",
-      "community": 4,
+      "community": 3,
       "norm_label": "mutatedevice()"
     },
     {
       "label": "save()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L48",
+      "source_location": "L49",
       "id": "inspectionsystemssection_save",
-      "community": 4,
+      "community": 3,
       "norm_label": "save()"
     },
     {
       "label": "action()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L53",
+      "source_location": "L56",
       "id": "inspectionsystemssection_action",
-      "community": 4,
+      "community": 3,
       "norm_label": "action()"
     },
     {
       "label": "validate()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L58",
+      "source_location": "L63",
       "id": "inspectionsystemssection_validate",
-      "community": 4,
+      "community": 3,
       "norm_label": "validate()"
     },
     {
       "label": "createDraft()",
       "file_type": "code",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L66",
+      "source_location": "L73",
       "id": "inspectionsystemssection_createdraft",
-      "community": 4,
+      "community": 3,
       "norm_label": "createdraft()"
     },
     {
@@ -4437,7 +4473,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\pages\\TaskDetailPage.tsx",
       "source_location": "L1",
       "id": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_pages_taskdetailpage_tsx",
-      "community": 6,
+      "community": 2,
       "norm_label": "taskdetailpage.tsx"
     },
     {
@@ -4446,7 +4482,7 @@
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\pages\\TaskDetailPage.tsx",
       "source_location": "L25",
       "id": "taskdetailpage_load",
-      "community": 6,
+      "community": 2,
       "norm_label": "load()"
     },
     {
@@ -4565,6 +4601,15 @@
       "id": "usethememode_usethememode",
       "community": 14,
       "norm_label": "usethememode()"
+    },
+    {
+      "label": "\u628a\u589e\u91cf\u6587\u6863\u4e2d\u7684\u8bbe\u5907\u8868\u683c\u8ffd\u52a0\u5230\u65e7\u6a21\u677f\uff0c\u4fdd\u7559\u539f\u8868\u683c OOXML \u4e0e\u6837\u5f0f\u3002",
+      "file_type": "rationale",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L122",
+      "community": 43,
+      "norm_label": "\u628a\u589e\u91cf\u6587\u6863\u4e2d\u7684\u8bbe\u5907\u8868\u683c\u8ffd\u52a0\u5230\u65e7\u6a21\u677f,\u4fdd\u7559\u539f\u8868\u683c ooxml \u4e0e\u6837\u5f0f\u3002",
+      "id": "inspection_docx_rationale_122"
     }
   ],
   "links": [
@@ -11245,6 +11290,18 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "_src": "inspection_docx_find_command_columns",
+      "_tgt": "upload_sessions_get",
+      "source": "upload_sessions_get",
+      "target": "inspection_docx_find_command_columns"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
       "source_location": "L83",
       "weight": 1.0,
       "_src": "upload_sessions_get",
@@ -13296,7 +13353,31 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L73",
+      "source_location": "L82",
+      "weight": 1.0,
+      "_src": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
+      "_tgt": "inspection_docx_find_command_columns",
+      "source": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
+      "target": "inspection_docx_find_command_columns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L105",
+      "weight": 1.0,
+      "_src": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
+      "_tgt": "inspection_docx_extract_labeled_value",
+      "source": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
+      "target": "inspection_docx_extract_labeled_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L115",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
       "_tgt": "inspection_docx_extract_name",
@@ -13308,7 +13389,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L79",
+      "source_location": "L121",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
       "_tgt": "inspection_docx_guess_driver",
@@ -13320,7 +13401,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L82",
+      "source_location": "L124",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
       "_tgt": "inspection_docx_validate_snapshot",
@@ -13332,7 +13413,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L121",
+      "source_location": "L163",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
       "_tgt": "inspection_docx_merge_incremental_template",
@@ -13344,7 +13425,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L135",
+      "source_location": "L177",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_core_inspection_docx_py",
       "_tgt": "inspection_docx_shift_table_mappings",
@@ -13380,7 +13461,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L64",
+      "source_location": "L71",
       "weight": 1.0,
       "_src": "inspection_docx_parse_template",
       "_tgt": "inspection_docx_validate_read_only_command",
@@ -13392,7 +13473,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L103",
+      "source_location": "L145",
       "weight": 1.0,
       "_src": "inspection_docx_validate_snapshot",
       "_tgt": "inspection_docx_validate_read_only_command",
@@ -13416,7 +13497,31 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L57",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "inspection_docx_parse_template",
+      "_tgt": "inspection_docx_find_command_columns",
+      "source": "inspection_docx_parse_template",
+      "target": "inspection_docx_find_command_columns",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "_src": "inspection_docx_parse_template",
+      "_tgt": "inspection_docx_extract_labeled_value",
+      "source": "inspection_docx_parse_template",
+      "target": "inspection_docx_extract_labeled_value",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L60",
       "weight": 1.0,
       "_src": "inspection_docx_parse_template",
       "_tgt": "inspection_docx_extract_name",
@@ -13428,7 +13533,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L69",
+      "source_location": "L78",
       "weight": 1.0,
       "_src": "inspection_docx_parse_template",
       "_tgt": "inspection_docx_guess_driver",
@@ -13447,6 +13552,30 @@
       "_tgt": "test_dynamic_inspection_test_template_parser_extracts_device_commands_and_mapping",
       "source": "inspection_docx_parse_template",
       "target": "test_dynamic_inspection_test_template_parser_extracts_device_commands_and_mapping"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "_src": "test_dynamic_inspection_test_template_parser_uses_headers_and_skips_device_inventory",
+      "_tgt": "inspection_docx_parse_template",
+      "source": "inspection_docx_parse_template",
+      "target": "test_dynamic_inspection_test_template_parser_uses_headers_and_skips_device_inventory"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "_src": "inspection_docx_rationale_83",
+      "_tgt": "inspection_docx_find_command_columns",
+      "source": "inspection_docx_find_command_columns",
+      "target": "inspection_docx_rationale_83",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -13476,12 +13605,12 @@
       "relation": "rationale_for",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\core\\inspection_docx.py",
-      "source_location": "L122",
+      "source_location": "L164",
       "weight": 1.0,
-      "_src": "inspection_docx_rationale_122",
+      "_src": "inspection_docx_rationale_164",
       "_tgt": "inspection_docx_merge_incremental_template",
       "source": "inspection_docx_merge_incremental_template",
-      "target": "inspection_docx_rationale_122",
+      "target": "inspection_docx_rationale_164",
       "confidence_score": 1.0
     },
     {
@@ -15216,7 +15345,19 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L37",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
+      "_tgt": "test_dynamic_inspection_test_template_parser_uses_headers_and_skips_device_inventory",
+      "source": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
+      "target": "test_dynamic_inspection_test_template_parser_uses_headers_and_skips_device_inventory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
+      "source_location": "L62",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
       "_tgt": "test_dynamic_inspection_test_dangerous_commands_are_blocked",
@@ -15228,7 +15369,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L41",
+      "source_location": "L66",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
       "_tgt": "test_dynamic_inspection_test_snapshot_rejects_duplicate_name_and_ip",
@@ -15240,7 +15381,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L47",
+      "source_location": "L72",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
       "_tgt": "test_dynamic_inspection_test_vbs_escapes_dynamic_values_and_has_stable_canonical_digest",
@@ -15252,7 +15393,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L56",
+      "source_location": "L81",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
       "_tgt": "test_dynamic_inspection_write_valid_batch",
@@ -15264,7 +15405,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L66",
+      "source_location": "L91",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
       "_tgt": "test_dynamic_inspection_test_manifest_requires_every_command_and_digest",
@@ -15276,7 +15417,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L79",
+      "source_location": "L104",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
       "_tgt": "test_dynamic_inspection_test_manifest_blocks_timeout_and_cli_error",
@@ -15288,7 +15429,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L91",
+      "source_location": "L116",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_tests_test_dynamic_inspection_py",
       "_tgt": "test_dynamic_inspection_test_report_index_prefers_job_report_date",
@@ -15312,7 +15453,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L42",
+      "source_location": "L67",
       "weight": 1.0,
       "_src": "test_dynamic_inspection_test_snapshot_rejects_duplicate_name_and_ip",
       "_tgt": "test_dynamic_inspection_snapshot",
@@ -15324,7 +15465,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L48",
+      "source_location": "L73",
       "weight": 1.0,
       "_src": "test_dynamic_inspection_test_vbs_escapes_dynamic_values_and_has_stable_canonical_digest",
       "_tgt": "test_dynamic_inspection_snapshot",
@@ -15336,7 +15477,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L69",
+      "source_location": "L94",
       "weight": 1.0,
       "_src": "test_dynamic_inspection_test_manifest_requires_every_command_and_digest",
       "_tgt": "test_dynamic_inspection_snapshot",
@@ -15348,7 +15489,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L82",
+      "source_location": "L107",
       "weight": 1.0,
       "_src": "test_dynamic_inspection_test_manifest_blocks_timeout_and_cli_error",
       "_tgt": "test_dynamic_inspection_snapshot",
@@ -15370,9 +15511,21 @@
     },
     {
       "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "_src": "test_dynamic_inspection_test_template_parser_uses_headers_and_skips_device_inventory",
+      "_tgt": "inspectionsystemssection_save",
+      "source": "test_dynamic_inspection_test_template_parser_uses_headers_and_skips_device_inventory",
+      "target": "inspectionsystemssection_save"
+    },
+    {
+      "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L70",
+      "source_location": "L95",
       "weight": 1.0,
       "_src": "test_dynamic_inspection_test_manifest_requires_every_command_and_digest",
       "_tgt": "test_dynamic_inspection_write_valid_batch",
@@ -15384,7 +15537,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\tests\\test_dynamic_inspection.py",
-      "source_location": "L83",
+      "source_location": "L108",
       "weight": 1.0,
       "_src": "test_dynamic_inspection_test_manifest_blocks_timeout_and_cli_error",
       "_tgt": "test_dynamic_inspection_write_valid_batch",
@@ -15852,7 +16005,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L28",
+      "source_location": "L29",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
       "_tgt": "inspectionsystemssection_loadsystems",
@@ -15864,7 +16017,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L34",
+      "source_location": "L35",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
       "_tgt": "inspectionsystemssection_loadversions",
@@ -15876,7 +16029,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L43",
+      "source_location": "L44",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
       "_tgt": "inspectionsystemssection_mutatedevice",
@@ -15888,7 +16041,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L48",
+      "source_location": "L49",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
       "_tgt": "inspectionsystemssection_save",
@@ -15900,7 +16053,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L53",
+      "source_location": "L56",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
       "_tgt": "inspectionsystemssection_action",
@@ -15912,7 +16065,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L58",
+      "source_location": "L63",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
       "_tgt": "inspectionsystemssection_validate",
@@ -15924,7 +16077,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L66",
+      "source_location": "L73",
       "weight": 1.0,
       "_src": "c_users_admin_desktop_2_huawei_inspection_platform_web_src_components_admin_inspectionsystemssection_tsx",
       "_tgt": "inspectionsystemssection_createdraft",
@@ -15936,7 +16089,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L56",
+      "source_location": "L60",
       "weight": 1.0,
       "_src": "inspectionsystemssection_action",
       "_tgt": "inspectionsystemssection_loadsystems",
@@ -15948,7 +16101,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L73",
+      "source_location": "L84",
       "weight": 1.0,
       "_src": "inspectionsystemssection_createdraft",
       "_tgt": "inspectionsystemssection_loadsystems",
@@ -15960,7 +16113,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L51",
+      "source_location": "L53",
       "weight": 1.0,
       "_src": "inspectionsystemssection_save",
       "_tgt": "inspectionsystemssection_loadversions",
@@ -15972,7 +16125,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L56",
+      "source_location": "L60",
       "weight": 1.0,
       "_src": "inspectionsystemssection_action",
       "_tgt": "inspectionsystemssection_loadversions",
@@ -15984,7 +16137,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L64",
+      "source_location": "L70",
       "weight": 1.0,
       "_src": "inspectionsystemssection_validate",
       "_tgt": "inspectionsystemssection_loadversions",
@@ -15996,7 +16149,7 @@
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "C:\\Users\\admin\\desktop\\\u65b0\u5efa\u6587\u4ef6\u5939 (2)\\huawei-inspection-platform\\web\\src\\components\\admin\\InspectionSystemsSection.tsx",
-      "source_location": "L75",
+      "source_location": "L86",
       "weight": 1.0,
       "_src": "inspectionsystemssection_createdraft",
       "_tgt": "inspectionsystemssection_loadversions",

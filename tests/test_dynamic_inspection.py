@@ -33,6 +33,31 @@ def test_template_parser_extracts_device_commands_and_mapping(tmp_path: Path):
     assert result["devices"][0]["commands"][1]["result_cell"] == {"table": 0, "row": 5, "column": 2}
 
 
+def test_template_parser_uses_headers_and_skips_device_inventory(tmp_path: Path):
+    path = tmp_path / "inspection.docx"; doc = Document()
+    inventory = doc.add_table(rows=2, cols=4)
+    for column, value in enumerate(("区域", "网元类型", "网元名称", "网元IP")):
+        inventory.cell(0, column).text = value
+    for column, value in enumerate(("拉萨", "CE8861", "JZ-5GToB-EOR-01", "10.237.1.98")):
+        inventory.cell(1, column).text = value
+    table = doc.add_table(rows=4, cols=6)
+    for column, value in enumerate(("设备型号", "CE8861", "设备名称", "JZ-5GToB-EOR-01", "设备IP", "10.237.1.98")):
+        table.cell(0, column).text = value
+    for column, value in enumerate(("巡检类别", "巡检项", "巡检命令", "巡检结果", "巡检状态", "备注")):
+        table.cell(1, column).text = value
+    table.cell(2, 1).text = "配置备份"; table.cell(2, 2).text = "Display current-configuration"
+    table.cell(3, 1).text = "版本核对"; table.cell(3, 2).text = "Display version"
+    doc.save(path)
+
+    result = parse_template(path, system_key="5GTOB", display_name="5G ToB")
+
+    assert len(result["devices"]) == 1
+    assert result["devices"][0]["name"] == "JZ-5GToB-EOR-01"
+    assert result["devices"][0]["ip"] == "10.237.1.98"
+    assert [item["command"] for item in result["devices"][0]["commands"]] == ["Display current-configuration", "Display version"]
+    assert result["devices"][0]["commands"][0]["result_cell"] == {"table": 1, "row": 2, "column": 3}
+
+
 @pytest.mark.parametrize("command", ["system-view", "display version; reboot", "save", "undo interface x", "show run | delete"])
 def test_dangerous_commands_are_blocked(command: str):
     with pytest.raises(HTTPException): validate_read_only_command(command)

@@ -53,22 +53,64 @@ def parse_template(path: Path, *, system_key: str, display_name: str) -> dict[st
     non_commands: list[dict[str, Any]] = []
     for table_index, table in enumerate(doc.tables):
         header_text = "\n".join(cell.text for row in table.rows[:3] for cell in row.cells)
+        command_header_row, command_column, result_column = _find_command_columns(table)
+        # 设备清单、版本信息等辅助表也可能包含名称/IP，但没有巡检命令列，不能当作设备表。
+        if command_column is None:
+            continue
+        name = _extract_labeled_value(table, ("设备名称", "网元名称", "主机名", "名称")) or _extract_name(header_text)
+        ip = _extract_labeled_value(table, ("设备IP", "网元IP", "管理IP", "IP"))
         ips = IP_RE.findall(header_text)
-        name = _extract_name(header_text)
+        if not ip and ips:
+            ip = ips[0]
         commands: list[dict[str, Any]] = []
         for row_index, row in enumerate(table.rows):
-            if len(row.cells) < 3: continue
-            label = row.cells[1].text.strip()
-            if not label: continue
-            if label.lower().startswith(READ_ONLY_PREFIXES):
-                command = validate_read_only_command(label)
-                commands.append({"command": command, "timeout_seconds": 120, "result_cell": {"table": table_index, "row": row_index, "column": 2}})
-            elif row_index >= 4:
-                non_commands.append({"label": label, "result_cell": {"table": table_index, "row": row_index, "column": 2}, "mode": "preserve", "value": "", "source_command": ""})
-        if name or ips or commands:
-            devices.append({"order": len(devices) + 1, "name": name or f"设备{len(devices)+1}", "ip": ips[0] if ips else "", "driver": _guess_driver(commands), "commands": commands, "table_index": table_index})
+            if row_index <= command_header_row or command_column >= len(row.cells):
+                continue
+            command_text = row.cells[command_column].text.strip()
+            if command_text.lower().startswith(READ_ONLY_PREFIXES):
+                command = validate_read_only_command(command_text)
+                commands.append({"command": command, "timeout_seconds": 120, "result_cell": {"table": table_index, "row": row_index, "column": result_column if result_column is not None else min(command_column + 1, len(row.cells) - 1)}})
+            elif command_text:
+                label_column = 1 if len(row.cells) > 1 and command_column != 1 else 0
+                label = row.cells[label_column].text.strip()
+                if label:
+                    non_commands.append({"label": label, "result_cell": {"table": table_index, "row": row_index, "column": result_column if result_column is not None else min(command_column + 1, len(row.cells) - 1)}, "mode": "preserve", "value": "", "source_command": ""})
+        devices.append({"order": len(devices) + 1, "name": name or f"设备{len(devices)+1}", "ip": ip, "driver": _guess_driver(commands), "commands": commands, "table_index": table_index})
     if not devices: raise HTTPException(400, "未在 DOCX 表格中识别到设备")
     return {"system_key": system_key, "display_name": display_name, "template": path.name, "devices": devices, "non_command_rules": non_commands}
+
+def _find_command_columns(table) -> tuple[int, int | None, int | None]:
+    """返回命令表头行及命令、结果列，兼容不同模板的列顺序。"""
+    for row_index, row in enumerate(table.rows[:8]):
+        headers = [" ".join(cell.text.split()).casefold() for cell in row.cells]
+        command_column = next((i for i, value in enumerate(headers) if "巡检命令" in value or value in {"命令", "检查命令"}), None)
+        if command_column is None:
+            continue
+        result_column = next((i for i, value in enumerate(headers) if "巡检结果" in value or value in {"结果", "检查结果"}), None)
+        return row_index, command_column, result_column
+    # 旧模板没有表头：仅在单列确实包含只读命令时启用，避免把普通清单误判为设备表。
+    command_counts: dict[int, int] = {}
+    max_columns = 0
+    for row in table.rows:
+        max_columns = max(max_columns, len(row.cells))
+        for column, cell in enumerate(row.cells):
+            if cell.text.strip().lower().startswith(READ_ONLY_PREFIXES):
+                command_counts[column] = command_counts.get(column, 0) + 1
+    if command_counts:
+        command_column = max(command_counts, key=command_counts.get)
+        result_column = command_column + 1 if command_column + 1 < max_columns else None
+        return -1, command_column, result_column
+    return -1, None, None
+
+def _extract_labeled_value(table, labels: tuple[str, ...]) -> str:
+    wanted = {label.casefold() for label in labels}
+    for row in table.rows[:4]:
+        for index, cell in enumerate(row.cells):
+            if " ".join(cell.text.split()).casefold() in wanted and index + 1 < len(row.cells):
+                value = row.cells[index + 1].text.strip()
+                if value:
+                    return value
+    return ""
 
 def _extract_name(text: str) -> str:
     for pattern in (r"(?:设备名称|名称|主机名|型号)\s*[:：]\s*([^\n\r]+)", r"<([^<>\s]+)>"):

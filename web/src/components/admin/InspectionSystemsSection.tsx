@@ -18,6 +18,7 @@ export function InspectionSystemsSection() {
   const [systems, setSystems] = useState<InspectionSystem[]>([])
   const [loading, setLoading] = useState(true)
   const [importOpen, setImportOpen] = useState(false)
+  const [importSubmitting, setImportSubmitting] = useState(false)
   const [importForm] = Form.useForm()
   const [sourceFile, setSourceFile] = useState<UploadFile[]>([])
   const [selectedSystem, setSelectedSystem] = useState<InspectionSystem | null>(null)
@@ -47,32 +48,44 @@ export function InspectionSystemsSection() {
   }
   const save = async () => {
     if (!draft) return
-    const result = await request<InspectionVersion>(`/admin/system-drafts/${draft.id}`, { method: 'PUT', body: JSON.stringify({ config: draft.config, recipients: draft.recipients }) })
-    message.success('校对结果已保存'); setDraft(result); if (selectedSystem) await loadVersions(selectedSystem, result.id)
+    try {
+      const result = await request<InspectionVersion>(`/admin/system-drafts/${draft.id}`, { method: 'PUT', body: JSON.stringify({ config: draft.config, recipients: draft.recipients }) })
+      message.success('校对结果已保存'); setDraft(result); if (selectedSystem) await loadVersions(selectedSystem, result.id)
+    } catch (error) { message.error(error instanceof Error ? error.message : '保存校对失败') }
   }
   const action = async (path: string, success: string) => {
     if (!draft) return
-    await request(path, { method: 'POST' }); message.success(success)
-    if (selectedSystem) { await loadVersions(selectedSystem, draft.id); await loadSystems() }
+    try {
+      await request(path, { method: 'POST' }); message.success(success)
+      if (selectedSystem) { await loadVersions(selectedSystem, draft.id); await loadSystems() }
+    } catch (error) { message.error(error instanceof Error ? error.message : '操作失败') }
   }
   const validate = async () => {
     if (!draft || validationFiles.length === 0) return
     const form = new FormData(); validationFiles.forEach((item) => item.originFileObj && form.append('files', item.originFileObj))
-    const result = await request<{ status: string; validation: { valid: boolean; issues: string[] } }>(`/admin/system-drafts/${draft.id}/validation-files`, { method: 'POST', body: form })
-    if (result.validation.valid) message.success('全部设备和命令验证通过')
-    else message.error(result.validation.issues.join('；'))
-    setValidationFiles([]); if (selectedSystem) await loadVersions(selectedSystem, draft.id)
+    try {
+      const result = await request<{ status: string; validation: { valid: boolean; issues: string[] } }>(`/admin/system-drafts/${draft.id}/validation-files`, { method: 'POST', body: form })
+      if (result.validation.valid) message.success('全部设备和命令验证通过')
+      else message.error(result.validation.issues.join('；'))
+      setValidationFiles([]); if (selectedSystem) await loadVersions(selectedSystem, draft.id)
+    } catch (error) { message.error(error instanceof Error ? error.message : '严格验证失败') }
   }
   const createDraft = async () => {
-    const values = await importForm.validateFields()
+    let values
+    try { values = await importForm.validateFields() }
+    catch { message.error('请完整填写导入信息'); return }
     const file = sourceFile[0]?.originFileObj
     if (!file) { message.error('请选择 DOCX'); return }
     const form = new FormData(); form.append('file', file); form.append('mode', values.mode); form.append('system_key', values.system_key ?? ''); form.append('display_name', values.display_name ?? '')
     if (values.system_id) form.append('system_id', String(values.system_id))
-    const result = await request<InspectionVersion>('/admin/system-drafts', { method: 'POST', body: form })
-    message.success(`已解析 ${result.config.devices.length} 台设备`); setImportOpen(false); importForm.resetFields(); setSourceFile([]); await loadSystems()
-    const system = systems.find((item) => item.id === result.system_id) ?? { id: result.system_id, system_key: result.system_key, display_name: result.display_name, current_version_id: null, version: null, status: null, validation_json: null }
-    setSelectedSystem(system); await loadVersions(system, result.id)
+    setImportSubmitting(true)
+    try {
+      const result = await request<InspectionVersion>('/admin/system-drafts', { method: 'POST', body: form })
+      message.success(`已解析 ${result.config.devices.length} 台设备`); setImportOpen(false); importForm.resetFields(); setSourceFile([]); await loadSystems()
+      const system = systems.find((item) => item.id === result.system_id) ?? { id: result.system_id, system_key: result.system_key, display_name: result.display_name, current_version_id: null, version: null, status: null, validation_json: null }
+      setSelectedSystem(system); await loadVersions(system, result.id)
+    } catch (error) { message.error(error instanceof Error ? error.message : '解析并创建草稿失败') }
+    finally { setImportSubmitting(false) }
   }
 
   const editable = draft?.status === 'draft' || draft?.status === 'built'
@@ -88,7 +101,7 @@ export function InspectionSystemsSection() {
       { title: '操作', width: 110, render: (_, row) => <Button icon={<EditOutlined />} onClick={() => { setSelectedSystem(row); void loadVersions(row) }}>管理</Button> },
     ]} />
 
-    <Modal title="导入巡检模板" open={importOpen} onCancel={() => setImportOpen(false)} onOk={() => void createDraft()} okText="解析并创建草稿">
+    <Modal title="导入巡检模板" open={importOpen} confirmLoading={importSubmitting} onCancel={() => setImportOpen(false)} onOk={() => void createDraft()} okText="解析并创建草稿">
       <Form form={importForm} layout="vertical" initialValues={{ mode: 'create' }}>
         <Form.Item name="mode" label="导入方式" rules={[{ required: true }]}><Select options={[{ value: 'create', label: '创建新系统' }, { value: 'incremental', label: '增量添加设备' }, { value: 'replace', label: '完整替换模板' }]} /></Form.Item>
         <Form.Item noStyle shouldUpdate>{({ getFieldValue }) => getFieldValue('mode') === 'create' ? <>

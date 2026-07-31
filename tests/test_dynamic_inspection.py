@@ -46,13 +46,13 @@ def test_template_parser_uses_headers_and_skips_device_inventory(tmp_path: Path)
     for column, value in enumerate(("巡检类别", "巡检项", "巡检命令", "巡检结果", "巡检状态", "备注")):
         table.cell(1, column).text = value
     table.cell(2, 1).text = "配置备份"; table.cell(2, 2).text = "Display current-configuration"
-    table.cell(3, 1).text = "版本核对"; table.cell(3, 2).text = "Display version"
+    table.cell(3, 1).text = "版本核对"; table.cell(3, 2).text = "Display version"; table.cell(3, 3).text = "<LW-5GToB-EOR-01>Display version\nVersion 1"
     doc.save(path)
 
     result = parse_template(path, system_key="5GTOB", display_name="5G ToB")
 
     assert len(result["devices"]) == 1
-    assert result["devices"][0]["name"] == "JZ-5GToB-EOR-01"
+    assert result["devices"][0]["name"] == "LW-5GToB-EOR-01"
     assert result["devices"][0]["ip"] == "10.237.1.98"
     assert [item["command"] for item in result["devices"][0]["commands"]] == ["Display current-configuration", "Display version"]
     assert result["devices"][0]["commands"][0]["result_cell"] == {"table": 1, "row": 2, "column": 3}
@@ -76,6 +76,11 @@ def test_vbs_escapes_dynamic_values_and_has_stable_canonical_digest():
     assert digest in script
     assert canonical_digest(script) == digest
     assert DIGEST_PLACEHOLDER not in script
+    assert 'SYSTEM_KEY & Chr(92) & DateFolder(Date)' in script
+    assert '"device_not_connected"' in script
+    assert '"logging_failed"' in script
+    assert "DeviceAlias(name)" in script
+    assert "screen.CurrentRow - 5" in script
 
 
 def _write_valid_batch(root: Path, *, digest: str, status: str = "success", include_second: bool = True):

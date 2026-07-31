@@ -57,7 +57,10 @@ def parse_template(path: Path, *, system_key: str, display_name: str) -> dict[st
         # 设备清单、版本信息等辅助表也可能包含名称/IP，但没有巡检命令列，不能当作设备表。
         if command_column is None:
             continue
-        name = _extract_labeled_value(table, ("设备名称", "网元名称", "主机名", "名称")) or _extract_name(header_text)
+        labeled_name = _extract_labeled_value(table, ("设备名称", "网元名称", "主机名", "名称"))
+        prompt_name = _extract_prompt_name(table, command_header_row, result_column)
+        # 历史报告的表头可能写错，命令结果开头的真实设备提示符优先级更高。
+        name = prompt_name or labeled_name or _extract_name(header_text)
         ip = _extract_labeled_value(table, ("设备IP", "网元IP", "管理IP", "IP"))
         ips = IP_RE.findall(header_text)
         if not ip and ips:
@@ -110,6 +113,17 @@ def _extract_labeled_value(table, labels: tuple[str, ...]) -> str:
                 value = row.cells[index + 1].text.strip()
                 if value:
                     return value
+    return ""
+
+def _extract_prompt_name(table, header_row: int, result_column: int | None) -> str:
+    if result_column is None:
+        return ""
+    for row in table.rows[header_row + 1:]:
+        if result_column >= len(row.cells):
+            continue
+        match = re.match(r"\s*<([^<>\r\n]+)>\s*(?:display|dis|show)\b", row.cells[result_column].text, re.I)
+        if match:
+            return match.group(1).strip()
     return ""
 
 def _extract_name(text: str) -> str:

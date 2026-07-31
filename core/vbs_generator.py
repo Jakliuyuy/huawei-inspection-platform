@@ -41,17 +41,24 @@ Const SYSTEM_VERSION = {version}
 Const SCRIPT_SHA256 = "{DIGEST_PLACEHOLDER}"
 
 Sub Main()
-    Dim fso, root, manifest, devices, i
+    Dim fso, root, manifest, devices, matchedDevices, i, key, d
     Set fso = CreateObject("Scripting.FileSystemObject")
-    root = fso.BuildPath(fso.GetParentFolderName(crt.ScriptFullName), SYSTEM_KEY & "\" & DateFolder(Date))
+    root = fso.BuildPath(fso.GetParentFolderName(crt.ScriptFullName), SYSTEM_KEY & Chr(92) & DateFolder(Date))
     EnsureFolder fso, root
     manifest = fso.BuildPath(root, "inspection-manifest.tsv")
-    Set devices = CreateObject("Scripting.Dictionary")'''
+    Set devices = CreateObject("Scripting.Dictionary")
+    Set matchedDevices = CreateObject("Scripting.Dictionary")'''
 
 def _body(system_key: str, version: int) -> str:
     return '''    WriteManifestHeader fso, manifest
     For i = 1 To crt.GetTabCount()
-        ProcessTab fso, crt.GetTab(i), root, manifest, devices
+        ProcessTab fso, crt.GetTab(i), root, manifest, devices, matchedDevices
+    Next
+    For Each key In devices.Keys
+        If Not matchedDevices.Exists(CStr(key)) Then
+            d = devices(key)
+            WriteDeviceError fso, manifest, d, "device_not_connected", ""
+        End If
     Next
     crt.Dialog.MessageBox "巡检完成：" & root, SYSTEM_KEY
 End Sub
@@ -60,32 +67,46 @@ Sub AddDevice(ByRef devices, ByVal name, ByVal ip, ByVal driver, ByVal commands)
     devices.Add CStr(devices.Count), Array(name, ip, driver, commands)
 End Sub
 
-Sub ProcessTab(ByRef fso, ByRef tabObj, ByVal root, ByVal manifest, ByRef devices)
-    Dim caption, host, prompt, key, d, commandItems, item, fields, logPath, stream, matched
+Sub ProcessTab(ByRef fso, ByRef tabObj, ByVal root, ByVal manifest, ByRef devices, ByRef matchedDevices)
+    Dim caption, host, prompt, key, matchedKey, d, commandItems, item, fields, logPath
     If tabObj Is Nothing Then Exit Sub
     If Not tabObj.Session.Connected Then Exit Sub
     caption = tabObj.Caption : host = "" : On Error Resume Next
     host = tabObj.Session.Config.GetOption("Hostname") : On Error GoTo 0
-    prompt = CurrentPrompt(tabObj.Screen) : matched = False
+    prompt = CurrentPrompt(tabObj.Screen) : matchedKey = ""
     For Each key In devices.Keys
         d = devices(key)
         If MatchesDevice(caption & " " & host & " " & prompt, d(0), d(1)) Then
-            If matched Then
-                WriteDeviceError fso, manifest, d, "duplicate_device", ""
+            If Len(matchedKey) > 0 Then
+                WriteDeviceError fso, manifest, d, "ambiguous_device", ""
                 Exit Sub
             End If
-            matched = True
-            logPath = fso.BuildPath(root, SafeName(d(0)) & "_" & SafeName(d(1)) & ".log")
-            tabObj.Session.LogFileName = logPath : tabObj.Session.Log True, True
-            commandItems = Split(d(3), ";;")
-            Dim commandIndex : commandIndex = 0
-            For Each item In commandItems
-                commandIndex = commandIndex + 1 : fields = Split(item, "|", 2)
-                RunCommand fso, manifest, tabObj.Screen, d, commandIndex, fields(1), CInt(fields(0)), logPath
-            Next
-            tabObj.Session.Log False
+            matchedKey = CStr(key)
         End If
     Next
+    If Len(matchedKey) = 0 Then Exit Sub
+    d = devices(matchedKey)
+    If matchedDevices.Exists(matchedKey) Then
+        WriteDeviceError fso, manifest, d, "duplicate_device", ""
+        Exit Sub
+    End If
+    matchedDevices.Add matchedKey, True
+    logPath = fso.BuildPath(root, SafeName(d(0)) & "_" & SafeName(d(1)) & ".log")
+    On Error Resume Next
+    Err.Clear : tabObj.Session.LogFileName = logPath : tabObj.Session.Log True, True
+    If Err.Number <> 0 Or Not tabObj.Session.Logging Then
+        Err.Clear : On Error GoTo 0
+        WriteDeviceError fso, manifest, d, "logging_failed", logPath
+        Exit Sub
+    End If
+    On Error GoTo 0
+    commandItems = Split(d(3), ";;")
+    Dim commandIndex : commandIndex = 0
+    For Each item In commandItems
+        commandIndex = commandIndex + 1 : fields = Split(item, "|", 2)
+        RunCommand fso, manifest, tabObj.Screen, d, commandIndex, fields(1), CInt(fields(0)), logPath
+    Next
+    tabObj.Session.Log False
 End Sub
 
 Sub RunCommand(ByRef fso, ByVal manifest, ByRef screen, ByRef d, ByVal idx, ByVal command, ByVal timeoutSec, ByVal logPath)
@@ -113,11 +134,22 @@ Sub WriteDeviceError(ByRef fso, ByVal path, ByRef d, ByVal status, ByVal logPath
 End Sub
 
 Function MatchesDevice(ByVal haystack, ByVal name, ByVal ip)
+    Dim aliasName
     MatchesDevice = (Len(name) > 0 And InStr(1, haystack, name, vbTextCompare) > 0) Or (Len(ip) > 0 And InStr(1, haystack, ip, vbTextCompare) > 0)
+    If MatchesDevice Then Exit Function
+    aliasName = DeviceAlias(name)
+    MatchesDevice = Len(aliasName) >= 8 And InStr(1, haystack, aliasName, vbTextCompare) > 0
+End Function
+
+Function DeviceAlias(ByVal name)
+    Dim separator : separator = InStr(1, name, "-", vbTextCompare)
+    If separator > 0 Then DeviceAlias = Mid(name, separator + 1) Else DeviceAlias = ""
 End Function
 
 Function CurrentPrompt(ByRef screen)
-    On Error Resume Next : CurrentPrompt = Trim(screen.Get(screen.CurrentRow, 1, screen.CurrentRow, screen.Columns)) : On Error GoTo 0
+    Dim startRow : startRow = screen.CurrentRow - 5
+    If startRow < 1 Then startRow = 1
+    On Error Resume Next : CurrentPrompt = Trim(screen.Get(startRow, 1, screen.CurrentRow, screen.Columns)) : On Error GoTo 0
 End Function
 
 Function SafeName(ByVal value)

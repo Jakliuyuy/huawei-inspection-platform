@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import sqlite3
 from pathlib import Path
+from types import SimpleNamespace
 
 import pytest
 from docx import Document
@@ -16,7 +17,7 @@ from core.vbs_generator import DIGEST_PLACEHOLDER, canonical_digest, generate_vb
 def _snapshot(name: str = 'R1"quoted') -> dict:
     return {
         "system_key": "IMS", "display_name": "IMS网络设备", "template": "template.docx",
-        "devices": [{"order": 1, "name": name, "ip": "10.0.0.1", "driver": "huawei_vrp", "commands": [
+        "devices": [{"order": 1, "name": name, "ip": "10.0.0.1", "driver": "huawei_vrp", "table_index": 0, "commands": [
             {"command": "display version", "timeout_seconds": 30, "result_cell": {"table": 0, "row": 4, "column": 2}},
             {"command": "display device", "timeout_seconds": 60, "result_cell": {"table": 0, "row": 5, "column": 2}},
         ]}], "non_command_rules": [],
@@ -200,3 +201,58 @@ def test_dynamic_report_uses_result_cells_and_skips_unmapped_tables(tmp_path: Pa
     assert "2175 days" in report.tables[1].cell(3, 3).text, audit
     assert "3000 days" in report.tables[2].cell(3, 3).text
     assert not any("匹配失败" in line for line in audit)
+
+
+def test_locked_version_preserves_real_template_name_and_rejects_missing_file(tmp_path: Path):
+    from backend.jobs import build_locked_system_config
+
+    template = tmp_path / "TOC_Template.docx"
+    doc = Document(); table = doc.add_table(rows=6, cols=3)
+    table.cell(4, 1).text = "display version"
+    table.cell(5, 1).text = "display device"
+    doc.save(template)
+    locked = {
+        "system_key": "TOC",
+        "display_name": "TOC系统网络设备",
+        "template_path": str(template),
+        "config": _snapshot("TOC-Router-01"),
+        "recipients": [],
+    }
+
+    system = build_locked_system_config(locked)["TOC"]
+
+    assert system["template"] == "TOC_Template.docx"
+    template.unlink()
+    with pytest.raises(FileNotFoundError, match="TOC_Template.docx"):
+        build_locked_system_config(locked)
+
+
+def test_template_validation_rejects_out_of_range_and_wrong_command_row(tmp_path: Path):
+    from core.inspection_docx import validate_snapshot_against_template
+
+    template = tmp_path / "template.docx"
+    doc = Document(); table = doc.add_table(rows=6, cols=3)
+    table.cell(4, 1).text = "display version"
+    table.cell(5, 1).text = "display device"
+    doc.save(template)
+    snapshot = _snapshot("Router1")
+
+    validate_snapshot_against_template(snapshot, template)
+    snapshot["devices"][0]["commands"][0]["result_cell"]["row"] = 5
+    with pytest.raises(HTTPException, match="与模板第 6 行不一致"):
+        validate_snapshot_against_template(snapshot, template)
+    snapshot["devices"][0]["commands"][0]["result_cell"]["row"] = 99
+    with pytest.raises(HTTPException, match="超出模板范围"):
+        validate_snapshot_against_template(snapshot, template)
+
+
+def test_locked_version_cannot_succeed_without_a_docx():
+    from backend.jobs import require_locked_report
+
+    result = SimpleNamespace(
+        generated_files=[],
+        audit_lines=["", "=== TOC系统网络设备 ===", "× TOC: 找不到模板 TOC_Template.docx"],
+    )
+
+    with pytest.raises(RuntimeError, match="未生成报告.*找不到模板"):
+        require_locked_report(result, {"display_name": "TOC系统网络设备"})

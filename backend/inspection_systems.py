@@ -13,7 +13,7 @@ from fastapi import HTTPException
 from backend.config import config, now_local
 from backend.db import db_connect
 from core.report_service import load_config
-from core.inspection_docx import merge_incremental_template, parse_template, shift_table_mappings, validate_snapshot
+from core.inspection_docx import merge_incremental_template, parse_template, shift_table_mappings, validate_snapshot, validate_snapshot_against_template
 from backend.email_service import is_valid_email
 from backend.config import MAX_EMAIL_RECIPIENTS
 from core.vbs_generator import generate_vbs
@@ -76,7 +76,7 @@ def _legacy_snapshot(key: str, info: dict[str, Any]) -> dict[str, Any]:
         {"order": int(order), "name": name, "ip": "", "driver": "huawei_vrp", "commands": [
             {"command": command, "timeout_seconds": 120, "result_cell": {"table": int(order)-1, "row": 4+index, "column": 2}}
             for index, command in enumerate(command_names)
-        ]}
+        ], "table_index": int(order) - 1}
         for order, name in info.get("hosts", {}).items()
     ]
     return {"system_key": key, "display_name": info.get("display_name", key), "template": info.get("template", ""), "driver": "huawei_vrp", "devices": devices, "non_command_rules": []}
@@ -142,6 +142,7 @@ def create_draft(source: Path, *, system_key: str, display_name: str, mode: str,
                 base["non_command_rules"] = [*base.get("non_command_rules", []), *parsed.get("non_command_rules", [])]
                 parsed = validate_snapshot(base)
         parsed = validate_snapshot(parsed)
+        validate_snapshot_against_template(parsed, template)
         conn.execute("""INSERT INTO inspection_system_versions
             (system_id, version, status, source_mode, config_json, recipients_json, template_path, template_sha256, created_by, created_at, updated_at)
             VALUES (?, ?, 'draft', ?, ?, '[]', ?, ?, ?, ?, ?)""", (system_id, version, mode, json.dumps(parsed, ensure_ascii=False), str(template), sha256_file(template), user_id, now, now))
@@ -166,7 +167,7 @@ def update_draft(version_id: int, snapshot: dict[str, Any], recipients: list[str
 def build_version(version_id: int) -> dict[str, Any]:
     row = get_version(version_id)
     if not row or row["status"] not in {"draft", "built"}: raise HTTPException(409, "只有草稿可以构建")
-    snapshot = validate_snapshot(json.loads(row["config_json"])); script, digest = generate_vbs(row["system_key"], row["version"], snapshot)
+    snapshot = validate_snapshot(json.loads(row["config_json"])); validate_snapshot_against_template(snapshot, Path(row["template_path"])); script, digest = generate_vbs(row["system_key"], row["version"], snapshot)
     vbs_path = Path(row["template_path"]).parent / "inspection.vbs"; vbs_path.write_text(script, encoding="utf-8-sig", newline="")
     conn = db_connect()
     with conn: conn.execute("UPDATE inspection_system_versions SET status='built', config_json=?, vbs_path=?, vbs_sha256=?, validation_json=NULL, updated_at=? WHERE id=?", (json.dumps(snapshot, ensure_ascii=False), str(vbs_path), digest, now_local().isoformat(), version_id))

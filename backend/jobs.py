@@ -13,9 +13,41 @@ from backend.db import cleanup_expired_data, db_connect
 from backend.reports import sync_job_report_files
 from backend.storage import create_bundle
 from backend.uploads import detect_log_root
+from core.inspection_docx import validate_snapshot_against_template
 from core.report_service import ReportPaths, generate_reports
 
 job_executor = ThreadPoolExecutor(max_workers=config.max_job_workers)
+
+
+def build_locked_system_config(locked: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    """把锁定版本转换为报告引擎配置，并保留真实模板文件名。"""
+    template_path = Path(locked["template_path"])
+    if template_path.suffix.lower() != ".docx" or not template_path.is_file():
+        raise FileNotFoundError(
+            f"{locked['display_name']}模板文件不存在或不是 DOCX：{template_path.name}"
+        )
+    snapshot = locked["config"]
+    validate_snapshot_against_template(snapshot, template_path)
+    return {
+        locked["system_key"]: {
+            "display_name": locked["display_name"],
+            "template": template_path.name,
+            "recipients": locked.get("recipients", []),
+            "hosts": {str(item["order"]): item["name"] for item in snapshot["devices"]},
+            "devices": snapshot["devices"],
+            "is_english_name": bool(snapshot.get("is_english_name", False)),
+            "non_command_rules": snapshot.get("non_command_rules", []),
+        }
+    }
+
+
+def require_locked_report(result, locked: dict[str, Any]) -> None:
+    """动态版本每个系统必须且只能生成一份 DOCX。"""
+    if len(result.generated_files) == 1:
+        return
+    failures = [line.strip() for line in result.audit_lines if line.strip().startswith("×")]
+    detail = "；".join(failures[-3:]) if failures else "报告引擎未返回 DOCX"
+    raise RuntimeError(f"{locked['display_name']}未生成报告：{detail}")
 
 
 def update_job(job_id: str, **fields: Any) -> None:
@@ -78,18 +110,7 @@ def process_job(job_id: str, user_id: int) -> None:
             generated_files: list[str] = []
             audit_lines: list[str] = []
             for completed, locked in enumerate(locked_versions, 1):
-                snapshot = locked["config"]
-                version_config = {
-                    locked["system_key"]: {
-                        "display_name": locked["display_name"],
-                        "template": "template.docx",
-                        "recipients": locked.get("recipients", []),
-                        "hosts": {str(item["order"]): item["name"] for item in snapshot["devices"]},
-                        "devices": snapshot["devices"],
-                        "is_english_name": bool(snapshot.get("is_english_name", False)),
-                        "non_command_rules": snapshot.get("non_command_rules", []),
-                    }
-                }
+                version_config = build_locked_system_config(locked)
                 config_path = input_path / f"version-{locked['version_id']}.json"
                 config_path.write_text(json.dumps(version_config, ensure_ascii=False), encoding="utf-8")
                 result = generate_reports(
@@ -108,8 +129,11 @@ def process_job(job_id: str, user_id: int) -> None:
                 )
                 generated_files.extend(result.generated_files)
                 audit_lines.extend(result.audit_lines)
+                (output_dir / "audit_matching_result.txt").write_text(
+                    "\n".join(audit_lines), encoding="utf-8"
+                )
+                require_locked_report(result, locked)
                 report_progress(completed, len(locked_versions), locked["system_key"], version_config[locked["system_key"]])
-            (output_dir / "audit_matching_result.txt").write_text("\n".join(audit_lines), encoding="utf-8")
             summary_log_root = str(log_root)
         else:
             summary = generate_reports(
@@ -129,6 +153,8 @@ def process_job(job_id: str, user_id: int) -> None:
             )
             generated_files = summary.generated_files
             summary_log_root = summary.log_root
+        if not generated_files:
+            raise RuntimeError("未生成任何 DOCX，请检查模板文件和日志匹配审计")
         update_job(job_id, progress=95, status_detail="正在打包结果文件")
         bundle_path = output_dir / f"{job_id}.zip"
         create_bundle(output_dir, bundle_path)
@@ -161,15 +187,18 @@ def process_job(job_id: str, user_id: int) -> None:
             conn.close()
         record_audit(user_id, "job_completed", f"任务 {job_id} 完成，生成 {len(generated_files)} 个文件")
     except Exception as exc:
+        message = str(exc).strip() or exc.__class__.__name__
         update_job(
             job_id,
             status="failed",
             progress=100,
-            status_detail="任务执行失败",
+            status_detail=f"任务执行失败：{message}",
             finished_at=now_local().isoformat(),
-            error_message=str(exc),
+            error_message=message,
+            bundle_path=None,
+            generated_files="[]",
         )
-        record_audit(user_id, "job_failed", f"任务 {job_id} 失败: {exc}")
+        record_audit(user_id, "job_failed", f"任务 {job_id} 失败: {message}")
 
 
 def enqueue_job(job_id: str, user_id: int) -> None:

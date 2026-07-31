@@ -23,6 +23,7 @@ from backend.pagination import normalize as normalize_page
 from backend.paths import resolve_within
 from backend.queries import ensure_job_access, generate_job_id, get_job, list_jobs_page
 from backend.serializers import serialize_job
+from core.inspection_docx import validate_snapshot_against_template
 from core.report_service import load_config
 
 router = APIRouter(prefix=API_PREFIX)
@@ -156,6 +157,26 @@ async def _create_versioned_job(request: Request, user, payload: dict, batch_ids
         conn.close(); raise HTTPException(status_code=403, detail="无权使用其他用户的日志批次")
     if any(row["status"] != "validated" for row in rows):
         conn.close(); raise HTTPException(status_code=409, detail="全部日志批次通过严格校验后才能生成报告")
+    invalid_templates = [
+        f"{row['display_name']}（{Path(row['template_path']).name}）"
+        for row in rows
+        if Path(row["template_path"]).suffix.lower() != ".docx"
+        or not Path(row["template_path"]).is_file()
+    ]
+    if invalid_templates:
+        conn.close()
+        raise HTTPException(
+            status_code=409,
+            detail=f"系统版本模板不存在或不是 DOCX：{'、'.join(invalid_templates)}，请管理员重新构建版本",
+        )
+    try:
+        for row in rows:
+            validate_snapshot_against_template(
+                json.loads(row["config_json"]), Path(row["template_path"])
+            )
+    except HTTPException:
+        conn.close()
+        raise
     keys = [row["system_key"] for row in rows]
     if len(set(keys)) != len(keys):
         conn.close(); raise HTTPException(status_code=409, detail="同一任务不能包含同一系统的多个版本")

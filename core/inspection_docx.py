@@ -174,6 +174,73 @@ def validate_snapshot(snapshot: dict[str, Any]) -> dict[str, Any]:
         if rule["mode"] == "derived" and not str(rule.get("source_command", "")).strip(): raise HTTPException(400, "命令推导规则缺少来源命令")
     return snapshot
 
+
+def validate_snapshot_against_template(snapshot: dict[str, Any], template_path: Path) -> dict[str, Any]:
+    """校验设备、命令和回填坐标确实对应当前 DOCX。"""
+    if template_path.suffix.lower() != ".docx" or not template_path.is_file():
+        raise HTTPException(409, f"模板文件不存在或不是 DOCX: {template_path.name}")
+    doc = Document(template_path)
+    occupied: set[tuple[int, int, int]] = set()
+
+    def command_key(value: str) -> str:
+        normalized = "".join(character for character in value.casefold() if character.isalnum())
+        for prefix in ("display", "dis", "show"):
+            if normalized.startswith(prefix):
+                return normalized[len(prefix):]
+        return normalized
+
+    for device in snapshot.get("devices", []):
+        name = str(device.get("name", "")).strip() or "未命名设备"
+        table_index = device.get("table_index")
+        if not isinstance(table_index, int) or not 0 <= table_index < len(doc.tables):
+            raise HTTPException(409, f"设备 {name} 的表格索引无效: {table_index}")
+        table = doc.tables[table_index]
+        for item in device.get("commands", []):
+            command = str(item.get("command", "")).strip()
+            mapping = item.get("result_cell", {})
+            row_index, column_index = mapping.get("row"), mapping.get("column")
+            if mapping.get("table") != table_index:
+                raise HTTPException(409, f"设备 {name} 的命令 {command} 绑定到了其他表格")
+            if (
+                not isinstance(row_index, int)
+                or not isinstance(column_index, int)
+                or not 0 <= row_index < len(table.rows)
+                or not 0 <= column_index < len(table.rows[row_index].cells)
+            ):
+                raise HTTPException(409, f"设备 {name} 的命令 {command} 回填坐标超出模板范围")
+            location = (table_index, row_index, column_index)
+            if location in occupied:
+                raise HTTPException(409, f"设备 {name} 的命令 {command} 与其他项目使用了同一回填单元格")
+            occupied.add(location)
+            expected = command_key(command)
+            row_commands = {
+                command_key(cell.text.strip())
+                for index, cell in enumerate(table.rows[row_index].cells)
+                if index != column_index and cell.text.strip().casefold().startswith(READ_ONLY_PREFIXES)
+            }
+            if expected not in row_commands:
+                raise HTTPException(409, f"设备 {name} 的命令 {command} 与模板第 {row_index + 1} 行不一致")
+
+    for rule in snapshot.get("non_command_rules", []):
+        mapping = rule.get("result_cell", {})
+        table_index, row_index, column_index = (
+            mapping.get("table"), mapping.get("row"), mapping.get("column")
+        )
+        if (
+            not isinstance(table_index, int)
+            or not isinstance(row_index, int)
+            or not isinstance(column_index, int)
+            or not 0 <= table_index < len(doc.tables)
+            or not 0 <= row_index < len(doc.tables[table_index].rows)
+            or not 0 <= column_index < len(doc.tables[table_index].rows[row_index].cells)
+        ):
+            raise HTTPException(409, f"非命令项 {rule.get('label', '')} 回填坐标超出模板范围")
+        location = (table_index, row_index, column_index)
+        if location in occupied:
+            raise HTTPException(409, f"非命令项 {rule.get('label', '')} 与其他项目使用了同一回填单元格")
+        occupied.add(location)
+    return snapshot
+
 def merge_incremental_template(base_path: Path, added_path: Path, output_path: Path) -> int:
     """把增量文档中的设备表格追加到旧模板，保留原表格 OOXML 与样式。"""
     base = Document(base_path); added = Document(added_path)

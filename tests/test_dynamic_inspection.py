@@ -76,11 +76,19 @@ def test_vbs_escapes_dynamic_values_and_has_stable_canonical_digest():
     assert digest in script
     assert canonical_digest(script) == digest
     assert DIGEST_PLACEHOLDER not in script
-    assert 'SYSTEM_KEY & Chr(92) & DateFolder(Date)' in script
+    assert 'logsPath = fso.BuildPath(basePath, "logs")' in script
+    assert 'datePath = fso.BuildPath(logsPath, DateFolder(Date))' in script
+    assert 'BuildLogRoot = fso.BuildPath(datePath, SYSTEM_KEY)' in script
+    assert 'SendCommandAndWait screenObj, prompt, "screen-length 0 temporary", 10, 1' in script
+    assert "WaitForLoginPrompt(screenObj, 10)" in script
+    assert "WaitForPromptOrHandleMore" in script
+    assert "HasVisiblePasswordDecisionPrompt" in script
+    assert "tabObj.Session.Log True" in script
+    assert "tabObj.Session.Log True, True" not in script
+    assert 'SYSTEM_KEY & "_summary_" & runStamp & ".log"' in script
     assert '"device_not_connected"' in script
     assert '"logging_failed"' in script
     assert "DeviceAlias(name)" in script
-    assert "screen.CurrentRow - 5" in script
 
 
 def _write_valid_batch(root: Path, *, digest: str, status: str = "success", include_second: bool = True):

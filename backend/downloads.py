@@ -39,5 +39,8 @@ def build_download_response(request: Request, path: Path, download_name: str) ->
     response.headers["Content-Disposition"] = f"attachment; filename*=UTF-8''{quote(download_name)}"
     media_type = mimetypes.guess_type(download_name)[0] or "application/octet-stream"
     response.headers["Content-Type"] = media_type
-    response.headers["Content-Length"] = str(path.stat().st_size)
+    # 上游响应没有正文，文件由 X-Accel-Redirect 触发的 Nginx internal location
+    # 发送。不能把文件大小声明成上游正文长度，否则 Uvicorn 会因实际发送 0
+    # 字节而抛出 "Response content shorter than Content-Length"。
+    del response.headers["Content-Length"]
     return response

@@ -400,3 +400,29 @@ def test_report_path_resolution_accepts_whitelisted_name(app_module):
         "generated_files": _json.dumps([name]),
     }
     assert resolve_job_report_path(job, name).name == name
+
+
+def test_nginx_download_response_leaves_content_length_to_nginx(app_module, tmp_path, monkeypatch):
+    from starlette.requests import Request
+
+    from backend.config import config
+    from backend.downloads import build_download_response
+
+    report_dir = tmp_path / "reports"
+    report_dir.mkdir()
+    report = report_dir / "巡检报告.docx"
+    report.write_bytes(b"report-content")
+    monkeypatch.setattr(config, "report_dir", report_dir)
+    request = Request(
+        {
+            "type": "http",
+            "method": "GET",
+            "path": "/api/jobs/job-1/download",
+            "headers": [(b"x-forwarded-for", b"203.0.113.1")],
+        }
+    )
+
+    response = build_download_response(request, report, report.name)
+
+    assert response.headers["x-accel-redirect"].endswith("/%E5%B7%A1%E6%A3%80%E6%8A%A5%E5%91%8A.docx")
+    assert "content-length" not in response.headers
